@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/mingo/__init__.py
+src/mingo/__main__.py
+src/mingo/main.py
+src/mingo.egg-info/PKG-INFO
+src/mingo.egg-info/SOURCES.txt
+src/mingo.egg-info/dependency_links.txt
+src/mingo.egg-info/requires.txt
+src/mingo.egg-info/top_level.txt

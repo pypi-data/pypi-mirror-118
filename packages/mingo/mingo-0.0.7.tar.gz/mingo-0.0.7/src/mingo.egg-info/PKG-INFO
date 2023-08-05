@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: mingo
+Version: 0.0.7
+Summary: A Python project to get a list of programming languages from Wikipedia
+Home-page: https://github.com/NicholasSynovic/mingo
+Author: Nicholas M. Synovic
+Author-email: nicholas.synovic@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/NicholasSynovic/mingo/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Mingo
+>  A Python project to get a list of programming languages from [Wikipedia](https://en.wikipedia.org/wiki/List_of_programming_languages)
+
+[![Release List](https://github.com/NicholasSynovic/mingo/actions/workflows/main.yml/badge.svg)](https://github.com/NicholasSynovic/mingo/actions/workflows/main.yml)
+[![Publish to PyPi](https://github.com/NicholasSynovic/mingo/actions/workflows/pypi.yml/badge.svg)](https://github.com/NicholasSynovic/mingo/actions/workflows/pypi.yml)
+
+## About
+
+This is simply a list creator, nothing crazy.
+
+This list is generated once a month and can viewed in JSON format [here](https://github.com/NicholasSynovic/programming-languages/releases).
+
+## How to Execute
+
+1. `pip install mingo`
+2. `python3 -m mingo [-d] [-o] [-v]`
+
+
