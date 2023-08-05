@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+iScanVCFMerge/__init__.py
+iScanVCFMerge/iScanVCFMerge.py
+iScanVCFMerge.egg-info/PKG-INFO
+iScanVCFMerge.egg-info/SOURCES.txt
+iScanVCFMerge.egg-info/dependency_links.txt
+iScanVCFMerge.egg-info/entry_points.txt
+iScanVCFMerge.egg-info/requires.txt
+iScanVCFMerge.egg-info/top_level.txt
