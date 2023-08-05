@@ -1,0 +1,3 @@
+[console_scripts]
+devdeck = devdeck.main:main
+
