@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: ytvid
+Version: 0.1.0
+Summary: Youtube video downloader
+Home-page: UNKNOWN
+Author: Darren Lau Wei Jie
+Author-email: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: youtube-dl
+
+UNKNOWN
+
+
