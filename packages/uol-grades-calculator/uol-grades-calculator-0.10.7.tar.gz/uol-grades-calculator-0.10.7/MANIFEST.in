@@ -1,0 +1,2 @@
+include ugc/*.yml
+include ugc/*.json
