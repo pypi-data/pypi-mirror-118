@@ -1,0 +1,7 @@
+requests
+bs4
+google
+ytmusicapi
+music-tag
+spotipy
+toml
