@@ -1,0 +1,3 @@
+[console_scripts]
+envoy.release = envoy.distribution.release:cmd
+

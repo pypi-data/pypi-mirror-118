@@ -1,0 +1,12 @@
+envoy/distribution/release/__init__.py,sha256=KL2C7-br-pEJkpRvzjzmCSnF6YAlzPQU2okvvTFiZuc,463
+envoy/distribution/release/cmd.py,sha256=zZXM9WIXl0YAScLq7jssU5cXsX_NApUqPdwY3ipIlf4,1048
+envoy/distribution/release/command.py,sha256=FjBeWQZ5L3oE8QW78rnBb7Ux_F0eJSUCjjAO958CW_A,5510
+envoy/distribution/release/exceptions.py,sha256=z0Ip5c-Sgj_F-43jgGdarlInpRHwi14k3b5vtL4naq0,56
+envoy/distribution/release/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+envoy/distribution/release/runner.py,sha256=puA7gQcKwV62-eLHc6C8ZGHfmoFTjnGb7J34HxX9sTU,4851
+tests/test_runner.py,sha256=19G-tpndL1p0T7ZVUYKCv2aKZ_bQ91Nypv3HRsMgCgk,2634
+envoy.distribution.release-0.0.1.dist-info/METADATA,sha256=KpEdSzM3LXv5cUjXQzI2dB4IvV6JC23WFZ1wlyqkgJw,1663
+envoy.distribution.release-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+envoy.distribution.release-0.0.1.dist-info/entry_points.txt,sha256=mNClvZGeG-4w9uKoJM-qgwhTuDGtw3Pcqag426dnDs0,66
+envoy.distribution.release-0.0.1.dist-info/top_level.txt,sha256=42VlDpOTLTbLBqHGkve70aKsXydFXDYZ1t1ycKQlkoI,12
+envoy.distribution.release-0.0.1.dist-info/RECORD,,
