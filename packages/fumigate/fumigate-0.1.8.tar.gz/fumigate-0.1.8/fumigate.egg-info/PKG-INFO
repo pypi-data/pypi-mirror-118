@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: fumigate
+Version: 0.1.8
+Summary: Fumigate text
+Home-page: https://fumigate.readthedocs.io/
+Author: Gagandeep Prasad
+Author-email: gagandeepprasad09@gmail.com
+License: MIT
+Description: Fumigate
+        
+        A small demo library to help in NLP's most tedious task, text cleaning.
+        
+        Installation
+        pip install fumigate
+        
+        #Get started
+        
+        How to fumigate(clean) your text data
+        
+            1.  from fumigate import Fumes
+        
+            2. Instantiate a Fumes object
+                fumes = Fumes()
+        
+            3. Call the purge method to clean everything.
+                result = fumes.purge(<text>)
+               
+            4. Call the clean method to clean specific things from the methods available.
+        
+                ## methods is a list containing one or multiple methods available for fumigation.
+                result = fumes.clean(<text>, methods=["url" | "sym" | "num" | "emo"], extract=False)
+                
+                # if extract=True returns tuple with removed characters/strings
+                result, garbage = fumes.clean(<text>, methods=["url" | "sym" | "num" | "emo"], extract=True)
+        
+            5. Call the stem method for stemming.
+                result = fumes.stem(<text>)
+        
+            6. Call the lemm method for lemmatizing.
+                result = fumes.lemm(<text>)
+        
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
