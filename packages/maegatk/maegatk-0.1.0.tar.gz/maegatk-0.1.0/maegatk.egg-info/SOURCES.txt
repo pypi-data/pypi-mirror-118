@@ -1,0 +1,17 @@
+Authors.rst
+LICENSE.txt
+MANIFEST.in
+NEWS
+README.md
+setup.cfg
+setup.py
+maegatk/__init__.py
+maegatk/cli.py
+maegatk/maegatkHelp.py
+maegatk.egg-info/PKG-INFO
+maegatk.egg-info/SOURCES.txt
+maegatk.egg-info/dependency_links.txt
+maegatk.egg-info/entry_points.txt
+maegatk.egg-info/not-zip-safe
+maegatk.egg-info/requires.txt
+maegatk.egg-info/top_level.txt

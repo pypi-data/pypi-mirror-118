@@ -1,0 +1,8 @@
+click
+pysam
+pytest
+snakemake
+biopython
+optparse-pretty
+regex
+ruamel.yaml
