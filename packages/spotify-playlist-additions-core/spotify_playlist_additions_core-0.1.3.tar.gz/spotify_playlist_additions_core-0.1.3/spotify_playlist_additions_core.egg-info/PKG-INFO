@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: spotify-playlist-additions-core
+Version: 0.1.3
+Summary: Core runner for Spotify Playlist Additions. Where all the magic happens
+Home-page: https://github.com/prchristie/spotify-playlist-additions-core
+Author: Patrick Roy Christie
+Author-email: patrick.christie.dev@gmail.com
+License: MIT license
+Keywords: spotify_playlist_additions_core
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+License-File: LICENSE
+License-File: AUTHORS.md
+
+# Spotify Playlist Additions Core
+
+
+[![pypi](https://img.shields.io/pypi/v/spotify_playlist_additions_core.svg)](https://pypi.python.org/pypi/spotify_playlist_additions_core/)
+
+
+![workflow](https://github.com/prchristie/Spotify-Playlist-Additions-Core/actions/workflows/tox.yml/badge.svg)
+
+
+[![Updates](https://pyup.io/repos/github/prchristie/Spotify-Playlist-Additions-Core/shield.svg)](https://pyup.io/repos/github/prchristie/Spotify-Playlist-Additions-Core/)
+
+
+
+
+Core runner for Spotify Playlist Additions. Where all the magic happens
+
+
+* Free software: MIT license
+* Documentation: https://spotify-playlist-additions-core.readthedocs.io.
+
+
+Features
+--------
+
+* TODO
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+
+
+# History
+
+# 0.1.0 (2021-08-07)
+
+* First release on PyPI.
+
+
