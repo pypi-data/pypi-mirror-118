@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: bilibili-data
+Version: 0.0.6
+Summary: 哔哩哔哩数据聚合获取
+Home-page: https://github.com/duanfuqiang1128/bilibili-data
+Author: tyler
+Author-email: tyler_d1128@outlook.com
+License: GPLv3+
+Project-URL: Bug Tracker, https://github.com/duanfuqiang1128/bilibili-data/issues
+Keywords: bilibili,api,spider,data
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: bilibili-api
+
+# bilibili-data
+
+获取bilibili数据
+
