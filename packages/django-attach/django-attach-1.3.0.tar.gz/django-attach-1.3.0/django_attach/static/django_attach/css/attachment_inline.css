@@ -1,0 +1,128 @@
+.attachment-inline .attachment {
+    display: flex;
+    align-items: center;
+    padding: 0 8px;
+}
+
+.attachment-inline .attachment a {
+    flex-grow: 1;
+    text-overflow: ellipsis;
+    padding: 8px 0;
+}
+
+.attachment-inline .attachment:nth-child(2n) {
+    background: var(--darkened-bg);
+}
+
+.attachment-inline .attachment input[type="text"] {
+    display: none;
+}
+
+.attachment-inline .attachment.rename input[type="text"] {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin: 0;
+    margin-left: -8px;
+    font-size: inherit;
+    border-radius: 0;
+}
+
+.attachment-inline .attachment.new {
+    background: var(--message-success-bg);
+}
+
+.attachment-inline .attachment.remove {
+    background: var(--message-error-bg);
+}
+
+.attachment-inline .attachment.remove a {
+    text-decoration: line-through;
+}
+
+.attachment-inline .attachment.rename a {
+    display: none;
+}
+
+.attachment-inline .attachment .attachment-button {
+    margin-left: 8px;
+    padding-left: 16px;
+    background-size: 16px;
+    color: var(--link-fg);
+    cursor: pointer;
+}
+
+.attachment-inline .attachment .attachment-button:hover {
+    color: var(--link-hover-color);
+}
+
+.attachment-inline .attachment .attachment-button.delete {
+    background: url(../../admin/img/icon-deletelink.svg) no-repeat left center;
+}
+
+.attachment-inline .attachment.remove .attachment-button.delete {
+    display: none;
+}
+
+.attachment-inline .attachment .attachment-button.revert {
+    background: url(../img/icon-revert.svg) no-repeat left center;
+    display: none;
+}
+
+.attachment-inline .attachment.remove .attachment-button.revert {
+    display: inline-block;
+}
+
+.attachment-inline .attachment .attachment-button.rename {
+    background: url(../../admin/img/icon-changelink.svg) no-repeat left center;
+}
+
+.attachment-inline .attachment.rename .attachment-button.rename {
+    display: none;
+}
+
+.attachment-inline .attachment .attachment-button.confirm-rename {
+    background: url(../../admin/img/icon-yes.svg) no-repeat left center;
+    display: none;
+}
+
+.attachment-inline .attachment.rename .attachment-button.confirm-rename {
+    display: inline-block;
+}
+
+.attachment-inline .attachment .attachment-button.cancel-rename {
+    background: url(../../admin/img/icon-no.svg) no-repeat left center;
+    display: none;
+}
+
+.attachment-inline .attachment.rename .attachment-button.cancel-rename {
+    display: inline-block;
+}
+
+.attachment-inline .attach {
+    margin: 1em;
+}
+
+.attachment-inline .error {
+    color: var(--error-fg);
+    font-weight: bold;
+    background: var(--message-error-bg);
+    padding: 8px;
+}
+
+.attachment-inline .error a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+.attachment-inline .note {
+    color: #0169c9;
+    font-weight: bold;
+    background: #d3eaff;
+    padding: 8px;
+}
+
+.attachment-inline .note a {
+    color: inherit;
+    text-decoration: underline;
+}
