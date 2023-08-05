@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: gitam
+Version: 0.1
+Summary: Useful tools to extract data from GITAM University websites.
+Home-page: https://github.com/rohitganji/gitam
+Author: Rohit Ganji
+Author-email: grohit.2001@gmail.com
+License: MIT
+Download-URL: https://pypi.org/project/gitam/
+Keywords: GITAM,GITAM University,Gandhi Institute of Technology and Management
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: bs4
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+
+Developed by Rohit Ganji.
+Version 0.2 coming soon!
+
