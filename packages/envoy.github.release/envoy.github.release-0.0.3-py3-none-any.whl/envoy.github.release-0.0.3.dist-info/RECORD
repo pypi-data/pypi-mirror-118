@@ -1,0 +1,12 @@
+envoy/github/release/assets.py,sha256=vckf6lHBnZWL2qNj2flc3mOvIatmr18jd1O6GlsaRwk,4429
+envoy/github/release/exceptions.py,sha256=GvkoRF3XmsN6Cs1Tn7RgsTdXzDWUCHoqEOMVPmRJCxM,47
+envoy/github/release/manager.py,sha256=-gBBGyOYhfsRnqkumY0LADeYWWj8ofkXYMBaiSdFOME,4575
+envoy/github/release/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+envoy/github/release/release.py,sha256=FNugAzf_WZFzKBdSQ_NPQN8a9jUDlU5PdYFdUcphzjo,7240
+tests/test_assets.py,sha256=a2Yv89Wh2ndT-pBodCG5nSQQnFDsIdeMYtHCENu0Kp8,14980
+tests/test_manager.py,sha256=ynqKJykh0tacEiJ7Gw7mLSs4b1RuDvwrvOyzoTaok7E,12341
+tests/test_release.py,sha256=cXlgHilJBYhXxoS0JqVR1VVLm9VVgRUbLZxwbhDk2sc,19529
+envoy.github.release-0.0.3.dist-info/METADATA,sha256=M-G8WVA1PN7ncAekbF-obgAlmiUxzCN6YZ2_7MvZYj0,1851
+envoy.github.release-0.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+envoy.github.release-0.0.3.dist-info/top_level.txt,sha256=42VlDpOTLTbLBqHGkve70aKsXydFXDYZ1t1ycKQlkoI,12
+envoy.github.release-0.0.3.dist-info/RECORD,,
