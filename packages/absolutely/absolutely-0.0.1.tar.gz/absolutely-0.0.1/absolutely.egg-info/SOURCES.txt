@@ -1,0 +1,8 @@
+README.md
+setup.py
+absolutely/__init__.py
+absolutely.egg-info/PKG-INFO
+absolutely.egg-info/SOURCES.txt
+absolutely.egg-info/dependency_links.txt
+absolutely.egg-info/requires.txt
+absolutely.egg-info/top_level.txt
