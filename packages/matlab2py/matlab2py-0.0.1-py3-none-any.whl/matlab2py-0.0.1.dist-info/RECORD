@@ -1,0 +1,15 @@
+matlab2py/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+matlab2py/constants.py,sha256=Rf-M0snBhki_FU5W-wWgFEjRIN3G4zVtmwvd6B1LnZg,630
+matlab2py/conversions.py,sha256=H-eXrJ5eUZYZa5dOZjJV0XE278Zersa0NEhyde8iIbA,62
+matlab2py/debug.py,sha256=GLetkBOECCfcUU3XB1ea2BvYSYnZWwjXpAvNUZeZsps,961
+matlab2py/entry_point.py,sha256=pjgs5Ej7oURRdePh1ilkVYVZVPF-ep-iKg5zuK5SB48,808
+matlab2py/figure_process.py,sha256=qrKJ1ArACqrD7KyYB8-O15KfH0UcJurnKrTHWTxMma8,1418
+matlab2py/handles.py,sha256=J5KR-8TKFa5JnWVFz7Jfh3zvqkjXmoaDFpuy4KRhUb8,11909
+matlab2py/helpers.py,sha256=b9w0yaOiQd3j7ssok5PaVAz8A7T6feEZC2fIl9cwuFQ,1156
+matlab2py/matlab.py,sha256=V7jt73--wF_5l4aRq46F2Kcln4NJ-Q2Oek3E9BbqAJI,2081
+matlab2py/singleton.py,sha256=luO9GUhHjoVE1kUrzCdtqg5mUvKJdPB7AuNSTuTVoD8,1027
+matlab2py-0.0.1.dist-info/LICENSE,sha256=JYFXUZEXN-Vk78xeXf4iJfGvqL3P2u4mpgY5K52sZBI,1091
+matlab2py-0.0.1.dist-info/METADATA,sha256=JoW_9atThbUBQb_rLP60StQlb5v7sd34S0RaEA6GpLI,640
+matlab2py-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+matlab2py-0.0.1.dist-info/top_level.txt,sha256=Y_kefZbyKP2sKIIyQssEcaclNFUV2-JBhcyU5kEkcC0,10
+matlab2py-0.0.1.dist-info/RECORD,,

@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: matlab2py
+Version: 0.0.1
+Summary: MATLAB-style figures for Python.
+Home-page: https://github.com/GEbb4/matlab2py
+Author: George Ebberson
+Author-email: george.ebberson@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/GEbb4/matlab2py/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# matlab2py
+
+Attempts to add MATLAB-style (and compatible) figures to Python, based on
+matplotlib.
+
