@@ -1,0 +1,213 @@
+Licence Agreement
+This Software Licence Agreement is made between you and DataQA.AI (‘Licensor’). Email: contact@dataqa.ai.
+
+PLEASE READ THIS SOFTWARE LICENSE AGREEMENT (“LICENSE”) CAREFULLY BEFORE USING DataQA. IF YOU DO NOT AGREE TO THE TERMS OF THIS LICENSE, DO NOT INSTALL AND/OR USE THE LICENSED SOFTWARE AND, IF PRESENTED WITH THE OPTION TO “AGREE” OR “DISAGREE” TO THE TERMS, CLICK “DISAGREE” AND IMMEDIATELY CONTACT THE LISENSOR FOR A REFUND OF ANY AMOUNTS PAID FOR THIS LICENCE.
+
+By clicking on the “I accept the terms and conditions of this Software Licence Agreement” button you are indicating your acceptance of this Software Licence Agreement and agree to be legally bound by it.
+
+1. Definitions and interpretation
+
+1.1. Commencement Date means the date on which you download the Licensed Software.
+
+1.2. Content means a creative expression and includes, without limitation, video, audio, photographs, images, illustrations, animations, logos, tools, written posts, replies, and comments, information, data, text, software, scripts, executable files, graphics, and interactive features, any of which may be generated, provided, or otherwise made accessible on or through the Service.
+
+1.3. Documentation means any and all proprietary documentation made available to you by the Licensor for use with the Licensed Software, including any documentation available online.
+
+1.4. Fees means the pre-agreed fee for access to the Licenced Software, more specifically described on the Licensors’ website, during the licence purchase process, and/or by agreement in writing with the Licensor.
+
+1.5. Intellectual Property Rights means all intellectual property rights, including all copyright, patents, trade marks, design rights, trade secrets, domain names, know how and other rights of a similar nature, whether registrable or not and whether registered or not, and any applications for registration or rights to make such an application.
+
+1.6. Licence Key means a unique computer generated series of alphanumeric characters, used to validate the Licensed Software and provided by the Licensor to you.
+
+1.7. Licensed Software means the DataQA software owned by the Licensor and downloaded by you or delivered to you by the Licensor pursuant to this Agreement.
+
+1.8. Moral Rights has the meaning given under the Copyright Act 1968 (Cth) and includes any similar rights existing in other countries.
+
+1.9. Nominated Organisation means a business, incorporated entity, or other commercial or not-for profit organisation which is nominated by you and more specifically described by you during the Licensed Software purchase process.
+
+1.10. Services means any services provided by the licensor to which the Licensed Software provides access, or access to which you have been provided access arising incidentally or directly out of this Agreement.
+
+1.11. Update means
+
+(a) software which has been produced primarily to overcome a defect in the Licensed Software; or
+
+(b) software which has been provided primarily to implement an extension,
+
+(c) alteration, improvement or additional functionality to the Licensed Software.
+
+1.12. Unless the context requires otherwise:
+
+(a) a reference to a person includes a corporation or any other legal entity;
+
+(b) the singular includes the plural and vice versa;
+
+(c) headings are for convenience and do not form part of this Agreement or otherwise affect the interpretation of this Agreement;
+
+(d) the term “includes” (or any similar term) means “includes without limitation”; and
+
+(e) a reference to any statute includes references to any subsequently amended, consolidated or re-enacted version of that statute and all delegated legislation or other statutory instruments made under it.
+
+2. Grant of Licence and Restrictions
+
+2.1. The Licensor grants you licence to use the Licensed Software and the Documentation, subject to and in accordance with the terms and conditions set out in this Agreement, and as follows:
+
+(a) Personal licence: If you obtain, or have obtained the Licensed Software on the basis of a personal licence, you are granted a personal, revocable, non-exclusive, world-wide and non-transferable licence for any commercial or non-commercial use.
+
+(b) Company licence: If you have obtained the Licensed Software on the Basis of a company licence, you are granted a revocable, non-exclusive, world-wide and non-transferable licence for any commercial or non-commercial use of the Licensed Software by one individual person who is employed, contracted or otherwise engaged by a Nominated Organisation for each Licence Key purchased from the Licensor.
+
+3. Other Use Restrictions
+
+3.1. You must not:
+
+(a) use the Licensed Software for any purpose or in any manner other than as set out in clause 2.1;
+
+(b) use the Licensed Software in any way that could damage the business or reputation of the Licensor or the goodwill or other rights associated with the Licensed Software;
+
+(c) permit any third party to use or copy the Licensed Software;
+
+(d) modify or remove any copyright or proprietary notices on the Licensed Software or the Documentation.
+
+(e) make the Licensed Software available over a network where it could be run or used by multiple computers at the same time;
+
+(f) rent, lease, lend, sell, redistribute or sublicense the Licensed Software;
+
+(g) create or permit to exist a mortgage, pledge, lien, charge, security interest or other arrangement of any kind which in substance secures the payment of money or any obligation of any kind, over the Software or Documentation or in any modifications to, or enhancements, or Updates of the Software or Documentation.
+
+4. Intellectual Property Rights
+
+4.1. Nothing in this Agreement constitutes a transfer of any Intellectual Property Rights.
+
+4.2. You acknowledge that the Licensor owns all Intellectual Property Rights in the Licensed Software.
+
+4.3. You must not directly or indirectly do anything that would or might invalidate or put in dispute the Licensor’s title in the Licensed Software or any of the Licensor’s registered or unregistered trade marks.
+
+4.4. You must comply with the Licensor’s reasonable usage guidelines and directions with respect to the Licensed Software as notified to you from time to time.
+
+5. Payment
+
+6. You must pay the Licensor the Fees.
+Liability
+
+6.1. YOU EXPRESSLY ACKNOWLEDGE AND AGREE THAT, TO THE EXTENT PERMITTED BY APPLICABLE LAW, USE OF THE LICENSED SOFTWARE AND ANY SERVICES PERFORMED BY OR ACCESSED THROUGH THE LICENSED SOFTWARE IS AT YOUR SOLE RISK AND THAT THE ENTIRE RISK AS TO SATISFACTORY QUALITY, PERFORMANCE, ACCURACY AND EFFORT IS WITH YOU.
+
+6.2. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE LICENSED SOFTWARE IS PROVIDED “AS IS” AND “AS AVAILABLE”, WITH ALL FAULTS AND WITHOUT WARRANTY OF ANY KIND, AND DataQA.AI AND DataQA.AI’S LICENSORS (COLLECTIVELY REFERRED TO AS “DataQA.AI” FOR THE PURPOSES OF SECTIONS 7 AND 8) HEREBY DISCLAIM ALL WARRANTIES AND CONDITIONS WITH RESPECT TO THE LICENSED SOFTWARE AND SERVICES, EITHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES AND/OR CONDITIONS OF MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE, ACCURACY, QUIET ENJOYMENT, AND NON-INFRINGEMENT OF THIRD PARTY RIGHTS.
+
+6.3. To the full extent permitted by law, the Licensor:
+
+(a) excludes all liability in respect of loss of data, interruption of business or any consequential or incidental damages;
+
+(b) excludes all representations, warranties or terms (whether express or implied) other than those expressly set out in this Agreement;
+
+(c) does not warrant that the Software will meet your specific requirements;
+
+(d) does not warrant that you will achieve the intended results using the Software;
+
+(e) does not warrant that the results obtained from your use of the Software or any derivatives of it will be accurate or reliable;
+
+(f) does not warrant that the Software will be compatible with any particular platform or third-party software; and
+
+(g) does not warrant that any errors in the Software will be corrected.
+
+6.4. The Licensor’s total aggregate liability for all claims relating to this Agreement is limited to the Fees payable under this Agreement.
+
+6.5. Either party’s liability for any claim relating to this Agreement will be reduced to the extent to which the other party contributed to the damage arising from the claim.
+
+6.6. This Agreement is to be read subject to any legislation which prohibits or restricts the exclusion, restriction or modification of any implied warranties, conditions, guarantees or obligations. If such legislation applies, to the extent possible, the Licensor limits its liability in respect of any claim to, at the Licensor’s option:
+
+(a) in the case of goods:
+
+(i) the replacement of the goods or the supply of equivalent goods;
+
+(ii) the repair of the goods;
+
+(iii) the payment of the cost of replacing the goods or of acquiring equivalent goods; or
+
+(iv) the payment of having the goods repaired, and
+
+(b) in the case of services:
+
+(i) the supply of the services again; or
+
+(ii) the payment of the cost of having the services supplied again.
+
+7. Termination
+
+7.1. The Licensor may terminate this Agreement by written notice to the other if any of the following events has occurred in respect of the other party:
+
+(a) a material breach of this Agreement, including any failure to make any payment due under this Agreement; or
+
+(b) an insolvency event occurs, other than an internal reconstruction with notice to the other party.
+
+7.2. You may terminate this Agreement at any given time by notifying the Licensor in writing.
+
+8. Open Source Notice
+
+8.1. Components of the Software may be subject to open-source software licenses, and with respect strictly to those components, and to the extent of any conflict between this Agreement and the open-source software licence, the terms of the open-source software licence will prevail.
+
+9. Updates and Support
+
+9.1. The Licensor agrees to provide Updates to the Licensed Software if any such Updates are produced for a period of 12 months from the date of payment of the Fees.
+
+9.2. Such Updates are provided on the basis of the license described in this Agreement, or as described in any subsequent agreement relating to the subject matter of this Agreement.
+
+9.3. Nothing in this Agreement will be construed so as to require the Licensor to create any Updates of any kind.
+
+10. Consequences of Termination
+
+10.1. If this Agreement is terminated or expires for any reason, then, in addition and without prejudice to any other rights or remedies available:
+
+(a) the parties are immediately released from their obligations under the Agreement except those obligations in clauses 6 and 11, and any other obligations that, by their nature, survive termination;
+
+(b) each party retains the claims it has against the other;
+
+(c) your right to use the Licensed Software immediately ceases and the licences granted under this Agreement terminate;
+
+(d) you must immediately remove all Licensed Software from your computer, or your possession.
+
+11. Associated Services
+
+11.1 You may not do any of the following while accessing or using any Services:
+
+(a) access, tamper with, or use non-public areas of any Services, or the computer or delivery systems of Licensor and/or its service providers;
+
+(b) probe, scan, or test any system or network (particularly for vulnerabilities), or otherwise attempt to breach or circumvent any security or authentication measures;
+
+(c) access or search or attempt to access or search any Services by any means (automated or otherwise) other than through our currently available, published interfaces that are provided by Licensor (and only pursuant to those terms and conditions), unless you have been specifically allowed to do so in a separate agreement with Licensor;
+
+(d) scrape any Services, and particularly scrape Content (as defined below) from any Services, without the express prior written consent of Licensor;
+
+(e) use any Services to send altered, deceptive, or false source-identifying information, including without limitation by forging TCP-IP packet headers or e-mail headers; or
+
+(f) interfere with, or disrupt, (or attempt to do so), the access of any user, host or network, including, without limitation, by sending a virus to, spamming, or overloading any Services, or by scripted use of any Services in such a manner as to interfere with or create an undue burden on any Services.
+
+(g) take any action that may undermine the feedback or ratings systems used on the Service.
+
+11.2. With respect to any Content uploaded by you for use on any Service, you grant the Licensor a non-exclusive, royalty-free, worldwide license for its use for the purpose of providing the Service in accordance with your instructions.
+
+11.3. All Content or other information provided to the Licensor either intentionally or incidentally via any Service:
+
+(a) is subject to the Licensor’s Privacy Policy. You agree that by any use of any Services you consent to the collection and use of this information; and
+
+(b) must not infringe on the rights of any third parties, including but not limited to, content that infringes on privacy rights or intellectual property rights, such as copyright and trademark rights.
+
+11.4. Any information contained on any Service is for general information purposes only, and the Licensor makes no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability or availability with respect to any Services or the information, products, services, or related graphics contained on the Service for any purpose. Any reliance you place on such information is therefore strictly at your own risk.
+
+12. General
+
+12.1. This Agreement contains the entire Agreement between you and the Licensor relating to the subject matter and supersedes all proposals, representations, understandings and prior agreements, whether oral or written, and all other communications.
+
+12.2. You must not assign, sublicence or otherwise deal in any other way with any of its rights under this Agreement without the prior written consent of the Licensor.
+
+12.3. Nothing contained in this Agreement creates any relationship of partnership or agency between the parties.
+
+12.4. If a provision of this Agreement is invalid or unenforceable it is to be read down or severed to the extent necessary without affecting the validity or enforceability of the remaining provisions.
+
+12.5. Each party must at its own expense do everything reasonably necessary to give full effect to this Agreement and the events contemplated by it.
+
+12.6. This Agreement (and any documents executed in connection with it) is the entire Agreement of the parties about its subject matter and supersedes all other representations, arrangements or agreements. Other than as expressly set out in this Agreement, no party has relied on any representation made by or on behalf of the other.
+
+12.7. This Agreement may be amended only by a document signed by all parties.
+
+12.8. A provision of or a right under this Agreement may not be waived or varied except in writing signed by the person to be bound.
+
+12.9. This Agreement is governed by the laws of England and Wales and each party submits to the jurisdiction of the courts of England and Wales.
