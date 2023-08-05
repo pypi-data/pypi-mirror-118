@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.cfg
+src/numberpartitioning/__init__.py
+src/numberpartitioning/karmarkar_karp.py
+src/numberpartitioning.egg-info/PKG-INFO
+src/numberpartitioning.egg-info/SOURCES.txt
+src/numberpartitioning.egg-info/dependency_links.txt
+src/numberpartitioning.egg-info/top_level.txt
