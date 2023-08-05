@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+frequency_dict/__init__.py
+frequency_dict/frequency_dict_from_collection.py
+frequency_dict.egg-info/PKG-INFO
+frequency_dict.egg-info/SOURCES.txt
+frequency_dict.egg-info/dependency_links.txt
+frequency_dict.egg-info/requires.txt
+frequency_dict.egg-info/top_level.txt

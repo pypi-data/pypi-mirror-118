@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: frequency-dict
+Version: 0.0.1
+Summary: frequency_dict is a python package that helps with the finding the frequency of items in a collection easily.
+Home-page: https://github.com/msvrk/frequency_dict
+Author: Karthik Mandapaka
+Author-email: ravikarthik0802@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.8
+License-File: LICENSE
+
+# frequency_dict
+A method to directly convert a collection of items to a frequency dictionary
+
+
