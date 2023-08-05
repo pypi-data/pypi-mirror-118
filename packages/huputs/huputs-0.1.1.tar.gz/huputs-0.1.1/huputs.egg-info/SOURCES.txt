@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+huputs/__init__.py
+huputs/errors.py
+huputs/ex.py
+huputs/system.py
+huputs/utils.py
+huputs.egg-info/PKG-INFO
+huputs.egg-info/SOURCES.txt
+huputs.egg-info/dependency_links.txt
+huputs.egg-info/requires.txt
+huputs.egg-info/top_level.txt
