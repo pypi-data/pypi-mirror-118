@@ -1,0 +1,3 @@
+[console_scripts]
+typpy = typpy.__main__:run
+
