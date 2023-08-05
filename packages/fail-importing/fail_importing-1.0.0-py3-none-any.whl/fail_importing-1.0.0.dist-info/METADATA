@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: fail-importing
+Version: 1.0.0
+Summary: A decorator designed to make testing optional dependencies painless.
+Home-page: https://github.com/Tom01098/fail_importing
+Author: Tom Humphreys
+Author-email: Tom01098Code@gmail.com
+License: MIT
+Project-URL: Repo, https://github.com/Tom01098/fail_importing
+Project-URL: Issues, https://github.com/Tom01098/fail_importing/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Software Development :: Testing :: Unit
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst; charset=UTF-8
+License-File: LICENSE.txt
+
+fail_importing
+==============
+A decorator designed to make testing optional dependencies painless.
+
+It's common for libraries to have optional dependencies where the code has to detect if they are installed, using a
+pattern like this:
+
+.. code-block:: python
+
+    try:
+        import something
+    else:
+        import something_else as something
+
+That way ``something`` is always defined and the rest of the codebase does not need to care. But how do we test both
+branches under tests?
+
+With ``fail_importing``, you can just slap a decorator onto your test and the code being tested will act as if
+the dependency isn't installed.
+
+.. code-block:: python
+
+    @fail_importing("something")
+    def test_something_else():
+        ...
+
+When the test finishes executing, the name can be imported as normal. It can be applied to normal functions, nested
+functions, relative imports, and even generators!
+
+`full_match`_ is used to determine if the path matches or not, so you can use any regex matching you need. Note that
+relative imports are resolved to absolute imports before the check is made.
+
+.. _full_match: https://docs.python.org/3/library/re.html#re.fullmatch
+
+
