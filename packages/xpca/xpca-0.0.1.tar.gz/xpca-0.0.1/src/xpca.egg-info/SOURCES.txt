@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/xpca/__init__.py
+src/xpca.egg-info/PKG-INFO
+src/xpca.egg-info/SOURCES.txt
+src/xpca.egg-info/dependency_links.txt
+src/xpca.egg-info/top_level.txt

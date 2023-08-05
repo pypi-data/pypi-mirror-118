@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: xpca
+Version: 0.0.1
+Summary: Implementations of extended PCA methods, such as IPCA and WWMPCA.
+Home-page: https://github.com/sydx/xpca
+Author: Paul Alexander Bilokon
+Author-email: paul.bilokon@imperial.ac.uk
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/sydx/xpca/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# xpca
+Implementations of extended PCA methods, such as IPCA and EWMPCA
+
+
