@@ -1,0 +1,10 @@
+IPython
+librosa
+soundfile
+matplotlib
+numpy
+noisereduce
+scipy
+tabulate
+timbral_models
+ipywidgets
