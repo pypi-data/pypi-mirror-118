@@ -1,0 +1,10 @@
+setup.py
+mean_stdev_prob_n/Binomialdistribution.py
+mean_stdev_prob_n/Gaussiandistribution.py
+mean_stdev_prob_n/Generaldistribution.py
+mean_stdev_prob_n/__init__.py
+mean_stdev_prob_n.egg-info/PKG-INFO
+mean_stdev_prob_n.egg-info/SOURCES.txt
+mean_stdev_prob_n.egg-info/dependency_links.txt
+mean_stdev_prob_n.egg-info/not-zip-safe
+mean_stdev_prob_n.egg-info/top_level.txt
