@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: ndizta
+Version: 0.0.2
+Summary: A pybind test package
+Home-page: https://github.com/iamsaswata/
+Author: Saswata Nandi
+Author-email: iamsaswata@yahoo.com
+License: MIT
+Keywords: na_na
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Hydrology
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+Requires-Dist: urllib3
+
+# imdlib
+This is a test package for pybind 11
+
+
