@@ -1,0 +1,9 @@
+tracardi_zapier_webhook/plugin.py,sha256=hTXdgZiBMeDFB9gb7s5m3MD1ILABzz9DQzC69sH_lTM,2527
+tracardi_zapier_webhook/model/configuration.py,sha256=0qS_Fk6ifSGGLwODAK7uTgKiYSYyBOb26UmHoCrgZM8,133
+tracardi_zapier_webhook/model/__pycache__/configuration.cpython-38.pyc,sha256=OzHFXPxyYbTlOT7qQx9n8ACHnwijbCws5nURCfdmkLI,501
+tracardi_zapier_webhook/test/manual/zapier_webhook_test.py,sha256=kcKkN4dcrKIj65Gw8nnz1xFrWlgNhRnNaYr4fp-sYFs,408
+tracardi_zapier_webhook-0.1.2.dist-info/LICENSE.md,sha256=l3ZUNaXLxnJvPaG7GYQk8VW6uUE0meUyDOrd7QXXu28,1072
+tracardi_zapier_webhook-0.1.2.dist-info/METADATA,sha256=hXeR8a466hPQtv4kmxizFlh0nwEhJ7dsx1u7uxVFrkk,1106
+tracardi_zapier_webhook-0.1.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+tracardi_zapier_webhook-0.1.2.dist-info/top_level.txt,sha256=k7xhp2Vr2RL-AYcc1vlUIW43Wk299qXXPs_7cP9d_Lc,24
+tracardi_zapier_webhook-0.1.2.dist-info/RECORD,,
