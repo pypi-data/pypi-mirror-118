@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+src/yamliny.py
+src/yamliny.egg-info/PKG-INFO
+src/yamliny.egg-info/SOURCES.txt
+src/yamliny.egg-info/dependency_links.txt
+src/yamliny.egg-info/not-zip-safe
+src/yamliny.egg-info/requires.txt
+src/yamliny.egg-info/top_level.txt
