@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: messages
+Version: 0.7.0
+Summary: Easy and efficient messaging.
+Home-page: https://github.com/trp07/messages
+License: MIT
+Author: Tim Phillips
+Author-email: phillipstr@gmail.com
+Requires-Python: >=3.5,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Communications :: Chat
+Classifier: Topic :: Communications :: Email
+Classifier: Topic :: Education :: Testing
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Requires-Dist: requests (>=2.21,<3.0)
+Requires-Dist: validus (>=0.3.0,<0.4.0)
+Project-URL: Repository, https://github.com/trp07/messages
