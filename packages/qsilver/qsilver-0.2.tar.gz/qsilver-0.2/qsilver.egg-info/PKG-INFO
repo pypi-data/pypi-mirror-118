@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: qsilver
+Version: 0.2
+Summary: UNKNOWN
+Home-page: https://github.com/sesevasa64/qsilver
+Author: Vsevolod Vlasov
+Author-email: sesevasa64@gmail.com
+License: MIT
+Description: # QSilver
+        
+        QSilver is a tiny python library, which provides api to run multiply tasks concurrent in only one thread using async/await syntax. 
+        
+        ## Installation
+        
+        You can install QSilver via pip:
+        ```bash
+        pip intall qsilver
+        ```
+        
+        ## Usage
+        
+        ```python
+        import qsilver
+        
+        async def example():
+            print("Hello")
+            await qsilver.sleep(1)
+            print("World!")
+        
+        qsilver.create_scheduler()
+        qsilver.add_coroutine(example())
+        qsilver.run_forever()
+        ```
+        
+        ## License
+        
+        [MIT](https://choosealicense.com/licenses/mit/)
+        
+Keywords: async,concurrent
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
