@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+pipertask/__init__.py
+pipertask/task.py
+pipertask.egg-info/PKG-INFO
+pipertask.egg-info/SOURCES.txt
+pipertask.egg-info/dependency_links.txt
+pipertask.egg-info/top_level.txt
