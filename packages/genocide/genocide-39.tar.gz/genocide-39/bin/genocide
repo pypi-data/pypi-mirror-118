@@ -1,0 +1,62 @@
+#!/usr/bin/env python3
+# This file is placed in the Public Domain.
+
+
+import os, sys ; sys.path.insert(0, os.getcwd())
+
+
+import os
+import sys
+import termios
+import time
+
+
+wd = os.path.expanduser("~/.genocide")
+
+
+from genocide.obj import keys
+from genocide.run import Client, Runtime
+from genocide.tbl import Table
+from genocide.trc import get_exception
+
+
+class Kernel(Runtime):
+
+    def error(self, txt):
+        print(txt)
+        sys.stdout.flush()
+        
+    def log(self, txt):
+        print(txt)
+        sys.stdout.flush()
+
+
+class CLI(Client):
+
+    def raw(self, txt):
+        print(txt)
+        sys.stdout.flush()
+
+clt = CLI()
+k = Kernel()
+tbl = Table()
+
+
+import genocide.all
+
+
+def cmd(event):
+    event.reply(",".join(sorted(keys(tbl.modnames))))
+
+
+def main():
+    k.boot()
+    tbl.scan("genocide")
+    tbl.add(cmd)
+    if k.cfg.txt:
+        return k.cmd(k.cfg.otxt)
+    if k.cfg.console:
+        k.start()
+        k.wait()
+
+main()
