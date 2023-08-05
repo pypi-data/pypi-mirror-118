@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: texplotlib
+Version: 0.5.7
+Summary: Package for .tex figures
+Home-page: UNKNOWN
+Author: Mostafa Ayaz
+Author-email: m.ayaz@email.kntu.ac.ir
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: matplotlib (>=3.1.0)
+
+# matplotlib meets LaTeX!
+Package for converting matplotlib.pyplot figure to .tex figure
+
