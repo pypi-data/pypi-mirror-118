@@ -1,0 +1,12 @@
+robo_cop/__init__.py,sha256=W-p8DBoX2wB6BfmX2gkdfPEr3dvRZdWcYTdATZk_fNs,443
+robo_cop/__main__.py,sha256=J39ZPkJnxZheM1T4dralxxrQga_ZOQkiybIs6GTMLe4,1066
+robo_cop/row.py,sha256=uIDEIALNqrCm5nkQ597EtIFB9SlhVF9QdVbuHwPg8Dc,1634
+robo_cop/watchdog.py,sha256=U4EUf8ppcGQLfDLYpHW6-M-pkKDcV700L-WBU7bh2RE,2292
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/spec_hello_world.py,sha256=wiWfT_7Q1gwTqd2ikUOwWXjhVxiMPFr0PgqedEMrikU,40
+robo_cop-0.0.2.dist-info/LICENSE,sha256=fmHMHN8O00cr0MvIILacu55K5rlOunfGTWFTMHwRhVI,1073
+robo_cop-0.0.2.dist-info/METADATA,sha256=hRAbTzdjQe_nhv5L89vAaQ3Ll2as-1OUTdqSK8fzHOc,686
+robo_cop-0.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+robo_cop-0.0.2.dist-info/entry_points.txt,sha256=dAaUl_mU6CBwtFNWB4H-IV_xxuJPiFaMaRzw74yVe0c,53
+robo_cop-0.0.2.dist-info/top_level.txt,sha256=PD9YfjDgwvVD9KjwNOKxyQp7z6Tlpl9CrTH2s0-BH_Y,15
+robo_cop-0.0.2.dist-info/RECORD,,

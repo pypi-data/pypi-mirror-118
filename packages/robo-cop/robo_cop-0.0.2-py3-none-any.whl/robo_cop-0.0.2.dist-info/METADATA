@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: robo-cop
+Version: 0.0.2
+Summary: An AI-powered auto-mod for Twitch chat.
+Home-page: https://github.com/the-ivo-robotnic/robo-cop
+Author: The_Ivo_Robotnic
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9.0
+Description-Content-Type: text/markdown
+Requires-Dist: twitch-python (>=0.0.19)
+Provides-Extra: dev
+Requires-Dist: setuptools ; extra == 'dev'
+Requires-Dist: wheel ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Requires-Dist: sphinx ; extra == 'dev'
+Requires-Dist: sphinx-rtd-theme ; extra == 'dev'
+
+# robo-cop
+An AI-powered auto-mod for Twitch chat.
+
+
