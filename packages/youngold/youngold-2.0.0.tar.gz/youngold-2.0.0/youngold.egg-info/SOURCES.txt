@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+youngold.egg-info/PKG-INFO
+youngold.egg-info/SOURCES.txt
+youngold.egg-info/dependency_links.txt
+youngold.egg-info/top_level.txt
+youngoldlib/__init__.py
+youngoldlib/mickzaa.py
