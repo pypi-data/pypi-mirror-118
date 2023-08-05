@@ -1,0 +1,42 @@
+[tool.poetry]
+name = "olympia"
+version = "0.1.0"
+description = "olympia"
+authors = ["Luke Miloszewski <lukemiloszewski@gmail.com>"]
+readme = "README.md"
+
+
+[tool.poetry.dependencies]
+python = "^3.8.9"
+
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
+pytest-cov = "^2.12.0"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.coverage.run]
+branch = true
+
+[tool.coverage.report]
+fail_under=80
+show_missing=true
+omit = [
+  "*venv/*",
+  "*/tests/*",
+  "*app.py",
+]
+exclude_lines = [
+  "if __name__ == .__main__.:"
+]
+
+[tool.coverage.xml]
+output="coverage.xml"
+
+[tool.coverage.html]
+directory = "coverage_html_report"

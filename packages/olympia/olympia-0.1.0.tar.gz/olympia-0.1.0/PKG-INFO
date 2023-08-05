@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: olympia
+Version: 0.1.0
+Summary: olympia
+Author: Luke Miloszewski
+Author-email: lukemiloszewski@gmail.com
+Requires-Python: >=3.8.9,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+# Lumos
+
