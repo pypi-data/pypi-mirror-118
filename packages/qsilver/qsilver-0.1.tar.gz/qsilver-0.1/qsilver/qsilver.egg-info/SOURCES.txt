@@ -1,0 +1,6 @@
+setup.cfg
+setup.py
+qsilver/qsilver.egg-info/PKG-INFO
+qsilver/qsilver.egg-info/SOURCES.txt
+qsilver/qsilver.egg-info/dependency_links.txt
+qsilver/qsilver.egg-info/top_level.txt
