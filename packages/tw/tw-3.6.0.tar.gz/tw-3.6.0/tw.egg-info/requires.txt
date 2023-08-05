@@ -1,0 +1,8 @@
+matplotlib
+opencv-python==3.*
+numpy
+tensorboard
+tqdm
+cython
+scipy
+kornia
