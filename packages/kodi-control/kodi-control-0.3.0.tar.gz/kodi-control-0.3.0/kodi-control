@@ -1,0 +1,528 @@
+#!/usr/bin/env python3
+#  Kodi Control
+
+# Description {{{1
+"""Control Kodi
+
+Usage:
+    kodi-control
+
+Use simple keystokes to control Kodi.
+Visit github.com/KenKundert/kodi-control for view instructions.
+"""
+
+# Imports {{{1
+from docopt import docopt
+from inform import (
+    Inform, Error, codicil, columns, cull, display, done, error, fatal,
+    full_stop, indent, is_str, is_mapping, log, os_error, warn
+)
+from shlib import Run, Start, set_prefs as shlib_set_prefs, mkdir, to_path
+from time import sleep
+from appdirs import user_config_dir, user_data_dir
+import copy, json, os, requests, sys, tty, termios, json, threading
+import nestedtext as nt
+from voluptuous import Schema, Invalid, Required
+
+
+# Action classes {{{1
+# Action {{{2
+class Action:
+    def __init__(self, keys, desc):
+        self.keys = keys.split() if is_str(keys) else keys
+        Keys(self.keys)
+        self.desc = desc
+
+
+# KodiAction {{{2
+class KodiAction(Action):
+
+    def __init__(self, keys, desc, method=None, **kwargs):
+        super().__init__(keys, desc)
+        self.method = method
+        self.kwargs = kwargs
+
+    def send_to_kodi(self, method = None, **kwargs):
+        if method is None:
+            method = self.method
+            extra_args = copy.deepcopy(self.kwargs)
+        else:
+            extra_args = {}
+        extra_args.update(kwargs)
+
+        log('sending to kodi:', method)
+        params = dict(jsonrpc="2.0", id=1, method=method, params=extra_args)
+        log(indent(nt.dumps(params)))
+        request = json.dumps(params).encode('utf-8')
+        try:
+            r = requests.post(
+                url, headers=headers, auth=auth, data=request, timeout=5
+            )
+            r.raise_for_status()
+            response = r.json()
+        except (
+            ConnectionError, TimeoutError, requests.RequestException
+        ) as e:
+            raise Error('no connection to Kodi.', codicil=e)
+        except json.JSONDecodeError as e:
+            raise Error(e)
+            #response = {}
+        self.check_response(response)
+        return response
+
+    def check_response(self, response):
+        log('response from kodi:')
+        log(indent(nt.dumps(response)))
+        if 'error' in response:
+            raise Error(
+                full_stop(response['error'].get('message', 'unknown'))
+            )
+
+    def get_active_player(self):
+        response = self.send_to_kodi(method='Player.GetActivePlayers')
+        players = response.get('result', [])
+        player_ids = cull([p.get('playerid') for p in players], remove=None)
+        num_players = len(player_ids)
+        if num_players == 0:
+            warn('no player is active.')
+            return None
+        if num_players > 1:
+            warn('multiple players are active, using first.')
+        return player_ids[0]
+
+
+# KodiBaseAction {{{2
+class KodiBaseAction(KodiAction):
+
+    def run(self):
+        self.send_to_kodi()
+
+
+# KodiPlayerAction {{{2
+class KodiPlayerAction(KodiAction):
+
+    def run(self):
+        player_id = self.get_active_player()
+        if player_id is not None:
+            self.send_to_kodi(playerid=player_id)
+
+
+# KodiSeekAction {{{2
+class KodiSeekAction(KodiAction):
+    # Kodi 17 & 18 are broken for forward seeks of less than 60 seconds.
+    # Rather than a relative seek, these do an absolute seek.
+    # So seek 60 moves forward one minute, but seek 30 moves to 30s into show.
+    #
+    # example seeks:
+    #   dict(step='smallforward'),   # move forward next 30 seconds
+    #   dict(step='bigforward'),     # move forward 10 minutes
+    #   dict(seconds=+120),          # move forward 120 seconds
+    #   dict(step='smallbackward'),  # move backward 30 seconds
+    #   dict(step='bigbackward'),    # move backward 10 minutes
+    #   dict(seconds=-120),          # move backward 120 seconds
+
+    FORWARD_SEEKS = None  # set in run() to work around Kodi bug
+    BACKWARD_SEEKS = [
+        dict(seconds=-8),
+        dict(seconds=-11),
+        dict(seconds=-15),
+        dict(seconds=-21),
+        dict(seconds=-30),
+        dict(seconds=-42),
+        dict(seconds=-60),
+        dict(seconds=-85),
+        dict(seconds=-120),
+        dict(seconds=-170),
+        dict(seconds=-240),
+        dict(seconds=-339),
+        dict(seconds=-480),
+        dict(seconds=-679),
+        dict(seconds=-960),
+    ]
+
+    def __init__(self, keys, desc, direction=None):
+        super().__init__(keys, desc)
+        self.method = 'Player.Seek'
+        self.direction = direction  # needed by KodiSeekAction
+        self.kwargs = {}
+
+
+    @classmethod
+    def initialize(cls):
+        # seconds must be integers
+        if kodi_version < (19,):
+            small_seeks = [
+                dict(step='smallforward'),   # +30 seconds
+                dict(step='smallforward'),   # +30 seconds
+                dict(step='smallforward'),   # +30 seconds
+                dict(step='smallforward'),   # +30 seconds
+            ]
+        else:
+            small_seeks = [
+                dict(seconds=+8),
+                dict(seconds=+11),
+                dict(seconds=+15),
+                dict(seconds=+21),
+                dict(seconds=+30),
+                dict(seconds=+42),
+            ]
+        large_seeks = [
+            dict(seconds=+60),
+            dict(seconds=+85),
+            dict(seconds=+120),
+            dict(seconds=+170),
+            dict(seconds=+240),
+            dict(seconds=+339),
+            dict(seconds=+480),
+            dict(seconds=+679),
+            dict(seconds=+960),
+        ]
+        cls.FORWARD_SEEKS = small_seeks + large_seeks
+
+    def run(self):
+        if self.FORWARD_SEEKS is None:
+            self.initialize()
+
+        if self.direction == 'forward':
+            seeks = self.FORWARD_SEEKS
+        else:
+            seeks = self.BACKWARD_SEEKS
+
+        player_id = self.get_active_player()
+        if player_id is not None:
+            self.send_to_kodi(playerid=player_id, value=repeat.get_seek(seeks))
+
+
+# EnterTextAction {{{2
+class EnterTextAction(KodiAction):
+
+    def run(self):
+        try:
+            text = input('Enter text (enter terminates, ctrl-c cancels): ')
+            self.send_to_kodi('Input.SendText', text=text, done=True)
+        except (EOFError, KeyboardInterrupt):
+            display()
+
+
+# ToggleMuteAction {{{2
+class ToggleMuteAction(Action):
+
+    def run(self):
+        mute()
+
+# TemporaryMuteAction {{{2
+class TemporaryMuteAction(Action):
+
+    def __init__(self, keys=None, desc=None):
+        super().__init__(keys, desc)
+
+    def run(self):
+        def show(text=''):
+            sys.stdout.write('\033[2K\r' + str(text))
+            sys.stdout.flush()
+
+        mute('1')
+        try:
+            display('ctrl-c to cancel.')
+            for i in range(temporary_mute_duration, 0, -1):
+                show(i)
+                sleep(1)
+        except KeyboardInterrupt:
+            pass
+        show()
+        mute('0')
+
+# VolumeAction {{{2
+class VolumeAction(Action):
+    def __init__(self, keys, desc, direction, percent=5):
+        super().__init__(keys, desc)
+        assert direction in ['+', '-']
+        self.direction = direction
+        self.percent = percent
+
+    def run(self):
+        for sink in get_audio_sinks():
+            Run(f'pactl set-sink-mute {sink} 0', modes='soeW')
+            Run(f'pactl set-sink-volume {sink} {self.direction}{self.percent}%', modes='soeW')
+
+# StartPlayerAction {{{2
+class StartPlayerAction(Action):
+    def __init__(self, keys, desc):
+        super().__init__(keys, desc)
+
+    def run(self):
+        Start(kodi_exe, modes='sOEW')
+
+# KillPlayerAction {{{2
+class KillPlayerAction(Action):
+    def __init__(self, keys, desc):
+        super().__init__(keys, desc)
+
+    def run(self):
+        Run(f'killall {kodi_bin}', modes='soeW')
+
+
+# Utility Functions {{{1
+# get_audio_sinks() {{{2
+def get_audio_sinks():
+    pactl = Run('pactl list sinks', modes='sOeW1')
+    return [
+        l.partition('#')[-1]
+        for l in pactl.stdout.splitlines()
+        if l.startswith('Sink #')
+    ]
+
+# mute() {{{2
+def mute(action=None):
+    if not action:
+        action = 'toggle'
+    assert action in ['0', '1', 'toggle']
+    log(f'muting each available sink:')
+    for sink in get_audio_sinks():
+        Run(f'pactl set-sink-mute {sink} {action}', modes='sOMW')
+
+# getch() {{{2
+def getch():
+    fd = sys.stdin.fileno()
+    old_settings = termios.tcgetattr(fd)
+    try:
+        tty.setraw(sys.stdin.fileno())
+        ch = sys.stdin.read(1)
+    finally:
+        termios.tcsetattr(fd, termios.TCSADRAIN, old_settings)
+    log(f'user entered: "{ch}" ({ord(ch)}).')
+    return character_map.get(ord(ch), ch)
+
+# run() {{{2
+def run(action):
+    try:
+        log(f'calling: {action.__class__.__name__}.')
+        action.run()
+    except OSError as e:
+        error(os_error(e))
+    except Error as e:
+        e.report()
+        if e.cmd:
+            codicil('command:', e.cmd)
+        if e.stdout:
+            codicil(e.stdout)
+
+# to_int() {{{2
+def to_int(arg):
+    try:
+        return int(arg)
+    except ValueError:
+        raise Invalid('expected integer.')
+
+
+# Keys class {{{2
+class Keys:
+    known_keys = set()
+    def __init__(self, keys):
+        for key in keys:
+            if key in self.known_keys:
+                error('duplicate key.', culprit=key)
+            self.known_keys.add(key)
+
+
+# Globals {{{1
+__version__ = '0.3.0'
+__released__ = '2021-08-29'
+
+
+
+# scale factor {{{2
+class RepeatedKey:
+    def __init__(self):
+        self.reset()
+
+    def reset(self):
+        self.prev_action = None
+        self.repeats = 0
+        self.timer = None
+
+    def update(self, action):
+        if action == self.prev_action:
+            # this is a repeat, count it
+            self.repeats += 1
+        else:
+            # otherwise reset the count
+            self.reset()
+        self.prev_action = action
+
+    def get_seek(self, seeks):
+        # clear a previous scheduled reset
+        if self.timer:
+            self.timer.cancel()
+
+        # schedule a new reset
+        self.timer = threading.Timer(1, self.reset)
+        self.timer.start()
+
+        # get and return the appropriate seek
+        repeats = min(self.repeats, len(seeks)-1)
+        return seeks[repeats]
+
+
+# character_map {{{2
+# converts ord(char) where char is a character read from
+# stdin to a convenient name used internally
+character_map = {
+    3: 'INTR',  # interupt, ctrl-c
+    4: 'EOF',   # end-of-file, ctrl-d
+    8: 'BS',    # backspace, ctrl-h
+    13: 'ENT',  # enter, ctrl-n
+    27: 'ESC',  # excape, ctrl-[
+}
+
+# schema {{{2
+# schema for settings file
+schema = Schema(
+    dict(
+        hostname = str,
+        port = to_int,
+        username = str,
+        password = str,
+        display = str,
+        temporary_mute_duration = to_int,
+        kodi = str,
+        kodi_binary = str,  # no longer used
+        kodi_version = str,
+        log = str,
+    )
+)
+
+# categorized_actions {{{2
+categorized_actions = {
+    "Navigation Keys": [
+        KodiBaseAction('h', 'move left', 'Input.Left'),
+        KodiBaseAction('j', 'move down', 'Input.Down'),
+        KodiBaseAction('k', 'move up', 'Input.Up'),
+        KodiBaseAction('l', 'move right', 'Input.Right'),
+        KodiBaseAction('ENT', 'select', 'Input.Select'),
+        KodiBaseAction('BS', 'go back', 'Input.Back'),
+        KodiBaseAction('ESC H', 'go to to home screen', 'Input.Home'),
+        KodiBaseAction('c', 'context menu', 'Input.ContextMenu'),
+    ],
+    "Player Keys": [
+        KodiPlayerAction([' ', 'p'], 'toggle play/pause', 'Player.PlayPause'),
+        KodiSeekAction('b', 'skip backward', direction='backward'),
+        KodiSeekAction('f', 'skip forward', direction='forward'),
+        KodiPlayerAction('s', 'go to start', 'Player.Seek', value=dict(percentage=0)),
+        KodiPlayerAction('0', 'go to 0%', 'Player.Seek', value=dict(percentage=0)),
+        KodiPlayerAction('1', 'go to 10%', 'Player.Seek', value=dict(percentage=10)),
+        KodiPlayerAction('2', 'go to 20%', 'Player.Seek', value=dict(percentage=20)),
+        KodiPlayerAction('3', 'go to 30%', 'Player.Seek', value=dict(percentage=30)),
+        KodiPlayerAction('4', 'go to 40%', 'Player.Seek', value=dict(percentage=40)),
+        KodiPlayerAction('5', 'go to 50%', 'Player.Seek', value=dict(percentage=50)),
+        KodiPlayerAction('6', 'go to 60%', 'Player.Seek', value=dict(percentage=60)),
+        KodiPlayerAction('7', 'go to 70%', 'Player.Seek', value=dict(percentage=70)),
+        KodiPlayerAction('8', 'go to 80%', 'Player.Seek', value=dict(percentage=80)),
+        KodiPlayerAction('9', 'go to 90%', 'Player.Seek', value=dict(percentage=90)),
+        KodiPlayerAction('e', 'go to end', 'Player.Seek', value=dict(percentage=100)),
+        KodiPlayerAction('x', 'stop player', 'Player.Stop'),
+        KodiBaseAction('n', 'toggle navigation', 'Input.ShowOSD'),
+        KodiBaseAction('P', 'toggle player on top', 'GUI.SetFullscreen', fullscreen='toggle'),
+        KodiBaseAction('i', 'show info', 'Input.Info'),
+        KodiPlayerAction('t', 'hide subtitles', 'Player.SetSubtitle', subtitle='off'),
+        KodiPlayerAction('T', 'show subtitles', 'Player.SetSubtitle', subtitle='on'),
+    ],
+    "Sound Keys": [
+        ToggleMuteAction('m', 'toggle mute'),
+        TemporaryMuteAction('M', 'temporary mute'),
+        VolumeAction('u', 'volume up', '+'),
+        VolumeAction('d', 'volume down', '-'),
+    ],
+    "Kodi Keys": [
+        EnterTextAction("'", 'enter text'),
+        StartPlayerAction('S', 'start kodi'),
+        #KillPlayerAction('K', 'kill player'),
+        KodiBaseAction('K', 'kill kodi', 'Application.Quit'),
+    ],
+}
+available_actions = []
+all_actions = {}
+for category, actions in categorized_actions.items():
+    available = {k:a for a in actions for k in a.keys}
+    all_actions.update(available)
+    available_actions.extend([
+        f'\n{category}:',
+        columns(
+            '{}: {}'.format(k, available[k].desc) for k in sorted(available)
+        )
+    ])
+available_actions = '\n'.join(available_actions)
+
+
+# Main {{{1
+# read command line {{{2
+cmdline = docopt(__doc__.format(actions=available_actions), version=__version__)
+
+# set up logging to ~/.local/share/kodi-control/log {{{2
+shlib_set_prefs(use_inform=True, log_cmd=True)
+inform = Inform()
+
+# read settings {{{2
+config_dir = to_path(user_config_dir('kodi-control'))
+settings = {}
+try:
+    settings_filepath = config_dir / 'settings.nt'
+    keymap = {}
+    settings = nt.load(settings_filepath, top=dict, keymap=keymap)
+    settings = {'_'.join(k.lower().split()): v for k, v in settings.items()}
+    settings = schema(settings)
+except nt.NestedTextError as e:
+    e.terminate()
+except Invalid as e:
+    kind = 'key' if 'key' in e.msg else 'value'
+    loc = keymap[tuple(e.path)]
+    culprit = [settings_filepath] + e.path
+    fatal(full_stop(e.msg), culprit=culprit, codicil=loc.as_line(kind))
+except FileNotFoundError as e:
+    log(os_error(e))
+except OSError as e:
+    fatal(os_error(e))
+hostname = settings.get('hostname', 'localhost')
+port = settings.get('port', 8080)
+username = settings.get('username', 'kodi')
+password = settings.get('password', '')
+temporary_mute_duration = settings.get('temporary_mute_duration', 60)
+url = f"http://{hostname}:{port}/jsonrpc"
+auth = (username, password) if username else None
+headers = {'Content-Type': 'application/json'}
+kodi_exe = settings.get('kodi', 'kodi')
+kodi_bin = settings.get('kodi_binary', 'kodi.bin')
+kodi_version = settings.get('kodi_version', '0.0')
+kodi_version = tuple(int(n) for n in kodi_version.split('.'))
+generate_log = settings.get('log', 'no').lower() in ['yes', 'on', 'true']
+if settings.get('display'):
+    os.environ['DISPLAY'] = settings['display']
+if generate_log:
+    try:
+        log_dir = to_path(user_data_dir('kodi-control'))
+        log_dir.mkdir(parents=True, exist_ok=True)
+    except OSError as e:
+        error(os_error(e))
+    inform.set_logfile(logfile=log_dir / 'log')
+    inform.flush = True
+    log(f"kodi rpc url: {url}")
+
+# main loop {{{2
+display("Enter desired actions, use 'q' to terminate.")
+display(available_actions)
+
+repeat = RepeatedKey()
+try:
+    while True:
+        action = getch()
+        repeat.update(action)
+        if action in ['INTR', 'EOF', 'q']:
+            break
+        if action in all_actions:
+            run(all_actions[action])
+        else:
+            error('unknown action.', culprit=action)
+    done()
+except OSError as e:
+    error(os_error(e))
+

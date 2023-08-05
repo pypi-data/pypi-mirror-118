@@ -1,0 +1,6 @@
+appdirs
+docopt
+inform
+nestedtext
+shlib
+voluptuous

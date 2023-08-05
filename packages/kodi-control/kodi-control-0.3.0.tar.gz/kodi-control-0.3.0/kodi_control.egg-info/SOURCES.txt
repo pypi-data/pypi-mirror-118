@@ -1,0 +1,8 @@
+README.rst
+kodi-control
+setup.py
+kodi_control.egg-info/PKG-INFO
+kodi_control.egg-info/SOURCES.txt
+kodi_control.egg-info/dependency_links.txt
+kodi_control.egg-info/requires.txt
+kodi_control.egg-info/top_level.txt
