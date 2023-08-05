@@ -1,0 +1,3 @@
+[console_scripts]
+dockerfile-signatures = docker_signatures.__main__:main
+

@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+VERSION
+setup.cfg
+setup.py
+docker_signatures/__init__.py
+docker_signatures/__main__.py
+docker_signatures.egg-info/PKG-INFO
+docker_signatures.egg-info/SOURCES.txt
+docker_signatures.egg-info/dependency_links.txt
+docker_signatures.egg-info/entry_points.txt
+docker_signatures.egg-info/top_level.txt
+docker_signatures.egg-info/zip-safe

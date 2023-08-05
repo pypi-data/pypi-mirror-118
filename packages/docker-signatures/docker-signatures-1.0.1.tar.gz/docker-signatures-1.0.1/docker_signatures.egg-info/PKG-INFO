@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: docker-signatures
+Version: 1.0.1
+Summary: docker signatures ensure that a Docker Image has all signatures
+Home-page: https://github.com/cr0hn/docker-signatures
+Author: Daniel Garcia (cr0hn)
+Author-email: cr0hn@cr0hn.com
+License: License :: OSI Approved :: BSD License
+Description: # Docker-Signatures
+        
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Environment :: Console
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: OS Independent
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Intended Audience :: Other Audience
+Classifier: Intended Audience :: System Administrators
+Description-Content-Type: text/markdown
