@@ -1,0 +1,8 @@
+LICENCE
+README.md
+pyproject.toml
+setup.cfg
+distributions_pkg_elenduiyke.egg-info/PKG-INFO
+distributions_pkg_elenduiyke.egg-info/SOURCES.txt
+distributions_pkg_elenduiyke.egg-info/dependency_links.txt
+distributions_pkg_elenduiyke.egg-info/top_level.txt
