@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: parallelbam
+Version: 0.0.5
+Summary: Tools to parallelize operations on large BAM files
+Home-page: http://github.com/robaina/parallelBAM
+Author: Semidán Robaina Estévez
+Author-email: srobaina@ull.edu.es
+Maintainer: Semidán Robaina Estévez
+Maintainer-email: srobaina@gmail.com
+License: Creative Commons Attribution 4.0 International
+Download-URL: http://github.com/robaina/parallelBAM
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# parallelBAM
+Tools to parallelize operations on large BAM files
+
+
