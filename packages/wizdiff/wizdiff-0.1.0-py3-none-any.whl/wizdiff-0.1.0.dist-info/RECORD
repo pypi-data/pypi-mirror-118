@@ -1,0 +1,13 @@
+wizdiff/__init__.py,sha256=PUmVcBNMaFSZQTjIupkF8_bwGq1ZIJoMGgalGnaxfQ4,179
+wizdiff/__main__.py,sha256=JlUNZmB7_VwQRG55CPGoD3fJzfNOFxIWwBTkw-1HiCM,767
+wizdiff/db.py,sha256=7NNtdY70wXtCKKnXLUGLJbQnEqkb-Mcq3OHIGDqfNUM,6468
+wizdiff/delta.py,sha256=OcHcllYXq8o-2Z9IQUDTm1gdQj3F6p9oGPwz029jWSU,1567
+wizdiff/dml_parser.py,sha256=GipgVF_NHoJAu5YWnzOmZtqwJjn5gXLglvZCESNG94g,5507
+wizdiff/update_notifier.py,sha256=WV5-PQEj0s8n6lP6ULllBX2KOAutwa6sOy4HIvT5BOc,17143
+wizdiff/utils.py,sha256=AZrZ75cs1i8w25-Tsed47w8m3OIJIZhOLcrKEryCSTI,273
+wizdiff/webdriver.py,sha256=2Hn2JTm8Vu4zO5dymsLFUBENY4fPfKBjXxXWrDRRDkw,2939
+wizdiff-0.1.0.dist-info/entry_points.txt,sha256=YKpd_kv8Yu2WY2OPlsbPcYF4hBTY-dJNJ1zJNqtvD1c,49
+wizdiff-0.1.0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+wizdiff-0.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+wizdiff-0.1.0.dist-info/METADATA,sha256=gkGmoPplth7InWBfdx_PrF6BuaUOKOiG4R888Ypha-k,410
+wizdiff-0.1.0.dist-info/RECORD,,
