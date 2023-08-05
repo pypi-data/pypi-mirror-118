@@ -1,0 +1,4 @@
+wget
+click
+pefile
+pillow
