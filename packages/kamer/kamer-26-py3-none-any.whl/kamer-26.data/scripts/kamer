@@ -1,0 +1,144 @@
+#!python
+# This file is placed in the Public Domain.
+
+import os, sys ; sys.path.insert(0, os.getcwd())
+
+
+import os
+import readline
+import sys
+import termios
+import time
+
+
+wd = os.path.expanduser("~/.kamer")
+
+
+from krn.obj import Object, fmt, find, fntime, getmain, getwd
+from krn.obj import keys, listfiles, save
+from krn.run import Client, Runtime
+from krn.tbl import Table
+from krn.tms import elapsed
+from krn.trc import get_exception
+from krn.ver import __version__
+
+
+starttime = time.time()
+
+
+class CLI(Client):
+
+    def handle(self, clt, e):
+        k.put(e)
+
+
+    def raw(self, txt):
+        print(txt)
+        sys.stdout.flush()
+
+
+class Console(CLI):
+
+    def handle(self, clt, e):
+        k.put(e)
+        e.wait()
+
+    def poll(self):
+        return input("> ")
+
+
+class Kernel(Runtime):
+
+    def error(self, txt):
+        print(txt)
+        sys.stdout.flush()
+
+    def log(self, txt):
+        if k.opt("v"):
+            print(txt)
+            sys.stdout.flush()
+
+class Log(Object):
+
+    def __init__(self):
+        super().__init__()
+        self.txt = ""
+
+
+clt = CLI()
+k = Kernel()
+tbl = Table()
+
+
+def cmd(event):
+    tbl = getmain("tbl")
+    event.reply(",".join(sorted(tbl.modnames)))
+
+
+def fnd(event):
+    if not event.args:
+        fls = listfiles(getwd())
+        if fls:
+            event.reply(",".join(sorted({x.split(".")[-1].lower() for x in fls})))
+        return
+    otype = event.args[0]
+    nr = -1
+    args = list(event.gets)
+    try:
+        args.extend(event.args[1:])
+    except IndexError:
+        pass
+    got = False
+    for fn, o in find(otype, event.gets, event.index, event.timed):
+        nr += 1
+        txt = "%s %s" % (str(nr), fmt(o, args or keys(o), skip=keys(event.skip)))
+        if "t" in event.opts:
+            txt = txt + " %s" % (elapsed(time.time() - fntime(fn)))
+        got = True
+        event.reply(txt)
+    if not got:
+        event.reply("no result")
+
+
+def log(event):
+    if not event.rest:
+        event.reply("log <txt>")
+        return
+    o = Log()
+    o.txt = event.rest
+    save(o)
+    event.reply("ok")
+
+
+def ver(event):
+    event.reply("%s %s" % (sys.argv[0].split(os.sep)[-1].upper(), __version__))
+
+
+def wrap(func):
+    fd = sys.stdin.fileno()
+    old = termios.tcgetattr(fd)
+    try:
+        func()
+    except KeyboardInterrupt:
+        pass
+    except PermissionError as ex:
+        print(str(ex))
+    except Exception as ex:
+        print(get_exception())
+    finally:
+        termios.tcsetattr(fd, termios.TCSADRAIN, old)
+
+def main():
+    k.boot()
+    tbl.scan("__main__")
+    if k.cfg.txt:
+        return k.cmd(k.cfg.otxt)
+    if k.opt("c") or k.cfg.mod:
+        global clt
+        clt = Console()
+        k.start()
+        k.init(k.cfg.mod)
+        clt.start()
+        k.wait()
+
+wrap(main)
