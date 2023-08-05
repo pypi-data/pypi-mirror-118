@@ -1,0 +1,10 @@
+[tool.poetry]
+name = "phae"
+version = "0.0.1"
+authors = ["pyxiis"]
+license = "MIT"
+description = "A Python library for the Phae project"
+
+[build-system]
+requires = ["poetry_core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
