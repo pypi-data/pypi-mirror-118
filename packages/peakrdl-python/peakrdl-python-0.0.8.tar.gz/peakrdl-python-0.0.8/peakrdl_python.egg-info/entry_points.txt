@@ -1,0 +1,3 @@
+[console_scripts]
+peakpython = peakrdl.python.peakpython:main_function
+
