@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+demoji/__init__.py
+demoji/__main__.py
+demoji/codes.json
+demoji/main.py
+demoji.egg-info/PKG-INFO
+demoji.egg-info/SOURCES.txt
+demoji.egg-info/dependency_links.txt
+demoji.egg-info/entry_points.txt
+demoji.egg-info/requires.txt
+demoji.egg-info/top_level.txt
