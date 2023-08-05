@@ -1,0 +1,12 @@
+pygit/__init__.py,sha256=6UPmGXsW3WZmdCazgBHoYXnlO8PmKwR-WvK_Jx4hIpU,164
+pygit/commit.py,sha256=jtMSaxrjET3FPgdVmv5sPafukXPhAHwXq9AdGzLwWbY,8982
+pygit/decorators.py,sha256=ck7jSW5rirZlg0WxdE0dL9WWgA7GxR8nGoK7V4LWfWs,276
+pygit/repo.py,sha256=bD5GEkyz-Wew_AuDK29xvsTf1NLHh7Q7rv7sK6lTWcM,3321
+tests/__init__.py,sha256=naVLXsLHINXzq2r1DZMOLJvSmZqFVcUAIltSdpRyuoE,296
+tests/commit_test.py,sha256=EwUc1lKJAxkNtwf5JRkT68PaerDItJ-390Uv2aVGOTg,2183
+tests/conftest.py,sha256=FWTkKQUAZTEcR1QuzE-0IeziWxDEOy0dCWxTdq14Um4,104
+tests/repo_test.py,sha256=YE6MEL9P9FFFd2eUYd_5h3IAMkQF_O5xFxOcnFf2XEo,7864
+apygit-0.0.5.dist-info/METADATA,sha256=37FNLY_PvFlX4wnOzyt2HuB2Xvg80ZFu8rgB7tr_m_c,908
+apygit-0.0.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+apygit-0.0.5.dist-info/top_level.txt,sha256=03aGZSpvqPExYgYKoO0LZjAe2HZmjOaTisK1pk-vu24,12
+apygit-0.0.5.dist-info/RECORD,,
