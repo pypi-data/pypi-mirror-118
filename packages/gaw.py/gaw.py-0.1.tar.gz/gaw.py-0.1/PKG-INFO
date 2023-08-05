@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: gaw.py
+Version: 0.1
+Summary: A package for guilded's api
+Home-page: https://guilded.gg
+Author: Elian Galdamez
+Author-email: elian.galdamez510@gmail.com
+License: UNKNOWN
+Description: # About
+         This is a python package/api wrapper for guilded
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
