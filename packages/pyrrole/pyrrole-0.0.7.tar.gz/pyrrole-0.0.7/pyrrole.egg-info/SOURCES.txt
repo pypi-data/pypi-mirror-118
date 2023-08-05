@@ -1,0 +1,10 @@
+LICENSE.md
+README.md
+setup.py
+pyrrole/__init__.py
+pyrrole/exception.py
+pyrrole/pyrrole.py
+pyrrole.egg-info/PKG-INFO
+pyrrole.egg-info/SOURCES.txt
+pyrrole.egg-info/dependency_links.txt
+pyrrole.egg-info/top_level.txt
