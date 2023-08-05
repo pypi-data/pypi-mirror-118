@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+mac_remote/__init__.py
+mac_remote/getmac_linux_fix.py
+mac_remote/ping.py
+mac_remote_command.egg-info/PKG-INFO
+mac_remote_command.egg-info/SOURCES.txt
+mac_remote_command.egg-info/dependency_links.txt
+mac_remote_command.egg-info/requires.txt
+mac_remote_command.egg-info/top_level.txt
