@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.cfg
+src/ruleof40/__init__.py
+src/ruleof40/ruleof40.py
+src/ruleof40.egg-info/PKG-INFO
+src/ruleof40.egg-info/SOURCES.txt
+src/ruleof40.egg-info/dependency_links.txt
+src/ruleof40.egg-info/top_level.txt
