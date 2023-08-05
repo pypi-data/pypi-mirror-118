@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pioner
+Version: 0.1.0
+Summary: Hawk controller
+Home-page: https://gitlab.com/air64/pioner
+Author: air64
+Author-email: contact.air64@yandex.ru
+Maintainer: air64 <contact.air64@yandex.ru>
+Maintainer-email: contact.air64@yandex.ru
+License: MIT
+Project-URL: Gitlab, https://gitlab.com/air64/pioner
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
