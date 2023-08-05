@@ -1,0 +1,10 @@
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+[tool.pytest.ini_options]
+testpaths = [
+    "tests"
+]
+
+[tool.mypy]
+files = "aws_xray_lambda_segment_shim/"

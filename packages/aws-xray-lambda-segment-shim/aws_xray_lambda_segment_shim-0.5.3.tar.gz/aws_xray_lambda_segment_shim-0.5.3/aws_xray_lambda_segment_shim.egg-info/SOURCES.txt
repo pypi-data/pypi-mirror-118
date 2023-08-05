@@ -1,0 +1,15 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+aws_xray_lambda_segment_shim/__init__.py
+aws_xray_lambda_segment_shim/exceptions.py
+aws_xray_lambda_segment_shim/py.typed
+aws_xray_lambda_segment_shim/recorder.py
+aws_xray_lambda_segment_shim/segment.py
+aws_xray_lambda_segment_shim.egg-info/PKG-INFO
+aws_xray_lambda_segment_shim.egg-info/SOURCES.txt
+aws_xray_lambda_segment_shim.egg-info/dependency_links.txt
+aws_xray_lambda_segment_shim.egg-info/requires.txt
+aws_xray_lambda_segment_shim.egg-info/top_level.txt
