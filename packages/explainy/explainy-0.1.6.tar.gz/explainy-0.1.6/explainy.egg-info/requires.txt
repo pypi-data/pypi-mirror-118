@@ -1,0 +1,4 @@
+Click>=7.0
+scikit-learn>=0.24.1
+pandas
+matplotlib
