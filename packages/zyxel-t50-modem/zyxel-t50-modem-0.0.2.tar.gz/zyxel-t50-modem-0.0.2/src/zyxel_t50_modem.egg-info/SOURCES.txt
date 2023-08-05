@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/zyxel_t50_modem.egg-info/PKG-INFO
+src/zyxel_t50_modem.egg-info/SOURCES.txt
+src/zyxel_t50_modem.egg-info/dependency_links.txt
+src/zyxel_t50_modem.egg-info/top_level.txt
+src/zyxelt50/__init__.py
+src/zyxelt50/helpers.py
+src/zyxelt50/modem.py
