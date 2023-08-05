@@ -1,0 +1,10 @@
+tap_zohosprints/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tap_zohosprints/client.py,sha256=_aQVkl8wNyoqtAu-xB1szrlXChqxWF2_Ayz5XYyVPd8,3997
+tap_zohosprints/streams.py,sha256=1GVi93DENA_UUWtKRDIgCJJ_TLRY0oilaft4YLnY0UI,1704
+tap_zohosprints/tap.py,sha256=CpuMuEaozTXTGgjUqWhH95BdAUeYoWKVcQrib6Cphac,1065
+tap_zohosprints/tests/__init__.py,sha256=Xe2ZYXTYoT_US5VcySNCh6ZGhz9No6pXx7S3h7mZ08w,38
+tap_zohosprints/tests/test_core.py,sha256=CcqInmYRjjF3T67pev8OtDjgqApteUGakwjv6-6efnI,663
+tap_zohosprints-0.0.1.dist-info/entry_points.txt,sha256=y_6duTMopN5biw8R7Fx_pdnXFmnFg38-X4aYiPvy0oU,74
+tap_zohosprints-0.0.1.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+tap_zohosprints-0.0.1.dist-info/METADATA,sha256=jDmznUTgPeGLMcb1buYJz6fcI28gjlDDc5GSTiIuMC0,511
+tap_zohosprints-0.0.1.dist-info/RECORD,,
