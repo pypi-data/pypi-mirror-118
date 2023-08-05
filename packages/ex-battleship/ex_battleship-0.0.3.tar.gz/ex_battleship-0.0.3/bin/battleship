@@ -1,0 +1,5 @@
+from ex_battleship.ex_battleship import battleship
+if __name__ == '__main__':
+    game1 = battleship(3)
+    game1.putship()
+    game1.guessship()
