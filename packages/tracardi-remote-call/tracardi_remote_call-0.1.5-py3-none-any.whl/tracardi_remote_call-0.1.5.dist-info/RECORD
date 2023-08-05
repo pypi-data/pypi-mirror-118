@@ -1,0 +1,10 @@
+tracardi_remote_call/plugin.py,sha256=-1nZ_GFnsPxuutP-wysEksAPrnxqvihva-HtoYS1HAA,3584
+tracardi_remote_call/model/configuration.py,sha256=pxf4KWzbvHP8JZ8e08bi44g6ce50BYN1Fw3bDGMJRpQ,702
+tracardi_remote_call/model/__pycache__/configuration.cpython-38.pyc,sha256=9GF-7w7RkfZj7vKEZ2iJ-U7gClZPNbYConwcOTxlRJI,1226
+tracardi_remote_call/test/manual/remote_call_test.py,sha256=kfrGvviEPvptUtCL3RwS05mDUSJcTpaQl82SEFEY2Kk,510
+tracardi_remote_call/test/unit/test_remote_call.py,sha256=Z49NioggYd_2zog0-hX0bmOPwuAcEYuSwrXySkc8Qrg,1138
+tracardi_remote_call-0.1.5.dist-info/LICENSE.md,sha256=l3ZUNaXLxnJvPaG7GYQk8VW6uUE0meUyDOrd7QXXu28,1072
+tracardi_remote_call-0.1.5.dist-info/METADATA,sha256=HvIuc-A192v7an-Ib_sro40wwMApbWSxgoKFJY43Aco,1550
+tracardi_remote_call-0.1.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+tracardi_remote_call-0.1.5.dist-info/top_level.txt,sha256=7yL6GsnAOcELNCtf5_dzrg-0wOSEzq0JRIycw5muoHs,21
+tracardi_remote_call-0.1.5.dist-info/RECORD,,
