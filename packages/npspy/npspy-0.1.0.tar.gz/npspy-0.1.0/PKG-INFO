@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: npspy
+Version: 0.1.0
+Summary: 
+Author: dr666m1
+Author-email: skndr666m1@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+# npspy
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+npspy is a simple package to calculate [NPS](https://en.wikipedia.org/wiki/Net_promoter_score) (Net Promoter Score).
+
+
+## Install
+```
+pip install npspy
+```
+
+## Example
+
+```python
+import npspy
+
+npspy.categorize(0)  # "detractor"
+npspy.categorize(7)  # "passive"
+npspy.categorize(9)  # "promoter"
+
+npspy.calculate([0, 7, 9])  # 0
+npspy.calculate([7, 9])  # 50
+npspy.calculate([0, 7])  # -50
+```
+
