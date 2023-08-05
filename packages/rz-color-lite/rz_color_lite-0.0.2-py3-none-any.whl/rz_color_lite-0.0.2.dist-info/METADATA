@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: rz-color-lite
+Version: 0.0.2
+Summary: Rich Zhang's colorization caffe model in the form of an easy to use python package.
+Home-page: https://github.com/arnavg115/colorization
+Author: Arnav G.
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: tqdm
+Requires-Dist: opencv-python
+Requires-Dist: numpy
+
+# RZ colorizer lite
+
+This is the lite version of the colorizer using the caffe models from richard Zhang.
+
+## Usage
+
+```python
+from colorizer_lite import Colorizer
+model = Colorizer()
+color_image = Colorizer.pipeline("pathtobwimg.jpg")
+# color_image is a np array which can be displayed or saved using opencv
+```
+
+
