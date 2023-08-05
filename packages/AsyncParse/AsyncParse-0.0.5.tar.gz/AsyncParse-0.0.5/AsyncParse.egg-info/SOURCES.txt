@@ -1,0 +1,14 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+AsyncParse/__init__.py
+AsyncParse/proxy.py
+AsyncParse/request.py
+AsyncParse/utility.py
+AsyncParse.egg-info/PKG-INFO
+AsyncParse.egg-info/SOURCES.txt
+AsyncParse.egg-info/dependency_links.txt
+AsyncParse.egg-info/requires.txt
+AsyncParse.egg-info/top_level.txt
