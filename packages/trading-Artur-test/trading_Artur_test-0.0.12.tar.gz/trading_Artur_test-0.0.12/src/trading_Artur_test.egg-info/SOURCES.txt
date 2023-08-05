@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/trading_Artur_test/__init__.py
+src/trading_Artur_test/_version.py
+src/trading_Artur_test/example.py
+src/trading_Artur_test.egg-info/PKG-INFO
+src/trading_Artur_test.egg-info/SOURCES.txt
+src/trading_Artur_test.egg-info/dependency_links.txt
+src/trading_Artur_test.egg-info/requires.txt
+src/trading_Artur_test.egg-info/top_level.txt
