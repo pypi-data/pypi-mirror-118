@@ -1,0 +1,50 @@
+{% extends "bands_base.html.jinja" %}
+{% block content %}
+<div class="bands_card">
+  <div class="bands_inner scroll-style">
+    <img class="bands_center" src="https://seerai.space/images/Logo.svg"></img>
+    <h2 class="card-title">{{ bands._ds_name }}</h3>
+    <div class="bands_content scroll-style">
+      <div class="text-box text-description">
+        <p class="card-text text-description"><b>Number of Bands:</b> {{ bands | length() }}</p>
+      </div>
+      <h3 class="bands-header">Band Details</h3>
+      {% for band_name, band_info in bands.items() %}
+      <div class="band">
+        <button type="button" class="collapsible">{{ band_name }} - {{ band_info.title }}</button>
+        <div class="coll_content">
+            <ul>
+            {% for prop, val in band_info.items() %}
+                {% if prop == 'eo' %}
+                {% for eo_n, eo_i in val.bands[0].items() %}
+                    <li> {{ eo_n }}: {{ eo_i }} </li>
+                {% endfor %}
+                {% else %}
+                    <li> {{ prop|e }} : {{ val|e }}</li>
+                {% endif %}
+            {% endfor %}
+            </ul>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+</script>
+{% endblock content %}
