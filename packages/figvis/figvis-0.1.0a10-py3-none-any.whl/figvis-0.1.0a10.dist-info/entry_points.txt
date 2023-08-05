@@ -1,0 +1,3 @@
+[console_scripts]
+figvis=figvis.cli.main:app
+
