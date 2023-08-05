@@ -1,0 +1,8 @@
+PIOntologyExtractor/__init__.py,sha256=tAllEp7F36nFXKEylCjpclrtjmcVblS63Q3p4t2saeA,108
+PIOntologyExtractor/DBManager.py,sha256=q39LBHEr9vdiPIqduIj26X08S6iNsti4J_klvnfw50k,1499
+PIOntologyExtractor/Extractor/__init__.py,sha256=2aeD6wxCaCMxIhLNPcvArJTLSbiYdmI3NywnsWviSY0,32
+PIOntologyExtractor/Extractor/Extractor.py,sha256=ijmitJKhX-MEFwi5pr3opRVumeCmiD4n0FlfFxjdlmk,9068
+PIOntologyExtractor/Visualizer.py,sha256=IWweke7pCzCDlFGTOiKpH-DrnQG4N57g83sucgDWzLg,4745
+piontologyextractor-0.1.0.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+piontologyextractor-0.1.0.dist-info/METADATA,sha256=xacsR55vk0IAcJlUKh7Wx2CuFiVR7d35o4mUgiNYArc,648
+piontologyextractor-0.1.0.dist-info/RECORD,,
