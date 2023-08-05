@@ -1,0 +1,5 @@
+apksigcopier
+asn1crypto
+click>=6.0
+cryptography
+simplejson

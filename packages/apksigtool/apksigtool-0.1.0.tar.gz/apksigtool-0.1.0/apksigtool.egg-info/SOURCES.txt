@@ -1,0 +1,12 @@
+LICENSE.AGPLv3
+MANIFEST.in
+Makefile
+README.md
+apksigtool.py
+setup.py
+apksigtool.egg-info/PKG-INFO
+apksigtool.egg-info/SOURCES.txt
+apksigtool.egg-info/dependency_links.txt
+apksigtool.egg-info/entry_points.txt
+apksigtool.egg-info/requires.txt
+apksigtool.egg-info/top_level.txt
