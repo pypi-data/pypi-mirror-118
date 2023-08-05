@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: flask-aserto
+Version: 0.1.0
+Summary: Aserto integration for Flask
+Home-page: https://github.com/aserto-dev/aserto-python/tree/HEAD/packages/flask-aserto
+License: Apache-2.0
+Author: Aserto, Inc.
+Author-email: pypi@aserto.com
+Maintainer: authereal
+Maintainer-email: authereal@aserto.com
+Requires-Python: >=3.7,<4.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Typing :: Typed
+Requires-Dist: aserto (>=0.1.1,<0.2.0)
+Requires-Dist: typing-extensions (>=3.10.0,<4.0.0)
+Project-URL: Documentation, https://github.com/aserto-dev/aserto-python/tree/HEAD/packages/flask-aserto
+Project-URL: Repository, https://github.com/aserto-dev/aserto-python/tree/HEAD/packages/flask-aserto
