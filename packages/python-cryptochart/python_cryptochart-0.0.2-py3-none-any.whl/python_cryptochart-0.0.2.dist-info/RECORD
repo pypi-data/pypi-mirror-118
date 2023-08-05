@@ -1,0 +1,11 @@
+cryptochart/__init__.py,sha256=itSMnAshJ5Hq_Kb1fclpx3zuymnxSJggZDpbGbcWoEs,78
+cryptochart/__main__.py,sha256=xD9rIju1_DGzisMPmRGEahfnAReio0IY8FRrnmTr9as,181
+cryptochart/chart.py,sha256=ZOLnVhuIOti1rJZAcdfa9re51yEih23kk6IqyIgJBhY,3736
+cryptochart/kraken.py,sha256=ljq6IV-BZh3J_OTcI4IrrPpUmx45v9yFYujUQMlqXF8,1975
+cryptochart/main.py,sha256=d_pjRyAebCFXKF9U0WB4ovvGQR9NMzH8rA49Jl__YlQ,4828
+cryptochart/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+python_cryptochart-0.0.2.dist-info/LICENSE.md,sha256=gq5k6CUKbpEy4QJq8kWdGYuN1XRJyRxCbYnmzK8W_aQ,733
+python_cryptochart-0.0.2.dist-info/METADATA,sha256=cwTDFNyYntxG6o0jIUM0umGZJ9vxtqHie5YLSdCXg1s,2609
+python_cryptochart-0.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+python_cryptochart-0.0.2.dist-info/top_level.txt,sha256=OdNQ6ZDoeAmvp9N92ny2zN6bsCbzblRYDkfq7E0Xyjw,12
+python_cryptochart-0.0.2.dist-info/RECORD,,
