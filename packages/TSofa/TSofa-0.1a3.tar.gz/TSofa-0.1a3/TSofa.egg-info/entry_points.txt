@@ -1,0 +1,5 @@
+[console_scripts]
+tsofa-dsec-prd = tsofa._views._dsec_prd:main
+tsofa-dsec-pred = tsofa._views._dsec_pred:main
+tsofa-psec-pad = tsofa._views._psec_pad:main
+
