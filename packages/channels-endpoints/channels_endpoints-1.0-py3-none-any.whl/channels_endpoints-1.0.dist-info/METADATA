@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: channels-endpoints
+Version: 1.0
+Summary: Django channels endpoints
+Home-page: https://github.com/avigmati/channels_endpoints
+Author: avigmati
+Author-email: avigmati@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/avigmati/channels_endpoints/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Django channels endpoints
+
+This package provides endpoints as functions for 
+[django-channels](https://github.com/django/channels)
+package. Like this:
+
+```python
+from channels_endpoints.main import endpoint, Response
+from django.contrib.auth.models import User
+users_logger = logging.getLogger('users')
+
+
+@endpoint(logger=users_logger, permissions=[UsersPermissions], timeout=42)
+async def get_users(request):
+    def _get():
+        return User.objects.all()
+    return Response(
+        request,
+        await sync_to_async(_get)()
+    )
+```
+
+# Installation
+
+```shell
+pip install channels-endpoints
+```
+
+# Usage
+
+See django project example [chat_project](https://github.com/avigmati/chat_project)
+
