@@ -1,0 +1,11 @@
+robloxpy/Utils.py,sha256=_iSrCPuTDqmCEJiVPRkWFDVx_auxXdHE8ez3ka8Nths,2425
+robloxpy/__init__.py,sha256=fty3caWxRsI81ozHn0lKiz_cgvQ1aPODAc07v3RdbjM,973
+robloxpy/asset.py,sha256=7Sl2YU7hY0XzuBEMnZLc1vIrw81CiPUWsx4QLFYf2L8,2766
+robloxpy/errors.py,sha256=gKWGuWjt0WdCCrBn6J0nVeNfNAnrPvoIEv-uI3N7WR8,194
+robloxpy/game.py,sha256=QpfY044X9iOjlbdlvBYe8-Gnc_lVff8_2fELi1GP1SQ,8589
+robloxpy/group.py,sha256=s9Cmvalo0704NVPJ_Hfi58Vb-j_M41A66xXjrPlsEiA,3349
+robloxpy/user.py,sha256=fenM1CveYgK0tZka1LxKuhj4fYzIpdAp-J43E1OUlZo,11829
+robloxpy-1.0.0a1.dist-info/METADATA,sha256=6hRve9tORt2sX9UL2qmlXOCdIIfpz65T0Faf_Yr_42o,341
+robloxpy-1.0.0a1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+robloxpy-1.0.0a1.dist-info/top_level.txt,sha256=vniPKLzCDZipTRbc_cRhViT2ocK2-sLcolEs-f509RA,9
+robloxpy-1.0.0a1.dist-info/RECORD,,

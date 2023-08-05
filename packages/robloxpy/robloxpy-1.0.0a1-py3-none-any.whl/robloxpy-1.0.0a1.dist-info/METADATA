@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: robloxpy
+Version: 1.0.0a1
+Summary: RobloxPy is an object oriented python wrapper for the roblox API.
+Home-page: https://github.com/KristanSmout/RobloxPyOfficial/tree/1.0
+Author: KristanSmout & anytarseir67
+Author-email: 
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: requests
+Requires-Dist: urllib3
+
+UNKNOWN
+
