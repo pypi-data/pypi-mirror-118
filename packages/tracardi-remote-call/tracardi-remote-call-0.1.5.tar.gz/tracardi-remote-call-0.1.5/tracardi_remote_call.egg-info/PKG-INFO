@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: tracardi-remote-call
+Version: 0.1.5
+Summary: This plugin calls remote API.
+Home-page: UNKNOWN
+Author: Risto Kowaczewski
+Author-email: risto.kowaczewski@gmail.com
+License: UNKNOWN
+Keywords: tracardi,plugin
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+# Remote call plugin
+
+This plugin calls remote API.
+
+# Configuration
+
+```json
+{
+  "method": "get",
+  "url": "http://localhost:80/API",
+  "timeout": 30,
+  "headers": {
+    "X-Customer-Header": "Header value"
+  },
+  "cookies": {
+    "Cookie-Key": "Cookie value"
+  },
+  "sslCheck": true
+}
+```
+
+This configuration defines API url as "http://loclhost:80/API".
+
+# Payload
+
+Payload for this plugin defines a JSON data to be sent. 
+
+If user requires this payload to be sent with GET method than payload will be squashed to represent keys and values.
+
+For example this JSON:
+
+```json
+{
+  "payload": { 
+    "mobile": "android"
+  },
+  "version": [10,11]
+}
+```
+
+Will be flattened to parameters:
+
+```
+payload.mobile=android&version=10&verison=11
+```
+
+# Result
+
+This plugin returns either the response (on response port) or and error on error port.
+
+Valid response is:
+
+```json
+{
+  "status": 200,
+  "content": {
+    ... response as json
+  }
+}
+```
+
+
