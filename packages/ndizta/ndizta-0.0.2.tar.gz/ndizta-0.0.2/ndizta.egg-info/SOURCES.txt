@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+ndizta/__init__.py
+ndizta/core.py
+ndizta.egg-info/PKG-INFO
+ndizta.egg-info/SOURCES.txt
+ndizta.egg-info/dependency_links.txt
+ndizta.egg-info/requires.txt
+ndizta.egg-info/top_level.txt
+src/fib.cpp
