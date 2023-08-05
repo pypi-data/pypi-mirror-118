@@ -1,0 +1,7 @@
+setup.py
+my_exeption/__init__.py
+my_exeption/main_exception.py
+my_logs_zdeny.egg-info/PKG-INFO
+my_logs_zdeny.egg-info/SOURCES.txt
+my_logs_zdeny.egg-info/dependency_links.txt
+my_logs_zdeny.egg-info/top_level.txt
