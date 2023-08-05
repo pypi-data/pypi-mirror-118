@@ -1,0 +1,3 @@
+[console_scripts]
+lm-dataloader = lm_dataloder.cmd_line:main
+
