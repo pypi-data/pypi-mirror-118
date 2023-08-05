@@ -1,0 +1,26 @@
+{
+  "project_name": {
+    "type": "string"
+  },
+  "project_description": {
+    "type": "string"
+  },
+  "db_info": {
+    "type": "dict"
+  },
+  "enable_redis": {
+    "type": "bool"
+  },
+  "ci_type": {
+    "type": "string"
+  },
+  "enable_alembic": {
+    "type": "bool"
+  },
+  "enable_kube": {
+    "type": "bool"
+  },
+  "_extensions": [
+    "cookiecutter.extensions.RandomStringExtension"
+  ]
+}
