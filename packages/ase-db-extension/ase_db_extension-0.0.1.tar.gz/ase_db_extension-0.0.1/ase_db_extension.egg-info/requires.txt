@@ -1,0 +1,11 @@
+pandas
+joblib
+matplotlib
+deprecated
+pathlib
+requests
+tqdm
+mgetool
+pymatgen
+numba
+ase
