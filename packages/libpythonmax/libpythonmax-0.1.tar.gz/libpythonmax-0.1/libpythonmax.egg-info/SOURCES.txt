@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+libpythonmax/__init__.py
+libpythonmax/github_api.py
+libpythonmax.egg-info/PKG-INFO
+libpythonmax.egg-info/SOURCES.txt
+libpythonmax.egg-info/dependency_links.txt
+libpythonmax.egg-info/not-zip-safe
+libpythonmax.egg-info/requires.txt
+libpythonmax.egg-info/top_level.txt
