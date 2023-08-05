@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: thunes-py
+Version: 0.2a3
+Summary: Thunes Python Lib
+Home-page: https://pypi.org/project/thunes/
+Author: Ilton Ingui
+Author-email: iltoningui@outlook.com
+License: UNKNOWN
+Keywords: thunes,api,online,payment
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: astroid (==2.5)
+Requires-Dist: atomicwrites (==1.4.0)
+Requires-Dist: attrs (==21.2.0)
+Requires-Dist: build (==0.6.0.post1)
+Requires-Dist: certifi (==2021.5.30)
+Requires-Dist: chardet (==4.0.0)
+Requires-Dist: colorama (==0.4.4)
+Requires-Dist: flake8 (==3.8.4)
+Requires-Dist: idna (==2.10)
+Requires-Dist: iniconfig (==1.1.1)
+Requires-Dist: isort (==5.9.3)
+Requires-Dist: lazy-object-proxy (==1.6.0)
+Requires-Dist: mccabe (==0.6.1)
+Requires-Dist: packaging (==21.0)
+Requires-Dist: pep517 (==0.11.0)
+Requires-Dist: pluggy (==0.13.1)
+Requires-Dist: py (==1.10.0)
+Requires-Dist: pycodestyle (==2.6.0)
+Requires-Dist: pyflakes (==2.2.0)
+Requires-Dist: pylint (==2.6.0)
+Requires-Dist: pyparsing (==2.4.7)
+Requires-Dist: pytest (==6.2.2)
+Requires-Dist: requests (==2.25.1)
+Requires-Dist: toml (==0.10.2)
+Requires-Dist: tomli (==1.2.1)
+Requires-Dist: urllib3 (==1.26.6)
+Requires-Dist: wrapt (==1.12.1)
+
+# Thunes
+
+[![pypi](https://github.com/iltoningui/thunes-py/actions/workflows/python-publish.yml/badge.svg?branch=publish)](https://github.com/iltoningui/thunes-py/actions/workflows/python-publish.yml)
+[![package](https://github.com/iltoningui/thunes-py/actions/workflows/python-package.yml/badge.svg?branch=main)](https://github.com/iltoningui/thunes-py/actions/workflows/python-package.yml)
+[![pylint](https://github.com/iltoningui/thunes-py/actions/workflows/pylint.yml/badge.svg?branch=main)](https://github.com/iltoningui/thunes-py/actions/workflows/pylint.yml)
+
+This Library perform operations
+
+## Features
+
+## Docs
+
+## Instalation
+
+## Setup
+
+## Use
+
+### Create Instance
+
+### 
+
