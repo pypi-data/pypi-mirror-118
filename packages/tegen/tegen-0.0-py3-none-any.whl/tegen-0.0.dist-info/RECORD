@@ -1,0 +1,11 @@
+tegen/__init__.py,sha256=Y4oGDWEVFqtUTRcGLqjID2GF3-30I90DkpnXVJBLzoc,116
+tegen/game.py,sha256=mLBSCCMNJMkTl7rPKUqPDKpQNvm58Ow--_Q7fSAA0LA,11159
+tegen/objects.py,sha256=pzWsrxBak11orV3EHrUBoXE-CZb_rjCxq0fBwSBAer4,8187
+tegen/pixel.py,sha256=Q4XibEYh-BVIW5GSexMe7bVCs9xA7Evn1B2tS1kLjaw,5492
+tegen/scene.py,sha256=XAevnsDPDW0rB8pYfOhsGBDou_XZbmi8zjFQdXi06ys,2471
+tegen/examples/tictactoe.py,sha256=hTgtnr6U5Rhw--Bnr_Tsd4KQtFqtf6kTnRMFVqTBv1o,3981
+tegen-0.0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+tegen-0.0.dist-info/METADATA,sha256=APhgfh1mKeCvffdTCH4660J4UeNE92xA-uNmE7FZgfc,3179
+tegen-0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+tegen-0.0.dist-info/top_level.txt,sha256=6FS1a4HUDyLnlA3Po1moy5w-QegEreQ0YIzRKrmJUIs,6
+tegen-0.0.dist-info/RECORD,,
