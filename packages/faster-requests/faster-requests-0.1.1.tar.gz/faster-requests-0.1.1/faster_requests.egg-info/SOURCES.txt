@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+faster_requests/__init__.py
+faster_requests.egg-info/PKG-INFO
+faster_requests.egg-info/SOURCES.txt
+faster_requests.egg-info/dependency_links.txt
+faster_requests.egg-info/top_level.txt
