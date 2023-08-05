@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+Flask_SpaProxy.egg-info/PKG-INFO
+Flask_SpaProxy.egg-info/SOURCES.txt
+Flask_SpaProxy.egg-info/dependency_links.txt
+Flask_SpaProxy.egg-info/requires.txt
+Flask_SpaProxy.egg-info/top_level.txt
+flask_spaproxy/__init__.py
+flask_spaproxy/reverse_proxy.py
+flask_spaproxy/spa_proxy.py

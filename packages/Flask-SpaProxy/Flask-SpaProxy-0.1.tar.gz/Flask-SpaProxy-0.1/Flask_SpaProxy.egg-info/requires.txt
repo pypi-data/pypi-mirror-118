@@ -1,0 +1,9 @@
+flask
+requests
+
+[dev]
+alfred-cli
+build
+pylint
+coverage
+twine
