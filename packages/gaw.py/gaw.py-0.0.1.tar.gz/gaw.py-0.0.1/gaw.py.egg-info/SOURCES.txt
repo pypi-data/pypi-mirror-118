@@ -1,0 +1,6 @@
+gaw/setup.py
+gaw.py.egg-info/PKG-INFO
+gaw.py.egg-info/SOURCES.txt
+gaw.py.egg-info/dependency_links.txt
+gaw.py.egg-info/top_level.txt
+gaw/gaw/__init__.py
