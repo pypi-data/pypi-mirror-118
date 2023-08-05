@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: clavier
+Version: 0.1.0
+Summary: A light and not-so-bright CLI framework for Python
+Home-page: https://github.com/experf/clavier
+Author: Neil Souza, Expanded Performance Inc
+Author-email: src@expand.live
+License: UNKNOWN
+Description: clavier
+        ==============================================================================
+        
+        A light and not-so-bright CLI framework for Python.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: POSIX
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
