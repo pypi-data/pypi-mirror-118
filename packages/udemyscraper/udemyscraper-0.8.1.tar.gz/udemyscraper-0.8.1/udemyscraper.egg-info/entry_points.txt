@@ -1,0 +1,3 @@
+[console_scripts]
+udemyscraper = udemyscraper.udscraperscript:main
+
