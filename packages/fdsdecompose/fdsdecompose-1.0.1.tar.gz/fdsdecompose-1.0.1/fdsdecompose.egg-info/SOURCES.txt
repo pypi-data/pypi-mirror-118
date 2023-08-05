@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+fdsdecompose/__init__.py
+fdsdecompose/main.py
+fdsdecompose/mesh.py
+fdsdecompose.egg-info/PKG-INFO
+fdsdecompose.egg-info/SOURCES.txt
+fdsdecompose.egg-info/dependency_links.txt
+fdsdecompose.egg-info/entry_points.txt
+fdsdecompose.egg-info/top_level.txt
