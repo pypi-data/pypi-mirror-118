@@ -1,0 +1,5 @@
+apache-airflow>=2.0.0
+kubernetes>=11.0.0
+
+[tests]
+pytest
