@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: zeratool
+Version: 1
+Summary: Automatic Exploit Generation (AEG) and remote flag capture for exploitable CTF problems
+Home-page: https://github.com/ChrisTheCoolHut/Zeratool
+Author: Christoppher Roberts
+Author-email: 
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: angr
+Requires-Dist: r2pipe
+Requires-Dist: claripy
+Requires-Dist: IPython
+Requires-Dist: timeout-decorator
+Requires-Dist: pwntools
+Requires-Dist: tox
+Requires-Dist: tqdm
+
+UNKNOWN
+
