@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+parallelbam/__init__.py
+parallelbam/src.py
+parallelbam.egg-info/PKG-INFO
+parallelbam.egg-info/SOURCES.txt
+parallelbam.egg-info/dependency_links.txt
+parallelbam.egg-info/top_level.txt
+parallelbam/bash_scripts/mergeBAMs.sh
+parallelbam/bash_scripts/splitBAM.sh
