@@ -1,0 +1,15 @@
+mathpad/__init__.py,sha256=qCdnKgao0_qT2SphJVSg2woA1eUWgSU7SSugHZe5_AU,382
+mathpad/_generate_units.py,sha256=dbFnmd6Ii428EBU7GLCC-1cZz3ecpFqGAmmoO6PuCX8,2336
+mathpad/constants.py,sha256=T_fny7GeUMkCmiD0nK9c2CmGd5lEOtl9qJB7ngHX-GM,1137
+mathpad/elec.py,sha256=kMKsSLhiDVUSdA2xktODdvZsDH9EugL7RBjqoqS5Vac,257
+mathpad/equation.py,sha256=Z3y8-Ms5tUbYivBKonF0B6Rwet5lCP_ol4anD-jwtks,1795
+mathpad/physical_quantities.py,sha256=9XrTMZuoX4uKrLu7vGL6DBXJJeHoQbQWUuI240LOlsw,4399
+mathpad/physical_quantity.py,sha256=j4ZpAXthLyPaxvxz3Xf56ey5ldieLVuf_w8oB9mLIfE,11310
+mathpad/solve.py,sha256=U9Bn9aIcUlfP8idt1k4edoLOplMcjzxcK7KMfcaFLIE,2769
+mathpad/state_vector.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mathpad/units.py,sha256=Q7BZPjv7grRywncwFgUVjnPV8UxLibU0oTyRY7DRlPU,8158
+mathpad/var.py,sha256=oCPR5ZifLpABeG6WrFU-NHVE0aD54ac_k74N0Ul2f70,279
+mathpad-0.1.2.dist-info/LICENSE,sha256=DCyFpoJApz-XBlTaBAl-TWh8zNgpYjI5iIeZrsptmQ4,1072
+mathpad-0.1.2.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+mathpad-0.1.2.dist-info/METADATA,sha256=Zt8S9_ejY_iYl2dbwVIsPGyfB6f59egcOoRr53fwx7Q,5209
+mathpad-0.1.2.dist-info/RECORD,,
