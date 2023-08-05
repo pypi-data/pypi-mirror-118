@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+idle_cn/__init__.py
+idle_cn/idle_cn.zip
+idle_cn.egg-info/PKG-INFO
+idle_cn.egg-info/SOURCES.txt
+idle_cn.egg-info/dependency_links.txt
+idle_cn.egg-info/top_level.txt
