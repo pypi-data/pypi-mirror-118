@@ -1,0 +1,16 @@
+Metadata-Version: 1.2
+Name: tagls
+Version: 0.0.1
+Summary: A language server based on tags
+Home-page: https://github.com/daquexian/tagls
+Author: daquexian
+Author-email: daquexian566@gmail.com
+License: Apache
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development
+Requires-Python: >=3.5
