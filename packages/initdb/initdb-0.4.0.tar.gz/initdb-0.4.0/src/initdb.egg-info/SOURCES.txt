@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+src/initdb/__init__.py
+src/initdb/__main__.py
+src/initdb/config.py
+src/initdb/sql_query.py
+src/initdb/utils.py
+src/initdb.egg-info/PKG-INFO
+src/initdb.egg-info/SOURCES.txt
+src/initdb.egg-info/dependency_links.txt
+src/initdb.egg-info/requires.txt
+src/initdb.egg-info/top_level.txt
