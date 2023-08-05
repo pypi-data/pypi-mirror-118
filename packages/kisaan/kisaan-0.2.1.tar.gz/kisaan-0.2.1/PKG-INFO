@@ -1,0 +1,33 @@
+Metadata-Version: 1.1
+Name: kisaan
+Version: 0.2.1
+Summary: A very basic discription
+Home-page: UNKNOWN
+Author: Joshua Lowe
+Author-email: josh@edublocks.org
+License: MIT
+Description: This is a very simple calculator that takes two numbers and either add, subtract, multiply or divide them.
+        
+        
+        Change Log
+        ==========
+        
+        0.0.1 (22/08/2021)
+        -------------------
+        - First Release
+        
+Keywords: kisaan
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.1
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
