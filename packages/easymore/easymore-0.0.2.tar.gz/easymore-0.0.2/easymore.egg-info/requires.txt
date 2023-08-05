@@ -1,0 +1,15 @@
+numpy
+xarray
+pandas
+netCDF4
+datetime
+
+[:python_version>'3.6']
+geopandas>=0.8.1
+shapely
+pyshp
+pysheds
+gdal
+geovoronoi
+json5
+rasterio
