@@ -1,0 +1,10 @@
+setup.py
+alphabet_soup/__init__.py
+alphabet_soup/soup.py
+as_project.egg-info/PKG-INFO
+as_project.egg-info/SOURCES.txt
+as_project.egg-info/dependency_links.txt
+as_project.egg-info/requires.txt
+as_project.egg-info/top_level.txt
+test/__init__.py
+test/soup_test.py
