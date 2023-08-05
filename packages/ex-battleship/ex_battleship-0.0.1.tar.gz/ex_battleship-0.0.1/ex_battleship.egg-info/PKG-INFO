@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: ex-battleship
+Version: 0.0.1
+Summary: ex_battleship is a free package to play the game Battleship, this is version 1, it may be different, you have to guess where the one and only ship (computer's ship) is. After you guess the first one, and it'll be easy!
+Home-page: UNKNOWN
+Author: Rigved Aneesh
+Author-email: rigved.bob@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: battleship,game
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
