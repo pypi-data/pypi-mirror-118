@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+jkhloufCalc.egg-info/PKG-INFO
+jkhloufCalc.egg-info/SOURCES.txt
+jkhloufCalc.egg-info/dependency_links.txt
+jkhloufCalc.egg-info/top_level.txt
+jkhloufcalc/__init__.py
