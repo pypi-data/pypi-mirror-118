@@ -1,0 +1,4 @@
+bibtexparser
+sys
+operator
+mysqlclient
