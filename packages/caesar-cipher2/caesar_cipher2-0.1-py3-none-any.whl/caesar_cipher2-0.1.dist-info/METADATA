@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: caesar-cipher2
+Version: 0.1
+Summary: this package can be used to make app to chat with someone with secrets messagesor send secrets messages to someone's number or email, hope u can have more ideas.this cipher can decode symbols and numbers
+Home-page: https://pypi.org/project/caesar_cipher2
+Author: Lennix Robles
+Author-email: ocho.contact.08@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
+
+UNKNOWN
+
+
