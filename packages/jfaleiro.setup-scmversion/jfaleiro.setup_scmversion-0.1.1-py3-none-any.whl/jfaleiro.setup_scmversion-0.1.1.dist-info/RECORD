@@ -1,0 +1,14 @@
+setup_scmversion/__init__.py,sha256=9ph5gdNMsvlMy5eqtp4M1-mR77agoBFAi_duC5B5vOA,1034
+setup_scmversion/_version.py,sha256=-6BStiQRisbJbKjI7v9SDuigk7mhybqBTeV9fFZhbNY,99
+setup_scmversion/command.py,sha256=OiQuX3HhI_mcA6JCYHI1EUBtfvVCebl7Uo_g0FVPzr4,1922
+setup_scmversion/main.py,sha256=l5iFj9nzp3athPB5F9POaHtgQYJikN7lEcdZqqdwUbw,6304
+setup_scmversion/parser.py,sha256=euWV4DV9E4epYhtIkIEUC8wgeSNtCGzunHj_MUhaGqA,5822
+setup_scmversion/scm/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+setup_scmversion/scm/git.py,sha256=OpX447SgX2c5UKdc-09y47FzWmwNCFp-Tp87QZHso98,5657
+setup_scmversion/setup_configuration.py,sha256=vDUa-auu_ksPoPuNRc7G9mB7u-XdB83iKxRcQbIKcuE,1234
+setup_scmversion/util.py,sha256=hCIj9139IWVqh_I_xH87AXajHLmwIubwMVXmjxgX1g0,1183
+jfaleiro.setup_scmversion-0.1.1.dist-info/entry_points.txt,sha256=Do1W9nucjhGDOovfdt9nnfU0tEdmgR0RpE7Uh5FylLI,57
+jfaleiro.setup_scmversion-0.1.1.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+jfaleiro.setup_scmversion-0.1.1.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+jfaleiro.setup_scmversion-0.1.1.dist-info/METADATA,sha256=PISstldnhksVjN38wjCU6VG2QgbZH6uyh1HgCCLkIwQ,8209
+jfaleiro.setup_scmversion-0.1.1.dist-info/RECORD,,
