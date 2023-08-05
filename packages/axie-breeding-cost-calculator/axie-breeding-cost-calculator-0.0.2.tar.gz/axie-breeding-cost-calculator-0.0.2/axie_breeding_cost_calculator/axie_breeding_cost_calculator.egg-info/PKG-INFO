@@ -1,0 +1,15 @@
+Metadata-Version: 1.2
+Name: axie-breeding-cost-calculator
+Version: 0.0.2
+Summary: Calculate how much SLP breeding cost will occur when pairing two Axies (Axie Infinity).
+Home-page: https://github.com/daflockinger
+Author: Florian Mitterbauer
+Author-email: UNKNOWN
+License: UNKNOWN
+Description-Content-Type: text/markdown
+Description: Axie Infinity breeding calculator, dude :)
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6

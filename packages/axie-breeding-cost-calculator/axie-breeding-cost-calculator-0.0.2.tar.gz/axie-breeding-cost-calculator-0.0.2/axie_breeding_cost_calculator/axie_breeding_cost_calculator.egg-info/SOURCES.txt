@@ -1,0 +1,6 @@
+README.md
+setup.py
+axie_breeding_cost_calculator/axie_breeding_cost_calculator.egg-info/PKG-INFO
+axie_breeding_cost_calculator/axie_breeding_cost_calculator.egg-info/SOURCES.txt
+axie_breeding_cost_calculator/axie_breeding_cost_calculator.egg-info/dependency_links.txt
+axie_breeding_cost_calculator/axie_breeding_cost_calculator.egg-info/top_level.txt
