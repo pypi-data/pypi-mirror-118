@@ -1,0 +1,12 @@
+BottleJwtAuth-21.8.30.data/data/examples/app.py,sha256=ErQIPxfuB5Ji6ygNykWV9CXZe56W9yfDZHkWJjnSkwo,1393
+JwtAuth/JWKS.py,sha256=ZtoEqeQPvs3izivRToxA-mTLTHQ6rlTJU4Lg7PuhZeM,4669
+JwtAuth/JwtEncoder.py,sha256=nvjTuHfL5zT7zj73HCa60W1NUusUlX_nU6o9C4VWzQA,3192
+JwtAuth/__init__.py,sha256=HPpKVri3XSBMWYIy3arhQhMmzRenk9q-IlKJXELAGFA,103
+JwtAuth/bottle_utils.py,sha256=LpI3baBM_5e2ahlppiHf_LDllt5xCzG2xGLqlPTRXes,2278
+JwtAuth/jwtAuth.py,sha256=R229eahxWM6EZMXzPJKbdH4GQFNwHgw8PDB3Ea9629I,6504
+JwtAuth/oidc_discover.py,sha256=a2t68F97vYzwqOQYaf7xb7N3Boy7-U58H77182kqGeI,1736
+BottleJwtAuth-21.8.30.dist-info/LICENSE.txt,sha256=IsKhNAExnuxGLWUOpUYTEH0JttGV2QexZXW-ttXs0YE,1067
+BottleJwtAuth-21.8.30.dist-info/METADATA,sha256=5hXOIl-NU8cPVfuaFoWpV1ozHYJHW2c93s44AlenLVI,6373
+BottleJwtAuth-21.8.30.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+BottleJwtAuth-21.8.30.dist-info/top_level.txt,sha256=6E8d7gdNQJjqBN26IYO-H-ox2M3W50ASbz70-UAyCKI,8
+BottleJwtAuth-21.8.30.dist-info/RECORD,,
