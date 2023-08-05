@@ -1,0 +1,16 @@
+sqla_wrapper/__init__.py,sha256=81PePlLxv6b1qbESfaU-QyqLdch1LDAyZa28hW4FgRg,204
+sqla_wrapper/alembic_wrapper.py,sha256=siIa5tzZqfNQTZTFocW9BORK2E4BfBtq95T88aPmbeo,12334
+sqla_wrapper/base_model.py,sha256=kvLbCr0uET_Nfh5BG3Fyt0E1VSehfHCQeXXKP8paVzI,1889
+sqla_wrapper/base_model_class.py,sha256=iMU0FwDrFA_ZMWxm2SDekE8TvIBkuS0y9_yoUzVonAg,235
+sqla_wrapper/sa.py,sha256=eBrxwHQC-Miyfkc5PBpA6Xanj1ihrhMz51LC3eoVNp0,70
+sqla_wrapper/session_class.py,sha256=r_k_MBx3U37iOFT3XeVUEhc0cKLjPpWrds2iuC1S8D4,1439
+sqla_wrapper/sqlalchemy_wrapper.py,sha256=fF-0uBSr7Q94PSSbD-rXDRPCnGc6U7eLRf2FSD75WSY,4834
+sqla_wrapper/ttransaction.py,sha256=2g9Fo7o5HHtdlsCKrzRvKqbMq9ot55EUtf8-X3LCBXI,1235
+sqla_wrapper/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sqla_wrapper/cli/click_cli.py,sha256=dPFn6OCxEyE2AZtPCDWLovsA5d7RDjVsbls7oeNkGnk,3377
+sqla_wrapper/cli/pyceo_cli.py,sha256=JdOLxOYlkngzUvFHS2TidIHU3W21-pSYYgErh9gURw8,496
+sqla_wrapper-5.0.0.dev4.dist-info/METADATA,sha256=RGsi02Y7gtIT7ri7RH9w1_w16-x-Zx2_gqqQjKaLvS8,2109
+sqla_wrapper-5.0.0.dev4.dist-info/MIT-LICENSE,sha256=cSUFWiA4qhy966THh-vP7VQdNhyZbuxtg5jG0h6W4h8,1063
+sqla_wrapper-5.0.0.dev4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+sqla_wrapper-5.0.0.dev4.dist-info/top_level.txt,sha256=9Txu75Wb1k0pYn8B1AhQUb5YOOwaMFb1dPPJAAgCTro,13
+sqla_wrapper-5.0.0.dev4.dist-info/RECORD,,
