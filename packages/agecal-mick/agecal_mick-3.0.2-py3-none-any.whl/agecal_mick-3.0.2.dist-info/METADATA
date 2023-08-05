@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: agecal-mick
+Version: 3.0.2
+Summary: Compare age with mickzaa return older or younger
+Home-page: UNKNOWN
+Author: Mickzaa
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+# agecal
+## This library provides 
+1. say "Hi Everyone"
+2. Compare age between user and I whether who is younger or older
+   - It takes user's age as an input.
+
+## Installation
+```pip install agecal-mick```
+
+## How to use it?
+```import agecal```<br />
+```from agecal import greeting```<br />
+```from agecal import compareage```<br />
+
+### To print "Hi everyone"
+```greeting.sayHi()``` 
+
+### Comparing the age between user and I. It takes user's age as an input and print younger or older as an output.
+```compareage.compare_my_age()``` 
+
+## License
+Copyright 2021 Mickzaa
+
