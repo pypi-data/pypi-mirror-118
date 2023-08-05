@@ -1,0 +1,9 @@
+pandas
+numpy
+psycopg2
+h2o
+gdal
+scipy
+typing
+datetime
+boto3
