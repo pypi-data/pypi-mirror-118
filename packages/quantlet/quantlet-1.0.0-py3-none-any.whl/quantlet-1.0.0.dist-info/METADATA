@@ -1,0 +1,282 @@
+Metadata-Version: 2.1
+Name: quantlet
+Version: 1.0.0
+Summary: QuantLET - an event driven framework for large scale real-time analytics
+Home-page: https://gitlab.com/quantlet/quantlet
+License: AGPL-3.0-or-later
+Author: J Faleiro
+Author-email: j@falei.ro
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Provides-Extra: agents
+Provides-Extra: coverage
+Provides-Extra: dl
+Provides-Extra: interactive-dev
+Provides-Extra: ml
+Provides-Extra: reactives
+Provides-Extra: strats
+Provides-Extra: streaming
+Provides-Extra: tests
+Provides-Extra: timeseries
+Requires-Dist: PyHamcrest; extra == "tests" or extra == "coverage"
+Requires-Dist: autopep8 (>=1.5.5,<2.0.0); extra == "interactive-dev"
+Requires-Dist: coverage (>=5.4,<6.0); extra == "coverage"
+Requires-Dist: flake8 (>=3.8.4,<4.0.0); extra == "interactive-dev"
+Requires-Dist: isort (>=5.7.0,<6.0.0); extra == "interactive-dev"
+Requires-Dist: pre-commit (>=2.10.1,<3.0.0); extra == "interactive-dev"
+Requires-Dist: pylint (>=2.7.0,<3.0.0)
+Requires-Dist: pytest (>=6.2.2,<7.0.0); extra == "tests" or extra == "coverage"
+Requires-Dist: quantlet.agents (>=0.0.1,<0.0.2); extra == "agents"
+Requires-Dist: quantlet.core (>=0.0.3,<0.0.4)
+Requires-Dist: quantlet.ml (>=0.0.3,<0.0.4); extra == "ml"
+Requires-Dist: quantlet.reactives (>=0.0.2,<0.0.3); extra == "reactives"
+Requires-Dist: quantlet.strats (>=0.0.2,<0.0.3); extra == "strats"
+Requires-Dist: quantlet.streaming (>=1.0.0,<2.0.0); extra == "streaming"
+Requires-Dist: quantlet.timeseries (>=0.0.2,<0.0.3); extra == "timeseries"
+Requires-Dist: rope (>=0.18.0,<0.19.0); extra == "interactive-dev"
+Description-Content-Type: text/markdown
+
+QuantLET
+========
+
+>
+> **QuantLET** - an event driven framework for large scale real-time analytics.
+>
+> Copyright (C) 2006 Jorge M. Faleiro Jr.
+>
+
+QuantLET is an open source, event-driven framework for rapid development and deployment of real-time analytical
+models intended to be executing in large scale, in terms of data intensiveness or computing power (your spreadsheet can't do that).
+
+You can see a [few examples of the framework](https://quantlet.wordpress.com/box/) outlining the use of signals in a moving average cross-over strategy or how to define and use 'infinite spreadsheets'.
+
+There is also a large number of examples produced during my doctorate research and sprinkled across many articles. The [Black Magic paper](https://arxiv.org/abs/1808.07949) describes an end-to-end investigation of the use of data to detect profit opportunities in equities using price momentum. The financial language [SIGMA](https://arxiv.org/abs/1809.06471) also part of the same research borrowed some ideas from QuantLET, and vice-versa.
+
+The nature of any quantitative framework require a number of quite heavy auxiliary libraries and resources. QuantLET is no exception. You can pick and choose a specific extensions (as python extras) based on what you intend to do with the framework.
+
+## Development
+
+If you intend to try out the source code please make yourself aware of the [license](https://www.gnu.org/licenses/agpl-3.0.en.html). It is recommended the use of containers and cloud services. At the time of this writing I used `VSCode` and `Remote Containers`. You will also need `poetry` and `pre-commit`.
+
+```bash
+git clone git@gitlab.com:jfaleiro/quantlet.git
+cd quantlet
+poetry install
+```
+
+All code check and quality procedures are done as part of `pre-commit`. These checks are mandatory and are a condition for automatic build and release.
+
+```bash
+poetry shell
+pre-commit install
+```
+
+Git pre commit hooks are installed and from this point on all checks are done locally as a condition for a `git commit` to succeed. CI-CD is done by `gitlab`. You can find the spec for each component in the source tree.
+
+## Use
+
+Typical `setuptools` use through `pip`. You can use the bare bones version:
+
+```bash
+pip install quantlet
+```
+
+Or any of the extensions (extras). If you need one single extension, say `strats`:
+
+```bash
+pip install quantlet[strats]
+```
+
+If you want multiple extensions, like reactives and deep learning for example, you add each extension separated by comma:
+
+```bash
+pip install quantlet[reactives,dl]
+```
+
+You don't want to use the wildcard `quantlet[*]` and install all extras. Python is not really an environment geared toward large scale software development and this will bring in all depenedencies, across all extensions. In `pip` and `poetry` for example this might lead to a few hours of dependency resolution alone. There are way more uses and features in QuantLET than we would like to admit and you can possibly need for one application, so be parcimonious.
+
+Each extension is defined in a project named `quantlet-[extension]`. Dependencies on QuantLET's `pyproject.toml` are defined like this:
+
+```toml
+"quantlet.reactives" = {git = "https://gitlab.com/jfaleiro/quantlet-reactives.git", rev = "release/0.0.1", develop=true, optional=true}
+```
+
+This type of dependency is resolved through `git`. In each case you might need read access to the specific `gitlab` repository. Feel free to investigate and get in touch if you need access or details.
+
+
+## quantlet-streams
+
+QuantLET elements of stream processing (filtering, grouping, selection, functional operations) on canonical and data frames format.
+
+```python
+[1, 3, 4, 7, 8] >> apply(lambda x: dict(x=x))) == [
+    {'x': 1},
+    {'x': 3},
+    {'x': 4},
+    {'x': 7},
+    {'x': 8}
+]
+```
+
+This is the _streaming facet_ defined as part of the financial language [SIGMA](https://arxiv.org/abs/1809.06471).
+
+## quantlet-reactives
+
+Fast and simple framework for reactive programming. A declarative paradigm that allows the definition of what has to be done through reactive relationships, letting the computational representation automatically take care of when to do it, and which results are produced, similar to cells in an electronic spreadsheet representing values and a formula.
+
+```python
+v = [R(i) for _ in range(10000)]
+c = sum(*v)
+for i in v:
+    i.v = normal()
+print(c.v)
+>> 0.0035
+```
+
+This is the _reactives facet_ defined as part of the financial language [SIGMA](https://arxiv.org/abs/1809.06471).
+
+## quantlet-big-reactives
+
+Support for reactive use cases that must reply on very large data: infinite reactive graphs (infinite spreadsheets) associated to non-structured repositories. Reactives are organized in distributed nodes, allowing for automatic persistence and in memory allocation beyond the limits of one single computer.
+
+## quantlet-timeseries
+
+Fast timeseries functions and transformations. Large store and retrievals of sequencial datasets in [fastparquet](https://github.com/dask/fastparquet/) through [tsstore](https://pypi.org/project/jfaleiro.tsstore/).
+
+## quantlet-agents
+
+Synchronous and asynchronous agents for discrete-event simulation. This is related to the _distribution_ and _simulation facets_ defined as part of the financial language [SIGMA](https://arxiv.org/abs/1809.06471).
+
+## quantlet-strats
+
+Financial strategies and analytics. Elements of numeric processing, data analysis, plotting and tabular transformations. Basically strats are classified in bands,
+
+#### Bands
+
+Define higher a lower limits around an ongoing signal, e.g., for Bollinger and fixed bands:
+
+```python
+    # Bollinger bands
+    a = (simple_dataframe
+         >> std(price_tag='price')
+         >> bollinger(ma_tag='price'))
+    assert round(a.upper.mean(), 2) == 1.94
+    assert round(a.lower.mean(), 2) == -2.02
+```
+
+```python
+    # Fixed bands
+    a = (simple_dataframe
+         >> fixed(ma_tag='price'))
+    assert round(a.upper.mean(), 2) == -0.05
+    assert round(a.lower.mean(), 2) == -0.03
+```
+
+#### Filters
+
+Derive a new sequence based on a original signal, e.g.
+
+```python
+    # RMA, recursive moving average
+    assert list(
+        map(lambda x: dict(y=x),
+            [1.0, 2.0, 3.0, 4.0, 5.0, 6.0]) >> rma(m=3)) == [
+        {'y': 1.0, 'rma': 1.0},
+        {'y': 2.0, 'rma': 1.5},
+        {'y': 3.0, 'rma': 2.0},
+        {'y': 4.0, 'rma': 3.0},
+        {'y': 5.0, 'rma': 4.0},
+        {'y': 6.0, 'rma': 5.0}
+    ]
+```
+
+```python
+    # EWMA, exponentially weighted moving average
+    assert list(
+        list(map(lambda x: dict(y=x),
+                 [1.0, 2.0, 3.0, 4.0, 5.0, 6.0])) >> ewma(input_tag='y')) == [
+        {'y': 1.0, 'ewma': 1.0},
+        {'y': 2.0, 'ewma': 1.1},
+        {'y': 3.0, 'ewma': 1.29},
+        {'y': 4.0, 'ewma': 1.561},
+        {'y': 5.0, 'ewma': 1.9049},
+        {'y': 6.0, 'ewma': 2.31441}
+    ]
+```
+
+#### Financial engineering
+
+Common financial calculation QLets.
+
+- Returns and cash flow streams: Absolute, single and multiple periods. Continous and discrete compounding.
+- Options: Binomial lattice, single and multiple period binomial reactive option pricing. Black scholes model. Put-call parity pricing. Greeks.
+- Hedging: Delta hedging. Stop price hedging.
+
+
+#### Seeding
+
+Generators of financial sequences.
+
+- Timeseries seeding
+- Random walk and brownian motions. Random uniform seeding
+
+#### Stats
+
+Statistical transformations.
+
+- Uniform distribution
+- Autocorrelation metrics
+- Inflection points
+
+
+## quantlet-ml
+
+Operations related to machine learning transformations: feature engineering, interpolations, incremental and batch learning. This [article](https://jfaleiro.wordpress.com/2019/03/26/robot-trading/) is an example of [nowcasting][https://en.wikipedia.org/wiki/Nowcasting_(economics)] of trading signals using a [robot trader](https://jfaleiro.wordpress.com/2019/03/26/robot-trading/) using incremental learning in `quantlet-ml`:
+
+```java
+(
+    retrieve('XXXX', start='2013-01-01', end='2017-12-31')[['Adj. Close', 'Adj. Volume']]
+    >> apply(adjust_columns)
+    >> scale(['adj_price', 'adj_volume'], scalers=[price_scaler, volume_scaler])
+    >> one_hot(["dow", "dom", "month"])
+    >> window_shift(['adj_price', 'adj_volume'], 5, separator='-')
+    >> online_fit_predict(model, 'predicted_adj_price', error_type='squared',
+                          response_variable_tag='adj_price', ignore_tags=['Date'])
+    >> ewma('error', alpha=.2, output_tag='ewme')
+    >> unscale(['adj_price', 'predicted_adj_price', 'adj_price-1', 'adj_price-2', 'adj_price-3', 'adj_price-4', 'adj_price-5'],
+               scalers=[price_scaler] * 7,
+               index_column='Date')
+)
+```
+
+It uses `QLets` for basic operations of window shifting, scaling, one-hot encoding, and online fit and predict in one step for streams.
+
+## quantlet-dl
+
+Extension of `quantlet-ml` to support deep-learning libraries and algorithms. Currently [Keras](https://keras.io/) and [TensorFlow](https://www.tensorflow.org/).
+
+## quantlet-scratchpad
+
+Support for interactive use and visualization of resources in [Jupyter](https://jupyter.org/) notebooks.
+
+
+## Final Notes
+
+QuantLET is an open source project that I put together and [have been using for a very long time](https://quantlet.net/) to test ideas, hold discussions with fellow practitioners, and extend my [doctorate research in scientific crowds](https://arxiv.org/abs/1809.07195) and the [theory of enablers](https://arxiv.org/abs/1809.07195). The doctorate thesis was finished many years ago, in 2018, and is [available online](http://repository.essex.ac.uk/21782/) if you are curious and want to learn more about the subject.
+
+Bear in mind that the materialization of QuantLET was a result of volunteering my time in one of my many passions: investigations in technology, engineering, humans, and incentives that make humans do what they do. Nevertheless, unless I feel a compeling reason for a change, QuantLET is basically unsupported.
+
+This program is distributed in the hope that it will be useful, but **WITHOUT ANY WARRANTY**; without even the implied warranty of **MERCHANTABILITY** or **FITNESS FOR A PARTICULAR PURPOSE**.  See the [GNU Affero General Public License](https://www.gnu.org/licenses/agpl-3.0.en.html) for more details. The license file is also shipped as part of the source code.
+
+Last, but not least, it is important to note that QuantLET was the entry point to a number of successful commercial frameworks, such as [Platform](https://gitlab.com/doctri/platform) and [Hydra](https://gitlab.com/optera/hydra). If you have an idea on how to leverage these frameworks, or extend QuantLET, the power of large scale computing, AI, and crowds, feel free to get in touch.
+
