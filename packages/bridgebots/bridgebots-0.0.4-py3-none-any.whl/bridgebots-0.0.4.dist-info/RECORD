@@ -1,0 +1,14 @@
+bridgebots/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bridgebots/bids.py,sha256=qqL6ZmOem1Kl6RBEtYXKIrYaeb_Z75wQfNXplQKVctg,755
+bridgebots/board_record.py,sha256=uhGE-4cxLCisYLo5mWwdjZ6qhF5Vr3yzkdD2ViyO1nc,4895
+bridgebots/deal.py,sha256=GDPeDC8gtRzoQveqg6WwipyC5Ae8ZuOV0pAqvwuOyxs,4968
+bridgebots/deal_enums.py,sha256=O3P2a1DofjQ6U-D0jN5lYMNoupKJFacWQW79ZWAjWtI,2984
+bridgebots/deal_utils.py,sha256=cd-x5-_tEj1GWHYK7cySKWjMCc5LZBf-CFBTGaGbSbQ,6437
+bridgebots/double_dummy.py,sha256=j4FV3CT-tJMAnB9JweezLyHuYuQtB6NEQEMQGsnQH-Y,3730
+bridgebots/lin.py,sha256=f9cAbIp8kgRgA0kTH0qm1aCTw2qks2F0ozD6VxfxXcc,11998
+bridgebots/pbn.py,sha256=dkuYdngf7WB2m6JpzKXjm4JlZUttHLelS6ufaiUF9X4,10992
+bridgebots/play_utils.py,sha256=XC-fvyAwutSJs2UAlQQpNoO6FxnIzukBMyR1xtUisoI,825
+bridgebots/schemas.py,sha256=fHaxlKKMol5gtRGp-5kcS4JHUyK2b3ASfdAd__BuLLw,3693
+bridgebots-0.0.4.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+bridgebots-0.0.4.dist-info/METADATA,sha256=nph7k2pUM3-CdUz7GcO04bbabiU1mzcNkkMC0IMfQUU,494
+bridgebots-0.0.4.dist-info/RECORD,,
