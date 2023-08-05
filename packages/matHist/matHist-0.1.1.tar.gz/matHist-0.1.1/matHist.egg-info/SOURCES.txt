@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+matHist/__init__.py
+matHist/header.py
+matHist/matplotlib_hist.py
+matHist.egg-info/PKG-INFO
+matHist.egg-info/SOURCES.txt
+matHist.egg-info/dependency_links.txt
+matHist.egg-info/entry_points.txt
+matHist.egg-info/requires.txt
+matHist.egg-info/top_level.txt
