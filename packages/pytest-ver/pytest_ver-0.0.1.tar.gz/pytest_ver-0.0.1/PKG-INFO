@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: pytest_ver
+Version: 0.0.1
+Summary: Pytest module with Verification Report
+Home-page: https://github.com/cppgent0/pytest-ver
+Author: JA
+Author-email: cppgent0@gmail.com
+License: MIT
+Download-URL: https://github.com/cppgent0/pytest-ver/archive/refs/tags/v_0_0_1.tar.gz
+Description: UNKNOWN
+Keywords: verification,pytest
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Framework :: Pytest
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Testing :: Acceptance
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
