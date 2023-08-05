@@ -1,0 +1,8 @@
+figvis/__init__.py,sha256=BZY0LeDat08TD5oL43VrZtK9zunKiJep1yNxsy1UYM8,320
+figvis/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+figvis/cli/main.py,sha256=_P_8utbyPncZFmTMhZfXwkVK-iL-ILAaAbLxNjAec5U,479
+figvis/svg_to_pdf.py,sha256=xjaRwbfoLZJPEOx-NEbC_fwg_QZAjmnVBzZJZRW3xhE,1720
+figvis-0.1.0a8.dist-info/entry_points.txt,sha256=8-kFxgkfWYPAf7pFTRJlzbHsAQrFGg4dz-bqvFEMZ7s,46
+figvis-0.1.0a8.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+figvis-0.1.0a8.dist-info/METADATA,sha256=EOX2zlgfGmYhzEUUq2PgebX3fGcdWmAuqrv952evo-c,813
+figvis-0.1.0a8.dist-info/RECORD,,
