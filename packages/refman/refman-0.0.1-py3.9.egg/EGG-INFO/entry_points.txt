@@ -1,0 +1,3 @@
+[console_scripts]
+refman = refman.refman:APP
+

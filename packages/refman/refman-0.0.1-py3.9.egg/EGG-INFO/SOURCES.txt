@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+refman/__init__.py
+refman/_bibpain.py
+refman/_constants.py
+refman/_scihub.py
+refman/_utils.py
+refman/refman.py
+refman.egg-info/PKG-INFO
+refman.egg-info/SOURCES.txt
+refman.egg-info/dependency_links.txt
+refman.egg-info/entry_points.txt
+refman.egg-info/requires.txt
+refman.egg-info/top_level.txt
