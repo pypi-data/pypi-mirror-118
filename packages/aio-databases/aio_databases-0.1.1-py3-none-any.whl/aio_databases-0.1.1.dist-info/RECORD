@@ -1,0 +1,14 @@
+aio_databases/__init__.py,sha256=5bXzkpiKq-evxojcy6bs0LOCVgbK0fP221cMDyBciIA,263
+aio_databases/database.py,sha256=0oabB9cXQfGjudwv6Z1irtbk8DRkfP9ltaowGQ_EUNU,3305
+aio_databases/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aio_databases/record.py,sha256=ljG3Pt0PFttAHwoWp4OfoknBDIzFzdaso4dYCfdo8iU,1485
+aio_databases/backends/__init__.py,sha256=yNOMrtLL5y7sfDlygjaQxZeAs8VTZuhqB1hCuz2_09A,6373
+aio_databases/backends/_aiomysql.py,sha256=tZPNnjniSAmQ3vYV1LlT6-5IoHRDoD3YVb5BrIZYkXI,3892
+aio_databases/backends/_aioodbc.py,sha256=a3JmI5GiypgMT6Q2PJngNQJLOTjI7EH7c4s3alJY_yY,3726
+aio_databases/backends/_aiopg.py,sha256=07FiKOcqSJgA9M-IA4f5Mlx9iiiSSIREJIxn5pnJYfg,3610
+aio_databases/backends/_aiosqlite.py,sha256=tLXYDe3ydnVRteUvWXpIrfMKrBiXqcBrkWPKhdSLhCE,3089
+aio_databases/backends/_asyncpg.py,sha256=E8gr6b8Q_N6rmx3x9by90OpkPP2YIHziHtKexCVcNW8,2736
+aio_databases-0.1.1.dist-info/METADATA,sha256=VvexoYwllhSLsBxYp6ufbfFRgPHIXLIfNyezo3eUNAI,5278
+aio_databases-0.1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+aio_databases-0.1.1.dist-info/top_level.txt,sha256=7zh8uSx6Cwb7mTldAVUL9gWLgMTLgdWJnnQ-gtJb1dQ,14
+aio_databases-0.1.1.dist-info/RECORD,,
