@@ -1,0 +1,14 @@
+README.md
+setup.py
+robloxpy/Utils.py
+robloxpy/__init__.py
+robloxpy/asset.py
+robloxpy/errors.py
+robloxpy/game.py
+robloxpy/group.py
+robloxpy/user.py
+robloxpy.egg-info/PKG-INFO
+robloxpy.egg-info/SOURCES.txt
+robloxpy.egg-info/dependency_links.txt
+robloxpy.egg-info/requires.txt
+robloxpy.egg-info/top_level.txt
