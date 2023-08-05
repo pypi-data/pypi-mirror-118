@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: jarvis-module1
+Version: 0.0.1
+Summary: jarvis_module1
+Home-page: UNKNOWN
+Author: Neil bhurke
+Author-email: neilpython11@gmail.com
+License: UNKNOWN
+Keywords: jarvisAI,python,AI,python tutorial,Neil bhurke
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+my small attempt, to make jarvisAI assistant jarvis can send emails,open youtube,browse web for you etc 
+
+
