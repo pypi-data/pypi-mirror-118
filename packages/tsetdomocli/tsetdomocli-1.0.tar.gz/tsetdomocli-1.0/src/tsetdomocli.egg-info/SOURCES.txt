@@ -1,0 +1,10 @@
+README.md
+setup.py
+src/tsetdomocli/Monitor.py
+src/tsetdomocli/__init__.py
+src/tsetdomocli/__main__.py
+src/tsetdomocli.egg-info/PKG-INFO
+src/tsetdomocli.egg-info/SOURCES.txt
+src/tsetdomocli.egg-info/dependency_links.txt
+src/tsetdomocli.egg-info/entry_points.txt
+src/tsetdomocli.egg-info/top_level.txt
