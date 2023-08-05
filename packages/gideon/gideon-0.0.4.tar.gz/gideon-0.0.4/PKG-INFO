@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: gideon
+Version: 0.0.4
+Summary: simple gideon library for python3 and python2
+Home-page: UNKNOWN
+Author: Overnice.exe
+Author-email: silkepilon2009@gmail.com
+License: MIT
+Description: simple gideon library for python3 and python2
+        
+        Change Log
+        ==========
+        
+        1.6 (19/04/2020)
+        -------------------
+        - First Release (working)
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
