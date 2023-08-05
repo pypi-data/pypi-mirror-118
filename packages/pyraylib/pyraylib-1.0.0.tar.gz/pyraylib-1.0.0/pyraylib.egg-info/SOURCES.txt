@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+pyraylib/__init__.py
+pyraylib/colors.py
+pyraylib/easings.py
+pyraylib/raylib.dll
+pyraylib.egg-info/PKG-INFO
+pyraylib.egg-info/SOURCES.txt
+pyraylib.egg-info/dependency_links.txt
+pyraylib.egg-info/requires.txt
+pyraylib.egg-info/top_level.txt
