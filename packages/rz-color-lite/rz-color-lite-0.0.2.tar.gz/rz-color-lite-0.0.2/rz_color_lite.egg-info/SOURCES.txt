@@ -1,0 +1,9 @@
+README.md
+setup.py
+colorizer_lite/__init__.py
+colorizer_lite/colorizer.py
+rz_color_lite.egg-info/PKG-INFO
+rz_color_lite.egg-info/SOURCES.txt
+rz_color_lite.egg-info/dependency_links.txt
+rz_color_lite.egg-info/requires.txt
+rz_color_lite.egg-info/top_level.txt
