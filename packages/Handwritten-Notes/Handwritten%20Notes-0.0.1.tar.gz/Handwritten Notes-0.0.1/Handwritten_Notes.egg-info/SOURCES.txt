@@ -1,0 +1,5 @@
+setup.py
+Handwritten_Notes.egg-info/PKG-INFO
+Handwritten_Notes.egg-info/SOURCES.txt
+Handwritten_Notes.egg-info/dependency_links.txt
+Handwritten_Notes.egg-info/top_level.txt
