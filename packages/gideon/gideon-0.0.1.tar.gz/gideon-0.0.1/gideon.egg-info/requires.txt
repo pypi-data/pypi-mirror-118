@@ -1,0 +1,6 @@
+requests
+colorama
+pyttsx3
+speech_recognition
+neuralintents
+typing
