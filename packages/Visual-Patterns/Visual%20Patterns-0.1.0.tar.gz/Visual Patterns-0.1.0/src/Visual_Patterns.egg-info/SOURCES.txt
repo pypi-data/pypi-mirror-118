@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+src/Visual_Patterns.egg-info/PKG-INFO
+src/Visual_Patterns.egg-info/SOURCES.txt
+src/Visual_Patterns.egg-info/dependency_links.txt
+src/Visual_Patterns.egg-info/top_level.txt
+src/visualpatterns/__init__.py
+src/visualpatterns/__main__.py
