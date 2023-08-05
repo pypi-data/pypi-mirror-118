@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: example-pkg-bigabig
+Version: 0.0.1
+Summary: A small example package
+Home-page: https://github.com/bigabig/packaging_tutorial
+Author: Tim Fischer
+Author-email: tim.s.fischer96@googlemail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/bigabig/packaging_tutorial/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+
+# packaging_tutorial
+View at: [https://test.pypi.org/project/example-pkg-bigabig/0.0.1/](https://test.pypi.org/project/example-pkg-bigabig/0.0.1/)
+
+## Create TestPyPi Account
+[https://test.pypi.org/account/login/](https://test.pypi.org/account/login/?next=%2Fmanage%2Faccount%2F#api-tokens)
+
+## Commands
+
+### Setup
+```
+conda create -n tutorial python=3.8
+conda activate tutorial
+python3 -m pip install --upgrade pip
+```
+
+### Build
+```
+python3 -m pip install --upgrade build
+python3 -m build
+```
+
+### Upload
+```
+python3 -m pip install --upgrade twine
+python3 -m twine upload --repository testpypi dist/*
+```
+
+### Install
+```
+python3 -m pip install --index-url https://test.pypi.org/simple/ example-pkg-bigabig
+```
+
+
+
