@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: netconf-console
+Version: 2.3.3
+Summary: Netconf client CLI tool and interactive console
+Home-page: https://bitbucket.org/martin_volf/ncc
+Author: Martin Volf
+Author-email: mvolf@cisco.com
+License: MIT
+Keywords: NETCONF CLI client
+Platform: UNKNOWN
+Classifier: Development Status :: 7 - Inactive
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Telecommunications Industry
+Classifier: Topic :: System :: Networking
+Classifier: Topic :: System :: Networking :: Monitoring
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Requires-Dist: netconf-console2
+
+netconf-console
+===============
+
+This project has been renamed to `netconf-console2`, use that instead.
+
+
+
