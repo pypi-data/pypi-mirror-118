@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        nmigen=nmigen_tool:cli
+    

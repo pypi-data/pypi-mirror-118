@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.py
+nmigen_tool/__init__.py
+nmigen_tool/cli.py
+nmigen_tool.egg-info/PKG-INFO
+nmigen_tool.egg-info/SOURCES.txt
+nmigen_tool.egg-info/dependency_links.txt
+nmigen_tool.egg-info/entry_points.txt
+nmigen_tool.egg-info/requires.txt
+nmigen_tool.egg-info/top_level.txt
