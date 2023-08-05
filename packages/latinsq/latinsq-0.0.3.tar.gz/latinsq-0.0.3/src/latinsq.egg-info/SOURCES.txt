@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/latinsq.egg-info/PKG-INFO
+src/latinsq.egg-info/SOURCES.txt
+src/latinsq.egg-info/dependency_links.txt
+src/latinsq.egg-info/requires.txt
+src/latinsq.egg-info/top_level.txt
