@@ -1,0 +1,9 @@
+README.md
+setup.py
+ivi_sdk/__init__.py
+ivi_sdk/ivi_client.py
+ivi_sdk/ivi_sdk.egg-info/PKG-INFO
+ivi_sdk/ivi_sdk.egg-info/SOURCES.txt
+ivi_sdk/ivi_sdk.egg-info/dependency_links.txt
+ivi_sdk/ivi_sdk.egg-info/requires.txt
+ivi_sdk/ivi_sdk.egg-info/top_level.txt
