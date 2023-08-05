@@ -1,0 +1,9 @@
+README.md
+setup.py
+conduits/__init__.py
+conduits/pipeline.py
+conduits.egg-info/PKG-INFO
+conduits.egg-info/SOURCES.txt
+conduits.egg-info/dependency_links.txt
+conduits.egg-info/requires.txt
+conduits.egg-info/top_level.txt
