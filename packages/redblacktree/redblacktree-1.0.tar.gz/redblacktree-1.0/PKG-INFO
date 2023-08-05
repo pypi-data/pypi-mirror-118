@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: redblacktree
+Version: 1.0
+Summary: A pure python3 red black tree implementation
+Home-page: https://github.com/leryss/redblacktree
+Author: leryss
+License: MIT
+Download-URL: https://github.com/leryss/py-redblacktree/archive/refs/tags/v1.0.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
