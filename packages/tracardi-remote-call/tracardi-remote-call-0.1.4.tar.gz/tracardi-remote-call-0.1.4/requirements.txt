@@ -1,0 +1,5 @@
+tracardi_plugin_sdk
+tracardi
+pydantic
+asyncio
+aiohttp
