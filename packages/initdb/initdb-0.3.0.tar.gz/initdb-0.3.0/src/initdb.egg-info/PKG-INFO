@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: initdb
+Version: 0.3.0
+Summary: Small package that creates a user and database owned by that user.
+Home-page: https://github.com/papermerge/initdb
+Author: Eugen Ciur
+Author-email: eugen@papermerge.com
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+
