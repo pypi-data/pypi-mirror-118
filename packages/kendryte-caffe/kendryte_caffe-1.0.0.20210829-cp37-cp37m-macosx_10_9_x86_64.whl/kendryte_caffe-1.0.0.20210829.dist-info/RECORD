@@ -1,0 +1,16 @@
+caffe/__init__.py,sha256=oRYip9tilDNzZuxdbX_6YTBZsbw8kSNl8fYjuZVa1mg,552
+caffe/_caffe.cpython-37m-darwin.so,sha256=R2YawCm2-4Ff-cfcnsUFoOUHB86kwfxkKl_uEx3wjSo,18158920
+caffe/classifier.py,sha256=qxJvvKSKAsYjx9cmY45Byj7UJfnnwbWT9Ac8z14AOAs,3546
+caffe/coord_map.py,sha256=ugOqLJh9J3YjDbf10bTdJdAiIEosz6GD0BFQq_IfJY0,6721
+caffe/detector.py,sha256=9ssm0Xul9IjeUGYtbLSaO-naO_YjQVIZbmnwJBeLuT0,8549
+caffe/draw.py,sha256=xXqZKcVaxOhdNEqEMoYv9ABLC4c8RTUje2Rg22VImN8,11174
+caffe/io.py,sha256=3ZI726FFiNJlTmovsIi1mx5sc0gq9ko7jbOeuKpG0iw,13079
+caffe/net_spec.py,sha256=ikSpwxpLTL2sFF3fQMbOdL6BII2N3TsXJG28yZKqAss,8277
+caffe/pycaffe.py,sha256=YMQopUG4BZMoKjL13hgq_8fmmE-BlHl56nbFt198f2k,11615
+caffe/proto/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+caffe/proto/caffe_pb2.py,sha256=RCwZKPX_XskqatgcThhhU9zf0dEQkQKSfk3EE-mZQTA,311188
+kendryte_caffe-1.0.0.20210829.dist-info/LICENSE,sha256=2fARDfWe9ZZWY4a06F8wWFfRXHTzL5RghguRqRNrxQk,2092
+kendryte_caffe-1.0.0.20210829.dist-info/METADATA,sha256=3gzTjax4bCC4ClorsV6-oRC8b35O2XABtIRqBBXrh9c,3357
+kendryte_caffe-1.0.0.20210829.dist-info/WHEEL,sha256=MTGYRPpheMM24WbmS90Rp7e0ky6cZJ8CkS_x1qgwoGk,110
+kendryte_caffe-1.0.0.20210829.dist-info/top_level.txt,sha256=F2awqvndF3QDmGeZTgsWu4MSbkfKa5j0zzSqwPWAwFw,6
+kendryte_caffe-1.0.0.20210829.dist-info/RECORD,,
