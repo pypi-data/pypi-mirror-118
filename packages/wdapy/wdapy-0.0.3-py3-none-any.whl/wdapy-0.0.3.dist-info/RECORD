@@ -1,0 +1,14 @@
+wdapy/__init__.py,sha256=fe4GHJTJU1PB5AxE-JIoLyGFgn1JM7TwYTJ4AXaLk4E,128
+wdapy/_proto.py,sha256=1NErZBbrHwhwMeM4nV9zoYrarkIwXm3MD-rsBVFTk6M,506
+wdapy/_types.py,sha256=m9VHqbc855HQX4RtFff5MzOtF2DZEV1mBN-KtegU0-g,1468
+wdapy/_utils.py,sha256=YrXiZn7GAJ4qZk8VWmm9-RulRow4z3DaW5VN8TBdOE8,135
+wdapy/_wdapy.py,sha256=Z464eCJ77wv3sh7PKHUa0sKvmIb9EXQVdwDMCAKA2Eg,9097
+wdapy/_wrap.py,sha256=yKrqZcJPz6MibqSA5-aeiAozojzUbupVmK2leSfY0-M,554
+wdapy/exceptions.py,sha256=MjNAumaU3tpJ3LmOubmffH3mhzj77ox9oUcjTxpnCq8,244
+wdapy-0.0.3.dist-info/AUTHORS,sha256=vtTVWcZfmktamnerm1N3CudLRDjXVVfQHbEwx-mUUNc,36
+wdapy-0.0.3.dist-info/LICENSE,sha256=XRh33cE033RJbP79W57-WbJ9o72-G7-jbyVSC64odIs,1079
+wdapy-0.0.3.dist-info/METADATA,sha256=RX-2EtIoA2_gc_cz2bzxufrwNw9X6g5bLQU5v-vcRVU,872
+wdapy-0.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+wdapy-0.0.3.dist-info/pbr.json,sha256=ctXrh9fa1wFJcMstSKI3g_5HkqdiXpa-eyD8T8RbiJk,47
+wdapy-0.0.3.dist-info/top_level.txt,sha256=dwOU7NpNHVBUcJFjuzZ-S40mft4O_tqx3rqnvVZofVc,6
+wdapy-0.0.3.dist-info/RECORD,,
