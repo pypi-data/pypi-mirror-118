@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/CASRegistryNumber.py
+src/ChemFormula.py
+src/Elements.py
+src/ChemFormula.egg-info/PKG-INFO
+src/ChemFormula.egg-info/SOURCES.txt
+src/ChemFormula.egg-info/dependency_links.txt
+src/ChemFormula.egg-info/top_level.txt
