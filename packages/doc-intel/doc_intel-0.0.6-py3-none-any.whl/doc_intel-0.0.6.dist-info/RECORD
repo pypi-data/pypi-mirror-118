@@ -1,0 +1,8 @@
+doc_intel/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+doc_intel/despace.py,sha256=nRRW3-n1NY0YQuRsvH7ygYAqtKsHgFqu9AJlj2mYGvk,4407
+doc_intel/text_laundry.py,sha256=yoqSuhNCezCOQK524DqIxlAQGJD0vZJ9QobThwWAHjg,7827
+doc_intel-0.0.6.dist-info/METADATA,sha256=ShcyvZtCszAxMvcSjqwJ-WRVd7BLUwi7cP8ktX0--v4,2453
+doc_intel-0.0.6.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+doc_intel-0.0.6.dist-info/entry_points.txt,sha256=gu1yZTRgXT1jTXSR5rgpSGFMwt0_gpTVw7xETzHcfnE,58
+doc_intel-0.0.6.dist-info/top_level.txt,sha256=HuHxSK4aHRpuc8_FtEdfWQX8UJqKu74sdc7yAT2VBuQ,10
+doc_intel-0.0.6.dist-info/RECORD,,
