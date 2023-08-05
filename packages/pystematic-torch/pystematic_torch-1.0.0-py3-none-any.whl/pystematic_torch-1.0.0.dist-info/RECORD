@@ -1,0 +1,11 @@
+pystematic_torch/__init__.py,sha256=pZkyR7TWJK8kqpUuNEIy3WBIRTCgyECXQ5KrJpQ0xIM,116
+pystematic_torch/context.py,sha256=DAN-fCUaUbFeW_kvBhuQy2vLRTixX8Y1zMo_EP7YAwE,12075
+pystematic_torch/recording.py,sha256=3QBoRnbbz3NkpDBgpr7vHRdYD_KMMXQQKnRQPZ_w7AA,7774
+pystematic_torch/torch_plugin.py,sha256=6J9kgjDNKkvNgluJlDS50-M2OF5t879IeOmG9OZGrMM,9184
+pystematic_torch/torchutil.py,sha256=fKrrikoE41EjiBn9UeiB8Ba-1pdvs2fFicJdPgABcuE,2953
+pystematic_torch/utils.py,sha256=p5LXBvX-M3XS-Ybo4JrweEydaL7_L9bLwTUnUjMlOjc,3013
+pystematic_torch-1.0.0.dist-info/entry_points.txt,sha256=Hs4c0lbt9ppbbLw2p1DQOMNu27qUwMTp9_W36k76T5U,68
+pystematic_torch-1.0.0.dist-info/LICENSE,sha256=JrOhmQI2UrXY6rAyZChvllvIItuf2ScPgbNyejbJ_Dc,1052
+pystematic_torch-1.0.0.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+pystematic_torch-1.0.0.dist-info/METADATA,sha256=Sbd2cO_ovYhqG_YfnMrllWg-ISZlL7562LVb10a33jM,3154
+pystematic_torch-1.0.0.dist-info/RECORD,,
