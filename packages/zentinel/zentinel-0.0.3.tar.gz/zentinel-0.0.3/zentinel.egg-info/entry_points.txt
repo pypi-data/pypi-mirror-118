@@ -1,0 +1,3 @@
+[console_scripts]
+zentinel = zentinel.main:main
+
