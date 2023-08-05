@@ -1,0 +1,8 @@
+flask_spaproxy/__init__.py,sha256=DTIl5L6Kqkt6-rZJbuzP0D7QseGk14vcFaYgktvge6I,46
+flask_spaproxy/reverse_proxy.py,sha256=OYF49dwEYKpMU1buitYWqI19k6JoRBA_EgFaFLcT0hI,678
+flask_spaproxy/spa_proxy.py,sha256=nWl3eFZTEylUn6kjmyW8tlLzY9OCxwjaLRxbWOKR_qk,2557
+Flask_SpaProxy-0.1.dist-info/LICENSE,sha256=ueUux9TUvfRxgVWXFjZQAcgt8B2O-S_L30JnVvDajTE,1072
+Flask_SpaProxy-0.1.dist-info/METADATA,sha256=j4r3e7nFh7FGXvOwIchA_ypp57SQNPEByIWgPIZZtkI,5749
+Flask_SpaProxy-0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+Flask_SpaProxy-0.1.dist-info/top_level.txt,sha256=x2CrmH5OVmgvK_-z8lWOJf2F99ZHQY1NgUwcczmYWRQ,15
+Flask_SpaProxy-0.1.dist-info/RECORD,,
