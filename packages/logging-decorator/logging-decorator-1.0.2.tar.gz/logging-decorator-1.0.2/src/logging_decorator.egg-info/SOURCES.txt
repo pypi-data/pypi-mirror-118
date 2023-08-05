@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/LoggingDecorator/LoggingDecorator.py
+src/LoggingDecorator/__init__.py
+src/logging_decorator.egg-info/PKG-INFO
+src/logging_decorator.egg-info/SOURCES.txt
+src/logging_decorator.egg-info/dependency_links.txt
+src/logging_decorator.egg-info/top_level.txt
