@@ -1,0 +1,114 @@
+Metadata-Version: 2.1
+Name: cloudflare-api
+Version: 1.1.2
+Summary: Python client for the Cloudflare v4 API
+Home-page: https://github.com/nikhiljohn10/cloudflare-api
+Author: Nikhil John
+Author-email: nikhiljohn1010@gmail.com
+License: MIT
+Keywords: cloudflare-api
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# cloudflare-api
+
+[![Python Package](https://github.com/nikhiljohn10/cloudflare-api/actions/workflows/python-publish.yml/badge.svg)](https://github.com/nikhiljohn10/cloudflare-api/actions/workflows/python-publish.yml) ![PyPI - Status](https://img.shields.io/pypi/status/cloudflare-api) [![CodeFactor](https://www.codefactor.io/repository/github/nikhiljohn10/cloudflare-api/badge)](https://www.codefactor.io/repository/github/nikhiljohn10/cloudflare-api) [![GitHub license](https://img.shields.io/github/license/nikhiljohn10/cloudflare-api)](https://github.com/nikhiljohn10/cloudflare-api/blob/main/LICENSE)
+
+[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/nikhiljohn10/cloudflare-api)](https://github.com/nikhiljohn10/cloudflare-api/releases) [![PyPI](https://img.shields.io/pypi/v/cloudflare-api)](https://pypi.org/project/cloudflare-api) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/cloudflare-api)
+
+Python client for Cloudflare API v4
+
+## Usage
+
+### Python Package
+
+```bash
+pip install cloudflare-api
+```
+
+Sample code can be found inside [/test.py](https://github.com/nikhiljohn10/cloudflare-api/blob/main/test.py) 
+
+### Source Code
+
+```bash
+git clone https://github.com/nikhiljohn10/cloudflare-api
+cd cloudflare-api
+```
+
+Create a `secret.py` in the root directory with following content:
+```python
+API_TOKEN = ""
+ACCOUNT_ID = ""
+```
+The above variable need to be assigned with your own api token and account id from Cloudflare dashboard.
+
+Then run the following command in terminal:
+```bash
+make test
+```
+
+## Example
+
+For this example, `poetry` is used for easy setup.
+```bash
+python3 -m pip install poetry
+poetry new cloudflare-app
+cd cloudflare-app
+poetry add cloudflare-api
+```
+
+Copy the code below in to a new file `./cloudflare-app/__main__.py`. Then replace `API_TOKEN` & `ACCOUNT_ID` values with values obtained from Cloudflare dashboard.
+```python
+#!/usr/bin/env python3
+
+from CloudflareAPI import Cloudflare, jsonPrint
+
+API_TOKEN = ""
+ACCOUNT_ID = ""
+
+def main():
+  cf = Cloudflare(token=API_TOKEN, account_id=ACCOUNT_ID)
+  print(cf.worker.list())
+  print(cf.store.list())
+```
+
+Now we can run our program using following command:
+```
+poetry run python cloudflare-app
+```
+
+## Available endpoints
+
+### Accounts
+
+- [x] `list` - List all accounts where given token have access
+- [x] `get_id` - Return account id if only one account exists. Otherwise display all accounts availabe and exit.
+- [x] `details` - Display details of an account
+- [x] `rename` - Rename an existing account
+
+### Worker Script
+
+- [x] `list` - List all existing workers
+- [x] `upload` - Upload a new worker with binding if given
+- [x] `download` - Download an existing worker
+- [x] `delete` - Delete an existing worker
+
+### Workers KV
+
+- [x] `list` - List all existing Namespaces
+- [x] `id` - Find the namespace id of the namespace
+- [x] `create` - Create a new namespace
+- [x] `rename` - Rename an existing namespace
+- [x] `delete` - Delete an existing namespace
+
+
