@@ -1,0 +1,10 @@
+setup.py
+rokitopd/Binomialdistribution.py
+rokitopd/Gaussiandistribution.py
+rokitopd/Generaldistribution.py
+rokitopd/__init__.py
+rokitopd.egg-info/PKG-INFO
+rokitopd.egg-info/SOURCES.txt
+rokitopd.egg-info/dependency_links.txt
+rokitopd.egg-info/not-zip-safe
+rokitopd.egg-info/top_level.txt
