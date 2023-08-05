@@ -1,0 +1,3 @@
+[console_scripts]
+domo = testdomocli.__main__:app
+
