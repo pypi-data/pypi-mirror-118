@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: aiforce
+Version: 0.0.2
+Summary: A machine learning toolbox
+Home-page: https://github.com/AI-Force/aiforce/tree/master/
+Author: Sebastian Rettig
+Author-email: s-rettig@protosolution.co.jp
+License: Apache Software License 2.0
+Keywords: machine learning CLI
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: pip
+Requires-Dist: packaging
+Requires-Dist: piexif
+Requires-Dist: scikit-image
+Requires-Dist: scikit-learn
+Requires-Dist: opencv-python (>=4.1.2.30)
+Requires-Dist: Pillow
+Provides-Extra: dev
+Requires-Dist: tensorflow ; extra == 'dev'
+Requires-Dist: tflite-support ; extra == 'dev'
+
+# AI-Force
+> A machine learning toolbox.
+
+
+## Install
+
+You can install aiforce with `pip` from a terminal window with the following command:
+
+`pip install aiforce`
+
+## How to use
+
+Fill me in please! Don't forget code examples:
+
+```python
+1+1
+```
+
+
+
+
+    2
+
+
+
+
