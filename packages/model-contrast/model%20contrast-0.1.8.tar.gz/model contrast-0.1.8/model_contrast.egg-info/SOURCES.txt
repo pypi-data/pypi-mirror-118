@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+model_contrast/__init__.py
+model_contrast/classification_contrast.py
+model_contrast/regression_contrast.py
+model_contrast.egg-info/PKG-INFO
+model_contrast.egg-info/SOURCES.txt
+model_contrast.egg-info/dependency_links.txt
+model_contrast.egg-info/requires.txt
+model_contrast.egg-info/top_level.txt
+test/__init__.py
+test/test_binary_classification.py
+test/test_multiclass_classification.py
+test/test_regression.py
