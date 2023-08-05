@@ -1,0 +1,17 @@
+django_postgres_views/__init__.py,sha256=68DoCt3GcvtB3-MwoHuQ3W_igLsEpUrVZJJoAMV4xGE,61
+django_postgres_views/apps.py,sha256=mth1N6xZr-DJVpWu0m6Bv8hWGiVaZl92kMKqLtjnUqU,1159
+django_postgres_views/models.py,sha256=-BrmaY2DiPSP4F7uvBAJtM-VMfk8NY_g8vdIeQ_83UU,3214
+django_postgres_views/signals.py,sha256=Qx_fU6njNcvj4Ev1JTXPmG1mYEaTLAuvl1mKfwKO7_k,152
+django_postgres_views/view.py,sha256=vbzPpHyCIje6kddhwouyU-tZig_me25YXH6wt3smcbo,9977
+django_postgres_views/db/__init__.py,sha256=AJumCX06uePXik8_081nMJ0DE8HeqXNfnZvySXOTm9c,788
+django_postgres_views/db/sql/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_postgres_views/db/sql/compiler.py,sha256=5J__itOfOj2pWH3pnIQ2kqDmElKweCikeCzGSwBKLnE,667
+django_postgres_views/db/sql/query.py,sha256=CbmpY5CMJw4I4LPPSSgs4kaSYmFSt7pa8ORZ8ayFF-o,712
+django_postgres_views/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_postgres_views/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_postgres_views/management/commands/clear_postgres_views.py,sha256=9Acl0Ivb6yy2B3YwfWGBgbZMcjreIbk2dodCeUQAfnI,1222
+django_postgres_views/management/commands/sync_postgres_views.py,sha256=YXpZ-Ogy0p_Ocqkhf7B4K09HtvhR_XLCyDJbrJsA750,992
+django_postgres_views-0.0.1.dist-info/METADATA,sha256=MQF6DNHryGd2fWtuMe06U_FwrkAcD4z4o8Zkh0eVz5U,8175
+django_postgres_views-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+django_postgres_views-0.0.1.dist-info/top_level.txt,sha256=8wcT6DMhns3JR8OZ4O0x7fR3Lm6P2wqgnCE2Baki9Vc,22
+django_postgres_views-0.0.1.dist-info/RECORD,,
