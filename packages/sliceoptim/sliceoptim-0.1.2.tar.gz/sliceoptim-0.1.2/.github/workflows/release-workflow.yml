@@ -1,0 +1,61 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - "v*.*.*"
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+      - name: Install dependencies
+        run: |
+          sudo apt-get update -y
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
+               slic3r \
+               tox
+      - name: Test with pytest
+        run: tox
+      - name: Package build
+        run: tox -e build
+      - name: Release
+        uses: ncipollo/release-action@v1
+        with:
+          artifacts: "dist/*"
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Publish Release on PyPI
+        run: tox -e publish -- --repository pypi
+        env:
+          TWINE_USERNAME: ${{ secrets.TWINE_USERNAME }}
+          TWINE_PASSWORD: ${{ secrets.TWINE_PASSWORD }}
+          TWINE_REPOSITORY: ${{ secrets.TWINE_REPOSITORY }}
+      - name: Sphinx build
+        # Build HTML documentation from sources under `docs` to `build` folder.
+        run: tox -e docs
+      - name: Commit documentation in gh-pages branch
+        # Store documentation in a temporary one-commit git repo.
+        run: |
+          cd docs/_build/html
+          git init 
+          git checkout -b gh-pages
+          touch .nojekyll
+          git config --local user.name "GitHub Actions Bot"
+          git config --local user.email "actions@github.com"
+          git add .
+          git commit -m "Update documentation"
+      - name: Push gh-pages branch
+        # Push from the temporary repo to the `gh-pages` branch of your repo.
+        # Warning: this will overwrite any existing content and history
+        # of the `gh-pages` branch.
+        if: ${{ !env.ACT }} # Skip this step if using act
+        run: |
+          cd docs/_build/html
+          git push --force "https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}" gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
