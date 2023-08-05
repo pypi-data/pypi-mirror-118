@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: 3DefficientNet
+Version: 1.1.0
+Summary: 3d efficient net implementation in tensorflow 2.3
+Home-page: https://github.com/armin-azh/3DefficientNet
+Author: armin azhdehnia
+Author-email: arminmk18@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7

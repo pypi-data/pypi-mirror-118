@@ -1,0 +1,11 @@
+README.md
+setup.py
+3DefficientNet.egg-info/PKG-INFO
+3DefficientNet.egg-info/SOURCES.txt
+3DefficientNet.egg-info/dependency_links.txt
+3DefficientNet.egg-info/top_level.txt
+src/__init__.py
+src/_default.py
+src/_extended_model.py
+src/_model.py
+src/_utils.py
