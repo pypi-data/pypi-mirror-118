@@ -1,0 +1,4 @@
+pandas>=0.18
+pytz
+python-dateutil
+exchange_calendars>=3.3
