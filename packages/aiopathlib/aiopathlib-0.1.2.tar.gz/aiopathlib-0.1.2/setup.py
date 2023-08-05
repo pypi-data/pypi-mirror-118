@@ -1,0 +1,25 @@
+# -*- coding: utf-8 -*-
+from setuptools import setup
+
+modules = \
+['aiopathlib']
+install_requires = \
+['aiofiles>=0.7.0,<0.8.0']
+
+setup_kwargs = {
+    'name': 'aiopathlib',
+    'version': '0.1.2',
+    'description': 'Pathlib support for asyncio',
+    'long_description': "aiopathlib: Pathlib support for asyncio\n=======================================\n\n**aiopathlib** is written in Python, for handling local\ndisk files in asyncio applications.\n\nBase on `aiofiles` and just like pathlib, but use await.\n\n```py\nwith open('filename', 'w') as f:\n    f.write('My file contents')\n\ntext = await aiopathlib.AsyncPath('filename').read_text()\nprint(text)\n'My file contents'\n\ncontent = await aiopathlib.AsyncPath(Path('filename')).read_bytes()\nprint(content)\nb'My file contents'\n```\n\nAsynchronous interface to create folder.\n\n```py\napath = AsyncPath('dirname/subpath')\nif not await apath.exists():\n    await apath.mkdir(parents=True)\n```\n\n\nFeatures\n--------\n\n- a file API very similar to Python's standard package `pathlib`, blocking API\n- support for buffered and unbuffered binary files, and buffered text files\n- support for ``async``/``await`` (:PEP:`492`) constructs\n\n\nInstallation\n------------\n\nTo install aiofiles, simply:\n\n\n```bash\n$ pip install aiopathlib\n```\n\n\nUsage\n-----\n\n\n* ``read_text``\n* ``read_bytes``\n* ``read_json``\n* ``write_text``\n* ``write_bytes``\n* ``write_json``\n* ``mkdir``\n* ``exists``\n* ``rename``\n* ``remove``\n\n\nHistory\n-------\n\n#### 0.1.0 (2021-06-14)\n\n- Introduced a changelog.\n- Publish at gitee.\n\n\nContributing\n------------\n\nContributions are very welcome.\n",
+    'author': 'Waket Zheng',
+    'author_email': 'waketzheng@gmail.com',
+    'maintainer': None,
+    'maintainer_email': None,
+    'url': 'https://github.com/waketzheng/aiopathlib',
+    'py_modules': modules,
+    'install_requires': install_requires,
+    'python_requires': '>=3.8,<4.0',
+}
+
+
+setup(**setup_kwargs)
