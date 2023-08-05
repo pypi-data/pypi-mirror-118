@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+experimental/DesignUtilities.py
+experimental/__init__.py
+tkinter_expansion/GuiStyle.py
+tkinter_expansion/Identifiers.py
+tkinter_expansion/__init__.py
+tkinter_expansion.egg-info/PKG-INFO
+tkinter_expansion.egg-info/SOURCES.txt
+tkinter_expansion.egg-info/dependency_links.txt
+tkinter_expansion.egg-info/top_level.txt
