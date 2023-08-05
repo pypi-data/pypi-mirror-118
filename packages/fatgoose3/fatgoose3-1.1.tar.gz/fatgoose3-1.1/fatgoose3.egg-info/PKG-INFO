@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: fatgoose3
+Version: 1.1
+Summary: A general web article parser inherit from goose3
+Home-page: https://github.com/xlomg/fatgoose3.git
+Author: xlomg
+Author-email: liu_xianglong@live.com
+Maintainer: xlomg
+Maintainer-email: liu_xianglong@live.com
+License: BSD License
+Platform: all
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries
+License-File: LICENSE.md
+
+FatGoose3
+
+A general web article parser inherit from goose3
+
