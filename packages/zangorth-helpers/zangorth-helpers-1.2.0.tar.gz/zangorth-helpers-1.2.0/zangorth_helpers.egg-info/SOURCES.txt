@@ -1,0 +1,7 @@
+README.md
+setup.py
+zangorth_helpers.egg-info/PKG-INFO
+zangorth_helpers.egg-info/SOURCES.txt
+zangorth_helpers.egg-info/dependency_links.txt
+zangorth_helpers.egg-info/requires.txt
+zangorth_helpers.egg-info/top_level.txt
