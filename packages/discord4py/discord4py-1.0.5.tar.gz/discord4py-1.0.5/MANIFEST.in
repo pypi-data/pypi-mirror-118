@@ -1,0 +1,5 @@
+include README.rst
+include LICENSE
+include requirements.txt
+include discord4py/bin/*.dll
+include discord4py/py.typed
