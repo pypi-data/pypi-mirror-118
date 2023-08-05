@@ -1,0 +1,13 @@
+mlog_extended/__init__.py,sha256=7CBb3Nna_ytfsh_Ca2UC-pUJ7BBbOqeGiQ_vJ4dHNfY,382
+mlog_extended/__main__.py,sha256=ls8-gOVSmzEopX5OqDhehq7DpInAUpjzJxmio-AzET4,1266
+mlog_extended/basic_compiler.py,sha256=ygOWLXtzC1YR9lPuMT2AwTiSiylwpSAukaWTD9YS9Ys,3594
+mlog_extended/compilation_error.py,sha256=19sOEl9hHhNLSoHokJWRWkzSUr1alLl4QLF_ibQmhP4,162
+mlog_extended/extended_compiler.py,sha256=ulpVeQZbnuy1-hQ5cnDnae-SByvoe12LNlsDtEq6fCs,394
+mlog_extended/extra_instructions/__init__.py,sha256=RUPoUhU6KNHZGQByfLEay3Pzt0PeoCYWaBgvLLwrNYg,137
+mlog_extended/extra_instructions/extended_let.py,sha256=Us2Dy1BQ484PVBu3KFeZGYKNOFQ8yIYk4mXQ7zFASgA,3556
+mlog_extended/extra_instructions/jump_if.py,sha256=jLm1ph5AHg2sCQHbqUAjpqcbUbSdbYLCEX2zGME6zww,1386
+mlog_extended-0.0.2.dist-info/LICENSE,sha256=pB7BKKTQI5GlWXz9MwzdiGMDRjN7AAs5-pTEKE8lroc,1067
+mlog_extended-0.0.2.dist-info/METADATA,sha256=RA2vvPGbGr1dSe-SnqSgiQS67NZh1ZjNc5ukyp-VbEI,2227
+mlog_extended-0.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+mlog_extended-0.0.2.dist-info/top_level.txt,sha256=yWhszAORdKDWFV0UNSYIIIZ6VJXGPSmt8YJQFWpj7NA,14
+mlog_extended-0.0.2.dist-info/RECORD,,
