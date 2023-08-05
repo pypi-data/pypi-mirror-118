@@ -1,0 +1,7 @@
+setup.py
+bibib/bib.py
+bibtt.egg-info/PKG-INFO
+bibtt.egg-info/SOURCES.txt
+bibtt.egg-info/dependency_links.txt
+bibtt.egg-info/requires.txt
+bibtt.egg-info/top_level.txt
