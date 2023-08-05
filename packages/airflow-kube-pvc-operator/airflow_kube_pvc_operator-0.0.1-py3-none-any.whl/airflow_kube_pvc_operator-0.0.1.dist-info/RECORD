@@ -1,0 +1,8 @@
+airflow_kpvco/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+airflow_kpvco/kubernetes_pvc_manager.py,sha256=q132Jbx229ThY77S3YiN-Cj5AVm7k1VlJcMYIbZUHUY,3
+airflow_kpvco/kubernetes_pvc_operator.py,sha256=BEBYYnAt0XMNdr19L2Cbx_eNtBxIFd9r1jcf-W2FfvA,338
+airflow_kpvco/kubernetes_util.py,sha256=q132Jbx229ThY77S3YiN-Cj5AVm7k1VlJcMYIbZUHUY,3
+airflow_kube_pvc_operator-0.0.1.dist-info/METADATA,sha256=0NAQBVy7QAOSAFDdeiwKJvqi97uzD4TbskSFoVavJvo,1138
+airflow_kube_pvc_operator-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+airflow_kube_pvc_operator-0.0.1.dist-info/top_level.txt,sha256=Do0m3heRASW5HG40JJgjWhBmS90N25SOobVf8l3y0R8,14
+airflow_kube_pvc_operator-0.0.1.dist-info/RECORD,,
