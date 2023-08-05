@@ -1,0 +1,3 @@
+[console_scripts]
+bibbib = bibbib.bibbib:bibbib
+

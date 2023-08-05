@@ -1,0 +1,14 @@
+README.md
+setup.py
+bibbib/__init__.py
+bibbib/_constants.py
+bibbib/_errors.py
+bibbib/_types.py
+bibbib/bibbib.py
+bibbib.egg-info/PKG-INFO
+bibbib.egg-info/SOURCES.txt
+bibbib.egg-info/dependency_links.txt
+bibbib.egg-info/entry_points.txt
+bibbib.egg-info/not-zip-safe
+bibbib.egg-info/requires.txt
+bibbib.egg-info/top_level.txt
