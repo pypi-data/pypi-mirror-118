@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: boundless
+Version: 0.1.2
+Summary: Erases boundaries between interface and python code.
+Home-page: https://gitlab.com/air64/boundless
+Author: air64
+Author-email: contact.air64@yandex.ru
+Maintainer: air64 <contact.air64@yandex.ru>
+Maintainer-email: contact.air64@yandex.ru
+License: MIT
+Project-URL: Gitlab, https://gitlab.com/air64/boundless
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
