@@ -1,0 +1,7 @@
+nr.caching<1.0.0,>=0.3.2
+nr.preconditions<1.0.0,>=0.0.4
+typing-extensions<4.0.0,>=3.10.0.0
+
+[test]
+types-setuptools
+types-termcolor
