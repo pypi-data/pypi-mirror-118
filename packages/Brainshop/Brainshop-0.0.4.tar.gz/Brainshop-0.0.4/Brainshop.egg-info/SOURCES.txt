@@ -1,0 +1,7 @@
+setup.py
+Brainshop/__init__.py
+Brainshop.egg-info/PKG-INFO
+Brainshop.egg-info/SOURCES.txt
+Brainshop.egg-info/dependency_links.txt
+Brainshop.egg-info/requires.txt
+Brainshop.egg-info/top_level.txt
