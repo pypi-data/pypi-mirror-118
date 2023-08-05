@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: labo
+Version: 0.1.1
+Summary: A LaTeX bootstrapper
+Home-page: https://github.com/dhoekstra2000/labo
+Author: Douwe Hoekstra
+Author-email: douwe.hoekstra2512@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/dhoekstra2000/labo/issues
+Keywords: LaTeX bootstrap template
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE
+
+# labo - LaTeX Bootstrapper
+`labo` is a CLI-utility for bootstrapping LaTeX-projects based on templates.
+It uses [Jinja2](https://jinja2docs.readthedocs.io/en/stable/) for the templating.
+
+
