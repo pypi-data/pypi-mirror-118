@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: nmigen-tool
+Version: 0.0.1
+Summary: nmigen command line tool for generating verilog, rtlil, cxxrtl and showing design diagrams
+Home-page: https://github.com/hansfbaier/nmigen-tool/
+Author: Hans Baier
+Author-email: hansfbaier@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/hansfbaier/nmigen-tool/issues
+Platform: linux
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Electronic Design Automation (EDA)
+Description-Content-Type: text/markdown
+Requires-Dist: Click
+
+# nmigen-tool
+command line tool for frequent nmigen tasks (generate sources, show design)
+
+Usage:
+* generate verilog:
+    `nmigen generate verilog nmigen_library.utils.EdgeToPulse`
+
+* generate RTLIL:
+    `nmigen generate rtlil nmigen_library.utils.EdgeToPulse`
+
+* generate CXXRTL:
+    `nmigen generate cxxrtl nmigen_library.utils.EdgeToPulse`
+
+* show yosys RTL representation:
+    `nmigen show nmigen_library.utils.EdgeToPulse`
+    !['nmigen show' command](https://github.com/hansfbaier/nmigen-tool/blob/main/doc/show.png)
+
+* show netlistsvg RTL representation:
+    `nmigen netlistsvg  nmigen_library.utils.EdgeToPulse`
+    !['nmigen netlistsvg' command](https://github.com/hansfbaier/nmigen-tool/blob/main/doc/netlistsvg.png)
+
+
