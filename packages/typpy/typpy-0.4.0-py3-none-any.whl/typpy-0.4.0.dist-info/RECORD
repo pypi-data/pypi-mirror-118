@@ -1,0 +1,17 @@
+typpy/__init__.py,sha256=XL1mA1hkH3lM-zb-BY9go72BbS5MCfPNhdVevn1ip40,141
+typpy/__main__.py,sha256=-lIutTUQW4E0pQoRg-8DfmKJtWozn8pFiejhdBFbt6o,2264
+typpy/discover_files.py,sha256=Des-EuLYRYsMmEjYlCDQR2aYQXYk3sZmAoY2IJYXS10,368
+typpy/error.py,sha256=eo2qZ2NklqnSbyzuj98dXpuoLpZcX0LVN_FGuF1X1Hs,1385
+typpy/format.py,sha256=lAkEJFMm_Mc1ByzjUcYjV2fWTmYt3awFmjKTB46ZfGw,353
+typpy/is_subtype.py,sha256=ll0RYGmTwCpecVTzGQ3U74Ean2rX4MzKnsH2L1pj90I,2270
+typpy/output.py,sha256=a6oVnYRKtgrC8QRCCBtVFT9tFcHOL3kpFScRKSbbyHg,1679
+typpy/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+typpy/resolver.py,sha256=xlYf6mDSQL_YYL695D-isrqDoT7iGHWuicoC5zt7vug,1726
+typpy/scope.py,sha256=_mPKKBHUPbhtFHM0pEf4ki9p7u_1GIWgXNy0_aTqat8,2604
+typpy/type_checker.py,sha256=rUCMaaERDJDRQRHbDtUfAUcN2Y-ajzQUUIVuRMrT-84,3809
+typpy-0.4.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+typpy-0.4.0.dist-info/METADATA,sha256=rM04gD_CMXOPGmKa8zdUiZ0JojjygTI7QSby85NI7yg,1929
+typpy-0.4.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+typpy-0.4.0.dist-info/entry_points.txt,sha256=4QAmfFzC8lx0n21JRApSKXCfO3BEhinmDr6UX7ZQ9Yg,46
+typpy-0.4.0.dist-info/top_level.txt,sha256=cFIdd7h4HBK42e04jI0eJDKF_7Pmqi8ytXfDySVt88c,6
+typpy-0.4.0.dist-info/RECORD,,
