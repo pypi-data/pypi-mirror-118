@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+mysqlpool_wrapper/__init__.py
+mysqlpool_wrapper/_version.py
+mysqlpool_wrapper/mysqlpool.py
+mysqlpool_wrapper.egg-info/PKG-INFO
+mysqlpool_wrapper.egg-info/SOURCES.txt
+mysqlpool_wrapper.egg-info/dependency_links.txt
+mysqlpool_wrapper.egg-info/not-zip-safe
+mysqlpool_wrapper.egg-info/requires.txt
+mysqlpool_wrapper.egg-info/top_level.txt
