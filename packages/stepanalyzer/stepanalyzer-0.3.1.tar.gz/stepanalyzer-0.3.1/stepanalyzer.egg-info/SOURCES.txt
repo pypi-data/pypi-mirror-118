@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+stepanalyzer/__init__.py
+stepanalyzer/errors.py
+stepanalyzer/step.py
+stepanalyzer/system.py
+stepanalyzer.egg-info/PKG-INFO
+stepanalyzer.egg-info/SOURCES.txt
+stepanalyzer.egg-info/dependency_links.txt
+stepanalyzer.egg-info/requires.txt
+stepanalyzer.egg-info/top_level.txt
