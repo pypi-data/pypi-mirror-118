@@ -1,0 +1,12 @@
+jfaleiro_reactives/__init__.py,sha256=uuVRBJIvfZ8Zv0p4eBl20czUi197aAeX0zP5FB5DBQc,1105
+jfaleiro_reactives/_version.py,sha256=zx_jYWu_uDByeqbL6NyR1xFKXapW5Fm8VSTh02GIduA,99
+jfaleiro_reactives/context.py,sha256=OalwN3Udg7s2mp4CQpJ9q0_1XztKQu55Y646scAw6xs,1858
+jfaleiro_reactives/notifier/__init__.py,sha256=NeyLI4QCHcJxCc-7iAIDpqnz-ixfhEj7Ct6HPQQ2yes,984
+jfaleiro_reactives/notifier/async_notifier.py,sha256=d7JeTDSdfEBp9BnrvBssJa19RHiB065_UESPHWzRRuw,1319
+jfaleiro_reactives/notifier/threaded_notifier.py,sha256=5lkUNaZDazntZjRxOuosAB7b7Qu9i0A0iTCrPx81ioc,1301
+jfaleiro_reactives/subject.py,sha256=jekU3SGFsS8ktf1HTbepsL9FQaz-ri7yULYyK54uwhA,16412
+jfaleiro_reactives/utils.py,sha256=hz--ElPmp3aM2KgiAv_-fl13T-Rc34la_pxuxQUQeF0,1923
+jfaleiro.reactives-1.0.1.dist-info/LICENSE.txt,sha256=dql8h4yceoMhuzlcK0TT_i-NgTFNIZsgE47Q4t3dUYI,34520
+jfaleiro.reactives-1.0.1.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+jfaleiro.reactives-1.0.1.dist-info/METADATA,sha256=qSY5ts7Lot2hyK9p5zOPlWdbnreqTNwfCOjQR--w_YY,3149
+jfaleiro.reactives-1.0.1.dist-info/RECORD,,
