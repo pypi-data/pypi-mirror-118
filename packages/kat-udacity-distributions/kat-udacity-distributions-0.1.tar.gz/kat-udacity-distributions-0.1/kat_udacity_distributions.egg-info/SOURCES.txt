@@ -1,0 +1,10 @@
+setup.py
+kat-udacity-distributions/Binomialdistribution.py
+kat-udacity-distributions/Gaussiandistribution.py
+kat-udacity-distributions/Generaldistribution.py
+kat-udacity-distributions/__init__.py
+kat_udacity_distributions.egg-info/PKG-INFO
+kat_udacity_distributions.egg-info/SOURCES.txt
+kat_udacity_distributions.egg-info/dependency_links.txt
+kat_udacity_distributions.egg-info/not-zip-safe
+kat_udacity_distributions.egg-info/top_level.txt
