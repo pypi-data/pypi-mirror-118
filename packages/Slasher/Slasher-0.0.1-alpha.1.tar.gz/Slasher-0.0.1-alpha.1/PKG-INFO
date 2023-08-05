@@ -1,0 +1,27 @@
+Metadata-Version: 1.1
+Name: Slasher
+Version: 0.0.1-alpha.1
+Summary: A discord API Wrapper that focuses primarly on slash commands
+Home-page: https://github.com/tagptroll1/Slasher
+Author: Thomas
+Author-email: thomas@galehuset.org
+License: MIT
+Download-URL: https://github.com/tagptroll1/Slasher/archive/refs/tags/v0.0.1-alpha.1.tar.gz
+Description: # Slasher
+        
+        !This package does nothing at the moment!
+        
+        A discord API wrapper purely focused on slash commands.
+        
+        
+        
+        
+        ## Disclaimer
+        Made to support python version 3.9.6 and above, support for lower versions can't be guaranteed 
+Keywords: Discord,python,discord.py,slash,slash commands,api,wrapper
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
