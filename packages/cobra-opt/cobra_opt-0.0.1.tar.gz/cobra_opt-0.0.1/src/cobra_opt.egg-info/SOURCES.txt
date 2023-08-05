@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/cobra_opt/__init__.py
+src/cobra_opt/__main__.py
+src/cobra_opt/ast_optimizer.py
+src/cobra_opt/decompiler.py
+src/cobra_opt.egg-info/PKG-INFO
+src/cobra_opt.egg-info/SOURCES.txt
+src/cobra_opt.egg-info/dependency_links.txt
+src/cobra_opt.egg-info/top_level.txt
