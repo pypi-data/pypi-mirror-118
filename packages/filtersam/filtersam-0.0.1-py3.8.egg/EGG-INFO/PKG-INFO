@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: filtersam
+Version: 0.0.1
+Summary: ('Tools to filter sam/bam files by percent identity or percent of matched sequence',)
+Home-page: http://github.com/robaina/filterSAM
+Author: Semidán Robaina Estévez
+Author-email: srobaina@ull.edu.es
+Maintainer: Semidán Robaina Estévez
+Maintainer-email: srobaina@gmail.com
+License: Creative Commons Attribution 4.0 International
+Download-URL: http://github.com/robaina/filterSAM
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Filter SAM/BAM file by percent identity or percent of matched sequence
+
+
+# TODO
+
+1. Perhaps good idea (if possible) to add a specific tag to BAM/SAM containing computed percent identity
+2. Include several definitions of percent identity and/or let the user define one
+3. Make it a command line callable as well
+
