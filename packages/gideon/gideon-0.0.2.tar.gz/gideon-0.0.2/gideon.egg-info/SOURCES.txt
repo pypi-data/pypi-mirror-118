@@ -1,0 +1,13 @@
+CHANGELOG.txt
+Gideon.py
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+test.py
+gideon/__init__.py
+gideon.egg-info/PKG-INFO
+gideon.egg-info/SOURCES.txt
+gideon.egg-info/dependency_links.txt
+gideon.egg-info/requires.txt
+gideon.egg-info/top_level.txt
