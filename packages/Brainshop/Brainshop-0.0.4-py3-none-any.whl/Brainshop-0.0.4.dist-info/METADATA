@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: Brainshop
+Version: 0.0.4
+Summary: An easy to use API wrapper for Brainshop.ai
+Home-page: UNKNOWN
+Author: Rishikesh
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+**Brainshop**
+- An easy to use API wrapper for [Brainshop.ai](https://brainshop.ai/)
+
+
+**Installation**
+```shell
+pip install Brainshop
+```
+
+**Example**
+```python
+import Brainshop
+brain = Brainshop.Brain(key="your api key" , bid = your bot id)
+
+print(brain.ask("Hey! How are you ?"))
+
+
+```
+
+
+
+
