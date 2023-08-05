@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: gppt
+Version: 0.1
+Summary: UNKNOWN
+Home-page: https://github.com/eggplants/get-pixiv-token
+Author: eggplants
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: selenium
+Requires-Dist: types-requests
+Requires-Dist: types-selenium
+
+# `gppt`: get-pixivpy-token
+
+- Get your Pixiv token (for running in pixivpy)
+- Refine [pixiv_auth.py](https://gist.github.com/ZipFile/c9ebedb224406f4f11845ab700124362)
+
+## Install
+
+```bash
+❭ pip install gppt
+```
+
+## Run
+
+- Note: _In advance, please setup google-chrome-stable + selenium + webdriver_
+- On Ubuntu, my setup script is available
+
+```bash
+❭ ./setup.sh
+```
+
+- Then
+
+```bash
+❭ gppt login
+access_token: ***
+refresh_token: ***
+expires_in: 3600
+```
+
+
