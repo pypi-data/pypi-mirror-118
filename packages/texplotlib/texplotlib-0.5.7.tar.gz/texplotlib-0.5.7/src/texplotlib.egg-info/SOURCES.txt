@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/texplotlib/__init__.py
+src/texplotlib/module.py
+src/texplotlib.egg-info/PKG-INFO
+src/texplotlib.egg-info/SOURCES.txt
+src/texplotlib.egg-info/dependency_links.txt
+src/texplotlib.egg-info/requires.txt
+src/texplotlib.egg-info/top_level.txt
