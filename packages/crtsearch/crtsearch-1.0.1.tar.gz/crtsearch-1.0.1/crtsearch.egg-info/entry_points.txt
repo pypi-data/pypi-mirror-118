@@ -1,0 +1,3 @@
+[console_scripts]
+crtsearch = crtsearch.crtsearch:main
+
