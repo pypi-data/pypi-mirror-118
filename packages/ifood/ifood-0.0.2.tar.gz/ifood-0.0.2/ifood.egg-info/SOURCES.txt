@@ -1,0 +1,8 @@
+README.md
+setup.py
+ifood/__init__.py
+ifood.egg-info/PKG-INFO
+ifood.egg-info/SOURCES.txt
+ifood.egg-info/dependency_links.txt
+ifood.egg-info/requires.txt
+ifood.egg-info/top_level.txt
