@@ -1,0 +1,16 @@
+udemyscraper/__init__.py,sha256=C88Yi56Z--RAaxcsnz52NbXdQK5jpy976bOS9xUFLHY,17401
+udemyscraper/metadata.py,sha256=RDqrKamgdNtL-7GID9m9NSckJ84Z89R30GB-x1qjtYg,350
+udemyscraper/udscraperscript.py,sha256=dlKZ0gJw0O_de1PJRE3mD1Re0UdB-R185JTSxs9N51s,7168
+udemyscraper/utils.py,sha256=L74nvxH0o2LGTnHwKD0vhHdDVAoYk5YWmQ2QQ6_8Gpo,5593
+udemyscraper/export/__init__.py,sha256=ltsQIT0YmmeObSddsYIrncA-lztbqjk0X2XykvvD4sk,777
+udemyscraper/export/csv.py,sha256=7NwZG8qaQ9mX1eGgV7VdkP9buiJfOJtH-vPRJnTS8ME,2714
+udemyscraper/export/dict.py,sha256=njUktEAXv9xKNBRohmmkoUE09Q37IE5Dg2yQ-dLRSqU,1170
+udemyscraper/export/json.py,sha256=EviUkXMUhDBCQl3nxsLhwERUZA8Cg1D9chECGTDpRJg,606
+udemyscraper/export/print.py,sha256=xRuPGOekxuKd3krO-1MEZ1Ks5EDt93CNlrKILJSMJIw,433
+udemyscraper/export/xml.py,sha256=GQG15PdMw_BOcwJ-IBT6MxIfxX18p12GboBsDr1Z1wA,451
+udemyscraper-0.8.1.dist-info/LICENSE.txt,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+udemyscraper-0.8.1.dist-info/METADATA,sha256=kzYR3v3-4dst9OlAX6GxIYuLHay_MEm_OyNLKCoeyAs,20233
+udemyscraper-0.8.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+udemyscraper-0.8.1.dist-info/entry_points.txt,sha256=2ufSX9BBSJu_JiizjtKpmmonhC536kv_KG7j8GRykdw,68
+udemyscraper-0.8.1.dist-info/top_level.txt,sha256=yF56TAkrFNbvrdH1bfmXhMP-Hz5wh-Rz_gnxV1DbsIQ,13
+udemyscraper-0.8.1.dist-info/RECORD,,

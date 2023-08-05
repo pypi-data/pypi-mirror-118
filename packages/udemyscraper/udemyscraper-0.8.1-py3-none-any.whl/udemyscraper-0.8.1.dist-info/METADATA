@@ -1,0 +1,473 @@
+Metadata-Version: 2.1
+Name: udemyscraper
+Version: 0.8.1
+Summary: A Udemy Course Scraper built with beautiful soup, that fetches udemy course information. Get udemy course information and convert it to json, csv or xml file, without authentication.
+Home-page: https://github.com/sortedcord/udemy-web-scraper
+Author: Aditya Gupta
+Author-email: divyashgupta2005@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/sortedcord/udemy-web-scraper/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Description-Content-Type: text/markdown
+Requires-Dist: alive-progress (==1.6.2)
+Requires-Dist: appdirs (==1.4.4)
+Requires-Dist: beautifulsoup4 (==4.9.3)
+Requires-Dist: bs4 (==0.0.1)
+Requires-Dist: certifi (==2021.5.30)
+Requires-Dist: charset-normalizer (==2.0.4)
+Requires-Dist: colorama (==0.4.4)
+Requires-Dist: configparser (==5.0.2)
+Requires-Dist: crayons (==0.4.0)
+Requires-Dist: cssselect (==1.1.0)
+Requires-Dist: fake-useragent (==0.1.11)
+Requires-Dist: getopt2 (==0.0.3)
+Requires-Dist: idna (==3.2)
+Requires-Dist: lxml (==4.6.3)
+Requires-Dist: pyee (==8.2.2)
+Requires-Dist: pyquery (==1.4.3)
+Requires-Dist: requests (==2.26.0)
+Requires-Dist: selenium (==3.141.0)
+Requires-Dist: soupsieve (==2.2.1)
+Requires-Dist: tqdm (==4.62.2)
+Requires-Dist: urllib3 (==1.26.6)
+Requires-Dist: webdriver-manager (==3.4.2)
+Requires-Dist: msedge-selenium-tools (==3.141.3)
+Requires-Dist: dict2xml (==1.7.0)
+Requires-Dist: dicttoxml (==1.7.4)
+Provides-Extra: dev
+Requires-Dist: pytest (>=3.7) ; extra == 'dev'
+
+![scraper](docs/logo.png)
+
+![License](https://img.shields.io/badge/LICENSE-GPL--3.0-brightgreen?style=for-the-badge)
+![Python](https://img.shields.io/badge/PYTHON-3.9.6-blue?style=for-the-badge&logo=python&logoColor=white)
+![Chromium](https://img.shields.io/badge/CHROMIUM-92.0.3-GREEN?style=for-the-badge&logo=GoogleChrome&logoColor=white)
+![Udemyscraper](https://img.shields.io/badge/UDEMYSCRAPER-0.7.4-magenta?style=for-the-badge&logo=udemy&logoColor=white)
+
+A Web Scraper built with beautiful soup, that fetches udemy course information.
+
+> ## 📌 New in 0.8.0
+>
+>### Added
+>-  #### **Udemyscraper** can now export multiple courses to csv files!
+>     - `course_to_csv` takes an array as an input and dumps each course to a single csv file.
+>-  #### **Udemyscraper** can now export courses to xml files!
+>     - `course_to_xml` is function that can be used to export the course object to an xml file with the appropriate tags and format.
+>- `udemyscraper.export` submodule for exporting scraped course.
+>- Support for Microsoft Edge (Chromium Based) browser.
+>- Support for Brave Browser.
+>- Support for Vivaldi.
+>
+>### Changes
+>- #### **Udemyscraper.py** has been refractured into 5 different files:
+>     - `__init__.py` - Contains the code which will run when imported as a library
+>     - `metadata.py` - Contains metadata of the package such as the name, version, author, etc. Used by setup.py
+>     - `output.py`   - Contains functions for outputting the course information.
+>     - `udscraperscript.py` -Is the script file which will run when you want to use udemyscraper as a script.
+>     - `utils.py` - Contains utility related functions for udemyscraper.
+>- #### Now using udemyscraper.export instead of udemyscraper.output.
+>     - `quick_display` function has been replaced with `print_course` function.
+>  
+>
+>- #### Now using `setup.py` instead of `setup.cfg`
+>- #### Deleted `src` folder which is now replaced by `udemyscraper` folder which is the source directory for all the modules
+>- ### **Installation Process**
+>    #### Since udemyscraper is now to be used as a package, it is obvious that the installation process has also had major changes.
+>   Installation process is documented [here](readme.md/#Installation) 
+>
+>- Renamed the `browser_preference` key in Preferences dictionary to `browser`
+>- Relocated browser determination to `utils` as `set_browser` function.
+>- Removed `requirements.txt` and `pyproject.toml`
+>  
+>### Fixed
+>- Fixed cache argument bug.
+>- Fixed importing preferences bug.
+>- Fixed Banner Image scraping.
+>- Fixed Progressbar exception handling.
+>- Fixed recognition of chrome as a valid browser.
+>- Preferences will not be printed while using the script.
+>- Fixed `browser` key error
+
+
+## Table Of Contents
+
+- [Usage](#usage)
+  - [List of Commands](#list-of-commands)
+- [Installation](#installation)
+- [Browser Setup](#browser-setup)
+  - [Chrome (or chromium)](#chrome-or-chromium)
+  - [Firefox](#firefox)
+  - [Suppressing Browser](#suppressing-browser)
+- [Approach](#approach)
+  - [Why not just use Udemy's API?](#why-not-just-use-the-udemys-api)
+- [Data Tables](#data)
+- [Exporting data](#output-dumping-data)
+- [Contributing](#contributing)
+
+
+# Usage
+
+This section shows the basic usage of this script. Before this be sure to [install](#installation) this first before importing it in your file.
+
+## As a Module
+
+Udemyscraper contains a `UdemyCourse` class which can be imported into your file it takes just one argument which is `query` which is the seach query. It has a method called `fetch_course` which you can call after creating a UdemyCourse object.
+
+```py
+from udemyscraper import UdemyCourse
+
+course = UdemyCourse()
+course.fetch_course('learn javascript')
+print(course.title) # Prints courses' title
+```
+
+## As a Script
+
+In case you do not wish to use the module in your own python file but you just need to dump the data, udemyscraper can be directly invoked along with a variety of arguments and options.
+
+You can do so by running the udemyscraper. There is no need to worry about your `PATH` as it is automatically configured by pip on installation.
+
+```bash
+udemyscraper --no-warn --query "Learn Python for beginners"
+```
+
+Here is an example of exporting the data as a json file.
+
+```bash
+udemyscraper -d json -q "German course for beginners"
+```
+
+Udemyscraper can export the data to a variety of formats as shown [here](#output-dumping-data)
+
+### List of Commands
+
+![Commands](docs/command.svg)
+
+# Installation
+
+## Virtual Environment
+
+Before installing the dependencies it is recommended to setup a virtual environment if you are not using the pypi prebuilt package.
+
+<details>
+
+You can setup a virtual environment on your machine by using the `virtualenv` library and then activating it.
+
+```bash
+pip install virtualenv
+
+virtualenv somerandomname
+
+```
+
+Activating for \*nix
+
+```bash
+source somerandomname/bin/activate
+```
+
+Activating for Windows
+
+```
+somerandomname\Scripts\activate
+```
+
+</details>
+
+## Dependencies Installation
+
+Dependcies will be automatically installed with pip.
+
+> ### Deprecated as of 0.8.0
+> Earlier there used to be a `requirements.txt` file which you would use to install the dependencies.
+
+
+# Browser Setup
+
+A browser window may not pop-up as I have enabled the `headless` option so the entire process takes minimal resources.
+
+This script works with firefox as well as chromium based browsers. Make sure the webdrivers of Chrome, Edge and Firefox are added to your path while using the respected browsers.
+
+## Chrome (or chromium)
+
+To run this script you need to have chrom(ium) installed on the machine as well as the chromedriver binary which can be downloaded from this [page](https://chromedriver.chromium.org/downloads). Make sure that the binary you have installed works on your platform/ architecture and the the driver version corresponds to the version of the browser you have downloaded.
+
+
+To set chrome as default you can pass in an argument while initializing the class though it is set to chrome by default.
+
+```py
+mycourse = UdemyCourse(browser="chrome")
+```
+
+Or you can pass in a argument while using as a script
+
+```bash
+udemyscraper -b chrome
+```
+
+## Edge
+To run this script you need to have Microsoft Edge installed on the machine as well as the msedgedriver which can be downloaded from this [page](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/). Make sure that the binary you have installed works on your platform/ architecture and the the driver version corresponds to the version of the browser you have downloaded.
+
+In order to use edge, you can pass in an argument while initializing the class.
+
+```py
+mycourse = UdemyCourse(browser="edge")
+```
+
+Or you can pass in a argument while using as a script
+
+```bash
+udemyscraper -b edge
+```
+
+
+### Using other chromium browsers
+
+With update 0.8.0 you can now use other chromium browsers such as brave and vivaldi along with udemyscraper. The process is similiar to using the other browsers, just that you need to have chromedriver added to the path. Brave works with windows as well as with linux however udemyscraper has not been tested with macOS yet.
+
+```py
+mycourse = UdemyCourse(browser="brave")
+```
+
+
+## Firefox
+
+In order to run this script this firefox, you need to have firefox installed as well as the `gekodriver` executable file in this directory or in your path.
+You can download the gekodriver from [here](https://github.com/mozilla/geckodriver/releases). Or use the one provided with the source code.
+
+To use firefox instead of chrome, you can pass in an argument while initializing the class:
+
+```py
+mycourse = UdemyCourse(browser="firefox")
+```
+
+Or you can pass in a argument while using `udemyscraper.py`
+
+```bash
+udemyscraper -b firefox
+```
+
+## Suppressing Browser
+
+| **Headless Disabled**                 | **Headless Enabled**                   |
+| ------------------------------------- | -------------------------------------- |
+| ![Headless disabled](docs/header.gif) | ![Headless enabled](docs/headless.gif) |
+| 19 Seconds                            | 12 Seconds                             |
+
+In the above comparison you can clearly see that the image on the right (headless) completed way faster than the one with headless disabled. By suppressing the browser not only do you save time, but you also save system resources.
+
+The `headless` option is enabled by default. But in case you want to disable it for debugging purposes, you may do so by passing the `headless` argument to `false`
+
+```py
+mycourse = UdemyCourse(headless=False)
+```
+
+Or specify the same for `udemyscraper.py`
+
+```bash
+udemyscraper -h false
+```
+
+# Approach
+
+It is fairly easy to webscrape sites, however, there are some sites that are not that scrape-friendly. Scraping sites, in itself is perfectly legal however there have been cases of lawsuits against web scraping, some companies \*cough Amazon \*cough consider web-scraping from its website illegal however, they themselves, web-scrape from other websites. And then there are some sites like udemy, that try to prevent people from scraping their site.
+
+Using BS4 in itself, doesn't give the required results back, so I had to use a browser engine by using selenium to fetch the courses information. Initially, even that didn't work out, but then I realised the courses were being fetch asynchronously so I had to add a bit of delay. So fetching the data can be a bit slow initially.
+
+## Why not just use Udemy's API?
+
+Even I thought of that after some digging around as I did not know that such an API existed. However, this requires you to have a udemy account already. I might add the use of this Api in the future as its a faster and much more efficient, but right now, I would like to keep things simple. Moreover, this kind of front-end webscraping does not require authentication.
+
+# Data
+
+The following datatable contains all of the data that can be fetched.
+
+## Course Class
+
+This is the data of the parent class which is the course class itself.
+
+<details>
+<summary>View Table</summary>
+
+| Name              | Type         | Description                                              | Usage                    |
+| ----------------- | ------------ | -------------------------------------------------------- | ------------------------ |
+| `link`            | URL (String) | url of the course.                                       | `course.link`            |
+| `title`           | String       | Title of the course                                      | `course.title`           |
+| `headline`        | String       | The headline usually displayed under the title           | `course.headline`        |
+| `instructors`     | String       | Name of the instructor of the course                     | `course.instructors`     |
+| `rating`          | Float        | Rating of the course out of 5                            | `course.rating`          |
+| `no_of_ratings`   | Integer      | Number of rating the course has got                      | `course.no_of_ratings`   |
+| `duration`        | String       | Duration of the course in hours and minutes              | `course.duration`        |
+| `no_of_lectures`  | Integer      | Gives the number of lectures in the course (lessons)     | `course.no_of_lectures`  |
+| `no_of_sections`  | Integer      | Gives the number of sections in the courses              | `course.no_of_lectures`  |
+| `tags`            | List         | Is the list of tags of the course (Breadcrumbs)          | `course.tags[1]`         |
+| `price`           | Float        | Price of the course in local currency                    | `course.price`           |
+| `student_enrolls` | Integer      | Gives the number of students enrolled                    | `course.student_enrolls` |
+| `language`        | String       | Gives the language of the course                         | `course.language`        |
+| `objectives`      | List         | List containing all the objectives for the course        | `course.objectives[2]`   |
+| `Sections`        | List         | List containing all the section objects for the course   | `course.Sections[2]`     |
+| `requirements`    | List         | List containing all the requirements for the course      | `course.requirements`    |
+| `description`     | String       | Gives the description paragraphs of the course           | `course.description`     |
+| `target_audience` | List         | List containing the points under Target Audience heading | `course.target_audience` |
+| `banner`          | String       | URL for the course banner image                          | `course.banner`          |
+
+</details>
+
+## Section Class
+
+| Name            | Type    | Description                                           | Usage                              |
+| --------------- | ------- | ----------------------------------------------------- | ---------------------------------- |
+| `name`          | String  | Returns the name of the section of the course         | `course.Sections[4].name`          |
+| `duration`      | String  | The duration of the specific section                  | `course.Sections[4].duration`      |
+| `Lessons`       | List    | List with all the lesson objects for the section      | `course.Sections[4].Lessons[2]`    |
+| `no_of_lessons` | Integer | Gives the number of lessons in the particular Section | `course.Sections[4].no_of_lessons` |
+
+## Lesson Class
+
+| Name       | Type    | Description                                             | Usage                                    |
+| ---------- | ------- | ------------------------------------------------------- | ---------------------------------------- |
+| `name`     | String  | Gives the name of the lesson                            | `course.Sections[4].Lessons[2].name`     |
+| `demo`     | Boolean | Whether the lesson can be previewed or not              | `course.Sections[4].Lessons[2].demo`     |
+| `duration` | String  | The duration of the specific lesson                     | `course.Sections[4].Lessons[2].duration` |
+| `type`     | String  | Tells what type of lesson it is. (Video, Article, Quiz) | `course.Sections[4].Lessons[2].type`     |
+
+# Exporting Data
+
+With update 0.8.0, you can use a unified function for exporting courses: `export_course`. This takes in 3 parameters:
+- First is the course object/ array itself.
+- The mode of exporting the data. Can be print, csv, json, xml, etc.
+- (Optional) The name of the file for the data to be exported to.
+## Print Course
+
+You can use this function to print the basic course information in the console itself. The course information is not stored locally in this case.
+
+<details>
+
+```bash
+$ udemyscraper -q "Learn Python" --quiet -n --dump print
+===================== Fetched Course =====================
+
+Learn Python Programming Masterclass
+
+This Python For Beginners Course Teaches You The Python
+Language Fast. Includes Python Online Training With Python 3
+
+URL: https://udemy.com/course/python-the-complete-python-developer-course/
+Instructed by Tim Buchalka
+4.5 out of 5 (79,526)
+Duration: 64h 33m
+469 Lessons and 25 Sections
+```
+
+The `print_course` function can also be called when using udemyscraper as a module.
+
+```py
+from udemyscraper.export import export_course
+
+# Assuming you have already created a course object and fetched the data
+export_course(course, "print")
+```
+
+</details>
+
+## Converting to Dictionary
+
+The entire course object is converted into a dictionary by using nested object to dictionary conversion iterations. 
+
+<details>
+
+```py
+from udemyscraper.export import export_course as exp
+# Assuming you have already created a course object and fetched the data
+dictionary_course = exp(course, "dict")
+```
+
+</details>
+
+## Dumping as JSON
+
+Udemyscraper can also convert the entire course into a dictionary, parse it into a json file and then export it to a json file. 
+
+<details>
+
+```py
+from udemyscraper.export import export_course
+# Assuming you have already created a course object and fetched the data
+export_course(course, "json", "custom_name.json")
+```
+
+This will export the data to `object.json` file in the same directory. You can also specify the name of the file by passing in the corresponding argument
+
+
+Here is an example of how the file will look like. (The file has been trunacted)
+![output.json](docs/json.svg)
+
+</details>
+
+## Dumping as CSV
+
+With update 0.8.0 you can export the scraped data to a CSV file. This is more useful when dealing with multiple course classes.
+
+<details>
+When exporting the course to a csv file, be sure to convert it to an array and then use the `export_course` function on it.
+
+```py
+from udemyscraper import UdemyCourse
+from udemyscraper.export import export_course
+
+course = UdemyCourse({'cache': True, 'warn':False})
+course.fetch_course("learn javascript")
+
+course2 = UdemyCourse({'warn':False, 'debug': True})
+course2.fetch_course("learn german")
+
+export_course([course, course2], "csv")
+```
+
+This code will export something like this-
+
+![csv data](docs/csv.gif)
+
+You can do this with as many number of courses you like. But unfortunately, I couldn't figure out any way to export sections and lessons to csv. 
+
+</details>
+
+## Dumping as XML
+
+Udemyscraper can also convert the entire course into a dictionary, parse it into xml and then export it to an xml file. 
+
+<details>
+
+```py
+from udemyscraper.export import export_course
+# Assuming you have already created a course object and fetched the data
+export_course(course, "xml", "custom_name.xml")
+```
+
+This will export the data to `object.json` file in the same directory. You can also specify the name of the file by passing in the corresponding argument
+
+
+Here is an example of how the file will look like. (The file has been trunacted)
+![output.xml](docs/xml.svg)
+
+</details>
+
+### For Jellyfin users
+
+Jellyfin metadata uses XML structure for its `.nfo` files. For images, we only have one resource which is the poster of the file. It might be possible to write a custom XML structure for jellyfin. Currently in development.
+
+# Contributing
+
+Issues and PRs as well as discussions are always welcomes, but please make an issue of a feature/code that you would be modifying before starting a PR.
+
+Currently there are lots of features I would like to add to this script. You can check [this page](https://github.com/sortedcord/udemy-web-scraper/projects/1) what the current progress is.
+
+For further instructions, do read [contributing.md](CONTRIBUTING.md).
+
+
