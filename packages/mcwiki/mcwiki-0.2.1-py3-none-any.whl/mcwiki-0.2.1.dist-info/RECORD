@@ -1,0 +1,11 @@
+mcwiki/__init__.py,sha256=zSVBrM37qkSlV3u5n4BVV9YJyoKegeZf3TH3oKpdbjE,227
+mcwiki/extractor.py,sha256=Ahb2bCK4dlj5m82TLMr1-USJAvLJPNY8-A2b_bzyZqo,1593
+mcwiki/page.py,sha256=iDEq4MS4pygPiGBmND5I213ImfRyzuBPHs1VRRaxMAY,2667
+mcwiki/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mcwiki/text.py,sha256=PJ-AydrUb-TGdRlTEuDgX7tJ9sHOIs7rkM-6q4XAGoU,315
+mcwiki/tree.py,sha256=t9xg_fnO1GQk9qd1qdjEE8tfUHBAuono_sjAFLa-knk,5226
+mcwiki/utils.py,sha256=WMv5Fi4hWBQ0F8HVmxaVtrq66F1Ltt-jSbV6YefNZug,160
+mcwiki-0.2.1.dist-info/LICENSE,sha256=71AZ-oBXSovKxFMoYVEQTw8rpS2hUllt8_xX3cp0kgA,1073
+mcwiki-0.2.1.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+mcwiki-0.2.1.dist-info/METADATA,sha256=8k9uJdgL0LIBJjKqreZnbih_dcDVE378Jzkk4GrZxZQ,7641
+mcwiki-0.2.1.dist-info/RECORD,,
