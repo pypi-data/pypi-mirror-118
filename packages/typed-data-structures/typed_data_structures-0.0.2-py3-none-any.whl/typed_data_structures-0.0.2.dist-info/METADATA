@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: typed-data-structures
+Version: 0.0.2
+Summary: typed-data-structures - A collection of data structures written in python with propper type annotations
+Home-page: https://github.com/abrahammurciano/typed-data-structures
+Author: Abraham Murciano
+Author-email: abrahammurciano@gmail.com
+License: MIT
+Keywords: generic typed data structures heap stack queue
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7.*
+Description-Content-Type: text/markdown
+
+# Typed Data Structures
+
+A collection of data structures written in python with proper type annotations.
+
+## Installation
+
+To install the package, run the following command.
+
+```
+pip install typed_data_structures
+```
+
+## Documentation
+
+Click [here](https://abrahammurciano.github.io/typed-data-structures/html) to view the documentation.
+
+
