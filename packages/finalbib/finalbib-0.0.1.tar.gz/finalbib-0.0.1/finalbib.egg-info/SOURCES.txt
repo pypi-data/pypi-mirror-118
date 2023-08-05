@@ -1,0 +1,6 @@
+setup.py
+finalbib.egg-info/PKG-INFO
+finalbib.egg-info/SOURCES.txt
+finalbib.egg-info/dependency_links.txt
+finalbib.egg-info/requires.txt
+finalbib.egg-info/top_level.txt
