@@ -1,0 +1,9 @@
+flask_cache/__init__.py,sha256=zpMUMFclyVACrCxpKU0z8XV3zYuSV-i2RXBtHc34gdI,24576
+flask_cache/_compat.py,sha256=aCOxem10MVb-2e1yaoOotcEjknr6uUFWKX9a2orf-0k,473
+flask_cache/backends.py,sha256=LwfxylfLb1MRAEP4Hgf2BKl6RnMYpPj-9YzICHklRcU,6160
+flask_cache/jinja2ext.py,sha256=u8xyBeKAckBSAFtPTcC0HZbie6Jze560Z0NWBkHLjxo,2557
+Flask_Cache2-0.13.1.dist-info/LICENSE,sha256=BTZ6N70Les3cweRnvlN5xHX3t5pE7mGK_sy_ExzDMjE,1458
+Flask_Cache2-0.13.1.dist-info/METADATA,sha256=RKxMpcA65KYWHUKhKafnh5EX8_rONK6-uy5XZBhkxq4,995
+Flask_Cache2-0.13.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+Flask_Cache2-0.13.1.dist-info/top_level.txt,sha256=k-tukEcgdHZL3qAEcqkxz8qMf1_RKJjAhqV1LVIOldQ,12
+Flask_Cache2-0.13.1.dist-info/RECORD,,
