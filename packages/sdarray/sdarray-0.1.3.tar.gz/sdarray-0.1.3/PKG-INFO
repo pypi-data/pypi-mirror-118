@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: sdarray
+Version: 0.1.3
+Summary: Common single-dish data structure for radio astronomy
+Home-page: https://github.com/sdarray/sdarray
+License: MIT
+Author: Akio Taniguchi
+Author-email: taniguchi@a.phys.nagoya-u.ac.jp
+Requires-Python: >=3.7,<3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Documentation, https://sdarray.github.io/sdarray
+Description-Content-Type: text/markdown
+
+# sdarray
+
+[![PyPI](https://img.shields.io/pypi/v/sdarray.svg?label=PyPI&style=flat-square)](https://pypi.org/pypi/sdarray/)
+[![Python](https://img.shields.io/pypi/pyversions/sdarray.svg?label=Python&color=yellow&style=flat-square)](https://pypi.org/pypi/sdarray/)
+[![Tests](https://img.shields.io/github/workflow/status/sdarray/sdarray/Tests?logo=github&label=Tests&style=flat-square)](https://github.com/sdarray/sdarray/actions)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg?label=License&style=flat-square)](LICENSE)
+
+Common single-dish data structure for radio astronomy
+
