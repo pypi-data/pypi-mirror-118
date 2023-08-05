@@ -1,0 +1,8 @@
+_jpegtools.cpython-39-x86_64-linux-gnu.so,sha256=lkZ-EO8Iua65yfuyTTQTbQ7pbWO2eq3GRp9DHg68VbM,299816
+jpegtools/__init__.py,sha256=bxKCnzP3jWYEipn4AoK9sAYH-9aQznGlo5-BMw3SYYc,747
+jpegtools.libs/libjpeg-0784ef09.so.62.2.0,sha256=fws6yGacjfO7-xp9PjOxlRcxjwLnh_H6DakL0ozC-ls,442096
+jpegtools.libs/libboost_python-py35-3accae62.so.1.62.0,sha256=ak14L029plB3SIiCYLqUOfqD3TKmnppKn6I4QHD5x9g,345800
+jpegtools-0.0.2.dist-info/METADATA,sha256=AxevIaWDjYpt2OS77ydptdyaiHvq1Lffx9sXsWs-FSA,134
+jpegtools-0.0.2.dist-info/top_level.txt,sha256=MLXig0XMztv-KH5BHe8pTCH36qsBl1P7SN-h4lBy9Vk,21
+jpegtools-0.0.2.dist-info/RECORD,,
+jpegtools-0.0.2.dist-info/WHEEL,sha256=wzwAVzy3SxBtj4dxwvayEaQh_8SsJVLthrKeoYGieSk,112
