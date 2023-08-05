@@ -1,0 +1,162 @@
+Metadata-Version: 2.1
+Name: freeplane_tools
+Version: 0.0.14
+Summary: This package provides some tooling around translating freeplane mindmap files into other useful formats
+Home-page: https://github.com/shollingsworth/freeplane_tools
+Author: Steven Hollingsworth
+Author-email: hollingsworth.stevend@gmail.com
+License: MIT
+Project-URL: Changes, https://github.com/shollingsworth/freeplane_tools/blob/main/CHANGELOG.md
+Project-URL: Source Code, https://github.com/shollingsworth/freeplane_tools
+Project-URL: Issue Tracker, https://github.com/shollingsworth/freeplane_tools/issues/
+Project-URL: Twitter, https://twitter.com/_stevo
+Project-URL: Documentation, https://shollingsworth.github.io/freeplane_tools/index.html
+Description: [![github-issues](https://img.shields.io/github/issues/shollingsworth/freeplane_tools?style=plastic "github-issues")](https://github.com/shollingsworth/freeplane_tools/issues) [![github-languages-code-size](https://img.shields.io/github/languages/code-size/shollingsworth/freeplane_tools?style=plastic "github-languages-code-size")](https://github.com/shollingsworth/freeplane_tools) [![github-stars](https://img.shields.io/github/stars/shollingsworth/freeplane_tools?style=plastic "github-stars")](https://github.com/shollingsworth/freeplane_tools/stargazers) [![github-forks](https://img.shields.io/github/forks/shollingsworth/freeplane_tools?style=plastic "github-forks")](https://github.com/shollingsworth/freeplane_tools/network/members) 
+        
+        [![pypi-v](https://img.shields.io/pypi/v/freeplane-tools?style=plastic "pypi-v")](https://pypi.org/project/freeplane-tools) [![pypi-status](https://img.shields.io/pypi/status/freeplane-tools?style=plastic "pypi-status")](https://pypi.org/project/freeplane-tools) [![pypi-l](https://img.shields.io/pypi/l/freeplane-tools?style=plastic "pypi-l")](https://pypi.org/project/freeplane-tools) [![pypi-dm](https://img.shields.io/pypi/dm/freeplane-tools?style=plastic "pypi-dm")](https://pypi.org/project/freeplane-tools) [![pypi-pyversions](https://img.shields.io/pypi/pyversions/freeplane-tools?style=plastic "pypi-pyversions")](https://pypi.org/project/freeplane-tools) [![pypi-implementation](https://img.shields.io/pypi/implementation/freeplane-tools?style=plastic "pypi-implementation")](https://pypi.org/project/freeplane-tools) 
+        
+        # TOC
+        * [Freeplane Tools](#freeplane-tools-)
+           * [Installation](#installation-)
+           * [License](#license-)
+           * [Quickstart](#quickstart-)
+              * [Example](#example-)
+           * [CLI Commands](#cli-commands-)
+           * [Building](#building-)
+           * [Other Docs](#other-docs-)
+        
+        
+        # Freeplane Tools [&#8593;](#toc)
+        If you hate writing Markdown, but love mindmaps (and using [freeplane](https://www.freeplane.org/wiki/index.php/Home) this toolset is for you.
+        
+        These python programs aim to ease translating a mindmap into various markdown formats.
+        
+        This document [README.md](https://github.com/shollingsworth/freeplane_tools/blob/main/README.md) was made with `mm2github.py` with  [README.mm](https://github.com/shollingsworth/freeplane_tools/blob/main/README.mm) as a source.
+        
+        Enjoy!
+        
+        Pull requests welcome. :)
+        ## Installation [&#8593;](#toc)
+        To install this package from [pypy](https://pypi.org/project/freeplane-tools/) run the following command.
+        
+        
+        ```
+        
+        pip3 install freeplane_tools
+        
+        ```
+        
+        ## License [&#8593;](#toc)
+        See: [LICENSE](https://github.com/shollingsworth/freeplane_tools/blob/main/LICENSE)
+        ## Quickstart [&#8593;](#toc)
+        Run the following if you want a quick demo of how this works. Have `freeplane` installed before running this.
+        
+        
+        ```
+        
+        pip3 install freeplane_tools
+        
+        mm2template.py mymindmap.mm
+        
+        freeplane mymindmap.mm
+        
+        # do your editing in freeplane
+        
+        mm2github.py -w mymindmap.mm
+        
+        
+        ```
+        
+        This will create: `mymindmap.md`
+        ### Example [&#8593;](#toc)
+        Just want to look?
+        
+        [This](https://github.com/shollingsworth/freeplane_tools/blob/main/examples/template.mm) mindmap produces the following [markdown](https://github.com/shollingsworth/freeplane_tools/blob/main/examples/template.md)
+        ## CLI Commands [&#8593;](#toc)
+        *mm2bitbucket_server.py*
+        ```
+        usage: mm2bitbucket_server.py [-h] [-w] [-o OUTFILE] mindmap_file
+        
+        Convert a Freeplane Mindmap to Bitbucket Markdown.
+        
+        positional arguments:
+          mindmap_file          mindmap_file help
+        
+        optional arguments:
+          -h, --help            show this help message and exit
+          -w, --write           write markdown file
+          -o OUTFILE, --outfile OUTFILE
+        
+        ```
+        ---
+        *mm2github.py*
+        ```
+        usage: mm2github.py [-h] [-w] [-o OUTFILE] mindmap_file
+        
+        Convert a Freeplane Mindmap to Github Markdown.
+        
+        positional arguments:
+          mindmap_file          mindmap_file help
+        
+        optional arguments:
+          -h, --help            show this help message and exit
+          -w, --write           write markdown file
+          -o OUTFILE, --outfile OUTFILE
+        
+        ```
+        ---
+        *mm2template.py*
+        ```
+        usage: mm2template.py [-h] dest_file
+        
+        Copy a Mindmap Template to destination file.
+        
+        positional arguments:
+          dest_file   destination file
+        
+        optional arguments:
+          -h, --help  show this help message and exit
+        
+        ```
+        ---
+        ## Building [&#8593;](#toc)
+        os / Package prerequisites:
+        
+        ```
+        
+        pip3 install twine pydoctor
+        
+        ```
+        
+        * Install Locally from current branch
+           * ``` make install_local ```
+        * Build Package
+           * ``` make pkg ```
+        * Release
+           * ```make documentation```
+              * Make sure git tree is clean
+           * ```make bump_release```
+           * ```make release```
+        ## Other Docs [&#8593;](#toc)
+        * [Api Docs](https://shollingsworth.github.io/freeplane_tools/)
+        * [Changelog](https://github.com/shollingsworth/freeplane_tools/blob/main/CHANGELOG.md)
+        
+Keywords: freeplane,mindmap,markdown
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Information Technology
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Documentation
+Classifier: Topic :: Text Editors :: Documentation
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
