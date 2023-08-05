@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+src/o/__init__.py
+src/o/_utils.py
+src/o/errors.py
+src/o.egg-info/PKG-INFO
+src/o.egg-info/SOURCES.txt
+src/o.egg-info/dependency_links.txt
+src/o.egg-info/top_level.txt
