@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: YoutubeGui
+Version: 0.1
+Summary: avi
+Home-page: UNKNOWN
+Author: Rahul Shah
+Author-email: rahul.shah102006@gmail.com
+License: UNKNOWN
+Keywords: YoutubeGui,Youtube,Rahul
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pytube3
+Requires-Dist: tkinter
+
+This is a youtube video downloader
+
