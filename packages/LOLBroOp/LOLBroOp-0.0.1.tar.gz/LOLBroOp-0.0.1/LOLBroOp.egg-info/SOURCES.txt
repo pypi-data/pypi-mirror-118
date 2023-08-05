@@ -1,0 +1,6 @@
+README.md
+setup.py
+LOLBroOp.egg-info/PKG-INFO
+LOLBroOp.egg-info/SOURCES.txt
+LOLBroOp.egg-info/dependency_links.txt
+LOLBroOp.egg-info/top_level.txt
