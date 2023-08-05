@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: bibcopy
+Version: 0.0.2
+Summary: this is my first test
+Home-page: UNKNOWN
+Author: chenkun
+Author-email: qbei113043@163.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: bibtexparser
+Requires-Dist: mysqlclient
+
+这是我们的尝试啊
+
