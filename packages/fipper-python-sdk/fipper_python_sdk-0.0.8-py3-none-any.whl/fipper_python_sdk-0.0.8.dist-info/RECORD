@@ -1,0 +1,15 @@
+fipper_sdk/__init__.py,sha256=i2Tk20xjBjICHGwkAWPGQpSz4K0zmuM--e8eoDqXNbQ,576
+fipper_sdk/exceptions.py,sha256=MeiVxl22EZrBDMFzpIaBmqgxCrPl5w2ir11avBWXDYs,275
+fipper_sdk/manager.py,sha256=HylF5G8JK5u8m4Wc_hdke17YBILfYy7Ocs0eDlCfgx4,1203
+fipper_sdk/utils.py,sha256=4dDnDicUdLOz0pn2cq4hQ0KwFCqR5S54LiYOIWBAPms,231
+fipper_sdk/client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fipper_sdk/client/sync.py,sha256=VzC0qE69Pi6v6bJEP5TTlNkgyhnprIdK7hW6wgJ4ZiE,2334
+fipper_sdk/clients/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fipper_sdk/clients/async_client.py,sha256=OjuOyqBPgokXWE1RDNGbtJ7w8QxnLsVJ2KpaU6xyYFg,2226
+fipper_sdk/clients/base.py,sha256=9IT94KFgyNTvDmNRaN3VIC6_Tt-CZk5rtwXAEyIN06Q,766
+fipper_sdk/clients/sync_client.py,sha256=nQQIVOk-csOXNp7cJ3CjvjdinpRYl5pottH_HJgvxSg,1748
+fipper_python_sdk-0.0.8.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+fipper_python_sdk-0.0.8.dist-info/METADATA,sha256=3gx63i_u5qosemXO4uDHsOk71ICfT0jbTD-n2pimiG4,413
+fipper_python_sdk-0.0.8.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+fipper_python_sdk-0.0.8.dist-info/top_level.txt,sha256=6mEgJJP5ECCt0NTS9BLIQrMDxNLaXRF02EOfc8edVr8,11
+fipper_python_sdk-0.0.8.dist-info/RECORD,,
