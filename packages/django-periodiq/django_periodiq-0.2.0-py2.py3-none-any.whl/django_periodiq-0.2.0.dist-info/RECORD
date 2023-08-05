@@ -1,0 +1,11 @@
+django_periodiq/__init__.py,sha256=Kz4ekhaYnqMmIrmbpGXAhSrhQ_h08em8-S6i44B-aNw,112
+django_periodiq/apps.py,sha256=qIEpDfp5GFjpUrFaqWMND23cJ6Y4_1B1T5U8LTkTr38,418
+django_periodiq/setup.py,sha256=pyaLZiBVcs7qtOFfdE4Vk9QCI_8WEiJVYaciUm8nLng,30
+django_periodiq/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_periodiq/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_periodiq/management/commands/runperiodiq.py,sha256=rG5zzZwaWxhMtZ_VKCM7mY8srsIVjAiJxyEnY9h_6Jg,5037
+django_periodiq-0.2.0.dist-info/LICENSE,sha256=y6VknjblVCUGm-6yW7PSQT94WVQ4xl1OfOxQT__r5mk,1060
+django_periodiq-0.2.0.dist-info/METADATA,sha256=ajlWzdS8b7azgeaYeNa-xUqyK_gR9jLtaLNdu-s71u8,1876
+django_periodiq-0.2.0.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+django_periodiq-0.2.0.dist-info/top_level.txt,sha256=PzxFyt9DVVpi9Snqr0ckuH22vlbFl1p83OEsPkdNY34,16
+django_periodiq-0.2.0.dist-info/RECORD,,
