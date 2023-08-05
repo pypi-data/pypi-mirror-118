@@ -1,0 +1,11 @@
+biopython
+fuzzysearch
+click
+pytest
+snakemake
+optparse-pretty
+multiprocess
+regex
+pysam
+ruamel.yaml
+biopython
