@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+pythonmysequel/PythonMySequel.egg-info/PKG-INFO
+pythonmysequel/PythonMySequel.egg-info/SOURCES.txt
+pythonmysequel/PythonMySequel.egg-info/dependency_links.txt
+pythonmysequel/PythonMySequel.egg-info/top_level.txt
