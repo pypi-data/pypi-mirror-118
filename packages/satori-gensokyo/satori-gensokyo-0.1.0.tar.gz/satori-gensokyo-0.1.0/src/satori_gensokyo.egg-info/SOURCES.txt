@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/satori_gensokyo.egg-info/PKG-INFO
+src/satori_gensokyo.egg-info/SOURCES.txt
+src/satori_gensokyo.egg-info/dependency_links.txt
+src/satori_gensokyo.egg-info/top_level.txt
