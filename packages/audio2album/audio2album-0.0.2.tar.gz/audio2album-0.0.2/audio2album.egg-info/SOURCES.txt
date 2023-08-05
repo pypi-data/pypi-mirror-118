@@ -1,0 +1,15 @@
+LICENSE
+README.rst
+setup.cfg
+setup.py
+audio2album/Editor.py
+audio2album/PathTool.py
+audio2album/YtMP3Downloader.py
+audio2album/__init__.py
+audio2album/__main__.py
+audio2album.egg-info/PKG-INFO
+audio2album.egg-info/SOURCES.txt
+audio2album.egg-info/dependency_links.txt
+audio2album.egg-info/entry_points.txt
+audio2album.egg-info/requires.txt
+audio2album.egg-info/top_level.txt
