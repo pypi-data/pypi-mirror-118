@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: absolutely
+Version: 0.0.1
+Summary: A/B testing complete experimentation arena in Python
+Home-page: https://github.com/fpai/absolutely
+Author: Fusion Power AI
+Author-email: admin@fusionpower.ai
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+
+# absolutely
+A/B testing complete experimentation arena in Python
+
+
