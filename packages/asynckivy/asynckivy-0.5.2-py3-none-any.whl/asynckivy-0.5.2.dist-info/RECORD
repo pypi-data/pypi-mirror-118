@@ -1,0 +1,13 @@
+asynckivy/__init__.py,sha256=t4DEdO6_Xa1LaYqrpl0yvHCa4zvb41RH_lFGB031lCE,282
+asynckivy/_animation.py,sha256=h8qKA1xWRoKiUFhMNKFAZn9FmqYXzaVU_UlU_Kgfe68,5240
+asynckivy/_event.py,sha256=qxc80ekT80I4Tbkf-j4FvvCPqhpW-lNsyCjhPBYpMEU,2297
+asynckivy/_interpolate.py,sha256=2xd-Ryf3VLoMs1M36md_ZYjV4ZkniZCIgNqyYrb3L1g,3363
+asynckivy/_rest_of_touch_moves.py,sha256=MIlBfbBOCmWA-y-Ex6sLUyc8LHbK33qJofwXAgOuDjM,2588
+asynckivy/_sleep.py,sha256=jW9tFMPisnk3sOIGHdGkrTl5xRvjGLMxs7Bl3IdrFSU,2034
+asynckivy/_start_soon.py,sha256=pm_z7Oz9sN-8JijvHJwvNqDxhsh_8R2s66lLvM1wu0k,800
+asynckivy/_threading.py,sha256=MQRP0o74MYpAKpQz8vjBFPGh-0QuQdePYnTQPoYOl1I,952
+asynckivy/exceptions.py,sha256=_DcRvTOYJA01B05qTpYD2Jcf2FAgyfnxDXd9gM2_NFs,137
+asynckivy-0.5.2.dist-info/LICENSE,sha256=2jxtLdIltPBFl7vb9bLmquYKRJiyidCvO_DhOgFWIe8,1059
+asynckivy-0.5.2.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+asynckivy-0.5.2.dist-info/METADATA,sha256=ab6_tJl6Mf2hSvCcTakuGPXFERUo9Nn_ZzRLNRxByEA,9236
+asynckivy-0.5.2.dist-info/RECORD,,
