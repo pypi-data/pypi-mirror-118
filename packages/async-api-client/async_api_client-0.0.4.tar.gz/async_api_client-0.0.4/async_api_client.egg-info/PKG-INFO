@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: async-api-client
+Version: 0.0.4
+Summary: Package for base classes for asycn http client to inherit from.
+Home-page: https://github.com/chimplie/async-http-client
+Author: Dmytro Kharchenko
+Author-email: dmitriy.kharchenko@chimplie.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+
+UNKNOWN
+
