@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: mysqlpool-wrapper
+Version: 0.0.1
+Summary: Library which is used as MySQL pool wrapper.
+Home-page: https://github.com/mmedek/mysqlpool-wrapper
+Author: Michal Medek
+Author-email: mmedek94@gmail.com
+License: UNKNOWN
+Keywords: mysql,mysql pool
+Platform: any
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+UNKNOWN
+
