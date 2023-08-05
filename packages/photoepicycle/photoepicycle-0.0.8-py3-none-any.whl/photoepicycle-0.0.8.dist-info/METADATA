@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: photoepicycle
+Version: 0.0.8
+Summary: A small example package
+Home-page: https://github.com/abinmahfuth/Picycle
+Author: Abdulrahman Binmahfuth
+Author-email: a.binmahfodh@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/abinmahfuth/Picycle/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: scikit-image
+Requires-Dist: opencv-python
+Requires-Dist: networkx
+Requires-Dist: scikit-learn
+Requires-Dist: tqdm
+Requires-Dist: ffmpeg-python
+
+# Picycle
+A library represent images in an epicyclic way
+
+
