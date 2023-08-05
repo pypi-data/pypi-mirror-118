@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: gym-dofbot
+Version: 0.1.0
+Summary: A OpenAI Gym Env for Yahboom DOFBOT robotic arm
+Home-page: https://github.com/CharlesXu1124/gym-dofbot
+Author: Charles Xu
+Author-email: xuzheyuan961124@gmail.com
+License: GPL
+Description: OpenAI Gym environment for low-cost Yahboom Dofbot
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
