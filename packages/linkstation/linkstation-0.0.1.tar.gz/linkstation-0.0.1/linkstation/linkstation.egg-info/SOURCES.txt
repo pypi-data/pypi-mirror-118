@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+linkstation/linkstation.egg-info/PKG-INFO
+linkstation/linkstation.egg-info/SOURCES.txt
+linkstation/linkstation.egg-info/dependency_links.txt
+linkstation/linkstation.egg-info/top_level.txt
