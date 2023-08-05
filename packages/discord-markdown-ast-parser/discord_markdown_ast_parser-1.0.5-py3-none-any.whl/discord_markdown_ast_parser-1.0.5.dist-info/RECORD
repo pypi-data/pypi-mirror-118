@@ -1,0 +1,8 @@
+discord_markdown_ast_parser/__init__.py,sha256=KN9BXo9vyTmY1y1xLmgRecQ3OzU1JExc0HWuudMEo24,842
+discord_markdown_ast_parser/lexer.py,sha256=bPG1h2SuCJxws4XuSwVn-yKNO6epugaBv0fpmJH4lFU,4195
+discord_markdown_ast_parser/parser.py,sha256=w8iI-vQcbh68nBw9d73zBu_GX3VbSCmjL8VIUJ91ZPE,16360
+discord_markdown_ast_parser/shit.txt,sha256=5Yu8hgcTGyvnyfOoTqBMyWSxLUW9Mv6bHfnihf7POfs,207
+discord_markdown_ast_parser-1.0.5.dist-info/LICENSE,sha256=n2ng9SiPhA-QngXeg01UTTnYY1gKHAhBX3fABcfirLM,1068
+discord_markdown_ast_parser-1.0.5.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+discord_markdown_ast_parser-1.0.5.dist-info/METADATA,sha256=wrDWMGsWyCFRjHayUU9k-lRPkGRjafmcqJjGo_PEebc,6305
+discord_markdown_ast_parser-1.0.5.dist-info/RECORD,,

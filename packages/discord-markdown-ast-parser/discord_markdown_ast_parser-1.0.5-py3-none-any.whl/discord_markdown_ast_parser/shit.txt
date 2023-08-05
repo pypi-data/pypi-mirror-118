@@ -1,0 +1,18 @@
+*italic star single*
+_italic underscore single_
+**bold single**
+__underline single__
+~~strikethrough single~~
+
+> quote
+> block
+
+`inline code`
+
+> ```python
+> code
+> block
+> with
+> python
+> highlighting
+> ```
