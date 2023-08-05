@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+setup.cfg
+AnkiSiyuan/__init__.py
+AnkiSiyuan/__main__.py
+AnkiSiyuan/cli.py
+AnkiSiyuan/config.py
+AnkiSiyuan/config_parser.py
+AnkiSiyuan.egg-info/PKG-INFO
+AnkiSiyuan.egg-info/SOURCES.txt
+AnkiSiyuan.egg-info/dependency_links.txt
+AnkiSiyuan.egg-info/requires.txt
+AnkiSiyuan.egg-info/top_level.txt
