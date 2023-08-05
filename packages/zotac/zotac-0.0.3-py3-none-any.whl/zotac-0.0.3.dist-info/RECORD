@@ -1,0 +1,11 @@
+zotac/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+zotac/config.json,sha256=NYhpRe45z47ndAJisBPfRvG28w_dHz734YCJBtLVdOs,104
+zotac/config.py,sha256=PdlNwjEhi7LnmgczTTQJzuh8bLtq0I4lPQATtzLS3VU,306
+zotac/lib.py,sha256=UGa1SIpw6jJ4BN8Z-eyUOab7XyLkdL5WJfX4xeYu_Xg,3814
+zotac/zotac.py,sha256=cKdwLhNI5wMqx4yXXfduuwnWeaBkzuESVGObEmtBdAk,2045
+zotac-0.0.3.dist-info/LICENSE,sha256=GEfg4GmBQu1DR8FEGp-oHI-93USx2LvNXjZH-ZF1nX8,1035
+zotac-0.0.3.dist-info/METADATA,sha256=n5sMWWLiIvmz5fcV3AYpAGhDN2h0q4hiKAWElXva1Mk,1576
+zotac-0.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+zotac-0.0.3.dist-info/entry_points.txt,sha256=DbfraHzK075EwAnzSyyJSnc5Z8oetwifHpIPIXiOuWQ,43
+zotac-0.0.3.dist-info/top_level.txt,sha256=estrk89n9R5-C_1IsD8Mc2islOHo9fAL-c_yIecHfLI,6
+zotac-0.0.3.dist-info/RECORD,,
