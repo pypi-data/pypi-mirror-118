@@ -1,0 +1,9 @@
+typedb_query_builder/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+typedb_query_builder/typedb_loader.py,sha256=gQLsWL_TxSBqpgtsRRWybDhwtHWPBiILtpvV6WUsKFo,4722
+typedb_query_builder/typedb_query_builder.py,sha256=m0Zt_jQvT-MGbbEOZjIXGi0aZI9fXswlpTjSA6h_GG0,8779
+typedb_query_builder/utils.py,sha256=BWg6nGzdcXw0ydt4c3M4FtgyZWoMEZuHcUX4g_C71Ic,573
+typedb_query_builder-0.0.1.dist-info/LICENSE,sha256=pcDt7n5vIx-xuM9Zs_lJ13VzKPzvKF7m9OqRP3OcIAE,1065
+typedb_query_builder-0.0.1.dist-info/METADATA,sha256=QBY-gGRRuTjewCnQKGV5IRx_M6bLbwSqIT4hF6KsfeM,5005
+typedb_query_builder-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+typedb_query_builder-0.0.1.dist-info/top_level.txt,sha256=R_68XKjy_gy6et15i0LZEMSHLSoUCns6j6LfzMXyOWM,21
+typedb_query_builder-0.0.1.dist-info/RECORD,,
