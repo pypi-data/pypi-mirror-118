@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: irtm
+Version: 0.0.2
+Summary: A toolbox for Information Retreival & Text Mining.
+Home-page: https://github.com/KanishkNavale/IRTM-Toolbox.git
+Author: Kanishk Navale
+Author-email: navalekanishk@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Information Retrieval & Text Mining Toolbox
+
+This repository holds functions pivotal for IRTM processing. This repo. is staged for continuous development.
+
+## Quick Install using 'pip/pip3' & GitHub
+
+```bash
+pip install git+https://github.com/KanishkNavale/IRTM-Toolbox.git
+```
+
+## Import Module
+
+```python
+from irtm.toolbox import *
+```
+
+## Using Functions
+
+1. Soundex: A phonetic algorithm for indexing names by sound, as pronounced in English.
+
+    ```python
+    print(soundex('Muller'))
+    print(soundex('Mueller'))
+    ```
+
+    ```bash
+    >>> 'M466'
+    >>> 'M466'
+    ```
+
+2. Tokenizer: Convert a sequence of characters into a sequence of tokens.
+
+    ```python
+    print(tokenize('LINUX'))
+    print(tokenize('Text Mining 2021'))
+    ```
+
+    ```bash
+    >>> ['linux']
+    >>> ['text', 'mining']
+    ```
+
+
