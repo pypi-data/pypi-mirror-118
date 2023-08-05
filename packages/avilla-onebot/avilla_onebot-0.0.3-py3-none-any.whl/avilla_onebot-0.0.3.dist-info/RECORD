@@ -1,0 +1,16 @@
+avilla/onebot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+avilla/onebot/ability.py,sha256=LDBGQVItQ3nN08Axf9mEvxlvCIBGsdfLaGecGnip1rU,2433
+avilla/onebot/config.py,sha256=9KpQGK8o_MMu1EA5MAmzI5a4JJTf6wx-X5D2JUHzKGA,1307
+avilla/onebot/element_tree.py,sha256=2WMl6eSMIXBjSyHDrupQV2pAlVdfRsidqcMn24nTmSo,3038
+avilla/onebot/elements.py,sha256=BKlCjdKbPWbLyeH82QCOe5rB9S6-5tas2e-63S74X7M,5923
+avilla/onebot/event.py,sha256=7tuK56DCItf4Opoh_VpnYQZtn-Hm6f4lKk9cTBT3k64,1289
+avilla/onebot/event_tree.py,sha256=KZSRW5t07AlbCRjivvMe1fQ6rJPkCPvWdM5cKOuDZss,14486
+avilla/onebot/execution_ensure.py,sha256=46x-uvD3HlE7Jy2fLxJ8P55mNjXr2cKS44EXRK-clVE,31448
+avilla/onebot/message_serializer.py,sha256=rr9JJEiWRtfaqFPW922BFG5LcN-DkJP7uxMHvEEZy-A,4907
+avilla/onebot/profile.py,sha256=1gnPQSvi6ncwZqut92ckZVLoB-el03ckx8CaipML-Js,296
+avilla/onebot/protocol.py,sha256=B76myUNC9nuhAtFNzWLChjl_EOspnMbySV9ipX5jbEw,8691
+avilla/onebot/resp.py,sha256=X00DuC83hgxcpO-dclNYTS9uxymxmpRMBS9oWhuXYwA,1164
+avilla_onebot-0.0.3.dist-info/LICENSE,sha256=mwi7btx1IocbPFev-1_lViY4cHH4_HyvcC0kh6FNpJc,1091
+avilla_onebot-0.0.3.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+avilla_onebot-0.0.3.dist-info/METADATA,sha256=aZ-wmLcSflvKHsJqXKsRpSZ9XnKQSyWEjDjpBLo_Hi8,448
+avilla_onebot-0.0.3.dist-info/RECORD,,

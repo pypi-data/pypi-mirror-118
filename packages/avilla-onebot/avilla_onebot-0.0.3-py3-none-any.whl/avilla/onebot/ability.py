@@ -1,0 +1,71 @@
+from avilla.builtins.elements import (Image, Notice, NoticeAll, Quote, Text,
+                                      Video, Voice)
+from avilla.builtins.profile import (FriendProfile, GroupProfile,
+                                     MemberProfile, SelfProfile,
+                                     StrangerProfile)
+from avilla.event.notice import (FriendAdd, FriendRevoke,
+                                 GroupFileUploadNotice, GroupRevoke,
+                                 MemberDemotedFromAdministrator,
+                                 MemberJoinedByApprove, MemberJoinedByInvite,
+                                 MemberLeave, MemberMuted,
+                                 MemberPromotedToAdministrator, MemberRemoved,
+                                 MemberUnmuted)
+from avilla.event.request import FriendAddRequest, GroupJoinRequest
+from avilla.event.service import (NetworkConnected, ServiceOffline,
+                                  ServiceOnline)
+from avilla.onebot.elements import (Anonymous, Dice, Face, FriendRecommend,
+                                    GroupRecommend, JsonMessage, Location,
+                                    MergedForward, MergedForwardCustomNode,
+                                    Poke, Rps, Shake, Share, XmlMessage)
+from avilla.onebot.event import HeartbeatReceived, NudgeEvent
+
+ABILITIES = {
+    i.get_ability_id()
+    for i in [
+        FriendAdd,
+        FriendRevoke,
+        GroupFileUploadNotice,
+        GroupRevoke,
+        MemberDemotedFromAdministrator,
+        MemberJoinedByApprove,
+        MemberJoinedByInvite,
+        MemberLeave,
+        MemberMuted,
+        MemberPromotedToAdministrator,
+        MemberRemoved,
+        MemberUnmuted,
+        FriendAddRequest,
+        GroupJoinRequest,
+        NetworkConnected,
+        ServiceOffline,
+        ServiceOnline,
+        HeartbeatReceived,
+        NudgeEvent,
+        Anonymous,
+        Dice,
+        Face,
+        FriendRecommend,
+        GroupRecommend,
+        JsonMessage,
+        Location,
+        MergedForward,
+        MergedForwardCustomNode,
+        Poke,
+        Rps,
+        Shake,
+        Share,
+        XmlMessage,
+        Image,
+        Notice,
+        NoticeAll,
+        Text,
+        Quote,
+        Video,
+        Voice,
+        MemberProfile,
+        GroupProfile,
+        FriendProfile,
+        StrangerProfile,
+        SelfProfile,
+    ]
+}
