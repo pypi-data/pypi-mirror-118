@@ -1,0 +1,11 @@
+README.md
+setup.py
+airflow_kpvco/__init__.py
+airflow_kpvco/kubernetes_pvc_manager.py
+airflow_kpvco/kubernetes_pvc_operator.py
+airflow_kpvco/kubernetes_util.py
+airflow_kube_pvc_operator.egg-info/PKG-INFO
+airflow_kube_pvc_operator.egg-info/SOURCES.txt
+airflow_kube_pvc_operator.egg-info/dependency_links.txt
+airflow_kube_pvc_operator.egg-info/requires.txt
+airflow_kube_pvc_operator.egg-info/top_level.txt

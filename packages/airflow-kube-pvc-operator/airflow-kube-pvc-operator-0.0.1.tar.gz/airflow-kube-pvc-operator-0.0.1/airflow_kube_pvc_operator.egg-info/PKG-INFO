@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: airflow-kube-pvc-operator
+Version: 0.0.1
+Summary: Kubernetes pvc operator for Airflow
+Home-page: UNKNOWN
+Author: EliMor
+Author-email: elimor.github@gmail.com
+License: Apache License 2.0
+Description: # Airflow Kubernetes PVC Operator
+        Airflow operator for kubernetes PVC type
+        
+        
+        Aspirations:
+        
+        - make an operator to take in a yaml file describing a pvc object and have airflow manage its life cycle
+        - should be able to plug in with kube job operator
+        - would be cool to modify the UI to show the pvc is bound to the Job
+        - throw a warning if resource quota for storage limit in namespace is not set, Airflow should help onboard people to kube 'best practices'
+        
+        
+        ## Notes
+        
+        Not to be used yet
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: Apache Software License
+Description-Content-Type: text/markdown
+Provides-Extra: tests

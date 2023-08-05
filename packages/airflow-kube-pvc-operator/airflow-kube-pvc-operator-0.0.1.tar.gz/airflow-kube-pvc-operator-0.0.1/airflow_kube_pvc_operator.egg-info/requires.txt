@@ -1,0 +1,4 @@
+airflow-kube-base-operator>=0.0.1
+
+[tests]
+pytest
