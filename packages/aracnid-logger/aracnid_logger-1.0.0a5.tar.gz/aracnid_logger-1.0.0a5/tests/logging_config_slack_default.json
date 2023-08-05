@@ -1,0 +1,32 @@
+{
+    "version": 1,
+    "disable_existing_loggers": false,
+    "formatters": {
+        "default": {
+            "format": "[{asctime}] {levelname:8s} in {module}/{funcName}()[{lineno}]:: {message}",
+            "style": "{"
+        },
+        "deployed": {
+            "format": "{levelname:8s} in {module}/{funcName}()[{lineno}]:: {message}",
+            "style": "{"
+        }
+    },
+    "handlers": {
+        "console": {
+            "class": "logging.StreamHandler",
+            "level": "DEBUG",
+            "formatter": "default",
+            "stream": "ext://sys.stdout"
+        },
+        "slack-error": {
+            "class": "aracnid_logger.slack_logger.SlackChannelHandler",
+            "level": "ERROR",
+            "formatter": "default",
+            "channel": "default"
+        }
+    },
+    "root": {
+        "level": "DEBUG",
+        "handlers": ["console", "slack-error"]
+    }
+}
