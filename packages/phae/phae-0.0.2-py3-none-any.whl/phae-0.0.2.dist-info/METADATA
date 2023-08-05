@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: phae
+Version: 0.0.2
+Summary: A framework for developing chatbots
+License: MIT
+Author: pyxiis
+Requires-Python: >=3.9,<3.10
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Communications :: Chat
+Requires-Dist: requests (>=2.26.0,<3.0.0)
