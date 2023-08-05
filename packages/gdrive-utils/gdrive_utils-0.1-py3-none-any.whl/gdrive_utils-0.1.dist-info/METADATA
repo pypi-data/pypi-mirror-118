@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: gdrive-utils
+Version: 0.1
+Summary: Google Drive utilities
+Home-page: https://github.com/gaparmar/gdrive
+Author: Gaurav Parmar
+Author-email: gauravtparmar@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# gdrive
+utilities for dealing with google drive
+
+
+## Installing locally 
+```
+python setup.py bdist_wheel 
+pip install dist/gdrive-0.1-py3-none-any.whl --force-reinstall
+```
+
+## pushing to pip
+```
+python -m twine upload dist/*
+```
+
+## Usage
+```
+from gdrive.gdrive import download
+```
+
+
