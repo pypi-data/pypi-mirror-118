@@ -1,0 +1,37 @@
+from setuptools import setup, find_packages
+
+VERSION = '0.9.5' 
+DESCRIPTION = 'Easy Desktop GUIs'
+LONG_DESCRIPTION = 'The easiest way to create Desktop GUIs with Python'
+
+# Setting up
+setup(
+       # the name must match the folder name 'verysimplemodule'
+        name="pycarrot", 
+        version=VERSION,
+        author="Jorge Flores",
+        author_email="<jafp07@gmail.com>",
+        description=DESCRIPTION,
+        long_description=LONG_DESCRIPTION,
+        include_package_data=True,
+        packages=find_packages(),
+        install_requires=[], # add any additional packages that 
+        # needs to be installed along with your package. Eg: 'caer'
+        data_files=[('assets', ['pycarrot/carrot-icon.ico', 'pycarrot/default-bkg.png'])],
+        keywords=['python', 'first package'],
+        classifiers= [
+            "Development Status :: 3 - Alpha",
+            "Intended Audience :: Education",
+            "Programming Language :: Python :: 3",
+            "Operating System :: MacOS :: MacOS X",
+            "Operating System :: Microsoft :: Windows",
+        ]
+)
+
+
+# Upload a new version (commands to be run in root directory)
+# change VERSION variable
+
+# python setup.py sdist
+# python setup.py bdist_wheel --universal
+# twine upload dist/*
