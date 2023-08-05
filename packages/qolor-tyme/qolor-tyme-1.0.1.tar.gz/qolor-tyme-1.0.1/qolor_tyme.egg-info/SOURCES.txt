@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+qolor_tyme/__init__.py
+qolor_tyme/__main__.py
+qolor_tyme/qolor_tyme.py
+qolor_tyme.egg-info/PKG-INFO
+qolor_tyme.egg-info/SOURCES.txt
+qolor_tyme.egg-info/dependency_links.txt
+qolor_tyme.egg-info/requires.txt
+qolor_tyme.egg-info/top_level.txt
