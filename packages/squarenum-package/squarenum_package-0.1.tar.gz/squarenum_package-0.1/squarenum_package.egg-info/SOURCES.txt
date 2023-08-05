@@ -1,0 +1,8 @@
+setup.py
+squarenum_package/__init__.py
+squarenum_package/squarenum.py
+squarenum_package.egg-info/PKG-INFO
+squarenum_package.egg-info/SOURCES.txt
+squarenum_package.egg-info/dependency_links.txt
+squarenum_package.egg-info/not-zip-safe
+squarenum_package.egg-info/top_level.txt
