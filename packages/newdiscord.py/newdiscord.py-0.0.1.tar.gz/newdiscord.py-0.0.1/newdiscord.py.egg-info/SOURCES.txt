@@ -1,0 +1,5 @@
+setup.py
+newdiscord.py.egg-info/PKG-INFO
+newdiscord.py.egg-info/SOURCES.txt
+newdiscord.py.egg-info/dependency_links.txt
+newdiscord.py.egg-info/top_level.txt
