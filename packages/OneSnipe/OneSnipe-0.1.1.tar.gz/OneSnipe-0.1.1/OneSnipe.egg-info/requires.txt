@@ -1,0 +1,3 @@
+aiohttp>=3.7.4
+msmcauth==0.0.3
+typer==0.3.2

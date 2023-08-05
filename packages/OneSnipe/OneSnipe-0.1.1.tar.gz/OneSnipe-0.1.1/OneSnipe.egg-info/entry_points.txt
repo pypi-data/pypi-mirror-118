@@ -1,0 +1,3 @@
+[console_scripts]
+onesnipe = onesnipe.__main__:main
+
