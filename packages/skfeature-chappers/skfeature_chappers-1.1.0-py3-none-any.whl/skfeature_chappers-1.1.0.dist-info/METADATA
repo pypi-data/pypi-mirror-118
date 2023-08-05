@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: skfeature-chappers
+Version: 1.1.0
+Summary: Unofficial Fork of Feature Selection Repository in Python (DMML Lab@ASU)
+Home-page: https://github.com/chappers/scikit-feature
+Author: Jundong Li, Kewei Cheng, Suhang Wang
+Author-email: jundong.li@asu.edu, kcheng18@asu.edu, suhang.wang@asu.edu
+Maintainer: Chapman Siu
+Maintainer-email: chpmn.siu@gmail.com
+License: UNKNOWN
+Keywords: Feature Selection Repository
+Platform: UNKNOWN
+Requires-Dist: scikit-learn
+Requires-Dist: pandas
+Requires-Dist: numpy
+Provides-Extra: ci
+Requires-Dist: pytest ; extra == 'ci'
+Requires-Dist: pytest-cov ; extra == 'ci'
+Requires-Dist: black ; extra == 'ci'
+Requires-Dist: isort ; extra == 'ci'
+Requires-Dist: flake8 ; extra == 'ci'
+Requires-Dist: mkdocs ; extra == 'ci'
+Requires-Dist: mkdocs-material ; extra == 'ci'
+Requires-Dist: mkdocstrings ; extra == 'ci'
+Requires-Dist: pytkdocs[numpy-style] ; extra == 'ci'
+
+UNKNOWN
+
+
