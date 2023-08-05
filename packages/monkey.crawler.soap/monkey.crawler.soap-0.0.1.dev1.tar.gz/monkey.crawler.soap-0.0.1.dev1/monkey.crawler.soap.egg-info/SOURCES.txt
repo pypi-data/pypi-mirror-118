@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+requirements.txt
+setup.py
+monkey/__init__.py
+monkey.crawler.soap.egg-info/PKG-INFO
+monkey.crawler.soap.egg-info/SOURCES.txt
+monkey.crawler.soap.egg-info/dependency_links.txt
+monkey.crawler.soap.egg-info/requires.txt
+monkey.crawler.soap.egg-info/top_level.txt
+monkey/crawler/__init__.py
+monkey/crawler/crawlers/__init__.py
+monkey/crawler/crawlers/zeep.py

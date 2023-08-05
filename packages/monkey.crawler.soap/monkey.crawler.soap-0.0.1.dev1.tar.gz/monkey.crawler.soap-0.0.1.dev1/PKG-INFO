@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: monkey.crawler.soap
+Version: 0.0.1.dev1
+Summary: Monkey crawler implementation for SOAP data sources using Zeep.
+Home-page: https://bitbucket.org/monkey-python/monkey-crawler-soap/
+Author: Xavier ROY
+Author-email: xavier@regbuddy.eu
+License: Apache License, Version 2.0
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Development Status :: 1 - Planning
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Intended Audience :: Developers
+License-File: LICENSE.txt
+
+Monkey Crawler SOAP
+======================
+
+Monkey crawler implementation for SOAP data sources using Zeep.
+
+Installation guide
+------------------
+
+::
+
+    pip install monkey-crawler-soap
+
+User guide
+----------
+
+*Coming soon... hopefully*
+
+..  TODO
+
