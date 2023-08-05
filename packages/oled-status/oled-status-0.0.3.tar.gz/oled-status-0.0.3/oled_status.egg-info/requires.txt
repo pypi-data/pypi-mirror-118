@@ -1,0 +1,10 @@
+httpx
+
+[draw]
+Pillow
+
+[server]
+adafruit-circuitpython-ssd1306
+Pillow
+flask
+gevent
