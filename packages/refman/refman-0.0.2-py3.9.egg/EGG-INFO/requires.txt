@@ -1,0 +1,10 @@
+arxiv2bib
+bibtexparser
+bs4
+flask
+numpy
+pandas
+pyperclip
+retrying
+tqdm
+typer
