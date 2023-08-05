@@ -1,0 +1,7 @@
+LICENCE
+setup.py
+Drawer_python.egg-info/PKG-INFO
+Drawer_python.egg-info/SOURCES.txt
+Drawer_python.egg-info/dependency_links.txt
+Drawer_python.egg-info/requires.txt
+Drawer_python.egg-info/top_level.txt
