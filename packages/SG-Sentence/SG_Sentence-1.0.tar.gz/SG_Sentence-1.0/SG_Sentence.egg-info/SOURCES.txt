@@ -1,0 +1,7 @@
+setup.py
+SG_Sentence/__init__.py
+SG_Sentence/__main__.py
+SG_Sentence.egg-info/PKG-INFO
+SG_Sentence.egg-info/SOURCES.txt
+SG_Sentence.egg-info/dependency_links.txt
+SG_Sentence.egg-info/top_level.txt
