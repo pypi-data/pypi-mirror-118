@@ -1,0 +1,53 @@
+{# vim: set shiftwidth=2 tabstop=2 syntax=html : #}
+<div class="segment">
+  <div class="segment-liner">
+    <h1 id="{{taskid}}" class="task_header">
+      Instructions for {{taskid}}
+    </h1>
+    (produced {{timestamp|timestamp}})
+  </div>
+</div>
+<div id="{{taskid}}_body" class="task_body with_rubric">
+
+  <!-- Instructions -->
+  <section class="instructions segment">
+    <div class="segment-liner">
+      {{instructions}}
+    </div>
+  </section>
+
+  <!-- Snippets -->
+  <div class="sticky_context" id="{{taskid}}_snippets_context">
+    <section
+     class='sticky_bin segment'
+     id="{{taskid}}_snippets"
+     tabindex="0"
+     aria-label="Examples"
+     aria-live="polite"
+    >
+      <h2 class="bin_label" tabindex="0">Examples</h2>
+      <div class="segment-liner">
+          {% for snippet in snippets %}
+            {{snippet|safe}}
+          {% endfor %}
+      </div>
+    </section>
+  </div>
+
+  <!-- Rubric -->
+  <div class="sticky_context" id="{{taskid}}_rubric_context">
+    <section
+     class='sticky_bin segment last-segment'
+     id="{{taskid}}_rubric"
+     tabindex="0"
+     aria-label="The rubric"
+     aria-live="polite"
+    >
+      <h2 class="bin_label" tabindex="0">Rubric</h2>
+      <div class="segment-liner">
+        {{rendered_rubric}}
+      </div>
+    </section>
+  </div>
+  
+</div>
