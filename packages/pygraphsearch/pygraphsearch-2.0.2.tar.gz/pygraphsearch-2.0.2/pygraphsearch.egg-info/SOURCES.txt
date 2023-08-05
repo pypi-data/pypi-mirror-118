@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.py
+pygraphsearch.egg-info/PKG-INFO
+pygraphsearch.egg-info/SOURCES.txt
+pygraphsearch.egg-info/dependency_links.txt
+pygraphsearch.egg-info/top_level.txt
