@@ -1,0 +1,6 @@
+[console_scripts]
+yourtube=yourtube.__init__:run
+yourtube-scrape=yourtube.scraping:scrape_all_playlists
+yourtube-scrape-transcripts=yourtube.scraping:scrape_transcripts_from_watched_videos
+yourtube-scrape-watched=yourtube.scraping:scrape_watched
+
