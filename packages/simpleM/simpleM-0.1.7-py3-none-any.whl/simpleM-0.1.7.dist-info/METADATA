@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: simpleM
+Version: 0.1.7
+Summary: My first Python package
+Home-page: UNKNOWN
+Author: qiujingyu
+Author-email: <youremail@email.com>
+License: UNKNOWN
+Keywords: python,first package
+Platform: UNKNOWN
+
+My first Python package with a slightly longer description
+
