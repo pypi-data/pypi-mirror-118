@@ -1,0 +1,294 @@
+from functools import wraps, partial
+from itertools import islice, takewhile, chain
+from logging import getLogger
+from os import environ
+from pathlib import Path as SyncPath
+from subprocess import CalledProcessError
+from typing import Mapping
+
+from anyio import create_task_group, run_process, Path
+from anyio.to_thread import run_sync
+from box import Box
+from dataclasses import dataclass
+from pathspec import PathSpec
+from pathspec.patterns import GitWildMatchPattern
+from public import public
+
+from .model import model
+from .package_group import PackageGroup
+
+log = getLogger(__name__)
+
+
+def take(n, iterable):
+    "Return first n items of the iterable as a list"
+    return list(islice(iterable, n))
+
+
+class AsyncIterator:
+    def __init__(self, iterator, batch_size=10):
+        self.iter = iter(iterator)
+        self.batch_size = batch_size
+        self.batch = []
+        self.done = False
+
+    def __aiter__(self):
+        return self
+
+    async def __anext__(self):
+        if not self.batch and not self.done:
+            await run_sync(
+                self.__next,
+                cancellable=True,
+            )
+
+        if not self.batch and self.done:
+            raise StopAsyncIteration()
+
+        return self.batch.pop()
+
+    def __next(self):
+        self.batch = take(self.batch_size, self.iter)
+        self.batch.reverse()
+        if len(self.batch) != self.batch_size:
+            self.done = True
+
+
+async def iterdir(path):
+    sync_path = SyncPath(path)
+
+    async for path in AsyncIterator(sync_path.iterdir()):
+        yield Path(path)
+
+
+def async_cache(func):
+    cache = {}
+
+    @wraps(func)
+    async def cache_func(*args):
+        if args in cache:
+            return cache[args]
+
+        ret_val = await func(*args)
+        cache[args] = ret_val
+        return ret_val
+
+    return cache_func
+
+
+def async_path_cache(func):
+    cache = {}
+
+    @wraps(func)
+    async def cache_func(search_path: Path):
+        if search_path in cache:
+            return cache[search_path]
+
+        ret_val = await func(search_path)
+        cache[search_path] = ret_val
+        searched_paths = takewhile(
+            lambda path: path != ret_val.parent,
+            search_path.parents,
+        )
+        for path in searched_paths:
+            cache[path] = ret_val
+
+        return ret_val
+
+    return cache_func
+
+
+@public
+async def find_root(search_path: Path):
+    if 'SRC' in environ:
+        return Path(environ['SRC'])
+    else:
+        try:
+            result = await run_process(
+                ['git', 'rev-parse', '--show-toplevel'],
+                cwd=search_path,
+            )
+            path_str = result.stdout.decode().strip()
+            return Path(path_str)
+        except CalledProcessError:
+            return None
+
+
+# In priority order
+js_manifest_suffixes = ('json', 'yaml', 'yml', 'json5')
+
+possible_js_manifests = tuple(
+    f'package.{suffix}'
+    for suffix in js_manifest_suffixes
+)
+
+packages_set = set(possible_js_manifests)
+
+# In priority order
+package_suffixes = ('yaml', 'yml', 'toml', 'json5', 'json')
+
+possible_packages_configs = tuple(
+    f'package_config.{suffix}'
+    for suffix in package_suffixes
+)
+
+package_set = set(possible_packages_configs)
+
+
+def get_priority_file(found_paths, files):
+    sorted_files = sorted(
+        found_paths,
+        key=lambda file: files.index(file.name),
+    )
+
+    return sorted_files[0]
+
+
+@public
+async def find_packages(search_root: Path, Package):
+    search_root = await search_root.resolve()
+
+    root = await find_root(search_root)
+    ignore_path = root/'.gitignore'
+
+    try:
+        async with await ignore_path.open() as file:
+            lines = await file.readlines()
+            stripped_lines = (
+                line.strip()
+                for line in lines
+            )
+
+            lines = tuple(
+                line
+                for line in stripped_lines
+                if line
+                if not line.startswith('#')
+            )
+            log.info(lines)
+
+            ignores = PathSpec.from_lines(
+                GitWildMatchPattern,
+                chain(lines, ('.git', )),
+            )
+    except FileNotFoundError:
+        ignores = PathSpec([])
+
+    found_packages = PackageGroup()
+    await _find_packages(
+        root,
+        ignores,
+        found_packages,
+        Package,
+    )
+
+    log.info('Found all packages')
+    log.info(found_packages)
+
+    return found_packages
+
+
+async def _find_packages(
+    search_dir: Path,
+    ignores,
+    found_packages,
+    Package,
+):
+    found_js_manifests = []
+    found_package_configs = []
+    sub_dirs = []
+    async for entry in iterdir(search_dir):
+        is_file = await entry.is_file()
+        is_dir = await entry.is_dir()
+
+        entry_str = str(entry)
+
+        if is_dir:
+            entry_str += '/'
+
+        if ignores.match_file(entry_str):
+            continue
+
+        if is_file:
+            if entry.name in packages_set:
+                found_js_manifests.append(entry)
+            elif entry.name in package_set:
+                found_package_configs.append(entry)
+        elif is_dir:
+            sub_dirs.append(entry)
+
+    if found_package_configs and found_js_manifests:
+        package_config = get_priority_file(
+            found_package_configs,
+            possible_packages_configs,
+        )
+
+        package_config = get_priority_file(
+            found_js_manifests,
+            possible_js_manifests,
+        )
+
+        package = await Package.create(
+            package_config,
+            package_config,
+            search_dir,
+        )
+
+        found_packages.append(package)
+    else:
+        async with create_task_group() as tg:
+            for dir in sub_dirs:
+                tg.start_soon(
+                    _find_packages,
+                    dir,
+                    ignores,
+                    found_packages,
+                    Package,
+                )
+
+
+@public
+@dataclass
+class Package:
+    path: Path
+    src_dir: Path
+    config: Mapping
+    config_path: Path
+    package: Mapping
+    pkg_path: Path
+
+    async def resolvePath(self, path):
+        return self.path.joinpath(path)
+
+    @classmethod
+    async def create(cls, config_path, pkg_path, path):
+        src_dir = path/'src'
+        files = {}
+        async with create_task_group() as tg:
+            tg.start_soon(
+                cls.__load_config,
+                config_path,
+                files,
+            )
+            tg.start_soon(
+                cls.__load_package,
+                pkg_path,
+                files,
+            )
+
+        config = files['config']
+        package = files['package']
+
+        return cls(path, src_dir, config, config_path, package, pkg_path)
+
+    @classmethod
+    @model.require
+    async def __load_config(self, path, files):
+        result = await (model
+                        .structs.package_config.load_file(SyncPath(path)))
+        files['config'] = result
+
+    @classmethod
+    async def __load_package(self, path, files):
+        result = await run_sync(partial(Box.from_json, filename=path))
+        files['package'] = result
