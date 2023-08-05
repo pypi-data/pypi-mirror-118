@@ -1,0 +1,148 @@
+{
+  "name": "jupyter_bifrost",
+  "version": "0.3.0",
+  "description": "A Jupyter Widget for Interactive Data Visualization",
+  "keywords": [
+    "jupyter",
+    "jupyterlab",
+    "jupyterlab-extension",
+    "widgets"
+  ],
+  "files": [
+    "lib/**/*.js",
+    "dist/*.js",
+    "css/*.css"
+  ],
+  "homepage": "https://github.com//jupyter_bifrost",
+  "bugs": {
+    "url": "https://github.com//jupyter_bifrost/issues"
+  },
+  "license": "BSD-3-Clause",
+  "author": {
+    "name": "John Waidhofer(waidhoferj), Jay Ahn(jahn96)",
+    "email": "waidhoferj@gmail.com, aju960219@gmail.com"
+  },
+  "main": "lib/index.js",
+  "types": "./lib/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com//jupyter_bifrost"
+  },
+  "scripts": {
+    "build": "yarn run build:lib && yarn run build:nbextension && yarn run build:labextension:dev",
+    "build:prod": "yarn run build:lib && yarn run build:labextension",
+    "build:binder": "yarn run build:lib && yarn run build:labextension",
+    "build:labextension": "jupyter labextension build .",
+    "build:labextension:dev": "jupyter labextension build --development True .",
+    "build:lib": "tsc",
+    "build:nbextension": "webpack",
+    "clean": "yarn run clean:lib && yarn run clean:nbextension && yarn run clean:labextension",
+    "clean:lib": "rimraf lib",
+    "clean:labextension": "rimraf jupyter_bifrost/labextension",
+    "clean:nbextension": "rimraf jupyter_bifrost/nbextension/static/index.js",
+    "lint": "eslint . --ext .ts,.tsx --fix",
+    "lint:check": "eslint . --ext .ts,.tsx",
+    "prepack": "yarn run build:lib",
+    "test": "jest",
+    "watch": "npm-run-all -p watch:*",
+    "watch:lib": "tsc -w",
+    "watch:nbextension": "webpack --watch --mode=development",
+    "watch:labextension": "jupyter labextension watch .",
+    "prepare": "jlpm run clean && jlpm run build:prod"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.4.0",
+    "@jupyter-widgets/base": "^1.1.10 || ^2.0.0 || ^3.0.0 || ^4.0.0",
+    "@jupyterlab/application": "^3.0.11",
+    "@types/debounce": "^1.2.0",
+    "@types/react-dom": "^17.0.8",
+    "@types/react-transition-group": "^1.1.7",
+    "compassql": "^0.21.2",
+    "debounce": "^1.2.1",
+    "draco-core": "^0.0.6",
+    "draco-vis": "^0.0.16",
+    "husky": "^6.0.0",
+    "immer": "^9.0.3",
+    "react": "^17.0.2",
+    "react-compound-slider": "^3.3.1",
+    "react-dom": "^17.0.2",
+    "react-feather": "^2.0.9",
+    "react-markdown": "6.0.3",
+    "react-transition-group": "1.2",
+    "react-vega": "^7.4.3",
+    "vega": "^5.20.2",
+    "vega-embed": "^6.18.2",
+    "vega-lite": "^5.1.0",
+    "vega-lite-api": "^5.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.0",
+    "@babel/preset-env": "^7.5.0",
+    "@babel/preset-react": "^7.14.5",
+    "@babel/preset-typescript": "^7.14.5",
+    "@jupyterlab/builder": "^3.0.0",
+    "@phosphor/application": "^1.6.0",
+    "@phosphor/widgets": "^1.6.0",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.0.0",
+    "@types/jest": "^26.0.0",
+    "@types/node": "^15.12.2",
+    "@types/react": "^17.0.11",
+    "@types/react-tag-input": "^6.1.2",
+    "@types/webpack-env": "^1.13.6",
+    "@typescript-eslint/eslint-plugin": "^3.6.0",
+    "@typescript-eslint/parser": "^3.6.0",
+    "acorn": "^7.2.0",
+    "babel-loader": "^8.2.2",
+    "babel-preset-es2015": "^6.24.1",
+    "canvas": "^2.8.0",
+    "css-loader": "^3.2.0",
+    "eslint": "^7.4.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "fs-extra": "^7.0.0",
+    "husky": "^6.0.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^26.0.0",
+    "lint-staged": "^11.0.0",
+    "mkdirp": "^0.5.1",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.0.5",
+    "rimraf": "^2.6.2",
+    "sass": "^1.35.1",
+    "sass-loader": "^12.1.0",
+    "source-map-loader": "^1.1.3",
+    "style-loader": "^1.0.0",
+    "ts-jest": "^26.0.0",
+    "ts-loader": "^8.0.0",
+    "typescript": "~4.1.3",
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.0.0"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react",
+      "@babel/preset-typescript"
+    ]
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx}": [
+      "eslint --cache --fix"
+    ]
+  },
+  "jupyterlab": {
+    "extension": "lib/plugin",
+    "outputDir": "jupyter_bifrost/labextension/",
+    "sharedPackages": {
+      "@jupyter-widgets/base": {
+        "bundled": false,
+        "singleton": true
+      }
+    },
+    "_build": {
+      "load": "static/remoteEntry.032870a4757d7c3f36c6.js",
+      "extension": "./extension"
+    }
+  }
+}
