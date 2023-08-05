@@ -1,0 +1,12 @@
+model_contrast/__init__.py,sha256=dn00txUpJYQ-E_L2GruTLk64vG0hheYvNhdQxzkGiUQ,73
+model_contrast/classification_contrast.py,sha256=mNCz5zZrD3SFTE3hBFLTlhwoNCy7jrvCrpSGV-oBEx8,6666
+model_contrast/regression_contrast.py,sha256=G-HjeaIdMJNtJA2WuAe1pKqdegPdR-DbougXBMhf1w8,3214
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_binary_classification.py,sha256=v0kLsLnM19Ug0utAlRf30IsWvf0jzSqV8dzGoUIsHjo,3394
+test/test_multiclass_classification.py,sha256=moGQZjoNUJGROGst5t-yD_Yr7aISqqwFPcy9KTI_dPE,4587
+test/test_regression.py,sha256=fcjGBKi1mzeyhks68YxGsALiK9qDkYGw1wRrLMMvkjk,3713
+model_contrast-0.1.8.dist-info/LICENSE,sha256=wbPMnIhAsdUQWdzqPyOiOeruS7KM3AbM7myiwQ1Jm3c,1071
+model_contrast-0.1.8.dist-info/METADATA,sha256=hdZX-frkXbGB8wjYnU1UR6Ugd0MexyzqrViTGrywZtA,3842
+model_contrast-0.1.8.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+model_contrast-0.1.8.dist-info/top_level.txt,sha256=3dheOad4PomYCkgCE3dUGjZlF4p9HqZJDZBRjxsFZVA,20
+model_contrast-0.1.8.dist-info/RECORD,,
