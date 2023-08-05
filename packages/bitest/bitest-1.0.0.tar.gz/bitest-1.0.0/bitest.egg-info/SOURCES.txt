@@ -1,0 +1,7 @@
+setup.py
+bibib/bib copy.py
+bitest.egg-info/PKG-INFO
+bitest.egg-info/SOURCES.txt
+bitest.egg-info/dependency_links.txt
+bitest.egg-info/requires.txt
+bitest.egg-info/top_level.txt
