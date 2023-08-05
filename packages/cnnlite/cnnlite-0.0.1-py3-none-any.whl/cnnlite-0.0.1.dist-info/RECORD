@@ -1,0 +1,9 @@
+cnnlite/__init__.py,sha256=TJfBybKQMYLSOFBDdMkP3bRCuA1inXxdDEqrlRSzLCM,62
+cnnlite/__main__.py,sha256=B-MoF7D2KcQZrZstB99T4WlWewZZ_tD3dKmkB-gm_lw,353
+cnnlite/cnn_scraper.py,sha256=Ao3N6s2j7KOqhzXoD6Gh-Z4YNg-Rx0xY3tdO-NpTTHI,4389
+cnnlite/cnnlite.py,sha256=Ao3N6s2j7KOqhzXoD6Gh-Z4YNg-Rx0xY3tdO-NpTTHI,4389
+cnnlite-0.0.1.dist-info/METADATA,sha256=zOuYtLGRnoTx75iiVRno4sXx8ja_1UMfciW3QheyCrU,1499
+cnnlite-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+cnnlite-0.0.1.dist-info/entry_points.txt,sha256=e0KkSkBvco0iQMKD4aheAHIqmLthg9XaNP33CgSf-cI,51
+cnnlite-0.0.1.dist-info/top_level.txt,sha256=SKSOo-cJTD59GwjiiU17Fph-9UmX2VLO5nhx3I-gp78,8
+cnnlite-0.0.1.dist-info/RECORD,,
