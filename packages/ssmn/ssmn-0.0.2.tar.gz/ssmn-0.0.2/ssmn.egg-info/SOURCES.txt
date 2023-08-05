@@ -1,0 +1,8 @@
+README
+setup.py
+ssmn/__init__.py
+ssmn/mss.py
+ssmn.egg-info/PKG-INFO
+ssmn.egg-info/SOURCES.txt
+ssmn.egg-info/dependency_links.txt
+ssmn.egg-info/top_level.txt
