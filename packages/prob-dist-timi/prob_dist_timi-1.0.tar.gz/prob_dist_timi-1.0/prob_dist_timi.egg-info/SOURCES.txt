@@ -1,0 +1,11 @@
+setup.py
+prob_dist_timi/Binomialdistribution.py
+prob_dist_timi/Binomialdistribution_challenge.py
+prob_dist_timi/Gaussiandistribution.py
+prob_dist_timi/Generaldistribution.py
+prob_dist_timi/__init__.py
+prob_dist_timi.egg-info/PKG-INFO
+prob_dist_timi.egg-info/SOURCES.txt
+prob_dist_timi.egg-info/dependency_links.txt
+prob_dist_timi.egg-info/not-zip-safe
+prob_dist_timi.egg-info/top_level.txt
