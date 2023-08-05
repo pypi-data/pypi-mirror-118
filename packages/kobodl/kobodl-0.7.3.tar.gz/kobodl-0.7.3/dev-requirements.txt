@@ -1,0 +1,7 @@
+black
+isort
+wheel
+twine
+mypy
+setuptools>=57.2.0
+pyinstaller
