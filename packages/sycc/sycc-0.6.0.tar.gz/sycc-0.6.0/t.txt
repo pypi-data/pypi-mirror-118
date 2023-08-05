@@ -1,0 +1,28 @@
+sycc:
+├─.
+│  core.py
+│  LICENSE
+│  MANIFEST.in
+│  README.rst
+│  requirements.txt
+│  run.py
+│  setup.py
+│  t.txt
+│  __init__.py
+│ ……
+│
+├─e
+│      __init__.py
+│
+├─k
+│      Mac.py
+│      test.py
+│      __init__.py
+│
+└─p
+        beginnings.py
+        log.py
+        y.py
+        yh.py
+        yz.py
+        __init__.py

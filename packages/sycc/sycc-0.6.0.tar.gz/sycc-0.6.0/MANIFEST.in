@@ -1,0 +1,13 @@
+include README.rst
+include pyproject.toml
+include requirements.txt
+include t.txt
+include v.txt
+global-include *.py
+global-exclude *.pyc
+global-include *.txt
+exclude .txt
+exclude k/.txt
+exclude p/qt.py
+exclude setup.cfg
+prune __pycache__
