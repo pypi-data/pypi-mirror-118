@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "phae"
+version = "0.0.2"
+authors = ["pyxiis"]
+license = "MIT"
+description = "A framework for developing chatbots"
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Communications :: Chat",
+]
+
+[tool.poetry.dependencies]
+python = "3.9"
+requests = "^2.26.0"
+
+[build-system]
+requires = ["poetry_core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
