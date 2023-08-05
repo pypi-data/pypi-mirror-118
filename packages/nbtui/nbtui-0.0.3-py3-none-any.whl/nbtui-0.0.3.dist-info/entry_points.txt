@@ -1,0 +1,3 @@
+[console_scripts]
+nbtui = nbtui.__main__:main
+
