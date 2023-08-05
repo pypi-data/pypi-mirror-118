@@ -1,0 +1,5 @@
+cmudict>=1.0.0
+narrative>=1.0.0
+pointofview>=1.0.0
+syllables>=1.0.0
+click>=8.0.1
