@@ -1,0 +1,3 @@
+[console_scripts]
+iScanVCFMerge = iScanVCFMerge.iScanVCFMerge:main
+
