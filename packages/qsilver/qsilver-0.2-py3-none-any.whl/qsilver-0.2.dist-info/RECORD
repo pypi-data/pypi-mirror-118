@@ -1,0 +1,16 @@
+qsilver/LICENSE.txt,sha256=FwoKCyYal7kpOSFrhnHaIwU41yQcSUjugGweExDW9sM,1079
+qsilver/README.md,sha256=Z15ciz3Qr7jmNMlC0Mp1pvCoyE5dmLiSkjgDV2hpHYI,526
+qsilver/__init__.py,sha256=vtlSYJCwWT5YstjKtM2cejRH_l7ww-nQf3WTzLXXoFg,495
+qsilver/api.py,sha256=JFBzEqjj8fAXNN-fR7ue_w4c8yho-ASNkjjYV9gSXt8,2668
+qsilver/async_socket.py,sha256=00Xv8CVxdiU3wshQDIk44XR4FI-WisEyeNWgUY2yNJE,1233
+qsilver/base_handler.py,sha256=l1Z_ymQdyhR69gTr4GeL05Fa1eunKhCuzcyNuXxQgf0,718
+qsilver/base_scheduler.py,sha256=MsMpN110Tzs8X3K02LMgOIjF1ONKdAan_oCZi5xnbF4,556
+qsilver/coro_proxy.py,sha256=DhKVJsztDsHb1XstplNT08OEVtxArNtWPrJSqVNjGfE,769
+qsilver/handlers.py,sha256=3IkgsEhE2m0S3GVpf86My15a0leB1k6VRwbjA0SJTMs,4330
+qsilver/scheduler.py,sha256=tmpYybFRhHiOrN4k8nb9P8_xnsEKfy_4kn_Z_ngAOhA,2420
+qsilver/tcp_server.py,sha256=gIZCk1ebzaihOX0AY8p3dj6CcsgNKC9y4hL4i4oZnys,825
+qsilver/yield_proxy.py,sha256=T9lDk6fD_LLjo8iBFoQGMILtp0G9n1qFiIaKiB-M0Jg,153
+qsilver-0.2.dist-info/METADATA,sha256=viWfhw56gAVZHiERDlkdNnHiE9Nq8z17t1tObSTHQHc,772
+qsilver-0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+qsilver-0.2.dist-info/top_level.txt,sha256=2iv29_eu-OWGyTaxswuthkFqSqpqECrogRyxqbb2-Wg,8
+qsilver-0.2.dist-info/RECORD,,
