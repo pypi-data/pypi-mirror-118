@@ -1,0 +1,12 @@
+sde/__about__.py,sha256=3KXfAcA5rzzQXMtfwpHphgbJNZdA0XWaW96kdWVSZJw,22
+sde/__init__.py,sha256=nGAGGB3tI1UvX-k6aTRyqZ09fmfnAQCe1MnTzdWuSN8,497
+sde/__main__.py,sha256=7xlUFXguw_-sRjzdsdLuGMF2eAAAF-zDQ-eIfFjdrXk,29
+sde/collection.py,sha256=I4aBSqPjsVgcroGO_4Kws9wpMNORpgv6gJFolmO59Vg,11358
+sde/sde.py,sha256=GqOk4Ll4TzsazlEIW-yzvNwTz33o4yrLMOZ1jkI2HEo,2215
+sde/utils.py,sha256=DPRucG7xbOwWGA5Bon0P8d3kRhKkZ-eyKWFafh5IZzo,311
+sde-1.0.1.dist-info/LICENSE,sha256=E7ds_pXXMtdYKjux8pSZjbqHr_l0TF_TXS-JtjxE0yQ,1326
+sde-1.0.1.dist-info/METADATA,sha256=FmuM_aKzfdtYZTLpA55yB4CuE5QSK4HqJ0cokBwocZo,3592
+sde-1.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+sde-1.0.1.dist-info/entry_points.txt,sha256=6WPh8Q9BP-NQwvwlTj-UjgCwJw0MPPyH9k3iGhBEyl0,34
+sde-1.0.1.dist-info/top_level.txt,sha256=RqpE39YE71lnqjum4vAlGug3Uey3Efn-RXL_q4XZb4o,4
+sde-1.0.1.dist-info/RECORD,,
