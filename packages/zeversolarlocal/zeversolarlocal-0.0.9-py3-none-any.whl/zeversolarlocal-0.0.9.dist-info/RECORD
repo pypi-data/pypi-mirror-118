@@ -1,0 +1,8 @@
+zeversolarlocal/__init__.py,sha256=BspZnNl5ENXlz7DOln7_oet-n7iql-1gpRVWKi2HpL0,186
+zeversolarlocal/__main__.py,sha256=P5ILuuhWvpuAA3oUUOJ6Kq6jxGo0A9G2dBBDz4uQHiw,305
+zeversolarlocal/api.py,sha256=ffud0PCFRWC8i1TdwFb-DbxUF97MGxBXKjx0l2Z8BEg,3567
+zeversolarlocal/cli.py,sha256=nNNKdCQ2DK5o25nWBjDfnRmgwPOh2f8NQDegtu3sWRY,388
+zeversolarlocal/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+zeversolarlocal-0.0.9.dist-info/WHEEL,sha256=VUbF57hf4yRZWWrOOjp25Fr4BQX9EtnVSbnP2vNxHDM,81
+zeversolarlocal-0.0.9.dist-info/METADATA,sha256=bMFI4lXPwRHQd0jVUM2rfKupgS2AeZZarMMtGCmuFKM,2590
+zeversolarlocal-0.0.9.dist-info/RECORD,,
