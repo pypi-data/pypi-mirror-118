@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+cnnlite/__init__.py
+cnnlite/__main__.py
+cnnlite/cnn_scraper.py
+cnnlite.egg-info/PKG-INFO
+cnnlite.egg-info/SOURCES.txt
+cnnlite.egg-info/dependency_links.txt
+cnnlite.egg-info/entry_points.txt
+cnnlite.egg-info/requires.txt
+cnnlite.egg-info/top_level.txt
+imgs/sample_cnn_lite.png
+imgs/sample_json.png
