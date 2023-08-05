@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+vaillant_netatmo_api/vaillant_netatmo_api.egg-info/PKG-INFO
+vaillant_netatmo_api/vaillant_netatmo_api.egg-info/SOURCES.txt
+vaillant_netatmo_api/vaillant_netatmo_api.egg-info/dependency_links.txt
+vaillant_netatmo_api/vaillant_netatmo_api.egg-info/requires.txt
+vaillant_netatmo_api/vaillant_netatmo_api.egg-info/top_level.txt
