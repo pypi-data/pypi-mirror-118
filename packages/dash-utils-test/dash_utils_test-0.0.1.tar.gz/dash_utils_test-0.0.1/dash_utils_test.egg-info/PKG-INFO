@@ -1,0 +1,13 @@
+Metadata-Version: 1.2
+Name: dash-utils-test
+Version: 0.0.1
+Summary: Test recursive pipreqs.
+Home-page: https://github.com/andrewdircks/dash_utils_test
+Author: Andrew Dircks
+Author-email: abd93@cornell.edu
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
