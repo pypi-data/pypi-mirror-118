@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: postgresql-wheel
+Version: 13.4.8
+Summary: PostgreSQL Server compiled into a Python Wheel.
+Home-page: UNKNOWN
+Author: Michel Pelletier
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8,<3.9
+License-File: LICENSE
+
+UNKNOWN
+
