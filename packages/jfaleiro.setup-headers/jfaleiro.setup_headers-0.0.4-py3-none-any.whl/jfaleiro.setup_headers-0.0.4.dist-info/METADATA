@@ -1,0 +1,157 @@
+Metadata-Version: 2.1
+Name: jfaleiro.setup-headers
+Version: 0.0.4
+Summary: Automatic maintenance of licensing information in headers of source files.
+Home-page: https://gitlab.com/jfaleiro.open/setup_headers
+License: AGPL-3.0-or-later
+Author: Jorge M Faleiro Jr
+Author-email: j@falei.ro
+Requires-Python: >=3.6.1,<4.0.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Provides-Extra: coverage
+Provides-Extra: interactive-dev
+Provides-Extra: tests
+Requires-Dist: Cerberus (>=1.3.4,<2.0.0)
+Requires-Dist: PyHamcrest (>=2.0.2,<3.0.0); extra == "tests" or extra == "coverage"
+Requires-Dist: PyYAML (>=5.4.1,<6.0.0)
+Requires-Dist: autopep8 (>=1.5.5,<2.0.0); extra == "interactive-dev"
+Requires-Dist: behave (>=1.2.6,<2.0.0); extra == "tests"
+Requires-Dist: coverage (>=5.4,<6.0); extra == "coverage"
+Requires-Dist: flake8 (>=3.8.4,<4.0.0); extra == "interactive-dev"
+Requires-Dist: glom (>=20.11.0,<21.0.0)
+Requires-Dist: isort (>=5.7.0,<6.0.0); extra == "interactive-dev"
+Requires-Dist: pre-commit (>=2.10.1,<3.0.0); extra == "interactive-dev"
+Requires-Dist: pylint (>=2.7.0,<3.0.0)
+Requires-Dist: pytest (>=6.2.2,<7.0.0); extra == "tests" or extra == "coverage"
+Requires-Dist: rope (>=0.18.0,<0.19.0); extra == "interactive-dev"
+Description-Content-Type: text/markdown
+
+# setup_headers
+
+Automatic maintenance of licensing information in headers of source files.
+
+Searches a project directory tree finding all files matching a sequence of `glob` patterns (e.g. `**/*.py`,`*.cfg`,`**/config/*.yml`), and replaces any comments on the beginning of the file by lines from a header file, preceded by a comment marker (a prefix).
+
+The substitution does not apply to "hashbangs" (anything started by `#!`). These will be kept where they were originally.
+
+See _LICENSE_ for important licensing information.
+
+## Installation
+
+You can use any `pip` compliant tool:
+
+```bash
+pip install jfaleiro.setup_headers
+```
+
+Or something like `poetry`:
+
+```bash
+poetry add jfaleiro.setup_headers
+```
+
+If you use `pre-commit` a pip or poetry installation is not required. See below.
+
+## Configuration
+
+As of release `0.0.5`, with the migration to poetry, `distutils.commands` is no longer supported.
+
+Since the use of poetry plugins [requires a dependency on poetry](https://github.com/python-poetry/poetry/blob/master/docs/docs/plugins.md), a massive toolset, we moved away from a build tool extension altogether. We will reconsider when and if Python's strugle with its dependency hell improves.
+
+The configuration of where license headers will be added is given in a file named `headers.yaml` by default:
+
+```yaml
+header: HEADER
+prefixes:
+  - prefix: "#"
+    globs: [
+    "setup_headers/**/*.py",
+    "test/**/*.py",
+    ".devcontainer/Dockerfile",
+    "Makefile"]
+  - prefix: "##"
+    globs:
+    - "*.yml"
+    - "*.yaml"
+  - prefix: "//"
+    globs:
+    - ".devcontainer/devcontainer.json"
+  - prefix: ";"
+    globs: [
+        setup.cfg,
+        tox.ini
+      ]
+```
+
+Each `prefix` is a recognized comment character(s) on the beginning of each line in the header. Globs are a `pathlib.glob()` pattern. Only relative patterns are allowed.
+
+The `**/*` comes from Python's Pathlib and indicates all matches under that directory. The pattern `**` will match only sub-directories, what is probably [not what you want](https://stackoverflow.com/questions/49047402/python-3-6-glob-include-hidden-files-and-folders).
+
+Create a file matching the name on the `header` with what you want to be inserted on the beginning of all files that match the `globs` pattern, something like:
+
+```text
+     my_awesome_project - Does something awesome
+
+     Copyright (C) 2019 Joe Doe.
+
+     This program is not free. You should pay lots of money to use it.
+     Contact me for my paypal account.
+
+     You should have received a copy of My Proprietary License
+     along with this program.  If not, see <http://joe.doe/licenses/>.
+
+```
+
+## Use
+
+### Setuptools Command
+
+As of release `0.0.5`, with the migration to poetry, `distutils.commands` is no longer supported. See above.
+
+
+### Command Line
+
+You can also use the CLI for any projects that do not care or rely on `setuptools`:
+
+```
+$ adjust-license-header --help
+usage: adjust-license-header [-h] [--config CONFIG] [--dry-run] [--prefix-mandatory] [files [files ...]]
+
+positional arguments:
+  files               process only files in the list (default: None)
+
+optional arguments:
+  -h, --help          show this help message and exit
+  --config CONFIG     name of the YAML config file (default: headers.yaml)
+  --dry-run           don't apply any changes (default: False)
+  --prefix-mandatory  failure if file is not associated to a prefix (default: False
+```
+
+### Pre-Commit
+
+Finally, the preferred way, you can keep license notices up to date at `git` commit time. Just add a `.pre-commit-config.yaml` to your project root:
+
+```yaml
+# See https://pre-commit.com for more information on pre-commit
+# See https://pre-commit.com/hooks.html for more hooks
+
+repos:
+-   repo: https://gitlab.com/jfaleiro.open/setup_headers
+    rev: 0.0.4-dev10
+    hooks:
+    - id: adjust-license-header
+```
+
+If you use `pre-commit` a pip or poetry installation is not required.
+

@@ -1,0 +1,3 @@
+[console_scripts]
+adjust-license-header=setup_headers.main:main
+

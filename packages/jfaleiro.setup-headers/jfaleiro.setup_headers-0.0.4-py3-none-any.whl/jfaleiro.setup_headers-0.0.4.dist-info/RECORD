@@ -1,0 +1,10 @@
+setup_headers/__init__.py,sha256=xWjP23GJ5lUR8pcy9lauBPjamr8llgzs_ePsShzpZJU,871
+setup_headers/_version.py,sha256=rQscI52hty3N1SQZar6i5U-MNZ6k8zvH6CP9u5ocWpE,99
+setup_headers/command.py,sha256=mrDz3bDv9pJ-ekMcMIAdDod-YgABaZPUGV5WkAYR5Dk,1616
+setup_headers/main.py,sha256=a47wjU7BiPWLHDbftqVZqdfx81MOzyV1HwV8814OliE,2473
+setup_headers/process.py,sha256=QGckH4BrlhqWnkqw5INLA0y-zI3AZP_WR6BhpJ4ZQrY,12311
+jfaleiro.setup_headers-0.0.4.dist-info/entry_points.txt,sha256=PvJHwAi73m8WEPe7LtafQaSP2Nmvpq4dv0T3XjUanRQ,65
+jfaleiro.setup_headers-0.0.4.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+jfaleiro.setup_headers-0.0.4.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+jfaleiro.setup_headers-0.0.4.dist-info/METADATA,sha256=VH7KxA6e_VS8tskV3nKjoKTl6pYdlAydaMvlk2OI7nA,5780
+jfaleiro.setup_headers-0.0.4.dist-info/RECORD,,
