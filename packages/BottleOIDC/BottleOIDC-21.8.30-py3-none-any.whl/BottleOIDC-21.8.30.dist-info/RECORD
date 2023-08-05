@@ -1,0 +1,13 @@
+BottleOIDC/JWKS.py,sha256=QXuV6bFJiy5bLmOY-7fJf7dC5cw9DWRBrDGrowMZj9I,4859
+BottleOIDC/__init__.py,sha256=nSBD6MVjESUBPVlBqxTNYdaGZ3o_cMEm3G_kUaeUEmU,31
+BottleOIDC/botOIDC.py,sha256=Xpsdj9FkBLuE8lwgBcQppJnpsNANGrvCxyuV7sWVU9o,13748
+BottleOIDC/bottle_utils.py,sha256=LpI3baBM_5e2ahlppiHf_LDllt5xCzG2xGLqlPTRXes,2278
+BottleOIDC/oidc_discover.py,sha256=_OpG0rm7KW_kTls5hus2HXbpm67q699G9YEbrAzxnCc,1792
+BottleOIDC/oidc_state.py,sha256=FnffnMIf0iqRUj785NGczdX_5zufHgSeBUDTOSWXfRA,916
+BottleOIDC-21.8.30.data/data/examples/app.py,sha256=uwiREtZmHAgVTIH4trXMEFF2W6E_8lLFRxneQM_TAbw,2559
+BottleOIDC-21.8.30.data/data/examples/config_template.py,sha256=g18wIEX0WJ5HGMy94u9Vgr4-t2oOt6jO7kYV2IhMkLU,324
+BottleOIDC-21.8.30.dist-info/LICENSE.txt,sha256=IsKhNAExnuxGLWUOpUYTEH0JttGV2QexZXW-ttXs0YE,1067
+BottleOIDC-21.8.30.dist-info/METADATA,sha256=d-uvgQlcN2Wf4t05zzezFi_W8vDxw_454tdWJc5RvlI,5825
+BottleOIDC-21.8.30.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+BottleOIDC-21.8.30.dist-info/top_level.txt,sha256=-B2duoO8mSMoGyT5CaE1A2GeMeEoQp9J7k4NVqNV8Fs,11
+BottleOIDC-21.8.30.dist-info/RECORD,,
