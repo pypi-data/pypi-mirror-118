@@ -1,0 +1,4 @@
+
+		[console_scripts]
+		storeql=storeql.__main__:cli
+	
