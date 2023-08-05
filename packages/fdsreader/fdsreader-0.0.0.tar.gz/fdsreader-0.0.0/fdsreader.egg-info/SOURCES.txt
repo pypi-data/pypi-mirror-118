@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+fdsreader.egg-info/PKG-INFO
+fdsreader.egg-info/SOURCES.txt
+fdsreader.egg-info/dependency_links.txt
+fdsreader.egg-info/top_level.txt
