@@ -1,0 +1,6 @@
+pycryptodome
+lz4
+pyUsmap
+pillow
+quicktex
+astc_decomp
