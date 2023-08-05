@@ -1,0 +1,15 @@
+kapla/cli/__main__.py,sha256=y-5sIixwa83_PvqrY-itqmGdk42gVgSOGqDfPGm5flw,98
+kapla/cli/app.py,sha256=wxi4Bl8cqbY42gl4lcBC4n8ATn1HGnHRjpAW4fx42QQ,1155
+kapla/cli/commands/base.py,sha256=dsBUup6kFE_2lsD2gGrNmS0MHKLRuce1ijZSu-S1eLs,4298
+kapla/cli/commands/buildx.py,sha256=6HZfA9P8lErE5LvkFtO69Ixa75T7Nl5eG_GX6ufBCZk,6986
+kapla/cli/commands/deps.py,sha256=rtsmg1z7D_LvMOPIZ_nva4MNHBq36NiSXjnINKfdPz0,886
+kapla/cli/commands/new.py,sha256=ExyzENoUVq6aK-LX2fmgljYB1x0rssdROFH95enKUXE,583
+kapla/cli/commands/profile.py,sha256=P07HB65oYrD5xUOqg8-_cgqNiULqCX6VTjkPPhaCHd0,1311
+kapla/cli/commands/release.py,sha256=djd_BeZbYvcgnS-gXaneANKa86o3N6GiTllvrDzVoLE,3862
+kapla/cli/defaults/release.config.js,sha256=47N454ZiHmDyG_jvTEQH7nUrLtWbWXhiShfuysGyMnw,1178
+kapla/cli/globals.py,sha256=MyXZkPQ8eYNe8cQ_OpjoXgRa9-33Nq_GJqrlElvt33c,105
+kapla/docker/datatypes.py,sha256=qzHzSOtRl0ixMPcMiMwxW43JXfpWuwCHiO8LV_JQIDU,3051
+kapla_cli-3.4.0.dist-info/entry_points.txt,sha256=f1VDf8tjnQU_OZYKckoROeo0LlJHKLzmY-qeVB2-vvE,39
+kapla_cli-3.4.0.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+kapla_cli-3.4.0.dist-info/METADATA,sha256=c3OLZAu9e6OHOEnJdKwy4ZXg3cODMifiRtgK1MUSL5U,854
+kapla_cli-3.4.0.dist-info/RECORD,,
