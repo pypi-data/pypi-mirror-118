@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: imgpatch
+Version: 1.0
+Summary: A Python Script for getting Patches from Image and Image from Patches
+Home-page: UNKNOWN
+Maintainer: Adeel Intizar
+Maintainer-email: kingadeel2017@outlook.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering :: Image Processing
+Requires-Python: >=3.5, <4
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+
+UNKNOWN
+
+
