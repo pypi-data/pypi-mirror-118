@@ -1,0 +1,7 @@
+LICENSE
+setup.py
+YoutubeGui.egg-info/PKG-INFO
+YoutubeGui.egg-info/SOURCES.txt
+YoutubeGui.egg-info/dependency_links.txt
+YoutubeGui.egg-info/requires.txt
+YoutubeGui.egg-info/top_level.txt
