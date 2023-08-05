@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+tap_amplitude/__init__.py
+tap_amplitude/schemas/event.json
+tap_amplitude_api.egg-info/PKG-INFO
+tap_amplitude_api.egg-info/SOURCES.txt
+tap_amplitude_api.egg-info/dependency_links.txt
+tap_amplitude_api.egg-info/entry_points.txt
+tap_amplitude_api.egg-info/requires.txt
+tap_amplitude_api.egg-info/top_level.txt
