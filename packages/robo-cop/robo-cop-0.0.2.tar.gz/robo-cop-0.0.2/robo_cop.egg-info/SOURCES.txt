@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+robo_cop/__init__.py
+robo_cop/__main__.py
+robo_cop/row.py
+robo_cop/watchdog.py
+robo_cop.egg-info/PKG-INFO
+robo_cop.egg-info/SOURCES.txt
+robo_cop.egg-info/dependency_links.txt
+robo_cop.egg-info/entry_points.txt
+robo_cop.egg-info/requires.txt
+robo_cop.egg-info/top_level.txt
+tests/__init__.py
+tests/spec_hello_world.py

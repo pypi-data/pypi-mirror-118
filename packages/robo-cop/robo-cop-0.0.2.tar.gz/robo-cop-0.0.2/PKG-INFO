@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: robo-cop
+Version: 0.0.2
+Summary: An AI-powered auto-mod for Twitch chat.
+Home-page: https://github.com/the-ivo-robotnic/robo-cop
+Author: The_Ivo_Robotnic
+License: MIT
+Description: # robo-cop
+        An AI-powered auto-mod for Twitch chat.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9.0
+Description-Content-Type: text/markdown
+Provides-Extra: dev

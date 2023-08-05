@@ -1,0 +1,9 @@
+twitch-python>=0.0.19
+
+[dev]
+setuptools
+wheel
+flake8
+twine
+sphinx
+sphinx_rtd_theme

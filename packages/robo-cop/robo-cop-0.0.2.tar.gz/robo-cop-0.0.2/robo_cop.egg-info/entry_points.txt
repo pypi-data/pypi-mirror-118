@@ -1,0 +1,3 @@
+[console_scripts]
+robo-cop = robo_cop.__main__:main
+
