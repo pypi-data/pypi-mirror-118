@@ -1,0 +1,8 @@
+setup.py
+my_test_module/__init__.py
+my_test_module/print_test.py
+print_test_module.egg-info/PKG-INFO
+print_test_module.egg-info/SOURCES.txt
+print_test_module.egg-info/dependency_links.txt
+print_test_module.egg-info/requires.txt
+print_test_module.egg-info/top_level.txt

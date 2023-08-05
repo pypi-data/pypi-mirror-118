@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: print-test-module
+Version: 1.0
+Summary: print test module of PyPI
+Home-page: https://www.python.org/
+Author: ryan
+Author-email: conquerfu@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3
