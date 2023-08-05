@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: Juicychicken
+Version: 0.1.0
+Summary: time and path tool
+Home-page: https://github.com/hyunsir/Juicychicken
+Author: hyunsir
+Author-email: gaoyanghyunsir@gmail.com
+License: MIT Licence
+Description: time and path tool
+Keywords: pip,pathtool,timetool,magetool,mage
+Platform: any

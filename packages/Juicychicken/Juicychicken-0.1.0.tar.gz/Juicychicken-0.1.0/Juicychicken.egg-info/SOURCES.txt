@@ -1,0 +1,11 @@
+README.md
+setup.py
+Juicychicken.egg-info/PKG-INFO
+Juicychicken.egg-info/SOURCES.txt
+Juicychicken.egg-info/dependency_links.txt
+Juicychicken.egg-info/top_level.txt
+project/__init__.py
+project/module1/__init__.py
+project/module2/__init__.py
+script/__init__.py
+test/__init__.py
