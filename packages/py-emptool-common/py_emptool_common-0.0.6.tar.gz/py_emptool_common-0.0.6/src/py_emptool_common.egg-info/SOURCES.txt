@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+src/emptool/__init__.py
+src/emptool/common.py
+src/py_emptool_common.egg-info/PKG-INFO
+src/py_emptool_common.egg-info/SOURCES.txt
+src/py_emptool_common.egg-info/dependency_links.txt
+src/py_emptool_common.egg-info/top_level.txt
