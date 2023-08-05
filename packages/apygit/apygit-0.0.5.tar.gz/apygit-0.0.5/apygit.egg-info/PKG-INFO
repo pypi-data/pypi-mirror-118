@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: apygit
+Version: 0.0.5
+Summary: Python Git Module
+Home-page: https://github.com/angarg/pygit
+Author: Anupam Garg
+Author-email: angarg@gmail.com
+License: MIT
+Keywords: git
+Platform: linux
+Platform: osx
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Topic :: Software Development :: Version Control :: Git
+Classifier: Topic :: Terminals
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: ~=3.6
+Description-Content-Type: text/markdown
+
+# pygit
+pygit
+
+## testing
+```
+$ python3 setup.py test
+```
+
+
