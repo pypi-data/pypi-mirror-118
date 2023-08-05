@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+klee/__init__.py
+klee.egg-info/PKG-INFO
+klee.egg-info/SOURCES.txt
+klee.egg-info/dependency_links.txt
+klee.egg-info/top_level.txt

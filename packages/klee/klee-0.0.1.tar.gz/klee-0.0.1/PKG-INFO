@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: klee
+Version: 0.0.1
+Summary: An an open-source procedural AI and MLOPs library.
+Home-page: http://klee.ai
+Author: Nik Bear Brown
+Author-email: nikbearbrown@gmail.com
+License: MIT
+Keywords: AI,MLOPs
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: POSIX :: Linux
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+This is the initial commit for Klee, an open-source procedural AI and MLOPs library.
+
+
+Change Log
+==========
+
+0.0.1 (08/28/2021)
+-------------------
+- Klee placeholder
+
+
