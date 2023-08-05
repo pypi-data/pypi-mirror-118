@@ -1,0 +1,16 @@
+discordn/__init__.py,sha256=IbvWaB76-MNMEhTVak3K1y6VloQe4vVBICmuH38C7C8,321
+discordn/bot.py,sha256=O5y1i6ikvtAGlmU1VOMcpmxP7EY-8zdGog-ufdDlufI,6396
+discordn/client.py,sha256=Lpn_PygSREKnRhsQuI_5cP73XLhoamojkt_1PqD4PhA,1709
+discordn/command.py,sha256=BeuiCnH7lQxVxcKdaRE2Trh2AvfiMBbW6XzBBNdFPIo,1871
+discordn/embed.py,sha256=yI1dpp4UoDN1hbHSCePRTSbPfuKq4RBQU7rF7FQKIjY,323
+discordn/errors.py,sha256=zQnqbiqF1tnceSoogiYNwCSfPBMLGki7HGlSwjzJQeQ,2642
+discordn/member.py,sha256=TNEj9IEPBPhNeqqDJW_w-um3BZquXDUpY2O5_PPgziA,2780
+discordn/messageable.py,sha256=LwOotSBTkhQVJivFt3oQnYCBqj2gwgTc4hXeQYJ6e4E,494
+discordn/snowflake.py,sha256=9uBOfTtIR6P2PAJDvZhMGiaD9LR3mQEe6H749UBZyIA,137
+discordn/voiceclient.py,sha256=41o_izfVEGFGLB5sGGz3LSMUexdhYB_IOfPovHxSUBM,627
+discordn-1.1.1.dist-info/LICENSE,sha256=ndKYhR6NTzc4D3suveBeTGd7MldEP1S0f9NIC3PGrek,1073
+discordn-1.1.1.dist-info/METADATA,sha256=D9hhZO07sukk5fNsNfZSaD5yja4I2FrzhGxhbq-6qMY,747
+discordn-1.1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+discordn-1.1.1.dist-info/top_level.txt,sha256=_NMc84bIhgN4o1v0_gBT94tnlCKx42VCX0cX7Azik3A,9
+discordn-1.1.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+discordn-1.1.1.dist-info/RECORD,,
