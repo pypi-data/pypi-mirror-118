@@ -1,0 +1,9 @@
+SoundFile
+matplotlib
+dataclasses
+cryptography
+numpy
+scipy
+bitarray
+tinytag
+simpleaudio
