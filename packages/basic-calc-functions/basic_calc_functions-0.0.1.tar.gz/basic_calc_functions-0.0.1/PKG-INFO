@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: basic_calc_functions
+Version: 0.0.1
+Summary: A very easy library for basic calculator functions
+Home-page: UNKNOWN
+Author: F904
+Author-email: UNKNOWN
+License: MIT
+Description: A very basic python library for using basic calculator functions.
+        
+        Change Log
+        ===========
+        0.0.1 (29/8/21)
+        ---------------
+        - First Release
+        
+Keywords: calculator
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
