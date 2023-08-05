@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: hybo
+Version: 0.0.1
+Summary: Pure Python Module for Hybo Lidar
+Home-page: https://github.com/bluedisk/hybo
+Author: Matthew, Lee
+Author-email: bluedisk@gmail.com
+License: UNKNOWN
+Project-URL: Github, https://github.com/bluedisk/hybo
+Keywords: 'hybo iLidar pyserial'
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Hybo
+
+###### Unofficial pure-python module for iLidar, solid state lidar by [Hybo](https://www.hybo.co/)
+
+# Install
+```bash
+$ pip install hybo
+```
+
+# Example
+example/simple.py
+```python
+import time
+import hybo
+
+with hybo.Lidar('/dev/cu.usbserial-D3095E6S') as hybo:
+    # waiting for connection
+    time.sleep(1)
+    
+    # retrieve latest frame
+    frame = hybo.get_latest_frame()
+    print(frame)
+```
+
+Result:
+```python
+{'sequence': 53247, 'time_peak': 529.675937, 'points': array([[0, 0, 0],
+       [0, 0, 0],
+       [0, 0, 0],
+       ...,
+       [0, 0, 0],
+       [0, 0, 0],
+       [0, 0, 0]], dtype=int16)}
+```
+
+# TODO
+- [ ] callback-style frame capturing
+- [ ] frame queuing
+- [ ] async mode
+
