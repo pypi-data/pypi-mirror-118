@@ -1,0 +1,11 @@
+README.md
+setup.py
+YoutubeCommentPoster.egg-info/PKG-INFO
+YoutubeCommentPoster.egg-info/SOURCES.txt
+YoutubeCommentPoster.egg-info/dependency_links.txt
+YoutubeCommentPoster.egg-info/requires.txt
+YoutubeCommentPoster.egg-info/top_level.txt
+ytcomment/__init__.py
+ytcomment/auth.py
+ytcomment/comment.py
+ytcomment/uploads.py
