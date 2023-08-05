@@ -1,0 +1,4 @@
+tracardi_plugin_sdk
+tracardi_dot_notation
+urllib
+tracardi
