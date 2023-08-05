@@ -1,0 +1,13 @@
+LICENCE
+README.md
+setup.py
+csharp_analyzer.egg-info/PKG-INFO
+csharp_analyzer.egg-info/SOURCES.txt
+csharp_analyzer.egg-info/dependency_links.txt
+csharp_analyzer.egg-info/top_level.txt
+domain/__init__.py
+domain/attribute.py
+domain/class_.py
+domain/method.py
+domain/namespace.py
+domain/property.py
