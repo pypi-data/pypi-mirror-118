@@ -1,0 +1,10 @@
+figvis/__init__.py,sha256=BZY0LeDat08TD5oL43VrZtK9zunKiJep1yNxsy1UYM8,320
+figvis/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+figvis/cli/main.py,sha256=YBtBnZ2IM0MLtrewyJFXmXcQZovcbCUAMSlCsH-LuQM,1449
+figvis/renderer.py,sha256=aV9UuzduadYG3oWw_L7LfPY4JYJ-mAZVrGaKZ8r4WgE,708
+figvis/svg_to_pdf.py,sha256=aLBNeRQ1-QVS6iLY-CtZIfbTrpoRTXfnfG9cswg2vBc,1953
+figvis/templates/base/svg.jinja2,sha256=yt5GqNw5WSrf7vwoLm0LpP3Sk-r5IeXvX_NRmGgY76w,2773
+figvis-0.1.0a19.dist-info/entry_points.txt,sha256=8-kFxgkfWYPAf7pFTRJlzbHsAQrFGg4dz-bqvFEMZ7s,46
+figvis-0.1.0a19.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+figvis-0.1.0a19.dist-info/METADATA,sha256=B2JnINIlIgtix4-TNionPFys8I6E5Y9MBYDXpQBfzXk,872
+figvis-0.1.0a19.dist-info/RECORD,,
