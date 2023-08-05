@@ -1,0 +1,11 @@
+pip
+packaging
+numpy
+pandas
+seaborn
+sklearn
+nltk
+unidecode
+fastcore
+
+[dev]
