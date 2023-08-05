@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: trackalyzer
+Version: 0.1.0
+Summary: identify visited points of interest in GPX tracks
+License: GPL-3.0-or-later
+Author: khimaros
+Author-email: me@khimaros.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: gpxpy (>=1.4.2,<2.0.0)
