@@ -1,0 +1,3 @@
+[console_scripts]
+matHist = matHist.matplotlib_hist:mat_hist_func
+
