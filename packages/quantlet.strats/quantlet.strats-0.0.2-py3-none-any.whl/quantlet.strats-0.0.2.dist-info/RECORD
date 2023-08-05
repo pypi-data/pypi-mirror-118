@@ -1,0 +1,15 @@
+quantlet_strats/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quantlet_strats/_version.py,sha256=U6wsv-YZSGTxYU6qwSpK8DmJDvha_52YnpBeotx_55M,99
+quantlet_strats/bands.py,sha256=qrXQZwXco7Ym7ssk860u7ro8x_yTmDmsszzPfxs5GWs,3328
+quantlet_strats/curves/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quantlet_strats/curves/momentum.py,sha256=t6qUV9ZQs7kNAxtFJalJWofsjwCWIsgFDVB8yGavS0A,4567
+quantlet_strats/curves/portfolio.py,sha256=EH0TyTtlbxsF0Vnin27RsSC8EEQAP_JjWixjyYeA9sE,5360
+quantlet_strats/filter.py,sha256=Oa7uxJkHTq7jvr4W_iCQ6ZNV7K6wHsvQtWR0gS1CJwI,4297
+quantlet_strats/mathfin.py,sha256=jWt2Qbl2k2wLHE1I1NQLZzTZ2hvqshUxGcN3uqfviBk,1324
+quantlet_strats/plot.py,sha256=Jr1iSf-vwQ2ZbObRwEJVbNseSF8qMVNHm2abiUjwLAw,5236
+quantlet_strats/rw.py,sha256=1jIynLZa2ER3RJgmVKiVoWPNvIZuHmkF05oSXpuw75E,2892
+quantlet_strats/stats.py,sha256=Nys-Z9XeISU_CYpnytHWwWl8J4GeT2WCzl7gAMleJuY,4564
+quantlet.strats-0.0.2.dist-info/LICENSE,sha256=dql8h4yceoMhuzlcK0TT_i-NgTFNIZsgE47Q4t3dUYI,34520
+quantlet.strats-0.0.2.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+quantlet.strats-0.0.2.dist-info/METADATA,sha256=FTE466xLzpnic0SpUD56YPGBvn7J6Fp-zM7P8DDXFTw,1985
+quantlet.strats-0.0.2.dist-info/RECORD,,
