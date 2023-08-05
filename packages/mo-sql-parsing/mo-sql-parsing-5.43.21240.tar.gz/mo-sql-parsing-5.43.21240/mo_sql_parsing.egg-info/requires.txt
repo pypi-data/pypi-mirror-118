@@ -1,0 +1,5 @@
+mo-dots==5.22.21182
+mo-future==5.17.21182
+mo-parsing==5.40.21239
+
+[dev]
