@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+pdftotextsimple/__init__.py
+pdftotextsimple/function.py
+pdftotextsimple.egg-info/PKG-INFO
+pdftotextsimple.egg-info/SOURCES.txt
+pdftotextsimple.egg-info/dependency_links.txt
+pdftotextsimple.egg-info/requires.txt
+pdftotextsimple.egg-info/top_level.txt
