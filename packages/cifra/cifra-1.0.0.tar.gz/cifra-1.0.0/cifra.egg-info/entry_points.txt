@@ -1,0 +1,3 @@
+[console_scripts]
+cifra = cifra.cifra_launcher:main
+
