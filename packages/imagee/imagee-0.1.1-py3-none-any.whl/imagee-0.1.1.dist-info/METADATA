@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: imagee
+Version: 0.1.1
+Summary: Tool for image optimization
+Home-page: https://github.com/dev-muhammad/imagee
+Author: dev-muhammad
+Author-email: iam.markjobs@gmail.com
+License: MIT
+Keywords: image
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering :: Image Processing
+Requires-Dist: Pillow (==8.3.1)
+
+# Imagee
+
+Simple image optimization tool
+
+
