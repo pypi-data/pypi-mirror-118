@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% load wagtailcore_tags %}
+{% block content %}
+
+<section class="container page__imprint">
+	<h1>{{ self.title }}</h1>
+	<div class="inner">
+		{% if page.imprint_data %}
+			{% for block in page.imprint_data %}
+				{% include_block block %}
+			{% endfor %}
+		{% endif %}
+	</div>
+</section>
+{% endblock %} 
