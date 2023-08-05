@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: krong
+Version: 0.0.0
+Summary: KRONG: KoRean language processing toolkit based On Non-neural methods for General purpose
+Home-page: https://github.com/hyunwoongko/krong
+Author: Hyunwoong Ko
+Author-email: kevin.ko@tunib.ai
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+
+# Krong
+KRONG: KoRean language processing toolkit based On Non-neural methods for General purpose
+
+## Tasks
+1. `Krong(task="tagging")`: 형태소 분석
+2. `Krong(task="tokenization")`: 토큰화
+3. `Krong(task="augmentation")`: 어그먼테이션
+4. `Krong(task="hangulize")`: 한글라이즈
+5. `Krong(task="romanize")`: 로마나이즈
+6. `Krong(task="josa")`: 조사처리
+7. `Krong(task="summary")`: 문서요약
+8. `Krong(task="keyword")`: 키워드 추출
+9. `Krong(task="hanja2hangul")`: 한자 → 한글 변환
+10. `Krong(task="is_hangul")`: 한글 여부 판별
+11. `Krong(task="is_hanja")`: 한자 여부 판별
+12. `Krong(task="split_hanja")`: 한자,한글 분리기
+13. `Krong(task="jamo")`: 자모 분리/조합
+14. `Krong(task="has_jongsung")`: 종성 존재판별
+15. `Krong(task="extract")`: 각종 정규식 추출기
+16. `Krong(task="spacing")`: 띄어쓰기 교정기
+17. `Krong(task="grammar")`: 맞춤법 검사기
+18. `Krong(task="sent_tokenization")`: 문장 토큰화
+19. `Krong(task="pronunciation")`: 발음 표기
+
+
