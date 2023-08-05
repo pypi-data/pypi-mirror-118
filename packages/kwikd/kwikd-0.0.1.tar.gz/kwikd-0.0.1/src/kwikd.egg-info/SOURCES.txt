@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/kwikd/__init__.py
+src/kwikd.egg-info/PKG-INFO
+src/kwikd.egg-info/SOURCES.txt
+src/kwikd.egg-info/dependency_links.txt
+src/kwikd.egg-info/entry_points.txt
+src/kwikd.egg-info/top_level.txt
+src/kwikd/_internal/__init__.py
+src/kwikd/cli/__init__.py

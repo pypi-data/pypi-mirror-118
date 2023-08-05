@@ -1,0 +1,3 @@
+[console_scripts]
+kwik = kwikd.cli:main
+
