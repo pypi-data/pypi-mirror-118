@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: huracan
+Version: 0.0a0
+Summary: Open source, 0-dimensional, object-oriented airbreathing engine modelling package for preliminary analysis and design of airbreathing engines, divulgation and educational purposes.
+Home-page: https://github.com/alopezrivera/huracan
+Author: Antonio Lopez Rivera
+Author-email: antonlopezr99@gmail.com
+License: UNKNOWN
+Description: # Huracan
+        
+        [The API reference is available here.](https://huracan-docs.github.io/engine.html)
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
