@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: cli-xkcd
+Version: 1.0.2
+Summary: See the daily xkcd comic from your terminal.
+Home-page: https://github.com/bradendubois/xkcd
+Author: Braden Dubois
+Author-email: braden.dubois@cs.usask.ca
+License: UNKNOWN
+Description: # xkcd
+Keywords: xkcd comic terminal beautifulsoup
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
