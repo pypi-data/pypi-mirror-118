@@ -1,0 +1,10 @@
+guitarsounds/__init__.py,sha256=zBdQC1BbsyoDafuqLS-6H7zfgdPX8W9WoL18VbWlXzk,246
+guitarsounds/analysis.py,sha256=H9gCSk--JLCQzDHDH4tX_RGO34kcMZoxSZXpIpAEzAc,75717
+guitarsounds/interface.py,sha256=_L6wwjfN6-12KYbqF370FMVpKNBnH20WH0db_aDqax4,40581
+guitarsounds/parameters.py,sha256=CS2El6BgmVBOrWxXohXo_gz1iRRUv4YvD0M8jnGfbsA,5196
+guitarsounds/utils.py,sha256=PHkhWmYgUcnpwQ6i3jFTVocIUOkDJOeTKlwsSdkjkaQ,2855
+guitarsounds-1.0.0.dist-info/LICENSE.txt,sha256=aJAmpv-DZcggoLvtdVuFQ12b6vDkQcvYxQd5F0tRTb4,1084
+guitarsounds-1.0.0.dist-info/METADATA,sha256=3_7T-JGcGebKIeDQC4qvQk6U8eZcFbQcF5_vNV1lEyk,2202
+guitarsounds-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+guitarsounds-1.0.0.dist-info/top_level.txt,sha256=mXvITA9PdASpmcwZog_j5e0sQjGMNOMnXwky8C_btro,13
+guitarsounds-1.0.0.dist-info/RECORD,,
