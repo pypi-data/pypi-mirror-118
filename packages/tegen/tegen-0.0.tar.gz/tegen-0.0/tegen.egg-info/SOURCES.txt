@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+tegen/__init__.py
+tegen/game.py
+tegen/objects.py
+tegen/pixel.py
+tegen/scene.py
+tegen.egg-info/PKG-INFO
+tegen.egg-info/SOURCES.txt
+tegen.egg-info/dependency_links.txt
+tegen.egg-info/requires.txt
+tegen.egg-info/top_level.txt
+tegen/examples/tictactoe.py
