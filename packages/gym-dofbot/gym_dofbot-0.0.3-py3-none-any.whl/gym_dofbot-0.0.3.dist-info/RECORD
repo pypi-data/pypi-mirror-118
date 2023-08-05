@@ -1,0 +1,7 @@
+gym_dofbot/__init__.py,sha256=6-i9-4low_lyOXvQp3zwLcdK5ew5vkQf7R-N6qQjClU,125
+gym_dofbot/envs/__init__.py,sha256=8toivcpuwOEUSlXC3PjYJr9Vc0j2aImJWFDNn53ULoU,48
+gym_dofbot/envs/dofbot_env.py,sha256=VcFqs4W6P4ARawGnC-va8pqi_tdLTrZJZYvThyz5aVY,6193
+gym_dofbot-0.0.3.dist-info/METADATA,sha256=9i8D-bIGK1z4HoOwQxcQ0VeinqZI3js2Ux55tN_fzng,506
+gym_dofbot-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+gym_dofbot-0.0.3.dist-info/top_level.txt,sha256=X57iDhW3WTUr7xp5KKFORzT9i9nXdb33s69rgUZEgYU,11
+gym_dofbot-0.0.3.dist-info/RECORD,,
