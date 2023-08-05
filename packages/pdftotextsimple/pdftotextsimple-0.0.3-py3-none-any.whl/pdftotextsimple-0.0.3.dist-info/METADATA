@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: pdftotextsimple
+Version: 0.0.3
+Summary: a module that can convert pdf to text
+Home-page: https://github.com/Tech-with-anmol/pdftotexthttps://github.com/Tech-with-anmol/pdftotextsimple
+Author: Anmol.py
+Author-email: anmollklfh@gmail.com
+License: MIT
+Keywords: pdf
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Requires-Dist: PyPDF2
+
+# pdftotextsimple
+this is a module that covert pdf to text
+# Installation
+```pip install pdftotextsimple```
+# usage
+```import pdftotextsimple```
+
+```pdftotextsimple.covert("filename")```
+
+
+
+CHANGE LOG
+
+==========
+
+0.0.1 (28/08/2021)
+-------------------
+- Inititial Release
+
+
