@@ -1,0 +1,9 @@
+kwikd/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kwikd/_internal/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kwikd/cli/__init__.py,sha256=zfHZ7-ZqAtMNB-wbgmCqGJ5cVXQ6OPGenOIBiq3fmAI,5854
+kwikd-0.0.1.dist-info/LICENSE,sha256=ZvmHgY0J1yWqrzHC_kQZEZ2nFWf-QQcAW_ItJcaz6YA,1065
+kwikd-0.0.1.dist-info/METADATA,sha256=HUE0OCKr-zSuyYcY_lRJDEb0yInN6XGhYK-o89TqlaU,1117
+kwikd-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+kwikd-0.0.1.dist-info/entry_points.txt,sha256=OH58TtwvpSlGEQNYWlUiJHTXElxohy78jqLhA8nq0U4,41
+kwikd-0.0.1.dist-info/top_level.txt,sha256=hEKr_DykpAvfShJut8IEMHEPeY59E9yWwR5Gv3H190M,6
+kwikd-0.0.1.dist-info/RECORD,,
