@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: py-emptool-common
+Version: 0.0.1
+Summary: Common Emptool functions
+Home-page: https://github.com/ongzhixian/py-emptool-common
+Author: ONG ZHI XIAN
+Author-email: zhixian@hotmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# py-emptool-common
+py-emptool-common
+
+
