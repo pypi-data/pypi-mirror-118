@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+linkparser/__init__.py
+linkparser/function.py
+linkparser/linkparser.py
+linkparser.egg-info/PKG-INFO
+linkparser.egg-info/SOURCES.txt
+linkparser.egg-info/dependency_links.txt
+linkparser.egg-info/entry_points.txt
+linkparser.egg-info/not-zip-safe
+linkparser.egg-info/requires.txt
+linkparser.egg-info/top_level.txt

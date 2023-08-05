@@ -1,0 +1,3 @@
+[console_scripts]
+linkparser = linkparser.linkparser:main
+
