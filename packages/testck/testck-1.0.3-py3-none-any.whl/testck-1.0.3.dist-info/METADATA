@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: testck
+Version: 1.0.3
+Summary: this is my first test
+Home-page: https://www.bilibili.com/
+Author: chenkun
+Author-email: qbei113043@163.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: bibtexparser
+
+这是我们的尝试啊
+
