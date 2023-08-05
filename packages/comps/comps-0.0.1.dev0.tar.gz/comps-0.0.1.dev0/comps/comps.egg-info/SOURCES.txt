@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+comps/comps.egg-info/PKG-INFO
+comps/comps.egg-info/SOURCES.txt
+comps/comps.egg-info/dependency_links.txt
+comps/comps.egg-info/not-zip-safe
+comps/comps.egg-info/requires.txt
+comps/comps.egg-info/top_level.txt

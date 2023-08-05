@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: comps
+Version: 0.0.1.dev0
+Summary: Similarity analysis and matching to support causal analysis and performance comparison
+Home-page: https://comps.readthedocs.io.org
+Author: Charles Kelley
+Author-email: cksisu@gmail.com
+Maintainer: Charles Kelley
+Maintainer-email: cksisu@gmail.com
+License: BSD (3-clause)
+Download-URL: https://github.com/cksisu/comps
+Project-URL: Bug Tracker, https://github.com/cksisu/mystique/issues
+Project-URL: Source Code, https://github.com/cksisu/mystique
+Platform: any
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: all
+License-File: LICENSE
+
+Comps brings together many machine learning and statistical methods for
+finding look alike entities to ease the selection and management of comparison
+groups in observational studies and experimental design to support causal
+analysis. It also provides a number of standardized aggregations that are
+helpful for comparing different types of metrics between groups.
+
+Comps provides:
+- Systematic API for applying and matching methods and assessing the similarity
+  of different groups of entities based on common characteristics
+- Methods for easily managing groups of entities across time to maintain the
+  similarity between groups 
+  
+All Comps package wheels distributed on PyPI are BSD 3-clause licensed.
+
+
