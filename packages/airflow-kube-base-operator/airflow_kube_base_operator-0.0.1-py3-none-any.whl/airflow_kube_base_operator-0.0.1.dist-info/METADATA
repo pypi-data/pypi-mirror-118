@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: airflow-kube-base-operator
+Version: 0.0.1
+Summary: Kubernetes base operator for Airflow
+Home-page: UNKNOWN
+Author: EliMor
+Author-email: elimor.github@gmail.com
+License: Apache License 2.0
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: Apache Software License
+Description-Content-Type: text/markdown
+Requires-Dist: apache-airflow (>=2.0.0)
+Requires-Dist: kubernetes (>=11.0.0)
+Provides-Extra: tests
+Requires-Dist: pytest ; extra == 'tests'
+
+# Airflow Kubernetes Base Operator
+
+## What is this?
+This should be a generic operator for other airflow k**o to use as their core dependency. 
+Maybe you'll find some use in the python kube api wrapper, otherwise probably the specific package for your needs will be better.
+
+## Note
+Not to be used yet.
+
