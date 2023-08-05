@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+docs/5vm.md
+fith/__init__.py
+fith/asm5.py
+fith/baselib.fth
+fith/fith.py
+fith/vm5.py
+fithlang.egg-info/PKG-INFO
+fithlang.egg-info/SOURCES.txt
+fithlang.egg-info/dependency_links.txt
+fithlang.egg-info/entry_points.txt
+fithlang.egg-info/not-zip-safe
+fithlang.egg-info/top_level.txt

@@ -1,0 +1,6 @@
+[console_scripts]
+5asm = fith.asm5:main
+5cc = fith.fith:main
+5vm = fith.vm5:main
+fithc = fith.fith:main
+
