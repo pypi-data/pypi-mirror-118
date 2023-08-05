@@ -1,0 +1,8 @@
+LICENSE
+setup.py
+pyscord/__init__.py
+pyscord.egg-info/PKG-INFO
+pyscord.egg-info/SOURCES.txt
+pyscord.egg-info/dependency_links.txt
+pyscord.egg-info/requires.txt
+pyscord.egg-info/top_level.txt
