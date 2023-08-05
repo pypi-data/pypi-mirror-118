@@ -1,0 +1,10 @@
+setup.py
+self_practice_probability/Binomialdistribution.py
+self_practice_probability/Gaussiandistribution.py
+self_practice_probability/Generaldistribution.py
+self_practice_probability/__init__.py
+self_practice_probability.egg-info/PKG-INFO
+self_practice_probability.egg-info/SOURCES.txt
+self_practice_probability.egg-info/dependency_links.txt
+self_practice_probability.egg-info/not-zip-safe
+self_practice_probability.egg-info/top_level.txt
