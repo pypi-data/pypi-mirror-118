@@ -1,0 +1,7 @@
+README.md
+setup.py
+find_primes/__init__.py
+find_primes.egg-info/PKG-INFO
+find_primes.egg-info/SOURCES.txt
+find_primes.egg-info/dependency_links.txt
+find_primes.egg-info/top_level.txt
