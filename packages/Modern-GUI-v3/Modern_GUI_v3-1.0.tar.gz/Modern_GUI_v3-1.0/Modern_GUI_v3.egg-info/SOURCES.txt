@@ -1,0 +1,7 @@
+setup.py
+Modern_GUI_v3/__init__.py
+Modern_GUI_v3/__main__.py
+Modern_GUI_v3.egg-info/PKG-INFO
+Modern_GUI_v3.egg-info/SOURCES.txt
+Modern_GUI_v3.egg-info/dependency_links.txt
+Modern_GUI_v3.egg-info/top_level.txt
