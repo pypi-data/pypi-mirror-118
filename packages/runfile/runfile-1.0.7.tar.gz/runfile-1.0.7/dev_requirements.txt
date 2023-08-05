@@ -1,0 +1,6 @@
+flake8
+pyinstaller
+pytest
+pytest-cov
+pytest-mock
+twine

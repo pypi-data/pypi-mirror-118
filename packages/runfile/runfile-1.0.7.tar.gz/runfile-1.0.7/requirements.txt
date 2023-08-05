@@ -1,0 +1,6 @@
+colorama
+docker
+humanize
+pyyaml
+requests
+six
