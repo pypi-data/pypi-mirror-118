@@ -1,0 +1,4 @@
+libtejaas_linear_regression
+libtejaas_linear_regression_zstat
+libtejaas_reverse_regression
+tejaas
