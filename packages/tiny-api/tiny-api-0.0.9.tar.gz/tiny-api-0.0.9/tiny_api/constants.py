@@ -1,0 +1,4 @@
+SECRET_KEY = "myappsecret123abc"
+ALGORITHM = "HS256"
+
+METHODS = ['GET','POST','PUT','PATCH','DELETE']
