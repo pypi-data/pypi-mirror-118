@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/repobit/__init__.py
+src/repobit/repobit.py
+src/repobit.egg-info/PKG-INFO
+src/repobit.egg-info/SOURCES.txt
+src/repobit.egg-info/dependency_links.txt
+src/repobit.egg-info/top_level.txt
