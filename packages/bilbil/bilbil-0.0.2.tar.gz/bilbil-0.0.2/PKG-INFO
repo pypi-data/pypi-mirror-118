@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: bilbil
+Version: 0.0.2
+Summary: Bilbil contains all you need to create a perfect package python.
+Home-page: https://github.com/wkli/bilbil
+Author: Wenkun LI
+Author-email: wkunkun.li@gmail.com
+License: MIT license
+Description: # bilbil
+        
+        
+        [![image](https://img.shields.io/pypi/v/bilbil.svg)](https://pypi.python.org/pypi/bilbil)
+        [![image](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+        
+        
+        **Bilbil contains all you need to create a perfect package python.**
+        
+        
+        -   Free software: MIT license
+        -   Documentation: https://wkli.github.io/bilbil
+            
+        
+        ## Features
+        
+        - Setup setting
+        - Precommit
+        - Tox
+        
+        ## Credits
+        
+        This package was created with [Cookiecutter](https://github.com/cookiecutter/cookiecutter) project template.
+        
+Keywords: bilbil
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown

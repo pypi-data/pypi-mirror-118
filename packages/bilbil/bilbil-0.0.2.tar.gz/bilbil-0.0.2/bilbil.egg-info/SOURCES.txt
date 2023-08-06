@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+bilbil/__init__.py
+bilbil/bilbil.py
+bilbil/cli.py
+bilbil.egg-info/PKG-INFO
+bilbil.egg-info/SOURCES.txt
+bilbil.egg-info/dependency_links.txt
+bilbil.egg-info/entry_points.txt
+bilbil.egg-info/not-zip-safe
+bilbil.egg-info/top_level.txt
