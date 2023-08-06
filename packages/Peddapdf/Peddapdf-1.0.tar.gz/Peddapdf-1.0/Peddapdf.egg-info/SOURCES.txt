@@ -1,0 +1,9 @@
+README.md
+setup.py
+Peddapdf.egg-info/PKG-INFO
+Peddapdf.egg-info/SOURCES.txt
+Peddapdf.egg-info/dependency_links.txt
+Peddapdf.egg-info/top_level.txt
+peddapdf/__init__.py
+peddapdf/pdf2image.py
+peddapdf/pdf2text.py
