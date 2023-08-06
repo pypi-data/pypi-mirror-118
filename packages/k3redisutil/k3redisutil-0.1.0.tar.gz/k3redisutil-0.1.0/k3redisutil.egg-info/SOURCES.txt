@@ -1,0 +1,11 @@
+setup.py
+k3redisutil/__init__.py
+k3redisutil/redis_proxy_cli.py
+k3redisutil/redisutil.py
+k3redisutil/setup.py
+k3redisutil/synopsis.py
+k3redisutil.egg-info/PKG-INFO
+k3redisutil.egg-info/SOURCES.txt
+k3redisutil.egg-info/dependency_links.txt
+k3redisutil.egg-info/requires.txt
+k3redisutil.egg-info/top_level.txt

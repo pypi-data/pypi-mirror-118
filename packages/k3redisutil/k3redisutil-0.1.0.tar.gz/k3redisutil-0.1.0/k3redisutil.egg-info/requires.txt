@@ -1,0 +1,9 @@
+k3ut<0.2,>=0.1.15
+k3awssign<0.2,>=0.1.0
+k3thread<0.2,>=0.1.0
+k3utfjson<0.2,>=0.1.1
+k3confloader<0.2,>=0.1.1
+k3utdocker<0.2,>=0.1.0
+k3http<0.2,>=0.1.0
+redis>=3.5.0
+mock>=4.0.0
