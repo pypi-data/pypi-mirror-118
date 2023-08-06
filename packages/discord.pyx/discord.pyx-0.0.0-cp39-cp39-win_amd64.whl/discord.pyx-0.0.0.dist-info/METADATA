@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: discord.pyx
+Version: 0.0.0
+Summary: Cython wrapper for Discord
+Home-page: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: uvloop
+Requires-Dist: asyncio
+Requires-Dist: aiohttp
+Requires-Dist: Cython
+
+UNKNOWN
+
