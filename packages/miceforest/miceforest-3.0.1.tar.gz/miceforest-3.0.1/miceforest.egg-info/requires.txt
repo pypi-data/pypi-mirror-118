@@ -1,0 +1,8 @@
+lightgbm
+numpy
+pandas
+seaborn>=0.11.0
+matplotlib>=3.3.0
+
+[DMM]
+scikit-learn
