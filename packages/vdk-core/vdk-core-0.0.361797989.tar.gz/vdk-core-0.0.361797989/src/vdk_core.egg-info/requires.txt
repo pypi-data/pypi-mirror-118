@@ -1,0 +1,5 @@
+click==7.*
+pluggy
+click_log
+click-plugins
+tenacity
