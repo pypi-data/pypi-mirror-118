@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/leftpad/__init__.py
+src/leftpadx.egg-info/PKG-INFO
+src/leftpadx.egg-info/SOURCES.txt
+src/leftpadx.egg-info/dependency_links.txt
+src/leftpadx.egg-info/top_level.txt
