@@ -1,0 +1,12 @@
+docs/COLLABORATE.md,sha256=dbNcGpFnc1P-GO2_Cu0qU3y6hjHcUcHJPJ3hxYhOfsY,343
+docs/README.md,sha256=Hl4Ibz8Cdrn8D68PjZHycJiSAErINAM8SZtDLq4SnI4,250
+docs/refs.md,sha256=qKShl7REUDTn5_lOyUb9INEHoP3c-HxJAbXpS98coxc,11
+examples/cli.py,sha256=AsFLp71O1s9sxrYfmlIqbTaDfwTknVyAEgsN7ZnO9CY,982
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_names.py,sha256=zEZ9_k4ZjM8xg5-wcxl3Mx9NpDjIDlXpB8lJ9tuE2zU,603
+vacuna/__init__.py,sha256=ytbU7QJQW97lDOJoqlNohMvjsrRNUCNtc06_3Si9EiA,3057
+vacuna/__version__.py,sha256=ls1camlIoMxEZz9gSkZ1OJo-MXqHWwKPtdPbZJmwp7E,22
+vacuna/lazy.py,sha256=VtInlJGA1FJmzW-qe1IdZ3ObZNxwqO1Utn1OnS5T-5A,5192
+vacuna-0.1.1.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+vacuna-0.1.1.dist-info/METADATA,sha256=_9ScwcScqz9KUr8YZ0Va-N3ffEjx8xCHETLsTX-SvSc,982
+vacuna-0.1.1.dist-info/RECORD,,
