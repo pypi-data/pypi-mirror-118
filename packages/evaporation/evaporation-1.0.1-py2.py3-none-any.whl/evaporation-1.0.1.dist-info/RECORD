@@ -1,0 +1,9 @@
+evaporation/__init__.py,sha256=pT2MkONypqwDUFqhgz4tupfY3FeF89E3M-ZY0oynjIM,144
+evaporation/cli.py,sha256=co6Ab9VJrQ0a9ohAPCh_eiPeanleARvt5Wc129O-ITM,27580
+evaporation/evaporation.py,sha256=wkTP_zd4IayOczOS07c4Q0GtNM_zhLK4Hj3PGx6Qp-Q,16267
+evaporation-1.0.1.dist-info/LICENSE,sha256=_DH3qDkgvDLWfNQnaOb4dnol-K1CQR0jRuA4dZgtr5g,713
+evaporation-1.0.1.dist-info/METADATA,sha256=INfl9jOnJgc7zaS2qVsAIMOtV0I3xHDWLhbw4yYU_Fo,2203
+evaporation-1.0.1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+evaporation-1.0.1.dist-info/entry_points.txt,sha256=vrjmNKefwxSQNbS-OvoELbUR3q_AAIBtlbc6jx8CmyQ,51
+evaporation-1.0.1.dist-info/top_level.txt,sha256=exbrfmU960hM2yTEMtDMzrx_WT2Z-YVM-pb2La-Dmi8,12
+evaporation-1.0.1.dist-info/RECORD,,
