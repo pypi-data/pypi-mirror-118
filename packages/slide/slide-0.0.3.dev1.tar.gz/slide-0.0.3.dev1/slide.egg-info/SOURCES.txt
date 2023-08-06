@@ -1,0 +1,20 @@
+LICENSE
+LICENSE copy
+README.md
+setup.cfg
+setup.py
+slide/__init__.py
+slide/utils.py
+slide.egg-info/PKG-INFO
+slide.egg-info/SOURCES.txt
+slide.egg-info/dependency_links.txt
+slide.egg-info/requires.txt
+slide.egg-info/top_level.txt
+slide_pandas/__init__.py
+slide_pandas/utils.py
+slide_test/__init__.py
+slide_test/suite.py
+slide_version/__init__.py
+tests/__init__.py
+tests/slide_pandas/__init__.py
+tests/slide_pandas/test_utils.py
