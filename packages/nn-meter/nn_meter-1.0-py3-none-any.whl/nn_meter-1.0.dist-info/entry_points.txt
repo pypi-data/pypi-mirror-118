@@ -1,0 +1,3 @@
+[console_scripts]
+nn-meter = nn_meter.nn_meter_cli:nn_meter_cli
+
