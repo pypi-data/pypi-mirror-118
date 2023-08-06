@@ -1,0 +1,8 @@
+README.txt
+setup.py
+main_exception/__init__.py
+main_exception/main_exception.py
+my_logs_zdeny.egg-info/PKG-INFO
+my_logs_zdeny.egg-info/SOURCES.txt
+my_logs_zdeny.egg-info/dependency_links.txt
+my_logs_zdeny.egg-info/top_level.txt
