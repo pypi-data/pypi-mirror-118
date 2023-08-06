@@ -1,0 +1,93 @@
+import gym
+
+from pogema import GridConfig
+from pogema.fast_grid import FastGrid
+
+
+class TrueRewardWrapper(gym.Wrapper):
+    """
+        Replaces reward function for each agent with 0 for non-terminal states and
+        f* / (g + h) for terminal states, where
+        f* - length of the optimal path for i-th agent (ignoring others),
+        g - length of the agent path,
+        h - length of the optimal path to the target from
+            current position of the i-th agent
+    """
+
+    def __init__(self, env):
+        super().__init__(env)
+        self.shortest_paths = None
+        self.step_cnt = None
+
+    def step(self, action):
+        obs, reward, done, info = self.env.step(action)
+        self.step_cnt += 1
+
+        grid: FastGrid = self.env.grid
+        config: GridConfig = self.env.config
+
+        reward = 0
+        index = 0
+        if done:
+            x, y = grid.positions_xy[index]
+            fx, fy = grid.finishes_xy[index]
+            f_star = self.shortest_paths[index]
+            g = self.step_cnt
+            bfs_results = grid.obstacles.copy()
+            bfs_results[bfs_results == 1] = -1
+
+            self.bfs(bfs_results, config.MOVES, x, y, config.FREE)
+            h = bfs_results[fx, fy] - 1
+            reward = f_star / (g + h)
+
+        return obs, reward, done, info
+
+    @staticmethod
+    def bfs(grid, moves, sx, sy, free_cell):
+        q = [(sx, sy)]
+        grid[sx, sy] = 1
+
+        while len(q):
+            x, y = q.pop(0)
+            for dx, dy in moves:
+                nx, ny = x + dx, y + dy
+                if grid[nx, ny] == free_cell:
+                    grid[nx, ny] = grid[x, y] + 1
+                    q.append((nx, ny))
+
+    def reset(self, **kwargs):
+        self.step_cnt = 0
+        result = self.env.reset(**kwargs)
+        grid: FastGrid = self.env.grid
+        config: GridConfig = self.env.config
+        self.shortest_paths = []
+        bfs_results = grid.obstacles.copy()
+        bfs_results[bfs_results == 1] = -1
+        for x, y in grid.positions_xy:
+            bfs_results[x, y] = config.FREE
+
+        for agent_index in range(config.num_agents):
+            x, y = grid.positions_xy[agent_index]
+
+            bfs_results[bfs_results > 0] = 0
+
+            self.bfs(bfs_results, moves=config.MOVES, sx=x, sy=y, free_cell=config.FREE)
+            self.shortest_paths.append(bfs_results[grid.finishes_xy[agent_index]] - 1)
+        return result
+
+
+class PrimalRewardWrapper(gym.Wrapper):
+    def step(self, action):
+        obs, reward, done, info = self.env.step(action)
+
+        grid: FastGrid = self.env.grid
+
+        agent_index = 0
+        x, y = grid.positions_xy[agent_index]
+        fx, fy = grid.finishes_xy[agent_index]
+        reward = -0.3
+        if action == 0:
+            reward = -0.5
+        if x == fx and y == fy:
+            reward = 20.0
+        return obs, reward, done, info
