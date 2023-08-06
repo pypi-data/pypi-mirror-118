@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pdfuris
+Version: 0.1
+Summary: extract URIs from PDF
+Home-page: UNKNOWN
+Author: Michael Hoffman
+Author-email: michael.hoffman@utoronto.ca
+License: GPLv3
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: PyPDF2
+
+UNKNOWN
+
+

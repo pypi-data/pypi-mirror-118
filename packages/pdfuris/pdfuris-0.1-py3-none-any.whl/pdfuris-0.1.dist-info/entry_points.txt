@@ -1,0 +1,3 @@
+[console_scripts]
+pdfuris = pdfuris.__main__:main
+
