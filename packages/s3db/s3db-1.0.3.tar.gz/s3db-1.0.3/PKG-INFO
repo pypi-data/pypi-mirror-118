@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: s3db
+Version: 1.0.3
+Summary: A simple document db using s3 buckets
+Home-page: https://github.com/filipealvesdef/s3db
+Author: Filipe Alves
+Author-email: filipe.alvesdefernando@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN

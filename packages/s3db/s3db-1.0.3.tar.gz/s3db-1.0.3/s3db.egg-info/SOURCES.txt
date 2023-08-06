@@ -1,0 +1,8 @@
+setup.py
+s3db/__init__.py
+s3db/s3db.py
+s3db.egg-info/PKG-INFO
+s3db.egg-info/SOURCES.txt
+s3db.egg-info/dependency_links.txt
+s3db.egg-info/requires.txt
+s3db.egg-info/top_level.txt
