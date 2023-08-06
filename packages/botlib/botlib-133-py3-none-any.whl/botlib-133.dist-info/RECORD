@@ -1,0 +1,15 @@
+obj.py,sha256=_OmFgEUy5X4bghJrPtDNgpDCCAgb36t5yFm13vhzrBU,10859
+run.py,sha256=pXxcG2D4uYmezm17ri7TTaOk_T0zODnTHR3-jn5Y_eM,20242
+bot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bot/fnd.py,sha256=FpgAWSN-q9YiB8AmhE3bVpT9b-v3ncu6XeDGVZcNFuE,837
+bot/irc.py,sha256=w4lRO5-KOA_tQbo4LSa3hb_wfXCwNP2sq-HDkh6LiVU,17077
+bot/log.py,sha256=KJAAp31Ki6zCHxQYqcdOBMcP7VOa8lqesflbz4-mXR0,322
+bot/rss.py,sha256=RIrRIAYm12dLsnucHFhn9HUCbVUKSDw_McCO9sPdlqo,5848
+bot/sys.py,sha256=qZVrT9K8mqUbKgNbJ-5X1fSp2kHylIZpPWWQfHUxcK4,1259
+bot/udp.py,sha256=xBlWvH8WM5CCRzRWV5qMgE_sWUJJTfOWIJrRhSR-6Io,1746
+botlib-133.data/data/man/man1/bot.1.gz,sha256=iwToONWZIG3tP2WwVZBBCF9Ez5mzLScrcdrfG2Hpdo4,701
+botlib-133.data/scripts/bot,sha256=OVuKTpQ7NBRX0rfR6DhemUVp2udchagMByzMJ89g4Bk,2707
+botlib-133.dist-info/METADATA,sha256=dXae-IcVONvhLpjqmVueN69RGgstg_xzYtjOzj7xdDo,2510
+botlib-133.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+botlib-133.dist-info/top_level.txt,sha256=qZjFjB9S4UTRvFSXY8oVCwfb7BJrE-9eTVNg07xGEw0,12
+botlib-133.dist-info/RECORD,,
