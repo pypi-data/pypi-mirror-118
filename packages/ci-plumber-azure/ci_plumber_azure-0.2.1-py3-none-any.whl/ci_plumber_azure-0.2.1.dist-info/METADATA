@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: ci-plumber-azure
+Version: 0.2.1
+Summary: 
+Author: Miles Budden
+Author-email: git@miles.so
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
