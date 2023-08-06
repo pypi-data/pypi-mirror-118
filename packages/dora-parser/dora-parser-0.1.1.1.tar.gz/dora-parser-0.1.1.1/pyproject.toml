@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "dora-parser"
+version = "0.1.1.1"
+description = "SQL Parser ans Transpiler"
+readme = "README.md"
+authors = ["DataLabs <time.dataanalytics.datalabs@compasso.com.br>"]
+license = "Apache-2.0"
+homepage = "https://github.com/doraproject/parser"
+repository = "https://github.com/doraproject/parser.git"
+keywords = ["dora","sql","parser","impala","presto","hive","spark"]
+
+[tool.poetry.dependencies]
+python = "^3.7.1"
+pandas = "^1.3.0"
+seaborn = "^0.11.1"
+moz-sql-parser = "^4.40.21126"
+fire = "^0.4.0"
+
+[tool.poetry.dev-dependencies]
+pylint = "^2.8.3"
+pytest = "^6.2.4"
+mo-sql-parsing = {git = "https://github.com/doraproject/mo-sql-parsing.git", rev = "master"}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
