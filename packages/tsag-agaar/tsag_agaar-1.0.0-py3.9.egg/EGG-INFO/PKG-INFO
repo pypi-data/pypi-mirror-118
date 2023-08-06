@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: tsag-agaar
+Version: 1.0.0
+Summary: Simple library to fetch data from tsag-agaar.gov.mn | tsag-agaar.gov.mn-аас цаг агаарын мэдээлэл авах python library
+Home-page: https://github.com/dulguuncodes/tsag-agaar.py
+Author: dulguuncodes
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Requires-Python: >=3
