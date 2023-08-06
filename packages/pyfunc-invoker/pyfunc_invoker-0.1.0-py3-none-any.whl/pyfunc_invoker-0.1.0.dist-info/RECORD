@@ -1,0 +1,10 @@
+pyfunc/__init__.py,sha256=9QbcgY-av1YV7xWZhN7HcGgZjTV0w30KD-d_Y8ZL4pM,29
+pyfunc/__main__.py,sha256=IpyjppJS4LaKxwJjg4fmEPMIu_HMvK-kioF90lVnmJo,271
+pyfunc/errors.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyfunc/invoke.py,sha256=QXsEv_QLCCwQ5-AWpWjyyl15Kd2Qv_OdxoViAXubFog,2151
+pyfunc/locate.py,sha256=N6xl2W70eqaJxzxIFeim1MmSBN1LGvN3uUh9nVwYUqE,3501
+pyfunc_invoker-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pyfunc_invoker-0.1.0.dist-info/METADATA,sha256=DEA6uralDc36ZUkfQPUSmWjFanwqfIuyCG40Cw1UxB8,2402
+pyfunc_invoker-0.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pyfunc_invoker-0.1.0.dist-info/top_level.txt,sha256=_tc4gPpeJZTbSyaKzjrblko1hW_pJxtfp7wb9WG_28s,7
+pyfunc_invoker-0.1.0.dist-info/RECORD,,
