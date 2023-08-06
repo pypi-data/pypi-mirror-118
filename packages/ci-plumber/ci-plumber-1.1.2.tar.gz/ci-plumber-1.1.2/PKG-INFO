@@ -1,0 +1,104 @@
+Metadata-Version: 2.1
+Name: ci-plumber
+Version: 1.1.2
+Summary: Plumb together different CI/CD services
+Author: Miles Budden
+Author-email: git@miles.so
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: GitPython (>=3.1.20,<4.0.0)
+Requires-Dist: framework-detector (>=0.2.1,<0.3.0)
+Requires-Dist: importlib-metadata (>=4.6.3,<5.0.0)
+Requires-Dist: openshift (>=0.12.1,<0.13.0)
+Requires-Dist: python-gitlab (>=2.10.0,<3.0.0)
+Requires-Dist: rich (>=10.7.0,<11.0.0)
+Requires-Dist: typer[all] (>=0.3.2,<0.4.0)
+Requires-Dist: types-requests (>=2.25.2,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Typer Template
+
+[![CodeFactor](https://www.codefactor.io/repository/github/pbexe/ci-plumber/badge)](https://www.codefactor.io/repository/github/pbexe/ci-plumber)
+
+## Installation
+
+```sh
+pip install ci-plumber
+```
+
+### Requirements
+
+- `oc` CLI tool
+- `az` CLI tool
+
+## Usage
+
+### GitLab
+```sh
+# Initialise the project
+ci-plumber gitlab init
+```
+
+### OpenShift
+
+```sh
+# Deploy from the current docker registry to OpenShift
+ci-plumber openshift deploy
+
+# Create a new DB and store the credentials in maria.env
+ci-plumber openshift create-db
+```
+
+### Azure
+
+```sh
+# Log in to Azure
+ci-plumber azure login
+
+# List your Azure subscriptions
+ci-plumber azure list-subscriptions
+
+# Set the subscription to use
+ci-plumber azure set-default-subscription
+
+# Create a docker registry
+ci-plumber azure create-registry
+
+# Trigger a build and push
+git add .
+git commit -m "Added Azure CI file"
+git tag -a v1.0.0 -m "Version 1.0.0"
+git push --follow-tags
+
+# Deploy to Azure
+ci-plumber azure create-app
+
+# Create a database and store the credentials in maria.env
+ci-plumber azure create-db
+```
+
+## Developing
+
+### Installation
+```sh
+# Install dependencies
+$ poetry install
+$ poetry shell
+
+# Install git hooks
+$ pre-commit install
+$ pre-commit autoupdate
+$ pre-commit run --all-files
+```
+
+### Features
+
+- Runs checks on commit
+    - Flake8
+    - Black
+    - pre-commit-hooks checks
+    - mypy
+    - isort
+- Installable as a script
+
