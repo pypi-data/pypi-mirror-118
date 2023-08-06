@@ -1,0 +1,11 @@
+sanymodel/__init__.py,sha256=G4Jb75bHQ-WvRhhGEl9iFSRoirRmrdc0k87Gsckmh5A,180
+sanymodel/_version.py,sha256=YvuYzWnKtqBb-IqG8HAu-nhIYAsgj9Vmc_b9o7vO-js,22
+sanymodel/metaclass.py,sha256=SCdcKHaAUPjSd9tbTUOt4zUYeqDus3bxlzaGZbcFoIY,2178
+sanymodel/modeltools.py,sha256=APqWqV0uEub5LS2JvFlAAc8DGIf_6eTmUM6y8SBZWZw,27386
+sanymodel/test.py,sha256=5tJA2bFZT5F5KN46J6kSE_nc_WIJcZQfwvG2_PkP7uQ,2031
+sanymodel/test/__init__.py,sha256=cB_vGHLYKKfxIc87l4FPj_E9Z_lUxDbpDymt_FHB980,193
+sanymodel/test/test.py,sha256=3_mPF_V3PC1NvMfgPB3akyUc7FSqhH96-Nx_WIkAMWQ,2065
+sanymodel-0.1.2.dist-info/METADATA,sha256=vrPlZ6iZRSAwehn-YG0aKsWDV566FLdepiyNHGWqbDQ,377
+sanymodel-0.1.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+sanymodel-0.1.2.dist-info/top_level.txt,sha256=TmaFsDYZAaFPRNuxr7a9C8Wv_cmaouVsqEFPuF7faUk,10
+sanymodel-0.1.2.dist-info/RECORD,,
