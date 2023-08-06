@@ -1,0 +1,8 @@
+numpy>=1.21
+pyerfa>=2.0
+astropy>=4.3.1
+astroquery>=0.4.3
+spiceypy>=4.0.2
+matplotlib>=3.4.3
+scipy>=1.7.1
+requests
