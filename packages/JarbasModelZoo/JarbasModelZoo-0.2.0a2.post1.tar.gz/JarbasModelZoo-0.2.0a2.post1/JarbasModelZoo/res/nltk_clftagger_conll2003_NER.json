@@ -1,0 +1,19 @@
+{
+  "corpus": "CONLL2003",
+  "lang": "en",
+  "corpus_homepage": "https://github.com/davidsbatista/NER-datasets/tree/master/CONLL2003",
+  "model_id": "nltk_clftagger_conll2003_NER",
+  "tagset": "conll_iob",
+  "algo": "ClassifierBasedTagger | NamedEntityChunker",
+  "entit\u00edes": [
+    "ORG",
+    "LOC",
+    "MISC",
+    "PER"
+  ],
+  "required_packages": [
+    "nltk",
+    "JarbasModelZoo"
+  ],
+  "accuracy": 0.8743839197702824
+}
