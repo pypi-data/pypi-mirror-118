@@ -1,0 +1,6 @@
+pandas
+numpy
+gplearn
+scikit_learn
+matplotlib
+graphviz
