@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: free-proxy-list
+Version: 0.0.1
+Summary: This package is to get free proxy ips and port number for scraping and for testing on proxy.
+Home-page: https://github.com/meetsohail/proxy-list
+Author: Sohail Ahmed
+Author-email: meetsohail360@gmail.com
+License: UNKNOWN
+Keywords: proxy,server,scraping,request,python,selenium
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# Free Proxy List
+
