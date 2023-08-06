@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+elexon/elexon.egg-info/PKG-INFO
+elexon/elexon.egg-info/SOURCES.txt
+elexon/elexon.egg-info/dependency_links.txt
+elexon/elexon.egg-info/entry_points.txt
+elexon/elexon.egg-info/top_level.txt
