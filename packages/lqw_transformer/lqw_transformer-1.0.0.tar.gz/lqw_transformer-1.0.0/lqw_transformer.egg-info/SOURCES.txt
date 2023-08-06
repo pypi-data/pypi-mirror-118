@@ -1,0 +1,6 @@
+README.md
+setup.py
+lqw_transformer.egg-info/PKG-INFO
+lqw_transformer.egg-info/SOURCES.txt
+lqw_transformer.egg-info/dependency_links.txt
+lqw_transformer.egg-info/top_level.txt
