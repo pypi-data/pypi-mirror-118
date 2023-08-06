@@ -1,0 +1,10 @@
+bioseq/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bioseq/algorithm.cpython-38-x86_64-linux-gnu.so,sha256=C2MbC1WQlk_d_IbB_fuaNPAMZ0wDFd6Wo2xzOO_Bz44,56264
+bioseq/align.py,sha256=lmh4VlcSM90NCWfU9SgKOYn8phlgb7HnD0oemJ2z0gw,1002
+bioseq/config.py,sha256=Xe10po1vax4XikGeQOXKYDHAMUETvT8mzRKac43zrmg,5529
+bioseq/sequence.py,sha256=7RnLttVQS7JWk-XdZ9CoydfnwYcnETDt9C5nrbPOsgY,11116
+bioseq/utils.py,sha256=HP9cPaq0-xECNDB9hWOdN-xU5xmcaOFPzTChUuDvJYo,2453
+BioSequences-1.0.6.dist-info/METADATA,sha256=aX2AiUe8tfu1JIk1l08E2jEBX_0QH427Js7EMid65tc,6388
+BioSequences-1.0.6.dist-info/WHEEL,sha256=kyTh19hYapxFQnJ2J_oso2bAphHNwCojNuQrMpP_-Ug,111
+BioSequences-1.0.6.dist-info/top_level.txt,sha256=MgnLZmlSNALtv_O707uPZGQ443-Cn1ULNepYOj9u-W0,7
+BioSequences-1.0.6.dist-info/RECORD,,
