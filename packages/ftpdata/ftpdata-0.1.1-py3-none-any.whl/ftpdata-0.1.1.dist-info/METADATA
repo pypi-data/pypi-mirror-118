@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: ftpdata
+Version: 0.1.1
+Summary: A Simple ORM connector for file servers
+Home-page: https://github.com/dropyourcoffee/ftpdata
+Author: Dexter Jung
+Author-email: dropyourcoffee@gmail.com
+Maintainer: Dexter Jung
+License: UNKNOWN
+Project-URL: Source, https://github.com/dropyourcoffee/ftpdata/
+Project-URL: Bug Tracker, https://github.com/dropyourcoffee/ftpdata/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: paramiko
+
+# ftpdata
+
+A Simple ORM connector for file servers
+
+It is handy to manipulate files on files on sftp servers.
+
+
