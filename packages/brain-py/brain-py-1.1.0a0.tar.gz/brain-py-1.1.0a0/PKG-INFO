@@ -1,0 +1,38 @@
+Metadata-Version: 1.2
+Name: brain-py
+Version: 1.1.0a0
+Summary: BrainPy: A general platform for computational neuroscience and brain-inspired computation
+Home-page: https://github.com/PKU-NIP-Lab/BrainPy
+Author: Chaoming Wang
+Author-email: adaduo@outlook.com
+License: UNKNOWN
+Description: 
+        Brain modeling heavily relies on calculus. Focused on differential equations, 
+        BrainPy provides an integrative simulation and analysis framework for 
+        neurodynamics in computational neuroscience and brain-inspired computation. 
+        It provides three core functions:
+        
+        - General numerical solvers for ODEs and SDEs (future will support DDEs and FDEs).
+        - Neurodynamics simulation tools for various brain objects, such like neurons, 
+          synapses and networks (future will support soma and dendrites).
+        - Neurodynamics analysis tools for differential equations, including phase plane 
+          analysis and bifurcation analysis (future will support continuation analysis 
+          and sensitive analysis).
+        
+Keywords: computational neuroscience,brain-inspired computation,dynamical systems,differential equations,numerical integration,ordinary differential equations,stochastic differential equations,delay differential equations,fractional differential equations,ODE,SDE,DDE,FDE
+Platform: UNKNOWN
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.6
