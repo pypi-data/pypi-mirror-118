@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+version
+pyinit/__init__.py
+pyinit/__main__.py
+pyinit/io.py
+pyinit/templates.py
+pyinit2.egg-info/PKG-INFO
+pyinit2.egg-info/SOURCES.txt
+pyinit2.egg-info/dependency_links.txt
+pyinit2.egg-info/entry_points.txt
+pyinit2.egg-info/requires.txt
+pyinit2.egg-info/top_level.txt

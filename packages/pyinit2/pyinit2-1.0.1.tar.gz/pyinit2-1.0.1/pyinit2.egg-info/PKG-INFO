@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: pyinit2
+Version: 1.0.1
+Summary: Initialize blank python package
+Home-page: https://github.com/benjiemc/pyinit2
+Author: Benjamin McMaster
+Author-email: benjamin.mcmaster@alumni.ubc.ca
+License: MIT
+Description: # PyInit
+        
+        Python package for creating blank python packages repos. These repos contain the following file structure:
+        
+        ```
+        .
+        ├── <package name>
+        │   └── __init__.py
+        ├── tests
+        ├── .gitignore
+        ├── setup.cfg
+        ├── setup.py
+        └── test.sh
+        ```
+        
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Provides-Extra: develop
