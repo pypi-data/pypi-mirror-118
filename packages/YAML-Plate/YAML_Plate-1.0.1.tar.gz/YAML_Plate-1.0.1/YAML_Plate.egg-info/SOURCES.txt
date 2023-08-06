@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+YAML_Plate.egg-info/PKG-INFO
+YAML_Plate.egg-info/SOURCES.txt
+YAML_Plate.egg-info/dependency_links.txt
+YAML_Plate.egg-info/not-zip-safe
+YAML_Plate.egg-info/top_level.txt
+yaml_plate/__init__.py
+yaml_plate/emojipedia.py
+yaml_plate/languages.py
+yaml_plate/yaml_plate.py
