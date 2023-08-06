@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+sepa_sctinst/__init__.py
+sepa_sctinst/default_messages.py
+sepa_sctinst/message.py
+sepa_sctinst/participant.py
+sepa_sctinst/schema_validation.py
+sepa_sctinst/sct_inst_c2b.py
+sepa_sctinst/sct_inst_interbank.py
+sepa_sctinst.egg-info/PKG-INFO
+sepa_sctinst.egg-info/SOURCES.txt
+sepa_sctinst.egg-info/dependency_links.txt
+sepa_sctinst.egg-info/requires.txt
+sepa_sctinst.egg-info/top_level.txt

@@ -1,0 +1,5 @@
+lxml
+Faker
+
+[dev]
+requests-mock
