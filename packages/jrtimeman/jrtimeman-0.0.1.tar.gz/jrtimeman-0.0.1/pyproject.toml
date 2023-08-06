@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "jrtimeman"
+description = "Jumping Rivers: Time Management"
+version = "0.0.1"
+authors = ["Jack <jack@jumpingrivers.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.7"
+pandas = ">=1"
+numpy = ">=1.19"
+matplotlib = ">=3.0"
+beautiful-date = ">=2"
+gcsa = ">=1.2"
+google = ">=3.0"

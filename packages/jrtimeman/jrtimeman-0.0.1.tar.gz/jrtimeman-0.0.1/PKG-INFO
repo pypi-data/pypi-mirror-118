@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: jrtimeman
+Version: 0.0.1
+Summary: Jumping Rivers: Time Management
+Author: Jack
+Author-email: jack@jumpingrivers.com
+Requires-Python: >=3.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: beautiful-date (>=2)
+Requires-Dist: gcsa (>=1.2)
+Requires-Dist: google (>=3.0)
+Requires-Dist: matplotlib (>=3.0)
+Requires-Dist: numpy (>=1.19)
+Requires-Dist: pandas (>=1)
