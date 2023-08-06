@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: passl
+Version: 0.0.4
+Summary: PaddlePaddle Self-Supervised Development Toolkit
+Home-page: https://github.com/PaddlePaddle/PASSL
+Author: duanboqiang
+Author-email: duanboqiang@baidu.com
+License: Apache 2.0
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/plain
+Requires-Dist: ftfy
+Requires-Dist: regex
+
+PaddlePaddle Self-Supervised Development Toolkit
+
+
