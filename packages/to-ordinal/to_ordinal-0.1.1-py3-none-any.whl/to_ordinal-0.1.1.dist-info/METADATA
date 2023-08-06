@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: to-ordinal
+Version: 0.1.1
+Summary: 
+Home-page: https://github.com/bernardoduarte/python-to-ordinal
+License: MIT
+Author: Bernardo da Eira Duarte
+Author-email: bernardoeiraduarte@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Project-URL: Repository, https://github.com/bernardoduarte/python-to-ordinal
+Description-Content-Type: text/markdown
+
+# python-to-ordinal
