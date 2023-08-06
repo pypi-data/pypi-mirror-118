@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pay with Razorpay</title>
+  </head>
+  <body >
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+<script>
+var options = {
+    "key": "{{ rzp_api_id  }}",
+    "amount": "{{ rzp_int_amount }}",
+    "currency": "{{ currency }}",
+    "name": "{{ org_name  }}",
+    "description": "{{ order_description }}",
+    "order_id": "{{ order_id }}",
+    "callback_url": "{{ url }}",
+    "prefill": {
+        "name": "{{ user_name }}",
+        "email": "{{ user_email }}",
+    },
+    "notes": {
+        "address": "Razorpay Corporate Office"
+    },
+    "theme": {
+        "color": "#1a64a0"
+    },
+    "redirect": true,
+     "retry":{
+         "enabled": false,
+         "max_count": 2
+     }
+};
+var rzp1 = new Razorpay(options);
+
+window.onload = function (e){
+    rzp1.open();
+    e.preventDefault();
+}
+</script>
+  </body>
+</html>
