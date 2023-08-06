@@ -1,0 +1,27 @@
+README.md
+setup.py
+/Users/macos/PycharmProjects/Machine Learning/README.md
+PyUniversalKit/__init__.py
+PyUniversalKit.egg-info/PKG-INFO
+PyUniversalKit.egg-info/SOURCES.txt
+PyUniversalKit.egg-info/dependency_links.txt
+PyUniversalKit.egg-info/top_level.txt
+PyUniversalKit/AnswerSearchkit/__init__.py
+PyUniversalKit/AnswerSearchkit/admin.py
+PyUniversalKit/AnswerSearchkit/api.py
+PyUniversalKit/AnswerSearchkit/error.py
+PyUniversalKit/AnswerSearchkit/interface.py
+PyUniversalKit/AnswerSearchkit/models.py
+PyUniversalKit/AnswerSearchkit/operate.py
+PyUniversalKit/AnswerSearchkit/struct.py
+PyUniversalKit/CSVkit/__init__.py
+PyUniversalKit/CSVkit/api.py
+PyUniversalKit/CSVkit/error.py
+PyUniversalKit/CSVkit/models.py
+PyUniversalKit/CSVkit/operate.py
+PyUniversalKit/Netkit/USER_AGENT_LIST.py
+PyUniversalKit/Netkit/__init__.py
+PyUniversalKit/Netkit/api.py
+PyUniversalKit/Netkit/models.py
+PyUniversalKit/Netkit/proxy.py
+PyUniversalKit/Netkit/test.py
