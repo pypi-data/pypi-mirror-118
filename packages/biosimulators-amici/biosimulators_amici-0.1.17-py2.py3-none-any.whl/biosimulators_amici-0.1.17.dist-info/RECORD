@@ -1,0 +1,11 @@
+biosimulators_amici/__init__.py,sha256=qGFDJdC-l8RZno4yZPzkJpFxr3ATIO8ywKNE1S5JRQo,436
+biosimulators_amici/__main__.py,sha256=ZPDb3PArKzbJq8adJXeqGGcZo0-kICIgWlXuk4IXHAw,665
+biosimulators_amici/_version.py,sha256=uha12bafZErWaViMt-LJ9yhm6hbEst7eTU-jIrO9Ejw,23
+biosimulators_amici/core.py,sha256=1MuCU4XeMAtrp-woa8lQ3Je_5zsa9_BItR8mD8IXYQg,14832
+biosimulators_amici/data_model.py,sha256=x8xgGUGndam949eop6bJ6ejnA5o7Qug58j9DaTvTc3s,913
+biosimulators_amici-0.1.17.dist-info/LICENSE,sha256=HEgoRB3A2xcLy7Uu8JZdMvnKnnJLmifKaaJQwEePmUo,1110
+biosimulators_amici-0.1.17.dist-info/METADATA,sha256=4PEGSYQVkbXrt1NX8SkT-PJTLOKRq-55zpyNaJ_i98w,4971
+biosimulators_amici-0.1.17.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+biosimulators_amici-0.1.17.dist-info/entry_points.txt,sha256=m0AyZpTeiK0PqzWsT79Rk0CPW1X0VvnW-EE7TJBF6QM,75
+biosimulators_amici-0.1.17.dist-info/top_level.txt,sha256=BZRT5oppx9Wxxs-n5FpGnvGK0bpA8u_EEdSN16qcCuo,20
+biosimulators_amici-0.1.17.dist-info/RECORD,,
