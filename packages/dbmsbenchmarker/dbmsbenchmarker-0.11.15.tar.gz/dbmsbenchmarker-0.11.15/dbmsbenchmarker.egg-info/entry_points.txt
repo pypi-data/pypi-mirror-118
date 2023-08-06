@@ -1,0 +1,5 @@
+
+        [console_scripts]
+        dbmsbenchmarker=dbmsbenchmarker.scripts.cli:benchmarker
+        dbmsdashboard=dbmsbenchmarker.scripts.dashboardcli:startup
+    
