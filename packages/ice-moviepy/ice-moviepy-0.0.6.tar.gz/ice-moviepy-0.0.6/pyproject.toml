@@ -1,0 +1,13 @@
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel",
+	"decorator==4.4.2",
+    "imageio==2.9.0",
+    "imageio_ffmpeg==0.4.5",
+    "numpy==1.21.2",
+    "proglog==0.1.9",
+    "Pillow==8.1.0",
+    "pysrt==1.1.2",
+]
+build-backend = "setuptools.build_meta"
