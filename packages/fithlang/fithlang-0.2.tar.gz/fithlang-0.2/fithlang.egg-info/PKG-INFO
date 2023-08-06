@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: fithlang
+Version: 0.2
+Summary: The Fith programming language and 5vm compiler and tools
+Home-page: https://github.com/mishaklopukh/fithlang/
+Author: Misha Klopukh
+Author-email: mklopukh2019@fau.edu
+License: MIT
+Project-URL: Documentation, https://mishaklopukh.github.io/fithlang/
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Compilers
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# The Fith Programming Language
+Fith is a simple stack-based programming language that runs on the 5vm OISC. 
+Fith is based on the forth programming language, but simplified. Documentation
+can be found in the docs directory or at <https://mishaklopukh.github.io/fithlang>.
+
+
