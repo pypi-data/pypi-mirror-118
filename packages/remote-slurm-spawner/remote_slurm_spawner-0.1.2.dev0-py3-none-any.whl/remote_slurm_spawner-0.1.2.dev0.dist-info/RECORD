@@ -1,0 +1,10 @@
+remote_slurm_spawner/__init__.py,sha256=9DxZR2dTzs9tcJ0CoxP2feefDvvhMZP1mD9wEc-HC54,54
+remote_slurm_spawner/api.py,sha256=uvcNYEdAT4z8cSXV7SAyNwqGKwAWufchgwT543LqIAE,1017
+remote_slurm_spawner/remote_slurm_spawner.py,sha256=c4vSatN7d-JtZkhBO-032Yn5TwoSQoV5MXofeGHF8Sg,35539
+remote_slurm_spawner/singleuser.py,sha256=iPcVTldsbRLylo-_wgok5LQLYjnz1jYtzQTcR7iwTjM,781
+remote_slurm_spawner-0.1.2.dev0.data/scripts/batchspawner-singleuser,sha256=py-eFu-g71xYzC7LzkwAIdqFDbuWfstQsvWB8xN9FXA,90
+remote_slurm_spawner-0.1.2.dev0.dist-info/LICENSE,sha256=iHnKwx1qJa6IAYBWnqTYDKmyTqnnOnO1YEqXEfF0Sik,1528
+remote_slurm_spawner-0.1.2.dev0.dist-info/METADATA,sha256=89N0M7C9MLdo1DRjActxh8UVrLOEIWKvAvq1aIQdOe4,10102
+remote_slurm_spawner-0.1.2.dev0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+remote_slurm_spawner-0.1.2.dev0.dist-info/top_level.txt,sha256=xbGW4jFHDslV0HkcUs70oG_r9PCsqGAllY_X5Bl_sP0,21
+remote_slurm_spawner-0.1.2.dev0.dist-info/RECORD,,
