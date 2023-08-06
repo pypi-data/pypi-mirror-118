@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: apos
+Version: 0.1.0
+Summary: The backbone for message-driven applications
+Home-page: https://github.com/mkossatz/apos
+License: MIT
+Keywords: messenger,command,event,query,response
+Author: Max Kossatz
+Author-email: max@kossatzonline.de
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, https://github.com/mkossatz/apos
