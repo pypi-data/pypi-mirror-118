@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: scrapy-box
+Version: 1.2.0
+Summary: 简单易用的scrapy插件盒
+Home-page: https://github.com/xlomg/scrapy_box.git
+Author: xlomg
+Author-email: liu_xianglong@live.com
+Maintainer: xlomg
+Maintainer-email: liu_xianglong@live.com
+License: BSD License
+Platform: all
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries
+License-File: LICENSE.md
+
+SCRAPY\_BOX
+===========
+
+简单好用的scrapy插件盒
+
+download middlewares
+--------------------
+
+-  代理下载中间件
+
+   .. code:: python
+
+       # 代理url
+       PROXY_ADDR = 'your proxy API'
+
+-  错误重定向重试的下载中间件
+
+   .. code:: python
+
+       # 需要对重定向的url,使用原url进行重试的url片段
+       ERROR_REDIRECT_URL_SNIPPET = ['redirect', 'retry']
+       # 注意，数字必须大于600
+       DOWNLOADER_MIDDLEWARES = {
+          'scrapy_box.ErrorRedirectMiddleware': 601,
+       }
+
+
