@@ -1,0 +1,3 @@
+[console_scripts]
+loginssh = ssh_manager.ssh_manager:cli
+
