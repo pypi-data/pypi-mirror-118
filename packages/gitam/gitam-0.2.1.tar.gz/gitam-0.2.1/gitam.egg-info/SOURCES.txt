@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+gitam/__init__.py
+gitam/result.py
+gitam.egg-info/PKG-INFO
+gitam.egg-info/SOURCES.txt
+gitam.egg-info/dependency_links.txt
+gitam.egg-info/requires.txt
+gitam.egg-info/top_level.txt
