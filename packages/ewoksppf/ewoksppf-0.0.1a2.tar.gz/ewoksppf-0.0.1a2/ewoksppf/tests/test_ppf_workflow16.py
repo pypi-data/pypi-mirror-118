@@ -1,0 +1,147 @@
+from ewoksppf import execute_graph
+from ewokscore.tests.utils import assert_taskgraph_result
+
+
+def submodel16a():
+    nodes = [
+        {
+            "id": "addtask1",
+            "task_type": "ppfmethod",
+            "task_identifier": "ewoksppf.tests.test_ppf_actors.pythonActorAdd.run",
+        },
+        {
+            "id": "addtask2",
+            "task_type": "ppfmethod",
+            "task_identifier": "ewoksppf.tests.test_ppf_actors.pythonActorAdd.run",
+        },
+        {"id": "in", "task_type": "ppfport"},
+        {"id": "out", "task_type": "ppfport"},
+    ]
+
+    links = [
+        {"source": "in", "target": "addtask1", "all_arguments": True},
+        {"source": "addtask1", "target": "addtask2", "all_arguments": True},
+        {"source": "addtask2", "target": "out", "all_arguments": True},
+    ]
+
+    graph = {
+        "graph": {"name": "submodel16a"},
+        "links": links,
+        "nodes": nodes,
+    }
+
+    return graph
+
+
+def submodel16b():
+    nodes = [
+        {
+            "id": "addtask1",
+            "task_type": "ppfmethod",
+            "task_identifier": "ewoksppf.tests.test_ppf_actors.pythonActorAdd.run",
+        },
+        {
+            "id": "addtask2",
+            "task_type": "ppfmethod",
+            "task_identifier": "ewoksppf.tests.test_ppf_actors.pythonActorAdd.run",
+        },
+        {"id": "submodel16a", "task_type": "graph", "task_identifier": submodel16a()},
+        {"id": "in", "task_type": "ppfport"},
+        {"id": "out", "task_type": "ppfport"},
+    ]
+
+    links = [
+        {"source": "in", "target": "addtask1", "all_arguments": True},
+        {
+            "source": "addtask1",
+            "target": "submodel16a",
+            "all_arguments": True,
+            "sub_graph_nodes": {
+                "sub_target": "in",
+            },
+        },
+        {
+            "source": "submodel16a",
+            "target": "addtask2",
+            "all_arguments": True,
+            "sub_graph_nodes": {
+                "sub_source": "out",
+            },
+        },
+        {"source": "addtask2", "target": "out", "all_arguments": True},
+    ]
+
+    graph = {
+        "graph": {"name": "submodel16b"},
+        "links": links,
+        "nodes": nodes,
+    }
+
+    return graph
+
+
+def workflow16():
+    nodes = [
+        {
+            "id": "addtask1",
+            "inputs": {"value": 1},
+            "task_type": "ppfmethod",
+            "task_identifier": "ewoksppf.tests.test_ppf_actors.pythonActorAdd.run",
+        },
+        {
+            "id": "addtask2",
+            "task_type": "ppfmethod",
+            "task_identifier": "ewoksppf.tests.test_ppf_actors.pythonActorAdd.run",
+        },
+        {"id": "submodel16b", "task_type": "graph", "task_identifier": submodel16b()},
+    ]
+
+    links = [
+        {
+            "source": "addtask1",
+            "target": "submodel16b",
+            "all_arguments": True,
+            "sub_graph_nodes": {
+                "sub_target": "in",
+            },
+        },
+        {
+            "source": "submodel16b",
+            "target": "addtask2",
+            "all_arguments": True,
+            "sub_graph_nodes": {
+                "sub_source": ("submodel16a", "out"),
+            },
+        },
+    ]
+
+    graph = {
+        "graph": {"name": "workflow16"},
+        "links": links,
+        "nodes": nodes,
+    }
+
+    expected_results = {
+        "addtask1": {"ppfdict": {"value": 2}},
+        ("submodel16b", "in"): {"ppfdict": {"value": 2}},
+        ("submodel16b", "addtask1"): {"ppfdict": {"value": 3}},
+        ("submodel16b", ("submodel16a", "in")): {"ppfdict": {"value": 3}},
+        ("submodel16b", ("submodel16a", "addtask1")): {"ppfdict": {"value": 4}},
+        ("submodel16b", ("submodel16a", "addtask2")): {"ppfdict": {"value": 5}},
+        ("submodel16b", ("submodel16a", "out")): {
+            "ppfdict": {"value": 5}
+        },  # 2 destinations
+        ("submodel16b", "addtask2"): {"ppfdict": {"value": 6}},
+        ("submodel16b", "out"): {"ppfdict": {"value": 6}},
+        "addtask2": {"ppfdict": {"value": 6}},
+    }
+
+    return graph, expected_results
+
+
+def test_workflow16(ppf_logging, tmpdir):
+    """Test connecting nodes from sub-submodels to the top model"""
+    varinfo = {"root_uri": str(tmpdir)}
+    graph, expected = workflow16()
+    execute_graph(graph, varinfo=varinfo)
+    assert_taskgraph_result(graph, expected, varinfo=varinfo)
