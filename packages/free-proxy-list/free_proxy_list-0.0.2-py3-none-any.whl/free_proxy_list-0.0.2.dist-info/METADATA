@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: free-proxy-list
+Version: 0.0.2
+Summary: This package is to get free proxy ips and port number for scraping and for testing on proxy.
+Home-page: https://github.com/meetsohail/proxy-list
+Author: Sohail Ahmed
+Author-email: meetsohail360@gmail.com
+License: UNKNOWN
+Keywords: proxy,server,scraping,request,python,selenium
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# Free Proxy List
+
+This library is for testing purpose while scraping.
+
+## Installation
+
+    pip install free-proxy-list
+
+
+## Usage
+```python
+    from proxy_list import ProxyList
+    
+    proxy_list = ProxyList()
+```
+
+### Get all Proxies?
+
+#### Request	 
+Call `get_all_proxies()` to all the proxies in list form with its ports.
+```python
+proxy_list.get_all_proxies()
+```
+#### Response     
+The response would be in form of multiple list of IP and Port.
+
+```python
+    [('0.0.0.0','8080'),('0.0.0.0','9090'), and so on]
+```
+
+### Get Random Proxy?
+
+#### Request	 
+Call `get_random_proxy()` to get a single proxy to use directly in code.
+
+```python
+proxy_list.get_random_proxy()
+```
+    
+#### Response     
+The response would be in form of `dictionary` of IP and Port.
+
+    {'https': '0:0:0::8080'}
+
+## How to use in requests?
+Official documentation of requests. [Requests](https://docs.python-requests.org/en/master/)
+
+```python
+from proxy_list import ProxyList
+
+proxies = ProxyList()
+r = requests.get(url, proxies=proxies.get_random_proxy())
+```
+
