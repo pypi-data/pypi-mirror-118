@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: py4ami
+Version: 0.0.8
+Summary: Semantic Reader of the Scientific Literature.
+Home-page: https://github.com/petermr/pyami
+Author: Peter Murray-Rust
+Author-email: petermurrayrust@googlemail.com
+License: Apache2
+Keywords: text and data mining
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+Pyami is a commandline/GUI-based tool for analysing scientific papersin XML, TXT or PDF. It splitrs them into semantic sections which are searchable, transformable and canbe further processed by standard Python and other tools. Sections include text, images, tables, etc. 
+
