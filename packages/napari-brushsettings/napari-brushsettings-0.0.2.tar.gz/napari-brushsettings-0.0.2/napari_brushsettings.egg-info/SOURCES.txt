@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+napari_brushsettings/__init__.py
+napari_brushsettings/_dock_widget.py
+napari_brushsettings.egg-info/PKG-INFO
+napari_brushsettings.egg-info/SOURCES.txt
+napari_brushsettings.egg-info/dependency_links.txt
+napari_brushsettings.egg-info/entry_points.txt
+napari_brushsettings.egg-info/requires.txt
+napari_brushsettings.egg-info/top_level.txt
+napari_brushsettings/_tests/__init__.py
+napari_brushsettings/_tests/test_dock_widget.py
