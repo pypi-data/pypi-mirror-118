@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+htrvx/__init__.py
+htrvx.egg-info/PKG-INFO
+htrvx.egg-info/SOURCES.txt
+htrvx.egg-info/dependency_links.txt
+htrvx.egg-info/entry_points.txt
+htrvx.egg-info/requires.txt
+htrvx.egg-info/top_level.txt
+htrvx/schemas/alto-segmonto.xsd
