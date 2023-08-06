@@ -1,0 +1,17 @@
+fastapi_mongodb/__init__.py,sha256=oDGJjBNbsqtE7zXwyNj2ds47mDYTIaEAgeu7qxfpA3g,285
+fastapi_mongodb/config.py,sha256=0AV3aPrWA5wPEJBuz8eg273ciVJDF7M5GZGFUlVJYgI,601
+fastapi_mongodb/db.py,sha256=lKolawWG88ueaJSIAuKqHN5xfGChlkrf_J-pKd34V5s,16144
+fastapi_mongodb/dependencies.py,sha256=NHBxomMSnNS5dWZEgcR8miASW0OQ67h9D4IamurOXJM,879
+fastapi_mongodb/exceptions.py,sha256=NWh-wgeNMib7J59VUVjK_-J6kZ_rCTJmJNfY994Z0Lg,299
+fastapi_mongodb/helpers.py,sha256=AZdYrrtoorKWEgynp7xauMj2GHzr9qYRRPeYstvqXGI,3619
+fastapi_mongodb/logging.py,sha256=C0FkXyej-IsuJEV-W3Y7gsqopL1ZW7YbNDug8yofzeg,10165
+fastapi_mongodb/managers.py,sha256=nNecP8E4x_czxRKHkTA8GA8n2GJUCiOiYs-OL7dxqzA,5343
+fastapi_mongodb/middlewares.py,sha256=7f7SHnI2lfGXhe7C8ZLQ_AiWLQw8px9IwXsW59MwOPw,940
+fastapi_mongodb/models.py,sha256=V9voH6fwbtz6xRyzc33RIYeFVxqG52RWSRNoYG8YN8s,9851
+fastapi_mongodb/repositories.py,sha256=w9ZuGgOUIO1DAyGmavDKOLeEm04aEVeAG0VJMnyhWPI,8098
+fastapi_mongodb/schemas.py,sha256=QKG0GNBT90_mGEIhYO9IfzYXW9JF0IpOO7FMOnRaNC0,630
+fastapi_mongodb/types.py,sha256=IF8Gc9iTPgXupBZ69ncJUG5ZQ1WwKSSTx0aMHjo1DHk,810
+fastapi_mongodb-0.0.1b1.dist-info/LICENSE.MD,sha256=uK6pWLNDwui3nCe9kLh7z9ZeFZ-tdzqr7zpdVhlUTkY,1076
+fastapi_mongodb-0.0.1b1.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+fastapi_mongodb-0.0.1b1.dist-info/METADATA,sha256=T08rtAquf8vx57_D8l2U2h4Swofn1tNYXpUUEYAJ7Wg,1893
+fastapi_mongodb-0.0.1b1.dist-info/RECORD,,
