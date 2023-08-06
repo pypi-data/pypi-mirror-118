@@ -1,0 +1,14 @@
+sximage/__init__.py,sha256=REUUyvLn4mI2oDgr0Gg7hi7i-uDnK2ytjiMKrC8gtKE,80
+sximage/__main__.py,sha256=2pArmWKAhwubVuB_WFJTc7XUIAkkHlS7DdvNHZJRxio,75
+sximage/fpgacap.py,sha256=7HIxdUC0R6zqa_haehGQBIFY4z4ZiFNaFLhmINDBf9s,12236
+sximage/sximage.py,sha256=3ae1jNUKSmP3qasiLPSjPwgmEtiFAlVT6NWZb10reog,1282
+sxlogic/__init__.py,sha256=nhN-Hj2CxAkaRJoRLHPe9k7mv6nD6mpo8ich_Jc_984,80
+sxlogic/__main__.py,sha256=2pArmWKAhwubVuB_WFJTc7XUIAkkHlS7DdvNHZJRxio,75
+sxlogic/fpgacap.py,sha256=yY9QEPCybVV7Q3SLqsBzP_Os3hysLBpe3EAFRr-agwM,12884
+sxlogic/iconvert.py,sha256=wktTeUrLL3357Z7T-va_KZTahe0CkH1rbGGU-5DWknQ,1134
+sxlogic/sxlogic.py,sha256=xhBzIBgKIEVETaqu58ovSsQwfC0Ch-0MfkLs8jWMKbY,1408
+sxlogic-0.3.0.dist-info/METADATA,sha256=w1VBuaJscFt4TSGaoQFMqqhx6Fz9df3gR-6lwjbZ5to,486
+sxlogic-0.3.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+sxlogic-0.3.0.dist-info/entry_points.txt,sha256=qe1n3q0Qp-Hs0ORIz68cCZ2PESAaj6-1M1SNZQx1YCo,90
+sxlogic-0.3.0.dist-info/top_level.txt,sha256=pVLpy3EfqrS7ETEkFDh5zy97-vhaYSCI9zXk-808X44,8
+sxlogic-0.3.0.dist-info/RECORD,,
