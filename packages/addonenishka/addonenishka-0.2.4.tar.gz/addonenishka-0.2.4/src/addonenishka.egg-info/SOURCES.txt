@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/addonenishka.egg-info/PKG-INFO
+src/addonenishka.egg-info/SOURCES.txt
+src/addonenishka.egg-info/dependency_links.txt
+src/addonenishka.egg-info/entry_points.txt
+src/addonenishka.egg-info/requires.txt
+src/addonenishka.egg-info/top_level.txt
+src/examplepackagenishka/__init__.py
+src/examplepackagenishka/example.py
+src/examplepackagenishka/data/sample_data.csv
