@@ -1,0 +1,16 @@
+vip4model/Globals.py,sha256=gvNMueW-P7g_EtIBjXjg4aEBGWvxTrFiRYH40-ox9G0,131
+vip4model/Model.py,sha256=_V_AVH26H-_KmrvHF22OwGX8OZal0bY2KAdduOorviI,867
+vip4model/ModelCart.py,sha256=CKBZgFYXwsmIBXdKPDJG4Q_Ubsql5d4Umpp2a-0iElc,1322
+vip4model/Test.py,sha256=DfwBn2ZJDuNReA7kjj64yVohIuoHmt17vKHeXN2X_i4,1788
+vip4model/_CoeffGrids.py,sha256=RvQmaPIOEEEZPBq5xpI66KgE6_257xQOvGi2uJrhIRg,1072
+vip4model/_Legendre.py,sha256=aZXNqp7OP526CeMuzGwCgUNs986M6WRGWd2ZgnXP8PM,1493
+vip4model/_ReadCoeffs.py,sha256=3uTlUNraXDNky_TyZ7iQM0D8dSl9UpwTHhBI6CWAoQQ,1100
+vip4model/_Schmidt.py,sha256=8k7EpxYwgP7DPq1Fwy-vVaKEmEG0FerneQjqwIBQSqU,826
+vip4model/_SphHarm.py,sha256=Yz_OB0kZzDVAhBDrL4B4r4fiEU9xDjKN1JIOuLFAOuY,2492
+vip4model/__init__.py,sha256=m3xyigXec2DpMsPF4VUE09hp_sIky-zSBPeIGXYqzXE,295
+vip4model/__data/coeffs.dat,sha256=-6LmORs8ihhuC-K7UyveeHLuDZvq9uLjmHdMqw6zZno,299
+vip4model-1.0.0.dist-info/LICENSE,sha256=qsB9FW21oUnBQUBYA-W4RQBLzIt73jLjotsHb7dwI7s,1070
+vip4model-1.0.0.dist-info/METADATA,sha256=_px8m5sgq-86-TA_n2YhTKoR9bgV3_d5vsLRny9fPOc,2262
+vip4model-1.0.0.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+vip4model-1.0.0.dist-info/top_level.txt,sha256=FqcF_PFaZ_L2aQ43rUiEXaO6MjTPHPTXOtzd7RAtB4I,10
+vip4model-1.0.0.dist-info/RECORD,,
