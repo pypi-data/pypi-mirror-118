@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: EVE-CLI-ASSISTANT
+Version: 0.1
+Summary: EVE is a cli tool.
+Home-page: https://github.com/VaryV/EVE-CLI-ASSISTANT
+Author: Varun Suresh
+License: UNKNOWN
+Keywords: eve,cli tool,python cli tool,eve cli tool,eve command line tool
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: click (==7.1.2)
+Requires-Dist: pyttsx3 (==2.90)
+Requires-Dist: pyowm (==3.0.0)
+Requires-Dist: PyGithub (==1.54)
+
+This is EVE, a command line based tool to help automate some processes and speeden up things.
+
