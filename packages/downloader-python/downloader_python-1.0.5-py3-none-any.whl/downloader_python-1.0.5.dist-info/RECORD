@@ -1,0 +1,10 @@
+downloader-python/__init__.py,sha256=EbEVZtp_ZFT3ZY-Yr2Lw3yO20jgHATLjvM5Qqn6M3Q4,24
+downloader-python/downloader.py,sha256=6xoYVnqmClnB7Jy1F0YsrH7qggqzjDEYk8pckhKPrAw,10434
+downloader-python/main.py,sha256=m24WJZ2rhXGCEa5D3gxWp-6cXdpQykTnL4RXrwHc7gY,7644
+downloader-python/web.py,sha256=qIL7c8nAGG4Q8vf_I8K_IffDTFp-WSlYnlwS1-WpqeE,189
+downloader-python/web_runner.py,sha256=ra4chSzrjQp8q6odFCtmoyRyfMzH3kZ1uHuveinRFy4,20
+downloader_python-1.0.5.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+downloader_python-1.0.5.dist-info/METADATA,sha256=Vggv76g4eN6oBcU-cWtDZWZdw9cS9Hrc6ZYQNvwNJhw,535
+downloader_python-1.0.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+downloader_python-1.0.5.dist-info/top_level.txt,sha256=SC3qf94ZqIU4Rt5QEPgbSxhVJ4Vdc-34ST5fGHQ01Es,18
+downloader_python-1.0.5.dist-info/RECORD,,
