@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "nv-nfe"
+version = "0.1.0a1"
+description = "Simple XML parser for reading standard Brazilian digital invoices (NFe)"
+authors = ["Gustavo Santos <gustavo@next.ventures>"]
+repository = "https://github.com/gstos/nv-nfe"
+packages = [{ include = "nv"}]
+license = "MIT"
+readme = "README.md"
+classifiers = [
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+include = [
+    "LICENSE",
+    "COPYRIGHT",
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+xmltodict = "^0.12.0"
+dicttoxml = "^1.7.4"
+nv-utils = "^0.2.0a2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
