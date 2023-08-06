@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: ktestpy
+Version: 0.3
+Summary: This is a common test framework support for both UI and API test with run in parallel ability.
+Home-page: https://www.testertalk.com
+Author: kevin.cai
+Author-email: testertalk@outlook.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
