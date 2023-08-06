@@ -1,0 +1,15 @@
+fauxmo/__init__.py,sha256=szRGn09B28Rprp9nSJF1XtTLMraCP8Yf0700dZOhsmM,478
+fauxmo/cli.py,sha256=qcKCfR9IJHL7f1ha_LXvdMaWE0UHe2zpZVDnolc1D3I,1071
+fauxmo/fauxmo.py,sha256=7jhXi8cmXnt635V7wRULwsLbPXA93tatRdnIBaYSKS4,5385
+fauxmo/protocols.py,sha256=ZQkz11Ob6ADW_aDbwhx9HFMFnyIJYoYlOY59fCsYadY,14818
+fauxmo/utils.py,sha256=tWkbwQOaxn231qXK87DU30aijbO3SyRH02YWRenflPM,3600
+fauxmo/plugins/__init__.py,sha256=khJuiipbKno3jHIeVMpQG8VPAJhyKw60C_B5cxPGEdI,4149
+fauxmo/plugins/commandlineplugin.py,sha256=zd4u62MGgtukZ3BDeAA0pLxT_8hY_uAw1NATqad01VY,4901
+fauxmo/plugins/homeassistantplugin.py,sha256=9nN8zPxEQs8FJoTfPUmYp9URZ_oC6Nql5VC9mlrXCzk,4972
+fauxmo/plugins/simplehttpplugin.py,sha256=JKufUT62o4ulMqvX-kXhYuMCeOp8FkiJocr4Xqavcys,7397
+fauxmo-0.5.2.dist-info/LICENSE,sha256=NeHUbKUwr8OamGhFXC8Vkv9G2tTCL89Ii-vG7SbcjNQ,1138
+fauxmo-0.5.2.dist-info/METADATA,sha256=bXTDa0_xhz571NP6V1RnXsQr4lzWypVO1Llb5LDNZJQ,28869
+fauxmo-0.5.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+fauxmo-0.5.2.dist-info/entry_points.txt,sha256=-D2Bn6y5Z_wZk3Xpa0Gyk6fAlxtakn5y-Vh9XBDilj8,43
+fauxmo-0.5.2.dist-info/top_level.txt,sha256=puqpYOK62lJXYzskYtqOClKeBw64ct9gHoghtwfRsqQ,7
+fauxmo-0.5.2.dist-info/RECORD,,
