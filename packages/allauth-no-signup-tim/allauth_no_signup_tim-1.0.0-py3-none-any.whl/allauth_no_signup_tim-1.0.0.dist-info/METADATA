@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: allauth-no-signup-tim
+Version: 1.0.0
+Summary: Adds allauth adapters to disable/enable login in django
+Home-page: https://github.com/dezhidki/allauth-no-signup-tim
+Author: Denis Zhidkikh
+Author-email: dezhidki@jyu.fi
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/dezhidki/allauth-no-signup-tim/issues
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django :: 3.2
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: django-allauth
+
+# TIM login enable/disable adapter for allauth-django
+
+Adds allauth adapters to disable/enable login in django
+
