@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: simpledatasetlabeler
+Version: 0.1.1
+Summary: Simple labeling tool
+Home-page: https://github.com/shonohs/simpledataset_labeler
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+Requires-Dist: flask
+Requires-Dist: simpledataset
+
+# simpledataset-labeler
+Simple browser-based interface for dataset labeling.
+
+Currently only Object Detection task is supported.
+
+## Setup
+```
+pip install simpledatasetlabeler
+```
+
+## Usage
+```
+dataset_labeler <input_filepath> <output_filepath> [--host <hostname>] [--port <port_number>] [--dataset_type {image_classification,object_detection}]
+```
+Then, open your favorite browser and access to the "http://localhost:5000". (If you specified --port option, access the specified port instead.)
+
+## How to build a package
+```
+make
+```
+
+
