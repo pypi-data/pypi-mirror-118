@@ -1,0 +1,3 @@
+[ofxstatement]
+paypal = ofxstatement.plugins.paypal:PayPalPlugin
+
