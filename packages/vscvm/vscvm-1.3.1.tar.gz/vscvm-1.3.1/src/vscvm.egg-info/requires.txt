@@ -1,0 +1,9 @@
+beautifulsoup4>=4.9
+click>=8.0
+
+[dev]
+black
+mypy
+pytest
+tox
+types-beautifulsoup4
