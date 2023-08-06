@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: thunes-py
+Version: 0.2a5
+Summary: Thunes Python Lib
+Home-page: https://pypi.org/project/thunes/
+Author: Ilton Ingui
+Author-email: iltoningui@outlook.com
+License: UNKNOWN
+Keywords: thunes,api,online,payment
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Thunes
+
+[![pypi](https://github.com/iltoningui/thunes-py/actions/workflows/python-publish.yml/badge.svg?branch=publish)](https://github.com/iltoningui/thunes-py/actions/workflows/python-publish.yml)
+[![package](https://github.com/iltoningui/thunes-py/actions/workflows/python-package.yml/badge.svg?branch=main)](https://github.com/iltoningui/thunes-py/actions/workflows/python-package.yml)
+[![pylint](https://github.com/iltoningui/thunes-py/actions/workflows/pylint.yml/badge.svg?branch=main)](https://github.com/iltoningui/thunes-py/actions/workflows/pylint.yml)
+
+This Library perform operations
+
+## Features
+
+## Docs
+
+## Instalation
+
+## Setup
+
+## Use
+
+### Create Instance
+
+### 
+
