@@ -1,0 +1,52 @@
+[tool.poetry]
+name = 'borg-queen'
+version = '0.1.0b1'
+description = 'Wrapper for Borg Backup.'
+license = 'ISC'
+homepage = 'https://bitbucket.org/indev/queen/'
+authors = ['Indev <admin@indevsoftware.io>']
+readme = 'README.md'
+packages = [
+	{ include = "queen" }
+]
+
+[tool.poetry.scripts]
+queen = 'queen.main:main'
+
+[tool.poetry.dependencies]
+python = '^3.7'
+sentry-sdk = '^1.0.0'
+toml = '^0.10.2'
+
+[tool.poetry.dev-dependencies]
+isort = "^5.8.0"
+black = "^20.8b1"
+flake8 = "^3.9.0"
+watchdog = {extras = ["watchmedo"], version = "^2.0.2"}
+pytest = "^6.2.3"
+pytest-cov = "^2.11.1"
+pytest-mock = "^3.6.1"
+pytest-docker = "^0.10.3"
+
+[tool.isort]
+profile = 'black'
+sections = ['FUTURE', 'STDLIB', 'THIRDPARTY', 'FIRSTPARTY', 'LOCALFOLDER']
+line_length = 100
+float_to_top = true
+no_lines_before='LOCALFOLDER'
+
+[tool.black]
+line-length = 100
+
+[tool.pytest.ini_options]
+addopts = '--cov=queen --strict-markers'
+markers = [
+	'borg: requires borg installed and available in PATH',
+	'docker: requires docker and docker-compose installed and available in PATH',
+	'postgres: requires postgres client binaries installed and available in PATH',
+	'mysql: requires mysql client binaries installed and available in PATH'
+]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
