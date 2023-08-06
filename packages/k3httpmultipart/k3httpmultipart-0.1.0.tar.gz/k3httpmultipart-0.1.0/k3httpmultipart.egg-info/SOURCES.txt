@@ -1,0 +1,10 @@
+setup.py
+k3httpmultipart/__init__.py
+k3httpmultipart/multipart.py
+k3httpmultipart/setup.py
+k3httpmultipart/synopsis.py
+k3httpmultipart.egg-info/PKG-INFO
+k3httpmultipart.egg-info/SOURCES.txt
+k3httpmultipart.egg-info/dependency_links.txt
+k3httpmultipart.egg-info/requires.txt
+k3httpmultipart.egg-info/top_level.txt
