@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+ice_moviepy.egg-info/PKG-INFO
+ice_moviepy.egg-info/SOURCES.txt
+ice_moviepy.egg-info/dependency_links.txt
+ice_moviepy.egg-info/requires.txt
+ice_moviepy.egg-info/top_level.txt
