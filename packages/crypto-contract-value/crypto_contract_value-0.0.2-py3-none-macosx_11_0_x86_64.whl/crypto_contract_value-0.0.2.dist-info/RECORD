@@ -1,0 +1,9 @@
+crypto_contract_value/__init__.py,sha256=Ahj042bY0ZWrQPSJcVCeRaj6pdTY4JASnsBHVe6G4Mc,760
+crypto_contract_value/_lowlevel.py,sha256=cNhYN4liB8E56p_ZJY1CQ9q50xZmszLJopDh1Pw_a2k,203
+crypto_contract_value/_lowlevel__ffi.py,sha256=L-JgxBhwfWyuD1SpyMkRjIH_CH9K4ThTUF249xBrWoo,908
+crypto_contract_value/_lowlevel__lib.so,sha256=9rbQfH1uyesfRDEfiFOm-tFfMF6_B64vaLDHkjjr-L0,3839520
+crypto_contract_value-0.0.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+crypto_contract_value-0.0.2.dist-info/METADATA,sha256=_RLszvhUOeUKF5H5N3_ppKxlMv2Se9MF0jqJtTcrZgU,1866
+crypto_contract_value-0.0.2.dist-info/WHEEL,sha256=s-M7yQGGODCx-LyLoneZpi0EzraSUqtpB6LrLD6HY8Q,108
+crypto_contract_value-0.0.2.dist-info/top_level.txt,sha256=HWBLkAOIgaPe6E1rSTs39AB5ZEri6pBONck3PK3XRxE,22
+crypto_contract_value-0.0.2.dist-info/RECORD,,
