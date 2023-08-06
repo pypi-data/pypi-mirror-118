@@ -1,0 +1,12 @@
+include README.rst
+include requirements.txt
+include t.txt
+include sycc.png
+exclude v.txt
+global-include *.py
+global-exclude *.pyc
+global-include *.txt
+exclude .txt
+exclude k/.txt
+exclude setup.cfg
+prune __pycache__
