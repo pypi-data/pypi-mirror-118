@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: tfw
+Version: 0.1.1
+Summary: Telethon bot framework
+Home-page: https://git.vanutp.dev/vanutp/telethon_framework
+Author: vanutp, ntonee
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Requires-Dist: telethon
+Requires-Dist: cryptg
+Requires-Dist: fox-orm
+
+UNKNOWN
+
