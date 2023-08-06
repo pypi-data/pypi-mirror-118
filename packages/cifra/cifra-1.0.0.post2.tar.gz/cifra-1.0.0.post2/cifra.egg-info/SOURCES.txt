@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+cifra.egg-info/PKG-INFO
+cifra.egg-info/SOURCES.txt
+cifra.egg-info/dependency_links.txt
+cifra.egg-info/entry_points.txt
+cifra.egg-info/not-zip-safe
+cifra.egg-info/top_level.txt

@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: cifra
+Version: 1.0.0.post2
+Summary: Console command to crypt and decrypt texts using classic methods.
+Home-page: https://github.com/dante-signal31/cifra
+Author: dante-signal31
+Author-email: dante.signal31@gmail.com
+License: BSD-3
+Keywords: python cipher crypto
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+License-File: LICENSE
+
+Console command to crypt and decrypt texts using classic methods. It also performs cryptoattacks against those methods.
+
