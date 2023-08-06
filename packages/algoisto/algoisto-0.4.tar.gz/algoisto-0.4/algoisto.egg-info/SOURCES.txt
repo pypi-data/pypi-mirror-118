@@ -1,0 +1,8 @@
+LICENCE
+README.md
+setup.py
+algoisto/__init__.py
+algoisto.egg-info/PKG-INFO
+algoisto.egg-info/SOURCES.txt
+algoisto.egg-info/dependency_links.txt
+algoisto.egg-info/top_level.txt
