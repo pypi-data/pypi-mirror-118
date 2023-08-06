@@ -1,0 +1,10 @@
+setup.py
+dnsd-distributions-mohaned/Binomialdistribution.py
+dnsd-distributions-mohaned/Gaussiandistribution.py
+dnsd-distributions-mohaned/Generaldistribution.py
+dnsd-distributions-mohaned/__init__.py
+dnsd_distributions_mohaned.egg-info/PKG-INFO
+dnsd_distributions_mohaned.egg-info/SOURCES.txt
+dnsd_distributions_mohaned.egg-info/dependency_links.txt
+dnsd_distributions_mohaned.egg-info/not-zip-safe
+dnsd_distributions_mohaned.egg-info/top_level.txt
