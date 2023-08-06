@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+call_useragent/__init__.py
+call_useragent/head.py
+call_useragent.egg-info/PKG-INFO
+call_useragent.egg-info/SOURCES.txt
+call_useragent.egg-info/dependency_links.txt
+call_useragent.egg-info/top_level.txt

@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: call-useragent
+Version: 0.0.1
+Summary: 由于国内网络限制无法使用 fake_useragent 库而制作的替代品
+Home-page: https://github.com/dream-pioneer/call_useragent
+Author: dream-pioneer
+Author-email: dream.pioneer537@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# call_useragent
+
+## 安装
+
+`pip install --user call_useragent`
+
+## 使用
+
+1. 随机调用
+
+```python
+import call_useragent
+headers = {'User-Agent': call_useragent.random()}
+```
+
+后续也许会有其他功能
+
+
