@@ -1,0 +1,3 @@
+[console_scripts]
+datatools = datatools.__main__:main
+
