@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+as4pgc/AS4PGC.py
+as4pgc/__init__.py
+as4pgc.egg-info/PKG-INFO
+as4pgc.egg-info/SOURCES.txt
+as4pgc.egg-info/dependency_links.txt
+as4pgc.egg-info/entry_points.txt
+as4pgc.egg-info/requires.txt
+as4pgc.egg-info/top_level.txt
