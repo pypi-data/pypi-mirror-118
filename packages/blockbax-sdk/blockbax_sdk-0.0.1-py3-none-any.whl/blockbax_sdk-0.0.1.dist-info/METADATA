@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: blockbax-sdk
+Version: 0.0.1
+Summary: Blockbax Python SDK
+Home-page: https://blockbax.com/docs/integrations/python-sdk/
+Author: Blockbax
+Author-email: office@blockbax.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: urllib3 (>=1.26.6)
+Requires-Dist: pytz (>=2020.1)
+Requires-Dist: requests (>=2.26.0)
+Requires-Dist: dataclasses (>=0.6)
+Requires-Dist: python-dateutil (>=2.8.2)
+
+# BLockbax Python SDK
+
+For more information please refer to our [documentation](https://blockbax.com/docs/integrations/python-sdk/)
+
