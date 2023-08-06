@@ -1,0 +1,6 @@
+setup.py
+ProfiTrade.egg-info/PKG-INFO
+ProfiTrade.egg-info/SOURCES.txt
+ProfiTrade.egg-info/dependency_links.txt
+ProfiTrade.egg-info/requires.txt
+ProfiTrade.egg-info/top_level.txt
