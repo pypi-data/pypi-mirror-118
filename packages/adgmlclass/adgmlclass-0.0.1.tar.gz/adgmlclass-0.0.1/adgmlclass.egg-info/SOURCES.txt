@@ -1,0 +1,10 @@
+README.md
+setup.py
+adgmlclass.egg-info/PKG-INFO
+adgmlclass.egg-info/SOURCES.txt
+adgmlclass.egg-info/dependency_links.txt
+adgmlclass.egg-info/entry_points.txt
+adgmlclass.egg-info/requires.txt
+adgmlclass.egg-info/top_level.txt
+src/__init__.py
+src/app.py
