@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: lydite
+Version: 0.0.2
+Summary: PYDAP
+Home-page: https://github.com/gitvipin/lydite
+Author: Vipin Sharma
+Author-email: sh.vipin@gmail.com
+License: UNKNOWN
+Description: # LYDITE
+        A PYDAP
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
