@@ -1,0 +1,4 @@
+pydantic
+asyncio
+tracardi-plugin-sdk
+psycopg
