@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: AppiumRunner
+Version: 0.0.1
+Summary: app ui 自动化测试工具
+Home-page: https://github.com/crazyFeng/appium-runner
+Author: hctestedu.com
+Author-email: zhangfeng0103@live.com
+License: GPLv3
+Project-URL: Bug Tracker, https://github.com/crazyFeng/appium-runner/issues
+Project-URL: Contact Us, http://www.hctestedu.com
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pytest (~=6.2.5)
+Requires-Dist: pytest-html
+Requires-Dist: selenium (~=3.141.0)
+Requires-Dist: Appium-Python-Client (~=1.2.0)
+Requires-Dist: py (~=1.10.0)
+Requires-Dist: xlrd (~=2.0.1)
+Requires-Dist: ruamel.yaml
+
+# Appium Runner 自动化测试工具封装
+> 只需要你会用excel，就能够实现自动化测试，提高工作效率
+
+## 安装方式
+### pip仓库安装
+
+`pip install appiumrunner`
+
+### 源码安装
+```
+python setup.py install --user
+```
+
+检查是否安装成功，输入`appiumrun`
+
+
+
+## 使用步骤
+1. 编写excel
+2. 编写 yaml 配置文件
+3. 运行自动化测试
+4. 检查测试报告
+
+
