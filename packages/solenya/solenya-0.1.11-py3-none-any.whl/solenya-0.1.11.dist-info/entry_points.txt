@@ -1,0 +1,3 @@
+[console_scripts]
+sol = msph.__main__:main
+
