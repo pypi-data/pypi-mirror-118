@@ -1,0 +1,17 @@
+py_fort_hermes/FrameReadout_pb2.py,sha256=hyKexQgk2Z8-hL0QCW8JZVt-4L5NdxpU4gZAt1P7CW4,8762
+py_fort_hermes/Header_pb2.py,sha256=dE8kxQKYYNGJdEtICwM2Fv5zrEoEa1vGy0bvtsdN0Ls,9241
+py_fort_hermes/Tag_pb2.py,sha256=48xyySoQcBwLWjnsdviKPhzOWy-M1wuLdWzJGDkYsFw,3049
+py_fort_hermes/__init__.py,sha256=hftp8OWI3sFKljR5lC7mRbXzYvLq6DRPpbj-c8THTEA,289
+py_fort_hermes/check.py,sha256=Q2hOAomQwQX19wTWfTD1NTy5kTfFJL-cSjY_F6-y9HA,1065
+py_fort_hermes/errors.py,sha256=2HgkZpwiFjYcAOp18-Wa1nupO8ESmCFY9NTYFvmchGo,1036
+py_fort_hermes/file.py,sha256=byqUgBR-31eG-dpSf3WQwY3LSZp2lz9YJUvXUqTXwsY,3923
+py_fort_hermes/network.py,sha256=FJSN-FdkWV4cnOkz34QvPiOqqLHRbs9PTn7KQCl1T5Y,4014
+py_fort_hermes/utils.py,sha256=fJAJXJQqgJt9HkwHGDVbF9SvgTfPP6MYBNzywfgHFjM,770
+py_fort_hermes/protobuf/FrameReadout.proto,sha256=lPnkiPgqGbAP3x6cVM7bDsdtJ0uvSxLCmtlDjBXBBIE,933
+py_fort_hermes/protobuf/Header.proto,sha256=Br7CqsNau3MqGHadeqGW5hb88YA_6eTZOFxp9PW7vr0,671
+py_fort_hermes/protobuf/Tag.proto,sha256=FSMLvt30jfUCBv54mMXQ3Dcau2C9kmcbGYKtRVkWqEk,232
+formicidae_tracker_hermes-0.5.0.post6.dist-info/COPYING.LESSER,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+formicidae_tracker_hermes-0.5.0.post6.dist-info/METADATA,sha256=8_aQWoLMd25VKwqCUmBadczSUp_2nuQ4EdjtgXh2rnc,1046
+formicidae_tracker_hermes-0.5.0.post6.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+formicidae_tracker_hermes-0.5.0.post6.dist-info/top_level.txt,sha256=W6YXX-s0Qm6yYq2hrchUdMl4m4mTx6H423WXyOeysbo,15
+formicidae_tracker_hermes-0.5.0.post6.dist-info/RECORD,,
