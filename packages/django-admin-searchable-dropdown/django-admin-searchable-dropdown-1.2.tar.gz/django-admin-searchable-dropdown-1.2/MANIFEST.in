@@ -1,0 +1,6 @@
+include README.md
+include LICENSE
+include requirements.txt
+recursive-include docs *
+recursive-include admin_searchable_dropdown/static *
+recursive-include admin_searchable_dropdown/templates *

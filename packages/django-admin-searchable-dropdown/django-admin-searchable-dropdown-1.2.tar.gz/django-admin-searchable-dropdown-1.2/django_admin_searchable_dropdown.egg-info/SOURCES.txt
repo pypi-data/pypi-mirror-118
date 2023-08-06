@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+admin_searchable_dropdown/__init__.py
+admin_searchable_dropdown/apps.py
+admin_searchable_dropdown/filters.py
+admin_searchable_dropdown/views.py
+admin_searchable_dropdown/templates/django-admin-searchable-dropdown/autocomplete-filter.html
+django_admin_searchable_dropdown.egg-info/PKG-INFO
+django_admin_searchable_dropdown.egg-info/SOURCES.txt
+django_admin_searchable_dropdown.egg-info/dependency_links.txt
+django_admin_searchable_dropdown.egg-info/requires.txt
+django_admin_searchable_dropdown.egg-info/top_level.txt
