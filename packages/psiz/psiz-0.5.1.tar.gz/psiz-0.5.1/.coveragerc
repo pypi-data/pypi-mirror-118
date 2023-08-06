@@ -1,0 +1,20 @@
+[run]
+branch = True
+source = src/
+
+[report]
+exclude_lines =
+    if self.debug:
+    pragma: no cover
+    raise AssertionError
+    raise NotImplementedError
+    if __name__ == .__main__.:
+ignore_errors = True
+omit =
+    tests/*
+    src/psiz/keras/layers/group_level.py
+    src/psiz/keras/layers/stimuli.py
+    src/psiz/keras/layers/kernels/kernel.py
+    src/psiz/keras/layers/distances/minkowski.py
+    src/psiz/keras/layers/embeddings/group_attention.py
+    src/psiz/keras/layers/embeddings/group_attn_variational.py
