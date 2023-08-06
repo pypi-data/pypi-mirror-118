@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: ufterm
+Version: 0.0.1
+Summary: Simple Friendly terminal interface
+Home-page: https://gitlab.com/olive007/ufterm
+Author: SECRET Olivier
+Author-email: pypi-package-ufterm@devo.live
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# User Friendly Terminal
+Simple module help user to use terminal script.  
+The library allows to see a Graphical Interface instead of a terminal.
+
+
+## Code example
+```python
+import ufterm as uft
+
+def command1():
+    ...
+
+def command2():
+    ...
+
+if __name__ == '__main__':
+    uft.add_command(command1)
+    uft.add_command(command2)
+    uft.loop()
+```
+## Issues/Bug report or improvement ideas
+https://gitlab.com/olive007/user-friendly-terminal/-/issues
+
+
+## License
+GNU Lesser General Public License v3 or later (LGPLv3+)
+
+
