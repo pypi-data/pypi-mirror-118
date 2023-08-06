@@ -1,0 +1,10 @@
+LICENSE
+README.md
+google_trends.py
+setup.py
+google_trends.egg-info/PKG-INFO
+google_trends.egg-info/SOURCES.txt
+google_trends.egg-info/dependency_links.txt
+google_trends.egg-info/not-zip-safe
+google_trends.egg-info/requires.txt
+google_trends.egg-info/top_level.txt
