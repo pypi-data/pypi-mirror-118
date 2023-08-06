@@ -1,0 +1,10 @@
+setup.py
+sargunDistributions/Binomialdistribution.py
+sargunDistributions/Gaussiandistribution.py
+sargunDistributions/Generaldistribution.py
+sargunDistributions/__init__.py
+sargunDistributions.egg-info/PKG-INFO
+sargunDistributions.egg-info/SOURCES.txt
+sargunDistributions.egg-info/dependency_links.txt
+sargunDistributions.egg-info/not-zip-safe
+sargunDistributions.egg-info/top_level.txt
