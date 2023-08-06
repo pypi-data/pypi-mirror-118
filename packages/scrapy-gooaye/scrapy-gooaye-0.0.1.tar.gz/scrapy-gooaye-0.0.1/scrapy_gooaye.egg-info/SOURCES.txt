@@ -1,0 +1,16 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+Gooayeproject/__init__.py
+Gooayeproject/items.py
+Gooayeproject/middlewares.py
+Gooayeproject/pipelines.py
+Gooayeproject/settings.py
+Gooayeproject/spiders/__init__.py
+Gooayeproject/spiders/gooaye.py
+scrapy_gooaye.egg-info/PKG-INFO
+scrapy_gooaye.egg-info/SOURCES.txt
+scrapy_gooaye.egg-info/dependency_links.txt
+scrapy_gooaye.egg-info/requires.txt
+scrapy_gooaye.egg-info/top_level.txt
