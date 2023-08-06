@@ -1,0 +1,12 @@
+efficientnet
+matplotlib
+pillow
+pystow
+selfies
+tensorflow>=2.3
+
+[docs]
+sphinx
+sphinx-autodoc-typehints
+sphinx-click
+sphinx-rtd-theme
