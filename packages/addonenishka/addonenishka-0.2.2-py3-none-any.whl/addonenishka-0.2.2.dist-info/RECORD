@@ -1,0 +1,9 @@
+examplepackagenishka/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+examplepackagenishka/example.py,sha256=AAv-jtMmsZgXK8AFbHC6fPaQ22_bolYgnn8wLhhrgRs,1047
+examplepackagenishka/data/sample_data.csv,sha256=hEgTswqOtU_ROHLoAYO7SQwYuu7M-BBms7AMehL-vnA,35
+addonenishka-0.2.2.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+addonenishka-0.2.2.dist-info/METADATA,sha256=uR_hBavNVblIfzTN7ceSGWAJL-zerEUl-51fwap3NVs,599
+addonenishka-0.2.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+addonenishka-0.2.2.dist-info/entry_points.txt,sha256=g8XGyDnM8rsnDOKoPA38NzZ88L0Ub4r6RYifsNHe7rU,62
+addonenishka-0.2.2.dist-info/top_level.txt,sha256=eH5o7IHmnan_-BZUAjs9Pi-FcowsQsoZJrHndyHgGRM,21
+addonenishka-0.2.2.dist-info/RECORD,,
