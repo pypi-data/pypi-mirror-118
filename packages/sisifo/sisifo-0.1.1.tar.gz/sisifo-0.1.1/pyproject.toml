@@ -1,0 +1,52 @@
+[tool.poetry]
+name = "sisifo"
+version = "0.1.1"
+description = "Generic framework for running data pipelines"
+authors = [
+    "guiferviz <guiferviz@gmail.com>"
+]
+license = "MIT"
+homepage = "https://github.com/guiferviz/sisifo"
+repository = "https://github.com/guiferviz/sisifo"
+readme = "README.adoc"
+keywords = [
+    "tasks",
+    "framework",
+    "pipeline"
+]
+classifiers = [
+    "Programming Language :: Python :: 3.7",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+packages = [
+    { include = "sisifo" },
+    { include = "sisifo_common" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
+pytest-mock = "^3.6.1"
+pytest-cov = "^2.12.1"
+flake8 = "^3.9.2"
+flake8-quotes = "^3.3.0"
+flake8-commas = "^2.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "--cov"
+testpaths = [
+    "tests/"
+]
+
+[tool.pyright]
+include = [
+    "sisifo/",
+    "sisifo_common/"
+]
