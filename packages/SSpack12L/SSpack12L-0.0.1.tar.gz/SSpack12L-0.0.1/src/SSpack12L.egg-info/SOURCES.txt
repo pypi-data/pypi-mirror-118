@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/SSpack12L.egg-info/PKG-INFO
+src/SSpack12L.egg-info/SOURCES.txt
+src/SSpack12L.egg-info/dependency_links.txt
+src/SSpack12L.egg-info/top_level.txt
+src/example_package/__init__.py
+src/example_package/helloworld.py
