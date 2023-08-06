@@ -1,0 +1,13 @@
+MANIFEST.in
+requirements.txt
+setup.py
+pymeet/__init__.py
+pymeet/cli.py
+pymeet.egg-info/PKG-INFO
+pymeet.egg-info/SOURCES.txt
+pymeet.egg-info/dependency_links.txt
+pymeet.egg-info/entry_points.txt
+pymeet.egg-info/requires.txt
+pymeet.egg-info/top_level.txt
+tests/__init__.py
+tests/test_dummy.py
