@@ -1,0 +1,3 @@
+include LICENSE
+include README
+include simplyencrypt/ESAY__doc__.txt
