@@ -1,0 +1,8 @@
+COPYING.txt
+LICENSE.txt
+README.md
+setup.py
+DataLeopard.egg-info/PKG-INFO
+DataLeopard.egg-info/SOURCES.txt
+DataLeopard.egg-info/dependency_links.txt
+DataLeopard.egg-info/top_level.txt
