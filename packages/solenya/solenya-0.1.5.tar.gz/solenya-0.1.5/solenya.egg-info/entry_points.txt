@@ -1,0 +1,3 @@
+[console_scripts]
+col = msph.__main__:main
+
