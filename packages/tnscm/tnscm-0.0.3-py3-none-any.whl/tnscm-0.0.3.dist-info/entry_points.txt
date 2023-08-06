@@ -1,0 +1,3 @@
+[console_scripts]
+tnscm = tnscm.__main__:main
+
