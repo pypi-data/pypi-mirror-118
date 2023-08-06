@@ -1,0 +1,5 @@
+[console_scripts]
+definition = definition:main
+instance = instance:main
+task = task:main
+
