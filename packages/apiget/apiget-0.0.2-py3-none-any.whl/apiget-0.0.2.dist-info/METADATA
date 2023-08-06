@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: apiget
+Version: 0.0.2
+Summary: API fetching to JSON
+Home-page: UNKNOWN
+Author: Al Razi
+Author-email: <abar.toha@gmail.com>
+License: UNKNOWN
+Keywords: python,API,apifetch,apiget,apicatch,apicall,apipull,api,json
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+Automation of API fetching and converting to JSON (usually dicts), no hassle with clunky requests
+
+
