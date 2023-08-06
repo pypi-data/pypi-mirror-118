@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+src/preJPProcess.py
+src/preJPProcess.egg-info/PKG-INFO
+src/preJPProcess.egg-info/SOURCES.txt
+src/preJPProcess.egg-info/dependency_links.txt
+src/preJPProcess.egg-info/top_level.txt
