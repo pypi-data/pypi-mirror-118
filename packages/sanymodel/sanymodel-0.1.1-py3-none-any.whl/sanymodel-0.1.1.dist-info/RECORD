@@ -1,0 +1,11 @@
+sanymodel/__init__.py,sha256=hwXCe14bOnOTFlFESpf8nqpQx-Bj9vMxsowwBWMMoqA,191
+sanymodel/_version.py,sha256=5xvN_gb61nKeq5TER5dSfcArTP3DVasZGN_MQq5dNpA,23
+sanymodel/metaclass.py,sha256=UBAQCVBmBNCQU2n3RsV7BJ99VYDFqXSZJKGXpUNs6UQ,2280
+sanymodel/modeltools.py,sha256=flmmMuiI_B430JqS6UWeCoHvVHIuq8SCQFLrdcohgRg,28040
+sanymodel/test.py,sha256=4HNBAZHjRjafCBY87aWCPpbgXl4ygwYzEgMlUT9tyhE,2107
+sanymodel/test/__init__.py,sha256=Inqhee0kYdpScKD9LO0TSdbtX3YvFv2_WIvRCIXLsvE,202
+sanymodel/test/test.py,sha256=IoDQkMmU6xBBWCzM0GAOZHbjECUWLq0NZ4j1IUCHCfw,2152
+sanymodel-0.1.1.dist-info/METADATA,sha256=CR4C0nTw5m_bOP-Pi0nSw91tBqk_gYVpajfmMhbWxFo,377
+sanymodel-0.1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+sanymodel-0.1.1.dist-info/top_level.txt,sha256=TmaFsDYZAaFPRNuxr7a9C8Wv_cmaouVsqEFPuF7faUk,10
+sanymodel-0.1.1.dist-info/RECORD,,
