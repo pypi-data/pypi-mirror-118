@@ -1,0 +1,3 @@
+[console_scripts]
+wheel_compile = wheel_compile.cli:run_wheel_compile
+

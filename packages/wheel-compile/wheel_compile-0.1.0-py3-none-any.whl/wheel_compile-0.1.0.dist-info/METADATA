@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: wheel-compile
+Version: 0.1.0
+Summary: Python wheel compilation to clean up source files from distro.
+Home-page: https://bitbucket.org/p-app/wheel_compile
+Author: Vladimir V. Pivovarov
+Author-email: admin@p-app.ru
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: wheel
+Requires-Dist: setuptools
+Provides-Extra: cython
+Requires-Dist: cython ; extra == 'cython'
+
+UNKNOWN
+
