@@ -1,0 +1,8 @@
+README.md
+setup.py
+pyromises/__init__.py
+pyromises.egg-info/PKG-INFO
+pyromises.egg-info/SOURCES.txt
+pyromises.egg-info/dependency_links.txt
+pyromises.egg-info/top_level.txt
+pyromises/promise/__init__.py
