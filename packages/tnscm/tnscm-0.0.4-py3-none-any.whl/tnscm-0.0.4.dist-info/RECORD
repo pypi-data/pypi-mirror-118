@@ -1,0 +1,11 @@
+tnscm/__init__.py,sha256=-9Npa71x75vCUDUJ9qoquIy8LDSBOSlrNCC4SsAZhMY,40
+tnscm/__main__.py,sha256=5f2nrYtx9wG6BfQ7Fnv-HPe4pOPos5WRlPTuAY5BFLc,23820
+tnscm/_version.py,sha256=2GWffEF1rjyrveUGdfR8y3cl3JUnX0gJjr8Ryy_u4JQ,21
+tnscm/modules/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tnscm/modules/tnsapi/__init__.py,sha256=YMLZSo40puFfO6KPMHnRjd55xgPujOFe_YfHMYIzzts,3925
+tnscm-0.0.4.dist-info/LICENSE,sha256=Bi8ESc9FUT-Bzim8rdUkFdl_JvJcerKLooU_qROEqWY,1089
+tnscm-0.0.4.dist-info/METADATA,sha256=wuThuGVWNf_OwwQdyFOvzhd5Gg93EjC_2o9ijWrajHE,5466
+tnscm-0.0.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+tnscm-0.0.4.dist-info/entry_points.txt,sha256=nCViDS2qAalywr93krimF4tPn2GmWg57Od6IAwLfRRw,47
+tnscm-0.0.4.dist-info/top_level.txt,sha256=u6RVcFcHaNPWblqF5OtEWn5A14_ovo-ZyOl0C520s4U,6
+tnscm-0.0.4.dist-info/RECORD,,
