@@ -1,0 +1,7 @@
+docker_pull_limit_exporter/__init__.py,sha256=Wf3TiGeSzE2fDg4zU9aGNmzJNbWFIeGrI8xXjL3hAdk,1089
+docker_pull_limit_exporter-0.1.0.dev1.dist-info/LICENSE,sha256=w4VEzNLTO9zljiux3QcOp3usYg8X8gv5mVk67U8oe7Y,1067
+docker_pull_limit_exporter-0.1.0.dev1.dist-info/METADATA,sha256=1-4WdjOUMZBBP7Bx7GJCXy6SZZS0HyV9OpwOCr021Eo,703
+docker_pull_limit_exporter-0.1.0.dev1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+docker_pull_limit_exporter-0.1.0.dev1.dist-info/entry_points.txt,sha256=PegPYfSWMMif4yjhs-_f57OKQNEhxUjgh8qmQpHKvmI,79
+docker_pull_limit_exporter-0.1.0.dev1.dist-info/top_level.txt,sha256=n53T8VtSKxQxx9sxh_FnZDaqtWxv45RJnQpApBO3arw,27
+docker_pull_limit_exporter-0.1.0.dev1.dist-info/RECORD,,
