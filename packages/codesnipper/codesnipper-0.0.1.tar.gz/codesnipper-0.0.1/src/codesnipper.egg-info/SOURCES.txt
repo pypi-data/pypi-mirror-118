@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/codesnipper.egg-info/PKG-INFO
+src/codesnipper.egg-info/SOURCES.txt
+src/codesnipper.egg-info/dependency_links.txt
+src/codesnipper.egg-info/requires.txt
+src/codesnipper.egg-info/top_level.txt
+src/snipper/__init__.py
+src/snipper/snip_dir.py
+src/snipper/snipper.py
