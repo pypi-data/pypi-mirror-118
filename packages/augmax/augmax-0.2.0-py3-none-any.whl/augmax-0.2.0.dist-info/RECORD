@@ -1,0 +1,13 @@
+augmax/__init__.py,sha256=uue2rCCWcCVvtLMUTumV3pgBokUu7iod3jFOxNlqnPA,1176
+augmax/base.py,sha256=Gj_e2Fmc3ZOi4goud6kqSpwrIm8AV9SF6rNljC2Is6E,3642
+augmax/colorspace.py,sha256=MkjtCTJDUSOR_LDXvi-HBIWqwR1Y8HIAwmW8NtdLHvM,12451
+augmax/geometric.py,sha256=41It_qvQ8Dum6oEufXsdJNo7UNeHKDHzXY8bSHG9vkc,18633
+augmax/imagelevel.py,sha256=2rBrP3DqB1CSPRRhDrjhHoUCVg7gzOGO901ChLeNjuE,5582
+augmax/optimized.py,sha256=6X_CRNXqqOe9U0ahNrlXjfwfBBkpxOs80RA89lbjlxE,3210
+augmax/utils.py,sha256=tDn5brJe3Jd-8DnKx-PU0daCQuGEEybYvCiqkm8PfKs,3109
+augmax/version.py,sha256=kghCnG7u38gsTwLWUAWF4aqRIBuE6FzmKLiKBNhg8Sg,603
+augmax-0.2.0.dist-info/LICENSE,sha256=zE1N4JILDTkSIDtdmqdnKKxKEQh_VdqeoAV2230eNOI,10141
+augmax-0.2.0.dist-info/METADATA,sha256=_CPD63rYZJUXOMnL3HJb3YNMTLRXGD-jV1Xihi7yh80,2547
+augmax-0.2.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+augmax-0.2.0.dist-info/top_level.txt,sha256=CtDXm6HkB02UhhnadTQnvj-edF-HHUqfimb0eeoYPHQ,7
+augmax-0.2.0.dist-info/RECORD,,
