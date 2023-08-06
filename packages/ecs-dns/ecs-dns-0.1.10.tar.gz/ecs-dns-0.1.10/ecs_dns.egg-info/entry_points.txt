@@ -1,0 +1,3 @@
+[console_scripts]
+ecs-dns = ecs_dns._cli:cli
+
