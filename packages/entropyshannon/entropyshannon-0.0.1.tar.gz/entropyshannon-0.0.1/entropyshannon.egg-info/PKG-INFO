@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: entropyshannon
+Version: 0.0.1
+Summary: A python package for various  type of entropy calculations(Specially Shannon)
+Home-page: https://github.com/ffalpha/Entropy-Calucalator
+Author: Kalana Mihiranga
+Author-email: kalanam217@gmail.com
+License: MIT
+Keywords: entropy,shannon,calculator
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+
+
+# Entropy-Calucalator
+
+Conations a python package for various  type of entropy calculations
+
+### Requirements
+- None
+### Installation
+
+	pip install 
+
+
+
+    
+
+
