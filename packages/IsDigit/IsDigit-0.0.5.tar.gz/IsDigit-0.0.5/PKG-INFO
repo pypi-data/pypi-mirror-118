@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: IsDigit
+Version: 0.0.5
+Summary: Simple, mainly useless, python package that checks if a string, int, or float is a digit.
+Home-page: https://github.com/editid0/IsDigit
+Author: editid
+License: MIT
+Description: # Installing
+        
+        ## From source:
+        - `pip install git+https://github.com/editid0/IsDigit`
+        
+        ## From pypi:
+        - `pip install -U IsDigit`
+        
+        <br />
+        
+        # Examples
+        ```python
+        import IsDigit as id
+        
+        digits = id.IsDigit(allow_floats=True, allow_ints=True)
+        
+        print(digits.is_digit('1')) # returns True
+        print(digits.is_digit('1.0')) # returns True
+        print(digits.is_digit('1.0.0')) # returns False
+        print(digits.is_digit('x')) # returns False
+        ```
+        Or, alternatively:
+        ```python
+        import IsDigit as id
+        
+        digits = id.IsDigit()
+        
+        print(digits.is_digit('1')) # returns True
+        print(digits.is_digit('1.0')) # returns False
+        print(digits.is_digit('1.0.0')) # returns False
+        print(digits.is_digit('x')) # returns False
+        ```
+Keywords: python isdigit float int string
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
