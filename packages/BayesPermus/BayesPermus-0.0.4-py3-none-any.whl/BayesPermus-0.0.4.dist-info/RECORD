@@ -1,0 +1,16 @@
+BayesPermus/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+BayesPermus/figure/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+BayesPermus/figure/plot.py,sha256=jSQT4iYkvRwaxoMWwkR3qEXaNbxRyrY7nP8LReH7YjQ,2816
+BayesPermus/models/Base.py,sha256=X9epF4M-YxTWLIKrZqtXwNZvdcCblPCwZshGvFLPOfQ,6412
+BayesPermus/models/BradleyTerry.py,sha256=dEG2mRFhgWXGkFWnP68wPIxaC-NmxhW7F8OsKkunNyM,1001
+BayesPermus/models/MallowsModel.py,sha256=55icZbzCifcUYQUQvxNif5Be-8xbdTLpB8MuSn8Vmw8,3422
+BayesPermus/models/PlackettLuce.py,sha256=8uTixmczK6_rUzDZ2UeF5tC1z4Zz5qU0j7gm3p21h2o,1823
+BayesPermus/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+BayesPermus/models/stan/BradleyTerry.stan,sha256=AxUl8FXnXwh-Hxw4dlvtSCL5ZDG9J5UtqUr-GM_c3-M,1914
+BayesPermus/models/stan/PlackettLuceDirichlet.stan,sha256=uAmm3ONIj30foH6ToJah3ihsPF6DBrRESSvOqxn6cwI,585
+BayesPermus/models/stan/PlackettLuceGamma.stan,sha256=9FZHvkb2sNJyZ9jHAWiWSAVICUbRC1By3dYBEou41aI,634
+BayesPermus-0.0.4.dist-info/LICENSE,sha256=xPATswncvDrpoRDolins9MoSxX7yk6AJVeFCvsSIigs,1076
+BayesPermus-0.0.4.dist-info/METADATA,sha256=6yf4C-L1wDVK5IZCUfcEfEUGVVa8esysimznGFiXs6k,1883
+BayesPermus-0.0.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+BayesPermus-0.0.4.dist-info/top_level.txt,sha256=n2ervMdw_DFtLXnhT1P2--zSF_aU6G9lgKDUXcFqbKI,12
+BayesPermus-0.0.4.dist-info/RECORD,,
