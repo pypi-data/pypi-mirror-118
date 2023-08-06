@@ -1,0 +1,12 @@
+shapeae/__init__.py,sha256=Shcj2YsiEdvgY6HZrIh0BmUJPeCqH0zkruRz1t_ewIA,142
+shapeae/_settings.py,sha256=JRFaV2T_c98JMJyWrCZ-Ed-ocAldoloGtBU-8KEGVyE,2672
+shapeae/data_generator.py,sha256=aS-zEZvJve9qr6GLLrirntl3X40i8KJCAVhC7sGYbbo,5699
+shapeae/main.py,sha256=nk1ZTVhFoiKLEw0tMDgwvt1vGT6B0C-B0OiQB3jJ-2A,8653
+shapeae/metrics.py,sha256=aaQzf5u-4wAlDM8UBlgy96E0NKw30Dg8MrynL5yhCik,1121
+shapeae/model.py,sha256=0_QyJ4zmvp8FeijQ8aWOUZXbbMn4_GxvaORA-TAAO2c,6542
+shapeae/run_train_script.py,sha256=7OmFZA4RVm7cNxXGO9u5Yo682swQEEvqTdJpeSbE_Vg,67
+shapeae/utils.py,sha256=nKXnHKFqV6vqMfLzv5AsvmUtuqLJQDs_xUM21fk_b4s,979
+shapeae-0.0.1.dist-info/METADATA,sha256=pAhLGcaC7EsCkhRoI094cw7XpJ-ZvNVXjyiUq67gcQk,583
+shapeae-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+shapeae-0.0.1.dist-info/top_level.txt,sha256=P0PbOuN2V09BL0t3spj0Y_Hvah8eWqD2gIvCXEiIhW0,8
+shapeae-0.0.1.dist-info/RECORD,,
