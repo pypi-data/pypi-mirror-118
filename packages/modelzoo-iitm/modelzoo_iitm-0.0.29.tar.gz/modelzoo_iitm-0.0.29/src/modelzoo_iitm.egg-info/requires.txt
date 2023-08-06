@@ -1,0 +1,6 @@
+elasticdeform~=0.4.9
+sentence-transformers~=2.0.0
+PyPrind~=2.11.3
+
+[dev]
+pytest>=3.7
