@@ -1,0 +1,9 @@
+django_statsd/__init__.py,sha256=iF9LUI-KvVjvfgviSPSTBBc_nQi27ZUaGYBXOmSo8vM,171
+django_statsd/client.py,sha256=_F6jsBoKxSwKv-cKxoe-xWhim7lb71KIMwrSnvjcNns,910
+django_statsd/logger.py,sha256=GmOtC0OePFyAvpDZfkdio-rBkLj6_3bbl03n6us5uIg,362
+django_statsd/middleware.py,sha256=JjzV5Ulld5N5OFFCo126am_dX4MQhyytTQ5R0lQ41UA,1806
+django_statsd_prom_exporter-0.1.0.dist-info/LICENSE,sha256=m86kSjkob5bFOuElM95N1mbt3PfjSqQKNnHVF3ROvzs,1074
+django_statsd_prom_exporter-0.1.0.dist-info/METADATA,sha256=wz3z_6BMBFflaPJshwKpOrcKIqJE45QluSau7_2WqC0,2705
+django_statsd_prom_exporter-0.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+django_statsd_prom_exporter-0.1.0.dist-info/top_level.txt,sha256=EhpHWxdLb-1xL2RPcYScHixDKMmlrAg4DLK-h9Gnxjs,14
+django_statsd_prom_exporter-0.1.0.dist-info/RECORD,,
