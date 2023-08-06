@@ -1,0 +1,4 @@
+[traffic.console]
+gui=traffic_qtgui.console
+install=traffic_qtgui.app
+
