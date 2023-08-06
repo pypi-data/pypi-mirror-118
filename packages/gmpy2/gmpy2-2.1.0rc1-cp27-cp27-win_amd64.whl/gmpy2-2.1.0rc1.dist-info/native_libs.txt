@@ -1,0 +1,6 @@
+gmpy2/gmpy2.pyd
+gmpy2/libgcc_s_seh-1.dll
+gmpy2/libgmp-10.dll
+gmpy2/libmpc-3.dll
+gmpy2/libmpfr-6.dll
+gmpy2/libwinpthread-1.dll
