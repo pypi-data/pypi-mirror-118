@@ -1,0 +1,4 @@
+[console_scripts]
+revelation=revelation.cli:cli
+rv=revelation.cli:cli
+

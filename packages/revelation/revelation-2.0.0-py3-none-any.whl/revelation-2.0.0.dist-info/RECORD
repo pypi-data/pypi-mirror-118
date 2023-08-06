@@ -1,0 +1,13 @@
+revelation/__init__.py,sha256=4HANWXqH0pyCJBQLsaevz4wyy-LlRQ7zF2O4SferRSM,189
+revelation/app.py,sha256=5VQJquXxn1WWPqECA98BACGpUtj6Ehb5mZU0Fu6Q3tg,4027
+revelation/cli.py,sha256=bT5xm3wF1Ey6n7i2p57RlPYX_7i6HiHOGo-lWvbealg,7221
+revelation/config.py,sha256=8uDJOKDrNCspjwyToHw4pcmpI68WnwRnInI5D1vTL64,1517
+revelation/constants.py,sha256=iwLd01vyGHSd8w3WXq3ezfUBuoWYb9Orfyj1wvAg6kM,323
+revelation/default_config.py,sha256=w_yGy7YRbb007emkNYfSsL6aZLeOv4HB5PT4XGEp2zs,9263
+revelation/templates/presentation.html,sha256=sPtU5RXIA6Jrm8JLvuWPrh0WZvZ_RzAToO_Tfp6DJzo,2805
+revelation/utils.py,sha256=b6buUuEIyTOCoeo-7REA5o63kphnAf_576utBl-m6G0,2980
+revelation-2.0.0.dist-info/entry_points.txt,sha256=oBVtReo6pNWfOazpH-G5AXIZbQ7F-awJQyh5v3a32Ig,71
+revelation-2.0.0.dist-info/LICENSE,sha256=0k0uMtgE7yyc4OC617JkyVFAPib0gxtpWnknpCdumRw,1098
+revelation-2.0.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+revelation-2.0.0.dist-info/METADATA,sha256=XXJ304Hj69EYuPav7X2LMXqCQdkybjN7ksL39KXHunk,5468
+revelation-2.0.0.dist-info/RECORD,,

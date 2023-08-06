@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+  <head>
+    <!-- Metadata about the presentation -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>{{ meta.title }}</title>
+
+    <meta name="description" content="{{ meta.description }}">
+    <meta name="author" content="{{ meta.author }}">
+
+    <!-- Presentation Styles -->
+    <link rel="stylesheet" href="static/revealjs/dist/reset.css">
+    <link rel="stylesheet" href="static/revealjs/dist/reveal.css">
+
+    {% if theme %}
+      <link rel="stylesheet" href="{{ theme }}" id="theme">
+    {% endif %}
+
+    {% if style %}
+      <link rel="stylesheet" href="{{ style }}" id="style">
+    {% endif %}
+
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="static/revealjs/plugin/highlight/monokai.css" id="highlight-theme">
+  </head>
+
+  <body>
+    <!-- Presentation body -->
+    <div class="reveal">
+
+      <!-- Any section element inside of this container is displayed as a slide -->
+      <div class="slides">
+        {% for section in slides %}
+          {% if section|length > 1 %}
+            <section>
+              {% for slide in section %}
+                <section data-markdown>
+                  <textarea data-template>
+                    {{ slide|safe }}
+                  </textarea>
+                </section>
+              {% endfor %}
+            </section>
+          {% else %}
+            {% for slide in section %}
+              <section data-markdown>
+                <textarea data-template>
+                  {{ slide|safe }}
+                </textarea>
+              </section>
+            {% endfor %}
+          {% endif %}
+        {% endfor %}
+      </div>
+
+    </div>
+
+    <!-- Reveal.js script -->
+    <script src="static/revealjs/dist/reveal.js"></script>
+
+    <!-- Reveal.js plugins -->
+    <script src="static/revealjs/plugin/markdown/markdown.js"></script>
+    <script src="static/revealjs/plugin/highlight/highlight.js"></script>
+    <script src="static/revealjs/plugin/search/search.js"></script>
+    <script src="static/revealjs/plugin/notes/notes.js"></script>
+    <script src="static/revealjs/plugin/math/math.js"></script>
+    <script src="static/revealjs/plugin/zoom/zoom.js"></script>
+
+    <script>
+      Reveal.initialize({
+        math: {
+          mathjax: 'static/mathjax/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          // pass other options into `MathJax.Hub.Config()`
+          TeX: { Macros: { RR: "{\\bf R}" } }
+        },
+        plugins: [
+          RevealMarkdown,
+          RevealHighlight,
+          RevealSearch,
+          RevealNotes,
+          RevealMath,
+          RevealZoom
+        ]
+      });
+
+      Reveal.configure({{ config|tojson }});
+    </script>
+  </body>
+</html>
