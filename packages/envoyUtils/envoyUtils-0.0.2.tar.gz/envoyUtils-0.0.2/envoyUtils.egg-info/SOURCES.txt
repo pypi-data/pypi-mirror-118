@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+envoyUtils.egg-info/PKG-INFO
+envoyUtils.egg-info/SOURCES.txt
+envoyUtils.egg-info/dependency_links.txt
+envoyUtils.egg-info/requires.txt
+envoyUtils.egg-info/top_level.txt
