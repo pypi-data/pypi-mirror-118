@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: hm-pyhelper
+Version: 0.1
+Summary: Helium Python Helper
+Home-page: https://github.com/NebraLtd/hm-pyhelper
+Author: Nebra Ltd
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/NebraLtd/hm-pyhelper/issues
+Description: # Helium Python Helper
+        
+        A helper module used across various Nebra repos to reduce redundant features.
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
