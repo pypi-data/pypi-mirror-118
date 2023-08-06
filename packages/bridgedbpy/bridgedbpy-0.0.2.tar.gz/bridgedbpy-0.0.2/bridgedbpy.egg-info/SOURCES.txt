@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+bridgedbpy/__init__.py
+bridgedbpy/_version.py
+bridgedbpy/get_full_name.py
+bridgedbpy/get_organism_code.py
+bridgedbpy/get_system_code.py
+bridgedbpy.egg-info/PKG-INFO
+bridgedbpy.egg-info/SOURCES.txt
+bridgedbpy.egg-info/dependency_links.txt
+bridgedbpy.egg-info/requires.txt
+bridgedbpy.egg-info/top_level.txt
