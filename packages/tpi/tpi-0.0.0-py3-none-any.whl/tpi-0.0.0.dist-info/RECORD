@@ -1,0 +1,14 @@
+tpi/__init__.py,sha256=bY8txd0wlXLnFJT2NsUf2e5bQfY6lfAVlGiFFb8O5n4,3310
+tpi/__main__.py,sha256=fwy_QQHFUocd-vFUZrQqowV4EPLBZ_hoqZN3q7Biqas,160
+tpi/_dist_ver.py,sha256=7Mp8iqklf3_AKmDXbtfWFufmP2NUURhE5CXW4A0vn-c,22
+tpi/base.py,sha256=scXklTMLK1ZOFVHO-QlDYaZMDXc15hthzyd7FkbPhdA,1990
+tpi/bin.py,sha256=F2M53aalojrgoWXCMdhXP1VCDD4CZR7G7DqJQ_p7k48,1620
+tpi/main.py,sha256=A3qBG8_KIXCmXvKs2gnEHlK9gkz7mDctAWLp7r8sVfk,267
+tpi/terraform.py,sha256=NoqICMDahBnn38oXCPoK1IiLINg24_hmqdRDkjXczHM,2308
+tpi/templates/main.tf,sha256=roXDu8AgntGLxQFPX6hJz4RB-IxqX8z0tWPqO96wECo,836
+tpi-0.0.0.dist-info/LICENCE,sha256=WVjU4ftkPryKwfSFuIYKSo3YWNSYhE9SrF_IafOVEk8,560
+tpi-0.0.0.dist-info/METADATA,sha256=g-CcxICE_0wVsGuD1YB1lol9Ney7OoQOnzdgQ_6fNvk,3920
+tpi-0.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+tpi-0.0.0.dist-info/entry_points.txt,sha256=oJH6YrctZBUtiNMxLOHk5kcf0WGUfCZ44h4tNEgs9EA,39
+tpi-0.0.0.dist-info/top_level.txt,sha256=o-jA_qDNFhtNIFzFHQbGFY5n1Ft1OgAvePpG2FX3tRc,4
+tpi-0.0.0.dist-info/RECORD,,
