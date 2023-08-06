@@ -1,0 +1,14 @@
+showinfm/__init__.py,sha256=ZxiSxW2EOhPizlTQJEg-gNpQ6PydA5g-rSp4hUtw3ME,187
+showinfm/constants.py,sha256=qTXqXjFUmBe8oF6EhqUvYbsezlaBUx8Cgq9y5uUG88Q,624
+showinfm/showinfm.py,sha256=uitmp_fTh9VRD9E_1QSmYnALNEmwYpkngPfYj9Kcm1s,16483
+showinfm/system/__init__.py,sha256=UaZlsKHZtg525qM_NZQN8NYxxR9lty2h17oRZKm0Zvg,540
+showinfm/system/linux.py,sha256=gEEI0PseJsd0KrW4qsJfFaTH2uz7gawemahfr18F-Uk,9009
+showinfm/system/tools.py,sha256=xduDwMty6evHsE69HxsGPmqSM7OZiMWWuWHVCuvSlwI,3686
+showinfm/system/urivalidate.py,sha256=VUDXnhXXsmltlaUXUWqU6UVQnNeA7TVPLNQxf1W-FYM,17448
+showinfm/system/windows.py,sha256=6gAgezvnNigqYzWzaKlcR6J36MP15vu-ZnV2ziYvZGc,2513
+show_in_file_manager-0.0.8.dist-info/LICENSE,sha256=2-q5YJEp7Bf2sJ4cDC5ruIGMOogp_stc8rfAYOLYw-A,1068
+show_in_file_manager-0.0.8.dist-info/METADATA,sha256=5l0cBkbAK5Jes7oC1nf2yvPDlfnjZ_YybEJiIiAfOLw,14668
+show_in_file_manager-0.0.8.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+show_in_file_manager-0.0.8.dist-info/entry_points.txt,sha256=LhnI-XyCbXTNUirYuLNh2zo0OL_k-9nlpRpRn3tBOrY,62
+show_in_file_manager-0.0.8.dist-info/top_level.txt,sha256=mW54jAakD_rJteKyKW0DtnKARfn9bbT4ncil0hHczK0,9
+show_in_file_manager-0.0.8.dist-info/RECORD,,
