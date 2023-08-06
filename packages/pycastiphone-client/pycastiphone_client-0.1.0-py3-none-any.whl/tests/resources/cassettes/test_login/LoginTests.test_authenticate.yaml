@@ -1,0 +1,44 @@
+interactions:
+- request:
+    body: grant_type=client_credentials&client_id=****
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '46'
+      Content-Type:
+      - application/x-www-form-urlencoded
+      User-Agent:
+      - python-requests/2.26.0
+    method: POST
+    uri: https://bezeroak.onaro.eus/api/api/login
+  response:
+    body:
+      string: '{"access_token":"****","token_type":"bearer","expires_in":86399}'
+    headers:
+      Cache-Control:
+      - no-cache
+      Content-Length:
+      - '295'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Cookie: '****'
+      Date:
+      - Tue, 27 Jul 2021 10:31:46 GMT
+      Expires:
+      - '-1'
+      Pragma:
+      - no-cache
+      Server:
+      - Microsoft-IIS/10.0
+      Set-Cookie: '****'
+      X-Powered-By:
+      - ASP.NET
+    status:
+      code: 200
+      message: OK
+version: 1

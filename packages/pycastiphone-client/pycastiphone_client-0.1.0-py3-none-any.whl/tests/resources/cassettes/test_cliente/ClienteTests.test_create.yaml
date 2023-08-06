@@ -1,0 +1,100 @@
+interactions:
+- request:
+    body: grant_type=client_credentials&client_id=****
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '46'
+      Content-Type:
+      - application/x-www-form-urlencoded
+      User-Agent:
+      - python-requests/2.26.0
+    method: POST
+    uri: https://bezeroak.onaro.eus/api/api/login
+  response:
+    body:
+      string: '{"access_token":"****","token_type":"bearer","expires_in":86399}'
+    headers:
+      Cache-Control:
+      - no-cache
+      Content-Length:
+      - '295'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Cookie: '****'
+      Date:
+      - Tue, 27 Jul 2021 10:38:50 GMT
+      Expires:
+      - '-1'
+      Pragma:
+      - no-cache
+      Server:
+      - Microsoft-IIS/10.0
+      Set-Cookie: '****'
+      X-Powered-By:
+      - ASP.NET
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{"razonSocial": "una razon"}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Authorization:
+      - '****'
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '28'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.26.0
+    method: PUT
+    uri: https://bezeroak.onaro.eus/api/api/Cliente
+  response:
+    body:
+      string: "{\r\n  \"codigo\": 40,\r\n  \"razonSocial\": \"una razon\",\r\n  \"nombre\":
+        null,\r\n  \"direccion\": null,\r\n  \"poblacion\": null,\r\n  \"provincia\":
+        null,\r\n  \"cPostal\": null,\r\n  \"telefono\": null,\r\n  \"movil\": null,\r\n
+        \ \"fax\": null,\r\n  \"correo\": null,\r\n  \"banco\": null,\r\n  \"cuentaBanco\":
+        null,\r\n  \"bic\": null,\r\n  \"mandatoSepa\": \"40\",\r\n  \"tipoRemesa\":
+        0,\r\n  \"fechaMandato\": \"2021-07-27T12:38:51.3046045+02:00\",\r\n  \"primerMandato\":
+        0,\r\n  \"idVendedor\": 0,\r\n  \"vencimiento\": 0,\r\n  \"iva\": 21.0,\r\n
+        \ \"cuentaContable\": null,\r\n  \"comentarios\": null,\r\n  \"tipoCliente\":
+        0,\r\n  \"formaPago\": 3,\r\n  \"idioma\": 0,\r\n  \"observaciones\": null,\r\n
+        \ \"fechaAlta\": \"2021-07-27T12:38:51.3046045+02:00\",\r\n  \"facturar\":
+        null,\r\n  \"productos\": [],\r\n  \"telefonos\": []\r\n}"
+    headers:
+      Cache-Control:
+      - no-cache
+      Content-Length:
+      - '715'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cookie: '****'
+      Date:
+      - Tue, 27 Jul 2021 10:38:50 GMT
+      Expires:
+      - '-1'
+      Pragma:
+      - no-cache
+      Server:
+      - Microsoft-IIS/10.0
+      Set-Cookie: '****'
+      X-AspNet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+    status:
+      code: 201
+      message: Created
+version: 1
