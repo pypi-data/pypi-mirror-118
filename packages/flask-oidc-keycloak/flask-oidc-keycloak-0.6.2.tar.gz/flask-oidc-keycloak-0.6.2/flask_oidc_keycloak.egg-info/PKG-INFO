@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: flask-oidc-keycloak
+Version: 0.6.2
+Summary: OpenID Connect extension for Flask - Keycloak
+Home-page: https://github.com/vucanews/flask-oidc-keycloak
+Author: Erica Ehrhardt, Patrick Uiterwijk, Lars Wilhelmsen, Tyler Banks
+Author-email: tyler@vucanews.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Flask
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE.txt
+
+flask-oidc-keycloak
+=============
+
+`OpenID Connect <https://openid.net/connect/>`_ support for `Flask <http://flask.pocoo.org/>`_.
+
+.. image:: https://img.shields.io/pypi/v/flask-oidc-keycloak.svg?style=flat
+  :target: https://pypi.python.org/pypi/flask-oidc-keycloak
+
+.. image:: https://img.shields.io/pypi/dm/flask-oidc-keycloak.svg?style=flat
+  :target: https://pypi.python.org/pypi/flask-oidc-keycloak
+
+.. image:: https://readthedocs.org/projects/flask-oidc-keycloak/badge/?version=latest
+   :target: http://flask-oidc-keycloak.readthedocs.io/en/latest/?badge=latest
+   :alt: Documentation Status
+
+.. image:: https://img.shields.io/travis/vucanews/flask-oidc-keycloak.svg?style=flat
+   :target: https://travis-ci.org/vucanews/flask-oidc-keycloak
+
+.. image:: https://snyk.io//test/github/vucanews/flask-oidc-keycloak/badge.svg?targetFile=requirements.txt
+   :target: https://snyk.io//test/github/vucanews/flask-oidc-keycloak?targetFile=requirements.txt
+   :alt: Known Vulnerabilities
+
+This library is a fork of the `flask-oidc <https://github.com/puiterwijk/flask-oidc>` library, and should work with any standards compliant OpenID Connect provider.
+
+The main contribution that this library provides compared to _flask_oidc_ex_ is maintenance.
+
+It has been tested with:
+
+* `Keycloak <https://www.keycloak.com/>`_
+
+Project status
+==============
+
+This project is in active development.
+
+
