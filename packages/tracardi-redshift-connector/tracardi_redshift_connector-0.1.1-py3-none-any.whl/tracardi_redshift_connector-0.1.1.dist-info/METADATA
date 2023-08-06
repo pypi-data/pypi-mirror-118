@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: tracardi-redshift-connector
+Version: 0.1.1
+Summary: The purpose of this plugin is to connect with amazon redshift
+Home-page: UNKNOWN
+Author: Bartosz Dobrosielski`
+Author-email: bdobrosielski@edu.cdv.pl
+License: UNKNOWN
+Keywords: tracardi,plugin
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: pydantic
+Requires-Dist: asyncio
+Requires-Dist: tracardi-plugin-sdk
+Requires-Dist: psycopg
+
+Tracardi Plugin to connect Tracardii to Amazon Redshift database
+
