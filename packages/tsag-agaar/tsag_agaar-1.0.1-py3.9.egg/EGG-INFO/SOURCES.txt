@@ -1,0 +1,7 @@
+LICENSE
+setup.py
+tsag_agaar.egg-info/PKG-INFO
+tsag_agaar.egg-info/SOURCES.txt
+tsag_agaar.egg-info/dependency_links.txt
+tsag_agaar.egg-info/requires.txt
+tsag_agaar.egg-info/top_level.txt
