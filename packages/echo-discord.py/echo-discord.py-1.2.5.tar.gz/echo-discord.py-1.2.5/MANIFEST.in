@@ -1,0 +1,5 @@
+include README.rst
+include LICENSE
+include requirements.txt
+include echodiscord/bin/*.dll
+include echodiscord/py.typed
