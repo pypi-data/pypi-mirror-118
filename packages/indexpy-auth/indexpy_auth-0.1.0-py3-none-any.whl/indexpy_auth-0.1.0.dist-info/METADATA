@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: indexpy-auth
+Version: 0.1.0
+Summary: 
+Home-page: https://github.com/index-py/indexpy-auth
+License: Apache-2.0
+Author: abersheeran
+Author-email: me@abersheeran.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: index.py (>=0.19.0,<0.20.0)
+Project-URL: Repository, https://github.com/index-py/indexpy-auth
+Description-Content-Type: text/markdown
+
+# Index.py Authentication
+
+## 安装
+
+```
+pip install indexpy-auth
+```
+
+## 用例
+
