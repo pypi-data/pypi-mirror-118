@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+pdg_mp3_converter/__init__.py
+pdg_mp3_converter/converter.py
+pdg_mp3_converter.egg-info/PKG-INFO
+pdg_mp3_converter.egg-info/SOURCES.txt
+pdg_mp3_converter.egg-info/dependency_links.txt
+pdg_mp3_converter.egg-info/top_level.txt
