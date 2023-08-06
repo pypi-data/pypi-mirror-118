@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/bitdefender.egg-info/PKG-INFO
+src/bitdefender.egg-info/SOURCES.txt
+src/bitdefender.egg-info/dependency_links.txt
+src/bitdefender.egg-info/top_level.txt
+src/repobit/__init__.py
+src/repobit/bitdefender.py
