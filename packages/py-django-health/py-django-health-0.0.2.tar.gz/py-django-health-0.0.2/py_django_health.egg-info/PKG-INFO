@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: py-django-health
+Version: 0.0.2
+Summary: Health checkers for Django apps
+Home-page: https://github.com/kencinas95/py-django-health
+Author: Kevin Encinas
+License: GPLv3
+Keywords: health,checkers,heartbeat,microservices
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+License-File: LICENSE.txt
+
+UNKNOWN
+
