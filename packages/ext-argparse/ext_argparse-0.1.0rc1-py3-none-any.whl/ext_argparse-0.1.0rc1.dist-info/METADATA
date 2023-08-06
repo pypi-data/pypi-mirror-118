@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: ext-argparse
+Version: 0.1.0rc1
+Summary: Extended version of python argparse that allows using code-completion to access parameters and their values (~arguments), configuration (de)serialization, and other neat things.
+Home-page: https://github.com/Algomorph/ext_argparse
+Author: Gregory Kramida
+Author-email: algomorph@gmail.com
+License: UNKNOWN
+Project-URL: Source, https://github.com/Algomorph/ext_argparse
+Project-URL: Bug Tracker, https://github.com/Algomorph/ext_argparse/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: ruamel.yaml (>=1.7)
+
+# ext_argparse
+Extended version of python argparse that allows using code-completion to access parameters and their values (~arguments), configuration (de)serialization, and other neat things.
+
+
