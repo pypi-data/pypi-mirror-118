@@ -1,0 +1,6 @@
+README.md
+packagesetup.py
+probablyJustJordan.egg-info/PKG-INFO
+probablyJustJordan.egg-info/SOURCES.txt
+probablyJustJordan.egg-info/dependency_links.txt
+probablyJustJordan.egg-info/top_level.txt
