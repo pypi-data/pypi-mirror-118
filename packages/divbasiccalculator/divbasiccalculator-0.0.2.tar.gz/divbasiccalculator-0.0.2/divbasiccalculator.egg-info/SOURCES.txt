@@ -1,0 +1,6 @@
+setup.py
+divbasiccalculator.egg-info/PKG-INFO
+divbasiccalculator.egg-info/SOURCES.txt
+divbasiccalculator.egg-info/dependency_links.txt
+divbasiccalculator.egg-info/top_level.txt
+divcalc/__init__.py
