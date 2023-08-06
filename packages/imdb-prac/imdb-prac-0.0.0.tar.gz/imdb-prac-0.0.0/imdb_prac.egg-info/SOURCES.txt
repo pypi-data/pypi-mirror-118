@@ -1,0 +1,17 @@
+README.md
+pyproject.toml
+setup.py
+imdb_prac/__init__.py
+imdb_prac/main.py
+imdb_prac/settings.py
+imdb_prac/utils.py
+imdb_prac.egg-info/PKG-INFO
+imdb_prac.egg-info/SOURCES.txt
+imdb_prac.egg-info/dependency_links.txt
+imdb_prac.egg-info/top_level.txt
+imdb_prac/process/__init__.py
+imdb_prac/process/data.py
+imdb_prac/process/data_loader.py
+imdb_prac/process/generate.py
+imdb_prac/process/text.py
+imdb_prac/trainer/__init__.py
