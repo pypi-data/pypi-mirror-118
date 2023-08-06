@@ -1,0 +1,119 @@
+{{ header }}
+package {{package}}
+
+import (
+	"context"
+	"encoding/json"
+	"log"
+    "errors"
+	"net/http"
+	"net/url"
+    "time"
+	"github.com/julienschmidt/httprouter"
+)
+
+// Prefix for base URL for API.
+const Prefix = "{{swagger.basePath}}"
+
+{% for name, definition in enums %}
+    {%- if definition.description  %}
+    {{ definition.description | comment}}
+    {%- endif  %}
+    type {{ name }} {{ definition | map_type }}
+    const (
+    {%- for option in definition.enum %}
+         {{ name }}{{ option | label }} {{ name }} = {{ option | cast(definition) }}
+    {%- endfor %}
+    )
+
+    {% if (definition | map_type) == 'string' %}
+
+    var ErrParse{{ name }} = errors.New("un-parsable {{ name }}")
+
+    func (v *{{ name }}) UnmarshalText(text []byte) error {
+        switch string(text) {
+            {%- for option in definition.enum %}
+                 case {{ option | cast(definition) }}:
+                   *v = {{ name }}{{ option | label }}
+            {%- endfor %}
+                default:
+                    return  ErrParse{{ name }}
+        }
+        return nil
+    }
+    {% endif %}
+
+{% endfor %}
+
+{% for name, definition in swagger.definitions.items() %}
+    {%- if definition.type == 'object' %}
+        {%- if definition.description  %}
+            {{ definition.description | comment}}
+        {%- endif  %}
+        type {{name}} struct {
+            {%- for prop_name, property in definition.properties.items() %}
+                {%- if property.description  %}
+                    {{ property.description | comment}}
+                {%- endif  %}
+                {{prop_name | label}} {{property | map_type}} `json:"{{prop_name}},omitempty"`
+            {%- endfor %}
+        }
+    {%- endif %}
+{% endfor %}
+
+{% for name, definition in type_aliases.items() %}
+    type {{ name }} {{ definition | map_type }}
+{% endfor %}
+
+// API methods.
+type API interface {
+    {%- for path, methods in swagger.paths.items() %}
+        {%- for method, endpoint in methods.items() %}
+        {{endpoint.description | comment }}
+        {{endpoint.operationId | label}}(ctx context.Context
+        {%- for param in endpoint.get('parameters', []) -%}
+        , {{param.name | private}} {{param | map_type}}
+        {%- endfor -%}
+        )
+            {%- if 204 in endpoint.responses %} error
+            {%- else %} ({{endpoint.responses.200.schema | map_type}}, error)
+            {%- endif %}
+        {%- endfor %}
+    {%- endfor %}
+}
+
+{%- for tag, operations in tags.items() %}
+    // Subset for API for tag '{{ tag }}'
+    type {{ tag | label }}API interface {
+        {%- for operation in operations %}
+            {%- set endpoint = methods[operation]  %}
+            {{endpoint.description | comment }}
+            {{endpoint.operationId | label}}(ctx context.Context
+            {%- for param in endpoint.get('parameters', []) -%}
+            , {{param.name | private}} {{param | map_type}}
+            {%- endfor -%}
+            )
+            {%- if 204 in endpoint.responses %} error
+            {%- else %} ({{endpoint.responses.200.schema | map_type}}, error)
+            {%- endif %}
+        {%- endfor %}
+    }
+{%- endfor %}
+
+
+type Error struct {
+	Status  int    `json:"-"`
+	Message string `json:"error"`
+}
+
+func (err *Error) Error() string {
+	return err.Message
+}
+
+func AsAPIError(err error) (*Error, bool) {
+	var apiError *Error
+	if errors.As(err, &apiError) {
+		return apiError, true
+	}
+	return nil, false
+}
