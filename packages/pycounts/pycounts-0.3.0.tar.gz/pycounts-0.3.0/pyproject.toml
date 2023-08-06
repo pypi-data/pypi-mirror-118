@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "pycounts"
+version = "0.3.0"
+description = "Calculate word counts in a text file!"
+authors = ["Tomas Beuzen"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+matplotlib = "^3.4.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+pytest-cov = "^2.12.1"
+jupyter = "^1.0.0"
+myst-nb = "^0.13.0"
+sphinx-autoapi = "^1.8.4"
+sphinx-rtd-theme = "^0.5.2"
+python-semantic-release = "^7.19.1"
+
+[tool.semantic_release]
+version_variable = "pyproject.toml:version"
+branch = "main"
+changelog_file = "CHANGELOG.md"
+build_command = "pip install poetry && poetry build"
+dist_path = "dist/"
+upload_to_pypi = false
+remove_dist = false
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
