@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: verr
+Version: 1.1.2
+Summary: Represents a version number that can be parsed and compared.
+Home-page: https://github.com/Amourspirit/python-version-num
+Author: :Barry-Thomas-Paul: Moss
+Author-email: bigbytetech@gmail.com
+License: MIT
+Keywords: python,version,verr
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+[![codecov](https://codecov.io/gh/Amourspirit/python-version-num/branch/master/graph/badge.svg)](https://codecov.io/gh/Amourspirit/python-version-num) ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/Amourspirit/python-version-num/CodeCov) ![GitHub](https://img.shields.io/github/license/Amourspirit/python-version-num) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/verr) ![PyPI - Wheel](https://img.shields.io/pypi/wheel/verr) [![Documentation Status](https://readthedocs.org/projects/python-version-num/badge/?version=latest)](https://python-version-num.readthedocs.io/en/latest/?badge=latest)
+
+# Version Class
+
+Represents a version number.
+
+## Docs
+
+Documentation on [Read the Docs](https://python-version-num.readthedocs.io/en/latest/)
+
+## Installation
+
+### CONDA
+
+VERR on [Anaconda](https://anaconda.org/conda-forge/verr)
+
+```bash
+conda install -c conda-forge verr
+```
+
+### PIP
+
+VERR on [PyPI](https://pypi.org/project/verr/):
+
+```bash
+pip install verr
+```
+
+
