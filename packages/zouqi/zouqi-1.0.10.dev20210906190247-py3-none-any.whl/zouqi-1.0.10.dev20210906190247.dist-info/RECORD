@@ -1,0 +1,11 @@
+zouqi/__init__.py,sha256=u_i6ypJPcBUL8vSJ3bqREuSuwFcnRCHQF2R818XXquE,33
+zouqi/core.py,sha256=cEatgTDcmSRTT8DvbfycDgXjk1Ggtz5DMLhsnCDpdzY,5344
+zouqi/parsing.py,sha256=eD9DYw_q5thZPpwzO7_AvodbAwVylN3JPUHpwe-NTwo,1935
+zouqi/typing.py,sha256=uUF7sU3maMHou5k4zPIC5fv4p_RCmVC2J1DceRY4aOE,453
+zouqi/utils.py,sha256=TEINxYSLxcGTyhUjmDc_kwsD0PKYhOylqGa_YpRyI4w,2185
+zouqi/version.py,sha256=rJg3W_4nXotITuBQ2uX6cOJNZ4-ZdgAGTWKRFvtx4ls,41
+zouqi-1.0.10.dev20210906190247.dist-info/LICENSE,sha256=V48ru9nrHXJr0x9HoIgN8L0vimOVOVzMsdbemQVMaZc,1064
+zouqi-1.0.10.dev20210906190247.dist-info/METADATA,sha256=kalQtx20pRglDY5z4a-R2lTmFa7eaG-eWWZAI3UvTxc,633
+zouqi-1.0.10.dev20210906190247.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+zouqi-1.0.10.dev20210906190247.dist-info/top_level.txt,sha256=VOvUYpwoOb6vGI67GlMHQIpyfo_TGqyBEQA23XpT348,6
+zouqi-1.0.10.dev20210906190247.dist-info/RECORD,,
