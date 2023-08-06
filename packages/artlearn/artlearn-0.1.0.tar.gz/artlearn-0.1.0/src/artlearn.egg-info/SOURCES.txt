@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+src/artlearn/__init__.py
+src/artlearn/__version__.py
+src/artlearn/art.py
+src/artlearn.egg-info/PKG-INFO
+src/artlearn.egg-info/SOURCES.txt
+src/artlearn.egg-info/dependency_links.txt
+src/artlearn.egg-info/requires.txt
+src/artlearn.egg-info/top_level.txt

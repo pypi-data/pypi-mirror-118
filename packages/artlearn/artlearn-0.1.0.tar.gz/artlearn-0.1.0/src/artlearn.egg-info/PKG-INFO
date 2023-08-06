@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: artlearn
+Version: 0.1.0
+Summary: Adoptive Resonance Theory in Python with scikit-learn like API.
+Home-page: https://github.com/ground0state/artlearn
+Author: Masafumi Abeta
+Author-email: ground0state@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Software Development
+Classifier: Topic :: Scientific/Engineering
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+
+UNKNOWN
+
