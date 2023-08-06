@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+nextcord/ext/menus/__init__.py
+nextcord_ext_menus.egg-info/PKG-INFO
+nextcord_ext_menus.egg-info/SOURCES.txt
+nextcord_ext_menus.egg-info/dependency_links.txt
+nextcord_ext_menus.egg-info/requires.txt
+nextcord_ext_menus.egg-info/top_level.txt
