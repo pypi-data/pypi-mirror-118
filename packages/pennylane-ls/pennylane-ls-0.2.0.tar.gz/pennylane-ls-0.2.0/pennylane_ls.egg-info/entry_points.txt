@@ -1,0 +1,5 @@
+[pennylane.plugins]
+synqs.fs = pennylane_ls:FermionDevice
+synqs.mqs = pennylane_ls:MultiQuditDevice
+synqs.sqs = pennylane_ls:SingleQuditDevice
+
