@@ -1,0 +1,5 @@
+pycryptodomex
+
+[evoting]
+PyNaCl
+requests
