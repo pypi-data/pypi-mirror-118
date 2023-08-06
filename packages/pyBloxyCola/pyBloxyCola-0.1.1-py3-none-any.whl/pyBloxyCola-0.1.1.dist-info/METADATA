@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: pyBloxyCola
+Version: 0.1.1
+Summary: An Library that interacts with the Roblox API.
+Home-page: https://github.com/lucaytpols/pyBloxy
+Author: Illgyaz
+License: BSD 2-clause
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# Installation
+
+To Install pyBloxy you only have to do this:
+``pip install pyBloxyCola``
+
+And for windows users:
+``py -m pip install pyBloxyCola``
+
+The requirements for pyBloxyCola is python 3.8!
+
+# Example:
+
+You can fetch group data in JSON with: (more will be in docs)
+
+```py
+from pyBloxyCola import pyBloxyCola
+
+print(pyBloxyCola().getGroupInfoInJSON(1))
+```
+
+
