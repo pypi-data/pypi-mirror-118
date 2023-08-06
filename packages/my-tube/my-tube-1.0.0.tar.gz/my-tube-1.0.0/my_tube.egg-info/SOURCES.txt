@@ -1,0 +1,7 @@
+setup.py
+my_tube.egg-info/PKG-INFO
+my_tube.egg-info/SOURCES.txt
+my_tube.egg-info/dependency_links.txt
+my_tube.egg-info/requires.txt
+my_tube.egg-info/top_level.txt
+mytube/my_tube.py
