@@ -1,0 +1,7 @@
+aiopvpc==2.2.0
+bs4
+pandas
+pyjwt
+python-dateutil
+requests
+tzlocal
