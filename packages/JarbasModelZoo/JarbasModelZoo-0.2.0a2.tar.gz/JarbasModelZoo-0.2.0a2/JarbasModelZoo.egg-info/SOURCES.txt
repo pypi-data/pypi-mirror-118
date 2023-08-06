@@ -1,0 +1,6 @@
+setup.py
+JarbasModelZoo/__init__.py
+JarbasModelZoo.egg-info/PKG-INFO
+JarbasModelZoo.egg-info/SOURCES.txt
+JarbasModelZoo.egg-info/dependency_links.txt
+JarbasModelZoo.egg-info/top_level.txt
