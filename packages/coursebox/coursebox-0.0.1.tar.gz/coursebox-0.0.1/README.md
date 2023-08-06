@@ -1,0 +1,3 @@
+# coursebox
+
+DTU course management
