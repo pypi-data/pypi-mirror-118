@@ -1,0 +1,17 @@
+spectcube/__init__.py,sha256=upBCMwKprzqUavpk6P9g2S-o5es7azp9CMmRPBbQCx4,53
+spectcube/resampling.py,sha256=YxMwK2V3mqdv6Q-CNM72nPasx1CNxv8E6Esa63ABkdY,9881
+spectcube/util.py,sha256=0iEvn6P6Bnj28DqSK7JOE63Prl2091Kdv8_wF4PE9_I,6969
+spectcube/data/spec-1665-52976-0519.fits,sha256=X-yHP1iGhL_9Xlc3Mvhp4zdp4VkPqyqHzDvckhgKRAQ,175680
+spectcube/example/1_1D_first_example.py,sha256=9SkKzJwM_wGGyB8-s1cOKDbbWlFkOizPrIHPFsUm6bQ,2706
+spectcube/example/2_1D_miles_model_with_util.py,sha256=cKS6FYbFp_9E6ZGZ2f70T7NUWVHPFhiLMsipkf0aCmE,3310
+spectcube/example/3_1D_resampling_with_uncertainties.py,sha256=OBTBc_fpLKIC2YgjnjO1DhU0qCKKwPJvKklpcO58Yzs,2806
+spectcube/example/4_2D_resampling_multiple_models.py,sha256=2jq0xObNmlUjuktXdXHTN8eVaT3SXI0JS89MPybqXSg,3095
+spectcube/example/5_3D_resampling_datacube.py,sha256=Wf9My7HXlqiOLzy1--kRrSN_A_OtzoOZjrWhXNvHt5g,2808
+spectcube/model/Mun1.30Zm0.40T00.0631_iPp0.00_baseFe_linear_FWHM_2.51.fits,sha256=gA9vDXJ4EkewxBnlL-Hvz3wUadkdpp9St8NyjhIb47c,23040
+spectcube/model/Mun1.30Zm0.40T00.0794_iPp0.00_baseFe_linear_FWHM_2.51.fits,sha256=XluKcybnMgPhMVp6ad3pTfGIAGq7mLHNu8CJXbRo27g,23040
+spectcube/model/Mun1.30Zm0.40T00.1000_iPp0.00_baseFe_linear_FWHM_2.51.fits,sha256=sdA_PrBanjqDTSpkWKGdPUGmH--pCK9OzjKSeh44oRc,23040
+spectcube-0.0.1.dist-info/LICENSE.md,sha256=ANbbZ3V48FsOGRRlkfZICK5L_6JlRZ0pDXQzdWF8lL0,1475
+spectcube-0.0.1.dist-info/METADATA,sha256=OYmPI9uvfg18WVT7ioUsfiGzTb1RwLKesvIk9VdrU7I,2008
+spectcube-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+spectcube-0.0.1.dist-info/top_level.txt,sha256=b1qMdwo8P2YsoF7HiKUzk31xJgX7ljw948t9NUS-6zE,10
+spectcube-0.0.1.dist-info/RECORD,,
