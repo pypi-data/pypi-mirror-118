@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: sphinx-needs-extensions
+Version: 0.1.0
+Summary: Core package to provide core functionalities to all Sphinx-Needs extensions
+License: BUSL-1.1
+Author: team useblocks
+Requires-Python: >=3.6,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: docs
+Requires-Dist: sphinxcontrib-needs (>=0.7,<0.8)
