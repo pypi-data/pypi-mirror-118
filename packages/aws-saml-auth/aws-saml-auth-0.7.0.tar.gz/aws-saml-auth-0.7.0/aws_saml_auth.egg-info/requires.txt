@@ -1,0 +1,11 @@
+boto3
+configparser
+filelock
+lxml
+six
+tabulate
+tzlocal
+
+[test]
+nose
+mock
