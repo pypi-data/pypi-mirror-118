@@ -1,0 +1,9 @@
+README.md
+setup.py
+discord_economy/__init__.py
+discord_economy/economy.py
+discord_economy.egg-info/PKG-INFO
+discord_economy.egg-info/SOURCES.txt
+discord_economy.egg-info/dependency_links.txt
+discord_economy.egg-info/requires.txt
+discord_economy.egg-info/top_level.txt
