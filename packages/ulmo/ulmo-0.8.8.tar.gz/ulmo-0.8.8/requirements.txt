@@ -1,0 +1,11 @@
+appdirs
+beautifulsoup4
+future
+geojson
+isodate
+lxml
+numpy
+pandas
+python-dateutil
+requests
+suds-jurko
