@@ -1,0 +1,15 @@
+  include *.rst
+  include *.txt
+  include *.yml
+  recursive-include docs *.bat
+  recursive-include docs *.py
+  recursive-include docs *.rst
+  recursive-include docs *.svg
+  recursive-include docs *.txt
+  recursive-include docs Makefile
+  recursive-include pspvis *.bak
+  recursive-include pspvis *.css
+  recursive-include pspvis *.qss
+  recursive-include tests *.coveragerc
+  recursive-include tests *.tsv
+  recursive-include tests *.yml
