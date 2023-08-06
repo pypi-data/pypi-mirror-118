@@ -1,0 +1,9 @@
+[console_scripts]
+depoverflow=depoverflow.main:main
+
+[depoverflow.items]
+github-issue=depoverflow.github:GithubIssue
+github-pr=depoverflow.github:GithubPullRequest
+stackexchange-answer=depoverflow.stackexchange:StackExchangeAnswer
+stackexchange-question=depoverflow.stackexchange:StackExchangeQuestion
+
