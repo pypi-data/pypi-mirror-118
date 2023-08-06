@@ -1,0 +1,15 @@
+AUTHORS.rst
+CONTRIBUTING.rst
+HISTORY.rst
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+mendidenborak/__init__.py
+mendidenborak/mendidenborak.py
+mendidenborak.egg-info/PKG-INFO
+mendidenborak.egg-info/SOURCES.txt
+mendidenborak.egg-info/dependency_links.txt
+mendidenborak.egg-info/not-zip-safe
+mendidenborak.egg-info/top_level.txt
