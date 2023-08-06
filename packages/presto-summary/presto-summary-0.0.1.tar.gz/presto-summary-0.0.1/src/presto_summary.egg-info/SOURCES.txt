@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.cfg
+bin/summary
+src/presto_summary.egg-info/PKG-INFO
+src/presto_summary.egg-info/SOURCES.txt
+src/presto_summary.egg-info/dependency_links.txt
+src/presto_summary.egg-info/requires.txt
+src/presto_summary.egg-info/top_level.txt
