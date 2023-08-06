@@ -1,0 +1,8 @@
+sqlitewrapper/__init__.py,sha256=Keg8s5WE87oPjrtKLpwGORh5MHB3f8yvtzMK2yTFMVI,1255
+sqlitewrapper/databaseobjects.py,sha256=MSqH6skopFymjz1cFQupU3Lx7YRgfjm9xBOcwk_ZedM,33173
+sqlitewrapper/datatypes.py,sha256=SGNxAOAzPuTkJYbqYgQyggLizS6jiatiue0Z8VPzgZA,905
+sqlitewrapper/errors.py,sha256=dQCtqeOwAup8XsjJkOOEIgfRBLUOW3MJXQ1UKY8L5ws,740
+sqlitewrapper-0.1.1.dist-info/METADATA,sha256=97CbivRdlGXEkvK28uXlgpwc-caSNtOcx4RxzzIytEE,3072
+sqlitewrapper-0.1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+sqlitewrapper-0.1.1.dist-info/top_level.txt,sha256=fgqyAqcz0vfJoG5X9PgzKtsA0IfSJobAt7Sqbi76jzs,14
+sqlitewrapper-0.1.1.dist-info/RECORD,,
