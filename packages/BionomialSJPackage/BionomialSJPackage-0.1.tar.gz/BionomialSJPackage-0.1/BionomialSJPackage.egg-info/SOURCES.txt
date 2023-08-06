@@ -1,0 +1,10 @@
+setup.py
+BionomialSJPackage/Binomialdistribution.py
+BionomialSJPackage/Gaussiandistribution.py
+BionomialSJPackage/Generaldistribution.py
+BionomialSJPackage/__init__.py
+BionomialSJPackage.egg-info/PKG-INFO
+BionomialSJPackage.egg-info/SOURCES.txt
+BionomialSJPackage.egg-info/dependency_links.txt
+BionomialSJPackage.egg-info/not-zip-safe
+BionomialSJPackage.egg-info/top_level.txt
