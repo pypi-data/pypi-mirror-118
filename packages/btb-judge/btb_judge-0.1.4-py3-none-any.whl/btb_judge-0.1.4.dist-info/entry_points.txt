@@ -1,0 +1,3 @@
+[console_scripts]
+btb-judge=btb_judge.main:app
+
