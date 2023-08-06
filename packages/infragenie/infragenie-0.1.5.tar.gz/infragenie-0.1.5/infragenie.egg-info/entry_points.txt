@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        igm=infragenie.genie:cli
+    
