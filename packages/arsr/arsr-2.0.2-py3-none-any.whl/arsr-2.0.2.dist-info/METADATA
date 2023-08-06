@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: arsr
+Version: 2.0.2
+Summary: Arbitrary Scale Super resolution
+Home-page: https://github.com/epsilon-deltta/arbitrary-sr/
+Author: epsilon
+Author-email: kokomong1316@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+Requires-Dist: certifi (==2021.5.30)
+Requires-Dist: numpy (==1.19.5)
+Requires-Dist: opencv-contrib-python (==4.5.3.56)
+Requires-Dist: opencv-python (==4.5.3.56)
+Requires-Dist: Pillow (==8.3.1)
+
+# arbitrary-sr
+It's about arbitrary scale image super-resolution. 
+
+# Usage
+
+## Installation
+
+```bash
+pip install 
+
+```
+
+## How to use
+```python
+
+from arsr import sr
+scale = 2.4
+sr0    = sr('edsr')
+up_img = sr.upsample(numpy_img,scale) # numpy_img {'type':numpy, 'dimension':(H,W,C) } 
+```
+
+# method
+
+- ensemble
+- MetaSR
+- Implicit representation
+- UltraSR (Implicit representation + Spatial encoding)
+
