@@ -1,0 +1,4 @@
+webhook:
+    log: https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=43e28f3b-0c07-492c-aa37-a59abc3acf43
+    数科: https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=5f51e925-1257-4f90-88ea-f474bc1e2a05
+    算法会议小助手: https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=a242fcec-8156-4963-96be-a462b0bb8e76
