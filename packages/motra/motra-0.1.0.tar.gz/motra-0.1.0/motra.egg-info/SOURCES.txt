@@ -1,0 +1,15 @@
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+motra/__init__.py
+motra/m2m.py
+motra/m2t.py
+motra.egg-info/PKG-INFO
+motra.egg-info/SOURCES.txt
+motra.egg-info/dependency_links.txt
+motra.egg-info/requires.txt
+motra.egg-info/top_level.txt
+motra/trace/TransformationTrace.py
+motra/trace/__init__.py
