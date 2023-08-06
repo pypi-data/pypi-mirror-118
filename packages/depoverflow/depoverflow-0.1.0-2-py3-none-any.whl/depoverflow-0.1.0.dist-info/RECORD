@@ -1,0 +1,11 @@
+depoverflow/__init__.py,sha256=TIOJyG4UHSHYsSB0GsSFRgfYxyRbEUt62WK9xDtlMTQ,49
+depoverflow/base.py,sha256=3Hf6b9-JzO476N8U5MoL28TjZg02YYvkGe3KSTOqKHQ,1312
+depoverflow/github.py,sha256=5q45vO35cqSjutmAnkGPJGmoN0U4JftlkuEggkPZ_uQ,2889
+depoverflow/main.py,sha256=9rsAYK_r2Oqy-1lBMABvVVE3RSVG7HSmk9yG8cfnCBA,4507
+depoverflow/stackexchange.py,sha256=WevBCZF4R--MyPowOlrrYZv7-XkHqFcKj8Iw6tO2v-o,8172
+depoverflow/utils.py,sha256=IBusVQ_B1W73zT0iQqq5N-GrA0GEjMQ40pZvTviAcjg,174
+depoverflow-0.1.0.dist-info/entry_points.txt,sha256=PyDkeA7FNJJQDTu_guIfy5QhZMcSht9h5XNrVhUM1vM,303
+depoverflow-0.1.0.dist-info/LICENSE.txt,sha256=1H1EV8hrLRze2-vMLbMJmPngYxE7gYt0BoJYIs0u_h4,1068
+depoverflow-0.1.0.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+depoverflow-0.1.0.dist-info/METADATA,sha256=89IT_A5_ypHACdYffV4CIcXQKEm4xcM2xJ5ll620ctE,2214
+depoverflow-0.1.0.dist-info/RECORD,,
