@@ -1,0 +1,13 @@
+paperfetcher/__init__.py,sha256=8G7jktuTYB2OPUElZvrKJM9xqqSh50T0p7IGigN9yeo,468
+paperfetcher/apiclients.py,sha256=MDHr0EPjJVr8idtChWN1weKbtPaf9oXFSWpF87Q_60U,6282
+paperfetcher/datastructures.py,sha256=yfOleLMt093qlrmz9_A0pbN__DqdF8wZgpELgfrq8Vw,9711
+paperfetcher/exceptions.py,sha256=Mt9qWEEmWH1OEwOPpLvtZNnwm6TLbLVo4ME8QuAk0eI,459
+paperfetcher/handsearch.py,sha256=DCyaOhE19IfcwIdTYbWNXkVif4xTnYma96wScuP_nWA,10915
+paperfetcher/nbutils.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+paperfetcher/parsers.py,sha256=a7NhwSnCPh8TchiZ2ju6BcyXb1J-fCOo16lQw1abEqc,735
+paperfetcher/snowballsearch.py,sha256=TMK2PUogedgDlaa5ALC30di7hl8nAXqA4kKFtaW_wyo,5076
+paperfetcher-0.2.0.dist-info/LICENSE,sha256=2o1pC-0urcukONjeSoKtsogKHcsgyawZ5cW_fuP8kAA,1070
+paperfetcher-0.2.0.dist-info/METADATA,sha256=_x1VGLvEz1SqXjnvA7ssMZfGxriN4TtMky5M7Ln9GWY,2659
+paperfetcher-0.2.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+paperfetcher-0.2.0.dist-info/top_level.txt,sha256=P-2UmC47UUkGs7LwkYm5dfeZW7TR9R8Uo2S5NtSdbIg,13
+paperfetcher-0.2.0.dist-info/RECORD,,
