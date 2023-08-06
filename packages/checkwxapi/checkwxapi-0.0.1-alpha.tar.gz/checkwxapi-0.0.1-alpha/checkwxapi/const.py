@@ -1,0 +1,10 @@
+"""Constants for the CheckWX API client"""
+
+BASE_URL = "https://api.checkwx.com/"
+STATS_ENDPOINT = "api/stats"
+STATION_ENDPOINT = "station"
+METAR_ENDPOINT = "metar"
+TAF_ENDPOINT = "taf"
+API_KEY_HEADER = "X-API-Key"
+JSON_CONTENT_TYPE = "application/json"
+TEXT_CONTENT_TYPE = ""
