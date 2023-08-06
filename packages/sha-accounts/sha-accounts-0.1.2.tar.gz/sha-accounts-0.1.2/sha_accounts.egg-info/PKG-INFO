@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: sha-accounts
+Version: 0.1.2
+Summary: Customized Django Rest Framework Accounting App
+Home-page: https://github.com/almohress/drfwrapper
+License: MIT
+Description: # sha-accounts
+        Customized Django Rest Framework Accounting App
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
