@@ -1,0 +1,8 @@
+numpy >= 1.13.0
+obspy >= 1.2.1
+pandas >= 1.0
+progressbar2
+pydantic >= 1.8.2
+scipy
+tables
+typing-extensions
