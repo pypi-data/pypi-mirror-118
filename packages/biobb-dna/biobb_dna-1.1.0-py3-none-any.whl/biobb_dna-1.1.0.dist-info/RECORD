@@ -1,0 +1,15 @@
+biobb_dna/__init__.py,sha256=hUHO8PK_gzBZWQnuVgYFcl7xQNZHQOEUzUqMYbgUQOs,37
+biobb_dna/curvesplus/__init__.py,sha256=RmkrHSBpF4hBXkuH3FXrEn5CzNpkke3cuTdm_YoFVKQ,37
+biobb_dna/curvesplus/canal.py,sha256=Ja0oE_Nv5iKbJuOa2VOjlSAq4fE9VnRxnjpY_yMyy1Y,10932
+biobb_dna/curvesplus/curves.py,sha256=2B5caOfmDNyAFitSExfJLugjapoc5KQXPLPxIeXbVSw,12045
+biobb_dna/dna/__init__.py,sha256=gv-f_CZ5Q3zHKniF1TGAAdiznqjJBXF1pXYZ2ocnVts,48
+biobb_dna/dna/averages.py,sha256=TFRn03XvoER6RIHrHERIePLJixJxQkQAuUFRKZ2grLA,10782
+biobb_dna/dna/bimodality.py,sha256=mBpuVZEMZd--D_JK7VwBoRqyNUMacJ8XnLBWuXF6VZg,13116
+biobb_dna/dna/timeseries.py,sha256=tqZGzlx5jHXsMVA-zDpTmm_W-X4bAPVfAXppxwJp1xs,11671
+biobb_dna/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+biobb_dna-1.1.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+biobb_dna-1.1.0.dist-info/METADATA,sha256=Qc6ZW4uYglW9C_yqQHpYg_1_U4V-zN-JXxpSSbSnTPY,5099
+biobb_dna-1.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+biobb_dna-1.1.0.dist-info/entry_points.txt,sha256=xJa4qW49nBmIptp9ihOOt4UHtQ4RVZBlpleMvgq0a3I,942
+biobb_dna-1.1.0.dist-info/top_level.txt,sha256=xP2FA6dP-J7Bb7kmmSNUD_U4DT8Wxh1AJVfM_w6iQNY,10
+biobb_dna-1.1.0.dist-info/RECORD,,
