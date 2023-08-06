@@ -1,0 +1,2 @@
+dagster==0.12.9rc0
+datadog
