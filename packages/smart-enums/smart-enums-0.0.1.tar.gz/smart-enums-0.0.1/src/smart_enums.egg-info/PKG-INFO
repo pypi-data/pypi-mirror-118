@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: smart-enums
+Version: 0.0.1
+Summary: This package is in pre-alpha. It is not ready to be used and it is only on pypi to protect the package name.
+Home-page: https://github.com/mawilms/smart-enums
+Author: Marius Wilms
+Author-email: info@mariuswilms.dev
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/mawilms/smart-enums/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Smart Enums
+
+This package is in pre-alpha. It's not ready to be used and it's only on pypi to protect the package name.
+
+Smart Enums is a small package that aims to provide comfort enums from other languages like Rust, Haskell or Elm.
+
+
