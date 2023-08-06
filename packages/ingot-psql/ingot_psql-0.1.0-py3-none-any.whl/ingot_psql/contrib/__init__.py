@@ -1,0 +1,1 @@
+"""Ingot Psql package contrib."""
