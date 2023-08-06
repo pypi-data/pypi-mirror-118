@@ -1,0 +1,13 @@
+Changelog
+=========
+
+1.1 - (2021-09-02)
+---------------------------
+* More testing. Update Jenkins pipeline
+  [avoinea]
+
+1.0 - (2021-09-01)
+-----------------------
+
+* Provide SlateJSONFiled with `slate` widget by default
+  [avoinea]
