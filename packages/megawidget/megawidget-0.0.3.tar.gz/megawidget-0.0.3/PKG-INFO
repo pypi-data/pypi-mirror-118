@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: megawidget
+Version: 0.0.3
+Summary: Megawidgets for desktop app
+Home-page: https://github.com/pyrustic/megawidget
+Author: Pyrustic Evangelist
+Author-email: pyrustic@protonmail.com
+Maintainer: Pyrustic Evangelist
+Maintainer-email: pyrustic@protonmail.com
+License: MIT
+Description: <!-- Intro Text -->
+        # Megawidget
+        <b> A collection of useful widgets for your Tkinter Python apps </b>
+        
+        This project is part of the [Pyrustic Open Ecosystem](https://pyrustic.github.io).
+        
+        <!-- Quick Links -->
+        [Installation](#installation) | [Reference](https://github.com/pyrustic/megawidget/tree/master/docs/reference#readme)
+        
+        ## Overview
+        The `megawidgets` are extensively used in multiple projects:
+        - [Hubstore](https://github.com/pyrustic/hubstore): a desktop app to distribute, promote, discover, manage, install, and run Python apps.
+        - [Dresscode](https://github.com/pyrustic/dresscode): high-productivity framework to build desktop apps.
+        - [Jupitest](https://github.com/pyrustic/jupitest): graphical test runner.
+        - [Rustiql](https://github.com/pyrustic/rustiql): graphical SQLite editor.
+        - and more...
+        
+        Read the [reference](https://github.com/pyrustic/megawidget/tree/master/docs/reference#readme) !
+        
+        ## Installation
+        ```bash
+        pip install megawidget
+        ```
+Keywords: megawidgets,tkinter,gui,collection,desktop-application,widget-collection,pyrustic,frontend
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
