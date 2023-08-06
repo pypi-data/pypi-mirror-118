@@ -1,0 +1,11 @@
+README.md
+setup.py
+lib/__init__.py
+lib/cli.py
+zbxtool_cfomp.egg-info/PKG-INFO
+zbxtool_cfomp.egg-info/SOURCES.txt
+zbxtool_cfomp.egg-info/dependency_links.txt
+zbxtool_cfomp.egg-info/entry_points.txt
+zbxtool_cfomp.egg-info/requires.txt
+zbxtool_cfomp.egg-info/top_level.txt
+zbxtool_cfomp.egg-info/zip-safe
