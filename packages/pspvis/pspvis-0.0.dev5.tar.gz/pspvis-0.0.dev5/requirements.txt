@@ -1,0 +1,8 @@
+# bash/zsh complete
+matplotlib
+pandas
+psprint
+pyyaml
+sklearn
+toml
+ttkthemes
