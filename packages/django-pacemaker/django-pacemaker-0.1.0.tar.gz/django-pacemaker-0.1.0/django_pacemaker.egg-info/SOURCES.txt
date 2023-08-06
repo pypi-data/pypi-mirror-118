@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+django_pacemaker.egg-info/PKG-INFO
+django_pacemaker.egg-info/SOURCES.txt
+django_pacemaker.egg-info/dependency_links.txt
+django_pacemaker.egg-info/top_level.txt
