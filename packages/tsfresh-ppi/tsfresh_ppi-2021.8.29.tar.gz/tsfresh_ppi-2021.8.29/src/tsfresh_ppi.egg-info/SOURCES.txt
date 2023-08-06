@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+src/tsfresh_ppi/__init__.py
+src/tsfresh_ppi.egg-info/PKG-INFO
+src/tsfresh_ppi.egg-info/SOURCES.txt
+src/tsfresh_ppi.egg-info/dependency_links.txt
+src/tsfresh_ppi.egg-info/top_level.txt
