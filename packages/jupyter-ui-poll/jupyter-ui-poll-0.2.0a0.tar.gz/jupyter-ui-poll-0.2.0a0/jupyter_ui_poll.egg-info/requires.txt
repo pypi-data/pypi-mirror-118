@@ -1,0 +1,7 @@
+ipykernel<7,>=6.0.0
+tornado
+pyzmq
+
+[dev]
+wheel
+jupyter
