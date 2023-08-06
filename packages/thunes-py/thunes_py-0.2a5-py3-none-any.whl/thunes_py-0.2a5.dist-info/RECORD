@@ -1,0 +1,9 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_thunes.py,sha256=d54FTuW6WE2lBCC7UIIsbNrP4WU56beEyV-4-R6HxYY,3488
+thunes/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+thunes/thunes.py,sha256=LFRZWteFDWslD5meDZUTsTvcbMpzhrR6yNRBAWNoaN0,6833
+thunes_py-0.2a5.dist-info/LICENSE,sha256=mNtrria90VABlPW0AaKEYtLuJvGMCo3pTM7if3sr1q4,1071
+thunes_py-0.2a5.dist-info/METADATA,sha256=eNRpg-FojIQOlPmRC9qEcsYSr11ViUtGgL9ZRfpu4W0,1473
+thunes_py-0.2a5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+thunes_py-0.2a5.dist-info/top_level.txt,sha256=1trLqx647MoQP8u3207YvR6ieMxGD0KmVRIOl380sOg,13
+thunes_py-0.2a5.dist-info/RECORD,,
