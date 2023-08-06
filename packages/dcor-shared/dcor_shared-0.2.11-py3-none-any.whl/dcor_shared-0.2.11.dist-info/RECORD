@@ -1,0 +1,11 @@
+dcor_shared/__init__.py,sha256=_Ro2qnfGQs6osTvY-VTmkduoDtXfLjOneCAWw9eo6mY,198
+dcor_shared/_version.py,sha256=fo5OmshoTcb5C3p3FEdDHuCx62Yx5-N0L9A6YnKhCvw,7095
+dcor_shared/_version_save.py,sha256=GMQL2K6_4jPFdqU_L7L_2AsuI7T55X8zLlPzYnYkIZ8,83
+dcor_shared/ckan.py,sha256=uCuJ2QsNNzgLeBGqvPQxfa9xbqWQl3JbIQWvspl4lNc,1972
+dcor_shared/data.py,sha256=ADSQzfXo-GnuA7BbjO8HjkovkLPRh5H2ZT3aOuEH2YI,1639
+dcor_shared/mime.py,sha256=u0DpLaTNOvo012c1e5MKgwbYeJgTKHTBJj0radDR2dA,255
+dcor_shared-0.2.11.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+dcor_shared-0.2.11.dist-info/METADATA,sha256=CV_a3uFU2qVpaQJWwn1r33lq6HF4UoQHJSsHGui0BIg,1253
+dcor_shared-0.2.11.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+dcor_shared-0.2.11.dist-info/top_level.txt,sha256=7er0Q8tCZZsucoFOUJvTGeU1ZvkZ9g5opmTiTzq3zVM,12
+dcor_shared-0.2.11.dist-info/RECORD,,
