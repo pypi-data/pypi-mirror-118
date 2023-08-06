@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+gmails/__init__.py
+gmails/retriever.py
+gmails.egg-info/PKG-INFO
+gmails.egg-info/SOURCES.txt
+gmails.egg-info/dependency_links.txt
+gmails.egg-info/requires.txt
+gmails.egg-info/top_level.txt
+test/test_retriever.py

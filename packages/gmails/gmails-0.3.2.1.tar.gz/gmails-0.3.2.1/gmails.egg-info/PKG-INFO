@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: gmails
+Version: 0.3.2.1
+Summary: Simple library for searching and retrieving emails using the GMail REST API
+Home-page: https://github.com/kubauk/gmails
+Author: Jakub Jamro
+Author-email: kuba.jamro@gmail.com
+License: MIT License
+Description: 
+        GMails - A simple GMail message retriever
+        =========================================
+        
+        A naive wrapper library that uses the Python GMail SDK.
+        
+        The uses for this library are primarily for the retrieval of emails in a given search term and date range.
+        
+        Logging in is handled by OAuth helped by a native browser window.
+        
+        It requires use of GCP keys that need to be retrieved from the GCP console.
+Keywords: gmail search message email gmails
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
