@@ -1,0 +1,9 @@
+README.md
+netwey.py
+setup.py
+netwey_cli.egg-info/PKG-INFO
+netwey_cli.egg-info/SOURCES.txt
+netwey_cli.egg-info/dependency_links.txt
+netwey_cli.egg-info/entry_points.txt
+netwey_cli.egg-info/requires.txt
+netwey_cli.egg-info/top_level.txt
