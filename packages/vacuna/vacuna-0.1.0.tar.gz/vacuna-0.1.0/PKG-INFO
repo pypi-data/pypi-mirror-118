@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: vacuna
+Version: 0.1.0
+Summary: Reusable Lightweight Pythonic Dependency Injection Library
+Author: Fernando Martinez Gonzalez
+Author-email: frndmartinezglez@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: docs
+Requires-Dist: mkdocs (>=1.2.2,<2.0.0); extra == "docs"
+Requires-Dist: mkdocs-material (>=7.2.5,<8.0.0); extra == "docs"
+Requires-Dist: mkdocstrings (>=0.15.2,<0.16.0); extra == "docs"
