@@ -1,0 +1,35 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "otelme"
+authors = [{name = "Ryan Scott Brown", email = "otelme@ryansb.com"}]
+classifiers = ["License :: OSI Approved :: MIT License"]
+dynamic = ["version", "description"]
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = ["instrumentation", "opentelemetry", "otel", "tracing", "observability"]
+dependencies = [
+    "opentelemetry-instrumentation",
+    "opentelemetry-sdk",
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest",
+    "pytest-cov",
+    "pytest-html",
+]
+
+[project.urls]
+Source = "https://github.com/ryansb/otelme"
+
+[tool.pytest.ini_options]
+norecursedirs = ".venv .git"
+testpaths = "test_otelme.py"
+addopts = "--cov=otelme --cov-report=html --html=./htmlcov/tests.html --strict-config --strict-markers"
+
+[tool.black]
+line-length = 120
+target-version = ['py39']
