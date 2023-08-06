@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: stsci.tools
+Version: 4.0.1
+Summary: Collection of STScI utility functions
+Home-page: https://www.github.com/spacetelescope/stsci.tools
+Author: STScI
+Author-email: help@stsci.edu
+License: BSD
+Keywords: astronomy,astrophysics,utility
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/plain
+Provides-Extra: test
+License-File: LICENSE.md
+
+Collection of STScI utility functions
+

@@ -1,0 +1,7 @@
+numpy
+astropy>=2
+
+[test]
+pytest
+pytest-astropy-header
+pytest-doctestplus
