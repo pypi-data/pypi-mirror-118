@@ -1,0 +1,9 @@
+aws-requests-auth>=0.3.0
+elasticsearch<8.0.0,>=6.0.0
+
+[dev]
+celery
+coreapi
+coreschema
+django
+djangorestframework
