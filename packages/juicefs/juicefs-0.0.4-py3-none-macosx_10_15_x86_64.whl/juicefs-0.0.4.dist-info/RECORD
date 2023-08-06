@@ -1,0 +1,14 @@
+juicefs/__init__.py,sha256=JYk5AyhT72myWGbFfvm66SMk1FRs0J4IPvhNic8UbDU,192
+juicefs/io.py,sha256=1IbdT1VpqkoidDBvX6hPebu42nk6xlFkECIrqEh-3iI,13044
+juicefs/juicefs.py,sha256=BKoMNcE8wNbo682nDqIkVPTolCmwsR_SYHe_JbkA60o,23962
+juicefs/libjfs.py,sha256=6Aju2ulQm8UOPKCMjWlkla9QASomvO4Bp-cUxz7W4ao,5612
+juicefs/utils.py,sha256=dxhwKoSsYgAZqdni-80YTmZ_8coScYb7QFX1PJYyh6w,582
+juicefs/version.py,sha256=vu_LccLlmoyQR0cVgtNnwxsHCW5OZPM8ynpF_MLqapI,18
+juicefs/lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+juicefs/lib/juicefs,sha256=_mzsi_opkd-nWrR-2YD6jjQYJKKjOacW-Dw2371i2sg,72374456
+juicefs/lib/libjfs.so,sha256=dfmTds52IQqRp-gRnLfATu_Kpd-Alb2qdvyCSNoF27E,40302976
+juicefs-0.0.4.dist-info/LICENSE,sha256=ILBn-G3jdarm2w8oOrLmXeJNU3czuJvVhDLBASWdhM8,34522
+juicefs-0.0.4.dist-info/METADATA,sha256=hY3_i8FYwiCmtafED8iVj0BdRBxMDRaPzN-tZ9y_Uec,788
+juicefs-0.0.4.dist-info/WHEEL,sha256=L-ub8WCnWYkNFCDKYiNFDPWIDg-vq2FD0c7FINPemno,108
+juicefs-0.0.4.dist-info/top_level.txt,sha256=pfMeTJMVdGif6DfAWFLwCKKSaz_FjS0lyJ1ZbpHKwO4,8
+juicefs-0.0.4.dist-info/RECORD,,
