@@ -1,0 +1,4 @@
+[console_scripts]
+create-config = scrubdash.create_config:main
+scrubdash = scrubdash.__main__:main
+
