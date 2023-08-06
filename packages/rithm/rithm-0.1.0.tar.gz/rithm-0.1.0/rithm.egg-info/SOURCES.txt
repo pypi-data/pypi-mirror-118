@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+rithm/__init__.py
+rithm.egg-info/PKG-INFO
+rithm.egg-info/SOURCES.txt
+rithm.egg-info/dependency_links.txt
+rithm.egg-info/not-zip-safe
+rithm.egg-info/top_level.txt
