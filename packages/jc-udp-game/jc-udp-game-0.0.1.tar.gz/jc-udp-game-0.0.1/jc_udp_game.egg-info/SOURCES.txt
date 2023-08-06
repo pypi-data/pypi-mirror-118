@@ -1,0 +1,10 @@
+setup.py
+jc_udp_game.egg-info/PKG-INFO
+jc_udp_game.egg-info/SOURCES.txt
+jc_udp_game.egg-info/dependency_links.txt
+jc_udp_game.egg-info/entry_points.txt
+jc_udp_game.egg-info/top_level.txt
+src/__init__.py
+src/__main__.py
+src/main.py
+src/server.py
