@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: basicpreprocessing
+Version: 0.1
+Summary: basicpreprocessing library will be used to do basic preprocessing operations on dataframe
+Home-page: https://github.com/JaganRaja/basicpreprocessing
+Author: Jaganathan Raja
+Author-email: jaganraja479@gmail.com
+License: MIT
+Download-URL: https://github.com/JaganRaja/basicpreprocessing/archive/refs/tags/0.1.tar.gz
+Description: UNKNOWN
+Keywords: eda,preprocessing,dataframe,pandas
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
