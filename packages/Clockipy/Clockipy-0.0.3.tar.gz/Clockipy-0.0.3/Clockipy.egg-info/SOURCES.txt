@@ -1,0 +1,10 @@
+README.md
+clockipy.py
+setup.cfg
+setup.py
+Clockipy.egg-info/PKG-INFO
+Clockipy.egg-info/SOURCES.txt
+Clockipy.egg-info/dependency_links.txt
+Clockipy.egg-info/entry_points.txt
+Clockipy.egg-info/requires.txt
+Clockipy.egg-info/top_level.txt
