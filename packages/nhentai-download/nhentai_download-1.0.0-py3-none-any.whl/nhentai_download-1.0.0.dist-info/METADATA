@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: nhentai-download
+Version: 1.0.0
+Summary: UNKNOWN
+Home-page: https://github.com/TOKYOCOLD69/nhentai-downloader
+Author: TOKYOCOLD69
+Author-email: TOKYOCOLD69@gamil.com
+License: MIT
+Keywords: nhentai,downloader,anime
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: beautifulsoup4 (>=4.9.3)
+Requires-Dist: requests (>=2.22.0)
+Requires-Dist: tqdm (>=4.62.0)
+
+# nhentai-downloader
+## Description
+A tool for download nhentai
+
+## How to use
+### CLI
+``` bash
+nhentai 123456 654321 ...
+nhentai 123456 654321 ... -p ./download_path
+nhentai 123456 654321 ... -f image_name_prefix
+```
+
