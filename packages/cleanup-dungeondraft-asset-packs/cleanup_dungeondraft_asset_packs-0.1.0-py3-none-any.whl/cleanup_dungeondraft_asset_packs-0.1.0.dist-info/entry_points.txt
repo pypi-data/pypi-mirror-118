@@ -1,0 +1,3 @@
+[console_scripts]
+cleanup-dungeondraft-asset-packs=cleanup_dungeondraft_asset_packs:main
+
