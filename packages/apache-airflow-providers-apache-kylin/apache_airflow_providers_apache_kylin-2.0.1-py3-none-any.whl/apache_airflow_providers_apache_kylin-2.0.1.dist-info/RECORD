@@ -1,0 +1,15 @@
+airflow/providers/apache/kylin/__init__.py,sha256=9hdXHABrVpkbpjZgUft39kOFL2xSGeG4GEua0Hmelus,785
+airflow/providers/apache/kylin/get_provider_info.py,sha256=mmCPPFsXeoK58NajeMi8qhdmqMv7yJo2UCmc_aQEmGU,2035
+airflow/providers/apache/kylin/example_dags/__init__.py,sha256=9hdXHABrVpkbpjZgUft39kOFL2xSGeG4GEua0Hmelus,785
+airflow/providers/apache/kylin/example_dags/example_kylin_dag.py,sha256=_MFotW6HKR7Nx3r8x8xbnPtXgTWJHrH_Ch2lTEzI7iI,3582
+airflow/providers/apache/kylin/hooks/__init__.py,sha256=9hdXHABrVpkbpjZgUft39kOFL2xSGeG4GEua0Hmelus,785
+airflow/providers/apache/kylin/hooks/kylin.py,sha256=bnIYEQvxpwoGkBfsQGYFypfdLZKB4LaFv--kBxR-PFs,2859
+airflow/providers/apache/kylin/operators/__init__.py,sha256=9hdXHABrVpkbpjZgUft39kOFL2xSGeG4GEua0Hmelus,785
+airflow/providers/apache/kylin/operators/kylin_cube.py,sha256=CNpCHBbfZxjj_sAlyNCkmwAJ4DW2IpqM5hIqqLAedIw,7632
+apache_airflow_providers_apache_kylin-2.0.1.dist-info/LICENSE,sha256=gXPVwptPlW1TJ4HSuG5OMPg-a3h43OGMkZRR1rpwfJA,10850
+apache_airflow_providers_apache_kylin-2.0.1.dist-info/METADATA,sha256=qlqIUJFOYy4iq4VqeqL4abAGIszdAE0aD7zOVV8oIYs,5839
+apache_airflow_providers_apache_kylin-2.0.1.dist-info/NOTICE,sha256=m-6s2XynUxVSUIxO4rVablAZCvFq-wmLrqV91DotRBw,240
+apache_airflow_providers_apache_kylin-2.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+apache_airflow_providers_apache_kylin-2.0.1.dist-info/entry_points.txt,sha256=rL5kodM_Azf7kXk1ubDgCQEo0B3KFLnnw3DmoGqIxaw,110
+apache_airflow_providers_apache_kylin-2.0.1.dist-info/top_level.txt,sha256=OeMVH5md7fr2QQWpnZoOWWxWO-0WH1IP70lpTVwopPg,8
+apache_airflow_providers_apache_kylin-2.0.1.dist-info/RECORD,,
