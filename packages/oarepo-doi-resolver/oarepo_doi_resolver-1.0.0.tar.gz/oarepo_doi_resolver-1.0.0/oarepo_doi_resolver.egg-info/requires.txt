@@ -1,0 +1,9 @@
+crossrefapi
+
+[build]
+oarepo-model-builder
+
+[tests]
+oarepo-validate
+crossrefapi
+oarepo[tests]
