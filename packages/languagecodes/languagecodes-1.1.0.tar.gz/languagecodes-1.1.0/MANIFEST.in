@@ -1,0 +1,4 @@
+include README.md
+include LICENSE
+include languagecodes/py.typed
+include languagecodes/iso-639-3.tab
