@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+src/dude/__init__.py
+src/dude/smack_talker.py
+src/smack_talker_pkg_msmith_pdc.egg-info/PKG-INFO
+src/smack_talker_pkg_msmith_pdc.egg-info/SOURCES.txt
+src/smack_talker_pkg_msmith_pdc.egg-info/dependency_links.txt
+src/smack_talker_pkg_msmith_pdc.egg-info/requires.txt
+src/smack_talker_pkg_msmith_pdc.egg-info/top_level.txt
