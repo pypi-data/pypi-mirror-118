@@ -1,0 +1,1 @@
+from weathergen import generateweathergen.generate(site='chajnantor',t=0)weathergen.generate(site='south_pole',t=0)
