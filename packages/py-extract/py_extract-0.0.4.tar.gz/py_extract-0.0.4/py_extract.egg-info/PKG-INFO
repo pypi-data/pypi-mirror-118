@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: py-extract
+Version: 0.0.4
+Summary: Py_extract is a simple, light-weight python library to handle some extraction tasks using less lines of code.
+Home-page: https://github.com/Itz-fork/py-extract
+Author: Itz-fork
+Author-email: itz-fork@users.noreply.github.com
+License: MIT
+Download-URL: https://github.com/Itz-fork/py-extract
+Description: # py_extract
+        Py_extract is a simple, light-weight python library to handle some extraction tasks using less lines of code.
+        **Still in Development Stage!**
+        
+        ## Installation 🎛,
+        
+        ***Using [Pypi](https://pypi.org/project/py-extract)***
+        ```
+        pip install py-extract
+        ```
+        
+        # Features,
+        - Get Video metadata (data will returns as json)
+        - Extract Audio(s) from a video
+        - Extract Subtitle(s) from a video
+        
+        Only This for now, more features coming soon 😉...
+        
+        # Docs
+        You can find the official docs and code snippets [here](https://pyextract.netlify.app/)
+        
+        # License
+        [py_extract](https://github.com/Itz-fork/py-extract) is licensed under MIT License
+        
+        Copyright ©️ 2021 - [Itz-fork](https://github.com/Itz-fork)
+        
+Keywords: python,extract,py-extract
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Multimedia
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
