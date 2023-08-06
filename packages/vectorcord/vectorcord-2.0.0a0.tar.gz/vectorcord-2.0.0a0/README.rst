@@ -1,0 +1,118 @@
+VectorCord - a discord.py alternative
+=====================================
+
+|Discord| |PYPI Version|
+
+A modern, easy to use, feature-rich, and async ready API wrapper for Discord written in Python.
+
+The Future of discord.py
+--------------------------
+
+Please read the `gist <https://gist.github.com/Rapptz/4a2f62751b9600a31a0d3c78100287f1>`_ for the future of this project. It's been a good one.
+
+Key Features
+-------------
+
+- Modern Pythonic API using ``async`` and ``await``.
+- Proper rate limit handling.
+- Optimised in both speed and memory.
+
+Installing
+----------
+
+**Python 3.8 or higher is required**
+
+To install the library without full voice support, you can just run the following command:
+
+.. code:: sh
+
+    # Linux/macOS
+    python3 -m pip install -U vectorcord
+
+    # Windows
+    py -3 -m pip install -U vectorcord
+
+Otherwise to get voice support you should run the following command:
+
+.. code:: sh
+
+    # Linux/macOS
+    python3 -m pip install -U "vectorcord[voice]"
+
+    # Windows
+    py -3 -m pip install -U vectorcord[voice]
+
+
+To install the development version, do the following:
+
+.. code:: sh
+
+    $ git clone https://github.com/DTS-11/VectorCord
+    $ cd VectorCord
+    $ python3 -m pip install -U .[voice]
+
+
+Optional Packages
+~~~~~~~~~~~~~~~~~~
+
+* `PyNaCl <https://pypi.org/project/PyNaCl/>`__ (for voice support)
+
+Please note that on Linux installing voice you must install the following packages via your favourite package manager (e.g. ``apt``, ``dnf``, etc) before running the above commands:
+
+* libffi-dev (or ``libffi-devel`` on some systems)
+* python-dev (e.g. ``python3.6-dev`` for Python 3.6)
+
+Quick Example
+--------------
+
+.. code:: py
+
+    import vectorcord
+
+    class MyClient(vectorcord.Client):
+        async def on_ready(self):
+            print('Logged on as', self.user)
+
+        async def on_message(self, message):
+            # don't respond to ourselves
+            if message.author == self.user:
+                return
+
+            if message.content == 'ping':
+                await message.channel.send('pong')
+
+    client = MyClient()
+    client.run('token')
+
+Bot Example
+~~~~~~~~~~~~~
+
+.. code:: py
+
+    import vectorcord
+    from vectorcord.ext import commands
+
+    bot = commands.Bot(command_prefix='>')
+
+    @bot.command()
+    async def ping(ctx):
+        await ctx.send('pong')
+
+    bot.run('token')
+
+You can find more examples in the examples directory.
+
+Links
+------
+
+- `Documentation <https://discordpy.readthedocs.io/en/latest/index.html>`_
+- `Our Discord Server <https://discord.gg/3hdjR7qKw6>`_
+- `Official Discord.py Server <https://discord.gg/dpy>`_
+- `Discord API <https://discord.gg/discord-api>`_
+
+
+
+.. |Discord| image:: https://img.shields.io/badge/chat-Discord-8c9eff?logo=discord&logoColor=ffffff
+   :target: https://discord.gg/3hdjR7qKw6
+.. |PYPI Version| image:: https://img.shields.io/pypi/v/discord.py.svg
+   :target: https://pypi.python.org/pypi/discord.py
