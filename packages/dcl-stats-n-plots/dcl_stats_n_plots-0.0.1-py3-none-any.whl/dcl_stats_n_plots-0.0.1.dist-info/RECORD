@@ -1,0 +1,13 @@
+dcl_stats_n_plots/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+dcl_stats_n_plots/_nbdev.py,sha256=1arEZLfsrd2w9_C-zMqIwqs9AYnGJ7HMZzrpjyQm_HI,1099
+dcl_stats_n_plots/annotations.py,sha256=AwJyddTNX0eYhumjGWEllkUiUJNt6biWELdZV0-1jBU,108
+dcl_stats_n_plots/downloads.py,sha256=VNq1gLcpxpZZNphv9tfHiWKz1L8SQW9XzA01I1FCqVk,106
+dcl_stats_n_plots/gui.py,sha256=JJvJvvZ8Kvfad1gg3mDhxbMJ68z5OeLPOTdsieVWVho,38155
+dcl_stats_n_plots/plots.py,sha256=dOBf2TkKgTJzUCq74s79fEB_qFtxRtLD5MluQ-bn14g,102
+dcl_stats_n_plots/stats.py,sha256=mERxM32YUMy09pA7d7Q4GbjAfoyTGl-i3biWP92asd4,5688
+dcl_stats_n_plots-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+dcl_stats_n_plots-0.0.1.dist-info/METADATA,sha256=jixiD7LQKhyXVZVtcDCtW9nCodGmppj0EhRLXsdPB5s,1094
+dcl_stats_n_plots-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+dcl_stats_n_plots-0.0.1.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+dcl_stats_n_plots-0.0.1.dist-info/top_level.txt,sha256=jiAcrT5Q4W122LKzOsBXYYRB-2du95xy0oZa_fBdcas,18
+dcl_stats_n_plots-0.0.1.dist-info/RECORD,,
