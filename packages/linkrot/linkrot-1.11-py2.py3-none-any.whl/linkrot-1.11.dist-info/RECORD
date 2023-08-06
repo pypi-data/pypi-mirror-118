@@ -1,0 +1,13 @@
+linkrot/__init__.py,sha256=c2YiS1Z6C5qxAlc-QGoPGUiwMM1VO0sr2ghshZUxJ7I,6448
+linkrot/backends.py,sha256=WsquheR0XnwaU2tMSaeO4tZdrMRGTtoCrePUt7qnEiQ,9855
+linkrot/cli.py,sha256=awiawd5hojccwuiweXz9HzU6ueC-JDybsS6DkKfnJu8,6713
+linkrot/colorprint.py,sha256=e1GXvsjUdGJF_iw-3apKs3yIhBXCB5yOQtizd1Zy3_I,433
+linkrot/downloader.py,sha256=VCu3SK0OBgzJDOHeKYpXHxHZLDCmJ0TE8oLZlKXR6TY,5099
+linkrot/exceptions.py,sha256=5TCbRPAdtTx9BB6v-yxx7WLmtVVr0h_emF3A1APyaU8,433
+linkrot/extractor.py,sha256=zYeJnfMdTOx7ZfzgqEieAi6amXYf6m_-ScoooHzJEnw,3275
+linkrot-1.11.dist-info/LICENSE,sha256=i_Yf8Fe33vM9NLaje3xlXcHaThA-YiGRuQFcYaI0SUA,1074
+linkrot-1.11.dist-info/METADATA,sha256=xpdV6PfjJ37iLyjDuQP4nspY7n2HaiH7Zhxk0T_LnbE,970
+linkrot-1.11.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+linkrot-1.11.dist-info/entry_points.txt,sha256=knvyQ8w6cSnQxt65Ah-UfCoL6nBrrZtlNuMDbmYaOKM,46
+linkrot-1.11.dist-info/top_level.txt,sha256=td1MbIeiCW-0tIYyAx2-1ylcm02cYYXkRhznGJyaZe4,8
+linkrot-1.11.dist-info/RECORD,,
