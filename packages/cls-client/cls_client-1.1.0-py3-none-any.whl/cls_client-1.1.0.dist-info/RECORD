@@ -1,0 +1,11 @@
+cls_client/__init__.py,sha256=-ec690rfJM5fy-3sffiAhjqhInNbwh3bgSSv_SZpjCs,53
+cls_client/client.py,sha256=hgkznK5FkSMsPevQ82T7UjpIOyIEcSzOQ1uFKlU2Xn8,2472
+cls_client/ffi/__init__.py,sha256=9UJuAWRa8TOa9h6T6bKI2m0cVx5CW37Onvr8fErTajU,2054
+cls_client/ffi/libs/cls_ffi.dll,sha256=xmoFM-OAiKA45KpyhGEQO6_q-FbLsGawZ_eMBRh4eaA,3588096
+cls_client/ffi/libs/libcls_ffi.dylib,sha256=QtrAqe3U9F3ziPl-pMgItk0x0co2ytZpguyGC6UI3ww,4383472
+cls_client/ffi/libs/libcls_ffi.so,sha256=bziSy6rzdIE3ESDXD9_9ylsMS_HhMNeL5kGSvntY8Ek,8306752
+cls_client/ffi/libs/libcls_ffi_arm64.dylib,sha256=L9E3NTSKsi6BNjzvm4qnzaONl6dGlxl0y5MlT4yHGks,4268413
+cls_client-1.1.0.dist-info/LICENSE,sha256=ZASezOXy6Yt2lceBfb3EKaYcRc28OW5PyHYzXt1UV1g,1065
+cls_client-1.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+cls_client-1.1.0.dist-info/METADATA,sha256=EGLTvSTuaMpYjEkxFjYot4W82VcsqARIZt8vEDRzTX4,421
+cls_client-1.1.0.dist-info/RECORD,,
