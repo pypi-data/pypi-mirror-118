@@ -1,0 +1,1 @@
+from dot_product.numpydot import DotProduct
