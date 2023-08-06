@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+tes_reader/__init__.py
+tes_reader/record_types.py
+tes_reader.egg-info/PKG-INFO
+tes_reader.egg-info/SOURCES.txt
+tes_reader.egg-info/dependency_links.txt
+tes_reader.egg-info/top_level.txt
