@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+windbreads/__init__.py
+windbreads/auto.py
+windbreads/common_i18n.py
+windbreads/security.py
+windbreads/utils.py
+windbreads.egg-info/PKG-INFO
+windbreads.egg-info/SOURCES.txt
+windbreads.egg-info/dependency_links.txt
+windbreads.egg-info/not-zip-safe
+windbreads.egg-info/requires.txt
+windbreads.egg-info/top_level.txt
