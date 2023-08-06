@@ -1,0 +1,10 @@
+pyzstd/__init__.py,sha256=lRSupNcmdVqCzMQkHD0yflem0HT0K29DgGFvH0cLxpA,21134
+pyzstd/__init__.pyi,sha256=WR5mzeAEH7M0z_Pxcy_682i77MXJ1kM47002kQdiaiU,6607
+pyzstd/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyzstd/cffi/_cffi_zstd.pypy37-pp73-win_amd64.pyd,sha256=_Duyd5A2R1x5MDV3Xq_SZXDYELuU4y4EkUkgYAACyAI,702464
+pyzstd/cffi/cffi_pyzstd.py,sha256=iHpLwEkmWUrrkMZ6bEjijOrljWt0c_Q1cSAWKZqQJ2g,64294
+pyzstd-0.15.0.dist-info/LICENSE,sha256=y5Cq45plzYbkP0wvi2bUcBhhY5kaaNw3hvdJhIO_ee4,1551
+pyzstd-0.15.0.dist-info/METADATA,sha256=W921CCoilN4UjCC6J8CKEXSFRAqcWX7Hso_GBSDCUJ8,3836
+pyzstd-0.15.0.dist-info/WHEEL,sha256=IMZcce0atAVPlj1w-puqXogC0zumju_chJgWgqglyVI,107
+pyzstd-0.15.0.dist-info/top_level.txt,sha256=9Sl3x1CXrPdyG5muunGLOQpJEbiwW6WW8Y46nZMgWsE,7
+pyzstd-0.15.0.dist-info/RECORD,,
