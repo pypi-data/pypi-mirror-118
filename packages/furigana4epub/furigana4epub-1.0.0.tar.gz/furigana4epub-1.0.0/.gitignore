@@ -1,0 +1,12 @@
+*.swp
+*.pyc
+*.xhtml
+*.epub
+__pycache__
+converted/
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+*~
