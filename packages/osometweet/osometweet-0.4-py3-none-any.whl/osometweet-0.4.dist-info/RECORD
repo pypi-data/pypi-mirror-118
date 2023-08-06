@@ -1,0 +1,13 @@
+osometweet/__init__.py,sha256=dZF78m4GuW4BXGdlQgIoAZZhvZD4LSn8lz3v0ndswLU,264
+osometweet/api.py,sha256=jY6Gbie_HAdJgzr2O3RZi80OabHa6qN8iolPRw1HxP4,42756
+osometweet/expansions.py,sha256=C7bo07qBOtFn7D62CkuDMMrntR-nAou2d0d84xHoYzI,2924
+osometweet/fields.py,sha256=ZL6IL_2r6bOr4qVuTyAnBO3h2AZeW0Gb4bt7mhsLYU8,12323
+osometweet/oauth.py,sha256=7ME5G6SR4kmmSsLNeEvFsbyANxw7Zrnp63UEiWgkHZA,8389
+osometweet/rate_limit_manager.py,sha256=7D4o0pone5wTOF_ZHt85mNPVUVelPZL4rPK9RgJ2Reo,6519
+osometweet/utils.py,sha256=MxzGW1zlLJC20F8LZaLoxAbCCsOcSWCy-599moJt9Uw,5117
+osometweet/wrangle.py,sha256=EqE0VFzqAK0lQpWN58sl4euAwvhxwtjXEBgOGifxrzU,5302
+osometweet-0.4.dist-info/LICENSE,sha256=3YMDJDgpw5lMQOqIHNyS9F-WMcvLAuWV5ugzmAerrJs,1067
+osometweet-0.4.dist-info/METADATA,sha256=AUbj7opjeHe5xB6GXEln1jzFHgC5qyq0XEtItSekJKE,5294
+osometweet-0.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+osometweet-0.4.dist-info/top_level.txt,sha256=N0mZMfkud7QMlct8jAXYpPKZQ_w1lC3ajD3CuXsEcRs,11
+osometweet-0.4.dist-info/RECORD,,
