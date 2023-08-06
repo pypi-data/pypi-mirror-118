@@ -1,0 +1,31 @@
+type: dict
+description: pistar配置文件格式
+properties:
+    loggers:
+        type: dict
+        description: pistar日志配置集合
+        required: true
+        properties:
+            user:
+                type: dict
+                description: user 日志配置
+                required: true
+                properties:
+                    format:
+                        type: str
+                        description: 日志输出格式
+                        required: true
+                    level:
+                        type: str
+                        description: 日志最低输出级别
+                        required: true
+                        enumeration:
+                            - info
+                            - debug
+                            - warning
+                            - error
+                            - critical
+                    name:
+                        type: str
+                        description: 日志名称
+                        required: true

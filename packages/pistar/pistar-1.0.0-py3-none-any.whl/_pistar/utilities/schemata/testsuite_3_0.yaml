@@ -1,0 +1,100 @@
+type: dict
+description: 测试套 3.0 版格式定义.
+properties:
+    version:
+        type: str
+        description: 测试套版本号.
+        required: true
+        enumeration:
+            - v3.0
+    testcases:
+        type: list
+        description: 测试用例路径列表.
+        required: true
+        items:
+            type: str
+            description: 测试用例路径, 相对路径, 相对于 `workspace` 字段. 支持通配符, 以及递归遍历.
+            examples:
+                - testcases/**/*.py
+                - testcases/deployment/Deployment.py
+    tags:
+        type: str
+        description: 测试用例标签的逻辑表达式, 如果某测试用例的标签可以是该表达式的值为 `true`, 则会执行该用例, 否则不执行该用例.
+        examples:
+            - "! ignore"
+            - "true"
+            - "gtr_python & (environment | !repository)"
+        required: false
+    workspace:
+        type: str
+        description: 测试用例执行的工作目录, 相对路径, 相对于测试套文件所在目录.
+        required: true
+        examples:
+            - .
+            - ..
+    processors:
+        type: int
+        description: 测试套并发时的进程数量.
+        assertion: "lambda x: x > 0"
+        required: false
+        examples:
+            - 1
+            - 10
+            - 100
+    duration:
+        type: dict
+        description: 测试套执行的时间.
+        properties:
+            seconds:
+                type: int
+                description: 执行时间的秒数.
+                required: false
+            mimutes:
+                type: int
+                description: 执行时间的分钟数.
+                required: false
+            hours:
+                type: int
+                description: 执行时间的小时数.
+                required: false
+        required: false
+    environments:
+        type: list
+        description: 环境列表.
+        required: false
+        items:
+            type: dict
+            description: 环境详细信息.
+            required: true
+            properties:
+                name:
+                    type: str
+                    description: 环境名称.
+                    required: true
+                devices:
+                    type: list
+                    description: 环境中的设备列表.
+                    required: true
+                    items:
+                        type: dict
+                        required: true
+                        description: 设备属性前置标签
+                        properties:
+                            parameters:
+                                type: dict
+                                required: true
+                                description: 设备属性
+                deployment:
+                    type:
+                        - str
+                        - type(None)
+                    description: 环境部署脚本路径, 相对路径, 相对于 `workspace` 字段. 如果不配置该字段, 则不会运行部署脚本.
+                    required: false
+    output_directory:
+        type: str
+        description: 测试套输出文件夹, 相对路径, 相对于 `workspace` 字段. 该字段会被命令行的 `-o` 参数覆盖.
+        required: true
+    extension:
+        type: any
+        description: 用户扩展字段, 用户在用例中通过 `__testsuite__['extension']` 可以获得该字段.
+        required: false

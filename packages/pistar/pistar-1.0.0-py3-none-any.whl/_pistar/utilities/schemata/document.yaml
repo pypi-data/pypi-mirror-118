@@ -1,0 +1,60 @@
+type: dict
+description: 文本用例格式规范
+properties:
+    description:
+        type: str
+        description: 用例描述文本
+        required: true
+    version:
+        type: str
+        description: 用例版本号
+        required: true
+    author:
+        type: str
+        description: 用例作者
+        required: true
+    preconditions:
+        type: list
+        description: 用例的预置条件列表
+        required: true
+        items:
+            type: str
+            description: 用例的预置条件描述
+    steps:
+        type: list
+        description: 用例的测试步骤列表
+        required: true
+        items:
+            type: str
+            description: 用例的测试步骤描述
+    results:
+        type: list
+        description: 用例的期望输出列表
+        required: true
+        items:
+            type: str
+            description: 用例的期望输出描述
+    modify_records:
+        type: list
+        description: 用例的修订历史列表
+        required: true
+        items:
+            type: str
+            description: 用例的修订历史描述
+    tags:
+        type: list
+        description: 用例的标签列表
+        required: true
+        items:
+            type: str
+            description: 用例的标签
+    status:
+        type: str
+        description: 用例的状态
+        required: true
+        enumeration:
+            - enable    # 表示用例可用
+            - disable   # 表示用例不可用
+            - deprecate # 表示用例被废弃
+            - design    # 表示用例正在设计中
+            - repair    # 表示用例正在修复中

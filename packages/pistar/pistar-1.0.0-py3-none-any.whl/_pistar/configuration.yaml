@@ -1,0 +1,5 @@
+loggers:
+    user:
+        format: "[%(asctime)s] [%(levelname)s] [%(pathname)s:%(lineno)d]\n%(message)s"
+        level: debug
+        name: name
