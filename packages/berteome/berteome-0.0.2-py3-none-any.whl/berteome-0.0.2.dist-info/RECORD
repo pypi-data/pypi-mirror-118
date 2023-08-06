@@ -1,0 +1,10 @@
+berteome/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+berteome/_nbdev.py,sha256=ihhw45t9jAv35scA6lzKIER6w9RWJMcppWX2qIYMoiE,803
+berteome/berteome.py,sha256=L-ZdiYrsz8kXB-PTs1NFqes41Xwg-sCbwvmXyNKGgPw,3606
+berteome/core.py,sha256=pl36ovbCL0AAN37BWRbNY9hjOg_9W2opvamH3PDTqCg,3445
+berteome-0.0.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+berteome-0.0.2.dist-info/METADATA,sha256=rdTIrgNoI5wkX4byAI1tL8SMEP-VkpUgW59eFRVjLoo,30288
+berteome-0.0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+berteome-0.0.2.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+berteome-0.0.2.dist-info/top_level.txt,sha256=qGI_AbhmGxKfn5aJpflmTZCL3cAHPgkQbZEM35lluy0,9
+berteome-0.0.2.dist-info/RECORD,,
