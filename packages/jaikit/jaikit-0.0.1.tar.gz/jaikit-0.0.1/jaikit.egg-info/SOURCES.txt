@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+jaikit/__init__.py
+jaikit.egg-info/PKG-INFO
+jaikit.egg-info/SOURCES.txt
+jaikit.egg-info/dependency_links.txt
+jaikit.egg-info/not-zip-safe
+jaikit.egg-info/top_level.txt
+jaikit/datascience/__init__.py
+jaikit/datascience/one_hot.py
+jaikit/datascience/plot.py
