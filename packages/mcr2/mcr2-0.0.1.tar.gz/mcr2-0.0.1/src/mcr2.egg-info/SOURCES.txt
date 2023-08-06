@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/mcr2/__init__.py
+src/mcr2/_computation_primitives.py
+src/mcr2/_invariance.py
+src/mcr2/_validity.py
+src/mcr2/supervised.py
+src/mcr2.egg-info/PKG-INFO
+src/mcr2.egg-info/SOURCES.txt
+src/mcr2.egg-info/dependency_links.txt
+src/mcr2.egg-info/top_level.txt
