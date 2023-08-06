@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: myHalo
+Version: 1.0.3
+Summary: print halo
+Home-page: https://pypi.org/project/myHalo/
+Author: Hongson Tian
+Author-email: hongsontian@zego.im
+License: UNKNOWN
+Description: mytest to print halo
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent

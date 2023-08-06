@@ -1,0 +1,3 @@
+[console_scripts]
+print_halo = printHallo:main
+
