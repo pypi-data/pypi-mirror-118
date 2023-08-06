@@ -1,0 +1,14 @@
+aws_lambda_client/__init__.py,sha256=T3MsRKiAgSqAzsvZYoluW7nOvnW20TZC1Sr3qnhQkN8,50
+aws_lambda_client/api_creator.py,sha256=9VbBt_xe1EwRVtc8-WeqvXzOpmXa5hyH5mE2_bd9BZ8,3097
+aws_lambda_client/aws_auth.py,sha256=VGxr0Vj_29IFnQ7jLhFMabsTscLgf5ViI4I9IRgkTVo,10100
+aws_lambda_client/client.py,sha256=iubYmZPf5xcuJ9JS75CaNyy0xBIPN7g4HgMFJOworXQ,3414
+aws_lambda_client/constants.py,sha256=EGf05LElxVleout7GuPuj0LrYLmquXsWykhGcVbtfIU,252
+aws_lambda_client/requester.py,sha256=jwThUlXqAxvSH5fWgOnrW4fSeKDitectyLWw3fZusB8,1862
+aws_lambda_client/data/endpoints.json,sha256=y4Q-UvW48LkAaggAvDAyUfS-7dct0PVcH8PoPMh1M78,6909
+aws_lambda_client/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aws_lambda_client/models/arn.py,sha256=pgkYjBvY8vs_KtCBlILLY7I8FLwpfKVtjQm0aZK4hYI,1843
+aws_lambda_client-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+aws_lambda_client-0.1.0.dist-info/METADATA,sha256=Q77iqNr4DVxSAytHZLZin4b6MPN4h-R6hRPyAXAKon8,483
+aws_lambda_client-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+aws_lambda_client-0.1.0.dist-info/top_level.txt,sha256=GfAboPMuxKt3QLj_2t0I5tPCNSpOLpGL4cig3T5tc_0,18
+aws_lambda_client-0.1.0.dist-info/RECORD,,

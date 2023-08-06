@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: aws-lambda-client
+Version: 0.1.0
+Summary: Lambda client on simple http requests
+Home-page: https://github.com/AnupamJuniwal/aws-lambda-client
+Author: AnupamJuniwal
+License: GNU General Public License v3.0
+Project-URL: Documentation, https://github.com/AnupamJuniwal/aws-lambda-client
+Project-URL: Source, https://github.com/AnupamJuniwal/aws-lambda-client
+Platform: UNKNOWN
+Requires-Dist: requests
+
+# aws-lambda-client
+A simple AWS Lambda python client
+
+
