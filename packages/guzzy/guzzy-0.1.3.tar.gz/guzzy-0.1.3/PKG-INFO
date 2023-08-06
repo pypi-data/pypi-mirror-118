@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: guzzy
+Version: 0.1.3
+Summary: Interactive CLI git client inside fzf.
+Home-page: https://github.com/samedamci/guzzy
+License: ISC
+Keywords: git,fzf
+Author: samedamci
+Author-email: samedamci@disroot.org
+Requires-Python: >=3.6,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved
+Classifier: License :: OSI Approved :: ISC License (ISCL)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Unix Shell
+Classifier: Topic :: Software Development :: Version Control
+Classifier: Topic :: Utilities
+Project-URL: Repository, https://github.com/samedamci/guzzy
