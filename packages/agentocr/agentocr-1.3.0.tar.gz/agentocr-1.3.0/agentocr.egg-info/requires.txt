@@ -1,0 +1,8 @@
+wget
+numpy
+flask
+gevent
+pillow
+shapely
+pyclipper
+opencv-python
