@@ -1,0 +1,9 @@
+requests
+importlib
+yagmail>=0.14.260
+tabulate>=0.8.9
+beautifulsoup4
+urllib3
+
+[:platform_system == "Windows"]
+pywin32
