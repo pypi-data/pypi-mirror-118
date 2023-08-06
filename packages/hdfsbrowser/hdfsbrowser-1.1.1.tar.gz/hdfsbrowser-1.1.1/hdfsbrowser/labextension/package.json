@@ -1,0 +1,88 @@
+{
+  "name": "@swan-cern/hdfsbrowser",
+  "version": "1.1.1",
+  "description": "Jupyterlab extension to browse HDFS filesystem",
+  "keywords": [
+    "jupyter",
+    "jupyterlab",
+    "jupyterlab-extension",
+    "SWAN",
+    "CERN"
+  ],
+  "homepage": "https://github.com/swan-cern/jupyter-extensions",
+  "bugs": {
+    "url": "https://github.com/swan-cern/jupyter-extensions/issues"
+  },
+  "license": "AGPL-3.0",
+  "author": "SWAN Admins",
+  "files": [
+    "lib/**/*.{d.ts,eot,gif,html,jpg,js,js.map,json,png,svg,woff2,ttf}",
+    "style/**/*.{css,eot,gif,html,jpg,json,png,svg,woff2,ttf}"
+  ],
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "style": "style/index.css",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/swan-cern/jupyter-extensions.git",
+    "directory": "HdfsBrowser"
+  },
+  "scripts": {
+    "build": "jlpm run build:lib && jlpm run build:labextension:dev",
+    "build:prod": "jlpm run clean && jlpm run build:lib && jlpm run build:labextension && jlpm run build:nbextension",
+    "build:labextension": "jupyter labextension build .",
+    "build:labextension:dev": "jupyter labextension build --development True .",
+    "build:nbextension": "yarn --cwd nbextension build",
+    "build:lib": "tsc",
+    "build:all": "jlpm run build:labextension && jlpm run build:nbextension",
+    "clean": "jlpm run clean:lib",
+    "clean:lib": "rimraf lib tsconfig.tsbuildinfo",
+    "clean:labextension": "rimraf hdfsbrowser/labextension",
+    "clean:nbextension": "rimraf hdfsbrowser/nbextension",
+    "clean:all": "jlpm run clean:lib && jlpm run clean:labextension && jlpm run clean:nbextension",
+    "eslint": "eslint . --ext .ts,.tsx --fix",
+    "eslint:check": "eslint . --ext .ts,.tsx",
+    "watch": "run-p watch:src watch:labextension",
+    "watch:src": "tsc -w",
+    "watch:labextension": "jupyter labextension watch .",
+    "install:all": "jlpm install && yarn --cwd nbextension install",
+    "removeall": "rimraf nbextension/node_modules && rimraf node_modules"
+  },
+  "dependencies": {
+    "@jupyterlab/application": "^3.0.11",
+    "@jupyterlab/mainmenu": "^3.0.9",
+    "@lumino/widgets": "^1.23.0"
+  },
+  "devDependencies": {
+    "@jupyterlab/builder": "^3.1.7",
+    "@typescript-eslint/eslint-plugin": "^4.25.0",
+    "@typescript-eslint/parser": "^4.25.0",
+    "eslint": "^7.27.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "mkdirp": "^1.0.3",
+    "npm-run-all": "^4.1.5",
+    "prettier": "2.3.0",
+    "rimraf": "^3.0.2",
+    "typescript": "~4.2.4"
+  },
+  "jupyterlab": {
+    "discovery": {
+      "server": {
+        "managers": [
+          "pip"
+        ],
+        "base": {
+          "name": "hdfsbrowser"
+        }
+      }
+    },
+    "extension": true,
+    "outputDir": "hdfsbrowser/labextension",
+    "_build": {
+      "load": "static/remoteEntry.d9f2f7022b5c297bbef6.js",
+      "extension": "./extension",
+      "style": "./style"
+    }
+  }
+}
