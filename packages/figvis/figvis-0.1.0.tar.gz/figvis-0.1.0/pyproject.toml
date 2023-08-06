@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "figvis"
+version = "0.1.0"
+description = "Figment Visualization is a framework to visualize data using templates"
+authors = ["Umesh Mohan <moh@nume.sh>"]
+repository = "https://gitlab.com/u-m/figvis"
+documentation = "https://u-m.gitlab.io/figvis/"
+homepage = "https://u-m.gitlab.io/figvis/"
+readme = "README.rst"
+
+[tool.poetry.scripts]
+figvis = "figvis.cli.main:app"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.11"
+typer = "^0.3.2"
+Jinja2 = "^3.0.1"
+selenium = ">=4.0.0.b4"
+lxml = "^4.6.3"
+numpy = "^1.21.2"
+h5py = "^3.4.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

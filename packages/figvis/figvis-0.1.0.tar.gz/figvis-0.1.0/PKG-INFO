@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: figvis
+Version: 0.1.0
+Summary: Figment Visualization is a framework to visualize data using templates
+Home-page: https://u-m.gitlab.io/figvis/
+Author: Umesh Mohan
+Author-email: moh@nume.sh
+Requires-Python: >=3.9,<3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Jinja2 (>=3.0.1,<4.0.0)
+Requires-Dist: h5py (>=3.4.0,<4.0.0)
+Requires-Dist: lxml (>=4.6.3,<5.0.0)
+Requires-Dist: numpy (>=1.21.2,<2.0.0)
+Requires-Dist: selenium (>=4.0.0.b4)
+Requires-Dist: typer (>=0.3.2,<0.4.0)
+Project-URL: Documentation, https://u-m.gitlab.io/figvis/
+Project-URL: Repository, https://gitlab.com/u-m/figvis
+Description-Content-Type: text/x-rst
+
+figvis
+======
+
+Figment Visualization is a framework to visualize data using templates
+
+Requirements
+++++++++++++
+
+Installation
+++++++++++++
+
+Usage
++++++
+
+Command line
+------------
+
+Programmatic
+------------
+
+Example
+-------
