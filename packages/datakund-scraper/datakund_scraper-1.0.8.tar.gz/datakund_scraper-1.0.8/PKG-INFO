@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: datakund_scraper
+Version: 1.0.8
+Summary: Web Scraping Library
+Home-page: UNKNOWN
+Author: DataKund
+Author-email: datakund@gmail.com
+License: Apache License 2.0
+Description: DataKund Scraper is a library that makes it easy to scrape information from any HTML page. You don't have to inspect any web elements to find tags, xpath id etc.
+        It learns from the data given by you & builds a scraper. Then you can use it to get JSON data out of the HTML.
+        
+        
+        ### Run Scraper
+        We run scraper by passing url. This gives us JSON data in return.
+        ```sh
+        from datakund_scraper import *
+        link='https://pypi.org/search/?q=firebase'
+        response=scraper.scrape(url=link)
+        #response={"Results":[{"title":"","link":""},...]}
+        ```
+        
+        ### Examples
+        Below are some of the examples of links using which you can run autoscraper:-
+        1. Pypi Search Results [https://pypi.org/search/?q=firebase]
+        2. Amazon Search Results [https://www.amazon.com/s?k=shoes&ref=nb_sb_noss]
+        3. Wordpress Themes [https://wordpress.org/themes/search/green/]
+        4. PlayStore Apps [https://play.google.com/store/search?q=war&c=apps]
+        5. GoFundMe Results [https://www.gofundme.com/s?q=help]
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
