@@ -1,0 +1,9 @@
+{
+  "remotes": [
+    "zotac@10.6.6.1",
+    "zotac@10.5.5.1",
+    "troun@sg1.cern.ch"
+  ],
+  "log-directory": "/home/troun/Desktop/zotac/bags",
+  "disk-name": "/dev/nvme0n1p2"
+}
