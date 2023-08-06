@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+examples/app.py
+src/BottleJwtAuth.egg-info/PKG-INFO
+src/BottleJwtAuth.egg-info/SOURCES.txt
+src/BottleJwtAuth.egg-info/dependency_links.txt
+src/BottleJwtAuth.egg-info/requires.txt
+src/BottleJwtAuth.egg-info/top_level.txt
+src/JwtAuth/JWKS.py
+src/JwtAuth/__init__.py
+src/JwtAuth/bottle_utils.py
+src/JwtAuth/jwtAuth.py

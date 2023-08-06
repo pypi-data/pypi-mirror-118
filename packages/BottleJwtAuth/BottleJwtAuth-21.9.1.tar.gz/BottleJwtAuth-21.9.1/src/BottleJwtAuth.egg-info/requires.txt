@@ -1,0 +1,2 @@
+JwtEncoder>=21.8
+bottle>=0.12.0
