@@ -1,0 +1,9 @@
+README.md
+setup.py
+grok/__init__.py
+grok/grok.py
+python_grok.egg-info/PKG-INFO
+python_grok.egg-info/SOURCES.txt
+python_grok.egg-info/dependency_links.txt
+python_grok.egg-info/requires.txt
+python_grok.egg-info/top_level.txt
