@@ -1,0 +1,12 @@
+LICENSE,sha256=24Il-u2bolFdiL-wy-J2adni8Qwml4tdxiMm3wbbyvc,1071
+outlookcalendarsyncer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+outlookcalendarsyncer/application.py,sha256=lG7xMDCoLiLD919ebe88inGuV3smvW3bPFpNYSi2CqQ,6082
+outlookcalendarsyncer/configuration.py,sha256=uA7YBQsOKtHsp3JYXemyPi-LxSvGlDA2dAFdWK_S88M,3505
+outlookcalendarsyncer/loggingutils.py,sha256=zFQsaTxlHVbsnZb9kkI_83GWEHyHh4yctjZ90jmJs6w,1429
+outlookcalendarsyncer/outlook.py,sha256=ehlyWfdCDRKHuzDygV6RX9u9DCEDnL1ZMnWNqV8MTGw,7305
+outlookcalendarsyncer/synchronizer.py,sha256=DNNZuE9jM80j6Zxqzh4LV9l1Mhb8entq4X4FEOVsMkA,4095
+outlookcalendarsyncer-0.1.0.dist-info/entry_points.txt,sha256=P_p_6IKqG8Z6OT8icvHPIm3MiR1fsEL5aSTjDd4jcyw,80
+outlookcalendarsyncer-0.1.0.dist-info/LICENSE,sha256=24Il-u2bolFdiL-wy-J2adni8Qwml4tdxiMm3wbbyvc,1071
+outlookcalendarsyncer-0.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+outlookcalendarsyncer-0.1.0.dist-info/METADATA,sha256=N9ksxRuiZ2OhbfBDmsLAoNWMHN2zhaVsE52Ru17NvUQ,1279
+outlookcalendarsyncer-0.1.0.dist-info/RECORD,,

@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: outlookcalendarsyncer
+Version: 0.1.0
+Summary: 
+Home-page: https://github.com/MattiooFR/package_name
+License: MIT
+Author: Alnen
+Author-email: uzhegov37@yahoo.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: O365 (>=2.0.15,<3.0.0)
+Requires-Dist: dataclasses-json (>=0.5.5,<0.6.0)
+Requires-Dist: tzlocal (==2.1)
+Project-URL: Repository, https://github.com/Alnen/OutlookCalendarSyncer
+Description-Content-Type: text/markdown
+
+# OutlookCalendarSyncer
+
+## How to setup dev environment
+
+### Prerequisites
+
+Following software is required to run spark application:
+
+* Python 3
+* [Poetry](https://python-poetry.org)
+* [Pyenv](https://github.com/pyenv/pyenv)
+
+### Run
+
+```shell
+# Install required python version
+$ pyenv install 3.9.6
+
+# Binding required python version to this directory
+$ pyenv local 3.9.6
+
+# Install poetry
+$ pip3 install poetry
+
+# Resolve dependencies
+$ poetry install
+
+# Check - all tests should pass
+$ poetry run pytest
+
+# Sync configured 
+$ poetry run python -m outlookcalendarsyncer
+```
+
+## How to build package
+
+```shell
+$ poetry build
+```
+
+## How to test
+
+```shell
+$ poetry run pytest
+```
+
