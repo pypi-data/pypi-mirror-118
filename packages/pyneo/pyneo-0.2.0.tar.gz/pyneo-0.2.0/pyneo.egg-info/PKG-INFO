@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: pyneo
+Version: 0.2.0
+Summary: NLP text processing toolkit for Deep Learning
+Home-page: https://github.com/Jasonsey/Fern
+Author: Jason, Lin
+Author-email: jason.m.lin@outlook.com
+License: Apache 2.0
+Description: # PyNeo
+        
+        neo4j python接口插件
+        
+        ## TODO
+        
+        subgraph:
+        
+        - [ ] 支持在本地清理所有重复单元
+        - [ ] 允许通过声明, 某些成员不能被消除重复
+        - [ ] 通过subgraph生成完整的cql代码
+        
+        relationship:
+        
+        - [ ] 支持关系新标签的创建去重
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
