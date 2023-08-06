@@ -1,0 +1,5 @@
+setup(
+    package_data={
+        "": ["*.txt", "*.config"]
+        }
+)

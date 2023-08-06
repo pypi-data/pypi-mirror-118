@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+SubScan/SubScan_color.config
+SubScan/__init__ .py
+SubScan/dl.txt
+SubScan.egg-info/PKG-INFO
+SubScan.egg-info/SOURCES.txt
+SubScan.egg-info/dependency_links.txt
+SubScan.egg-info/requires.txt
+SubScan.egg-info/top_level.txt
