@@ -1,0 +1,8 @@
+aio/functional/__init__.py,sha256=Hup-SOYpracq9Aji0xj8Pa31IK_kzHpo-sCHiDSfSqg,73
+aio/functional/decorators.py,sha256=Dzqqup8tpAcu2uS7k_w97A6Ry6IGmaQJD7lhQwxbt8c,2871
+aio/functional/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_functional.py,sha256=Z9qn_fB91tpHIcNu0LRjckHaba0Jr0yxM-z2FK4gSFE,3982
+aio.functional-0.0.7.dist-info/METADATA,sha256=KpZjmHmdaHdaB4323qH2qILPiUWP07yeLpng9-B330A,1430
+aio.functional-0.0.7.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+aio.functional-0.0.7.dist-info/top_level.txt,sha256=PplNn_Vwim_RlT_3AK-RPcB5SNHaSNk_8pNDPo8I7Wg,10
+aio.functional-0.0.7.dist-info/RECORD,,
