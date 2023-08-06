@@ -1,0 +1,17 @@
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+django3_preferences.egg-info/PKG-INFO
+django3_preferences.egg-info/SOURCES.txt
+django3_preferences.egg-info/dependency_links.txt
+django3_preferences.egg-info/requires.txt
+django3_preferences.egg-info/top_level.txt
+preferences/__init__.py
+preferences/admin.py
+preferences/context_processors.py
+preferences/managers.py
+preferences/models.py
+preferences/migrations/0001_initial.py
+preferences/migrations/__init__.py
