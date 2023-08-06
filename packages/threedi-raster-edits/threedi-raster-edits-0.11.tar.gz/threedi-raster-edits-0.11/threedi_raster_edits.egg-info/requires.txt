@@ -1,0 +1,7 @@
+
+[test]
+mock
+pytest
+pytest-black
+pytest-cov
+pytest-flakes
