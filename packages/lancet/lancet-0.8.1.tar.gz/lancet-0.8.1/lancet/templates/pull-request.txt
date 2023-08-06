@@ -1,0 +1,3 @@
+{{ issue.id }} – {{ issue.summary }}
+
+{{ issue.link }}

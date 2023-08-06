@@ -1,0 +1,15 @@
+attrs
+click
+git-url-parse
+github3.py
+Jinja2
+jira
+keyring
+keyrings.alt
+pygit2
+python-gitlab
+python-slugify
+requests
+sentry-sdk
+tabulate
+uritemplate.py

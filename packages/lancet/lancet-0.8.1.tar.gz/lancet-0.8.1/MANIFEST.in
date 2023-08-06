@@ -1,0 +1,12 @@
+include LICENSE
+include README.rst
+
+include lancet/default-settings.ini
+include lancet/helper.sh
+graft lancet/templates
+graft lancet/autocomplete
+
+exclude .coveragerc
+exclude .travis.yml
+
+prune docs
