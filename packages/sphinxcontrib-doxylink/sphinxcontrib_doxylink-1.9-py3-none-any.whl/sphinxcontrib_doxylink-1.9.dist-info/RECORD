@@ -1,0 +1,10 @@
+sphinxcontrib_doxylink-1.9-py3.6-nspkg.pth,sha256=bvCbvTDhKUCTNtrCbu6HVe8TsYC4G4-hRkXeHdEJ6t4,574
+sphinxcontrib/doxylink/__init__.py,sha256=7UWKLmwuaE2tO8_vrX3XRtuK1NmvjoTuHDvIvs3N938,189
+sphinxcontrib/doxylink/doxylink.py,sha256=SE44a1nKdHR1o-E6qUb3w2yZXq8ILYGgbcjKKxwA2s8,15375
+sphinxcontrib/doxylink/parsing.py,sha256=kKOWeFA229E4a7gEu2bMFJ8W4kGc2kEKZ2S9r1s6yo8,7164
+sphinxcontrib_doxylink-1.9.dist-info/LICENSE,sha256=yUPTkGWg5T23XvompM_Bt5RsyaTPuC1V302LjViXoj8,1318
+sphinxcontrib_doxylink-1.9.dist-info/METADATA,sha256=sN5IdlJG4jzryRtjY7PP1Pl4IQPmc1QEbP4FJv-Tj4Y,1412
+sphinxcontrib_doxylink-1.9.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+sphinxcontrib_doxylink-1.9.dist-info/namespace_packages.txt,sha256=VJrV3_vaiKQVgVpR0I1iecxoO0drzGu-M0j40PVP2QQ,14
+sphinxcontrib_doxylink-1.9.dist-info/top_level.txt,sha256=VJrV3_vaiKQVgVpR0I1iecxoO0drzGu-M0j40PVP2QQ,14
+sphinxcontrib_doxylink-1.9.dist-info/RECORD,,
