@@ -1,0 +1,5 @@
+pyaap
+tqdm
+gensim==3.8.3
+TakeSentenceTokenizer==1.0.1
+tensorboard
