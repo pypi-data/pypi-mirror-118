@@ -1,0 +1,2 @@
+borgbackup[fuse]==1.1.17
+python-dotenv>=0.17.1
