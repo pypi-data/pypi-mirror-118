@@ -1,0 +1,2 @@
+future-fstrings==1.2.0
+pyecore==0.12.1
