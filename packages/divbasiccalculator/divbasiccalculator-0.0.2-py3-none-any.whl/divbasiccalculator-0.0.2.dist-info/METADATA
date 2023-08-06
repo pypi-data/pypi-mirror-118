@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: divbasiccalculator
+Version: 0.0.2
+Summary: A very basic calculator
+Home-page: UNKNOWN
+Author: Divit Kanath
+Author-email: divitkanath@gmail.com
+License: MIT
+Keywords: calculator
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Unix
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+This is a basic calculator that either adds, subtracts, multiplies or divides 2 numbers.
+
+##Use case scenario
+~~
+import divbasiccalculator as dc
+
+dc.add(2, 3)
+dc.sub(2, 3)
+dc.mul(2, 3)
+dc.div(2, 3)
+~~
+
+Change Log
+*******************
+
+0.0.1 (2/9/21)
+---------------
+--First release
+
+0.0.2 (3/9/21)
+---------------
+--Fixed a few bugs that didn't allow successful pip installs
+
