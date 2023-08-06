@@ -1,0 +1,11 @@
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/main.py,sha256=dkFw_1m_MmjydRcYJKepwsGPsenBRPT7IMmTBhMTDLk,1146
+test/rq_push_job.py,sha256=ohuTqKkGan-oWZyl1yIN4no5YzhnFwDWIP3CtEJc6W4,1493
+test/sample_plugin.py,sha256=fWBl_D8VdhtXFMFVYtkz5_w1rleCeQIbTU4AtKFgIzc,1827
+vais_plugin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vais_plugin/plugin_config.py,sha256=4_llxRGIbFbm6EfVwIVFgAZqX_blu3xiKIqVijhHWG0,4177
+vais_plugin/plugin_skeleton.py,sha256=dClqYUFvRLOKYdwbZwlfrJ0NjADE2q-Nh0VRQUoazvc,15151
+vais_plug-0.2.6.dist-info/METADATA,sha256=x9BHQlMHm3uLFjF_WMVxE1VcztMcwDNXwd1H4hmUVpQ,2554
+vais_plug-0.2.6.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+vais_plug-0.2.6.dist-info/top_level.txt,sha256=tfgJKeM2kn286JjCUNgF0D3p8-Zssc9J4y6Zs2Zi1pc,17
+vais_plug-0.2.6.dist-info/RECORD,,
