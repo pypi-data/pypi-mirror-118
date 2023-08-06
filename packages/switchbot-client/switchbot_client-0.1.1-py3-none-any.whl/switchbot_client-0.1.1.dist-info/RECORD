@@ -1,0 +1,7 @@
+switchbot_client/__init__.py,sha256=0ZWPaiZyJmzQwIPj7Bqs6Nhc9_HYUEc5hjWO8rH0WfQ,127
+switchbot_client/client.py,sha256=m87VlxADH9F-3BokOpMhmtBAZmOGm_63LHcznr4FDTU,3690
+switchbot_client/devices.py,sha256=Y9cILuosByIhgBPdqBNBvBqDxiek45R3HHqXHNsodiY,7363
+switchbot_client/enums.py,sha256=K4Wj6GDGZYZCiDsmbWa07wlf5vLi975hXERcnSlmSec,1253
+switchbot_client-0.1.1.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+switchbot_client-0.1.1.dist-info/METADATA,sha256=NIn6poXlJK6ard3dWTSTCpCIzrcd_l-05Jghi5nKBiU,7568
+switchbot_client-0.1.1.dist-info/RECORD,,
