@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: hgate
+Version: 0.0.1
+Summary: Quamtum hadamard gate
+Home-page: UNKNOWN
+Author: Saumya
+Author-email: saumyasmhs@gmail.com
+License: UNKNOWN
+Description: A package to perform arithmetic operations
+Keywords: arithmetic,math,qml,hgate,saumya
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
