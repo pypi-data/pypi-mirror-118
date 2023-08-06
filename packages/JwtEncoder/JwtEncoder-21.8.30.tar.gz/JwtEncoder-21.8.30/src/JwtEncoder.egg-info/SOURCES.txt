@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/JwtEncoder/JWKS.py
+src/JwtEncoder/JwtEncoder.py
+src/JwtEncoder/__init__.py
+src/JwtEncoder.egg-info/PKG-INFO
+src/JwtEncoder.egg-info/SOURCES.txt
+src/JwtEncoder.egg-info/dependency_links.txt
+src/JwtEncoder.egg-info/requires.txt
+src/JwtEncoder.egg-info/top_level.txt
