@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: sanime
+Version: 0.1
+Summary: AniManga wrapper for Anime-Planet.
+Home-page: https://github.com/centipede000
+Author: Siddhant Kumar
+Author-email: centipedemonster@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.6
+License-File: LICENSE
+
+AniManga API wrapper for Anime-Planet.
+
