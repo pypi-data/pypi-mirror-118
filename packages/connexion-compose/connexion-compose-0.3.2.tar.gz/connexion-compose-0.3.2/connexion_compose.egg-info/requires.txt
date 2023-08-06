@@ -1,0 +1,6 @@
+attrs==21.2.0
+funcy==1.16
+jsonschema==3.2.0
+pyrsistent==0.18.0
+pyyaml==5.4.1
+six==1.16.0
