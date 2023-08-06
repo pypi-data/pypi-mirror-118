@@ -1,0 +1,10 @@
+appdirs
+configerus>=3.0.1
+pyyaml
+docker[tls]~=5.0.0
+kubernetes==18.20.0
+fire
+requests
+toml
+py3winrm
+paramiko
