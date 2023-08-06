@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: wpgui
+Version: 0.0.3
+Summary: test pip module, start a simple gui
+Home-page: https://beyond.3dnest.cn/
+Author: wp
+Author-email: wupengyu@3dnest.com
+License: MIT
+Keywords: pip,testpypi
+Platform: any
+
+test how to define pip module and upload to pypi, activate a simple gui
+

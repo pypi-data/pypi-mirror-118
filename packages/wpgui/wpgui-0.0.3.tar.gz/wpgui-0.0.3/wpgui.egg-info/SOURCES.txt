@@ -1,0 +1,10 @@
+README.md
+setup.py
+gui/__init__.py
+gui/gui1.py
+gui/main.py
+wpgui.egg-info/PKG-INFO
+wpgui.egg-info/SOURCES.txt
+wpgui.egg-info/dependency_links.txt
+wpgui.egg-info/requires.txt
+wpgui.egg-info/top_level.txt

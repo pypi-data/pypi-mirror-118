@@ -1,0 +1,1 @@
+test how to define pip module and upload to pypi, activate a simple gui
