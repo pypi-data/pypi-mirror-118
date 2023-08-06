@@ -1,0 +1,9 @@
+setup.py
+sqlitewrapper/__init__.py
+sqlitewrapper/databaseobjects.py
+sqlitewrapper/datatypes.py
+sqlitewrapper/errors.py
+sqlitewrapper.egg-info/PKG-INFO
+sqlitewrapper.egg-info/SOURCES.txt
+sqlitewrapper.egg-info/dependency_links.txt
+sqlitewrapper.egg-info/top_level.txt
