@@ -1,0 +1,5 @@
+elasticdeform~=0.4.9
+sentence-transformers~=2.0.0
+
+[dev]
+pytest>=3.7
