@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "donno"
+version = "1.0.1"
+description = "note-taking application in console"
+authors = ["Li Chao <clouds@isrc.iscas.ac.cn>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.10"
+fire = "^0.4.0"
+sh = "^1.14.2"
+PyYAML = "^5.4.1"
+
+[tool.poetry.dev-dependencies]
+ipython = "^7.24.1"
+ptpython = "^3.0.17"
+twine = "^3.4.1"
+pynvim = "^0.4.3"
+pytype = "^2021.6.17"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
