@@ -1,0 +1,10 @@
+setup.py
+k3mime/__init__.py
+k3mime/mime.py
+k3mime/setup.py
+k3mime/synopsis.py
+k3mime.egg-info/PKG-INFO
+k3mime.egg-info/SOURCES.txt
+k3mime.egg-info/dependency_links.txt
+k3mime.egg-info/requires.txt
+k3mime.egg-info/top_level.txt
