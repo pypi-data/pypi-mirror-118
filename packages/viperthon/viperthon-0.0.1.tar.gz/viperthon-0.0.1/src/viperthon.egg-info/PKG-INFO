@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: viperthon
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Swati Pandey
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# viperthon
+It will read different datafile and perform basic operation with just one click
+
+## Installation
+```pip install viperthon```
+
+## Example
+from viperthon import load
+load("D:\data science\ineuron\ML\ML\class\Admission_Prediction.csv")
+
+
+
+## License
+Â© 2021 Swati Pandey
+
+This repository is licensed under the MIT License.
+See LICENSE for details.
+
