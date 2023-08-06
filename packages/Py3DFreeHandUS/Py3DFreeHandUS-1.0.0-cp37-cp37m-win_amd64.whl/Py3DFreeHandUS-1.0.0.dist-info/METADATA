@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: Py3DFreeHandUS
+Version: 1.0.0
+Summary: Library for 3D free-hand ultrasonography
+Home-page: https://gitlab.com/u0078867/py3dfreehandus
+Author: u0078867
+Author-email: davide.monari@kuleuven.be
+License: MIT
+Platform: UNKNOWN
+
+See: https://gitlab.com/u0078867/py3dfreehandus
+
+
