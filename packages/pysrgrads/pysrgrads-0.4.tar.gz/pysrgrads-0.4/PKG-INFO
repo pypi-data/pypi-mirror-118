@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: pysrgrads
+Version: 0.4
+Summary: Graphic user interface for use with Grads and ctl/grb files
+Home-page: https://github.com/jjr4Programmer/pysrgrads
+Author: Julio Raime Perez
+Author-email: julio.raime@unmsm.edu.pe
+License: gpl-3.0
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
