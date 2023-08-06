@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: chaos-cases
+Version: 0.0.2
+Summary: 生成一些通用的测试用例
+Home-page: https://github.com/haoheiyo/chaos-cases
+Author: haohaiyo
+Author-email: admin@b7.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# chaos-cases
+
+
