@@ -1,0 +1,5 @@
+ase<4.0.0,>=3.18
+pymatgen
+
+[develop]
+pysen[lint]==0.9.1
