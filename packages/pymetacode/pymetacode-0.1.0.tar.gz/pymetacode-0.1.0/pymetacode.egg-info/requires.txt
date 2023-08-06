@@ -1,0 +1,9 @@
+jinja2
+oyaml
+
+[dev]
+prospector
+
+[docs]
+sphinx
+sphinx-rtd-theme
