@@ -1,0 +1,4 @@
+[console_scripts]
+91download = crawler.main:run
+soccer-util = bet365.main:run
+
