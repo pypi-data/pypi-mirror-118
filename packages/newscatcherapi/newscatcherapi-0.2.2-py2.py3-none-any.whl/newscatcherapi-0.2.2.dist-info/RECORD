@@ -1,0 +1,10 @@
+newscatcherapi/__init__.py,sha256=xazS59QEcqcWkWZliIGapfZPb24E_gR-fwEx_9quTOM,69
+newscatcherapi/const.py,sha256=bvTkYjbaW4pB2vxUXf5NEHjhh4DJAEkkQgxkc7O6q3s,1016
+newscatcherapi/newscatcherapi_auth.py,sha256=D8vpv5YXKbr2KOc--LZij6TjQxuc2dSuFA5UlIAXL7E,459
+newscatcherapi/newscatcherapi_client.py,sha256=HxQcec8YfR7ZGEndOfZponhuAXSfVt6ePru1wQsUtEA,18115
+newscatcherapi/newscatcherapi_exception.py,sha256=cdegFOWBdtzTCs-yGd7xtaIKGDLpPUafwEu-DokiJPs,589
+newscatcherapi/utils.py,sha256=FZNMxdrCOoguzabHsBk99CskKN79hmPBZVCvTXyPIzM,2865
+newscatcherapi-0.2.2.dist-info/LICENSE,sha256=RUyN4gR4OH3X2oLubBegoSVnDDfr03KvH0k58jxA0So,1094
+newscatcherapi-0.2.2.dist-info/WHEEL,sha256=Ow4b_3PGmHzGIDyu_Dwdg883aXgmJzTvH-ILWI0h-NU,87
+newscatcherapi-0.2.2.dist-info/METADATA,sha256=8KoO-CjaCC3yrhT6W5-bfYUCvSRw4D6_y9vd0DDb6K0,3657
+newscatcherapi-0.2.2.dist-info/RECORD,,
