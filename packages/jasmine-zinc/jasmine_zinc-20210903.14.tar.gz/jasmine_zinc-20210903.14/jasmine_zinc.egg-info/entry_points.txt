@@ -1,0 +1,5 @@
+[console_scripts]
+jaz_get_avatars = jasmine_zinc.scripts.get_avatars:main
+jaz_record_talk = jasmine_zinc.scripts.record_talk:main
+jaz_talk_on_server = jasmine_zinc.scripts.talk_on_server:main
+
