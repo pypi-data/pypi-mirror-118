@@ -1,0 +1,4 @@
+include anna/LICENSE
+include anna/VERSION
+include anna/frontends/qt/icons/info.png
+include anna/frontends/qt/icons/parameter_info.png
