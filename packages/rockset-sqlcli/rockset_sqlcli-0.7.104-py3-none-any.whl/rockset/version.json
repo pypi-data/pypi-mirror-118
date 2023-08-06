@@ -1,0 +1,11 @@
+{
+    "format": "v1",
+    "major": "0",
+    "minor": "7",
+    "patch": "104",
+    "pre_release": ["rel", "20210904"],
+    "build_info": ["ff170a258d"],
+    "version": "0.7.104-rel.20210904+ff170a258d",
+    "dockertag": "0.7.104-rel.20210904-ff170a258d",
+    "python": "0.7.104"
+}
