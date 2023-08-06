@@ -1,0 +1,8 @@
+actfw_jetson/__init__.py,sha256=5DYAPEQfvija-VHX5D5VP8e6pjWqFv-Lm-D0oBVLw2w,96
+actfw_jetson/camera.py,sha256=IMurnCsNaskIqqCqhwQGI-upRvGDrxeFH0q-q-GD5g0,3548
+actfw_jetson/display.py,sha256=aqaP1IbSPvJlqk3I0m9Rpns6duc9NQdJDvfV3hN6YDw,2828
+actfw_jetson/logger.py,sha256=-BYgs4pvi6gY0x7_iJSxf61ACKN_SBlW1_pCu-0YmQc,68
+actfw_jetson-0.1.1.dist-info/LICENSE.txt,sha256=GgmxkZl_05O_Ra0mQedy19woSTPtlkblhy7MjsNYoO0,1067
+actfw_jetson-0.1.1.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+actfw_jetson-0.1.1.dist-info/METADATA,sha256=Lw1qaPiUUge9hOftVBC4iPb5-x6ws6m_ex0yyFWcIsE,3592
+actfw_jetson-0.1.1.dist-info/RECORD,,
