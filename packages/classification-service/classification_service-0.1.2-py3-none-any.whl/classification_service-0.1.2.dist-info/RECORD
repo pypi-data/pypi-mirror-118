@@ -1,0 +1,6 @@
+classification_service/__init__.py,sha256=mdp2CftfqYbdKtP-eWv1z7rAUycYv6X1ntXSMUf8Kss,22
+classification_service/app.py,sha256=5lHRm5vijurvXzGhLgNfAEeXFUqpZicdzrQRtEoIllo,171
+classification_service/health.py,sha256=VwYifWXFUWK1ncIH8F1ehWOinBHmCvnw4RUWPGgt9SY,929
+classification_service-0.1.2.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+classification_service-0.1.2.dist-info/METADATA,sha256=0Sup8tclsdjTNqfcMLMc-NFIal0gGBabCkw9MpMWmW8,388
+classification_service-0.1.2.dist-info/RECORD,,
