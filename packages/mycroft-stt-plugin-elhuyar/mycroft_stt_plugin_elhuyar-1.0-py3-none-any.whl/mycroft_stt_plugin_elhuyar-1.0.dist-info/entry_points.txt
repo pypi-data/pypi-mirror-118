@@ -1,0 +1,3 @@
+[mycroft.plugin.stt]
+elhuyar_stt = mycroft_stt_plugin_elhuyar:ElhuyarSTTPlugin
+
