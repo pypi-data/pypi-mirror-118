@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: tex-engine
+Version: 0.1.0
+Summary: Template Engine X. Have fun with HTML
+Author: Leo B.
+Author-email: bernerdoodle@outlook.de
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
