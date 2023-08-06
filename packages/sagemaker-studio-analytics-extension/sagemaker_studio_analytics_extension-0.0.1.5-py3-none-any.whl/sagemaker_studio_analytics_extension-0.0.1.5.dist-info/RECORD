@@ -1,0 +1,10 @@
+sagemaker_studio_analytics_extension/magics/__init__.py,sha256=PU5v_Qt1vCgZVUF4RU9AIuc72RxjO7rLNWL6ZxGw87c,730
+sagemaker_studio_analytics_extension/magics/sagemaker_analytics.py,sha256=Q-D95hmSXCyufbORGg2AtWwFamIethxdUfsyudYYL7w,22688
+sagemaker_studio_analytics_extension/utils/__init__.py,sha256=KKppvexSA7vwnAGSP6IwMG9i9TZcwCcEUcYBNRtlvCo,197
+sagemaker_studio_analytics_extension/utils/runtime_check.py,sha256=irQYBpkdBwayUP5UJG3bKG-EzzkHYcpGgxl0dsufyZk,1547
+sagemaker_studio_analytics_extension-0.0.1.5.dist-info/LICENSE,sha256=WNHhf_5RCaeuKWyq_K39vmp9F28LxKsB4SpomwSZ2L0,11357
+sagemaker_studio_analytics_extension-0.0.1.5.dist-info/METADATA,sha256=dqEyHVVoiAwZW257alYAvs5jLfaS9oLGuQLSovJ1y5I,3619
+sagemaker_studio_analytics_extension-0.0.1.5.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+sagemaker_studio_analytics_extension-0.0.1.5.dist-info/entry_points.txt,sha256=oRrkVqupQlWWrQ7OxY0kYWNFawrb9Uz8tPuAYW7vGOU,110
+sagemaker_studio_analytics_extension-0.0.1.5.dist-info/top_level.txt,sha256=6cFiGVXKE7WppAY0xNBoBtQXYkwNT6CeqiGUHrBiq0w,124
+sagemaker_studio_analytics_extension-0.0.1.5.dist-info/RECORD,,
