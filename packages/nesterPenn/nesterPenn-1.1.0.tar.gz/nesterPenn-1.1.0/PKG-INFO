@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: nesterPenn
+Version: 1.1.0
+Summary: Print item in list (of - possibly - nested lists)
+Home-page: https://pypi.org/
+Author: pennli
+Author-email: lipeng1a@gmail.com
+License: UNKNOWN
+Description: Print item in list (of - possibly - nested lists)
+Platform: UNKNOWN
