@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pyinit2.egg-info/PKG-INFO
+pyinit2.egg-info/SOURCES.txt
+pyinit2.egg-info/dependency_links.txt
+pyinit2.egg-info/entry_points.txt
+pyinit2.egg-info/requires.txt
+pyinit2.egg-info/top_level.txt

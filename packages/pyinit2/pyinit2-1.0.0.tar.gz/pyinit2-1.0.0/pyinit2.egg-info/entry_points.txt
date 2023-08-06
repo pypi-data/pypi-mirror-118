@@ -1,0 +1,3 @@
+[console_scripts]
+pyinit = pyinit.__main__:main
+
