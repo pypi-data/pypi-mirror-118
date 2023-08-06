@@ -1,0 +1,3 @@
+[console_scripts]
+fix-ligatures = fix_ligatures:main
+
