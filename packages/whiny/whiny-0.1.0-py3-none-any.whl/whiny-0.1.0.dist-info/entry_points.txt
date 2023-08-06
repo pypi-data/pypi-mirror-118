@@ -1,0 +1,3 @@
+[console_scripts]
+whiny=whiny.__main__:Foo
+
