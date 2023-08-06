@@ -1,0 +1,7 @@
+beeprint
+ensureTaskCanceled
+loguru
+websockets==8.1
+NoLossAsyncGenerator==2.4
+AsyncWebsocketStreamInterface==0.9.12
+aiohttp
