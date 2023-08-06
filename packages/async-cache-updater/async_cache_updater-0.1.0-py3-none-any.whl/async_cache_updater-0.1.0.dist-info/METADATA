@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: async-cache-updater
+Version: 0.1.0
+Summary: Caches the output of functions with time-based buckets
+Home-page: https://github.com/revpoint/async-cache-updater
+Author: RevPoint Media
+Author-email: tech@jangl.com
+License: MIT license
+Keywords: async_cache_updater
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+License-File: LICENSE
+License-File: AUTHORS.rst
+Requires-Dist: aioredis
+Requires-Dist: asgiref
+Requires-Dist: hiredis
+Requires-Dist: python-dateutil
+Requires-Dist: pytz
+
+UNKNOWN
+
