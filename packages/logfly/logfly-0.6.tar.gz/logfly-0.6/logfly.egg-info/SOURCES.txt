@@ -1,0 +1,7 @@
+README.md
+setup.py
+logfly/__init__.py
+logfly.egg-info/PKG-INFO
+logfly.egg-info/SOURCES.txt
+logfly.egg-info/dependency_links.txt
+logfly.egg-info/top_level.txt
