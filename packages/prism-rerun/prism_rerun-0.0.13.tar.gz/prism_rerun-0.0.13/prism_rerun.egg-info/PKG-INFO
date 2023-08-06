@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: prism-rerun
+Version: 0.0.13
+Summary: Rerun prism failures in local
+Home-page: UNKNOWN
+Author: Ashwin Kumar
+Author-email: <ashwinkumar@chargebee.com>
+License: UNKNOWN
+Description: 
+        # Once the prism result csv file is downloaded currently we filter the 0/5 issues manually and then convert it into className:method1,method2 format so that we can bulk run the prism failures. This repo will automate this manual process.
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
