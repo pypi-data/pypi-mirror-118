@@ -1,0 +1,10 @@
+management_api_tools/__init__.py,sha256=zAejltbTCl23Qd5LRMukONT8YlA-uB4a32_ILuUuXzw,299
+management_api_tools/api/__init__.py,sha256=qxjTH5YAt2_a4iR4kv-FA-ZYNKRFn8X8tlkmJxSHFOQ,226
+management_api_tools/api/metrics.py,sha256=khHhk1GShJrLpmvemubEAfWgOnAXon-s1KK_YHlvtBM,1207
+management_api_tools/api/policies.py,sha256=wjS5IxQxiSjIAyJhwxKl9jDop9fP8zDFZ1TkTrwUkpU,3195
+management_api_tools/utils/__init__.py,sha256=1UN-ZC5H3uI9hIgtEsf_rMT1uIUhHJBn5GrDmK591ag,113
+management_api_tools/utils/auth.py,sha256=S7ss3mt65hcrgaBzKKNJ_-mp7jq6oARUepDtXQuKWyA,2911
+management_api_tools-1.0.0.dist-info/METADATA,sha256=JFEazZ34zUKXO2S3plc972yOxU4_Vanv5eIN57csA3o,4022
+management_api_tools-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+management_api_tools-1.0.0.dist-info/top_level.txt,sha256=882p0aPiJV45T7mmKi9GNdhk-22P3YljkuTlZEqjQoM,21
+management_api_tools-1.0.0.dist-info/RECORD,,
