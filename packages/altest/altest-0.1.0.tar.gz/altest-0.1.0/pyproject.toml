@@ -1,0 +1,52 @@
+[tool.poetry]
+name = "altest"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+PyYAML = "5.3.1"
+structlog = "20.1.0"
+aiosqlite = "0.16.0"
+httpx = "0.18.2"
+sqlalchemy = "1.3.23"
+databases = "0.4.2"
+aiobotocore = "1.3.3"
+pycryptodome = "3.10.1"
+websockets = "9.1"
+pydantic = "1.7.3"
+pyjwt = { version="2.0.1", optional=true}
+fastapi = { version="0.63.0", optional=true }
+spacy = { version="3.0.6", optional=true}
+pyduckling-native = { version="0.1.0", optional=true}
+
+"discord.py" = {version = "1.6.0", optional = true }
+emoji = {version = "1.2.0", optional = true }
+
+# "e2e" has extra system dependency `libolm` (Ubuntu: sudo apt install libolm-dev)
+# We don't use it currently
+# matrix-nio = { version = "^0.17.0", extras = ["e2e"]}
+matrix-nio = { version = "0.18.6", optional = true }
+
+[tool.poetry.extras]
+chatdsl = ["emoji", "discord.py", "matrix-nio"]
+auth = ["fastapi", "pyjwt"]
+parser = ["spacy", "pyduckling-native"]
+all = ["emoji", "discord.py", "matrix-nio", "fastapi", "pyjwt", "spacy", "pyduckling-native"]
+
+[tool.poetry.dev-dependencies]
+colorama = "*"
+pytest = "^6.2.1"
+pytest-asyncio = "^0.14.0"
+asyncpg = "^0.22"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+filterwarnings = [
+    'ignore::DeprecationWarning',
+]
+
