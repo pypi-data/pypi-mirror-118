@@ -1,0 +1,40 @@
+[build-dependencies]
+which = "4.1.0"
+
+[build-dependencies.cxx-build]
+features = ["parallel"]
+version = "1.0.45"
+
+[build-dependencies.pywinpty_findlib]
+path = "local_dependencies/pywinpty_findlib"
+version = "=0.3.0"
+
+[dependencies]
+cxx = "1.0.45"
+libc = "0.2.81"
+
+[dependencies.pyo3]
+features = ["extension-module"]
+version = "0.14.1"
+
+[lib]
+crate-type = ["cdylib"]
+name = "winpty"
+
+[package]
+authors = ["Edgar Andrés Margffoy Tuay <andfoy@gmail.com>"]
+description = "Pseudo terminal support for Windows from Python."
+edition = "2018"
+keywords = ["pty", "pseudo-terminal", "conpty", "windows", "winpty"]
+license = "MIT"
+links = "winpty"
+name = "pywinpty"
+readme = "README.md"
+repository = "https://github.com/spyder-ide/pywinpty"
+version = "1.1.4"
+[package.metadata.docs.rs]
+default-target = "x86_64-pc-windows-msvc"
+targets = ["x86_64-pc-windows-msvc"]
+
+[package.metadata.maturin]
+requires-python = ">=3.6"
