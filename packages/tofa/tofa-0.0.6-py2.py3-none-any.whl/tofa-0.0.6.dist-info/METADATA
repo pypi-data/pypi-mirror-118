@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: tofa
+Version: 0.0.6
+Summary: Collection of requisites to speed up research & development with PyTorch
+Home-page: https://github.com/vadimadr/tofa
+Author: Vadim Andronov
+Author-email: vadimadr@gmail.com
+License: BSD-3
+Project-URL: Source, https://github.com/vadimadr/tofa
+Keywords: PyTorch,Computer Vision,Deep Learning,Machine Learning
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Image Recognition
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: addict (>=2.2.1)
+Requires-Dist: coloredlogs (>=14.3)
+Requires-Dist: jpeg4py (>=0.1.4)
+Requires-Dist: numpy (>=1.17.4)
+Requires-Dist: Pillow (>=6.2.1)
+Requires-Dist: pytest (>=5.3.5)
+Requires-Dist: PyYAML (>=5.4)
+Requires-Dist: setuptools (>=45.1.0)
+Requires-Dist: torch (>=1.6.0)
+
+**tofa** (**To**rch **Fa**st) - collection of requisites to speed up research & development with PyTorch
+
+
