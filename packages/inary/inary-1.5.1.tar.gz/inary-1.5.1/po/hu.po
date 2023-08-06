@@ -1,0 +1,4263 @@
+# INARY hungarian translation
+# Copyright (C) 2018 ORGANIZATION
+# Zoltan Siposs <zoltan.siposs@gmail.com>
+# Daniel Kovács <bicskas9323@gmail.com>, 2010.
+# Zoltan Siposs <zoltan.siposs@gmail.com>, 2010.
+# Attila Siposs <sipiatti@gmail.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: INARY\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-08-06 13:30+0000\n"
+"PO-Revision-Date: 2019-08-25 01:00+0300\n"
+"Last-Translator: Attila Siposs <sipiatti@gmail.com>\n"
+"Language-Team: Hungarian <pardus-translators@pardus.org.tr>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 2.0.6\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: inary/actionsapi/cmaketools.py:42 inary/actionsapi/autotools.py:46
+#: inary/actionsapi/gotools.py:41
+#, fuzzy
+msgid ""
+"Please attach the config.log to your bug report:\n"
+"{}/config.log"
+msgstr "Kérjük, csatolja a config.log-ot a hibajelentéshez:{}/config.log"
+
+#: inary/actionsapi/cmaketools.py:86 inary/actionsapi/autotools.py:105
+#: inary/actionsapi/mesontools.py:92 inary/actionsapi/perlmodules.py:62
+#: inary/actionsapi/perlmodules.py:66
+msgid "Configure failed."
+msgstr "A configure végrehajtása nem sikerült."
+
+#: inary/actionsapi/cmaketools.py:89 inary/actionsapi/autotools.py:108
+#: inary/actionsapi/mesontools.py:95 inary/actionsapi/mesontools.py:120
+#: inary/actionsapi/perlmodules.py:69
+msgid "No configure script found. (\"{}\" file not found.)"
+msgstr "Nem található konfiguráló szkript a cmake-hez."
+
+#: inary/actionsapi/cmaketools.py:100 inary/actionsapi/autotools.py:119
+#: inary/actionsapi/pythonmodules.py:71 inary/actionsapi/gotools.py:75
+#: inary/actionsapi/gotools.py:82 inary/actionsapi/scons.py:44
+#: inary/actionsapi/perlmodules.py:76
+msgid "Make failed."
+msgstr "A make végrehajtása nem sikerült."
+
+#: inary/actionsapi/cmaketools.py:120 inary/actionsapi/cmaketools.py:130
+#: inary/actionsapi/autotools.py:161 inary/actionsapi/rubymodules.py:123
+#: inary/actionsapi/rubymodules.py:132 inary/actionsapi/rubymodules.py:146
+#: inary/actionsapi/mesontools.py:146 inary/actionsapi/pythonmodules.py:78
+#: inary/actionsapi/gotools.py:100 inary/actionsapi/scons.py:49
+#: inary/actionsapi/perlmodules.py:86
+msgid "Install failed."
+msgstr "A telepítés nem sikerült."
+
+#: inary/actionsapi/cmaketools.py:134
+msgid "No Makefile found."
+msgstr "Nem találok Makefile fájlt."
+
+#: inary/actionsapi/autotools.py:113
+msgid "Compiling failed."
+msgstr "A configure végrehajtása nem sikerült."
+
+#: inary/actionsapi/autotools.py:174
+msgid "Running 'aclocal' failed."
+msgstr "Az aclocal futtatása nem sikerült."
+
+#: inary/actionsapi/autotools.py:181 inary/actionsapi/autotools.py:184
+msgid "Running 'autogen.sh' script failed."
+msgstr "Az autoreconf futása nem sikerült."
+
+#: inary/actionsapi/autotools.py:190
+msgid "Running 'autoconf' failed."
+msgstr "Az autoconf végrehajtása nem sikerült."
+
+#: inary/actionsapi/autotools.py:196
+msgid "Running 'autoreconf' failed."
+msgstr "Az autoreconf futása nem sikerült."
+
+#: inary/actionsapi/autotools.py:202
+msgid "Running 'automake' failed."
+msgstr "Az automake futása nem sikerült."
+
+#: inary/actionsapi/autotools.py:208
+msgid "Running 'autoheader' failed."
+msgstr "Az autoheader futása nem sikerült."
+
+#: inary/actionsapi/kerneltools.py:130
+msgid "Can't find kernel version information file \"{}\"."
+msgstr "Nem találom a kernel verzió-információs fájlt {}."
+
+#: inary/actionsapi/libtools.py:39
+msgid "Running 'ldconfig' failed."
+msgstr "Az lconfig futtatása nem sikerült."
+
+#: inary/actionsapi/libtools.py:59
+msgid ""
+"GNU Config Update Failed. Please check your gnuconfig scripts. (/usr/share/"
+"gnuconfig)"
+msgstr ""
+
+#: inary/actionsapi/libtools.py:61
+msgid "GNU Config Update Finished."
+msgstr "A GNU Config Update művelet befejezve."
+
+#: inary/actionsapi/libtools.py:66
+msgid "Running \"libtoolize\" failed."
+msgstr "A libtoolize futtatása nem sikerült."
+
+#: inary/actionsapi/inarytools.py:45 inary/actionsapi/inarytools.py:66
+#: inary/actionsapi/inarytools.py:86
+msgid "Insufficient arguments."
+msgstr "Nem elegendőek a megadott argumentumok."
+
+#: inary/actionsapi/inarytools.py:54
+msgid "No executable file matched pattern \"{}\"."
+msgstr "Nincs a mintára illeszkedő, futtatható fájl: \"{}\"."
+
+#: inary/actionsapi/inarytools.py:75 inary/actionsapi/inarytools.py:164
+#: inary/actionsapi/inarytools.py:404
+msgid "No file matched pattern \"{}\"."
+msgstr "Nincs illeszkedő fájlnév-minta \"{}\"."
+
+#: inary/actionsapi/inarytools.py:214
+msgid "No file matched pattern \"{}\""
+msgstr "Nem találtam a mintára illeszkedő fájlnevet \"{}\""
+
+#: inary/actionsapi/inarytools.py:225
+msgid "ActionsAPI [doman]: Wrong man page file: \"{}\""
+msgstr "ActionsAPI [doman]: Rossz kézikönyv oldal fájl: {}"
+
+#: inary/actionsapi/inarytools.py:261
+msgid "No file matched pattern \"{}\". 'domove' operation failed."
+msgstr ""
+"Nem találtam a mintára illeszkedő fájlnevet \"{}\". A 'domove' művelet nem "
+"sikerült."
+
+#: inary/actionsapi/inarytools.py:300
+#, python-brace-format
+msgid "ActionsAPI [rename]: \"{0}\": \"{1}\""
+msgstr "ActionsAPI [átnevezés]: {0}:{1}"
+
+#: inary/actionsapi/inarytools.py:341
+msgid "No such file matching pattern: \"{}\". 'dosed' operation failed."
+msgstr ""
+"Nem találtam a mintára illeszkedő fájlnevet \"{}\". A 'dosed' művelet nem "
+"sikerült."
+
+#: inary/actionsapi/inarytools.py:360
+msgid "dosed method has not changed file \"{}\"."
+msgstr "a(z) {} fájl 'dosed' metódusa módja nem változott."
+
+#: inary/actionsapi/inarytools.py:363
+msgid "\"{}\" has been changed by dosed method."
+msgstr ""
+
+#: inary/actionsapi/inarytools.py:369
+msgid "File does not exist or permission denied: \"{}\""
+msgstr "A fájl nem létezik vagy a hozzáférés megtagadva: {}"
+
+#: inary/actionsapi/inarytools.py:392
+msgid "ActionsAPI [dosym]: File already exists: \"{}\""
+msgstr "ActionsAPI [dosym]: A fájl már létezik: {}"
+
+#: inary/actionsapi/inarytools.py:448
+msgid "No file matched pattern \"{}\". Remove operation failed."
+msgstr "Nincs illeszkedő fájlnév-minta \"{}\". A törlés nem sikerült."
+
+#: inary/actionsapi/inarytools.py:459
+msgid "No directory matched pattern \"{}\". Remove directory operation failed."
+msgstr ""
+"Nincs illeszkedő könyvtárnév-minta \"{}\". A könyvtár eltávolítása nem "
+"sikerült."
+
+#: inary/actionsapi/get.py:174
+msgid "Unable to retrieve CPU count: {}"
+msgstr "Nem olvasható a fájl {}: {}"
+
+#: inary/actionsapi/get.py:256
+msgid "Util '{}' cannot be found."
+msgstr "A(z) {} eszköz nem található"
+
+#: inary/actionsapi/get.py:259
+#, python-brace-format
+msgid "'{0}' does not exist, using plain name '{1}'"
+msgstr "Figyelmeztetés: {0} nem létezik, kérem adja meg {1} megfelelő nevét."
+
+#: inary/actionsapi/pkgconfig.py:46 inary/actionsapi/pkgconfig.py:67
+#: inary/actionsapi/pkgconfig.py:89 inary/actionsapi/pkgconfig.py:111
+#: inary/actionsapi/pkgconfig.py:132 inary/actionsapi/pkgconfig.py:151
+msgid "Package pkgconfig is not installed on your system."
+msgstr "A(z) pkgconfig csomag nincs telepítve. Nem tudom eltávolítani."
+
+#: inary/actionsapi/rubymodules.py:139 inary/actionsapi/mesontools.py:129
+msgid "Build failed."
+msgstr "A perl modul építése nem sikerült."
+
+#: inary/actionsapi/rubymodules.py:156
+msgid "Running 'ruby {}' failed."
+msgstr "'ruby {}' futtatása nem sikerült."
+
+#: inary/actionsapi/qt.py:69
+msgid "Project file \"{}\" not found."
+msgstr "A(z) {} projektfájl nem található."
+
+#: inary/actionsapi/qt.py:74
+msgid ""
+"It seems there are more than one .pro file, you must specify one. (Possible ."
+"pro files: \"{}\")"
+msgstr ""
+"Úgy tűnik több mint egy .pro fájl van. Válasszon ki egyet. (Lehetséges .pro "
+"fájlok: {})"
+
+#: inary/actionsapi/javamodules.py:89 inary/actionsapi/javamodules.py:198
+msgid "No any file/directory matched to regex expression \"{}\"."
+msgstr "Nincs illeszkedő fájlnév-minta \"{}\"."
+
+#: inary/actionsapi/javamodules.py:96 inary/actionsapi/javamodules.py:102
+msgid "DoJavadoc failed."
+msgstr "A make végrehajtása nem sikerült."
+
+#: inary/actionsapi/javamodules.py:152
+msgid "Compile failed."
+msgstr "A configure végrehajtása nem sikerült."
+
+#: inary/actionsapi/javamodules.py:180 inary/actionsapi/javamodules.py:210
+msgid "Installing file \"{}\" failed."
+msgstr "A texmf fájlok telepítése nem sikerült"
+
+#: inary/actionsapi/javamodules.py:221
+msgid "Installing directory \"{}\" failed."
+msgstr "A dokumentáció telepítése nem sikerült"
+
+#: inary/actionsapi/javamodules.py:250
+msgid "Javadoc generation failed."
+msgstr "A konfigurálás nem sikerült."
+
+#: inary/actionsapi/javamodules.py:266
+msgid "Run failed."
+msgstr "A(z) {} futtatása nem sikerült."
+
+#: inary/actionsapi/mesontools.py:117
+msgid "CMake configure failed."
+msgstr "A configure végrehajtása nem sikerült."
+
+#: inary/actionsapi/mesontools.py:163
+msgid "Check failed."
+msgstr "A make végrehajtása nem sikerült."
+
+#: inary/actionsapi/pythonmodules.py:65
+msgid "Configuration failed."
+msgstr "A konfigurálás nem sikerült."
+
+#: inary/actionsapi/pythonmodules.py:93
+msgid "Running \"{}\" failed."
+msgstr "A(z) {} futtatása nem sikerült."
+
+#: inary/actionsapi/gotools.py:68
+#, fuzzy
+msgid "{} not found"
+msgstr "A(z) {} fájl nem található"
+
+#: inary/actionsapi/gotools.py:108
+msgid "rawInstall function is not available for gotools. Use install function"
+msgstr ""
+
+#: inary/actionsapi/texlivemodules.py:60
+msgid "Moving source files failed."
+msgstr "Forrásfájlok átmozgatása sikertelen"
+
+#: inary/actionsapi/texlivemodules.py:63
+msgid "Generate config files failed."
+msgstr "A konfigurációs fájlok létrehozása nem sikerült"
+
+#: inary/actionsapi/texlivemodules.py:66
+msgid "Building format files failed."
+msgstr "A formátumfájlok építése nem sikerült"
+
+#: inary/actionsapi/texlivemodules.py:75
+msgid "Creating symlinks from format to engines failed."
+msgstr ""
+"A formátumról a végrehajtó kódra mutató szimbolikus linkek létrehozása nem "
+"sikerült."
+
+#: inary/actionsapi/texlivemodules.py:79
+msgid "Installing docs failed."
+msgstr "A dokumentáció telepítése nem sikerült"
+
+#: inary/actionsapi/texlivemodules.py:83
+msgid "Installing texmf files failed."
+msgstr "A texmf fájlok telepítése nem sikerült"
+
+#: inary/actionsapi/texlivemodules.py:87
+msgid "Installing config files failed."
+msgstr "A konfigurációs fájlok telepítése nem sikerült"
+
+#: inary/actionsapi/texlivemodules.py:91
+msgid "Handle config files failed."
+msgstr "A konfigurációs fájlok karbantartása nem sikerült"
+
+#: inary/actionsapi/texlivemodules.py:103
+msgid "Symlink \"{}\" skipped (special case)"
+msgstr "Szimbolikus link {} kihagyva (speciális eset)"
+
+#: inary/actionsapi/texlivemodules.py:107
+#, python-brace-format
+msgid ""
+"Symlink \"{0[0]}\" -> \"{0[1]}\" skipped (texlive-core takes care of it."
+msgstr ""
+"Szimbolikus link {0[0]} -> {0[1]} kihagyva (texlive-core gondoskodik róla."
+
+#: inary/actionsapi/texlivemodules.py:111
+#, python-brace-format
+msgid "Symlink \"{0[0]}\" -> \"{0[1]}\" skipped."
+msgstr "Szimbolikus link {0[0]} -> {0[1]} kihagyva."
+
+#: inary/actionsapi/texlivemodules.py:114
+msgid "Symlink \"{}\" skipped (file exists.)"
+msgstr "Szimbolikus link {} kihagyva (fájl létezik.)"
+
+#: inary/actionsapi/texlivemodules.py:118
+#, python-brace-format
+msgid "Making symlink from {0[0]} to {0[1]}"
+msgstr "Szimbolikus link készítése. A link {0[0]}, a cél {0[1]}."
+
+#: inary/actionsapi/texlivemodules.py:187
+msgid "Creating \"/etc/texmf/{}.d\""
+msgstr "/etc/texmf/{}.d létrehozása"
+
+#: inary/actionsapi/texlivemodules.py:190
+#, python-brace-format
+msgid ""
+"Moving (and symlinking) \"/usr/share/texmf/{0}\" to \"/etc/texmf/{1}.d\""
+msgstr ""
+"/usr/share/texmf/{0} átmozgatása (és symlinkelése) nem sikerült ide: /etc/"
+"texmf/{1}.d"
+
+#: inary/actionsapi/texlivemodules.py:258
+msgid "Building format file {}"
+msgstr "A(z) {} formátumfájl építése"
+
+#: inary/actionsapi/texlivemodules.py:330
+#, python-brace-format
+msgid "Map {0} is added to {1}/{2}.cfg"
+msgstr "A {0} mixedmap hozzáadva {1}/{2}.cfg-hez"
+
+#: inary/actionsapi/texlivemodules.py:335
+#, python-brace-format
+msgid "MixedMap {0} is added to {1}/{2}.cfg"
+msgstr "A {0} map hozzáadva {1}/{2}.cfg-hez"
+
+#: inary/actionsapi/texlivemodules.py:340
+#, python-brace-format
+msgid "p +{0} is added to {1}/{2}-config.ps"
+msgstr "p +{0} hozzáadva {1}/{2}-config.ps-hez"
+
+#: inary/actionsapi/texlivemodules.py:345
+#, python-brace-format
+msgid "f {0} is added to {1}/{2}-config"
+msgstr "f {0} {1}/2}-config-hoz"
+
+#: inary/actionsapi/texlivemodules.py:353
+msgid "Language file  {}  already generated."
+msgstr "A(z) {} nyelvi fájl már létezik."
+
+#: inary/actionsapi/texlivemodules.py:356
+msgid "No rule to proccess {}. Please file a bug."
+msgstr "Nincs szabály a(z) {} feldolgozására. Kérjük jelentse a hibát."
+
+#: inary/actionsapi/shelltools.py:52
+msgid "ActionsAPI [makedirs]: Cannot create directory \"{}\""
+msgstr "Nem tudom létrehozni a(z) {} könyvtárat."
+
+#: inary/actionsapi/shelltools.py:62
+msgid "ActionsAPI [echo]: Can't append to file \"{}\""
+msgstr "ActionsAPI [echo]: Nem tudok a(z) {} fájlba írni."
+
+#: inary/actionsapi/shelltools.py:71
+msgid "ActionsAPI [chmod]: No file matched pattern \"{}\""
+msgstr "ActionsAPI [chmod]: Nincs illeszkedő fájlnév-minta \"{}\"."
+
+#: inary/actionsapi/shelltools.py:79
+#, python-brace-format
+msgid "ActionsAPI [chmod]: Operation not permitted: {0} (mode: 0{1})"
+msgstr "ActionsAPI [chmod]: A művelet nem engedélyezett: %s (mode: 0%o)"
+
+#: inary/actionsapi/shelltools.py:83
+msgid "ActionsAPI [chmod]: File \"{}\" doesn't exists."
+msgstr "ActionsAPI [chmod]: A(z) {} nevű fájl nem létezik."
+
+#: inary/actionsapi/shelltools.py:93
+#, python-brace-format
+msgid "ActionsAPI [chown]: Permission denied: {0} (uid: {1}, gid: {2})"
+msgstr ""
+"ActionsAPI [chown]: A művelet nem engedélyezett: {0} (uid: {1}, gid: {2})"
+
+#: inary/actionsapi/shelltools.py:96
+msgid "ActionsAPI [chown]: File \"{}\" doesn't exists."
+msgstr "ActionsAPI [chown]: A(z) {} nevű fájl nem létezik."
+
+#: inary/actionsapi/shelltools.py:105
+#, python-brace-format
+msgid "ActionsAPI [sym]: Permission denied: \"{0}\" to \"{1}\""
+msgstr "ActionsAPI [sym]: Engedély megtagadva: {0} link ide: {1}"
+
+#: inary/actionsapi/shelltools.py:114
+msgid ""
+"ActionsAPI [unlink]: No file matched pattern \"{}\". Remove operation failed."
+msgstr "Nincs illeszkedő fájlnév-minta \"{}\". A törlés nem sikerült."
+
+#: inary/actionsapi/shelltools.py:123
+msgid "ActionsAPI [unlink]: Permission denied: \"{}\""
+msgstr "ActionsAPI [unlink]: Engedély megtagadva: {}."
+
+#: inary/actionsapi/shelltools.py:126
+msgid ""
+"ActionsAPI [unlink]: \"{}\" is not a file, use 'unlinkDir' or 'removeDir' to "
+"remove directories."
+msgstr ""
+
+#: inary/actionsapi/shelltools.py:130
+msgid "ActionsAPI [unlink]: File \"{}\" doesn't exists."
+msgstr "ActionsAPI [unlink]: {} fájl nem létezik."
+
+#: inary/actionsapi/shelltools.py:139
+msgid "ActionsAPI [unlinkDir]: Operation not permitted: \"{}\""
+msgstr "ActionsAPI [unlinkDir]: A művelet nem engedélyezett: {}"
+
+#: inary/actionsapi/shelltools.py:144
+msgid "ActionsAPI [unlinkDir]: Directory \"{}\" doesn't exists."
+msgstr "ActionsAPI [unlinkDir]: A(z) {} könyvtár nem létezik."
+
+#: inary/actionsapi/shelltools.py:153
+msgid "ActionsAPI [move]: No file matched pattern \"{}\"."
+msgstr "ActionsAPI [move]: Nincs illeszkedő fájlnév-minta \"{}\"."
+
+#: inary/actionsapi/shelltools.py:161
+#, python-brace-format
+msgid "ActionsAPI [move]: Permission denied: \"{0}\" to \"{1}\""
+msgstr "ActionsAPI [move]: Engedély megtagadva: {0} átnevezés: {1}"
+
+#: inary/actionsapi/shelltools.py:165
+msgid "ActionsAPI [move]: File \"{}\" doesn't exists."
+msgstr "ActionsAPI [move]: A(z) {} fájl nem létezik."
+
+#: inary/actionsapi/shelltools.py:175
+msgid "ActionsAPI [copy]: No file matched pattern \"{}\"."
+msgstr "ActionsAPI [copy]: Nincs illeszkedő fájlnév-minta \"{}\"."
+
+#: inary/actionsapi/shelltools.py:183
+#, python-brace-format
+msgid "ActionsAPI [copy]: Permission denied: \"{0}\" to \"{1}\""
+msgstr "ActionsAPI [copy]: Engedély megtagadva: {0} -hoz {1}"
+
+#: inary/actionsapi/shelltools.py:205
+msgid "ActionsAPI [copy]: File \"{}\" does not exist."
+msgstr "ActionsAPI [copy]: A(z) {} fájl nem létezik."
+
+#: inary/actionsapi/shelltools.py:229
+#, python-brace-format
+msgid "ActionsAPI [copytree] \"{0}\" to \"{1}\": {2}"
+msgstr "ActionsAPI [copytree] {0} to {1}: {2}"
+
+#: inary/actionsapi/shelltools.py:233
+msgid "ActionsAPI [copytree]: Directory \"{}\" doesn't exists."
+msgstr "ActionsAPI [copytree]: A(z) {} könyvtár nem létezik."
+
+#: inary/actionsapi/shelltools.py:243
+msgid "ActionsAPI [touch]: No file matched pattern \"{}\"."
+msgstr "ActionsAPI [touch]: Nincs illeszkedő fájlnév-minta \"{}\"."
+
+#: inary/actionsapi/shelltools.py:253
+msgid "ActionsAPI [touch]: Permission denied: \"{}\""
+msgstr "ActionsAPI [touch]: Engedély megtagadva: {}"
+
+#: inary/actionsapi/shelltools.py:317
+msgid "[Running Command]: "
+msgstr ""
+
+#: inary/actionsapi/shelltools.py:327
+#, python-brace-format
+msgid "ActionsAPI [system]: Command '{0}' failed, return value was {1}."
+msgstr "A(z) \"{0}\" parancs hibát jelzett, a visszatérési érték {1}."
+
+#: inary/actionsapi/perlmodules.py:79
+msgid "'perl build' failed."
+msgstr "A perl modul építése nem sikerült."
+
+#: inary/actionsapi/perlmodules.py:89
+msgid "'perl install' failed."
+msgstr "A perl modul telepítése nem sikerült."
+
+#: inary/analyzer/dependency.py:33 inary/analyzer/conflict.py:32
+#: inary/data/replace.py:31
+msgid " version >= "
+msgstr "verzió >="
+
+#: inary/analyzer/dependency.py:35 inary/analyzer/conflict.py:34
+#: inary/data/replace.py:33
+msgid " version <= "
+msgstr "verzió <="
+
+#: inary/analyzer/dependency.py:37 inary/analyzer/conflict.py:36
+#: inary/data/replace.py:35
+msgid " version "
+msgstr "verzió"
+
+#: inary/analyzer/dependency.py:39 inary/analyzer/conflict.py:38
+#: inary/data/replace.py:37
+msgid " release >= "
+msgstr "kiadás >="
+
+#: inary/analyzer/dependency.py:41 inary/analyzer/conflict.py:40
+#: inary/data/replace.py:39
+msgid " release <= "
+msgstr "kiadás <="
+
+#: inary/analyzer/dependency.py:43 inary/analyzer/conflict.py:42
+#: inary/data/replace.py:41
+msgid " release "
+msgstr "kiadás"
+
+#: inary/configfile.py:170
+msgid "No section by name '{}'"
+msgstr "Nem létezik {} nevű szakasz"
+
+#: inary/fetcher.py:172
+msgid "Filename error"
+msgstr "Fájlnév hiba"
+
+#: inary/fetcher.py:176
+msgid "Access denied to write to destination directory: \"{}\""
+msgstr "Nincs írási jogom a célkönyvtárra: \"{}\""
+
+#: inary/fetcher.py:182
+msgid "Access denied to destination file: \"{}\""
+msgstr "Nincs hozzáférési jogom a célfájlhoz: \"{}\""
+
+#: inary/fetcher.py:187
+msgid "File already exsist. Download skiped..."
+msgstr ""
+
+#: inary/fetcher.py:211
+msgid "Download error: {}"
+msgstr "Letöltés  {} / {}"
+
+#: inary/fetcher.py:219
+msgid ""
+"A problem occurred. Please check the archive address and/or permissions "
+"again."
+msgstr ""
+"Hiba történt. Kérem ellenőrizze újra az archívum címét és/vagy a "
+"jogosultságokat."
+
+#: inary/fetcher.py:266
+msgid "RESPONSE: "
+msgstr ""
+
+#: inary/fetcher.py:268
+msgid "Downloaded from: "
+msgstr "Letöltés  {} / {}"
+
+#: inary/fetcher.py:382
+msgid "Proxy configuration has been found for '{}' protocol."
+msgstr "Proxy beállításokat találtam a(z) \"{}\" protokoll használatához."
+
+#: inary/fetcher.py:392
+msgid "Bandwidth usage is limited to {} KB/s."
+msgstr "A sávszélesség használata korlátozva {} KB/s értékre."
+
+#: inary/fetcher.py:406
+msgid ""
+"Remote file can not be reached. Previously downloaded part of the file will "
+"be removed."
+msgstr ""
+
+#: inary/fetcher.py:416
+msgid ""
+"Server doesn't support partial downloads.Previously downloaded part of the "
+"file will be over-written."
+msgstr ""
+
+#: inary/fetcher.py:431
+msgid "Failed to clone git repository from {}."
+msgstr ""
+
+#: inary/fetcher.py:452
+msgid "Trying fallback address: \"{}\""
+msgstr "Próbálom a tartalék címet: {}"
+
+#: inary/fetcher.py:463
+msgid "No such file or no permission to read for {}."
+msgstr ""
+
+#: inary/fetcher.py:476
+msgid "\"{}\" mirrors are not defined."
+msgstr "{} nevű tükörkiszolgálók nincsenek definiálva."
+
+#: inary/fetcher.py:481 inary/archive.py:933
+msgid "Fetching source from: \"{}\""
+msgstr "A forrás letöltése innen: {}"
+
+#: inary/fetcher.py:492
+msgid "Could not fetch source from \"{}\" mirrors."
+msgstr "Nem tudom letölteni a forrás a(z) {} tükörkiszolgálóról."
+
+#: inary/fetcher.py:511
+#, python-brace-format
+msgid "\"{0}\" package found in \"{1}\" repository."
+msgstr "A(z) {0} csomag a(z) {1} tárolóban található"
+
+#: inary/fetcher.py:518
+msgid "\"{}\" package already fetched."
+msgstr "A(z) {} csomagot már letöltöttem"
+
+#: inary/file.py:59
+msgid "uri must have type either URI or string."
+msgstr "Az URI típusa URI vagy sztring kell legyen."
+
+#: inary/file.py:129
+msgid "Fetching {}"
+msgstr "{} letöltése"
+
+#: inary/file.py:144 inary/operations/info.py:40
+msgid "File \"{}\" not found."
+msgstr "A(z) {} fájl nem található"
+
+#: inary/file.py:167
+#, fuzzy
+msgid ""
+"File integrity of \"{}\" compromised.\n"
+" localfile:{}\n"
+" newsha1: {}"
+msgstr "A(z) {} fájl sérült."
+
+#: inary/file.py:191
+msgid "File mode must be either File.read or File.write"
+msgstr "A fájl mód File.read vagy File.write lehet."
+
+#: inary/file.py:197
+msgid "Remote write not implemented."
+msgstr "A távoli írás nem lehetséges."
+
+#: inary/file.py:251 inary/file.py:256
+msgid "ERROR: 'gpg --detach-sig {}' failed."
+msgstr "HIBA: gpg --detach-sig {} nem sikerült"
+
+#: inary/db/repodb.py:190
+#, fuzzy
+msgid ""
+"Error parsing repository index information: {} \n"
+" Index file does not exist or is malformed."
+msgstr ""
+"Hiba a tároló indexének feldolgozása során. Az index-fájl nem létezik, vagy "
+"nem megfelelő formátumban van."
+
+#: inary/db/repodb.py:299
+msgid ""
+"Repository \"{}\" is not compatible with your distribution. Repository is "
+"disabled.Your distribution is {} release {}Repository distribution is {} "
+"release {}\n"
+"If you want add this repository please use \"--ignore-check\" parameter with "
+"this command."
+msgstr ""
+
+#: inary/db/groupdb.py:83 inary/db/groupdb.py:92
+msgid "Group \"{}\" not found."
+msgstr "A(z) {} csoport nem található."
+
+#: inary/db/packagedb.py:216 inary/db/packagedb.py:224
+#: inary/db/packagedb.py:232 inary/db/packagedb.py:240
+#: inary/db/packagedb.py:248
+msgid "Package \"{}\" not found."
+msgstr "A(z) {} csomag nem található."
+
+#: inary/db/componentdb.py:114
+msgid "Component {} not found."
+msgstr "A(z) {} komponens nem található."
+
+#: inary/db/installdb.py:51
+msgid "installed"
+msgstr "telepítve"
+
+#: inary/db/installdb.py:51
+msgid "installed-pending"
+msgstr "installed-pending"
+
+#: inary/db/installdb.py:68
+#, fuzzy, python-brace-format
+msgid ""
+"State: {0}\n"
+"Version: {1}, Release: {2}\n"
+msgstr "Állapot: {0}Verzió: {1}, Kiadás: {2}"
+
+#: inary/db/installdb.py:72
+#, fuzzy, python-brace-format
+msgid "Distribution: {0}, Install Time: {1}\n"
+msgstr "Disztribúció: {0}, Telepítés ideje: {1}"
+
+#: inary/db/installdb.py:103
+#, fuzzy
+msgid "Checking package directory of \"{}\" package"
+msgstr "A csomag eltávolítás utáni parancsainak futtatása"
+
+#: inary/db/installdb.py:113
+#, python-brace-format
+msgid ""
+"File content of metadata.xml can be corrupted.\n"
+"Probably filesystem crashed. \n"
+"Check your installation of \"{0}\" package and filesystem."
+msgstr ""
+
+#: inary/db/installdb.py:117 inary/db/installdb.py:124
+#, fuzzy
+msgid "\"{}\" corrupted."
+msgstr "{} nem található"
+
+#: inary/db/installdb.py:120
+#, python-brace-format
+msgid ""
+"Unhandled corruption on \"{0}\" package metadata.\n"
+"There is not any metadata.xml file for {0} package.\n"
+"Please check installation of \"{0}\" package"
+msgstr ""
+
+#: inary/db/installdb.py:169
+msgid ""
+"Installation info for package \"{}\" is broken. Reinstall it to fix this "
+"problem."
+msgstr ""
+"A(z) {} csomag telepítési információi megsérültek. A hiba kijavításához "
+"telepítse újra a csomagot."
+
+#: inary/db/installdb.py:595 inary/operations/upgrade.py:98
+msgid "Package \"{}\" is not installed."
+msgstr "A(z) {} csomag nincs telepítve."
+
+#: inary/db/itembyrepo.py:48
+msgid "\"{}\" not found in any repository."
+msgstr "{} egyik tárolóban sem található"
+
+#: inary/db/itembyrepo.py:60
+msgid "Repo item \"{}\" not found."
+msgstr "A(z) {} tárolóbejegyzés nem található"
+
+#: inary/db/itembyrepo.py:71 inary/db/itembyrepo.py:83
+#: inary/db/itembyrepo.py:94
+msgid "Repository \"{}\" does not exist."
+msgstr "A(z) {} tároló nem létezik."
+
+#: inary/db/filesdb.py:48
+msgid "Creating files database..."
+msgstr "Fájl adatbázis újraépítése"
+
+#: inary/db/filesdb.py:59
+#, fuzzy
+msgid "-> Adding files of \"{}\" package to db..."
+msgstr "* {} hozzáadása az adatbázishoz..."
+
+#: inary/db/filesdb.py:64
+#, fuzzy
+msgid ""
+"\n"
+"Added files database..."
+msgstr "Fájl adatbázis újraépítése"
+
+#: inary/util/filesystem.py:34
+msgid ""
+"Filesystem syncing (It wouldn't be run whether nosync set with kernel "
+"parameters)"
+msgstr ""
+
+#: inary/util/__init__.py:61 inary/cli/command.py:154
+msgid "You have to be root for this operation."
+msgstr "Rendszergazda jogosultsággal kell rendelkeznie ehhez a művelethez."
+
+#: inary/util/__init__.py:69
+msgid "Another instance of Inary is running. Only one instance is allowed."
+msgstr "Egy másik INARY már fut. Csak egy példány indítása megengedett."
+
+#: inary/util/__init__.py:73
+msgid "Invalidating database caches..."
+msgstr "Adatbázis frissítése mindenképpen"
+
+#: inary/util/__init__.py:75
+msgid "Updating database caches..."
+msgstr "Adatbázis frissítése mindenképpen"
+
+#: inary/util/package.py:89
+msgid "Invalid package name: \"{}\""
+msgstr "Érvénytelen csomagnév: {}"
+
+#: inary/util/package.py:154
+msgid "Invalid delta package name: \"{}\""
+msgstr "Érvénytelen deltacsomagnév: {}"
+
+#: inary/util/kernel.py:86
+msgid ""
+"A problem occurred caused by your python installation.No \"subprocess\" "
+"module caught. Probably your python installation corrupted."
+msgstr ""
+
+#: inary/util/misc.py:72
+msgid "Removing empty dir: \"{}\""
+msgstr "{} csomag eltávolítása"
+
+#: inary/util/files.py:49
+msgid "File {} not found."
+msgstr "A(z) {} fájl nem található"
+
+#: inary/util/files.py:160
+msgid "Including external link \"{}\""
+msgstr "A(z) {} külső hivatkozás hozzáadva"
+
+#: inary/util/files.py:162
+msgid "Including directory \"{}\""
+msgstr "A(z) {} könyvtár hozzáadva"
+
+#: inary/util/files.py:255
+msgid "You don't have necessary read permissions"
+msgstr ""
+
+#: inary/util/files.py:258
+msgid "Cannot calculate SHA1 hash of \"{}\""
+msgstr "Nem tudom kiszámítani {} SHA1 értékét"
+
+#: inary/util/files.py:273
+msgid "Compression type is not valid: '{}'"
+msgstr "Tömörítési típus érvénytelen: {}"
+
+#: inary/util/files.py:280
+#, python-brace-format
+msgid "Error while decompressing \"{0}\": {1}"
+msgstr "Hiba a {0} kicsomagolása közben: {1}"
+
+#: inary/util/files.py:310 inary/operations/build.py:771
+#, fuzzy
+msgid "ERROR: WorkDir ({}) does not exist\n"
+msgstr "HIBA: A(z) {} munkakönyvtár nem létezik."
+
+#: inary/util/files.py:346
+#, python-brace-format
+msgid "Detected patch level={0} for {1}"
+msgstr ""
+
+#: inary/util/files.py:375
+msgid "ERROR: patch (\"{}\") failed."
+msgstr "HIBA: a patch {} alkalmazása nem sikerült"
+
+#: inary/util/files.py:378
+#, python-brace-format
+msgid "ERROR: patch (\"{0}\") failed: {1}"
+msgstr "HIBA: a patch ({0}) alkalmazása nem sikerült: {1}"
+
+#: inary/util/files.py:392
+msgid "'strip' command failed for file \"{}\"!"
+msgstr "A strip parancsot nem tudtam végrehajtani a(z) {} fájlon!"
+
+#: inary/util/files.py:400
+msgid "'chrpath' command failed for file \"{}\"!"
+msgstr "A chrpath parancsot nem tudtam végrehajtani a(z) {} fájlon!"
+
+#: inary/util/files.py:409
+msgid "'objcopy' (keep-debug) command failed for file \"{}\"!"
+msgstr ""
+"Az objcopy (keep-debug) parancsot nem tudtam végrehajtani a(z) {} fájlon!"
+
+#: inary/util/files.py:417
+msgid "'objcopy' (add-debuglink) command failed for file \"{}\"!"
+msgstr ""
+"Az objcopy (add-debuglink) parancsot nem tudtam végrehajtani a(z) {} fájlon!"
+
+#: inary/util/process.py:29
+msgid "Module: 'subprocess' can not imported."
+msgstr ""
+
+#: inary/util/process.py:52 inary/util/process.py:69
+msgid "Running "
+msgstr "Folyamatban"
+
+#: inary/util/process.py:58 inary/util/process.py:87
+#, python-brace-format
+msgid "return value for \"{0}\" is {1}"
+msgstr "\"{0}\" visszatéréis értéke {1}"
+
+#: inary/atomicoperations.py:85
+#, python-brace-format
+msgid "Package \"{0}\" found in repository \"{1}\""
+msgstr "A(z) {0} csomag nem található a(z) {1} tárolóban"
+
+#: inary/atomicoperations.py:118
+msgid "Package URI: \"{}\""
+msgstr "Csomag URI: {}"
+
+#: inary/atomicoperations.py:134
+msgid "Download Error: Package does not match the repository package."
+msgstr ""
+"Letöltési hiba: A letöltött fájl nem egyezik meg a tárolóban lévő példánnyal."
+
+#: inary/atomicoperations.py:139
+msgid "Package \"{}\" not found in any active repository."
+msgstr "A(z) {} csomag nem található meg az aktív tárolókban."
+
+#: inary/atomicoperations.py:173 inary/cli/__init__.py:260
+#, python-brace-format
+msgid "Installing \"{0.name}\", version {0.version}, release {0.release}"
+msgstr "{0.name} telepítése, verzió {0.version}, kiadás {0.release}"
+
+#: inary/atomicoperations.py:181
+msgid "Checking package operation availability..."
+msgstr ""
+
+#: inary/atomicoperations.py:183
+msgid "Checking requirements"
+msgstr ""
+
+#: inary/atomicoperations.py:185
+msgid "Checking versioning"
+msgstr ""
+
+#: inary/atomicoperations.py:187
+msgid "Checking relations"
+msgstr "ellenőrzési opciók"
+
+#: inary/atomicoperations.py:189
+msgid "Checking operations"
+msgstr "ellenőrzési opciók"
+
+#: inary/atomicoperations.py:193
+msgid "Unpacking package"
+msgstr "Telepített csomag:"
+
+#: inary/atomicoperations.py:197
+msgid "Updating database"
+msgstr "Adatbázis frissítése mindenképpen"
+
+#: inary/atomicoperations.py:200
+msgid "Syncing all buffers"
+msgstr ""
+
+#: inary/atomicoperations.py:216
+msgid "Is there enought free space in your disk?"
+msgstr ""
+
+#: inary/atomicoperations.py:217
+msgid "Free space in 'destinationdirectory': {:.2f} {} "
+msgstr ""
+
+#: inary/atomicoperations.py:233 inary/operations/build.py:812
+#, python-brace-format
+msgid "{0}-{1} is not a valid INARY version format"
+msgstr "{0}-{1} nem érvényes INARY verzió formátum"
+
+#: inary/atomicoperations.py:265
+#, fuzzy, python-brace-format
+msgid "\"/{0}\" from \"{1}\" package\n"
+msgstr "/{0} a(z) {1} csomagból"
+
+#: inary/atomicoperations.py:266 inary/operations/install.py:150
+#, fuzzy
+msgid ""
+"File conflicts:\n"
+"\"{}\""
+msgstr "Fájl ütközés:{}"
+
+#: inary/atomicoperations.py:270
+msgid "Do you want to overwrite it?"
+msgstr ""
+
+#: inary/atomicoperations.py:286
+msgid "Storing old paths info."
+msgstr "Csak az elérési út mutatása."
+
+#: inary/atomicoperations.py:291
+#, fuzzy
+msgid "Downgrade to old version."
+msgstr "Visszatér a disztribúció korábbi kiadására?"
+
+#: inary/atomicoperations.py:299
+#, fuzzy
+msgid "Upgrading to new release."
+msgstr "Frissítés a disztribúció új kiadására"
+
+#: inary/atomicoperations.py:303
+msgid "Downgrade to old distribution release?"
+msgstr "Visszatér a disztribúció korábbi kiadására?"
+
+#: inary/atomicoperations.py:305
+msgid "Package downgrade declined"
+msgstr "Csomagfrissítés eltávolítása visszavonva"
+
+#: inary/atomicoperations.py:309
+msgid "Re-install same version package?"
+msgstr "Ugyanazon verziójú csomag újratelepítése?"
+
+#: inary/atomicoperations.py:310
+msgid "Package re-install declined"
+msgstr "Csomag újratelepítés visszavonva."
+
+#: inary/atomicoperations.py:326
+msgid "Pre-install configuration have been run for \"{}\""
+msgstr "Proxy beállításokat találtam a(z) \"{}\" protokoll használatához."
+
+#: inary/atomicoperations.py:331
+msgid "Pre-install configuration of \"{}\" package failed."
+msgstr "A konfigurálás nem sikerült."
+
+#: inary/atomicoperations.py:340
+msgid "Added symlink '{}' "
+msgstr ""
+
+#: inary/atomicoperations.py:344
+msgid "Broken or missing symlink '{}'"
+msgstr ""
+
+#: inary/atomicoperations.py:352
+msgid "Configuring post-install \"{}\""
+msgstr "{} beállítva"
+
+#: inary/atomicoperations.py:355
+msgid "Post-install configuration of \"{}\" package failed."
+msgstr "A konfigurálás nem sikerült."
+
+#: inary/atomicoperations.py:420
+msgid ""
+"Unable to relocate following files. Reinstallation of this package is "
+"strongly recommended."
+msgstr ""
+"Nem sikerült áthelyezni a következő fájlokat. A csomag újratelepítése erősen "
+"ajánlott."
+
+#: inary/atomicoperations.py:522
+#, fuzzy
+msgid "Precaching postoperations.py file"
+msgstr "ellenőrzési opciók"
+
+#: inary/atomicoperations.py:535
+msgid ""
+"Storing inary files (files.xml, metadata.xml and whether postoperations.py)"
+msgstr ""
+
+#: inary/atomicoperations.py:569
+msgid "Adding files of \"{}\" package to database..."
+msgstr "* {} hozzáadása az adatbázishoz..."
+
+#: inary/atomicoperations.py:600
+msgid "Installing => [{}]"
+msgstr "Telepítés  {} / {}"
+
+#: inary/atomicoperations.py:637
+msgid "File list could not be read for \"{}\" package, continuing removal."
+msgstr "A {} csomag fájllistáját nem lehet olvasni, eltávolítás folytatása."
+
+#: inary/atomicoperations.py:647
+#, python-brace-format
+msgid "Removing \"{0.name}\", version {0.version}, release {0.release}"
+msgstr "{0.name} telepítése, verzió {0.version}, kiadás {0.release}"
+
+#: inary/atomicoperations.py:651
+msgid "Trying to remove nonexistent package "
+msgstr "Nem létező csomag eltávolításának kísérlete"
+
+#: inary/atomicoperations.py:696
+msgid "Not removing conflicted file : \"{}\""
+msgstr "Ütköző fájl nincs eltávolítva: {} "
+
+#: inary/atomicoperations.py:729
+msgid ""
+"Installed file \"{}\" does not exist on system [Probably you manually "
+"deleted]"
+msgstr ""
+"A telepített {} fájl nem létezik a rendszerben [Valószínűleg a felhasználó "
+"törölte]"
+
+#: inary/atomicoperations.py:740
+msgid "Pre-remove configuration have been run for \"{}\""
+msgstr "Proxy beállításokat találtam a(z) \"{}\" protokoll használatához."
+
+#: inary/atomicoperations.py:746
+msgid "Post-remove configuration have been run for  \"{}\""
+msgstr "Proxy beállításokat találtam a(z) \"{}\" protokoll használatához."
+
+#: inary/atomicoperations.py:757
+msgid "Removing files of \"{}\" package from system..."
+msgstr "* {} hozzáadása az adatbázishoz..."
+
+#: inary/atomicoperations.py:764
+msgid "Removing files of \"{}\" package from database..."
+msgstr "Fájl adatbázis újraépítése"
+
+#: inary/config.py:101
+msgid "Destination directory \"{}\" does not exist. Creating it."
+msgstr "A(z) {} célkönyvtár nem létezik. Létrehozom."
+
+#: inary/errors.py:65
+#, python-brace-format
+msgid "URL \"{0}\" already downloaded as \"{1}\""
+msgstr ""
+
+#: inary/errors.py:74
+msgid "No signature found for \"{}\""
+msgstr "Nem található konfiguráló szkript a cmake-hez."
+
+#: inary/errors.py:81
+msgid "GPG Signature is invalid for \"{}\""
+msgstr "Nem található konfiguráló szkript a cmake-hez."
+
+#: inary/errors.py:90
+msgid "Encountered cycle {}"
+msgstr "{} ciklusba futottam."
+
+#: inary/package.py:80
+msgid "Cannot open package file: \"{}\""
+msgstr "A csomagfájl nem található: {}"
+
+#: inary/package.py:101
+msgid "Unsupported package format: {}"
+msgstr "Nem támogatott csomagformátum: {}"
+
+#: inary/package.py:115
+msgid ""
+"There was a problem while fetching \"{}\".The package may have been "
+"upgraded. Please try to upgrade the package."
+msgstr ""
+"Hiba történt a(z) {} letöltése során.Lehet, hogy a csomagot frissíteni kéne. "
+"Kérem, próbálja meg frissíteni a csomagot."
+
+#: inary/package.py:121
+msgid "{} [cached]"
+msgstr "{} [a gyorsítótárban]"
+
+#: inary/uri.py:83
+msgid "setAuthInfo needs a tuple (user, pass)"
+msgstr "a setAuthInfo bemenete egy tuple (user, pass)"
+
+#: inary/version.py:74
+msgid "Invalid version string: '{}'"
+msgstr "Érvénytelen verzió-sztring: {}"
+
+#: inary/mirrors.py:58
+msgid "Mirrors file \"{}\" does not exist. Could not resolve \"mirrors://\""
+msgstr ""
+"A tükröket leíró {} fájl nem létezik. Nem tudom feloldani a mirrors:// "
+"jellegű címet"
+
+#: inary/archive.py:161
+msgid " \"{}\" is not a lzma file."
+msgstr "A(z) {} csomag nincs telepítve"
+
+#: inary/archive.py:284 inary/archive.py:544
+#, python-brace-format
+msgid "Chowning {0} ({1}:{2})"
+msgstr ""
+
+#: inary/archive.py:289 inary/archive.py:549
+#, python-brace-format
+msgid "LChowning {0} ({1}:{2})"
+msgstr ""
+
+#: inary/archive.py:354
+msgid "Target DIR: \"{}\""
+msgstr "Csomag URI: {}"
+
+#: inary/archive.py:357
+#, fuzzy
+msgid "Extracting: /{}"
+msgstr "Fájlok kibontása {} csomagból"
+
+#: inary/archive.py:617
+#, fuzzy
+msgid ""
+"Problem occured while uncompressing \"{}.Z\" file.\n"
+"Error:{}"
+msgstr "Hiba lépett fel a {}.Z kicsomagolása közben."
+
+#: inary/archive.py:696
+msgid "File \"{}\" is not a zip file."
+msgstr "A(z) {} csomag nincs telepítve"
+
+#: inary/archive.py:954
+#, python-brace-format
+msgid "Source archive is stored: \"{0}/{1}\""
+msgstr "A forrás csomag eltárolva: {0}/{1}"
+
+#: inary/archive.py:986 inary/operations/history.py:156
+msgid "\"{}\" [cached]"
+msgstr "{} [a gyorsítótárban]"
+
+#: inary/archive.py:995
+msgid ""
+"Archive File: {}\n"
+" * Expected sha1 value: {}\n"
+" * Received sha1 value: {}\n"
+msgstr ""
+
+#: inary/archive.py:998
+msgid "unpack: check_file_hash failed."
+msgstr "kicsomagolás: check_file_hash művelet sikertelen"
+
+#: inary/archive.py:1001
+msgid ""
+"* Archive verification passed. Such problems may occur during the build "
+"process."
+msgstr ""
+
+#: inary/archive.py:1006
+#, python-brace-format
+msgid "Unknown archive type '{0}' is given for '{1}'."
+msgstr "{0} ismeretlen arhívumtípus lett megadva ehhez: '{1}'."
+
+#: inary/archive.py:1010
+msgid "Inary needs '{}' to unpack this archive but it is not installed."
+msgstr ""
+
+#: inary/constants.py:46
+msgid "Can't rebind constant: '{}'"
+msgstr "Nem tudom bejegyezni a konstans értéket: {}"
+
+#: inary/constants.py:53
+msgid "Can't unbind constant: '{}'"
+msgstr "Nem tudom törölni a konstans értééket: {}"
+
+#: inary/sysconf.py:62
+msgid "[-] Process triggering for "
+msgstr ""
+
+#: inary/sysconf.py:67
+msgid "[!] Triggering end with "
+msgstr ""
+
+#: inary/sysconf.py:72
+msgid "[+] Process triggered for [;0m{}"
+msgstr ""
+
+#: inary/sysconf.py:90
+msgid "Process triggering for sysconf.\n"
+msgstr ""
+
+#: inary/sysconf.py:121
+msgid "[-] Syncing filesystem to restrain filesystem corruptions."
+msgstr ""
+
+#: inary/sysconf.py:124
+msgid "[+] Synced filesystem[;0m\n"
+msgstr ""
+
+#: inary/data/history.py:53
+#, python-brace-format
+msgid "{0} repository is updated."
+msgstr "A(z) {0} tároló frissítve."
+
+#: inary/data/history.py:72
+#, python-brace-format
+msgid "{0} is upgraded from {1} to {2} with delta."
+msgstr "{0} frissítve {1} különbözetével {2}."
+
+#: inary/data/history.py:75
+#, python-brace-format
+msgid "{0} is upgraded from {1} to {2}."
+msgstr "{0} frissítve {1} verzióról {2} verzióra."
+
+#: inary/data/history.py:78
+#, python-brace-format
+msgid "{0} {1} is removed."
+msgstr "{0} {1} eltávolítva."
+
+#: inary/data/history.py:80
+#, python-brace-format
+msgid "{0} {1} is installed."
+msgstr "{0} {1} telepítve."
+
+#: inary/data/history.py:82
+#, python-brace-format
+msgid "{0} {1} is reinstalled."
+msgstr "{0} {1} újratelepítve."
+
+#: inary/data/history.py:84
+#, python-brace-format
+msgid "{0} is downgraded from {1} to {2}."
+msgstr "{0} visszaállítva {1} verzióról {2} verzióra."
+
+#: inary/data/history.py:111 inary/data/history.py:134
+msgid "Unknown package operation"
+msgstr ""
+
+#: inary/data/metadata.py:85
+#, fuzzy, python-brace-format
+msgid "Distribution: {0}, Dist. Release: {1}\n"
+msgstr "Disztribúció: {0}, kiadás: {1}"
+
+#: inary/data/metadata.py:87
+#, python-brace-format
+msgid "Architecture: {0}, Installed Size: {1}"
+msgstr "Architektúra: {0}, telepített méret: {1}"
+
+#: inary/data/metadata.py:93
+msgid ", Package Size: {}"
+msgstr ", csomag mérete: {}"
+
+#: inary/data/metadata.py:95
+msgid ", install.tar.xz sha1sum: {}"
+msgstr ", install.tar.xz sha1sum: {}"
+
+#: inary/data/specfile.py:167
+#, python-brace-format
+msgid "URI: {0}, type: {1}, sha1sum: {2}"
+msgstr "URI: {0}, típus: {1}, sha1sum: {2}"
+
+#: inary/data/specfile.py:203 inary/data/specfile.py:207
+msgid " or "
+msgstr "vagy"
+
+#: inary/data/specfile.py:306
+#, python-brace-format
+msgid "\"{0}\" dependency of package \"{1}\" is not satisfied."
+msgstr "A(z) {0} csomag függősége a(z) {1} csomagnak, de nem teljesíthető."
+
+#: inary/data/specfile.py:403 inary/data/specfile.py:507
+#, fuzzy, python-brace-format
+msgid "Name: {0}, version: {1}, release: {2}\n"
+msgstr "Név: {0}, verzió: {1}, kiadás: {2}"
+
+#: inary/data/specfile.py:405 inary/data/specfile.py:509
+#, fuzzy
+msgid "Summary: {}\n"
+msgstr "Összefoglalás: {}"
+
+#: inary/data/specfile.py:406 inary/data/specfile.py:510
+#, fuzzy
+msgid "Description: {}\n"
+msgstr "Leírás: {}"
+
+#: inary/data/specfile.py:407 inary/data/specfile.py:511
+#, fuzzy
+msgid "Licenses: {}\n"
+msgstr "Használat: {}"
+
+#: inary/data/specfile.py:408 inary/data/specfile.py:512
+#, fuzzy
+msgid "Component: {}\n"
+msgstr "Komponens: {}"
+
+#: inary/data/specfile.py:409
+#, fuzzy
+msgid "Provides: \n"
+msgstr "Szolgáltat:"
+
+#: inary/data/specfile.py:412
+msgid "   - Commands: \n"
+msgstr ""
+
+#: inary/data/specfile.py:417
+msgid "   - CMAKE Needs: \n"
+msgstr ""
+
+#: inary/data/specfile.py:422
+msgid "   - PkgConfig Needs: \n"
+msgstr ""
+
+#: inary/data/specfile.py:427
+msgid "   - Services: \n"
+msgstr ""
+
+#: inary/data/specfile.py:432
+msgid "Dependencies: "
+msgstr "Függőségek:"
+
+#: inary/data/specfile.py:487
+msgid "translations.xml file is badly formed.: {}"
+msgstr "a translation.xml fájl hibás formátumú"
+
+#: inary/data/specfile.py:513
+msgid "Build Dependencies: "
+msgstr "Build függőségek:"
+
+#: inary/data/index.py:101
+msgid "* Generating index tree...\n"
+msgstr ""
+
+#: inary/data/index.py:111
+msgid " -> Sorting:  \"{}\""
+msgstr "{} létrehozása..."
+
+#: inary/data/index.py:120
+msgid " * Sorted:  \"{}\""
+msgstr "{} létrehozása..."
+
+#: inary/data/index.py:157
+msgid " * Added obsoleted packages: [ {} ]"
+msgstr ""
+
+#: inary/data/index.py:164
+msgid " * Adding source packages: "
+msgstr "INARY forráscsomag készítése: {}"
+
+#: inary/data/index.py:207
+msgid " * Adding binary packages: "
+msgstr "Telepített csomag:"
+
+#: inary/data/index.py:212
+msgid "   -> Adding packages from directory \"{}\"... "
+msgstr "{} hozzáadása a csomaglistához"
+
+#: inary/data/index.py:224
+msgid "   * Adding packages from directory \"{}\"... done."
+msgstr "{} hozzáadása a csomaglistához"
+
+#: inary/data/index.py:227
+msgid "* Writing index file."
+msgstr ""
+
+#: inary/data/index.py:238
+msgid "   -> Adding package to index: \"{}\""
+msgstr "{} hozzáadása a csomaglistához"
+
+#: inary/data/index.py:254
+msgid " * Package \"{}\": metadata corrupt, skipping..."
+msgstr "Csomag {}: metaadat sérült, kihagyom..."
+
+#: inary/data/index.py:301
+msgid " * Adding \"groups.xml\" to index"
+msgstr "{} hozzáadása a forráslistához."
+
+#: inary/data/index.py:308
+msgid " * Adding \"components.xml\" to index"
+msgstr "{} hozzáadása a csomaglistához"
+
+#: inary/data/index.py:314
+msgid " * Component in {} is corrupt"
+msgstr "A(z) {} komponens nem található."
+
+#: inary/data/index.py:318
+msgid " * Adding \"distribution.xml\" to index"
+msgstr "{} hozzáadása a forráslistához."
+
+#: inary/data/index.py:324
+msgid " * Distribution in {} is corrupt"
+msgstr ""
+
+#: inary/data/index.py:339
+msgid "   -> Adding source to index: \"{}\""
+msgstr "{} hozzáadása a csomaglistához"
+
+#: inary/data/index.py:360
+#, fuzzy
+msgid "Building index of Inary files under \"{}\" \n"
+msgstr "* INARY fájl-index építése folyamatban: {}"
+
+#: inary/data/index.py:365
+msgid "* Index file written."
+msgstr "* Index fájl létrehozva"
+
+#: inary/sxml/xmlfile_iks.py:73 inary/sxml/xmlfile_iks.py:100
+#: inary/sxml/xmlext_minidom.py:56 inary/sxml/xmlfile_minidom.py:74
+#: inary/sxml/xmlfile_minidom.py:101
+#, fuzzy
+msgid "File \"{}\" has invalid XML: {}\n"
+msgstr "A(z) {} fájl hibás XML adatot tartalmaz"
+
+#: inary/sxml/xmlfile_iks.py:82 inary/sxml/xmlfile_minidom.py:83
+#, python-brace-format
+msgid "Cannot read URI {0}: {1}"
+msgstr ""
+
+#: inary/sxml/xmlext_iks.py:104 inary/sxml/xmlext_minidom.py:127
+msgid "getNodeText: Expected text node, got something else!"
+msgstr "getNodeText: Szöveges node-ot vártam, de valami mást kaptam!"
+
+#: inary/sxml/xmlext_minidom.py:65
+#, fuzzy
+msgid ""
+"FileString is an invalid XML: {}\n"
+"\n"
+"FileString: {}\n"
+msgstr "A(z) {} fájl hibás XML adatot tartalmaz"
+
+#: inary/sxml/autoxml.py:87
+msgid "At least one '{}' tag should have local text."
+msgstr "Legalább az egyik {} címkének 'localtext'-et kell tartalmaznia."
+
+#: inary/sxml/autoxml.py:94
+#, python-brace-format
+msgid "'{0}' language of tag '{1}' is empty."
+msgstr "A(z) {0} nyelvi megjelölés a(z) '{1}' címkén üres."
+
+#: inary/sxml/autoxml.py:122
+msgid "LocalText: unable to get either current or default locale."
+msgstr ""
+"LocalText: nem állapítható meg sem az aktuális, sem az alapértelmezett "
+"területi beállítás."
+
+#: inary/sxml/autoxml.py:129 inary/sxml/autoxml.py:145
+msgid ""
+"Tag should have at least the current locale, or failing that an English or "
+"Turkish version."
+msgstr ""
+"A címkének legalább az aktuális területi beállítást tartalmaznia kell, vagy "
+"hiba esetére egy angol, vagy török verziót"
+
+#: inary/sxml/autoxml.py:392
+msgid "autoxml.check: '{}' errors."
+msgstr "autoxml.check: {} hiba"
+
+#: inary/sxml/autoxml.py:456 inary/sxml/autoxml.py:467
+msgid "autoxml.parse: String '{}' has errors."
+msgstr "autoxml.parse: A(z) {} sztring hibákat tartalmaz"
+
+#: inary/sxml/autoxml.py:482 inary/sxml/autoxml.py:493
+msgid "autoxml.read: File '{}' has errors."
+msgstr "autoxml.read: A(z) {} fájl hibákat tartalmaz"
+
+#: inary/sxml/autoxml.py:502
+msgid "autoxml.write: object validation has failed."
+msgstr "autoxml.write: az objektum ellenőrzés nem sikerült."
+
+#: inary/sxml/autoxml.py:511
+msgid "autoxml.write: File encoding '{}' has errors."
+msgstr "autoxml.write: A fájl-kódolás {} hibákat tartalmaz"
+
+#: inary/sxml/autoxml.py:572
+msgid "gen_tag: unrecognized tag type {} in spec."
+msgstr "gen_tag: ismeretlen a megadott {} címketípus"
+
+#: inary/sxml/autoxml.py:626 inary/sxml/autoxml.py:638
+msgid "Mandatory variable {} not available."
+msgstr "Alapvető változó {} nem található"
+
+#: inary/sxml/autoxml.py:711
+msgid "Type mismatch: read text cannot be decoded."
+msgstr "Típushiba: a beolvasott szöveget nem lehet dekódolni"
+
+#: inary/sxml/autoxml.py:715 inary/sxml/autoxml.py:725
+msgid "Mandatory token {} not available."
+msgstr "Alapvető token {} nem taláható"
+
+#: inary/sxml/autoxml.py:732
+#, python-brace-format
+msgid "Type mismatch. Expected {0}, got {1}"
+msgstr "Típushiba: {0}-t vártam, {1}-t kaptam"
+
+#: inary/sxml/autoxml.py:762 inary/sxml/autoxml.py:889
+msgid "Type mismatch: DOM cannot be decoded."
+msgstr "Típushiba: a DOM nem dekódolható"
+
+#: inary/sxml/autoxml.py:766 inary/sxml/autoxml.py:782
+#: inary/sxml/autoxml.py:796 inary/sxml/autoxml.py:893
+#: inary/sxml/autoxml.py:907 inary/sxml/autoxml.py:921
+msgid "Mandatory argument not available."
+msgstr "Alapvető argumentum nem található"
+
+#: inary/sxml/autoxml.py:779 inary/sxml/autoxml.py:904
+msgid "Object cannot be encoded."
+msgstr "Az objektum nem kódolható"
+
+#: inary/sxml/autoxml.py:793 inary/sxml/autoxml.py:918
+msgid "Object cannot be formatted."
+msgstr "Az objektum nem formázható"
+
+#: inary/sxml/autoxml.py:809
+msgid "List type must contain only one element."
+msgstr "A lista típus csak egy elemet tartalmazhat"
+
+#: inary/sxml/autoxml.py:823 inary/sxml/autoxml.py:846
+#, python-brace-format
+msgid "Mandatory list \"{0}\" under \"{1}\" node is empty."
+msgstr "Üres az alapvető \"{0}\" lista a(z) \"{1}\" node alatt."
+
+#: inary/cli/info.py:29
+#, fuzzy
+msgid ""
+"Display package information\n"
+"\n"
+"Usage: info <package1> <package2> ... <packagen>\n"
+"\n"
+"<packagei> is either a package name or a .inary file,\n"
+msgstr ""
+"Csomag információ megjelenítéseHasználata: info <csomag1> <csomag2> ... "
+"<csomagN><csomagX> vagy egy csomagnév, vagy egy .inary fájl"
+
+#: inary/cli/info.py:47
+msgid "info options"
+msgstr "információs opciók"
+
+#: inary/cli/info.py:51
+msgid "Show a list of package files."
+msgstr "Csomag fájljainak kilistázása."
+
+#: inary/cli/info.py:53
+msgid "Info about the given component."
+msgstr "Információ az adott összetevőről"
+
+#: inary/cli/info.py:56
+msgid "Show only paths."
+msgstr "Csak az elérési út mutatása."
+
+#: inary/cli/info.py:58
+msgid "Do not show details."
+msgstr "Ne mutassa a részleteket"
+
+#: inary/cli/info.py:60
+msgid "Output in xml format."
+msgstr "Kimenet xml formátumban"
+
+#: inary/cli/info.py:136
+msgid "Reverse Dependencies:"
+msgstr "Fordított függőségek:"
+
+#: inary/cli/info.py:151
+msgid "Reverse Build Dependencies:"
+msgstr "Fordított build függőségek:"
+
+#: inary/cli/info.py:156
+msgid "Package file: \"{}\""
+msgstr "Csomag fájl: {}"
+
+#: inary/cli/info.py:171
+msgid "[inst] "
+msgstr "[inst]"
+
+#: inary/cli/info.py:173
+msgid "Installed package:"
+msgstr "Telepített csomag:"
+
+#: inary/cli/info.py:177
+msgid "\"{}\" package is not installed."
+msgstr "{} csomag nincs telepítve"
+
+#: inary/cli/info.py:184
+msgid "[binary] "
+msgstr "[bináris]"
+
+#: inary/cli/info.py:187 inary/cli/info.py:201
+msgid "Package found in \"{}\" repository:"
+msgstr "A csomag a(z) {} tárolóban megtalálható:"
+
+#: inary/cli/info.py:191
+msgid "\"{}\" package is not found in binary repositories."
+msgstr "A(z) {} csomag nem található meg a bináris tárolókban"
+
+#: inary/cli/info.py:198
+msgid "[source] "
+msgstr "[forrás]"
+
+#: inary/cli/info.py:205
+msgid "\"{}\" package is not found in source repositories."
+msgstr "a(z) {} csomag nem található a forrás-tárolókban"
+
+#: inary/cli/listpending.py:26
+#, fuzzy
+msgid ""
+"List pending packages\n"
+"\n"
+"Lists packages waiting to be configured.\n"
+msgstr ""
+"Várakozó csomagok kilistázásaMegjeleníti a még beállításra váró csomagokat."
+
+#: inary/cli/listpending.py:41
+msgid "Listing pending orders:"
+msgstr ""
+
+#: inary/cli/listpending.py:45
+msgid "There are no packages waiting to be configured."
+msgstr "Nincsenek beállításra váró csomagok."
+
+#: inary/cli/updaterepo.py:28
+#, fuzzy
+msgid ""
+"Update repository databases\n"
+"\n"
+"Usage: update-repo [<repo1> <repo2> ... <repon>]\n"
+"\n"
+"<repoi>: repository name\n"
+"\n"
+"Synchronizes the INARY databases with the current repository.\n"
+"If no repository is given, all repositories are updated.\n"
+msgstr ""
+"Tárolók adatainak frissítéseHasználata: update-repo [<repo1> <repo2> ... "
+"<repoN>]<repoX>: tároló neveA helyi INARY adatbázis szinkronizálása az "
+"aktuális csomagtárolókkal.Ha nincs tároló megadva, az összes tároló "
+"frissítésre kerül."
+
+#: inary/cli/updaterepo.py:45
+msgid "update-repo options"
+msgstr "tároló-frissítés (update-repo) opciói"
+
+#: inary/cli/updaterepo.py:49
+msgid "Update database in any case"
+msgstr "Adatbázis frissítése mindenképpen"
+
+#: inary/cli/init.py:26
+msgid "Do not anything."
+msgstr "Ne jelölje az indexet."
+
+#: inary/cli/configurepending.py:52
+#, fuzzy
+msgid ""
+"Configure pending packages\n"
+"\n"
+"If SCOM configuration of some packages were not\n"
+"done at installation time, they are added to a list\n"
+"of packages waiting to be configured. This command\n"
+"configures those packages.\n"
+msgstr ""
+"Beállításra váró csomagokHa néhány csomag scom-beállítása nem történt mega "
+"telepítés során, akkor egy a beállításra váró fájloklistájába kerülnek. Ez a "
+"parancs elvégzi ezen csomagokbeállítását."
+
+#: inary/cli/configurepending.py:67 inary/cli/reconfigure.py:60
+msgid "configure-pending options"
+msgstr "configure-pending opciók"
+
+#: inary/cli/emergeup.py:29
+#, fuzzy
+msgid ""
+"Build and upgrade INARY source packages from repository\n"
+"\n"
+"Usage: emergeup ...\n"
+"\n"
+"You should give the name of a source package to be\n"
+"downloaded from a repository containing sources.\n"
+"\n"
+"You can also give the name of a component.\n"
+msgstr ""
+"A tárolókban található INARY forráscsomagok fordítása és "
+"telepítéseHasználata: emerge <forráscsomag_neve> ...Meg kell adni a "
+"forrástárolóból letöltendő és felépítendőforráscsomag nevét.Megadható egy "
+"komponens neve is."
+
+#: inary/cli/emergeup.py:46
+msgid "emergeup options"
+msgstr "emerge opciók"
+
+#: inary/cli/emergeup.py:48 inary/cli/emerge.py:48
+msgid "Emerge available packages under given component"
+msgstr "Az adott komponens elérhető csomagjainak beépítése."
+
+#: inary/cli/emergeup.py:50 inary/cli/upgrade.py:58 inary/cli/install.py:58
+#: inary/cli/emerge.py:50
+msgid "Ignore file conflicts."
+msgstr "Fájl-ütközések figyelmen kívül hagyása"
+
+#: inary/cli/emergeup.py:52 inary/cli/upgrade.py:60 inary/cli/install.py:60
+#: inary/cli/emerge.py:52
+msgid "Ignore package conflicts."
+msgstr "Csomag-ütközések figyelmen kívül hagyása"
+
+#: inary/cli/emergeup.py:54 inary/cli/upgrade.py:62 inary/cli/install.py:62
+#: inary/cli/emerge.py:54 inary/cli/removeorphaned.py:49 inary/cli/remove.py:48
+msgid "Skip sysconf operations after installation."
+msgstr ""
+
+#: inary/cli/emergeup.py:56 inary/cli/upgrade.py:64
+msgid ""
+"Force sysconf operations after installation. Applies all sysconf operations"
+msgstr ""
+
+#: inary/cli/emergeup.py:82 inary/cli/emerge.py:78
+msgid "Output directory: {}"
+msgstr "Kimeneti könyvtár: {}"
+
+#: inary/cli/emergeup.py:85 inary/cli/emerge.py:81
+msgid "Outputting binary packages in the package cache."
+msgstr "A bináris csomagok elhelyezése a csomag-gyorsítótárban."
+
+#: inary/cli/upgrade.py:28
+#, fuzzy
+msgid ""
+"Upgrade INARY packages\n"
+"\n"
+"Usage: Upgrade [<package1> <package2> ... <packagen>]\n"
+"\n"
+"<packagei>: package name\n"
+"\n"
+"Upgrades the entire system if no package names are given\n"
+"\n"
+"You may use only package names to specify packages because\n"
+"the package upgrade operation is defined only with respect\n"
+"to repositories. If you have specified a package name, it\n"
+"should exist in the package repositories. If you just want to\n"
+"reinstall a package from a INARY file, use the install command.\n"
+"\n"
+"You can also specify components instead of package names, which will be\n"
+"expanded to package names.\n"
+msgstr ""
+"INARY csomagok frissítéseHasználata: upgrade [<csomag1> <csomag2> ... "
+"<csomagN>]<csomagX>: csomag neveHa nincs csomag megadva, az egész rendszert "
+"frissíti.Csakis csomagneveket használhat a frissítés művelet során,mert a "
+"frissítés a tárolóknak megfelelően történik. A megadottcsomagnak léteznie "
+"kell a tárolókban. Ha csak újratelepíteni szeretneegy csomagot egy INARY "
+"fájlból, használja az install parancsot.Komponens neveket is megadhat "
+"csomagok helyett, mely automatikusancsomagnevekre lesz bontva."
+
+#: inary/cli/upgrade.py:52
+msgid "upgrade options"
+msgstr "upgrade opciói"
+
+#: inary/cli/upgrade.py:56
+msgid "Security related package upgrades only."
+msgstr "Csak a biztonsággal kapcsolatos csomagok frissítése"
+
+#: inary/cli/upgrade.py:68
+msgid ""
+"Preserves permanent tagged files on upgrade action like some important libc "
+"modules. This is used to be sure about stability of system packages. This "
+"helps you preserve your own source compiled applications like pip modules, "
+"gem installations etc."
+msgstr ""
+
+#: inary/cli/upgrade.py:74
+msgid "Upgrade component's and recursive components' packages."
+msgstr "Frissítse a komponenst és rekurzívan a komponens csomagjait."
+
+#: inary/cli/upgrade.py:76
+msgid "Name of the to be upgraded packages' repository."
+msgstr "A frissítéseket tartalmazó tároló neve."
+
+#: inary/cli/upgrade.py:78 inary/cli/install.py:71
+msgid "Fetch upgrades but do not install."
+msgstr "A frissítések letöltése telepítés nélkül."
+
+#: inary/cli/upgrade.py:81
+msgid ""
+"When upgrading system, ignore packages and components whose basenames match "
+"pattern."
+msgstr ""
+"A rendszer frissítése során lépje át azokat a csomagokat és komponenseket "
+"amelyek neve illeszkedik a mintára."
+
+#: inary/cli/upgrade.py:84
+msgid ""
+"When upgrading system, ignore packages and components whose basenames match "
+"any pattern contained in file."
+msgstr ""
+"A rendszer frissítése során lépje át azokat a csomagokat és komponenseket "
+"amelyek neve illeszkedik a megadott fájlban található valamelyik mintára."
+
+#: inary/cli/upgrade.py:88
+msgid "Compare sha1sum repo and installed packages."
+msgstr "Telepített csomagok újratelepítése"
+
+#: inary/cli/upgrade.py:123 inary/cli/install.py:133
+#: inary/cli/configmanager.py:73
+msgid ""
+"[!] Some config files have been changed. Would you like to see and apply "
+"them?"
+msgstr ""
+
+#: inary/cli/listnewest.py:27
+#, fuzzy
+msgid ""
+"List newest packages in the repositories\n"
+"\n"
+"Usage: list-newest [ <repo1> <repo2> ... repon ]\n"
+"\n"
+"Gives a list of INARY newly published packages in the specified\n"
+"repositories. If no repository is specified, we list the new\n"
+"packages from all repositories.\n"
+msgstr ""
+"Kilistázza a tárolókban található legfrissebb csomagokatHasználata: list-"
+"newest [ <repo1> <repo2> ... <repoN> ]A megadott tárolókban megtalálható "
+"legújabb csomagokatjeleníti meg. Ha nincs tároló megadva, akkor valamennyi "
+"tárolóúj csomagjai kilistázásra kerülnek."
+
+#: inary/cli/listnewest.py:46
+msgid "list-newest options"
+msgstr "list-newest opciói"
+
+#: inary/cli/listnewest.py:49
+msgid ""
+"List new packages added to repository after this given date formatted as "
+"yyyy-mm-dd."
+msgstr ""
+"A megadott dátum után a tárolóba került csomagok listája. A dátum ééé-hh-nn "
+"formátumú legyen."
+
+#: inary/cli/listnewest.py:52
+msgid ""
+"List new packages added to repository after last nth previous repository "
+"update."
+msgstr "A legutóbbi tároló frissítés óta a tárolóhoz adott új csomagok listája"
+
+#: inary/cli/listnewest.py:79
+#, fuzzy, python-brace-format
+msgid "Packages added to '{0}' since \"{1}\":\n"
+msgstr "A(z) {0} tárolóhoz {1} óta hozzáadott csomagok:"
+
+#: inary/cli/listnewest.py:82
+msgid "Packages added to '{}':"
+msgstr "A(z) {} tárolóhoz hozzáadott csomagok:"
+
+#: inary/cli/listorphaned.py:28
+msgid ""
+"List orphaned packages\n"
+"\n"
+"Usage: list-orphaned\n"
+"\n"
+"Lists packages installed as dependency, but no longer needed by any other "
+"installed package.\n"
+msgstr ""
+
+#: inary/cli/listorphaned.py:43
+msgid "list-orphaned options"
+msgstr "list-sources opciói"
+
+#: inary/cli/listorphaned.py:45
+msgid "Show all packages without reverse dependencies."
+msgstr "A függőségek miatt további csomagok csomagok telepítése szükséges."
+
+#: inary/cli/listorphaned.py:47
+msgid "Ignore packages and components whose basenames match pattern."
+msgstr ""
+"A rendszer frissítése során lépje át azokat a csomagokat és komponenseket "
+"amelyek neve illeszkedik a mintára."
+
+#: inary/cli/listorphaned.py:61
+msgid "Orphaned packages:"
+msgstr "Telepített programok grafikus ábrázolása"
+
+#: inary/cli/listorphaned.py:64
+msgid "No orphaned packages."
+msgstr "Ne mutassa a  telepített csomagokat"
+
+#: inary/cli/help.py:25
+#, fuzzy
+msgid ""
+"Prints help for given commands\n"
+"\n"
+"Usage: help [ <command1> <command2> ... <commandn> ]\n"
+"\n"
+"If run without parameters, it prints the general help."
+msgstr ""
+"Súgó megjelenítése a megadott parancsokhozHasználata: help [ <parancs1> "
+"<parancs2> ... <parancsN> ]Paraméter nélkül meghívva általános súgót ad."
+
+#: inary/cli/help.py:51
+#, fuzzy
+msgid ""
+"%prog [options] <command> [arguments]\n"
+"\n"
+"where <command> is one of:\n"
+"\n"
+msgstr ""
+"%prog [opciók] <parancs> [argumentumok]ahol a <parancs> a következők egyike:"
+
+#: inary/cli/help.py:57
+#, fuzzy
+msgid ""
+"\n"
+"Use \"%prog help <command>\" for help on a specific command.\n"
+msgstr ""
+"Használja a \"%prog help <parancs>\" formátumot egy adott parancs súgójának "
+"megjelenítéséhez."
+
+#: inary/cli/delta.py:25
+#, fuzzy
+msgid ""
+"Creates delta packages\n"
+"\n"
+"Usages: delta oldpackage1 oldpackage2 ...  newpackage\n"
+"        delta -t newpackage oldpackage1 oldpackage2 ...\n"
+"\n"
+"Delta command finds the changed files between the given\n"
+"packages by comparing the sha1sum of files and creates\n"
+"a delta package with the changed files.\n"
+msgstr ""
+"Deltacsomagok létrehozásaHasználata: delta régicsomag újcsomagA delta "
+"utasítás az adott csomagokban található fájlok között  az sha1sum adatok "
+"alapján megkeresi a megváltozottállományokat és egy ún. delta INARY csomagot "
+"hoz létre, amelyben csak ezek a megváltozott fájlok lesznek benne."
+
+#: inary/cli/delta.py:45
+msgid "delta options"
+msgstr "delta opciók"
+
+#: inary/cli/delta.py:50
+msgid "Use arg as the new package and treat other arguments as old packages."
+msgstr ""
+"Az arg használata új csomagként, a többi argumentumot régi csomagként kezeli."
+
+#: inary/cli/delta.py:56 inary/cli/build.py:66
+msgid "Output directory for produced packages."
+msgstr "Könyvtár az elkészített csomagok számára"
+
+#: inary/cli/delta.py:60 inary/cli/build.py:94
+msgid ""
+"Create the binary package using the given format. Use '-F help' to see a "
+"list of supported formats."
+msgstr ""
+"Bináris csomag létrehozása a megadott formátummal. Használja a '-F help' "
+"kapcsolót a támogatott formátumok listájának kiírásához."
+
+#: inary/cli/delta.py:70 inary/cli/build.py:161
+msgid "Supported package formats:"
+msgstr "Támogatott csomagformátumok:"
+
+#: inary/cli/delta.py:73 inary/cli/build.py:164
+msgid "  {} (default)"
+msgstr "  {} (alapértelmezett)"
+
+#: inary/cli/deletecache.py:30
+#, fuzzy
+msgid ""
+"Delete cache files\n"
+"\n"
+"Usage: delete-cache\n"
+"\n"
+"Sources, packages and temporary files are stored\n"
+"under /var directory. Since these accumulate they can\n"
+"consume a lot of disk space."
+msgstr ""
+"A gyorsítótár törléseHasználata: delete-cacheA forráskódok, telepítő "
+"csomagok és átmeneti fájloka /var könyvtár alatt kerülnek tárolásra. Ha "
+"ezekből sok összegyűlik,sok lemezterületet foglalhatnak el."
+
+#: inary/cli/deletecache.py:53
+msgid "Cleaning package cache \"{}\"..."
+msgstr "A(z) {} INARY csomag létrehozása."
+
+#: inary/cli/deletecache.py:57
+msgid "Cleaning source archive cache \"{}\"..."
+msgstr "A forráscsomag nem található: {}"
+
+#: inary/cli/deletecache.py:61
+msgid "Cleaning temporary directory \"{}\"..."
+msgstr "Átmeneti könyvtár tisztítása..."
+
+#: inary/cli/deletecache.py:67
+msgid "Removing cache file \"{}\"..."
+msgstr "{} csomag eltávolítása"
+
+#: inary/cli/reconfigure.py:45
+#, fuzzy
+msgid ""
+"Reconfigure pending packages\n"
+"\n"
+"If SCOM configuration of some packages were not\n"
+"done at installation time, they are added to a list\n"
+"of packages waiting to be configured. This command\n"
+"configures those packages.\n"
+msgstr ""
+"Beállításra váró csomagokHa néhány csomag scom-beállítása nem történt mega "
+"telepítés során, akkor egy a beállításra váró fájloklistájába kerülnek. Ez a "
+"parancs elvégzi ezen csomagokbeállítását."
+
+#: inary/cli/reconfigure.py:56
+msgid "reconfigure"
+msgstr "{} beállítva"
+
+#: inary/cli/history.py:29
+msgid "upgrade"
+msgstr "frissítés"
+
+#: inary/cli/history.py:29
+msgid "remove"
+msgstr "eltávolít"
+
+#: inary/cli/history.py:29
+msgid "emerge"
+msgstr "beépít"
+
+#: inary/cli/history.py:29
+msgid "install"
+msgstr "telepít"
+
+#: inary/cli/history.py:30
+msgid "snapshot"
+msgstr "pillanatkép"
+
+#: inary/cli/history.py:30
+msgid "takeback"
+msgstr "visszavonás"
+
+#: inary/cli/history.py:30
+msgid "repository update"
+msgstr "tároló frissítés"
+
+#: inary/cli/history.py:31
+msgid "reset history"
+msgstr ""
+
+#: inary/cli/history.py:35
+#, fuzzy
+msgid ""
+"History of inary operations\n"
+"\n"
+"Usage: history\n"
+"\n"
+"Lists previous operations."
+msgstr ""
+"Műveletek előzményeiHasználata: historyKilistázza a megelőző műveleteket."
+
+#: inary/cli/history.py:49
+msgid "history options"
+msgstr "előzmények opciói"
+
+#: inary/cli/history.py:52
+msgid "Output only the last 'n' operations."
+msgstr "Csak az utolsó n művelet kimenete"
+
+#: inary/cli/history.py:54
+msgid "Take snapshot of the current system."
+msgstr "Pillanatkép készítése az aktuális rendszer-állapotról"
+
+#: inary/cli/history.py:56
+msgid "Clear history."
+msgstr ""
+
+#: inary/cli/history.py:58
+msgid "Takeback to the state after the given operation finished."
+msgstr "Állapot visszaállítása, miután a művelet befejeződött"
+
+#: inary/cli/history.py:71
+msgid "Inary Transaction History: "
+msgstr ""
+
+#: inary/cli/history.py:74
+msgid "Operation "
+msgstr "Opciók"
+
+#: inary/cli/history.py:79
+msgid "Date: "
+msgstr "Dátum: {} {}"
+
+#: inary/cli/history.py:85
+msgid "    * There are {} packages in this snapshot."
+msgstr "    * %d csomag található a pillanatfelvételben."
+
+#: inary/cli/history.py:142
+msgid "Resetting history casts"
+msgstr ""
+
+#: inary/cli/command.py:37
+msgid "Command lacks name."
+msgstr "A parancsnak szüksége van egy névre"
+
+#: inary/cli/command.py:43
+msgid "Duplicate command '{}'"
+msgstr "Duplikált parancs: {}"
+
+#: inary/cli/command.py:83
+msgid "Unrecognized command: '{}'"
+msgstr "Ismeretlen parancs: {}"
+
+#: inary/cli/command.py:107
+msgid "general options"
+msgstr "általános beállítások"
+
+#: inary/cli/command.py:110
+msgid "Change the system root for INARY commands."
+msgstr "Gyökér könyvtár megváltoztatása a INARY parancsok számára"
+
+#: inary/cli/command.py:112
+msgid "Assume yes in all yes/no queries."
+msgstr "Automatikus 'igen' válasz minden igen/nem kérdésre"
+
+#: inary/cli/command.py:116
+msgid "Keep bandwidth usage under specified KB's."
+msgstr "Ne engedje a sávszélesség használatot a megadott KB fölé"
+
+#: inary/cli/command.py:119
+msgid "Detailed output"
+msgstr "Részletes kimenet"
+
+#: inary/cli/command.py:121
+msgid "Show debugging information."
+msgstr "Hibakeresési információk megjelenítése"
+
+#: inary/cli/command.py:123
+msgid "Suppresses all coloring of INARY's output."
+msgstr "Színes kimenet letiltása"
+
+#: inary/cli/command.py:140
+#, fuzzy
+msgid "Destination directory \"{}\" does not exist. Creating directory.\n"
+msgstr "A(z) {} célkönyvtár nem létezik. Létrehozom."
+
+#: inary/cli/command.py:182
+msgid "Command terminated abnormally."
+msgstr "A parancs váratlanul megszakadt."
+
+#: inary/cli/command.py:197 inary/cli/build.py:60
+msgid "Do not take dependency information into account."
+msgstr "Nem veszi figyelembe a függőségi információkat"
+
+#: inary/cli/command.py:200
+msgid "Ignore unsatisfied dependency."
+msgstr "Build függőségek kihagyása."
+
+#: inary/cli/command.py:203 inary/cli/build.py:80
+msgid "Bypass safety switch."
+msgstr "A biztonsági kapcsoló átlépése"
+
+#: inary/cli/command.py:205
+msgid "Do not perform any action, just show what would be done."
+msgstr "Nem hajtja végre a műveleteket, csak megmutatja mi történne"
+
+#: inary/cli/command.py:224
+#, fuzzy
+msgid "usage: {}\n"
+msgstr "használata: {}"
+
+#: inary/cli/install.py:29
+#, fuzzy
+msgid ""
+"Install INARY packages\n"
+"\n"
+"Usage: install <package1> <package2> ... <packagen>\n"
+"\n"
+"You may use filenames, URI's or package names for packages. If you have\n"
+"specified a package name, it should exist in a specified repository.\n"
+"\n"
+"You can also specify components instead of package names, which will be\n"
+"expanded to package names.\n"
+msgstr ""
+"INARY csomagok telepítéseHasználata: install <csomag1> <csomag2> ... "
+"<csomagN>Használhat fájlneveket, csomagra mutató URI-t, vagy csomagneveket."
+"Ha csomagnevet adott meg, annak léteznie kell valamelyik aktív tárolóban."
+"Csomagnevek helyett komponens nevet is megadhat, mely aztáncsomagnevekre "
+"lesz bontva."
+
+#: inary/cli/install.py:47
+msgid "install options"
+msgstr "telepítési opciók"
+
+#: inary/cli/install.py:52
+msgid "Reinstall already installed packages."
+msgstr "Telepített csomagok újratelepítése"
+
+#: inary/cli/install.py:54
+msgid "Skip distribution release and architecture check."
+msgstr "Disztribúció kiadás és az arhitektúra ellenőrzés kihagyása"
+
+#: inary/cli/install.py:56
+msgid "Skip configure and mark configure pending."
+msgstr ""
+
+#: inary/cli/install.py:64 inary/cli/emerge.py:56
+#: inary/cli/removeorphaned.py:51 inary/cli/remove.py:50
+msgid ""
+"Force sysconf operations after installation.Applies all sysconf operations"
+msgstr ""
+
+#: inary/cli/install.py:67
+msgid "Install component's and recursive components' packages."
+msgstr "Telepítse a komponens és a rekurzív komponensek csomagjait"
+
+#: inary/cli/install.py:69
+msgid "Name of the component's repository."
+msgstr "A komponens tároló neve"
+
+#: inary/cli/install.py:74
+msgid ""
+"When installing packages, ignore packages and components whose basenames "
+"match pattern."
+msgstr ""
+"Csomagok telepítése során kihagyja azokat a csomagokat és komponenseket, "
+"melyek neve illeszkedik a mintára."
+
+#: inary/cli/install.py:77
+msgid ""
+"When installing packages, ignore packages and components whose basenames "
+"match any pattern contained in file."
+msgstr ""
+"Csomagok telepítése során kihagyja azokat a csomagokat és komponenseket, "
+"melyek neve illeszkedik a fájlban megtalálható valamelyik mintára."
+
+#: inary/cli/install.py:82
+msgid ""
+"Store previous libraries info when package is updating to newer version."
+msgstr ""
+
+#: inary/cli/install.py:112
+msgid "There is no component named  as \"{}\""
+msgstr "Nem létezik {} nevű komponens"
+
+#: inary/cli/listinstalled.py:28
+#, fuzzy
+msgid ""
+"Print the list of all installed packages\n"
+"\n"
+"Usage: list-installed\n"
+msgstr "Valamennyi telepített csomag kilistázásaHasználata: list-installed"
+
+#: inary/cli/listinstalled.py:42 inary/cli/checkrelation.py:44
+msgid "list-installed options"
+msgstr "list-installed opciói"
+
+#: inary/cli/listinstalled.py:47
+msgid "Only list the installed packages built by the given host."
+msgstr ""
+"Csak azokat a csomagokat jeleníti meg, amelyeket egy megadott gép készített"
+
+#: inary/cli/listinstalled.py:50 inary/cli/listcomponents.py:44
+#: inary/cli/listsources.py:44
+msgid "Show in long format"
+msgstr "Hosszú formátum használata"
+
+#: inary/cli/listinstalled.py:52 inary/cli/listavailable.py:48
+msgid "Write only names."
+msgstr ""
+
+#: inary/cli/listinstalled.py:54
+msgid "List installed packages under given component."
+msgstr "Kilistázza az adott komponenshez tartozó, telepített csomagokat"
+
+#: inary/cli/listinstalled.py:56 inary/cli/listupgrades.py:51
+msgid "Show detailed install info."
+msgstr "Részletes telepítési információt ad"
+
+#: inary/cli/listinstalled.py:84 inary/cli/listupgrades.py:89
+msgid ""
+"Package Name          |St|        Version|  Rel.|  Distro|             Date"
+msgstr ""
+"Csomag neve          |St|        Verzió|Kiad.|Disztró|             Dátum"
+
+#: inary/cli/listcomponents.py:27
+#, fuzzy
+msgid ""
+"List available components\n"
+"\n"
+"Usage: list-components\n"
+"\n"
+"Gives a brief list of INARY components published in the\n"
+"repositories.\n"
+msgstr ""
+"Az elérhető komponensek kilistázásaHasználata: list-componentsÖsszefoglaló "
+"listát ad a tárolókban  elérhetőINARY komponensekről"
+
+#: inary/cli/listcomponents.py:42
+msgid "list-components options"
+msgstr "list-component opciók"
+
+#: inary/cli/listcomponents.py:46
+msgid "Name of the source or package repository"
+msgstr "A forrás- vagy csomagtároló megnevezése"
+
+#: inary/cli/build.py:28
+#, fuzzy
+msgid ""
+"Build INARY packages\n"
+"\n"
+"Usage: build [<pspec.xml> | <sourcename>] ...\n"
+"\n"
+"You can give a URI of the pspec.xml file. INARY will\n"
+"fetch all necessary files and build the package for you.\n"
+"\n"
+"Alternatively, you can give the name of a source package\n"
+"to be downloaded from a repository containing sources.\n"
+msgstr ""
+"INARY csomagok készítéseHasználata: build [<pspec.xml> | <forrásnév>] ..."
+"Megadhatsz egy URI-t is a pspec.xml fájlhoz.A INARY minden szükséges fájlt "
+"letölt és elkészíti a csomagodat.Más lehetőségként megadhatod egy "
+"forráscsomag nevét,melyet egy forrásokat kínáló tárolóból lehet letölteni."
+
+#: inary/cli/build.py:49
+msgid "build options"
+msgstr "build opciók"
+
+#: inary/cli/build.py:54
+msgid "Run inary build operation without printing extra debug information."
+msgstr "A inary build futtatása extra debug információk megjelenítése nélkül"
+
+#: inary/cli/build.py:71
+msgid "Bypass sha1sum verify step of source archive."
+msgstr ""
+
+#: inary/cli/build.py:75
+msgid "Bypass errors from ActionsAPI."
+msgstr "Az ActionsAPI hibák átlépése"
+
+#: inary/cli/build.py:85
+msgid "Bypass testing step."
+msgstr "A tesztelés kihagyása"
+
+#: inary/cli/build.py:90
+msgid "Create a static package with ar files."
+msgstr "Statikus csomag létrehozása, ar fájllal"
+
+#: inary/cli/build.py:101
+msgid "Use quilt patch management system instead of GNU patch."
+msgstr "A quilt patch kezelő használata GNU patch helyett "
+
+#: inary/cli/build.py:105
+msgid "build steps"
+msgstr "build lépések"
+
+#: inary/cli/build.py:111
+msgid "Break build after fetching the source archive."
+msgstr "A build megszakítása a forrás csomag letöltése után"
+
+#: inary/cli/build.py:118
+msgid ""
+"Break build after unpacking the source archive, checking sha1sum and "
+"applying patches."
+msgstr ""
+"A build megszakítása a forrás csomag letöltése, az sh1sum ellenőrzése és a "
+"patchek alkalmazása után"
+
+#: inary/cli/build.py:126
+msgid "Break build after running configure step."
+msgstr "A build megszakítása a configure lépés után"
+
+#: inary/cli/build.py:132
+msgid "Break build after running compile step."
+msgstr "A build megszakítása a a compile lépés után"
+
+#: inary/cli/build.py:138
+msgid "Break build after running check step."
+msgstr "A build megszakítása a az ellenörzés után"
+
+#: inary/cli/build.py:144
+msgid "Break build after running install step."
+msgstr "A build megszakítása az install lépés után"
+
+#: inary/cli/build.py:150
+msgid "Create INARY package."
+msgstr "INARY csomag létrehozása"
+
+#: inary/cli/checkrelation.py:30
+msgid ""
+"Check packages and system relations\n"
+"\n"
+"Usage: check-relation\n"
+msgstr ""
+
+#: inary/cli/checkrelation.py:47
+msgid "Deep scan mode"
+msgstr ""
+
+#: inary/cli/checkrelation.py:55
+#, fuzzy
+msgid "This packages broken and need to reinstall."
+msgstr "Nincs telepítendő csomag."
+
+#: inary/cli/checkrelation.py:78 inary/cli/checkrelation.py:88
+#, fuzzy
+msgid "Checking: {}"
+msgstr "/{} ellenőrzése "
+
+#: inary/cli/checkrelation.py:82
+msgid "Missing: - {} : Needed by: - {}"
+msgstr ""
+
+#: inary/cli/checkrelation.py:93
+#, fuzzy
+msgid "Missing: /{} - {}"
+msgstr "Hiányzó fájl: /{}"
+
+#: inary/cli/rebuilddb.py:28
+#, fuzzy
+msgid ""
+"Rebuild Databases\n"
+"\n"
+"Usage: rebuilddb [ <package1> <package2> ... <packagen> ]\n"
+"\n"
+"Rebuilds the INARY databases\n"
+"\n"
+"If package specs are given, they should be the names of package\n"
+"dirs under /var/lib/inary\n"
+msgstr ""
+"Adatbázisok újraépítéseHasználata: rebuilddb [ <csomag1> <csomag2> ... "
+"<csomagN> ]Újraépítit a INARY adatbázisaitHa a csomag-specifikációt "
+"megadjuk, annak a /var/lib/inaryalatt található csomagkönyvtárnak kell "
+"lennnie"
+
+#: inary/cli/rebuilddb.py:44
+msgid "rebuild-db options"
+msgstr "rebuild-db opciói"
+
+#: inary/cli/rebuilddb.py:47
+msgid "Rebuild files database"
+msgstr "Fájl adatbázis újraépítése"
+
+#: inary/cli/rebuilddb.py:53
+msgid "Rebuild INARY databases?"
+msgstr "Újraépítsem a INARY adatbázist?"
+
+#: inary/cli/rebuilddb.py:54
+#, fuzzy
+msgid "Updating database caches"
+msgstr "Adatbázis frissítése mindenképpen"
+
+#: inary/cli/rebuilddb.py:56
+#, fuzzy
+msgid "Saving database caches"
+msgstr "Adatbázis frissítése mindenképpen"
+
+#: inary/cli/rebuilddb.py:59
+#, fuzzy
+msgid "Updating filesdb"
+msgstr "Adatbázis frissítése mindenképpen"
+
+#: inary/cli/emerge.py:29
+#, fuzzy
+msgid ""
+"Build and install INARY source packages from repository\n"
+"\n"
+"Usage: emerge <sourcename> ...\n"
+"\n"
+"You should give the name of a source package to be\n"
+"downloaded from a repository containing sources.\n"
+"\n"
+"You can also give the name of a component.\n"
+msgstr ""
+"A tárolókban található INARY forráscsomagok fordítása és "
+"telepítéseHasználata: emerge <forráscsomag_neve> ...Meg kell adni a "
+"forrástárolóból letöltendő és felépítendőforráscsomag nevét.Megadható egy "
+"komponens neve is."
+
+#: inary/cli/emerge.py:46
+msgid "emerge options"
+msgstr "emerge opciók"
+
+#: inary/cli/__init__.py:118
+msgid "Verboses: "
+msgstr "Szolgáltat:"
+
+#: inary/cli/__init__.py:130
+msgid "Warning: "
+msgstr "Figyelmeztetés:"
+
+#: inary/cli/__init__.py:145
+msgid "Error: "
+msgstr "Hiba:"
+
+#: inary/cli/__init__.py:173 inary/cli/__init__.py:178
+#: inary/cli/__init__.py:182
+msgid "(yes"
+msgstr "(igen/nem)"
+
+#: inary/cli/__init__.py:179 inary/cli/__init__.py:183
+msgid "no)"
+msgstr ""
+
+#: inary/cli/__init__.py:257
+msgid "Installed \"{}\""
+msgstr "{} telepítve"
+
+#: inary/cli/__init__.py:264
+msgid "Removed \"{}\""
+msgstr "{} eltávolítva"
+
+#: inary/cli/__init__.py:267
+msgid "Removing \"{}\""
+msgstr "{} eltávolítva"
+
+#: inary/cli/__init__.py:270
+msgid "Upgraded \"{}\""
+msgstr "{} frissítve"
+
+#: inary/cli/__init__.py:273
+msgid "Configured \"{}\""
+msgstr "{} beállítva"
+
+#: inary/cli/__init__.py:276
+msgid "Configuring \"{}\""
+msgstr "{} beállítva"
+
+#: inary/cli/__init__.py:279
+msgid "Extracting the files of \"{}\""
+msgstr "Fájlok kibontása {} csomagból"
+
+#: inary/cli/__init__.py:283 inary/operations/repository.py:101
+msgid "Updating package repository: \"{}\""
+msgstr "{} tároló frissítése"
+
+#: inary/cli/__init__.py:291
+msgid "Total size of package(s): {:.2f} {} / {:.2f} {}"
+msgstr "A csomagok teljes mérete: %.2f %s"
+
+#: inary/cli/__init__.py:300
+msgid "Following packages ordered for process: {}"
+msgstr "A következő csomagok eltávolításra kerülnek:"
+
+#: inary/cli/__init__.py:307
+msgid "Extracted desktop file \"{}\""
+msgstr "Fájlok kibontása {} csomagból"
+
+#: inary/cli/__init__.py:316
+msgid "Downloaded \"{}\""
+msgstr "Letöltés  {} / {}"
+
+#: inary/cli/check.py:30
+#, fuzzy
+msgid ""
+"Verify installation\n"
+"\n"
+"    Usage: check [<package1> <package2> ... <packagen>]\n"
+"           check -c <component>\n"
+"\n"
+"    <packagei>: package name\n"
+"\n"
+"    A cryptographic checksum is stored for each installed\n"
+"    file. Check command uses the checksums to verify a package.\n"
+"    Just give the names of packages.\n"
+"\n"
+"    If no packages are given, checks all installed packages.\n"
+"    "
+msgstr ""
+"A telepítés ellenőrzéseHasználata: check [<csomag1 <csomag2> ... "
+"<csomagN>]<packageX>: csomag neveEgy kriptografikus ellenőrző összeg készül "
+"minden telepítettfájlhoz. A check parancs ezt használja a csomag "
+"ellenőrzésére.Csak a csomagok nevét kell megadni.Ha nem adunk meg csomagot, "
+"akkor valamennyi telepített csomag ellenőrizve lesz."
+
+#: inary/cli/check.py:52
+msgid "check options"
+msgstr "ellenőrzési opciók"
+
+#: inary/cli/check.py:57
+msgid "Check installed packages under given component."
+msgstr "A megadott komponens csomagjainak ellenőrzése"
+
+#: inary/cli/check.py:63
+msgid "Checks only changed config files of the packages."
+msgstr "Csak a megváltozott konfigurációs fájlok ellenőrzése"
+
+#: inary/cli/check.py:81
+msgid "Checking all installed packages."
+msgstr "Minden telepített csomag ellenőrzése"
+
+#: inary/cli/check.py:84
+msgid "No package has been installed yet. :("
+msgstr "Nincs telepítendő csomag."
+
+#: inary/cli/check.py:93
+msgid "Checking integrity of \"{}\"."
+msgstr "A(z) {} fájl sérült."
+
+#: inary/cli/check.py:106
+msgid "Broken"
+msgstr ""
+
+#: inary/cli/check.py:111
+msgid "Unknown"
+msgstr ""
+
+#: inary/cli/check.py:113
+msgid "OK"
+msgstr "OK"
+
+#: inary/cli/check.py:119
+msgid "Missing file: \"/{}\""
+msgstr "Hiányzó fájl: /{}"
+
+#: inary/cli/check.py:124
+msgid "Access denied: \"/{}\""
+msgstr ""
+
+#: inary/cli/check.py:129
+msgid "Corrupted file: \"/{}\""
+msgstr "Sérült fájl: {}"
+
+#: inary/cli/check.py:133
+msgid "Modified configuration file: \"/{}\""
+msgstr "{} konfigurációja nem sikerült."
+
+#: inary/cli/check.py:138
+msgid "Package \"{}\" not installed."
+msgstr "A(z) {} csomag nincs telepítve"
+
+#: inary/cli/check.py:142
+msgid ""
+"Inary was unable to check the integrity of packages which contain files that "
+"you don't have read access.\n"
+"Running the check under a privileged user may help fixing this problem."
+msgstr ""
+
+#: inary/cli/blame.py:27
+#, fuzzy
+msgid ""
+"Information about the package owner and release\n"
+"\n"
+"Usage: blame <package> ... <package>\n"
+"\n"
+msgstr ""
+"Információ a csomag karbantartójáról és a verziórólHasználata: blame "
+"<csomagnév> ... <csomagnév>"
+
+#: inary/cli/blame.py:41
+msgid "blame options"
+msgstr "a blame opciói"
+
+#: inary/cli/blame.py:47
+msgid "Blame for the given release"
+msgstr "az adott verzió információi"
+
+#: inary/cli/blame.py:49
+msgid "Blame for all of the releases"
+msgstr "az összes verzó információi"
+
+#: inary/cli/blame.py:91
+#, python-brace-format
+msgid "Name: {0}, version: {1}, release: {2}"
+msgstr "Név: {0}, verzió: {1}, kiadás: {2}"
+
+#: inary/cli/blame.py:93
+#, fuzzy
+msgid "Installed"
+msgstr "telepítve"
+
+#: inary/cli/blame.py:94
+#, fuzzy, python-brace-format
+msgid "Package Maintainer: {0} <{1}>\n"
+msgstr "A csomag karbantartója: {0} <{1}>"
+
+#: inary/cli/blame.py:96
+#, fuzzy, python-brace-format
+msgid "Release Updater: {0.name} <{0.email}>\n"
+msgstr "Kiadás frissítője: {0.name} <{0.email}>"
+
+#: inary/cli/blame.py:98
+#, fuzzy
+msgid "Update Date: {}\n"
+msgstr "Frissítés dátuma: {}"
+
+#: inary/cli/listrepo.py:25
+#, fuzzy
+msgid ""
+"List repositories\n"
+"\n"
+"Usage: list-repo\n"
+"\n"
+"Lists currently tracked repositories.\n"
+msgstr ""
+"Tárolók kilistázásaHasználata: list-repoKilistázza a jelenleg használt "
+"tárolókat."
+
+#: inary/cli/listrepo.py:42 inary/cli/listrepo.py:44
+msgid "active"
+msgstr "aktív"
+
+#: inary/cli/listrepo.py:43
+msgid "inactive"
+msgstr "nem aktív"
+
+#: inary/cli/listrepo.py:45 inary/cli/listrepo.py:47
+#, python-brace-format
+msgid "{0} [{1}]"
+msgstr "{0} [{1}]"
+
+#: inary/cli/listupgrades.py:30
+#, fuzzy
+msgid ""
+"List packages to be upgraded\n"
+"\n"
+"Usage: list-upgrades\n"
+"\n"
+"Lists the packages that will be upgraded.\n"
+msgstr ""
+"Frissíthető csomagok kilistázásaHasználata: list-upgradesMegjeleníti a "
+"frissíthető csomagok listáját."
+
+#: inary/cli/listupgrades.py:45
+msgid "list-upgrades options"
+msgstr "list-upgrades opciói"
+
+#: inary/cli/listupgrades.py:47 inary/cli/searchfile.py:42
+msgid "Show in long format."
+msgstr "Hosszú formátum használata"
+
+#: inary/cli/listupgrades.py:49
+msgid "List upgradable packages under given component."
+msgstr "A megadott komponens frissíthető csomagjainak kilistázása"
+
+#: inary/cli/listupgrades.py:79 inary/operations/upgrade.py:182
+msgid "No packages to upgrade."
+msgstr "Nincsenek frissíthető csomagok."
+
+#: inary/cli/configmanager.py:33
+msgid "Inary Config file manager."
+msgstr "A konfigurációs fájlok telepítése nem sikerült"
+
+#: inary/cli/configmanager.py:42
+msgid "config-manager options"
+msgstr "configure-pending opciók"
+
+#: inary/cli/configmanager.py:45
+msgid ""
+"Rewrite all config files with new ones without keeping old config files."
+msgstr ""
+
+#: inary/cli/configmanager.py:47
+msgid "Rewrite all config files with new ones, keeping old config files."
+msgstr ""
+
+#: inary/cli/configmanager.py:77
+msgid "There isn't any new config :)"
+msgstr ""
+
+#: inary/cli/removeorphaned.py:29
+#, fuzzy
+msgid ""
+"Remove orphaned packages\n"
+"\n"
+"Usage: remove-orphaned\n"
+"\n"
+"Remove all orphaned packages from the system.\n"
+msgstr ""
+"Tárolók eltávolításaHasználata: remove-repo <repo1> <repo2> ... <repoN>A "
+"megadott tárolóhoz tartozó minden információt eltávolít a rendszerből."
+
+#: inary/cli/removeorphaned.py:42
+msgid "remove-orphaned options"
+msgstr "eltávolítási opciók"
+
+#: inary/cli/removeorphaned.py:47
+msgid ""
+"When removing orphaned, ignore packages and components whose basenames match "
+"pattern."
+msgstr ""
+"A rendszer frissítése során lépje át azokat a csomagokat és komponenseket "
+"amelyek neve illeszkedik a mintára."
+
+#: inary/cli/removerepo.py:23
+#, fuzzy
+msgid ""
+"Remove repositories\n"
+"\n"
+"Usage: remove-repo <repo1> <repo2> ... <repon>\n"
+"\n"
+"Remove all repository information from the system.\n"
+msgstr ""
+"Tárolók eltávolításaHasználata: remove-repo <repo1> <repo2> ... <repoN>A "
+"megadott tárolóhoz tartozó minden információt eltávolít a rendszerből."
+
+#: inary/cli/inarycli.py:94
+msgid "Options must precede non-option arguments."
+msgstr "Az opcióknak a nem opció jellegű argumentumok előtt kell állniuk"
+
+#: inary/cli/inarycli.py:137
+msgid "No command given."
+msgstr "Nincs parancs megadva"
+
+#: inary/cli/inarycli.py:140
+msgid "Command line parsing error."
+msgstr "Parancssor feldolgozási hiba"
+
+#: inary/cli/inarycli.py:145
+msgid "Unrecognized command: {}"
+msgstr "Ismeretlen parancs: {}"
+
+#: inary/cli/sysconf.py:24
+msgid "Run sysconf trigger"
+msgstr ""
+
+#: inary/cli/sysconf.py:29
+msgid "sysconf"
+msgstr ""
+
+#: inary/cli/sysconf.py:32
+msgid "sysconf options"
+msgstr "információs opciók"
+
+#: inary/cli/sysconf.py:34
+msgid "Run force sysconf"
+msgstr ""
+
+#: inary/cli/mirror.py:26
+#, fuzzy
+msgid ""
+"Mirror a repository\n"
+"\n"
+"Usage: mirror [<package1> <package2> ... <packagen>]\n"
+"\n"
+"<packagei>: repo name\n"
+"\n"
+"Downloads the given inary packages to working directory\n"
+msgstr ""
+"Csomagok letöltéseHasználata: fetch [<csomag1> <csomag2> ... "
+"<csomagN>]<csomagX>: csomag neveLetölti a megadott nevű INARY csomagokat a "
+"munkakönyvtárba"
+
+#: inary/cli/mirror.py:41
+#, fuzzy
+msgid "mirror options"
+msgstr "információs opciók"
+
+#: inary/cli/mirror.py:44
+#, fuzzy
+msgid "Output directory for the mirrored repository"
+msgstr "A letöltött csomagok helye"
+
+#: inary/cli/addrepo.py:32
+#, fuzzy
+msgid ""
+"Add a repository\n"
+"\n"
+"Usage: add-repo <repo> <indexuri>\n"
+"\n"
+"<repo>: name of repository to add\n"
+"<indexuri>: URI of index file\n"
+"\n"
+"NB: We support only local files (e.g., /a/b/c) and http:// URIs at the "
+"moment\n"
+msgstr ""
+"Tároló hozzáadásaHasználata: add-repo <tároló_neve> <index_uri><repo>: a "
+"tároló elnevezése<index_uri>: az indexfájlra mutató URL/nHa a tároló nincs "
+"megadva, alapértelmezésként a pardus-devel tároló kerül "
+"hozzáadásraMegjegyzés: jelenleg csak helyi fájlok (pl. /a/b/c) és http:// "
+"típusú címek támogatottak"
+
+#: inary/cli/addrepo.py:50
+msgid "add-repo options"
+msgstr "add-repo opciók"
+
+#: inary/cli/addrepo.py:52
+msgid "Ignore repository distribution check"
+msgstr "A tároló disztribúció ellenőrzésének figyelmen kívül hagyása"
+
+#: inary/cli/addrepo.py:54
+msgid "Does not fetch repository index and does not check distribution match"
+msgstr ""
+"Ne töltse le a tároló-index fájlt és ne ellenőrizze a disztribúció egyezést"
+
+#: inary/cli/addrepo.py:57
+msgid "Add repository at given position (0 is first)"
+msgstr "Tároló hozzáadása megadott paraméter pozícióban (0 az első)"
+
+#: inary/cli/addrepo.py:74
+msgid "Extension of repository URI must be \".xml.xz\" or \".xml\"."
+msgstr ""
+
+#: inary/cli/searchfile.py:27
+#, fuzzy
+msgid ""
+"Search for a file\n"
+"\n"
+"Usage: search-file <path1> <path2> ... <pathn>\n"
+"\n"
+"Finds the installed package which contains the specified file.\n"
+msgstr ""
+"Egy fájl kereséseHasználata: search-file <útvonal1> <útvonal2> ... "
+"<útvonalN>Megkeresi a telepített csomagot, amely tartalmazza a megadott "
+"fájlt."
+
+#: inary/cli/searchfile.py:40
+msgid "search-file options"
+msgstr "fájl-keresés opciói"
+
+#: inary/cli/searchfile.py:44
+msgid "Show only package name."
+msgstr "Csak a csomag nevének mutatása"
+
+#: inary/cli/searchfile.py:53
+msgid "Path \"{}\" does not belong to an installed package."
+msgstr "A megadott {} útvonal nem tartozik egy csomaghoz sem."
+
+#: inary/cli/searchfile.py:58
+#, python-brace-format
+msgid "Package \"{0}\" has file \"/{1}\""
+msgstr "A(z) {0} csomagban található a(z) /{1} nevű fájl."
+
+#: inary/cli/searchfile.py:71
+msgid "Searching for \"{}\""
+msgstr "{} keresése"
+
+#: inary/cli/listsources.py:28
+#, fuzzy
+msgid ""
+"List available sources\n"
+"\n"
+"Usage: list-sources\n"
+"\n"
+"Gives a brief list of sources published in the repositories.\n"
+msgstr ""
+"Kilistázza az elérhető forrásokatHasználata: list-sourcesÖsszefoglaló listát "
+"ad a tárolókban közzétett forráscsomagokról."
+
+#: inary/cli/listsources.py:42
+msgid "list-sources options"
+msgstr "list-sources opciói"
+
+#: inary/cli/listsources.py:62
+msgid "[Repository: "
+msgstr "Tároló: {}"
+
+#: inary/cli/index.py:27
+#, fuzzy
+msgid ""
+"Index INARY files in a given directory\n"
+"\n"
+"Usage: index <directory> ...\n"
+"\n"
+"This command searches for all INARY files in a directory, collects INARY\n"
+"tags from them and accumulates the information in an output XML file,\n"
+"named by default 'inary-index.xml'. In particular, it indexes both\n"
+"source and binary packages.\n"
+"\n"
+"If you give multiple directories, the command still works, but puts\n"
+"everything in a single index file.\n"
+msgstr ""
+"Indexeli a megadott könyvtárban található INARY fájlokatHasználata index "
+"<könyvtár> ...Ez a parancs megkeresi a INARY fájlokat a megadott "
+"könyvtárbankigyűjti belőlük a INARY címkével jelölt információt és "
+"összegyűjti egy XML fájlban,melynek alapértelmezett neve 'inary-index.xml'. "
+"Mind a forrás, mind a bináriscsomagokat indexeli.Ha több könyvtárat ad meg a "
+"parancs akkor is működik, de minden adategy darab index fájlba kerül."
+
+#: inary/cli/index.py:50
+msgid "index options"
+msgstr "indexelési opciók"
+
+#: inary/cli/index.py:55
+msgid "Store absolute links for indexed files."
+msgstr "Az indexelt fájlok abszolút hivatkozásainak tárolása."
+
+#: inary/cli/index.py:60
+msgid "Index output file"
+msgstr "Kimeneti fájl indexelése"
+
+#: inary/cli/index.py:65
+msgid "Comma-separated compression types for index file"
+msgstr "Vesszővel elválasztott lista az index fájl tömörítési típusaihoz"
+
+#: inary/cli/index.py:71
+msgid "Do not index INARY spec files."
+msgstr "Ne indexelje a  INARY specifikus fájlokat."
+
+#: inary/cli/index.py:76
+msgid "Do not sign index."
+msgstr "Ne jelölje az indexet."
+
+#: inary/cli/index.py:91
+msgid "Taking inary repo index."
+msgstr ""
+
+#: inary/cli/fetch.py:26
+#, fuzzy
+msgid ""
+"Fetch a package\n"
+"\n"
+"Usage: fetch [<package1> <package2> ... <packagen>]\n"
+"\n"
+"<packagei>: package name\n"
+"\n"
+"Downloads the given inary packages to working directory\n"
+msgstr ""
+"Csomagok letöltéseHasználata: fetch [<csomag1> <csomag2> ... "
+"<csomagN>]<csomagX>: csomag neveLetölti a megadott nevű INARY csomagokat a "
+"munkakönyvtárba"
+
+#: inary/cli/fetch.py:41
+msgid "fetch options"
+msgstr "letöltési opciók"
+
+#: inary/cli/fetch.py:44
+msgid "Output directory for the fetched packages"
+msgstr "A letöltött csomagok helye"
+
+#: inary/cli/fetch.py:46
+msgid "Download with runtime dependencies."
+msgstr "Build függőségek kihagyása."
+
+#: inary/cli/remove.py:28
+#, fuzzy
+msgid ""
+"Remove INARY packages\n"
+"\n"
+"Usage: remove <package1> <package2> ... <packagen>\n"
+"\n"
+"Remove package(s) from your system. Just give the package names to remove.\n"
+"\n"
+"You can also specify components instead of package names, which will be\n"
+"expanded to package names.\n"
+msgstr ""
+"Csomagok eltávolításaHasználata: remove <csomag1> <csomag2> ... "
+"<csomagN>Eltávolítja a megadott csomagokat. Egyszerűen adja meg a csomag "
+"nevét, melyet el akar távolítani.Megadhat komponens nevet csomag helyett, "
+"mely automatikusancsomagnév listává lesz alakítva."
+
+#: inary/cli/remove.py:45
+msgid "remove options"
+msgstr "eltávolítási opciók"
+
+#: inary/cli/remove.py:53
+msgid "Removes everything including changed config files of the package."
+msgstr ""
+"Mindent töröl, kivéve a csomaghoz tartozó, megváltozott konfigurációs "
+"állományokat."
+
+#: inary/cli/remove.py:55
+msgid "Remove component's and recursive components' packages."
+msgstr ""
+"Eltávolítja a komponenst és rekurzívan a komponenshez tartozó csomagokat."
+
+#: inary/cli/enablerepo.py:24
+#, fuzzy
+msgid ""
+"Enable repository\n"
+"\n"
+"Usage: enable-repo [<repo1> <repo2> ... <repon>]\n"
+"\n"
+"<repoi>: repository name\n"
+"\n"
+"Disabled repositories are not taken into account in operations\n"
+msgstr ""
+"Tároló bekapcsolásaHasználata: enabel-repo [<repo1> <repo2> ... "
+"<repoN>]<repoX>: a tároló neveA kikapcsolt tárolók nem lesznek használva a "
+"műveletek során."
+
+#: inary/cli/search.py:28
+#, fuzzy
+msgid ""
+"Search packages\n"
+"\n"
+"Usage: search <term1> <term2> ... <termn>\n"
+"\n"
+"Finds a package containing specified search terms\n"
+"in summary, description, and package name fields.\n"
+"Default search is done in package database. Use\n"
+"options to search in install database or source\n"
+"database.\n"
+msgstr ""
+"Csomagok kereséseHasználata: search <kifejezés1> <kifejezés2> ... "
+"<kifejezésN>Megkeresi azokat a csomagokat melyek összegzése,leírása, vagy a "
+"csomag neve tartalmazza a megadott kifejezéseket.Az alapértelmezett keresés "
+"a csomagadatbázisban történik.Opciók megadásával a források, vagy a "
+"telepített csomagokközött is kereshet."
+
+#: inary/cli/search.py:45
+msgid "search options"
+msgstr "keresési opciók"
+
+#: inary/cli/search.py:47
+msgid "Summary and description language."
+msgstr "Összefoglalás és leírás nyelve"
+
+#: inary/cli/search.py:49
+msgid "Name of the source or package repository."
+msgstr "A forrás- vagy csomagtároló megnevezése"
+
+#: inary/cli/search.py:51
+msgid "Search in installdb."
+msgstr "Keresés a telepített csomagok adatbázisában"
+
+#: inary/cli/search.py:53
+msgid "Search in sourcedb."
+msgstr "Keresés a forráscsomag adatbázisban."
+
+#: inary/cli/search.py:55
+msgid "Case sensitive search."
+msgstr ""
+
+#: inary/cli/search.py:57
+msgid "Search in the package name."
+msgstr "Keresés a csomag nevében"
+
+#: inary/cli/search.py:59
+msgid "Search in the package summary."
+msgstr "Keresés a csomag rövid leírásában"
+
+#: inary/cli/search.py:61
+msgid "Search in the package description."
+msgstr "Keresés a csomag leírásában"
+
+#: inary/cli/disablerepo.py:24
+#, fuzzy
+msgid ""
+"Disable repository\n"
+"\n"
+"Usage: disable-repo [<repo1> <repo2> ... <repon>]\n"
+"\n"
+"<repoi>: repository name\n"
+"\n"
+"Disabled repositories are not taken into account in operations\n"
+msgstr ""
+"Tároló kikapcsolásaHasználata: disable-repo [<repo1> <repo2> ... "
+"<repoN>]<repoX>: a tároló neveA kikapcsolt tárolókat nem használjuk a "
+"különböző műveletek során."
+
+#: inary/cli/listavailable.py:28
+#, fuzzy
+msgid ""
+"List available packages in the repositories\n"
+"\n"
+"Usage: list-available [ <repo1> <repo2> ... repon ]\n"
+"\n"
+"Gives a brief list of INARY packages published in the specified\n"
+"repositories. If no repository is specified, we list packages in\n"
+"all repositories.\n"
+msgstr ""
+"A tárolókban található csomagok kilistázásaHasználata: list-available "
+"[ <repo1> <repo2> ... <repoN>]Összefoglaló listát jelenít meg a megadott "
+"tárolókban találhatóINARY csomagokról. Ha nincs tároló megadva, akkor az "
+"összes tárolócsomagjai meg lesznek jelenítve."
+
+#: inary/cli/listavailable.py:46
+msgid "list-available options"
+msgstr "a list-available opciói"
+
+#: inary/cli/listavailable.py:52
+msgid "List available packages under given component"
+msgstr "Egy adott komponens csomagjainak megjelenítése"
+
+#: inary/cli/listavailable.py:54
+msgid "Show uninstalled packages only"
+msgstr "Csak a nem telepített csomagok megjelenítése"
+
+#: inary/cli/listavailable.py:64
+msgid "Installed packages are shown in this color."
+msgstr "A telepített csomagok ezzel a színnel kerülnek megjelenítésre"
+
+#: inary/cli/listavailable.py:74
+#, fuzzy
+msgid ""
+"\n"
+" Repository : \"{}\"\n"
+msgstr "Tároló: {}"
+
+#: inary/operations/upgrade.py:59
+msgid ""
+"You must restart the following service(s) manually for the updated software "
+"to take effect:"
+msgstr ""
+"Indítsa újra a következő szolgáltatásokat, hogy a frissítések életbe "
+"lépjenek:"
+
+#: inary/operations/upgrade.py:66
+msgid ""
+"You must restart your system for the updates in the following package(s) to "
+"take effect:"
+msgstr ""
+"Indítsa újra a rendszert, hogy az alábbi csomagok frissítései életbe "
+"lépjenek:"
+
+#: inary/operations/upgrade.py:93
+msgid "Warning: package *name* ends with '.inary'"
+msgstr "Figyelem: a csomagok *neve* '.inary'-re végződik"
+
+#: inary/operations/upgrade.py:103
+msgid "Package \"{}\" is not available in repositories."
+msgstr "A(z) {} csomag nincs a tárolókban."
+
+#: inary/operations/upgrade.py:127
+#, python-brace-format
+msgid "Package \"{0.name}\" is already at the latest release {0.release}."
+msgstr "A(z) {0.name} csomag már a legfrissebb verziójú: {0.release}."
+
+#: inary/operations/upgrade.py:131
+msgid "The following packages have different sha1sum:"
+msgstr "A következő csomagokban ütközések találhatók:{}"
+
+#: inary/operations/upgrade.py:197
+msgid "The following packages will be upgraded:"
+msgstr "A következő csomagok lesznek frissítve:"
+
+#: inary/operations/upgrade.py:207
+msgid "There are extra packages due to dependencies."
+msgstr "A függőségek miatt további csomagok csomagok telepítése szükséges."
+
+#: inary/operations/upgrade.py:214 inary/operations/history.py:229
+#: inary/operations/history.py:248 inary/operations/install.py:284
+#: inary/operations/remove.py:101
+msgid "Would you like to continue?"
+msgstr "Kívánja folytatni?"
+
+#: inary/operations/upgrade.py:215 inary/operations/install.py:90
+#: inary/operations/install.py:285
+msgid "External dependencies not satisfied."
+msgstr "A külső föggőségek nem teljesülnek"
+
+#: inary/operations/upgrade.py:231 inary/operations/history.py:236
+#: inary/operations/install.py:106
+msgid "Downloading"
+msgstr "Letöltés  {} / {}"
+
+#: inary/operations/upgrade.py:260 inary/operations/install.py:165
+msgid "Installing"
+msgstr "Telepítés..."
+
+#: inary/operations/upgrade.py:403
+msgid "Safety switch forces the installation of following packages:"
+msgstr "A következő csomagok biztonsági kapcsolóval kényszerített telepítése:"
+
+#: inary/operations/upgrade.py:430
+msgid "Safety switch forces the upgrade of following packages:"
+msgstr "A biztonsági kapcsoló kényszeríti a következő csomagok frissítését:"
+
+#: inary/operations/upgrade.py:444 inary/operations/remove.py:63
+msgid "Safety switch: The component system.base cannot be found."
+msgstr "Biztonsági kapcsoló: A system.base komponens nem található."
+
+#: inary/operations/delta.py:49
+#, python-brace-format
+msgid ""
+"The file \"{0}\" belongs to a different package other than '{1}'. Skipping "
+"it..."
+msgstr "A {0} fájl nem tartozik a '{1}' csomagokhoz. Kihagyjuk..."
+
+#: inary/operations/delta.py:58
+msgid ""
+"Package \"{}\" has the same release number with the new package. Skipping "
+"it..."
+msgstr "{} csomag kiadási száma az újjal megegyezik. Kihagyjuk..."
+
+#: inary/operations/delta.py:69
+msgid "Creating delta package: \"{}\"..."
+msgstr "INARY különbözeti csomag létrehozása {} és {} között."
+
+#: inary/operations/delta.py:80
+msgid ""
+"All files in the package \"{}\" are different from the files in the new "
+"package. Skipping it..."
+msgstr "{} csomag kiadási száma az újjal megegyezik. Kihagyjuk..."
+
+#: inary/operations/delta.py:127
+msgid "New package \"{}\" exists in the list of old packages. Skipping it..."
+msgstr "{} új csomag található a régi csomagok listáján. Kihagyjuk..."
+
+#: inary/operations/history.py:88 inary/operations/history.py:114
+#, python-brace-format
+msgid "Package \"{0}\" found in repository \"{1}\"."
+msgstr "A(z) {0} csomag nem található a(z) {1} tárolóban"
+
+#: inary/operations/history.py:129 inary/operations/history.py:142
+#: inary/operations/history.py:152
+msgid "\"{}\" could not be found."
+msgstr "{} nem található"
+
+#: inary/operations/history.py:215
+msgid "There is no packages to taking back (installing or removing)."
+msgstr "Nincsenek beállításra váró csomagok."
+
+#: inary/operations/history.py:220
+#, fuzzy
+msgid "Following packages will be installed:\n"
+msgstr "A következő csomagok telepítve lesznek:"
+
+#: inary/operations/history.py:225
+#, fuzzy
+msgid "Following packages will be removed:\n"
+msgstr "A következő csomagok eltávolításra kerülnek:"
+
+#: inary/operations/history.py:246
+#, fuzzy
+msgid ""
+"\n"
+"Following packages could not be found in repositories and are not cached:\n"
+msgstr "A következő csomagok nem találhatók a tárolókban sem a gyorsítótárban:"
+
+#: inary/operations/history.py:300
+msgid "Taking snapshot of the system."
+msgstr "Pillanatfelvétel készítése a rendszerről"
+
+#: inary/operations/install.py:51 inary/operations/install.py:209
+msgid ""
+"The following package(s) are already installed and are not going to be "
+"installed again:"
+msgstr ""
+"A következő csomag(ok) már telepítve vannak, nem lesznek újratelepítve:"
+
+#: inary/operations/install.py:57 inary/operations/install.py:299
+msgid "No packages to install."
+msgstr "Nincs telepítendő csomag."
+
+#: inary/operations/install.py:63
+msgid "Checking dependencies for install..."
+msgstr "A következő csomagok lesznek telepítve:"
+
+#: inary/operations/install.py:76
+msgid "Following packages will be installed:"
+msgstr "A következő csomagok telepítve lesznek:"
+
+#: inary/operations/install.py:89
+msgid ""
+"There are extra packages due to dependencies. Would you like to continue?"
+msgstr ""
+"További csomagok telepítése szükséges a függőségek miatt. Kívánja folytatni?"
+
+#: inary/operations/install.py:132
+#, fuzzy
+msgid "Checking integration"
+msgstr "ellenőrzési opciók"
+
+#: inary/operations/install.py:146
+msgid "Current {} / Total {} files counted."
+msgstr ""
+
+#: inary/operations/install.py:148
+msgid "Integration check error detected."
+msgstr ""
+
+#: inary/operations/install.py:151
+#, fuzzy
+msgid "Do you want to continue?"
+msgstr "Kívánja folytatni?"
+
+#: inary/operations/install.py:195
+msgid "Mixing file names and package names not supported yet."
+msgstr "Csomagok és fájlnevek vegyes használata még nem támogatott."
+
+#: inary/operations/install.py:241
+#, python-brace-format
+msgid ""
+"Package \"{0}\" is not compatible with your distribution release '{1}' '{2}'."
+msgstr ""
+"A(z) {0} csomag nem kompatíbilis az ön disztribúciójának kiadásával: {1} {2}."
+
+#: inary/operations/install.py:248
+#, python-brace-format
+msgid "Package \"{0}\" ('{1}') is not compatible with your '{2}' architecture."
+msgstr ""
+"A(z) {0} {1} csomag nem kompatíbilis az ön számítógépének kiépítésével {2}."
+
+#: inary/operations/install.py:276
+#, fuzzy
+msgid "External dependencies not satisfied: \"{}\", \"{}\""
+msgstr "Egy külső függőség nincs teljesítve: {}"
+
+#: inary/operations/install.py:281
+msgid ""
+"The following packages will be installed in order to satisfy dependencies:"
+msgstr ""
+"A következő csomagok kerülnek telepítésre, a függőségeknek megfelelő "
+"sorrendben:"
+
+#: inary/operations/install.py:327
+msgid "Installation order: "
+msgstr "Telepítési sorrend: "
+
+#: inary/operations/install.py:387
+#, fuzzy
+msgid "Following packages are not satisfied:\n"
+msgstr "A következő csomagok telepítve lesznek:"
+
+#: inary/operations/install.py:389
+#, fuzzy, python-brace-format
+msgid " -> \"{0}\" dependency(s) of package \"{1}\" is not satisfied.\n"
+msgstr "A(z) {0} csomag függősége a(z) {1} csomagnak, de nem teljesíthető."
+
+#: inary/operations/build.py:121
+msgid "Path \"{}\" belongs in multiple packages."
+msgstr "A(z) {} útvonal több csomahoz is tartozik."
+
+#: inary/operations/build.py:152
+msgid "Removing special file skipped for: \"{}\""
+msgstr "{} csomag eltávolítása"
+
+#: inary/operations/build.py:156
+#, python-brace-format
+msgid "Removing special \"{0}\" file: \"{1}\""
+msgstr "{} csomag eltávolítása"
+
+#: inary/operations/build.py:203
+msgid "Source URI: {}"
+msgstr "Forrás URI: {}"
+
+#: inary/operations/build.py:208
+msgid "Source \"{}\" not found in any active repository."
+msgstr "A(z) {} forrás egyik aktív tárolóban sem található."
+
+#: inary/operations/build.py:243
+#, fuzzy
+msgid "Would you like to compile package as root user?"
+msgstr "Kívánja folytatni?"
+
+#: inary/operations/build.py:244
+#, fuzzy
+msgid "Operation canceled."
+msgstr "Opciók"
+
+#: inary/operations/build.py:248
+msgid "[ !!! ] Building RFP for {}"
+msgstr "A(z) {} formátumfájl építése"
+
+#: inary/operations/build.py:251
+msgid "Would you like to compile this RFP package?"
+msgstr "Kívánja folytatni?"
+
+#: inary/operations/build.py:254
+msgid "Didn't permit build RFP package."
+msgstr ""
+
+#: inary/operations/build.py:266
+msgid "Translation cannot readed."
+msgstr ""
+
+#: inary/operations/build.py:373
+msgid "pspec.xml avoids this package from building for \"{}\""
+msgstr "A pspec.xml óva int a csomag {} számára való építésétől."
+
+#: inary/operations/build.py:376
+msgid "Building source package: \"{}\""
+msgstr "INARY forráscsomag készítése: {}"
+
+#: inary/operations/build.py:387 inary/operations/build.py:1138
+#, fuzzy
+msgid "Component cannot readed."
+msgstr "A(z) {} komponens nem található."
+
+#: inary/operations/build.py:400
+msgid "ccache detected..."
+msgstr "ccache észlelve..."
+
+#: inary/operations/build.py:402
+msgid "IceCream detected. Make sure your daemon is up and running..."
+msgstr "IceCream észlelve. Győződjön meg róla, hogy a démon működik."
+
+#: inary/operations/build.py:444
+msgid "Rebuilding source for build type: {}"
+msgstr "{} hozzáadása a csomaglistához"
+
+#: inary/operations/build.py:564
+msgid ""
+"Cannot find component.xml for \"{}\" in remote directory, Source is now part "
+"of unknown component."
+msgstr ""
+"Nem található component.xml a távoli könyvtárban. A forrás mostantól "
+"ismeretlen komponens része."
+
+#: inary/operations/build.py:572
+msgid ""
+"Cannot find component.xml for \"{}\" in upper directory, Source is now part "
+"of unknown component."
+msgstr ""
+"Nem található component.xml a szülő könyvtárban. A forrás mostantól "
+"imseretlne komponens része."
+
+#: inary/operations/build.py:583
+msgid "Building source package: \"{}\" [ Fetching Step ]"
+msgstr "INARY forráscsomag készítése: {}"
+
+#: inary/operations/build.py:588
+msgid "Building source package: \"{}\" [ Unpacking Step ]"
+msgstr "INARY forráscsomag készítése: {}"
+
+#: inary/operations/build.py:594
+msgid "Unpacking archive(s)..."
+msgstr "Archívumok kicsomagolása..."
+
+#: inary/operations/build.py:602
+msgid " -> unpacked ({})"
+msgstr " kicsomagolva {}"
+
+#: inary/operations/build.py:607
+msgid "Building source package: \"{}\" [ SetupAction Step ]"
+msgstr "INARY forráscsomag készítése: {}"
+
+#: inary/operations/build.py:613
+msgid "Setting up source..."
+msgstr "Forrás beállítása..."
+
+#: inary/operations/build.py:618
+msgid "Building source package: \"{}\" [ BuildAction Step ]"
+msgstr "INARY forráscsomag készítése: {}"
+
+#: inary/operations/build.py:620
+msgid "Building source..."
+msgstr "Forrás építése..."
+
+#: inary/operations/build.py:625
+msgid "Building source package: \"{}\" [ CheckAction Step ]"
+msgstr "INARY forráscsomag készítése: {}"
+
+#: inary/operations/build.py:627
+msgid "Testing package..."
+msgstr "Csomag tesztelése..."
+
+#: inary/operations/build.py:631
+msgid "Building source package: \"{}\" [ InstallAction Step ]"
+msgstr "INARY forráscsomag készítése: {}"
+
+#: inary/operations/build.py:633
+msgid "Installing..."
+msgstr "Telepítés..."
+
+#: inary/operations/build.py:731
+msgid "WorkDir:{}"
+msgstr ""
+
+#: inary/operations/build.py:773
+msgid "Using actions file as python script"
+msgstr ""
+
+#: inary/operations/build.py:776 inary/operations/build.py:781
+msgid "unable to call function from actions: '{}'"
+msgstr "unable to call function from actions: {}"
+
+#: inary/operations/build.py:778
+msgid "Using actions file as bash script"
+msgstr ""
+
+#: inary/operations/build.py:784
+msgid ""
+"Actions file not found\n"
+" function:{}\n"
+" Actions directory:{}"
+msgstr ""
+
+#: inary/operations/build.py:796
+#, python-brace-format
+msgid "Source package '{0}' defines a relative 'Path' element: {1}"
+msgstr ""
+
+#: inary/operations/build.py:800
+#, python-brace-format
+msgid "Source package '{0}' defines multiple 'Path' tags for {1}"
+msgstr ""
+
+#: inary/operations/build.py:832
+msgid ""
+"Safety switch: following extra packages in system.devel will be installed: "
+msgstr ""
+"Biztonsági kapcsoló: a következő extra csomagok telepítésre kerülnek a "
+"system.devel-ből: "
+
+#: inary/operations/build.py:840
+msgid "Safety switch: the component system.devel cannot be found."
+msgstr "Biztonsági kapcsoló: a system.devel komponens nem található"
+
+#: inary/operations/build.py:849
+msgid "Unsatisfied Build Dependencies:"
+msgstr "Teljesíthetetlen függőségek:"
+
+#: inary/operations/build.py:854
+msgid "Cannot build package due to unsatisfied build dependencies."
+msgstr "A csomag nem készíthető el teljesítetlen függőségek miatt"
+
+#: inary/operations/build.py:860
+msgid "Build dependency \"{}\" cannot be satisfied."
+msgstr "A(z) {} build függőséget nem lehet teljesíteni"
+
+#: inary/operations/build.py:863
+msgid "Would you like to install the unsatisfied build dependencies?"
+msgstr "Akarja telepíteni a hiányzó függőségeket?"
+
+#: inary/operations/build.py:864
+msgid "Installing build dependencies."
+msgstr "Build függőségek telepítése."
+
+#: inary/operations/build.py:871
+msgid "Ignoring build dependencies."
+msgstr "Build függőségek kihagyása."
+
+#: inary/operations/build.py:882
+#, fuzzy
+msgid "Patch file is missing: \"{}\"\n"
+msgstr "Patch fájl nincs meg: {}"
+
+#: inary/operations/build.py:886
+msgid "Patch file is empty: \"{}\""
+msgstr "Patch fájl nincs meg: {}"
+
+#: inary/operations/build.py:904
+msgid "Applying patch: {}"
+msgstr "* Patch alkalmazása: {}"
+
+#: inary/operations/build.py:1047
+msgid "No user named '{}' found on the system"
+msgstr "Nincs {} nevű felhasználó a rendszerben"
+
+#: inary/operations/build.py:1052
+msgid "No group named '{}' found on the system"
+msgstr "Nincs {} nevű csoport a rendszerben"
+
+#: inary/operations/build.py:1060
+msgid "/{} has suid bit set"
+msgstr "/{} suid bit beállítva"
+
+#: inary/operations/build.py:1081
+msgid ""
+"Module \"magic\" cannot found. Falling back with \"file\" command. It is "
+"dangerous. So, if you wanna create stable packages, please fix this issue in "
+"your workplace. Probably installing \"python3-filemagic\" package might be a "
+"good solution."
+msgstr ""
+
+#: inary/operations/build.py:1096
+msgid ""
+"File \"{}\" might be a broken symlink. Check it before publishing package."
+msgstr ""
+
+#: inary/operations/build.py:1102
+#, python-brace-format
+msgid "'magic' return of \"{0}\" is \"{1}\""
+msgstr "\"{0}\" visszatéréis értéke {1}"
+
+#: inary/operations/build.py:1108
+#, python-brace-format
+msgid "'file' command failed with return code {0} for file: \"{1}\""
+msgstr "A strip parancsot nem tudtam végrehajtani a(z) {} fájlon!"
+
+#: inary/operations/build.py:1111
+#, fuzzy
+msgid ""
+"Output:\n"
+"{}"
+msgstr "Kimeneti könyvtár: {}"
+
+#: inary/operations/build.py:1116
+msgid "'file' command return is \"{}\""
+msgstr "A strip parancsot nem tudtam végrehajtani a(z) {} fájlon!"
+
+#: inary/operations/build.py:1130
+msgid "Compiled source building package files generating for source: \"{}\""
+msgstr ""
+
+#: inary/operations/build.py:1140
+#, fuzzy
+msgid "Running file actions: \"{}\""
+msgstr "Hiányzó fájl: /{}"
+
+#: inary/operations/build.py:1187
+msgid "There are abandoned files under the install dir ({}):"
+msgstr "Gazdátlan fájlok vannak a telepítési könyvtár {}:"
+
+#: inary/operations/build.py:1224 inary/operations/build.py:1230
+msgid "Ignoring empty package: \"{}\""
+msgstr "% üres csomag figyelmen kívül hagyása"
+
+#: inary/operations/build.py:1235
+msgid "Building package: \"{}\""
+msgstr "{} csomag elkészítése"
+
+#: inary/operations/build.py:1251
+msgid "Creating \"{}\"..."
+msgstr "{} létrehozása..."
+
+#: inary/operations/build.py:1315
+msgid "Cleaning build directory..."
+msgstr "Átmeneti könyvtár tisztítása..."
+
+#: inary/operations/build.py:1318
+msgid "Keeping build directory"
+msgstr "Átmeneti könyvtár megőrzése"
+
+#: inary/operations/build.py:1407
+msgid "Action script error caught. {}"
+msgstr "Parancsfájl hiba: {}"
+
+#: inary/operations/build.py:1410
+msgid "*** {} error(s), {} warning(s)"
+msgstr "*** hibák száma {}, figyelmeztetések száma {}"
+
+#: inary/operations/build.py:1496
+msgid "Last state was '{}'"
+msgstr ""
+
+#: inary/operations/emerge.py:44
+msgid "No packages to emerge."
+msgstr "Nincsenek beépíthető csomagok."
+
+#: inary/operations/emerge.py:109
+msgid "Cannot find source package: \"{}\""
+msgstr "A forráscsomag nem található: {}"
+
+#: inary/operations/repository.py:36
+msgid "Not a valid repository name."
+msgstr "Érvénytelen tárolónév."
+
+#: inary/operations/repository.py:40
+msgid "Repository \"{}\" already present."
+msgstr "A(z) {} tároló már létezik."
+
+#: inary/operations/repository.py:44
+msgid "Repository \"{}\" already present with name \"{}\"."
+msgstr "A tároló már létezik {} név alatt."
+
+#: inary/operations/repository.py:49
+msgid "Repository \"{}\" added to system."
+msgstr "{} tároló hozzáadva a rendszerhez."
+
+#: inary/operations/repository.py:57
+msgid "Flushing database caches..."
+msgstr "A(z) {} INARY csomag létrehozása."
+
+#: inary/operations/repository.py:59
+msgid "Repository \"{}\" removed from system."
+msgstr "{} tároló eltávolítva a rendszerből."
+
+#: inary/operations/repository.py:62
+msgid "Repository \"{}\" does not exist. Cannot remove."
+msgstr "{} tároló nem létezik. Nem tudom eltávolítani."
+
+#: inary/operations/repository.py:95
+msgid "Regenerating database caches..."
+msgstr "Fájl adatbázis újraépítése"
+
+#: inary/operations/repository.py:112
+msgid "\"{}\" repository information is up-to-date."
+msgstr "A(z) {} tároló naprakész."
+
+#: inary/operations/repository.py:114
+msgid "Updating database at any rate as requested."
+msgstr "Adatbázis frissítése mindenképpen."
+
+#: inary/operations/repository.py:128
+msgid "Repository \"{}\" is deactivated because of GPG Signature fail."
+msgstr ""
+
+#: inary/operations/repository.py:133
+msgid "Package database updated."
+msgstr "* A csomag adatbázis frissítve."
+
+#: inary/operations/repository.py:136
+msgid "No repository named \"{}\" found."
+msgstr "{} nevű tároló nem található."
+
+#: inary/operations/helper.py:57
+msgid "Selected packages \"[{}]\" are in conflict with each other."
+msgstr "A kiválasztott csomagok [{}] ütköznek egymással."
+
+#: inary/operations/helper.py:64
+#, fuzzy, python-brace-format
+msgid " - [\"{0}\" conflicts with: \"{1}\"]\n"
+msgstr "[{0} ütközik {1} csomaggal]"
+
+#: inary/operations/helper.py:68
+#, fuzzy
+msgid ""
+"The following packages have conflicts:\n"
+"{}"
+msgstr "A következő csomagokban ütközések találhatók:{}"
+
+#: inary/operations/helper.py:70
+msgid "Remove the following conflicting packages?"
+msgstr "Eltávolítsam az alábbi ütköző csomagokat?"
+
+#: inary/operations/helper.py:72
+msgid "Conflicting packages should be removed to continue."
+msgstr "Az ütköző csomagokat el kell távolítani a folytatáshoz"
+
+#: inary/operations/helper.py:121 inary/operations/remove.py:94
+msgid "After this operation, {:.2f} {} space will be freed."
+msgstr ""
+
+#: inary/operations/helper.py:124
+msgid "After this operation, {:.2f} {} space will be used."
+msgstr ""
+
+#: inary/operations/helper.py:248
+#, python-brace-format
+msgid "Keeping old config file {0} as {0}.old-byinary"
+msgstr ""
+
+#: inary/operations/helper.py:259
+#, python-brace-format
+msgid "[?] Would you like to see changes in config files of \"{0}\" package"
+msgstr "Csak a megváltozott konfigurációs fájlok ellenőrzése"
+
+#: inary/operations/helper.py:271
+msgid "[*] Changes in config file: {}"
+msgstr ""
+
+#: inary/operations/helper.py:275
+msgid "[?] Select the process which will be happened:"
+msgstr ""
+
+#: inary/operations/helper.py:276
+msgid "1. Store new config file, not apply [*]"
+msgstr ""
+
+#: inary/operations/helper.py:277
+msgid "2. Apply new config file (keep old config)"
+msgstr ""
+
+#: inary/operations/helper.py:278
+msgid "3. Apply new config file (don't keep old config)"
+msgstr ""
+
+#: inary/operations/helper.py:279
+msgid "4. Delete new config file"
+msgstr ""
+
+#: inary/operations/helper.py:301
+#, python-brace-format
+msgid "Deleting new config file {0}"
+msgstr ""
+
+#: inary/operations/remove.py:57
+#, fuzzy
+msgid "Safety switch prevents the removal of following packages:\n"
+msgstr ""
+"A biztonsági kapcsoló nem teszi lehetővé a következő csomagok eltávolítását:"
+
+#: inary/operations/remove.py:71
+msgid "Package \"{}\" does not exist. Cannot remove."
+msgstr "A(z) {} csomag nem létezik. Nem tudom eltávolítani."
+
+#: inary/operations/remove.py:75
+msgid "No packages to remove."
+msgstr "Nincsenek eltávolítandó csomagok."
+
+#: inary/operations/remove.py:84
+msgid ""
+"The following list of packages will be removed in the respective order to "
+"satisfy dependencies:"
+msgstr ""
+"Az al ábbiakban felsorolt csomagok eltávolításra kerülnek,a függőségeknek "
+"megfelelő sorrendben:"
+
+#: inary/operations/remove.py:102
+msgid "Package removal declined."
+msgstr "Csomageltávolítás visszavonva."
+
+#: inary/operations/remove.py:121
+msgid "Package \"{}\" is not installed. Cannot remove."
+msgstr "A(z) {} csomag nincs telepítve. Nem tudom eltávolítani."
+
+#: inary/operations/remove.py:169
+msgid "Conflicts remain."
+msgstr "Ütközések maradtak"
+
+#: inary/operations/remove.py:178
+msgid "Obsoleted packages remaining."
+msgstr "Elavult csomagok maradnak"
+
+#: inary/operations/remove.py:183
+msgid "Replaced package remains."
+msgstr "Lecserélt csomagok mardnak"
+
+#: inary-cli:57
+#, fuzzy
+msgid ""
+"\n"
+"Unhandled internal exception.\n"
+"Please file a bug report to <https://github.com/SulinOS/inary/issues>."
+msgstr ""
+"Nem kezelt belső hiba.Küldjön hibabejelentést a <http://bugs.sulin.org> "
+"címen."
+
+#: inary-cli:60
+msgid "Program terminated."
+msgstr "A program futása befejeződött."
+
+#: inary-cli:62
+#, fuzzy
+msgid ""
+"\n"
+"Keyboard Interrupt [Ctrl-C]: Exiting..."
+msgstr "Megszakítás a billentyűzetről: Kilépés ..."
+
+#: inary-cli:65
+#, fuzzy
+msgid ""
+"\n"
+"Keyboard Interrupt [Ctrl-D]: Exiting..."
+msgstr "Megszakítás a billentyűzetről: Kilépés ..."
+
+#: inary-cli:74
+msgid "System error. Program terminated."
+msgstr "Rendszerhiba. A program futása megszakadt."
+
+#: inary-cli:83
+msgid "Please use 'inary help' for general help."
+msgstr "Kérjük, használja a \"inary help\" alkalmazást az általános súgóhoz."
+
+#: inary-cli:86
+#, fuzzy
+msgid ""
+"\n"
+"Traceback:"
+msgstr "Visszakövetés:"
+
+#: inary-cli:89
+msgid "Use --debug to see a traceback."
+msgstr "Használja a --debug kapcsolót a visszakövetés megjelenítéséhez."
+
+#: inary-cli:102
+msgid "Using inary in WSL environment is not allowed."
+msgstr ""
+
+#, python-format
+#~ msgid "no such option: %s"
+#~ msgstr "nincs ilyen opció: %s"
+
+#, python-format
+#~ msgid "ambiguous option: %s (%s?)"
+#~ msgstr "nem egyértelmű opció: %s (%s?)"
+
+#, fuzzy, python-format
+#~ msgid "Usage: %s\n"
+#~ msgstr "Használat: %s"
+
+#~ msgid "Usage"
+#~ msgstr "Használat"
+
+#~ msgid "integer"
+#~ msgstr "egész szám"
+
+#~ msgid "floating-point"
+#~ msgstr "lebegőpontos"
+
+#~ msgid "complex"
+#~ msgstr "összetett"
+
+#, python-format
+#~ msgid "option %s: invalid %s value: %r"
+#~ msgstr "%s opció: %s érvénytelen érték: %r"
+
+#, python-format
+#~ msgid "option %s: invalid choice: %r (choose from %s)"
+#~ msgstr "%s opció: érvénytelen választás: %r (válasszon innen: %s)"
+
+#~ msgid "show this help message and exit"
+#~ msgstr "megjeleníti ezt a súgót, majd kilép"
+
+#~ msgid "show program's version number and exit"
+#~ msgstr "megjeleníti a program verziószámát, majd kilép"
+
+#~ msgid "%prog [options]"
+#~ msgstr "%prog [opciók]"
+
+#, python-format
+#~ msgid "%(option)s option requires %(number)d argument"
+#~ msgid_plural "%(option)s option requires %(number)d arguments"
+#~ msgstr[0] "a(z) %s opció megköveteli %d argumentumot"
+#~ msgstr[1] "a(z) %s opció megköveteli %d argumentumot"
+
+#, python-format
+#~ msgid "%s option does not take a value"
+#~ msgstr "a(z) %s opció nem kér értéket"
+
+#~ msgid "Options"
+#~ msgstr "Opciók"
+
+#~ msgid "Inary package"
+#~ msgstr "Telepített csomag:"
+
+#, fuzzy
+#~ msgid "Re-installing package."
+#~ msgstr "Csomag tesztelése..."
+
+#, fuzzy
+#~ msgid ""
+#~ "Add \"{}\" repository without updating the database?\n"
+#~ "By confirming this you are also adding the repository to your system "
+#~ "without checking the distribution of the repository.\n"
+#~ "Would you like to continue?"
+#~ msgstr ""
+#~ "Tároló hozzáadása adatbázis frissítés nélkül?Ha megerősíti, a tároló "
+#~ "hozzáadásakor a disztribúció egyezést sem ellenőrizzük.Folytassuk?"
+
+#, fuzzy, python-brace-format
+#~ msgid ""
+#~ "Error: {0} repository could not be reached: \n"
+#~ "{1}"
+#~ msgstr "A(z) {} tároló frissítésre szorul."
+
+#, python-brace-format
+#~ msgid "Removing {0} from system."
+#~ msgstr "{} tároló eltávolítva a rendszerből."
+
+#, python-brace-format
+#~ msgid "Couldn't trust \"{0}\" repository. It is deactivated."
+#~ msgstr "A(z) {0} tároló frissítve."
+
+#~ msgid "Do not update repositories."
+#~ msgstr "Ne frissüljenek a tárolók"
+
+#~ msgid "Updating repositories."
+#~ msgstr "Tárolók frissítése"
+
+#~ msgid "Will not update repositories."
+#~ msgstr "Nem frissíti a tárolókat"
+
+#, fuzzy
+#~ msgid ""
+#~ "The following list of packages will be installed\n"
+#~ "from repository in the respective order to satisfy dependencies:\n"
+#~ msgstr ""
+#~ "Az alábbiakban kilistázott csomagok telepítésre kerülneka tárolóból, a "
+#~ "függőségek teljesítése érdekében a megfelelő sorrendben:"
+
+#, fuzzy
+#~ msgid ""
+#~ "The following list of packages will be built and\n"
+#~ "installed in the respective order to satisfy dependencies:\n"
+#~ msgstr ""
+#~ "A következőkben kilistázott csomagok felépítésre és telepítésre kerülnek,"
+#~ "különös tekintettel a megfelelő sorrendre, a függőségek teljesítése "
+#~ "érdekében:"
+
+#~ msgid "File \"{}\" has invalid XML."
+#~ msgstr "A(z) {} fájl hibás XML adatot tartalmaz"
+
+#~ msgid "Password: "
+#~ msgstr "Jelszó:"
+
+#~ msgid "Storing files of \"{}\" package."
+#~ msgstr "* {} hozzáadása az adatbázishoz..."
+
+#~ msgid "Bypass scom configuration agent."
+#~ msgstr "A scom konfigurációs automatizmus átlépése."
+
+#~ msgid "scom package is not fully installed."
+#~ msgstr "A scom csomag nincs teljesen telepítve"
+
+#~ msgid "{} repository needs to be updated"
+#~ msgstr "A(z) {} tároló frissítésre szorul."
+
+#~ msgid "Copying \"{}\" to transfer dir"
+#~ msgstr "{} másolása a transzfer könyvtárba"
+
+#~ msgid "Unable to read SCOM script ({0}): {1}"
+#~ msgstr "A SCOM script nem olvasható {0}: {1}"
+
+#~ msgid "SyntaxError in SCOM file ({0}): {1}"
+#~ msgstr "Szintaktikai hiba a SCOM fájlban {0}: {1}"
+
+#~ msgid "Cannot connect to SCOM:   \"{}\""
+#~ msgstr "Nem tudokkapcsolódni a SCOM-hoz:  {}"
+
+#~ msgid "SCOM package updated. From now on, using new SCOM daemon."
+#~ msgstr ""
+#~ "A SCOM csomag frissítésre került. Mostantól az új SCOM démont használjuk."
+
+#~ msgid "Registering \"{0}\" named scom script for \"{1}\"."
+#~ msgstr "A(z) {} scom parancsfájl regisztrálása"
+
+#~ msgid "Script error: {}"
+#~ msgstr "Parancsfájl hiba: {}"
+
+#~ msgid "Calling post install handlers for \"{}\" package."
+#~ msgstr "Telepítés utáni műveletek indítása"
+
+#~ msgid "Script error for \"{0}\" package: {1}."
+#~ msgstr "Parancsfájl hiba: {}"
+
+#~ msgid "Running package's post install script for \"{0}\" package."
+#~ msgstr "A csomag telepítés utáni parancsainak futtatása"
+
+#~ msgid "Script error for \"{0}\" package: {1}"
+#~ msgstr "Parancsfájl hiba: {}"
+
+#~ msgid "Running pre removal operations for \"{}\" package."
+#~ msgstr "{} eltávolítás utáni műveleteinek futtatása"
+
+#~ msgid "Running package's pre remove script for \"{}\" package."
+#~ msgstr "A csomag eltávolítás előtti parancsainak futtatása"
+
+#~ msgid "Calling pre remove handlers for \"{}\" package."
+#~ msgstr "Az eltávolítást előkészítő parancsok indítása"
+
+#~ msgid "Running post removal operations for \"{}\" package."
+#~ msgstr "{} eltávolítás utáni műveleteinek futtatása"
+
+#~ msgid "Calling post remove handlers for \"{}\" package."
+#~ msgstr "{} eltávolítás utáni műveleteinek futtatása"
+
+#~ msgid "Unregistering scom scripts of \"{}\" package."
+#~ msgstr "Scom parancsfájl bejegyzésének eltávolítása"
+
+#~ msgid "Unregistering {} script."
+#~ msgstr "Scom parancsfájl bejegyzésének eltávolítása"
+
+#~ msgid "SyntaxError in Post Operations Script ({0}): {1}"
+#~ msgstr "Szintaktikai hiba az Action Script-ben {0}: {1}"
+
+#~ msgid "Unable to read Post Operations Script ({0}): {1}"
+#~ msgstr "Az Action Script {0} nem olvasható: {1}"
+
+#~ msgid "Getting package file \"{}\" from locale."
+#~ msgstr "A texmf fájlok telepítése nem sikerült"
+
+#~ msgid "Sandbox violations!"
+#~ msgstr "Sandbox violations!"
+
+#~ msgid "Sandbox violation result:"
+#~ msgstr "Sandbox violation result:"
+
+#~ msgid "Sandbox enabled build..."
+#~ msgstr "Sandbox enabled build..."
+
+#~ msgid "Sandbox violation: {0} ({1} -> {2})"
+#~ msgstr "Sandbox violation: {0} ({1} -> {2})"
+
+#~ msgid "Fetching source from mirror: \"{}\""
+#~ msgstr "Forrás letöltése egy tükörszerverről: {}"
+
+#~ msgid ""
+#~ "Repository \"{}\" is not compatible with your distribution. Repository is "
+#~ "disabled."
+#~ msgstr ""
+#~ "A(z) tároló nem kompatíbilis az ön által használt disztribúcióval. A "
+#~ "tárolót kikapcsoltam."
+
+#~ msgid "Do not constrain build process inside the build folder."
+#~ msgstr "Ne korlátozza a build folyamatot a build könyvtáron belülre"
+
+#~ msgid "Downloading <{} / {}>"
+#~ msgstr "Letöltés  {} / {}"
+
+#~ msgid "Configuring \"{}\" package."
+#~ msgstr "A(z) {} csomag beállítása"
+
+#~ msgid "GNU Config Update Failed."
+#~ msgstr "A GNU Config Update művelet befejezve."
+
+#~ msgid "Upgrade is not possible."
+#~ msgstr "A frissítés nem lehetséges."
+
+#, python-brace-format
+#~ msgid "Dependency \"{0}\" of \"{1}\" cannot be satisfied."
+#~ msgstr "A(z) {0}, mint a(z) {1} csomag függősége, nem teljesíthető"
+
+#, python-brace-format
+#~ msgid "SyntaxError in Post Operations script ({0}): {1}"
+#~ msgstr "Szintaktikai hiba az Action Script-ben {0}: {1}"
+
+#, python-brace-format
+#~ msgid "Unable to read Post Operations script ({0}): {1}"
+#~ msgstr "Az Action Script {0} nem olvasható: {1}"
+
+#, python-brace-format
+#~ msgid "SyntaxError in Actions Script ({0}): {1}"
+#~ msgstr "Szintaktikai hiba az Action Script-ben {0}: {1}"
+
+#, python-brace-format
+#~ msgid "Unable to read Actions Script ({0}): {1}"
+#~ msgstr "Az Action Script {0} nem olvasható: {1}"
+
+#~ msgid "Plotting a graph of relations among all installed packages."
+#~ msgstr ""
+#~ "Az összes telepített csomag közötti kapcsolatot megjelenítő ábra "
+#~ "elkészítése"
+
+#~ msgid "Plotting a graph of relations among all repository packages."
+#~ msgstr ""
+#~ "A tároló valamennyi csomagja közötti kapcsolatokat megjelenítő ábra "
+#~ "elkészítése"
+
+#~ msgid "Plotting packages in repository \"{}\""
+#~ msgstr "A(z) {} tároló csomagjait megjelenítő ábra elkészítése"
+
+#~ msgid "Dot output file"
+#~ msgstr "Dot kimeneti fájl"
+
+#~ msgid "Draw reverse dependency graph."
+#~ msgstr "Fordított függőségek:"
+
+#~ msgid "Do not show installed packages."
+#~ msgstr "Ne mutassa a  telepített csomagokat"
+
+#~ msgid "Graph of installed packages"
+#~ msgstr "Telepített programok grafikus ábrázolása"
+
+#~ msgid "Specify a particular repository."
+#~ msgstr "Egy bizonyos tároló megadása"
+
+#~ msgid "graph options"
+#~ msgstr "grafikon opciók"
+
+#~ msgid ""
+#~ "Graph package relationsUsage: graph [<package1> <package2> ...]Write a "
+#~ "graph of package relations, tracking dependency andconflicts relations "
+#~ "starting from given packages. By defaultshows the package relations among "
+#~ "repository packages, and writesthe package in graphviz format to 'pgraph."
+#~ "dot'."
+#~ msgstr ""
+#~ "Csomagok közötti kapcsolatok grafikus ábrázolásaHasználata: graph "
+#~ "[<csomag1> <csomag2> ...]Grafikusan ábrázolja a csomagok kapcsolatait, a "
+#~ "függőségeketés az ütközéseket. Alapértelmezésként az egy tárolón belül "
+#~ "lévőcsomagok közötti kapcsolatokat mutatja meg, melyet "
+#~ "graphvizformátumban a 'pgraph.dot' nevű fájlban helyez el."
+
+#~ msgid "Upgrading to new upstream version."
+#~ msgstr "Frissítés a legújabb verzióra"

@@ -1,0 +1,4202 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-08-06 13:30+0000\n"
+"PO-Revision-Date: 2019-08-25 00:49+0300\n"
+"Last-Translator: Suleyman Poyraz\n"
+"Language-Team: Sulin Translation Team\n"
+"Language: az\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.0.6\n"
+
+#: inary/actionsapi/cmaketools.py:42 inary/actionsapi/autotools.py:46
+#: inary/actionsapi/gotools.py:41
+#, fuzzy
+msgid ""
+"Please attach the config.log to your bug report:\n"
+"{}/config.log"
+msgstr "Zəhmət olmasa config.log səhv hesabatınıza əlavə edin:{}/config.log"
+
+#: inary/actionsapi/cmaketools.py:86 inary/actionsapi/autotools.py:105
+#: inary/actionsapi/mesontools.py:92 inary/actionsapi/perlmodules.py:62
+#: inary/actionsapi/perlmodules.py:66
+msgid "Configure failed."
+msgstr "Konfiqurasiya uğursuz oldu."
+
+#: inary/actionsapi/cmaketools.py:89 inary/actionsapi/autotools.py:108
+#: inary/actionsapi/mesontools.py:95 inary/actionsapi/mesontools.py:120
+#: inary/actionsapi/perlmodules.py:69
+msgid "No configure script found. (\"{}\" file not found.)"
+msgstr "Konfiqurasiya ssenarisi tapılmadı. (\"{}\" fayl tapılmadı.)"
+
+#: inary/actionsapi/cmaketools.py:100 inary/actionsapi/autotools.py:119
+#: inary/actionsapi/pythonmodules.py:71 inary/actionsapi/gotools.py:75
+#: inary/actionsapi/gotools.py:82 inary/actionsapi/scons.py:44
+#: inary/actionsapi/perlmodules.py:76
+msgid "Make failed."
+msgstr "Make uğursuz oldu."
+
+#: inary/actionsapi/cmaketools.py:120 inary/actionsapi/cmaketools.py:130
+#: inary/actionsapi/autotools.py:161 inary/actionsapi/rubymodules.py:123
+#: inary/actionsapi/rubymodules.py:132 inary/actionsapi/rubymodules.py:146
+#: inary/actionsapi/mesontools.py:146 inary/actionsapi/pythonmodules.py:78
+#: inary/actionsapi/gotools.py:100 inary/actionsapi/scons.py:49
+#: inary/actionsapi/perlmodules.py:86
+msgid "Install failed."
+msgstr "Install quraşdırma alınmadı."
+
+#: inary/actionsapi/cmaketools.py:134
+msgid "No Makefile found."
+msgstr "Make işiy tapılmadı."
+
+#: inary/actionsapi/autotools.py:113
+msgid "Compiling failed."
+msgstr "Compiling tərtib edilmədi."
+
+#: inary/actionsapi/autotools.py:174
+msgid "Running 'aclocal' failed."
+msgstr "'aclocal' çalışması uğursuz oldu."
+
+#: inary/actionsapi/autotools.py:181 inary/actionsapi/autotools.py:184
+msgid "Running 'autogen.sh' script failed."
+msgstr "'autogen.sh' skriptini işə salmaq uğursuz oldu."
+
+#: inary/actionsapi/autotools.py:190
+msgid "Running 'autoconf' failed."
+msgstr "'autoconf' işlədilmədi."
+
+#: inary/actionsapi/autotools.py:196
+msgid "Running 'autoreconf' failed."
+msgstr "'autoreconf' işlədilmədi."
+
+#: inary/actionsapi/autotools.py:202
+msgid "Running 'automake' failed."
+msgstr "\"automake\" işlədilmədi."
+
+#: inary/actionsapi/autotools.py:208
+msgid "Running 'autoheader' failed."
+msgstr "\"autoheader\" işə düşmədi."
+
+#: inary/actionsapi/kerneltools.py:130
+msgid "Can't find kernel version information file \"{}\"."
+msgstr "\"{}\" Nüvəli versiya məlumat faylı tapa bilmir."
+
+#: inary/actionsapi/libtools.py:39
+msgid "Running 'ldconfig' failed."
+msgstr "'ldconfig' işlədilmədi."
+
+#: inary/actionsapi/libtools.py:59
+msgid ""
+"GNU Config Update Failed. Please check your gnuconfig scripts. (/usr/share/"
+"gnuconfig)"
+msgstr ""
+"GNU Konfiqurasiya Yeniləməsi alınmadı. Zəhmət olmasa gnuconfig yazılarınızı "
+"yoxlayın. (/usr/share/gnuconfig)"
+
+#: inary/actionsapi/libtools.py:61
+msgid "GNU Config Update Finished."
+msgstr "GNU Config Konfiqurasiya Yeniləməsi Bitdi."
+
+#: inary/actionsapi/libtools.py:66
+msgid "Running \"libtoolize\" failed."
+msgstr "\"libtoolize\" çalışması uğursuz oldu."
+
+#: inary/actionsapi/inarytools.py:45 inary/actionsapi/inarytools.py:66
+#: inary/actionsapi/inarytools.py:86
+msgid "Insufficient arguments."
+msgstr "Yetərli olmayan arqumentlər."
+
+#: inary/actionsapi/inarytools.py:54
+msgid "No executable file matched pattern \"{}\"."
+msgstr "\"{}\" Nümunəsi ilə işlənən bir fayl tapılmadı."
+
+#: inary/actionsapi/inarytools.py:75 inary/actionsapi/inarytools.py:164
+#: inary/actionsapi/inarytools.py:404
+msgid "No file matched pattern \"{}\"."
+msgstr "\"{}\" Nümunəsinə uyğun bir fayl tapılmadı."
+
+#: inary/actionsapi/inarytools.py:214
+msgid "No file matched pattern \"{}\""
+msgstr "\"{}\" Nümunəsinə uyğun heç bir fayl tapılmadı"
+
+#: inary/actionsapi/inarytools.py:225
+msgid "ActionsAPI [doman]: Wrong man page file: \"{}\""
+msgstr "ActionsAPI [doman]: Səhv adam səhifəsi faylı: \"{}\""
+
+#: inary/actionsapi/inarytools.py:261
+msgid "No file matched pattern \"{}\". 'domove' operation failed."
+msgstr ""
+"\"{}\" Nümunəsinə uyğun bir fayl tapılmadı. 'domove' əməliyyatı uğursuz oldu."
+
+#: inary/actionsapi/inarytools.py:300
+#, python-brace-format
+msgid "ActionsAPI [rename]: \"{0}\": \"{1}\""
+msgstr "ActionsAPI [rename]: \"{0}\": \"{1}\""
+
+#: inary/actionsapi/inarytools.py:341
+msgid "No such file matching pattern: \"{}\". 'dosed' operation failed."
+msgstr ""
+"Belə bir uyğun sənəd nümunəsi yoxdur: \"{}\". 'dosed' əməliyyatı uğursuz "
+"oldu."
+
+#: inary/actionsapi/inarytools.py:360
+msgid "dosed method has not changed file \"{}\"."
+msgstr "dosed metod \"{}\" faylını dəyişmədi."
+
+#: inary/actionsapi/inarytools.py:363
+msgid "\"{}\" has been changed by dosed method."
+msgstr "\"{}\" dosed üsulu ilə dəyişdirildi."
+
+#: inary/actionsapi/inarytools.py:369
+msgid "File does not exist or permission denied: \"{}\""
+msgstr "Fayl yoxdur və ya icazə rədd edildi: \"{}\""
+
+#: inary/actionsapi/inarytools.py:392
+msgid "ActionsAPI [dosym]: File already exists: \"{}\""
+msgstr "ActionsAPI [dosym]: Fayl artıq mövcuddur: \"{}\""
+
+#: inary/actionsapi/inarytools.py:448
+msgid "No file matched pattern \"{}\". Remove operation failed."
+msgstr ""
+"\"{}\" Nümunəsinə uyğun bir fayl tapılmadı. Silinmə əməliyyatı alınmadı."
+
+#: inary/actionsapi/inarytools.py:459
+msgid "No directory matched pattern \"{}\". Remove directory operation failed."
+msgstr ""
+"\"{}\" Nümunəsinə uyğun qovluq yoxdur. Silinən qovluq əməliyyatı alınmadı."
+
+#: inary/actionsapi/get.py:174
+msgid "Unable to retrieve CPU count: {}"
+msgstr "CPU çekirdek sayını əldə etmək olmur: {}"
+
+#: inary/actionsapi/get.py:256
+msgid "Util '{}' cannot be found."
+msgstr "Util '{}' tapılmadı."
+
+#: inary/actionsapi/get.py:259
+#, python-brace-format
+msgid "'{0}' does not exist, using plain name '{1}'"
+msgstr "'{1}' düz adından istifadə etməklə '{0}' mövcud deyil"
+
+#: inary/actionsapi/pkgconfig.py:46 inary/actionsapi/pkgconfig.py:67
+#: inary/actionsapi/pkgconfig.py:89 inary/actionsapi/pkgconfig.py:111
+#: inary/actionsapi/pkgconfig.py:132 inary/actionsapi/pkgconfig.py:151
+msgid "Package pkgconfig is not installed on your system."
+msgstr "Paket pkgconfig sisteminizdə quraşdırılmamışdır."
+
+#: inary/actionsapi/rubymodules.py:139 inary/actionsapi/mesontools.py:129
+msgid "Build failed."
+msgstr "Qurmaq uğursuz oldu."
+
+#: inary/actionsapi/rubymodules.py:156
+msgid "Running 'ruby {}' failed."
+msgstr "'ruby {}' işləmədi."
+
+#: inary/actionsapi/qt.py:69
+msgid "Project file \"{}\" not found."
+msgstr "Layihə faylı \"{}\" tapılmadı."
+
+#: inary/actionsapi/qt.py:74
+msgid ""
+"It seems there are more than one .pro file, you must specify one. (Possible ."
+"pro files: \"{}\")"
+msgstr ""
+"Birdən çox .pro faylı var, birini göstərməlisiniz. (Mümkün .pro sənədləri: "
+"\"{}\")"
+
+#: inary/actionsapi/javamodules.py:89 inary/actionsapi/javamodules.py:198
+msgid "No any file/directory matched to regex expression \"{}\"."
+msgstr "\"{}\" Regex ifadəsinə uyğun heç bir fayl / qovluq tapılmadı."
+
+#: inary/actionsapi/javamodules.py:96 inary/actionsapi/javamodules.py:102
+msgid "DoJavadoc failed."
+msgstr "DoJavadoc uğursuz oldu."
+
+#: inary/actionsapi/javamodules.py:152
+msgid "Compile failed."
+msgstr "Tərtib olunmadı."
+
+#: inary/actionsapi/javamodules.py:180 inary/actionsapi/javamodules.py:210
+msgid "Installing file \"{}\" failed."
+msgstr "\"{}\" Faylı quraşdırılmadı."
+
+#: inary/actionsapi/javamodules.py:221
+msgid "Installing directory \"{}\" failed."
+msgstr "\"{}\" Qovluğu quraşdırılmadı."
+
+#: inary/actionsapi/javamodules.py:250
+msgid "Javadoc generation failed."
+msgstr "Javadoc nəsli uğursuz oldu."
+
+#: inary/actionsapi/javamodules.py:266
+msgid "Run failed."
+msgstr "Run qaçışı uğursuz oldu."
+
+#: inary/actionsapi/mesontools.py:117
+msgid "CMake configure failed."
+msgstr "CMake konfiqurasiya uğursuz oldu."
+
+#: inary/actionsapi/mesontools.py:163
+msgid "Check failed."
+msgstr "Yoxlamaq alınmadı."
+
+#: inary/actionsapi/pythonmodules.py:65
+msgid "Configuration failed."
+msgstr "Configure konfiqurasiya uğursuz oldu."
+
+#: inary/actionsapi/pythonmodules.py:93
+msgid "Running \"{}\" failed."
+msgstr "\"{}\" İşləmədi."
+
+#: inary/actionsapi/gotools.py:68
+#, fuzzy
+msgid "{} not found"
+msgstr "Fayl {} tapılmadı."
+
+#: inary/actionsapi/gotools.py:108
+msgid "rawInstall function is not available for gotools. Use install function"
+msgstr ""
+
+#: inary/actionsapi/texlivemodules.py:60
+msgid "Moving source files failed."
+msgstr "Mənbə sənədləri köçürüldü."
+
+#: inary/actionsapi/texlivemodules.py:63
+msgid "Generate config files failed."
+msgstr "Konfiqurasiya faylları yarada bilmədi."
+
+#: inary/actionsapi/texlivemodules.py:66
+msgid "Building format files failed."
+msgstr "Format sənədləri qurulmadı."
+
+#: inary/actionsapi/texlivemodules.py:75
+msgid "Creating symlinks from format to engines failed."
+msgstr "Formatdan mühərriklərə simliklər yaratmaq uğursuz oldu."
+
+#: inary/actionsapi/texlivemodules.py:79
+msgid "Installing docs failed."
+msgstr "Sənədlər quraşdırılmadı."
+
+#: inary/actionsapi/texlivemodules.py:83
+msgid "Installing texmf files failed."
+msgstr "Texmf faylları quraşdırılmadı."
+
+#: inary/actionsapi/texlivemodules.py:87
+msgid "Installing config files failed."
+msgstr "Konfiqurasiya faylları quraşdırılmadı."
+
+#: inary/actionsapi/texlivemodules.py:91
+msgid "Handle config files failed."
+msgstr "Konfiqurasiya sənədləri idarə olunmadı."
+
+#: inary/actionsapi/texlivemodules.py:103
+msgid "Symlink \"{}\" skipped (special case)"
+msgstr "Symlink \"{}\" atıldı (xüsusi hal)"
+
+#: inary/actionsapi/texlivemodules.py:107
+#, python-brace-format
+msgid ""
+"Symlink \"{0[0]}\" -> \"{0[1]}\" skipped (texlive-core takes care of it."
+msgstr ""
+"Symlink \"{0 [0]}\" -> \"{0 [1]}\" atıldı (texlive-core buna əhəmiyyət verir."
+
+#: inary/actionsapi/texlivemodules.py:111
+#, python-brace-format
+msgid "Symlink \"{0[0]}\" -> \"{0[1]}\" skipped."
+msgstr "Symlink \"{0 [0]}\" -> \"{0 [1]}\" atlandı."
+
+#: inary/actionsapi/texlivemodules.py:114
+msgid "Symlink \"{}\" skipped (file exists.)"
+msgstr "Symlink \"{}\" atlandı (fayl mövcuddur.)"
+
+#: inary/actionsapi/texlivemodules.py:118
+#, python-brace-format
+msgid "Making symlink from {0[0]} to {0[1]}"
+msgstr "{0 [0]} -dən {0 [1]} -ə simlik bağlantısı edilməsi"
+
+#: inary/actionsapi/texlivemodules.py:187
+msgid "Creating \"/etc/texmf/{}.d\""
+msgstr "\"/etc/texmf/{}.d\" yaradılır"
+
+#: inary/actionsapi/texlivemodules.py:190
+#, python-brace-format
+msgid ""
+"Moving (and symlinking) \"/usr/share/texmf/{0}\" to \"/etc/texmf/{1}.d\""
+msgstr ""
+"\"/usr/share/texmf/{0}\" \"/etc/texmf/{1}.d\" ə köçürülür (və əlaqələndirir)"
+
+#: inary/actionsapi/texlivemodules.py:258
+msgid "Building format file {}"
+msgstr "Bina format faylı {}"
+
+#: inary/actionsapi/texlivemodules.py:330
+#, python-brace-format
+msgid "Map {0} is added to {1}/{2}.cfg"
+msgstr "{0} xəritəsi {1}/{2}.cfg səhifəsinə əlavə edilmişdir"
+
+#: inary/actionsapi/texlivemodules.py:335
+#, python-brace-format
+msgid "MixedMap {0} is added to {1}/{2}.cfg"
+msgstr "MixedMap {0} {1}/{2}.cfg əlavə olunur"
+
+#: inary/actionsapi/texlivemodules.py:340
+#, python-brace-format
+msgid "p +{0} is added to {1}/{2}-config.ps"
+msgstr "p + {0} {1}/{2}-config.ps əlavə edilmişdir"
+
+#: inary/actionsapi/texlivemodules.py:345
+#, python-brace-format
+msgid "f {0} is added to {1}/{2}-config"
+msgstr "f {0} {1}/{2}-config'ə əlavə edilmişdir"
+
+#: inary/actionsapi/texlivemodules.py:353
+msgid "Language file  {}  already generated."
+msgstr "Dil faylı {} artıq yaradılmışdır."
+
+#: inary/actionsapi/texlivemodules.py:356
+msgid "No rule to proccess {}. Please file a bug."
+msgstr "{} İşləmə qaydası yoxdur. Xahiş edirəm bir səhv göndərin."
+
+#: inary/actionsapi/shelltools.py:52
+msgid "ActionsAPI [makedirs]: Cannot create directory \"{}\""
+msgstr "ActionsAPI [makedirs]: \"{}\" qovluğu yaratmaq olmur"
+
+#: inary/actionsapi/shelltools.py:62
+msgid "ActionsAPI [echo]: Can't append to file \"{}\""
+msgstr "ActionsAPI [echo]: \"{}\" sənədinə qoşula bilmir"
+
+#: inary/actionsapi/shelltools.py:71
+msgid "ActionsAPI [chmod]: No file matched pattern \"{}\""
+msgstr "ActionsAPI [chmod]: \"{}\" nümunəsinə uyğun heç bir fayl yoxdur"
+
+#: inary/actionsapi/shelltools.py:79
+#, python-brace-format
+msgid "ActionsAPI [chmod]: Operation not permitted: {0} (mode: 0{1})"
+msgstr "ActionsAPI [chmod]: Əməliyyata icazə verilmir: {0} (rejim: 0 {1})"
+
+#: inary/actionsapi/shelltools.py:83
+msgid "ActionsAPI [chmod]: File \"{}\" doesn't exists."
+msgstr "ActionsAPI [chmod]: \"{}\" faylı yoxdur."
+
+#: inary/actionsapi/shelltools.py:93
+#, python-brace-format
+msgid "ActionsAPI [chown]: Permission denied: {0} (uid: {1}, gid: {2})"
+msgstr "ActionsAPI [chown]: İcazə rədd edildi: {0} (uid: {1}, gid: {2})"
+
+#: inary/actionsapi/shelltools.py:96
+msgid "ActionsAPI [chown]: File \"{}\" doesn't exists."
+msgstr "ActionsAPI [chown]: \"{}\" faylı yoxdur."
+
+#: inary/actionsapi/shelltools.py:105
+#, python-brace-format
+msgid "ActionsAPI [sym]: Permission denied: \"{0}\" to \"{1}\""
+msgstr "ActionsAPI [sym]: İcazə rədd edildi: \"{0}\" \"\" {1} \"-ə."
+
+#: inary/actionsapi/shelltools.py:114
+msgid ""
+"ActionsAPI [unlink]: No file matched pattern \"{}\". Remove operation failed."
+msgstr ""
+"ActionsAPI [unlink]: \"{}\" nümunəsinə uyğun bir fayl tapılmadı. Silinmə "
+"əməliyyatı alınmadı."
+
+#: inary/actionsapi/shelltools.py:123
+msgid "ActionsAPI [unlink]: Permission denied: \"{}\""
+msgstr "ActionsAPI [unlink]: İcazə rədd edildi: \"{}\""
+
+#: inary/actionsapi/shelltools.py:126
+msgid ""
+"ActionsAPI [unlink]: \"{}\" is not a file, use 'unlinkDir' or 'removeDir' to "
+"remove directories."
+msgstr ""
+"ActionsAPI [unlink]: \"{}\" bir fayl deyil, qovluqları silmək üçün "
+"'unlinkDir' və ya 'removeDir' istifadə edin."
+
+#: inary/actionsapi/shelltools.py:130
+msgid "ActionsAPI [unlink]: File \"{}\" doesn't exists."
+msgstr "ActionsAPI [unlink]: \"{}\" faylı yoxdur."
+
+#: inary/actionsapi/shelltools.py:139
+msgid "ActionsAPI [unlinkDir]: Operation not permitted: \"{}\""
+msgstr "ActionsAPI [unlinkDir]: Əməliyyata icazə verilmir: \"{}\""
+
+#: inary/actionsapi/shelltools.py:144
+msgid "ActionsAPI [unlinkDir]: Directory \"{}\" doesn't exists."
+msgstr "ActionsAPI [unlinkDir]: \"{}\" qovluğu yoxdur."
+
+#: inary/actionsapi/shelltools.py:153
+msgid "ActionsAPI [move]: No file matched pattern \"{}\"."
+msgstr "ActionsAPI [move]: \"{}\" nümunəsinə uyğun heç bir fayl yoxdur."
+
+#: inary/actionsapi/shelltools.py:161
+#, python-brace-format
+msgid "ActionsAPI [move]: Permission denied: \"{0}\" to \"{1}\""
+msgstr "ActionsAPI [move]: İcazə rədd edildi: \"{0}\" \"\" {1} \"-ə."
+
+#: inary/actionsapi/shelltools.py:165
+msgid "ActionsAPI [move]: File \"{}\" doesn't exists."
+msgstr "ActionsAPI [move]: \"{}\" faylı yoxdur."
+
+#: inary/actionsapi/shelltools.py:175
+msgid "ActionsAPI [copy]: No file matched pattern \"{}\"."
+msgstr "ActionsAPI [copy]: \"{}\" nümunəsinə uyğun heç bir faylı tapılmadı."
+
+#: inary/actionsapi/shelltools.py:183
+#, python-brace-format
+msgid "ActionsAPI [copy]: Permission denied: \"{0}\" to \"{1}\""
+msgstr "ActionsAPI [copy]: İcazə rədd edildi: \"{0}\" \"\" {1} \"-ə."
+
+#: inary/actionsapi/shelltools.py:205
+msgid "ActionsAPI [copy]: File \"{}\" does not exist."
+msgstr "ActionsAPI [copy]: \"{}\" faylı yoxdur."
+
+#: inary/actionsapi/shelltools.py:229
+#, python-brace-format
+msgid "ActionsAPI [copytree] \"{0}\" to \"{1}\": {2}"
+msgstr "ActionsAPI [copytree] \"{0}\" -dən \"{1}\" -ə: {2}"
+
+#: inary/actionsapi/shelltools.py:233
+msgid "ActionsAPI [copytree]: Directory \"{}\" doesn't exists."
+msgstr "ActionsAPI [copytree]: \"{}\" qovluğu yoxdur."
+
+#: inary/actionsapi/shelltools.py:243
+msgid "ActionsAPI [touch]: No file matched pattern \"{}\"."
+msgstr "ActionsAPI [touch]: \"{}\" nümunəsinə uyğun heç bir fayl tapılmadı."
+
+#: inary/actionsapi/shelltools.py:253
+msgid "ActionsAPI [touch]: Permission denied: \"{}\""
+msgstr "ActionsAPI [touch]: İcazə rədd edildi: \"{}\""
+
+#: inary/actionsapi/shelltools.py:317
+msgid "[Running Command]: "
+msgstr "[Əməliyyat əmri]:"
+
+#: inary/actionsapi/shelltools.py:327
+#, python-brace-format
+msgid "ActionsAPI [system]: Command '{0}' failed, return value was {1}."
+msgstr "ActionsAPI [system]: '{0}' əmri alınmadı, qaytarılma dəyəri {1} oldu."
+
+#: inary/actionsapi/perlmodules.py:79
+msgid "'perl build' failed."
+msgstr "'perl build' uğursuz oldu."
+
+#: inary/actionsapi/perlmodules.py:89
+msgid "'perl install' failed."
+msgstr "'perl install' uğursuz oldu."
+
+#: inary/analyzer/dependency.py:33 inary/analyzer/conflict.py:32
+#: inary/data/replace.py:31
+msgid " version >= "
+msgstr "versiya >="
+
+#: inary/analyzer/dependency.py:35 inary/analyzer/conflict.py:34
+#: inary/data/replace.py:33
+msgid " version <= "
+msgstr "versiya <="
+
+#: inary/analyzer/dependency.py:37 inary/analyzer/conflict.py:36
+#: inary/data/replace.py:35
+msgid " version "
+msgstr "versiya"
+
+#: inary/analyzer/dependency.py:39 inary/analyzer/conflict.py:38
+#: inary/data/replace.py:37
+msgid " release >= "
+msgstr "buraxmaq (release) >="
+
+#: inary/analyzer/dependency.py:41 inary/analyzer/conflict.py:40
+#: inary/data/replace.py:39
+msgid " release <= "
+msgstr "buraxılması (release) <="
+
+#: inary/analyzer/dependency.py:43 inary/analyzer/conflict.py:42
+#: inary/data/replace.py:41
+msgid " release "
+msgstr "buraxmaq (release)"
+
+#: inary/configfile.py:170
+msgid "No section by name '{}'"
+msgstr "'{}' Adı ilə bölmə yoxdur"
+
+#: inary/fetcher.py:172
+msgid "Filename error"
+msgstr "Filename xətası"
+
+#: inary/fetcher.py:176
+msgid "Access denied to write to destination directory: \"{}\""
+msgstr "Giriş təyinat qovluğuna yazmaq üçün icazə verilmədi: \"{}\""
+
+#: inary/fetcher.py:182
+msgid "Access denied to destination file: \"{}\""
+msgstr "Məqsəd faylı üçün giriş rədd edildi: \"{}\""
+
+#: inary/fetcher.py:187
+msgid "File already exsist. Download skiped..."
+msgstr "Fayl artıq mövcuddur. Yükləndi ..."
+
+#: inary/fetcher.py:211
+msgid "Download error: {}"
+msgstr "Yükləmə xətası: {}"
+
+#: inary/fetcher.py:219
+msgid ""
+"A problem occurred. Please check the archive address and/or permissions "
+"again."
+msgstr ""
+"Bir problem meydana gəldi. Arxiv adresini və / və ya icazələri yenidən "
+"yoxlayın."
+
+#: inary/fetcher.py:266
+msgid "RESPONSE: "
+msgstr "CAVAB:"
+
+#: inary/fetcher.py:268
+msgid "Downloaded from: "
+msgstr "Yüklənib:"
+
+#: inary/fetcher.py:382
+msgid "Proxy configuration has been found for '{}' protocol."
+msgstr "'{}' Protokolu üçün proksi konfiqurasiyası tapıldı."
+
+#: inary/fetcher.py:392
+msgid "Bandwidth usage is limited to {} KB/s."
+msgstr "Bant genişliyi istifadəsi {} KB/s ilə məhdudlaşır."
+
+#: inary/fetcher.py:406
+msgid ""
+"Remote file can not be reached. Previously downloaded part of the file will "
+"be removed."
+msgstr ""
+"Uzaqdan fayl əldə edilə bilməz. Faylın əvvəl yüklənmiş hissəsi silinəcəkdir."
+
+#: inary/fetcher.py:416
+#, fuzzy
+msgid ""
+"Server doesn't support partial downloads.Previously downloaded part of the "
+"file will be over-written."
+msgstr ""
+"Server qismən yükləmələri dəstəkləmir. Faylın əvvəllər yüklənmiş hissəsi "
+"artıq yazılacaqdır."
+
+#: inary/fetcher.py:431
+msgid "Failed to clone git repository from {}."
+msgstr ""
+
+#: inary/fetcher.py:452
+msgid "Trying fallback address: \"{}\""
+msgstr "Geri yükləmə ünvanını sınayır: \"{}\""
+
+#: inary/fetcher.py:463
+msgid "No such file or no permission to read for {}."
+msgstr "Belə bir fayl yoxdur və ya {} üçün oxumağa icazə yoxdur."
+
+#: inary/fetcher.py:476
+msgid "\"{}\" mirrors are not defined."
+msgstr "\"{}\" güzgülər müəyyənləşdirilməyib."
+
+#: inary/fetcher.py:481 inary/archive.py:933
+msgid "Fetching source from: \"{}\""
+msgstr "Mənbə alınır: \"{}\""
+
+#: inary/fetcher.py:492
+msgid "Could not fetch source from \"{}\" mirrors."
+msgstr "Güzgülərdən mənbəyi \"{}\" alınmadı."
+
+#: inary/fetcher.py:511
+#, python-brace-format
+msgid "\"{0}\" package found in \"{1}\" repository."
+msgstr "\"{0}\" paketi \"{1}\" anbarında tapıldı."
+
+#: inary/fetcher.py:518
+msgid "\"{}\" package already fetched."
+msgstr "\"{}\" paketi artıq alındı."
+
+#: inary/file.py:59
+msgid "uri must have type either URI or string."
+msgstr "uri ya URI, ya da simli tipə sahib olmalıdır."
+
+#: inary/file.py:129
+msgid "Fetching {}"
+msgstr "{} Alınır"
+
+#: inary/file.py:144 inary/operations/info.py:40
+msgid "File \"{}\" not found."
+msgstr "\"{}\" Fayl tapılmadı."
+
+#: inary/file.py:167
+#, fuzzy
+msgid ""
+"File integrity of \"{}\" compromised.\n"
+" localfile:{}\n"
+" newsha1: {}"
+msgstr "File integrity of \"{}\" compromised.localfile:{}newsha1: {}"
+
+#: inary/file.py:191
+msgid "File mode must be either File.read or File.write"
+msgstr "Fayl rejimi ya File.read ya da File.write olmalıdır"
+
+#: inary/file.py:197
+msgid "Remote write not implemented."
+msgstr "Uzaqdan yazılmadı."
+
+#: inary/file.py:251 inary/file.py:256
+msgid "ERROR: 'gpg --detach-sig {}' failed."
+msgstr "XATA: 'gpg --detach-sig {}' uğursuz oldu."
+
+#: inary/db/repodb.py:190
+#, fuzzy
+msgid ""
+"Error parsing repository index information: {} \n"
+" Index file does not exist or is malformed."
+msgstr ""
+"Repozitoriya indeksi məlumatını təhlil edərkən səhv: {}İndeks faylı mövcud "
+"deyil və ya düzgün deyil."
+
+#: inary/db/repodb.py:299
+#, fuzzy
+msgid ""
+"Repository \"{}\" is not compatible with your distribution. Repository is "
+"disabled.Your distribution is {} release {}Repository distribution is {} "
+"release {}\n"
+"If you want add this repository please use \"--ignore-check\" parameter with "
+"this command."
+msgstr ""
+"\"{}\" Depoziti paylama ilə uyğun deyildir. Repozitoriya əlil.Dağıtımınız {} "
+"buraxılış {}Depozit paylanması {} buraxılış {}Bu depo əlavə etmək "
+"istəyirsinizsə, bu əmrlə \"--ignore-check\" parametrini istifadə edin."
+
+#: inary/db/groupdb.py:83 inary/db/groupdb.py:92
+msgid "Group \"{}\" not found."
+msgstr "\"{}\" Qrupu tapılmadı."
+
+#: inary/db/packagedb.py:216 inary/db/packagedb.py:224
+#: inary/db/packagedb.py:232 inary/db/packagedb.py:240
+#: inary/db/packagedb.py:248
+msgid "Package \"{}\" not found."
+msgstr "\"{}\" Paketi tapılmadı."
+
+#: inary/db/componentdb.py:114
+msgid "Component {} not found."
+msgstr "{} Komponent tapılmadı."
+
+#: inary/db/installdb.py:51
+msgid "installed"
+msgstr "quraşdırılıb"
+
+#: inary/db/installdb.py:51
+msgid "installed-pending"
+msgstr "quraşdırılmış gözləyən"
+
+#: inary/db/installdb.py:68
+#, fuzzy, python-brace-format
+msgid ""
+"State: {0}\n"
+"Version: {1}, Release: {2}\n"
+msgstr "Dövlət: {0}Versiya: {1}, Buraxılış: {2}"
+
+#: inary/db/installdb.py:72
+#, fuzzy, python-brace-format
+msgid "Distribution: {0}, Install Time: {1}\n"
+msgstr "Dağıtım: {0}, Quraşdırma vaxtı: {1}"
+
+#: inary/db/installdb.py:103
+#, fuzzy
+msgid "Checking package directory of \"{}\" package"
+msgstr "-> \"{}\" qovluğundan paket əlavə olunur ..."
+
+#: inary/db/installdb.py:113
+#, python-brace-format
+msgid ""
+"File content of metadata.xml can be corrupted.\n"
+"Probably filesystem crashed. \n"
+"Check your installation of \"{0}\" package and filesystem."
+msgstr ""
+
+#: inary/db/installdb.py:117 inary/db/installdb.py:124
+#, fuzzy
+msgid "\"{}\" corrupted."
+msgstr "\"{}\" tapılmadı."
+
+#: inary/db/installdb.py:120
+#, python-brace-format
+msgid ""
+"Unhandled corruption on \"{0}\" package metadata.\n"
+"There is not any metadata.xml file for {0} package.\n"
+"Please check installation of \"{0}\" package"
+msgstr ""
+
+#: inary/db/installdb.py:169
+msgid ""
+"Installation info for package \"{}\" is broken. Reinstall it to fix this "
+"problem."
+msgstr ""
+"\"{}\" Paket üçün quraşdırma məlumatları pozuldu. Bu problemi həll etmək "
+"üçün yenidən qurun."
+
+#: inary/db/installdb.py:595 inary/operations/upgrade.py:98
+msgid "Package \"{}\" is not installed."
+msgstr "\"{}\" Paketi quraşdırılmadı."
+
+#: inary/db/itembyrepo.py:48
+msgid "\"{}\" not found in any repository."
+msgstr "\"{}\" heç bir depozitdə tapılmadı."
+
+#: inary/db/itembyrepo.py:60
+msgid "Repo item \"{}\" not found."
+msgstr "Repo elementi \"{}\" tapılmadı."
+
+#: inary/db/itembyrepo.py:71 inary/db/itembyrepo.py:83
+#: inary/db/itembyrepo.py:94
+msgid "Repository \"{}\" does not exist."
+msgstr "\"{}\" Depo mövcud deyil."
+
+#: inary/db/filesdb.py:48
+msgid "Creating files database..."
+msgstr "Fayllar verilənlər bazası yaradılır ..."
+
+#: inary/db/filesdb.py:59
+#, fuzzy
+msgid "-> Adding files of \"{}\" package to db..."
+msgstr "-> \"{}\" paketinin faylları db-yə əlavə olunur ..."
+
+#: inary/db/filesdb.py:64
+#, fuzzy
+msgid ""
+"\n"
+"Added files database..."
+msgstr "Əlavə edilmiş sənədlər bazası ..."
+
+#: inary/util/filesystem.py:34
+msgid ""
+"Filesystem syncing (It wouldn't be run whether nosync set with kernel "
+"parameters)"
+msgstr ""
+
+#: inary/util/__init__.py:61 inary/cli/command.py:154
+msgid "You have to be root for this operation."
+msgstr "Bu əməliyyat üçün kök olmalısan."
+
+#: inary/util/__init__.py:69
+msgid "Another instance of Inary is running. Only one instance is allowed."
+msgstr "İkili başqa bir nümunə çalışır. Yalnız bir misala icazə verilir."
+
+#: inary/util/__init__.py:73
+msgid "Invalidating database caches..."
+msgstr "Məlumat bazası önbellekleri etibarsızdır ..."
+
+#: inary/util/__init__.py:75
+msgid "Updating database caches..."
+msgstr "Verilənlər bazası önbellekləri yenilənir ..."
+
+#: inary/util/package.py:89
+msgid "Invalid package name: \"{}\""
+msgstr "Yanlış paket adı: \"{}\""
+
+#: inary/util/package.py:154
+msgid "Invalid delta package name: \"{}\""
+msgstr "Yanlış delta paket adı: \"{}\""
+
+#: inary/util/kernel.py:86
+msgid ""
+"A problem occurred caused by your python installation.No \"subprocess\" "
+"module caught. Probably your python installation corrupted."
+msgstr ""
+
+#: inary/util/misc.py:72
+msgid "Removing empty dir: \"{}\""
+msgstr "Boş dirəyin çıxarılması: \"{}\""
+
+#: inary/util/files.py:49
+msgid "File {} not found."
+msgstr "Fayl {} tapılmadı."
+
+#: inary/util/files.py:160
+msgid "Including external link \"{}\""
+msgstr "Xarici link də daxil olmaqla \"{}\""
+
+#: inary/util/files.py:162
+msgid "Including directory \"{}\""
+msgstr "\"{}\" Qovluğu daxil"
+
+#: inary/util/files.py:255
+msgid "You don't have necessary read permissions"
+msgstr "Lazımi oxumaq icazəniz yoxdur"
+
+#: inary/util/files.py:258
+msgid "Cannot calculate SHA1 hash of \"{}\""
+msgstr "\"{}\" Nin SHA1 hash hesablamaq olmur"
+
+#: inary/util/files.py:273
+msgid "Compression type is not valid: '{}'"
+msgstr "Sıxılma növü etibarlı deyil: '{}'"
+
+#: inary/util/files.py:280
+#, python-brace-format
+msgid "Error while decompressing \"{0}\": {1}"
+msgstr "\"{0}\" çıxartma zamanı səhv: {1}"
+
+#: inary/util/files.py:310 inary/operations/build.py:771
+#, fuzzy
+msgid "ERROR: WorkDir ({}) does not exist\n"
+msgstr "Xata: WorkDir ({}) mövcud deyil"
+
+#: inary/util/files.py:346
+#, python-brace-format
+msgid "Detected patch level={0} for {1}"
+msgstr "Aşkar edilmiş patch səviyyəsi={0} üçün {1}"
+
+#: inary/util/files.py:375
+msgid "ERROR: patch (\"{}\") failed."
+msgstr "ERROR: yamaq (\"{}\") alınmadı."
+
+#: inary/util/files.py:378
+#, python-brace-format
+msgid "ERROR: patch (\"{0}\") failed: {1}"
+msgstr "ERROR: yamaq (\"{0}\") uğursuz oldu: {1}"
+
+#: inary/util/files.py:392
+msgid "'strip' command failed for file \"{}\"!"
+msgstr "\"{}\" faylı üçün 'strip' əmri alınmadı!"
+
+#: inary/util/files.py:400
+msgid "'chrpath' command failed for file \"{}\"!"
+msgstr "\"chrpath\" əmri \"{}\" faylı üçün uğursuz oldu!"
+
+#: inary/util/files.py:409
+msgid "'objcopy' (keep-debug) command failed for file \"{}\"!"
+msgstr "\"objcopy\" (keep-debug) əmri \"{}\" faylı üçün uğursuz oldu!"
+
+#: inary/util/files.py:417
+msgid "'objcopy' (add-debuglink) command failed for file \"{}\"!"
+msgstr "\"objcopy\" (add-debuglink) əmri \"{}\" faylı üçün uğursuz oldu!"
+
+#: inary/util/process.py:29
+msgid "Module: 'subprocess' can not imported."
+msgstr "Modul: 'subprocess' idxal edilə bilməz."
+
+#: inary/util/process.py:52 inary/util/process.py:69
+msgid "Running "
+msgstr "Qaçış"
+
+#: inary/util/process.py:58 inary/util/process.py:87
+#, python-brace-format
+msgid "return value for \"{0}\" is {1}"
+msgstr "\"{0}\" üçün qayıtma dəyəri {1}"
+
+#: inary/atomicoperations.py:85
+#, python-brace-format
+msgid "Package \"{0}\" found in repository \"{1}\""
+msgstr "\"{1}\" depozitində \"{0}\" paketi tapıldı"
+
+#: inary/atomicoperations.py:118
+msgid "Package URI: \"{}\""
+msgstr "Paket URI: \"{}\""
+
+#: inary/atomicoperations.py:134
+msgid "Download Error: Package does not match the repository package."
+msgstr "Yükləmə xətası: Paket depozit paketinə uyğun gəlmir."
+
+#: inary/atomicoperations.py:139
+msgid "Package \"{}\" not found in any active repository."
+msgstr "\"{}\" Paketi heç bir aktiv depoda tapılmadı."
+
+#: inary/atomicoperations.py:173 inary/cli/__init__.py:260
+#, python-brace-format
+msgid "Installing \"{0.name}\", version {0.version}, release {0.release}"
+msgstr "\"{0.name}\", versiya {0.version}, quraşdırılma {0.release}"
+
+#: inary/atomicoperations.py:181
+msgid "Checking package operation availability..."
+msgstr ""
+
+#: inary/atomicoperations.py:183
+msgid "Checking requirements"
+msgstr "Tələblərin yoxlanılması"
+
+#: inary/atomicoperations.py:185
+msgid "Checking versioning"
+msgstr "Versiya yoxlanılır"
+
+#: inary/atomicoperations.py:187
+msgid "Checking relations"
+msgstr "Münasibətlərin yoxlanılması"
+
+#: inary/atomicoperations.py:189
+msgid "Checking operations"
+msgstr "Yoxlama əməliyyatları"
+
+#: inary/atomicoperations.py:193
+msgid "Unpacking package"
+msgstr "Paketdən çıxarın"
+
+#: inary/atomicoperations.py:197
+msgid "Updating database"
+msgstr "Verilənlər bazası yenilənir"
+
+#: inary/atomicoperations.py:200
+msgid "Syncing all buffers"
+msgstr ""
+
+#: inary/atomicoperations.py:216
+msgid "Is there enought free space in your disk?"
+msgstr "Diskinizdə kifayət qədər boş yer varmı?"
+
+#: inary/atomicoperations.py:217
+msgid "Free space in 'destinationdirectory': {:.2f} {} "
+msgstr "'destinationdirectory' boş yer: {: .2f} {}"
+
+#: inary/atomicoperations.py:233 inary/operations/build.py:812
+#, python-brace-format
+msgid "{0}-{1} is not a valid INARY version format"
+msgstr "{0}-{1} düzgün INARY versiya formatı deyil"
+
+#: inary/atomicoperations.py:265
+#, fuzzy, python-brace-format
+msgid "\"/{0}\" from \"{1}\" package\n"
+msgstr "\"/{0}\" \"{1}\" paketindən"
+
+#: inary/atomicoperations.py:266 inary/operations/install.py:150
+#, fuzzy
+msgid ""
+"File conflicts:\n"
+"\"{}\""
+msgstr "Fayl ziddiyyətləri:\"{}\""
+
+#: inary/atomicoperations.py:270
+msgid "Do you want to overwrite it?"
+msgstr ""
+
+#: inary/atomicoperations.py:286
+msgid "Storing old paths info."
+msgstr "Köhnə yolların məlumatlarını saxlamaq."
+
+#: inary/atomicoperations.py:291
+#, fuzzy
+msgid "Downgrade to old version."
+msgstr "Köhnə paylama buraxılışına endirilmə?"
+
+#: inary/atomicoperations.py:299
+#, fuzzy
+msgid "Upgrading to new release."
+msgstr "Yeni paylama buraxılışına yüksəldilir."
+
+#: inary/atomicoperations.py:303
+msgid "Downgrade to old distribution release?"
+msgstr "Köhnə paylama buraxılışına endirilmə?"
+
+#: inary/atomicoperations.py:305
+msgid "Package downgrade declined"
+msgstr "Paket bıraqılması endirimi azaldı"
+
+#: inary/atomicoperations.py:309
+msgid "Re-install same version package?"
+msgstr "Eyni versiya paketini yenidən quraşdırarsınız?"
+
+#: inary/atomicoperations.py:310
+msgid "Package re-install declined"
+msgstr "Paketin yenidən quraşdırılması rədd edildi"
+
+#: inary/atomicoperations.py:326
+msgid "Pre-install configuration have been run for \"{}\""
+msgstr ""
+"Əvvəlcədən quraşdırılmış (pre-install) konfiqurasiya \"{}\" üçün işə salındı"
+
+#: inary/atomicoperations.py:331
+msgid "Pre-install configuration of \"{}\" package failed."
+msgstr ""
+"\"{}\" Paketinin əvvəlcədən (pre-install) quraşdırılmış konfiqurasiyası "
+"uğursuz oldu."
+
+#: inary/atomicoperations.py:340
+msgid "Added symlink '{}' "
+msgstr ""
+
+#: inary/atomicoperations.py:344
+msgid "Broken or missing symlink '{}'"
+msgstr ""
+
+#: inary/atomicoperations.py:352
+msgid "Configuring post-install \"{}\""
+msgstr "Quraşdırma sonrası (post-install) \"{}\" konfiqurasiya"
+
+#: inary/atomicoperations.py:355
+msgid "Post-install configuration of \"{}\" package failed."
+msgstr ""
+"\"{}\" Paketinin quraşdırma (post-install) sonrası konfiqurasiyası uğursuz "
+"oldu."
+
+#: inary/atomicoperations.py:420
+msgid ""
+"Unable to relocate following files. Reinstallation of this package is "
+"strongly recommended."
+msgstr ""
+"Aşağıdakı faylları köçürmək olmur. Bu paketin yenidən quraşdırılması "
+"məsləhətdir."
+
+#: inary/atomicoperations.py:522
+#, fuzzy
+msgid "Precaching postoperations.py file"
+msgstr "Yoxlama əməliyyatları"
+
+#: inary/atomicoperations.py:535
+msgid ""
+"Storing inary files (files.xml, metadata.xml and whether postoperations.py)"
+msgstr ""
+
+#: inary/atomicoperations.py:569
+msgid "Adding files of \"{}\" package to database..."
+msgstr "\"{}\" Paketinin faylları verilənlər bazasına əlavə olunur ..."
+
+#: inary/atomicoperations.py:600
+msgid "Installing => [{}]"
+msgstr "Quraşdırma => [{}]"
+
+#: inary/atomicoperations.py:637
+msgid "File list could not be read for \"{}\" package, continuing removal."
+msgstr "Fayl siyahısı silinməyə davam edərək \"{}\" paketi üçün oxunmadı."
+
+#: inary/atomicoperations.py:647
+#, python-brace-format
+msgid "Removing \"{0.name}\", version {0.version}, release {0.release}"
+msgstr "\"{0.name}\", versiya {0.version} çıxarılsın, buraxın {0.release}"
+
+#: inary/atomicoperations.py:651
+msgid "Trying to remove nonexistent package "
+msgstr "Mövcud olmayan paketi çıxarmağa çalışır"
+
+#: inary/atomicoperations.py:696
+msgid "Not removing conflicted file : \"{}\""
+msgstr "Ziddiyyətli fayl silinmir: \"{}\""
+
+#: inary/atomicoperations.py:729
+msgid ""
+"Installed file \"{}\" does not exist on system [Probably you manually "
+"deleted]"
+msgstr ""
+"\"{}\" Quraşdırılmış fayl sistemdə yoxdur [Yəqin ki, əllə silinmisiniz]"
+
+#: inary/atomicoperations.py:740
+msgid "Pre-remove configuration have been run for \"{}\""
+msgstr "Əvvəlcədən silinən (pre-remove)  konfiqurasiya \"{}\" üçün işə salındı"
+
+#: inary/atomicoperations.py:746
+msgid "Post-remove configuration have been run for  \"{}\""
+msgstr "Post-remove konfiqurasiya \"{}\" üçün işə salındı"
+
+#: inary/atomicoperations.py:757
+msgid "Removing files of \"{}\" package from system..."
+msgstr "\"{}\" Paketinin faylları sistemdən silinir ..."
+
+#: inary/atomicoperations.py:764
+msgid "Removing files of \"{}\" package from database..."
+msgstr "\"{}\" Paketinin faylları verilənlər bazasından silinir ..."
+
+#: inary/config.py:101
+msgid "Destination directory \"{}\" does not exist. Creating it."
+msgstr "\"{}\" Təyinat qovluğu mövcud deyil. Yaratmaq."
+
+#: inary/errors.py:65
+#, python-brace-format
+msgid "URL \"{0}\" already downloaded as \"{1}\""
+msgstr "URL \"{0}\" artıq \"{1}\" olaraq yükləndi"
+
+#: inary/errors.py:74
+msgid "No signature found for \"{}\""
+msgstr "\"{}\" Üçün imza tapılmadı"
+
+#: inary/errors.py:81
+msgid "GPG Signature is invalid for \"{}\""
+msgstr "GPG imzası \"{}\" üçün etibarsızdır"
+
+#: inary/errors.py:90
+msgid "Encountered cycle {}"
+msgstr "Qarşılaşma dövrü {}"
+
+#: inary/package.py:80
+msgid "Cannot open package file: \"{}\""
+msgstr "Paket faylı aça bilməz: \"{}\""
+
+#: inary/package.py:101
+msgid "Unsupported package format: {}"
+msgstr "Dəstəklənməyən paket formatı: {}"
+
+#: inary/package.py:115
+msgid ""
+"There was a problem while fetching \"{}\".The package may have been "
+"upgraded. Please try to upgrade the package."
+msgstr ""
+"\"{}\" Alınarkən problem oldu.Paket yenilənmiş ola bilər. Zəhmət olmasa "
+"paketi təkmilləşdirməyə çalışın."
+
+#: inary/package.py:121
+msgid "{} [cached]"
+msgstr "{} [yaddaşlı]"
+
+#: inary/uri.py:83
+msgid "setAuthInfo needs a tuple (user, pass)"
+msgstr "setAuthInfo'nin çoxluğa ehtiyacı var (istifadəçi, keçid)"
+
+#: inary/version.py:74
+msgid "Invalid version string: '{}'"
+msgstr "Yanlış versiya sətri: '{}'"
+
+#: inary/mirrors.py:58
+msgid "Mirrors file \"{}\" does not exist. Could not resolve \"mirrors://\""
+msgstr "Güzgülər faylı \"{}\" mövcud deyil. \"mirrors://\" həll edilə bilmədi"
+
+#: inary/archive.py:161
+msgid " \"{}\" is not a lzma file."
+msgstr "\"{}\" lzma faylı deyil."
+
+#: inary/archive.py:284 inary/archive.py:544
+#, python-brace-format
+msgid "Chowning {0} ({1}:{2})"
+msgstr "Chowning {0} ({1}:{2})"
+
+#: inary/archive.py:289 inary/archive.py:549
+#, python-brace-format
+msgid "LChowning {0} ({1}:{2})"
+msgstr "LChowning {0} ({1}:{2})"
+
+#: inary/archive.py:354
+msgid "Target DIR: \"{}\""
+msgstr "Hədəf DIR: \"{}\""
+
+#: inary/archive.py:357
+#, fuzzy
+msgid "Extracting: /{}"
+msgstr "\"{}\" Sənədlərinin çıxarılması"
+
+#: inary/archive.py:617
+#, fuzzy
+msgid ""
+"Problem occured while uncompressing \"{}.Z\" file.\n"
+"Error:{}"
+msgstr "\"{} .Z\" faylını dekompress ederken problem meydana gəldi.Xəta: {}"
+
+#: inary/archive.py:696
+msgid "File \"{}\" is not a zip file."
+msgstr "\"{}\" Faylı zip faylı deyil."
+
+#: inary/archive.py:954
+#, python-brace-format
+msgid "Source archive is stored: \"{0}/{1}\""
+msgstr "Mənbə arxivi saxlanılır: \"{0}/{1}\""
+
+#: inary/archive.py:986 inary/operations/history.py:156
+msgid "\"{}\" [cached]"
+msgstr "\"{}\" [yaddaşlı]"
+
+#: inary/archive.py:995
+#, fuzzy
+msgid ""
+"Archive File: {}\n"
+" * Expected sha1 value: {}\n"
+" * Received sha1 value: {}\n"
+msgstr "Arxiv faylı: {} * Gözlənilən şa1 dəyəri: {} * Alınan sha1 dəyəri: {}"
+
+#: inary/archive.py:998
+msgid "unpack: check_file_hash failed."
+msgstr "açmaq: check_file_hash uğursuz oldu."
+
+#: inary/archive.py:1001
+msgid ""
+"* Archive verification passed. Such problems may occur during the build "
+"process."
+msgstr ""
+"* Arxiv yoxlanışı keçdi. Quraşdırma zamanı belə problemlər yarana bilər."
+
+#: inary/archive.py:1006
+#, python-brace-format
+msgid "Unknown archive type '{0}' is given for '{1}'."
+msgstr "Naməlum arxiv növü '{0}' '{1}' üçün verilmişdir."
+
+#: inary/archive.py:1010
+msgid "Inary needs '{}' to unpack this archive but it is not installed."
+msgstr "Bu arxivi açmaq üçün ikili '{}' lazımdır, lakin quraşdırılmamışdır."
+
+#: inary/constants.py:46
+msgid "Can't rebind constant: '{}'"
+msgstr "Daimi geri qaytarmaq olmur: '{}'"
+
+#: inary/constants.py:53
+msgid "Can't unbind constant: '{}'"
+msgstr "Daimi sökmək olmur: '{}'"
+
+#: inary/sysconf.py:62
+msgid "[-] Process triggering for "
+msgstr "[-] Proses tetikler"
+
+#: inary/sysconf.py:67
+msgid "[!] Triggering end with "
+msgstr "[!] İlə tətil sonu"
+
+#: inary/sysconf.py:72
+msgid "[+] Process triggered for [;0m{}"
+msgstr "[+] Proses [; 0m {} üçün başlatdı"
+
+#: inary/sysconf.py:90
+#, fuzzy
+msgid "Process triggering for sysconf.\n"
+msgstr "Sysconf üçün tetiklemek prosesi."
+
+#: inary/sysconf.py:121
+msgid "[-] Syncing filesystem to restrain filesystem corruptions."
+msgstr ""
+
+#: inary/sysconf.py:124
+msgid "[+] Synced filesystem[;0m\n"
+msgstr ""
+
+#: inary/data/history.py:53
+#, python-brace-format
+msgid "{0} repository is updated."
+msgstr "{0} depo yenilənir."
+
+#: inary/data/history.py:72
+#, python-brace-format
+msgid "{0} is upgraded from {1} to {2} with delta."
+msgstr "{0} delta ilə {1} -dən {2} -ə yüksəldilmişdir."
+
+#: inary/data/history.py:75
+#, python-brace-format
+msgid "{0} is upgraded from {1} to {2}."
+msgstr "{0} {1} -dən {2} -ə yüksəldilmişdir."
+
+#: inary/data/history.py:78
+#, python-brace-format
+msgid "{0} {1} is removed."
+msgstr "{0} {1} silindi."
+
+#: inary/data/history.py:80
+#, python-brace-format
+msgid "{0} {1} is installed."
+msgstr "{0} {1} quraşdırılmışdır."
+
+#: inary/data/history.py:82
+#, python-brace-format
+msgid "{0} {1} is reinstalled."
+msgstr "{0} {1} yenidən quraşdırıldı."
+
+#: inary/data/history.py:84
+#, python-brace-format
+msgid "{0} is downgraded from {1} to {2}."
+msgstr "{0} {1} -dən {2} -ə endirildi."
+
+#: inary/data/history.py:111 inary/data/history.py:134
+msgid "Unknown package operation"
+msgstr "Naməlum paket əməliyyatı"
+
+#: inary/data/metadata.py:85
+#, fuzzy, python-brace-format
+msgid "Distribution: {0}, Dist. Release: {1}\n"
+msgstr "Dağıtım: {0}, Dist. Buraxılış: {1}"
+
+#: inary/data/metadata.py:87
+#, python-brace-format
+msgid "Architecture: {0}, Installed Size: {1}"
+msgstr "Memarlıq: {0}, quraşdırılmış ölçü: {1}"
+
+#: inary/data/metadata.py:93
+msgid ", Package Size: {}"
+msgstr ", Paket Ölçüsü: {}"
+
+#: inary/data/metadata.py:95
+msgid ", install.tar.xz sha1sum: {}"
+msgstr ", install.tar.xz sha1sum: {}"
+
+#: inary/data/specfile.py:167
+#, python-brace-format
+msgid "URI: {0}, type: {1}, sha1sum: {2}"
+msgstr "URI: {0}, növü: {1}, sha1sum: {2}"
+
+#: inary/data/specfile.py:203 inary/data/specfile.py:207
+msgid " or "
+msgstr "və ya"
+
+#: inary/data/specfile.py:306
+#, python-brace-format
+msgid "\"{0}\" dependency of package \"{1}\" is not satisfied."
+msgstr "\"{0}\" paketinin \"{1}\" asılılığı təmin edilmir."
+
+#: inary/data/specfile.py:403 inary/data/specfile.py:507
+#, fuzzy, python-brace-format
+msgid "Name: {0}, version: {1}, release: {2}\n"
+msgstr "Adı: {0}, versiya: {1}, buraxılış: {2}"
+
+#: inary/data/specfile.py:405 inary/data/specfile.py:509
+#, fuzzy
+msgid "Summary: {}\n"
+msgstr "Xülasə: {}"
+
+#: inary/data/specfile.py:406 inary/data/specfile.py:510
+#, fuzzy
+msgid "Description: {}\n"
+msgstr "Təsvir: {}"
+
+#: inary/data/specfile.py:407 inary/data/specfile.py:511
+#, fuzzy
+msgid "Licenses: {}\n"
+msgstr "Lisenziyalar: {}"
+
+#: inary/data/specfile.py:408 inary/data/specfile.py:512
+#, fuzzy
+msgid "Component: {}\n"
+msgstr "Komponent: {}"
+
+#: inary/data/specfile.py:409
+#, fuzzy
+msgid "Provides: \n"
+msgstr "Təmin edir:"
+
+#: inary/data/specfile.py:412
+#, fuzzy
+msgid "   - Commands: \n"
+msgstr "- Əmrlər:"
+
+#: inary/data/specfile.py:417
+#, fuzzy
+msgid "   - CMAKE Needs: \n"
+msgstr "- CMAKE ehtiyacları:"
+
+#: inary/data/specfile.py:422
+#, fuzzy
+msgid "   - PkgConfig Needs: \n"
+msgstr "- PkgConfig Ehtiyacları:"
+
+#: inary/data/specfile.py:427
+#, fuzzy
+msgid "   - Services: \n"
+msgstr "- Xidmətlər:"
+
+#: inary/data/specfile.py:432
+msgid "Dependencies: "
+msgstr "Asılılıqlar:"
+
+#: inary/data/specfile.py:487
+msgid "translations.xml file is badly formed.: {}"
+msgstr "translations.xml faylı pis formalaşmışdır. : {}"
+
+#: inary/data/specfile.py:513
+msgid "Build Dependencies: "
+msgstr "Bağlılıqlar qurun:"
+
+#: inary/data/index.py:101
+#, fuzzy
+msgid "* Generating index tree...\n"
+msgstr "* Göstərici ağacı yaradır ..."
+
+#: inary/data/index.py:111
+msgid " -> Sorting:  \"{}\""
+msgstr "-> Çeşidləmə: \"{}\""
+
+#: inary/data/index.py:120
+msgid " * Sorted:  \"{}\""
+msgstr "* Sırala: \"{}\""
+
+#: inary/data/index.py:157
+msgid " * Added obsoleted packages: [ {} ]"
+msgstr "* Əlavə edilmiş köhnəlmiş paketlər: [ {} ]"
+
+#: inary/data/index.py:164
+msgid " * Adding source packages: "
+msgstr "* Mənbə paketləri əlavə olunur:"
+
+#: inary/data/index.py:207
+msgid " * Adding binary packages: "
+msgstr "* İkili paket əlavə olunur:"
+
+#: inary/data/index.py:212
+msgid "   -> Adding packages from directory \"{}\"... "
+msgstr "-> \"{}\" qovluğundan paket əlavə olunur ..."
+
+#: inary/data/index.py:224
+msgid "   * Adding packages from directory \"{}\"... done."
+msgstr "* \"{}\" Qovluğundan paket əlavə edildi ... tamamlandı."
+
+#: inary/data/index.py:227
+msgid "* Writing index file."
+msgstr "* İndeks sənədini yazmaq."
+
+#: inary/data/index.py:238
+msgid "   -> Adding package to index: \"{}\""
+msgstr "-> İndeksə paket əlavə olunur: \"{}\""
+
+#: inary/data/index.py:254
+msgid " * Package \"{}\": metadata corrupt, skipping..."
+msgstr "* Paket \"{}\": metadata zədəlidir, atlanır ..."
+
+#: inary/data/index.py:301
+msgid " * Adding \"groups.xml\" to index"
+msgstr "* İndeksə \"group.xml\" əlavə olunur"
+
+#: inary/data/index.py:308
+msgid " * Adding \"components.xml\" to index"
+msgstr "* İndeksə \"komponentlər.xml\" əlavə etmək"
+
+#: inary/data/index.py:314
+msgid " * Component in {} is corrupt"
+msgstr "* {} İçindəki komponent xarabdır"
+
+#: inary/data/index.py:318
+msgid " * Adding \"distribution.xml\" to index"
+msgstr "* İndeksə \"distribution.xml\" əlavə olunur"
+
+#: inary/data/index.py:324
+msgid " * Distribution in {} is corrupt"
+msgstr "* {} Dağılışı pozulmuşdur"
+
+#: inary/data/index.py:339
+msgid "   -> Adding source to index: \"{}\""
+msgstr "-> İndeksə mənbə əlavə edin: \"{}\""
+
+#: inary/data/index.py:360
+#, fuzzy
+msgid "Building index of Inary files under \"{}\" \n"
+msgstr "\"{}\" Altındakı ikili sənədlərin qurulma indeksi"
+
+#: inary/data/index.py:365
+msgid "* Index file written."
+msgstr "* İndeks faylı yazıldı."
+
+#: inary/sxml/xmlfile_iks.py:73 inary/sxml/xmlfile_iks.py:100
+#: inary/sxml/xmlext_minidom.py:56 inary/sxml/xmlfile_minidom.py:74
+#: inary/sxml/xmlfile_minidom.py:101
+#, fuzzy
+msgid "File \"{}\" has invalid XML: {}\n"
+msgstr "\"{}\" Faylında yanlış XML var: {}"
+
+#: inary/sxml/xmlfile_iks.py:82 inary/sxml/xmlfile_minidom.py:83
+#, python-brace-format
+msgid "Cannot read URI {0}: {1}"
+msgstr "URI oxuya bilmir {0}: {1}"
+
+#: inary/sxml/xmlext_iks.py:104 inary/sxml/xmlext_minidom.py:127
+msgid "getNodeText: Expected text node, got something else!"
+msgstr "getNodeText: Gözlənilən mətn node, başqa bir şey var!"
+
+#: inary/sxml/xmlext_minidom.py:65
+#, fuzzy
+msgid ""
+"FileString is an invalid XML: {}\n"
+"\n"
+"FileString: {}\n"
+msgstr "FileString etibarsız XML: {}FileString: {}"
+
+#: inary/sxml/autoxml.py:87
+msgid "At least one '{}' tag should have local text."
+msgstr "Ən azı bir '{}' etiketində yerli mətn olmalıdır."
+
+#: inary/sxml/autoxml.py:94
+#, python-brace-format
+msgid "'{0}' language of tag '{1}' is empty."
+msgstr "'{0}' etiket dili '{1}' boşdur."
+
+#: inary/sxml/autoxml.py:122
+msgid "LocalText: unable to get either current or default locale."
+msgstr "LocalText: cari və ya defolt yerli ala bilmir."
+
+#: inary/sxml/autoxml.py:129 inary/sxml/autoxml.py:145
+msgid ""
+"Tag should have at least the current locale, or failing that an English or "
+"Turkish version."
+msgstr ""
+"Etiket ən azı cari dil və ya bir İngilis və ya Türkçe bir versiyaya sahib "
+"olmamalıdır."
+
+#: inary/sxml/autoxml.py:392
+msgid "autoxml.check: '{}' errors."
+msgstr "autoxml.check: '{}' səhvləri."
+
+#: inary/sxml/autoxml.py:456 inary/sxml/autoxml.py:467
+msgid "autoxml.parse: String '{}' has errors."
+msgstr "autoxml.parse: '{}' sətirində səhvlər var."
+
+#: inary/sxml/autoxml.py:482 inary/sxml/autoxml.py:493
+msgid "autoxml.read: File '{}' has errors."
+msgstr "autoxml.read: '{}' faylında səhvlər var."
+
+#: inary/sxml/autoxml.py:502
+msgid "autoxml.write: object validation has failed."
+msgstr "autoxml.write: obyekt təsdiqlənməsi uğursuz oldu."
+
+#: inary/sxml/autoxml.py:511
+msgid "autoxml.write: File encoding '{}' has errors."
+msgstr "autoxml.write: Fayl kodlaşdırmasında '{}' xətası var."
+
+#: inary/sxml/autoxml.py:572
+msgid "gen_tag: unrecognized tag type {} in spec."
+msgstr "gen_tag: dəqiqləşdirilməmiş etiket növü {} spesifikasiyada."
+
+#: inary/sxml/autoxml.py:626 inary/sxml/autoxml.py:638
+msgid "Mandatory variable {} not available."
+msgstr "Məcburi dəyişən {} mövcud deyil."
+
+#: inary/sxml/autoxml.py:711
+msgid "Type mismatch: read text cannot be decoded."
+msgstr "Uyğunsuzluq növü: oxunan mətn kodlaşdırıla bilməz."
+
+#: inary/sxml/autoxml.py:715 inary/sxml/autoxml.py:725
+msgid "Mandatory token {} not available."
+msgstr "Məcburi işarə {} mövcud deyil."
+
+#: inary/sxml/autoxml.py:732
+#, python-brace-format
+msgid "Type mismatch. Expected {0}, got {1}"
+msgstr "Uyğunsuzluğu yazın. Gözlənilən {0}, alındı ​​{1}"
+
+#: inary/sxml/autoxml.py:762 inary/sxml/autoxml.py:889
+msgid "Type mismatch: DOM cannot be decoded."
+msgstr "Növ uyğunsuzluq: DOM kodlaşdırıla bilməz."
+
+#: inary/sxml/autoxml.py:766 inary/sxml/autoxml.py:782
+#: inary/sxml/autoxml.py:796 inary/sxml/autoxml.py:893
+#: inary/sxml/autoxml.py:907 inary/sxml/autoxml.py:921
+msgid "Mandatory argument not available."
+msgstr "Məcburi arqument mövcud deyil."
+
+#: inary/sxml/autoxml.py:779 inary/sxml/autoxml.py:904
+msgid "Object cannot be encoded."
+msgstr "Obyekt kodlanmır."
+
+#: inary/sxml/autoxml.py:793 inary/sxml/autoxml.py:918
+msgid "Object cannot be formatted."
+msgstr "Obyekt formatlana bilmir."
+
+#: inary/sxml/autoxml.py:809
+msgid "List type must contain only one element."
+msgstr "Siyahı növü yalnız bir elementdən ibarət olmalıdır."
+
+#: inary/sxml/autoxml.py:823 inary/sxml/autoxml.py:846
+#, python-brace-format
+msgid "Mandatory list \"{0}\" under \"{1}\" node is empty."
+msgstr "\"{1}\" node altında məcburi siyahı \"{0}\" boşdur."
+
+#: inary/cli/info.py:29
+#, fuzzy
+msgid ""
+"Display package information\n"
+"\n"
+"Usage: info <package1> <package2> ... <packagen>\n"
+"\n"
+"<packagei> is either a package name or a .inary file,\n"
+msgstr ""
+"Paket məlumatlarını göstərinİstifadəsi: info <paket 1> <paket> ... "
+"<paket><paket> ya paket adı və ya .inay faylıdır,"
+
+#: inary/cli/info.py:47
+msgid "info options"
+msgstr "info seçimləri"
+
+#: inary/cli/info.py:51
+msgid "Show a list of package files."
+msgstr "Paket sənədlərinin siyahısını göstərin."
+
+#: inary/cli/info.py:53
+msgid "Info about the given component."
+msgstr "Verilmiş komponent haqqında məlumat."
+
+#: inary/cli/info.py:56
+msgid "Show only paths."
+msgstr "Yalnız yolları göstərin."
+
+#: inary/cli/info.py:58
+msgid "Do not show details."
+msgstr "Detalları göstərməyin."
+
+#: inary/cli/info.py:60
+msgid "Output in xml format."
+msgstr "Xml formatında çıxış."
+
+#: inary/cli/info.py:136
+msgid "Reverse Dependencies:"
+msgstr "Tərs asılılıqlar:"
+
+#: inary/cli/info.py:151
+msgid "Reverse Build Dependencies:"
+msgstr "Tərs asılılıqlar:"
+
+#: inary/cli/info.py:156
+msgid "Package file: \"{}\""
+msgstr "Paket faylı: \"{}\""
+
+#: inary/cli/info.py:171
+msgid "[inst] "
+msgstr "[inst]"
+
+#: inary/cli/info.py:173
+msgid "Installed package:"
+msgstr "Quraşdırılmış paket:"
+
+#: inary/cli/info.py:177
+msgid "\"{}\" package is not installed."
+msgstr "\"{}\" paketi quraşdırılmadı."
+
+#: inary/cli/info.py:184
+msgid "[binary] "
+msgstr "[ikili]"
+
+#: inary/cli/info.py:187 inary/cli/info.py:201
+msgid "Package found in \"{}\" repository:"
+msgstr "Paket \"{}\" anbarında tapıldı:"
+
+#: inary/cli/info.py:191
+msgid "\"{}\" package is not found in binary repositories."
+msgstr "\"{}\" paketi ikili depolarda tapılmadı."
+
+#: inary/cli/info.py:198
+msgid "[source] "
+msgstr "[source]"
+
+#: inary/cli/info.py:205
+msgid "\"{}\" package is not found in source repositories."
+msgstr "\"{}\" paketi mənbə depolarında tapılmadı."
+
+#: inary/cli/listpending.py:26
+#, fuzzy
+msgid ""
+"List pending packages\n"
+"\n"
+"Lists packages waiting to be configured.\n"
+msgstr ""
+"Gözləyən paketləri sadalayınKonfiqurasiya olunmağı gözləyən paketlərin "
+"siyahısı."
+
+#: inary/cli/listpending.py:41
+msgid "Listing pending orders:"
+msgstr "Gözlənən sifarişlərin siyahısı:"
+
+#: inary/cli/listpending.py:45
+msgid "There are no packages waiting to be configured."
+msgstr "Konfiqurasiya edilməsini gözləyən paketlər yoxdur."
+
+#: inary/cli/updaterepo.py:28
+#, fuzzy
+msgid ""
+"Update repository databases\n"
+"\n"
+"Usage: update-repo [<repo1> <repo2> ... <repon>]\n"
+"\n"
+"<repoi>: repository name\n"
+"\n"
+"Synchronizes the INARY databases with the current repository.\n"
+"If no repository is given, all repositories are updated.\n"
+msgstr ""
+"Repozitoriya məlumat bazalarını yeniləyinİstifadə qaydası: update-repo "
+"[<repo1> <repo2> ... <geri göndərmə]]<repoi>: depo adıINARY verilənlər "
+"bazasını cari depo ilə sinxronlaşdırır.Hər hansı bir depo verilmirsə, bütün "
+"depolar yenilənir."
+
+#: inary/cli/updaterepo.py:45
+msgid "update-repo options"
+msgstr "update-repo seçimləri"
+
+#: inary/cli/updaterepo.py:49
+msgid "Update database in any case"
+msgstr "Hər halda verilənlər bazasını yeniləyin"
+
+#: inary/cli/init.py:26
+msgid "Do not anything."
+msgstr "Heç nə etmə."
+
+#: inary/cli/configurepending.py:52
+#, fuzzy
+msgid ""
+"Configure pending packages\n"
+"\n"
+"If SCOM configuration of some packages were not\n"
+"done at installation time, they are added to a list\n"
+"of packages waiting to be configured. This command\n"
+"configures those packages.\n"
+msgstr ""
+"Gözlənən paketləri konfiqurasiya edinBəzi paketlərin SCOM konfiqurasiyası "
+"olmasaydıquraşdırma zamanı edilir, onlar bir siyahıya əlavə "
+"olunuryapılandırılmasını gözləyən paketlər. Bu əmro paketləri konfiqurasiya "
+"edir."
+
+#: inary/cli/configurepending.py:67 inary/cli/reconfigure.py:60
+msgid "configure-pending options"
+msgstr "configure-pending seçimlər"
+
+#: inary/cli/emergeup.py:29
+#, fuzzy
+msgid ""
+"Build and upgrade INARY source packages from repository\n"
+"\n"
+"Usage: emergeup ...\n"
+"\n"
+"You should give the name of a source package to be\n"
+"downloaded from a repository containing sources.\n"
+"\n"
+"You can also give the name of a component.\n"
+msgstr ""
+"Anbar mənbələrindən paketləri depozitdən yaradın və "
+"təkmilləşdirinİstifadəsi: emergeup ...Olacağınız bir qaynaq paketinin adını "
+"verməlisinizmənbələri olan bir depo yükləndi.Bir komponentin adını da verə "
+"bilərsiniz."
+
+#: inary/cli/emergeup.py:46
+msgid "emergeup options"
+msgstr "emergeup seçimleri"
+
+#: inary/cli/emergeup.py:48 inary/cli/emerge.py:48
+msgid "Emerge available packages under given component"
+msgstr "Verilən komponent altında mövcud paketləri çıxarın"
+
+#: inary/cli/emergeup.py:50 inary/cli/upgrade.py:58 inary/cli/install.py:58
+#: inary/cli/emerge.py:50
+msgid "Ignore file conflicts."
+msgstr "Fayl ziddiyyətlərinə məhəl qoymayın."
+
+#: inary/cli/emergeup.py:52 inary/cli/upgrade.py:60 inary/cli/install.py:60
+#: inary/cli/emerge.py:52
+msgid "Ignore package conflicts."
+msgstr "Paketdəki ixtilaflara məhəl qoymayın."
+
+#: inary/cli/emergeup.py:54 inary/cli/upgrade.py:62 inary/cli/install.py:62
+#: inary/cli/emerge.py:54 inary/cli/removeorphaned.py:49 inary/cli/remove.py:48
+msgid "Skip sysconf operations after installation."
+msgstr "Quraşdırıldıqdan sonra sysconf əməliyyatlarını atlayın."
+
+#: inary/cli/emergeup.py:56 inary/cli/upgrade.py:64
+msgid ""
+"Force sysconf operations after installation. Applies all sysconf operations"
+msgstr ""
+"Quraşdırıldıqdan sonra zorlama əməliyyatları. Bütün sysconf əməliyyatlarını "
+"tətbiq edir"
+
+#: inary/cli/emergeup.py:82 inary/cli/emerge.py:78
+msgid "Output directory: {}"
+msgstr "Çıxış qovluğu: {}"
+
+#: inary/cli/emergeup.py:85 inary/cli/emerge.py:81
+msgid "Outputting binary packages in the package cache."
+msgstr "Paket önbelleğinde ikili paketləri çıxartdı."
+
+#: inary/cli/upgrade.py:28
+#, fuzzy
+msgid ""
+"Upgrade INARY packages\n"
+"\n"
+"Usage: Upgrade [<package1> <package2> ... <packagen>]\n"
+"\n"
+"<packagei>: package name\n"
+"\n"
+"Upgrades the entire system if no package names are given\n"
+"\n"
+"You may use only package names to specify packages because\n"
+"the package upgrade operation is defined only with respect\n"
+"to repositories. If you have specified a package name, it\n"
+"should exist in the package repositories. If you just want to\n"
+"reinstall a package from a INARY file, use the install command.\n"
+"\n"
+"You can also specify components instead of package names, which will be\n"
+"expanded to package names.\n"
+msgstr ""
+"INARY paketlərini yeniləyinİstifadə qaydası: upgrade [<paket> 1> <paket> "
+"2 ... ... <paket><paket>: paket adıPaket adları verilmirsə, bütün sistemi "
+"yeniləyirPaketləri təyin etmək üçün yalnız paket adlarından istifadə edə "
+"bilərsinizPaketin yenilənməsi əməliyyatı yalnız hörmətlə təyin "
+"olunurdepozitlərə. Bir paket adını göstərmisinizsə, bupaket depolarında "
+"mövcud olmalıdır. İstəsən sadəcəbir paketi bir DƏYİŞ bir fayldan yenidən "
+"qurun, quraşdırma əmrindən istifadə edin.Ayrıca olacaq paket adları əvəzinə "
+"komponentləri təyin edə bilərsinizpaket adlarına qədər genişlənmişdir."
+
+#: inary/cli/upgrade.py:52
+msgid "upgrade options"
+msgstr "upgrade seçimləri"
+
+#: inary/cli/upgrade.py:56
+msgid "Security related package upgrades only."
+msgstr "Yalnız təhlükəsizlik ilə əlaqəli paket yeniləmələri."
+
+#: inary/cli/upgrade.py:68
+msgid ""
+"Preserves permanent tagged files on upgrade action like some important libc "
+"modules. This is used to be sure about stability of system packages. This "
+"helps you preserve your own source compiled applications like pip modules, "
+"gem installations etc."
+msgstr ""
+
+#: inary/cli/upgrade.py:74
+msgid "Upgrade component's and recursive components' packages."
+msgstr "Komponentlərin və rekursiv komponentlərin paketlərini təkmilləşdirin."
+
+#: inary/cli/upgrade.py:76
+msgid "Name of the to be upgraded packages' repository."
+msgstr "Yenilənəcək paketlərin depolarının adı."
+
+#: inary/cli/upgrade.py:78 inary/cli/install.py:71
+msgid "Fetch upgrades but do not install."
+msgstr "Yeniləmə alın, ancaq quraşdırmayın."
+
+#: inary/cli/upgrade.py:81
+msgid ""
+"When upgrading system, ignore packages and components whose basenames match "
+"pattern."
+msgstr ""
+"Sistemi yeniləyərkən, bazası nümunəsinə uyğun olan paketləri və "
+"komponentləri nəzərə alın."
+
+#: inary/cli/upgrade.py:84
+msgid ""
+"When upgrading system, ignore packages and components whose basenames match "
+"any pattern contained in file."
+msgstr ""
+"Sistemi yeniləyərkən, sənədləri hər hansı bir naxışa uyğun olan paketləri və "
+"komponentləri laqeyd edin."
+
+#: inary/cli/upgrade.py:88
+msgid "Compare sha1sum repo and installed packages."
+msgstr "Sha1sum repo və quraşdırılmış paketləri müqayisə edin."
+
+#: inary/cli/upgrade.py:123 inary/cli/install.py:133
+#: inary/cli/configmanager.py:73
+msgid ""
+"[!] Some config files have been changed. Would you like to see and apply "
+"them?"
+msgstr ""
+"[!] Bəzi konfiqurasiya sənədləri dəyişdirildi. Onları görmək və tətbiq etmək "
+"istərdinizmi?"
+
+#: inary/cli/listnewest.py:27
+#, fuzzy
+msgid ""
+"List newest packages in the repositories\n"
+"\n"
+"Usage: list-newest [ <repo1> <repo2> ... repon ]\n"
+"\n"
+"Gives a list of INARY newly published packages in the specified\n"
+"repositories. If no repository is specified, we list the new\n"
+"packages from all repositories.\n"
+msgstr ""
+"Anbarlardakı ən yeni paketləri sadalayınİstifadəsi: list-newest [<repo1> "
+"<repo2> ... repon]Göstərilənlər içərisində yeni nəşr olunan paketlərin "
+"siyahısını verirdepolar. Heç bir depo göstərilməyibsə, yenisini "
+"sadalayırıqbütün depoların paketləri."
+
+#: inary/cli/listnewest.py:46
+msgid "list-newest options"
+msgstr "list-newest seçimlər"
+
+#: inary/cli/listnewest.py:49
+msgid ""
+"List new packages added to repository after this given date formatted as "
+"yyyy-mm-dd."
+msgstr ""
+"Bu tarixdən sonra yyyy-mm-dd kimi formatlandıqdan sonra depozitə əlavə "
+"edilmiş yeni paketləri sadalayın."
+
+#: inary/cli/listnewest.py:52
+msgid ""
+"List new packages added to repository after last nth previous repository "
+"update."
+msgstr ""
+"Sonuncu nth əvvəlki depozit yeniləməsindən sonra depozitə əlavə edilmiş yeni "
+"paketləri sadalayın."
+
+#: inary/cli/listnewest.py:79
+#, fuzzy, python-brace-format
+msgid "Packages added to '{0}' since \"{1}\":\n"
+msgstr "Paketlər \"{1}\" -dən bəri '{0}' a əlavə edildi:"
+
+#: inary/cli/listnewest.py:82
+msgid "Packages added to '{}':"
+msgstr "Paketlər '{}' ə əlavə edildi:"
+
+#: inary/cli/listorphaned.py:28
+#, fuzzy
+msgid ""
+"List orphaned packages\n"
+"\n"
+"Usage: list-orphaned\n"
+"\n"
+"Lists packages installed as dependency, but no longer needed by any other "
+"installed package.\n"
+msgstr ""
+"Yetim paketləri sadalayınİstifadəsi: list-orphanedAsılılıq olaraq "
+"quraşdırılmış paketləri sadalayır, lakin başqa heç bir quraşdırılmış paketə "
+"ehtiyac yoxdur."
+
+#: inary/cli/listorphaned.py:43
+msgid "list-orphaned options"
+msgstr "list-orphaned seçimlər"
+
+#: inary/cli/listorphaned.py:45
+msgid "Show all packages without reverse dependencies."
+msgstr "Əks asılılıq olmadan bütün paketləri göstərin."
+
+#: inary/cli/listorphaned.py:47
+msgid "Ignore packages and components whose basenames match pattern."
+msgstr ""
+"Paketləri və bazası naxışına uyğun olan komponentləri qulaqardına vurun."
+
+#: inary/cli/listorphaned.py:61
+msgid "Orphaned packages:"
+msgstr "Yetim paketlər:"
+
+#: inary/cli/listorphaned.py:64
+msgid "No orphaned packages."
+msgstr "Yetim paket yoxdur."
+
+#: inary/cli/help.py:25
+#, fuzzy
+msgid ""
+"Prints help for given commands\n"
+"\n"
+"Usage: help [ <command1> <command2> ... <commandn> ]\n"
+"\n"
+"If run without parameters, it prints the general help."
+msgstr ""
+"Yazdırılmış əmrlər üçün kömək edirİstifadə qaydası: help [ <command1> "
+"<command2> ... <commandn> ]Parametrlər olmadan çalışırsa, ümumi köməyi "
+"yazdırır."
+
+#: inary/cli/help.py:51
+#, fuzzy
+msgid ""
+"%prog [options] <command> [arguments]\n"
+"\n"
+"where <command> is one of:\n"
+"\n"
+msgstr "%prog [variantlar] <komanda> [dəlillər]burada <komanda> biridir:"
+
+#: inary/cli/help.py:57
+#, fuzzy
+msgid ""
+"\n"
+"Use \"%prog help <command>\" for help on a specific command.\n"
+msgstr "Müəyyən bir əmrdə kömək üçün \"%prog help <kommand>\" istifadə edin."
+
+#: inary/cli/delta.py:25
+#, fuzzy
+msgid ""
+"Creates delta packages\n"
+"\n"
+"Usages: delta oldpackage1 oldpackage2 ...  newpackage\n"
+"        delta -t newpackage oldpackage1 oldpackage2 ...\n"
+"\n"
+"Delta command finds the changed files between the given\n"
+"packages by comparing the sha1sum of files and creates\n"
+"a delta package with the changed files.\n"
+msgstr ""
+"Delta paketləri yaradırİstifadə qaydaları: delta oldpackage1 oldpackage2 ... "
+"newpackage        delta -t newpack oldpackage1 köhnə paket2 ...Delta əmri "
+"verilənlər arasında dəyişdirilmiş faylları tapırfaylların sha1sumunu "
+"müqayisə edərək paketlərdəyişdirilmiş faylları olan bir delta paketi."
+
+#: inary/cli/delta.py:45
+msgid "delta options"
+msgstr "delta seçimleri"
+
+#: inary/cli/delta.py:50
+msgid "Use arg as the new package and treat other arguments as old packages."
+msgstr ""
+"Yeni paket kimi arg istifadə edin və digər dəlilləri köhnə paketlər kimi "
+"istifadə edin."
+
+#: inary/cli/delta.py:56 inary/cli/build.py:66
+msgid "Output directory for produced packages."
+msgstr "İstehsal olunan paketlər üçün çıxış qovluğu."
+
+#: inary/cli/delta.py:60 inary/cli/build.py:94
+msgid ""
+"Create the binary package using the given format. Use '-F help' to see a "
+"list of supported formats."
+msgstr ""
+"Verilmiş formatdan istifadə edərək ikili paket yaradın. Dəstəklənən "
+"formatların siyahısını görmək üçün '-F help' istifadə edin."
+
+#: inary/cli/delta.py:70 inary/cli/build.py:161
+msgid "Supported package formats:"
+msgstr "Dəstəklənən paket formatları:"
+
+#: inary/cli/delta.py:73 inary/cli/build.py:164
+msgid "  {} (default)"
+msgstr "{} (standart)"
+
+#: inary/cli/deletecache.py:30
+#, fuzzy
+msgid ""
+"Delete cache files\n"
+"\n"
+"Usage: delete-cache\n"
+"\n"
+"Sources, packages and temporary files are stored\n"
+"under /var directory. Since these accumulate they can\n"
+"consume a lot of disk space."
+msgstr ""
+"Kesh sənədlərini silinİstifadə qaydası: delete-cacheMənbələr, paketlər və "
+"müvəqqəti sənədlər saxlanılır/ var qovluğu altında. Bunlar "
+"yığdıqlarındandisk sahəsi çox istehlak."
+
+#: inary/cli/deletecache.py:53
+msgid "Cleaning package cache \"{}\"..."
+msgstr "Paket önbelleğini \"{}\" təmizləyir ..."
+
+#: inary/cli/deletecache.py:57
+msgid "Cleaning source archive cache \"{}\"..."
+msgstr "Mənbə arxiv keşini \"{}\" təmizləyir ..."
+
+#: inary/cli/deletecache.py:61
+msgid "Cleaning temporary directory \"{}\"..."
+msgstr "Müvəqqəti qovluq \"{}\" təmizlənir ..."
+
+#: inary/cli/deletecache.py:67
+msgid "Removing cache file \"{}\"..."
+msgstr "\"{}\" Önbelleği silinir ..."
+
+#: inary/cli/reconfigure.py:45
+#, fuzzy
+msgid ""
+"Reconfigure pending packages\n"
+"\n"
+"If SCOM configuration of some packages were not\n"
+"done at installation time, they are added to a list\n"
+"of packages waiting to be configured. This command\n"
+"configures those packages.\n"
+msgstr ""
+"Gözləyən paketləri yenidən düzəldinBəzi paketlərin SCOM konfiqurasiyası "
+"olmasaydıquraşdırma zamanı edilir, onlar bir siyahıya əlavə "
+"olunuryapılandırılmasını gözləyən paketlər. Bu əmro paketləri konfiqurasiya "
+"edir."
+
+#: inary/cli/reconfigure.py:56
+msgid "reconfigure"
+msgstr "reconfigure"
+
+#: inary/cli/history.py:29
+msgid "upgrade"
+msgstr "upgrade"
+
+#: inary/cli/history.py:29
+msgid "remove"
+msgstr "remove"
+
+#: inary/cli/history.py:29
+msgid "emerge"
+msgstr "emerge"
+
+#: inary/cli/history.py:29
+msgid "install"
+msgstr "install"
+
+#: inary/cli/history.py:30
+msgid "snapshot"
+msgstr "snapshot"
+
+#: inary/cli/history.py:30
+msgid "takeback"
+msgstr "takeback"
+
+#: inary/cli/history.py:30
+msgid "repository update"
+msgstr "repository update"
+
+#: inary/cli/history.py:31
+msgid "reset history"
+msgstr "reset history"
+
+#: inary/cli/history.py:35
+#, fuzzy
+msgid ""
+"History of inary operations\n"
+"\n"
+"Usage: history\n"
+"\n"
+"Lists previous operations."
+msgstr ""
+"İkili əməliyyatlar tarixiİstifadə qaydası: historyƏvvəlki əməliyyatları "
+"sadalayır."
+
+#: inary/cli/history.py:49
+msgid "history options"
+msgstr "history seçimləri"
+
+#: inary/cli/history.py:52
+msgid "Output only the last 'n' operations."
+msgstr "Yalnız son 'n' əməliyyatları çıxdı."
+
+#: inary/cli/history.py:54
+msgid "Take snapshot of the current system."
+msgstr "Mövcud sistemin görüntüsünü çəkin."
+
+#: inary/cli/history.py:56
+msgid "Clear history."
+msgstr "Tarixi təmizləyin."
+
+#: inary/cli/history.py:58
+msgid "Takeback to the state after the given operation finished."
+msgstr "Verilən əməliyyat bitdikdən sonra dövlətə geri çəkilmə."
+
+#: inary/cli/history.py:71
+msgid "Inary Transaction History: "
+msgstr "Inary Əməliyyat Tarixi:"
+
+#: inary/cli/history.py:74
+msgid "Operation "
+msgstr "Əməliyyat"
+
+#: inary/cli/history.py:79
+msgid "Date: "
+msgstr "Tarix:"
+
+#: inary/cli/history.py:85
+msgid "    * There are {} packages in this snapshot."
+msgstr "* Bu görüntüdə {} paket var."
+
+#: inary/cli/history.py:142
+msgid "Resetting history casts"
+msgstr "Tarix sıfırlanır"
+
+#: inary/cli/command.py:37
+msgid "Command lacks name."
+msgstr "Komanda adı yoxdur."
+
+#: inary/cli/command.py:43
+msgid "Duplicate command '{}'"
+msgstr "'{}' Əmrini kopyalayın"
+
+#: inary/cli/command.py:83
+msgid "Unrecognized command: '{}'"
+msgstr "Tanınmayan əmr: '{}'"
+
+#: inary/cli/command.py:107
+msgid "general options"
+msgstr "ümumi seçimlər"
+
+#: inary/cli/command.py:110
+msgid "Change the system root for INARY commands."
+msgstr "INARY əmrləri üçün sistem kökünü dəyişdirin."
+
+#: inary/cli/command.py:112
+msgid "Assume yes in all yes/no queries."
+msgstr "Bəli / yox sualların hamısında bəli deyin."
+
+#: inary/cli/command.py:116
+msgid "Keep bandwidth usage under specified KB's."
+msgstr "Bant genişliyini istifadə olunan KB-nin altında saxlayın."
+
+#: inary/cli/command.py:119
+msgid "Detailed output"
+msgstr "Ətraflı çıxış"
+
+#: inary/cli/command.py:121
+msgid "Show debugging information."
+msgstr "Tətbiqetmə məlumatlarını göstərin."
+
+#: inary/cli/command.py:123
+msgid "Suppresses all coloring of INARY's output."
+msgstr "INARY məhsulunun bütün rənglənməsini yatırır."
+
+#: inary/cli/command.py:140
+#, fuzzy
+msgid "Destination directory \"{}\" does not exist. Creating directory.\n"
+msgstr "\"{}\" Təyinat qovluğu mövcud deyil. Kataloq yaratmaq."
+
+#: inary/cli/command.py:182
+msgid "Command terminated abnormally."
+msgstr "Əmr qeyri-adi şəkildə dayandırıldı."
+
+#: inary/cli/command.py:197 inary/cli/build.py:60
+msgid "Do not take dependency information into account."
+msgstr "Asılılıq haqqında məlumatı nəzərə almayın."
+
+#: inary/cli/command.py:200
+msgid "Ignore unsatisfied dependency."
+msgstr "Doymamış asılılığı görməməzlikdən gəlin."
+
+#: inary/cli/command.py:203 inary/cli/build.py:80
+msgid "Bypass safety switch."
+msgstr "Bypass təhlükəsizlik açarı."
+
+#: inary/cli/command.py:205
+msgid "Do not perform any action, just show what would be done."
+msgstr "Heç bir fəaliyyət göstərməyin, yalnız nə ediləcəyini göstərin."
+
+#: inary/cli/command.py:224
+#, fuzzy
+msgid "usage: {}\n"
+msgstr "istifadə: {}"
+
+#: inary/cli/install.py:29
+#, fuzzy
+msgid ""
+"Install INARY packages\n"
+"\n"
+"Usage: install <package1> <package2> ... <packagen>\n"
+"\n"
+"You may use filenames, URI's or package names for packages. If you have\n"
+"specified a package name, it should exist in a specified repository.\n"
+"\n"
+"You can also specify components instead of package names, which will be\n"
+"expanded to package names.\n"
+msgstr ""
+"INARY paketlərini quraşdırınİstifadəsi: install <package1> <package2> ... "
+"<packagen> Paketlər üçün fayl adları, URI və ya paket adlarından istifadə "
+"edə bilərsiniz. Varsabir paket adı göstərildi, müəyyən bir depo içində "
+"olmalıdır.Ayrıca olacaq paket adları əvəzinə komponentləri təyin edə "
+"bilərsinizpaket adlarına qədər genişlənmişdir."
+
+#: inary/cli/install.py:47
+msgid "install options"
+msgstr "install variantları"
+
+#: inary/cli/install.py:52
+msgid "Reinstall already installed packages."
+msgstr "Artıq quraşdırılmış paketləri yenidən qurun."
+
+#: inary/cli/install.py:54
+msgid "Skip distribution release and architecture check."
+msgstr "Dağıtım buraxılışını və memarlığı yoxlayın."
+
+#: inary/cli/install.py:56
+msgid "Skip configure and mark configure pending."
+msgstr "Konfiqurasiyanı atlayın və gözləyin konfiqurasiya işarəsi."
+
+#: inary/cli/install.py:64 inary/cli/emerge.py:56
+#: inary/cli/removeorphaned.py:51 inary/cli/remove.py:50
+#, fuzzy
+msgid ""
+"Force sysconf operations after installation.Applies all sysconf operations"
+msgstr ""
+"Quraşdırıldıqdan sonra zorlama əməliyyatları. Bütün sysconf əməliyyatlarını "
+"tətbiq edir"
+
+#: inary/cli/install.py:67
+msgid "Install component's and recursive components' packages."
+msgstr "Komponent və rekursiv komponentlərin paketlərini quraşdırın."
+
+#: inary/cli/install.py:69
+msgid "Name of the component's repository."
+msgstr "Komponentin anbarının adı."
+
+#: inary/cli/install.py:74
+msgid ""
+"When installing packages, ignore packages and components whose basenames "
+"match pattern."
+msgstr ""
+"Paketləri quraşdırarkən, bazası modellərinə uyğun olan paketləri və "
+"komponentləri nəzərə alın."
+
+#: inary/cli/install.py:77
+msgid ""
+"When installing packages, ignore packages and components whose basenames "
+"match any pattern contained in file."
+msgstr ""
+"Paketləri quraşdırarkən, əsas sənədlər hər hansı bir nümunəyə uyğun gələn "
+"paketləri və komponentləri nəzərə alın."
+
+#: inary/cli/install.py:82
+msgid ""
+"Store previous libraries info when package is updating to newer version."
+msgstr ""
+"Paket daha yeni versiyaya yeniləndikdə əvvəlki kitabxanalar məlumatlarını "
+"saxlayın."
+
+#: inary/cli/install.py:112
+msgid "There is no component named  as \"{}\""
+msgstr "\"{}\" Adlı komponent yoxdur"
+
+#: inary/cli/listinstalled.py:28
+#, fuzzy
+msgid ""
+"Print the list of all installed packages\n"
+"\n"
+"Usage: list-installed\n"
+msgstr ""
+"Bütün quraşdırılmış paketlərin siyahısını çap edinİstifadəsi: list-installed"
+
+#: inary/cli/listinstalled.py:42 inary/cli/checkrelation.py:44
+msgid "list-installed options"
+msgstr "list-installed seçimlər"
+
+#: inary/cli/listinstalled.py:47
+msgid "Only list the installed packages built by the given host."
+msgstr "Yalnız verilən ana tərəfindən qurulmuş paketləri sadalayın."
+
+#: inary/cli/listinstalled.py:50 inary/cli/listcomponents.py:44
+#: inary/cli/listsources.py:44
+msgid "Show in long format"
+msgstr "Uzun formatda göstərin"
+
+#: inary/cli/listinstalled.py:52 inary/cli/listavailable.py:48
+msgid "Write only names."
+msgstr "Yalnız adları yazın."
+
+#: inary/cli/listinstalled.py:54
+msgid "List installed packages under given component."
+msgstr "Verilmiş komponent altında quraşdırılmış paketləri sadalayın."
+
+#: inary/cli/listinstalled.py:56 inary/cli/listupgrades.py:51
+msgid "Show detailed install info."
+msgstr "Ətraflı quraşdırma məlumatlarını göstərin."
+
+#: inary/cli/listinstalled.py:84 inary/cli/listupgrades.py:89
+msgid ""
+"Package Name          |St|        Version|  Rel.|  Distro|             Date"
+msgstr "Paketin adı | St | Versiya | Rel. | Distro | Tarix"
+
+#: inary/cli/listcomponents.py:27
+#, fuzzy
+msgid ""
+"List available components\n"
+"\n"
+"Usage: list-components\n"
+"\n"
+"Gives a brief list of INARY components published in the\n"
+"repositories.\n"
+msgstr ""
+"Mövcud komponentləri sadalayınİstifadəsi: list-components-Də dərc olunan "
+"INARY komponentlərinin qısa siyahısını verirdepolar."
+
+#: inary/cli/listcomponents.py:42
+msgid "list-components options"
+msgstr "list-components seçimləri"
+
+#: inary/cli/listcomponents.py:46
+msgid "Name of the source or package repository"
+msgstr "Mənbə və ya paket depozitarı adı"
+
+#: inary/cli/build.py:28
+#, fuzzy
+msgid ""
+"Build INARY packages\n"
+"\n"
+"Usage: build [<pspec.xml> | <sourcename>] ...\n"
+"\n"
+"You can give a URI of the pspec.xml file. INARY will\n"
+"fetch all necessary files and build the package for you.\n"
+"\n"
+"Alternatively, you can give the name of a source package\n"
+"to be downloaded from a repository containing sources.\n"
+msgstr ""
+"INARY paketlərini düzəldinİstifadəsi: build [<pspec.xml> | <təminat adı]] ..."
+"Siz pspec.xml faylının URI verə bilərsiniz. İNARİ OLACAQbütün zəruri "
+"sənədləri götürün və paketinizi sizin üçün qurun.Alternativ olaraq, bir "
+"qaynaq paketinin adını verə bilərsinizmənbələri olan bir depo yükləmək."
+
+#: inary/cli/build.py:49
+msgid "build options"
+msgstr "build seçimləri"
+
+#: inary/cli/build.py:54
+msgid "Run inary build operation without printing extra debug information."
+msgstr ""
+"Əlavə debug məlumatlarını çap etmədən inary build əməliyyatını işə salın."
+
+#: inary/cli/build.py:71
+msgid "Bypass sha1sum verify step of source archive."
+msgstr "Bypass sha1sum mənbə arxivinin addımını yoxlayın."
+
+#: inary/cli/build.py:75
+msgid "Bypass errors from ActionsAPI."
+msgstr "ActionsAPI'nin keçid səhvləri."
+
+#: inary/cli/build.py:85
+msgid "Bypass testing step."
+msgstr "Bypass testi addım."
+
+#: inary/cli/build.py:90
+msgid "Create a static package with ar files."
+msgstr "Ar faylları ilə statik bir paket yaradın."
+
+#: inary/cli/build.py:101
+msgid "Use quilt patch management system instead of GNU patch."
+msgstr "GNU patch əvəzinə yorğan yamaq idarəetmə sistemindən istifadə edin."
+
+#: inary/cli/build.py:105
+msgid "build steps"
+msgstr "build addımları"
+
+#: inary/cli/build.py:111
+msgid "Break build after fetching the source archive."
+msgstr "Mənbə arxivini aldıqdan sonra qurma işlərini qırın."
+
+#: inary/cli/build.py:118
+msgid ""
+"Break build after unpacking the source archive, checking sha1sum and "
+"applying patches."
+msgstr ""
+"Mənbə arxivini boşaltdıqdan, sha1sum yoxlanıldıqdan və yamalar tətbiq "
+"edildikdən sonra build işlemi duru."
+
+#: inary/cli/build.py:126
+msgid "Break build after running configure step."
+msgstr "Konfiqurasiya addımını işlədikdən sonra build işini kəsin."
+
+#: inary/cli/build.py:132
+msgid "Break build after running compile step."
+msgstr "Tərtib etmə addımını işlədikdən sonra build hissəsini kəsin."
+
+#: inary/cli/build.py:138
+msgid "Break build after running check step."
+msgstr "Yoxlama mərhələsindən sonra build işlərini qırın."
+
+#: inary/cli/build.py:144
+msgid "Break build after running install step."
+msgstr "Quraşdırma addımını işlədikdən sonra build qaydasını pozun."
+
+#: inary/cli/build.py:150
+msgid "Create INARY package."
+msgstr "INARY paketini yaradın."
+
+#: inary/cli/checkrelation.py:30
+msgid ""
+"Check packages and system relations\n"
+"\n"
+"Usage: check-relation\n"
+msgstr ""
+
+#: inary/cli/checkrelation.py:47
+msgid "Deep scan mode"
+msgstr ""
+
+#: inary/cli/checkrelation.py:55
+#, fuzzy
+msgid "This packages broken and need to reinstall."
+msgstr "Quraşdırmaq üçün paket yoxdur."
+
+#: inary/cli/checkrelation.py:78 inary/cli/checkrelation.py:88
+#, fuzzy
+msgid "Checking: {}"
+msgstr "-> yoxlanılır {}"
+
+#: inary/cli/checkrelation.py:82
+msgid "Missing: - {} : Needed by: - {}"
+msgstr ""
+
+#: inary/cli/checkrelation.py:93
+#, fuzzy
+msgid "Missing: /{} - {}"
+msgstr "Yarımçıq fayl: \"/{}\""
+
+#: inary/cli/rebuilddb.py:28
+#, fuzzy
+msgid ""
+"Rebuild Databases\n"
+"\n"
+"Usage: rebuilddb [ <package1> <package2> ... <packagen> ]\n"
+"\n"
+"Rebuilds the INARY databases\n"
+"\n"
+"If package specs are given, they should be the names of package\n"
+"dirs under /var/lib/inary\n"
+msgstr ""
+"Verilənlər bazasını yenidən qurunİstifadəsi: rebuilddb [<paket 1> "
+"<paket> ... <paket>]INARY verilənlər bazasını yenidən qururPaket "
+"xüsusiyyətləri verilirsə, paket adları olmalıdırdirs / var / lib / inary "
+"altında"
+
+#: inary/cli/rebuilddb.py:44
+msgid "rebuild-db options"
+msgstr "yenidən rebuild-db variantları"
+
+#: inary/cli/rebuilddb.py:47
+msgid "Rebuild files database"
+msgstr "Fayllar bazasını yenidən qurun"
+
+#: inary/cli/rebuilddb.py:53
+msgid "Rebuild INARY databases?"
+msgstr "INARY verilənlər bazasını yenidən qurursunuz?"
+
+#: inary/cli/rebuilddb.py:54
+#, fuzzy
+msgid "Updating database caches"
+msgstr "Verilənlər bazası önbellekləri yenilənir ..."
+
+#: inary/cli/rebuilddb.py:56
+#, fuzzy
+msgid "Saving database caches"
+msgstr "Verilənlər bazası önbellekləri yenilənir ..."
+
+#: inary/cli/rebuilddb.py:59
+#, fuzzy
+msgid "Updating filesdb"
+msgstr "Verilənlər bazası yenilənir"
+
+#: inary/cli/emerge.py:29
+#, fuzzy
+msgid ""
+"Build and install INARY source packages from repository\n"
+"\n"
+"Usage: emerge <sourcename> ...\n"
+"\n"
+"You should give the name of a source package to be\n"
+"downloaded from a repository containing sources.\n"
+"\n"
+"You can also give the name of a component.\n"
+msgstr ""
+"Depozitordan INARY mənbə paketlərini qurun və quraşdırınİstifadəsi: emerge "
+"<sourcename> ...Olacağınız bir qaynaq paketinin adını verməlisinizmənbələri "
+"olan bir depo yükləndi.Bir komponentin adını da verə bilərsiniz."
+
+#: inary/cli/emerge.py:46
+msgid "emerge options"
+msgstr "emerge seçimleri"
+
+#: inary/cli/__init__.py:118
+msgid "Verboses: "
+msgstr "Verblər:"
+
+#: inary/cli/__init__.py:130
+msgid "Warning: "
+msgstr "Xəbərdarlıq:"
+
+#: inary/cli/__init__.py:145
+msgid "Error: "
+msgstr "Xəta:"
+
+#: inary/cli/__init__.py:173 inary/cli/__init__.py:178
+#: inary/cli/__init__.py:182
+msgid "(yes"
+msgstr "(bəli"
+
+#: inary/cli/__init__.py:179 inary/cli/__init__.py:183
+msgid "no)"
+msgstr "yox)"
+
+#: inary/cli/__init__.py:257
+msgid "Installed \"{}\""
+msgstr "\"{}\" Quraşdırıldı"
+
+#: inary/cli/__init__.py:264
+msgid "Removed \"{}\""
+msgstr "\"{}\" Silindi"
+
+#: inary/cli/__init__.py:267
+msgid "Removing \"{}\""
+msgstr "\"{}\" Silinir"
+
+#: inary/cli/__init__.py:270
+msgid "Upgraded \"{}\""
+msgstr "Təkmilləşdirilmiş \"{}\""
+
+#: inary/cli/__init__.py:273
+msgid "Configured \"{}\""
+msgstr "Konfiqurasiya edilmiş \"{}\""
+
+#: inary/cli/__init__.py:276
+msgid "Configuring \"{}\""
+msgstr "\"{}\" Nizamlanır"
+
+#: inary/cli/__init__.py:279
+msgid "Extracting the files of \"{}\""
+msgstr "\"{}\" Sənədlərinin çıxarılması"
+
+#: inary/cli/__init__.py:283 inary/operations/repository.py:101
+msgid "Updating package repository: \"{}\""
+msgstr "Paket anbarını yeniləyir: \"{}\""
+
+#: inary/cli/__init__.py:291
+msgid "Total size of package(s): {:.2f} {} / {:.2f} {}"
+msgstr "Paketlərin (lərin) ümumi ölçüsü: {:.2f} {} / {:.2f} {}"
+
+#: inary/cli/__init__.py:300
+msgid "Following packages ordered for process: {}"
+msgstr "Proses üçün sifariş verilən aşağıdakı paketlər: {}"
+
+#: inary/cli/__init__.py:307
+msgid "Extracted desktop file \"{}\""
+msgstr "Çıxarılmış iş masası faylı \"{}\""
+
+#: inary/cli/__init__.py:316
+msgid "Downloaded \"{}\""
+msgstr "Yüklənib \"{}\""
+
+#: inary/cli/check.py:30
+#, fuzzy
+msgid ""
+"Verify installation\n"
+"\n"
+"    Usage: check [<package1> <package2> ... <packagen>]\n"
+"           check -c <component>\n"
+"\n"
+"    <packagei>: package name\n"
+"\n"
+"    A cryptographic checksum is stored for each installed\n"
+"    file. Check command uses the checksums to verify a package.\n"
+"    Just give the names of packages.\n"
+"\n"
+"    If no packages are given, checks all installed packages.\n"
+"    "
+msgstr ""
+"Quraşdırmanı təsdiqləyinİstifadə qaydası: check [...]check  -c: paketin "
+"adıHər bir quraşdırılmış üçün kriptoqrafik yoxlama nömrəsi saxlanılırfayl. "
+"Check əmri paketi yoxlamaq üçün çeklərdən istifadə edir.Yalnız paketlərin "
+"adlarını verin.Heç bir paket verilmirsə, quraşdırılmış bütün paketləri "
+"yoxlayır."
+
+#: inary/cli/check.py:52
+msgid "check options"
+msgstr "check seçimləri"
+
+#: inary/cli/check.py:57
+msgid "Check installed packages under given component."
+msgstr "Verilmiş komponentin altında quraşdırılmış paketləri yoxlayın."
+
+#: inary/cli/check.py:63
+msgid "Checks only changed config files of the packages."
+msgstr "Paketlərin yalnız dəyişdirilmiş konfiqurasiya sənədlərini yoxlayır."
+
+#: inary/cli/check.py:81
+msgid "Checking all installed packages."
+msgstr "Bütün quraşdırılmış paketlərin yoxlanılması."
+
+#: inary/cli/check.py:84
+msgid "No package has been installed yet. :("
+msgstr "Hələ heç bir paket quraşdırılmayıb. :("
+
+#: inary/cli/check.py:93
+msgid "Checking integrity of \"{}\"."
+msgstr "\"{}\" Bütövlüyünün yoxlanılması."
+
+#: inary/cli/check.py:106
+msgid "Broken"
+msgstr "Qırıq"
+
+#: inary/cli/check.py:111
+msgid "Unknown"
+msgstr "Naməlum"
+
+#: inary/cli/check.py:113
+msgid "OK"
+msgstr "Tamam"
+
+#: inary/cli/check.py:119
+msgid "Missing file: \"/{}\""
+msgstr "Yarımçıq fayl: \"/{}\""
+
+#: inary/cli/check.py:124
+msgid "Access denied: \"/{}\""
+msgstr "Giriş qadağandır: \"/{}\""
+
+#: inary/cli/check.py:129
+msgid "Corrupted file: \"/{}\""
+msgstr "Zədələnmiş fayl: \"/{}\""
+
+#: inary/cli/check.py:133
+msgid "Modified configuration file: \"/{}\""
+msgstr "Dəyişdirilmiş konfiqurasiya faylı: \"/{}\""
+
+#: inary/cli/check.py:138
+msgid "Package \"{}\" not installed."
+msgstr "\"{}\" Paketi quraşdırılmadı."
+
+#: inary/cli/check.py:142
+#, fuzzy
+msgid ""
+"Inary was unable to check the integrity of packages which contain files that "
+"you don't have read access.\n"
+"Running the check under a privileged user may help fixing this problem."
+msgstr ""
+"Inary oxuya bilmədiyiniz sənədləri olan paketlərin bütövlüyünü yoxlaya "
+"bilmədiniz.Çeki imtiyazlı bir istifadəçi altında aparmaq bu problemi həll "
+"etməyə kömək edə bilər."
+
+#: inary/cli/blame.py:27
+#, fuzzy
+msgid ""
+"Information about the package owner and release\n"
+"\n"
+"Usage: blame <package> ... <package>\n"
+"\n"
+msgstr ""
+"Paket sahibi və buraxılması haqqında məlumatİstifadəsi: blame <paket> ... "
+"<paket>"
+
+#: inary/cli/blame.py:41
+msgid "blame options"
+msgstr "blame variantları"
+
+#: inary/cli/blame.py:47
+msgid "Blame for the given release"
+msgstr "Verilən buraxılışda blame"
+
+#: inary/cli/blame.py:49
+msgid "Blame for all of the releases"
+msgstr "Buraxılışların hamısında blame"
+
+#: inary/cli/blame.py:91
+#, python-brace-format
+msgid "Name: {0}, version: {1}, release: {2}"
+msgstr "Adı: {0}, versiya: {1}, buraxılış: {2}"
+
+#: inary/cli/blame.py:93
+#, fuzzy
+msgid "Installed"
+msgstr "quraşdırılıb"
+
+#: inary/cli/blame.py:94
+#, fuzzy, python-brace-format
+msgid "Package Maintainer: {0} <{1}>\n"
+msgstr "Paket xidmətçisi: {0} <{1}>"
+
+#: inary/cli/blame.py:96
+#, fuzzy, python-brace-format
+msgid "Release Updater: {0.name} <{0.email}>\n"
+msgstr "Yeniləyici buraxın: {0.name} <{0.email}>"
+
+#: inary/cli/blame.py:98
+#, fuzzy
+msgid "Update Date: {}\n"
+msgstr "Yeniləmə tarixi: {}"
+
+#: inary/cli/listrepo.py:25
+#, fuzzy
+msgid ""
+"List repositories\n"
+"\n"
+"Usage: list-repo\n"
+"\n"
+"Lists currently tracked repositories.\n"
+msgstr ""
+"Siyahı depolarıİstifadə qaydası: list-repoHal hazırda siyahıları izlənilən "
+"depolar."
+
+#: inary/cli/listrepo.py:42 inary/cli/listrepo.py:44
+msgid "active"
+msgstr "aktivdir"
+
+#: inary/cli/listrepo.py:43
+msgid "inactive"
+msgstr "aktiv deil"
+
+#: inary/cli/listrepo.py:45 inary/cli/listrepo.py:47
+#, python-brace-format
+msgid "{0} [{1}]"
+msgstr "{0} [{1}]"
+
+#: inary/cli/listupgrades.py:30
+#, fuzzy
+msgid ""
+"List packages to be upgraded\n"
+"\n"
+"Usage: list-upgrades\n"
+"\n"
+"Lists the packages that will be upgraded.\n"
+msgstr ""
+"Yenilənəcək paket paketləriİstifadəsi: list-upgradesYenilənəcək paketləri "
+"sadalayır."
+
+#: inary/cli/listupgrades.py:45
+msgid "list-upgrades options"
+msgstr "list-upgrades variantları"
+
+#: inary/cli/listupgrades.py:47 inary/cli/searchfile.py:42
+msgid "Show in long format."
+msgstr "Uzun formatda göstərin."
+
+#: inary/cli/listupgrades.py:49
+msgid "List upgradable packages under given component."
+msgstr "Verilən komponentin altında yenilənə bilən paketləri sadalayın."
+
+#: inary/cli/listupgrades.py:79 inary/operations/upgrade.py:182
+msgid "No packages to upgrade."
+msgstr "Təkmilləşdirmək üçün paket yoxdur."
+
+#: inary/cli/configmanager.py:33
+msgid "Inary Config file manager."
+msgstr "Inary Config fayl meneceri."
+
+#: inary/cli/configmanager.py:42
+msgid "config-manager options"
+msgstr "config-manager seçimləri"
+
+#: inary/cli/configmanager.py:45
+msgid ""
+"Rewrite all config files with new ones without keeping old config files."
+msgstr ""
+"Köhnə konfiqurasiya sənədlərini saxlamadan bütün konfiqurasiya sənədlərini "
+"yeniləri ilə yenidən yazın."
+
+#: inary/cli/configmanager.py:47
+msgid "Rewrite all config files with new ones, keeping old config files."
+msgstr ""
+"Köhnə konfiqurasiya sənədlərini saxlayaraq bütün konfiqurasiya sənədlərini "
+"yeniləri ilə yenidən yazın."
+
+#: inary/cli/configmanager.py:77
+msgid "There isn't any new config :)"
+msgstr "Yeni konfiqurasiya yoxdur :)"
+
+#: inary/cli/removeorphaned.py:29
+#, fuzzy
+msgid ""
+"Remove orphaned packages\n"
+"\n"
+"Usage: remove-orphaned\n"
+"\n"
+"Remove all orphaned packages from the system.\n"
+msgstr ""
+"Yetim paketləri çıxarınİstifadəsi: çıxar-yetimBütün yetim paketləri "
+"sistemdən çıxarın."
+
+#: inary/cli/removeorphaned.py:42
+msgid "remove-orphaned options"
+msgstr "remove-orphaned seçimlər"
+
+#: inary/cli/removeorphaned.py:47
+msgid ""
+"When removing orphaned, ignore packages and components whose basenames match "
+"pattern."
+msgstr ""
+"Yetim qaldıqda, başlıqları naxışına uyğun olan paketləri və komponentləri "
+"nəzərə alın."
+
+#: inary/cli/removerepo.py:23
+#, fuzzy
+msgid ""
+"Remove repositories\n"
+"\n"
+"Usage: remove-repo <repo1> <repo2> ... <repon>\n"
+"\n"
+"Remove all repository information from the system.\n"
+msgstr ""
+"Depozit yerlərini çıxarınİstifadəsi: remove-repo <repo1> <repo2> ... <geri "
+"göndərməBütün depo məlumatlarını sistemdən çıxarın."
+
+#: inary/cli/inarycli.py:94
+msgid "Options must precede non-option arguments."
+msgstr "Seçimlər seçim olmayan arqumentlərdən əvvəl olmalıdır."
+
+#: inary/cli/inarycli.py:137
+msgid "No command given."
+msgstr "Heç bir əmr verilmədi."
+
+#: inary/cli/inarycli.py:140
+msgid "Command line parsing error."
+msgstr "Komanda xətti təhlil xətası."
+
+#: inary/cli/inarycli.py:145
+msgid "Unrecognized command: {}"
+msgstr "Tanınmayan əmr: {}"
+
+#: inary/cli/sysconf.py:24
+msgid "Run sysconf trigger"
+msgstr "Sysconf tetikleyicisini işə salın"
+
+#: inary/cli/sysconf.py:29
+msgid "sysconf"
+msgstr "sysconf"
+
+#: inary/cli/sysconf.py:32
+msgid "sysconf options"
+msgstr "sysconf variantları"
+
+#: inary/cli/sysconf.py:34
+msgid "Run force sysconf"
+msgstr "Güc sysconf işə salın"
+
+#: inary/cli/mirror.py:26
+#, fuzzy
+msgid ""
+"Mirror a repository\n"
+"\n"
+"Usage: mirror [<package1> <package2> ... <packagen>]\n"
+"\n"
+"<packagei>: repo name\n"
+"\n"
+"Downloads the given inary packages to working directory\n"
+msgstr ""
+"Bir paket gətirİstifadəsi: fetch [<paket 1> <paket 2> ... "
+"<packagen>]<paket>: paketin adıVerilən inary paketləri iş qovluğuna yükləyir"
+
+#: inary/cli/mirror.py:41
+#, fuzzy
+msgid "mirror options"
+msgstr "info seçimləri"
+
+#: inary/cli/mirror.py:44
+#, fuzzy
+msgid "Output directory for the mirrored repository"
+msgstr "Alınan paketlər üçün çıxış qovluğu"
+
+#: inary/cli/addrepo.py:32
+#, fuzzy
+msgid ""
+"Add a repository\n"
+"\n"
+"Usage: add-repo <repo> <indexuri>\n"
+"\n"
+"<repo>: name of repository to add\n"
+"<indexuri>: URI of index file\n"
+"\n"
+"NB: We support only local files (e.g., /a/b/c) and http:// URIs at the "
+"moment\n"
+msgstr ""
+"Anbar əlavə edinİstifadə qaydası: əlavə-repo <repo> <indexuri><repo>: əlavə "
+"etmək üçün depo adı<indexuri>: indeks sənədinin URIQeyd: Hal-hazırda yalnız "
+"yerli sənədləri (məsələn, /a/b/c) və http://URI-ləri dəstəkləyirik"
+
+#: inary/cli/addrepo.py:50
+msgid "add-repo options"
+msgstr "add-repo variantları"
+
+#: inary/cli/addrepo.py:52
+msgid "Ignore repository distribution check"
+msgstr "Repozitoriya paylamasını yoxlayın"
+
+#: inary/cli/addrepo.py:54
+msgid "Does not fetch repository index and does not check distribution match"
+msgstr "Repozitoriya indeksini gətirmir və paylama uyğunluğunu yoxlamır"
+
+#: inary/cli/addrepo.py:57
+msgid "Add repository at given position (0 is first)"
+msgstr "Verilmiş vəziyyətdə depo əlavə edin (0 ilkdir)"
+
+#: inary/cli/addrepo.py:74
+msgid "Extension of repository URI must be \".xml.xz\" or \".xml\"."
+msgstr ""
+"Repozitoriya URI-nin genişlənməsi \".xml.xz\" və ya \".xml\" olmalıdır."
+
+#: inary/cli/searchfile.py:27
+#, fuzzy
+msgid ""
+"Search for a file\n"
+"\n"
+"Usage: search-file <path1> <path2> ... <pathn>\n"
+"\n"
+"Finds the installed package which contains the specified file.\n"
+msgstr ""
+"Bir fayl axtarınİstifadəsi: search-file <path1> <path2> ... "
+"<pathn>Göstərilən faylı olan quraşdırılmış paketi tapır."
+
+#: inary/cli/searchfile.py:40
+msgid "search-file options"
+msgstr "search-file seçimləri"
+
+#: inary/cli/searchfile.py:44
+msgid "Show only package name."
+msgstr "Yalnız paket adını göstərin."
+
+#: inary/cli/searchfile.py:53
+msgid "Path \"{}\" does not belong to an installed package."
+msgstr "\"{}\" Yolu quraşdırılmış paketə aid deyil."
+
+#: inary/cli/searchfile.py:58
+#, python-brace-format
+msgid "Package \"{0}\" has file \"/{1}\""
+msgstr "Paketdə \"{0}\" sənəd var \"/ {1}\""
+
+#: inary/cli/searchfile.py:71
+msgid "Searching for \"{}\""
+msgstr "\"{}\" Axtarılır"
+
+#: inary/cli/listsources.py:28
+#, fuzzy
+msgid ""
+"List available sources\n"
+"\n"
+"Usage: list-sources\n"
+"\n"
+"Gives a brief list of sources published in the repositories.\n"
+msgstr ""
+"Mövcud mənbələri sadalayınİstifadə qaydası: siyahı mənbələriRezervuarlarda "
+"dərc olunan mənbələrin qısa siyahısını verir."
+
+#: inary/cli/listsources.py:42
+msgid "list-sources options"
+msgstr "siyahı mənbələri variantları"
+
+#: inary/cli/listsources.py:62
+msgid "[Repository: "
+msgstr "[Anbar:"
+
+#: inary/cli/index.py:27
+#, fuzzy
+msgid ""
+"Index INARY files in a given directory\n"
+"\n"
+"Usage: index <directory> ...\n"
+"\n"
+"This command searches for all INARY files in a directory, collects INARY\n"
+"tags from them and accumulates the information in an output XML file,\n"
+"named by default 'inary-index.xml'. In particular, it indexes both\n"
+"source and binary packages.\n"
+"\n"
+"If you give multiple directories, the command still works, but puts\n"
+"everything in a single index file.\n"
+msgstr ""
+"Verilən bir qovluqdakı INARY sənədləriİstifadəsi: index <direktory> ...Bu "
+"əmr bir qovluqdakı bütün INARY fayllarını axtarır, INARY toplayıronlardan "
+"etiketlər çıxarır və məlumatları bir XML XML faylında yığır,default olaraq "
+"'inary-index.xml' adlandırdı. Xüsusilə, hər ikisini indeksləşdirirmənbə və "
+"ikili paketlər.Birdən çox qovluq versəniz, əmr hələ də işləyir, amma "
+"qoyurhər şeyi tək bir indeks sənədində."
+
+#: inary/cli/index.py:50
+msgid "index options"
+msgstr "index variantları"
+
+#: inary/cli/index.py:55
+msgid "Store absolute links for indexed files."
+msgstr "İndeksləşdirilmiş sənədlər üçün mütləq bağlantıları saxlayın."
+
+#: inary/cli/index.py:60
+msgid "Index output file"
+msgstr "Index çıxış faylı"
+
+#: inary/cli/index.py:65
+msgid "Comma-separated compression types for index file"
+msgstr "Indeks faylı üçün vergüllə ayrılmış sıxılma növləri"
+
+#: inary/cli/index.py:71
+msgid "Do not index INARY spec files."
+msgstr "INARY spec fayllarını indeksləşdirməyin."
+
+#: inary/cli/index.py:76
+msgid "Do not sign index."
+msgstr "İndeksi imzalamayın."
+
+#: inary/cli/index.py:91
+msgid "Taking inary repo index."
+msgstr "Inary repo indeksini götürmək."
+
+#: inary/cli/fetch.py:26
+#, fuzzy
+msgid ""
+"Fetch a package\n"
+"\n"
+"Usage: fetch [<package1> <package2> ... <packagen>]\n"
+"\n"
+"<packagei>: package name\n"
+"\n"
+"Downloads the given inary packages to working directory\n"
+msgstr ""
+"Bir paket gətirİstifadəsi: fetch [<paket 1> <paket 2> ... "
+"<packagen>]<paket>: paketin adıVerilən inary paketləri iş qovluğuna yükləyir"
+
+#: inary/cli/fetch.py:41
+msgid "fetch options"
+msgstr "fetch seçimleri"
+
+#: inary/cli/fetch.py:44
+msgid "Output directory for the fetched packages"
+msgstr "Alınan paketlər üçün çıxış qovluğu"
+
+#: inary/cli/fetch.py:46
+msgid "Download with runtime dependencies."
+msgstr "İş vaxtı asılılığı ilə yükləyin."
+
+#: inary/cli/remove.py:28
+#, fuzzy
+msgid ""
+"Remove INARY packages\n"
+"\n"
+"Usage: remove <package1> <package2> ... <packagen>\n"
+"\n"
+"Remove package(s) from your system. Just give the package names to remove.\n"
+"\n"
+"You can also specify components instead of package names, which will be\n"
+"expanded to package names.\n"
+msgstr ""
+"INARY paketlərini çıxarınİstifadəsi:  remove<paket> <paket> ... <paket>Paket "
+"(lər) i sisteminizdən çıxarın. Paket adlarını silmək üçün verin.Ayrıca "
+"olacaq paket adları əvəzinə komponentləri təyin edə bilərsinizpaket adlarına "
+"qədər genişlənmişdir."
+
+#: inary/cli/remove.py:45
+msgid "remove options"
+msgstr "remove seçimləri"
+
+#: inary/cli/remove.py:53
+msgid "Removes everything including changed config files of the package."
+msgstr ""
+"Paketin dəyişdirilmiş konfiqurasiya sənədləri daxil olmaqla hər şeyi silinir."
+
+#: inary/cli/remove.py:55
+msgid "Remove component's and recursive components' packages."
+msgstr "Komponentin və rekursiv komponentlərin paketlərini çıxarın."
+
+#: inary/cli/enablerepo.py:24
+#, fuzzy
+msgid ""
+"Enable repository\n"
+"\n"
+"Usage: enable-repo [<repo1> <repo2> ... <repon>]\n"
+"\n"
+"<repoi>: repository name\n"
+"\n"
+"Disabled repositories are not taken into account in operations\n"
+msgstr ""
+"Anbarı aktivləşdirinİstifadə qaydası: enable-repo [<repo1> <repo2> ... <geri "
+"göndərmə]]<repoi>: depo adıƏlil depozitlər əməliyyatlarda nəzərə alınmır"
+
+#: inary/cli/search.py:28
+#, fuzzy
+msgid ""
+"Search packages\n"
+"\n"
+"Usage: search <term1> <term2> ... <termn>\n"
+"\n"
+"Finds a package containing specified search terms\n"
+"in summary, description, and package name fields.\n"
+"Default search is done in package database. Use\n"
+"options to search in install database or source\n"
+"database.\n"
+msgstr ""
+"Paketləri axtarınİstifadə qaydası: search <term1> <term2> ... "
+"<termn>Göstərilən axtarış şərtləri olan bir paket tapırxülasə, təsvir və "
+"paket adı sahələrində.Defolt axtarış paket bazasında aparılır. İstifadə "
+"edinquraşdırma verilənlər bazasında və ya mənbədə axtarış etmək üçün "
+"seçimlərverilənlər bazası."
+
+#: inary/cli/search.py:45
+msgid "search options"
+msgstr "search variantları"
+
+#: inary/cli/search.py:47
+msgid "Summary and description language."
+msgstr "Xülasə və təsvir dili."
+
+#: inary/cli/search.py:49
+msgid "Name of the source or package repository."
+msgstr "Mənbə və ya paket depozitarı adı."
+
+#: inary/cli/search.py:51
+msgid "Search in installdb."
+msgstr "İnstalldb-də axtarın."
+
+#: inary/cli/search.py:53
+msgid "Search in sourcedb."
+msgstr "Sourcedb-də axtar."
+
+#: inary/cli/search.py:55
+msgid "Case sensitive search."
+msgstr "Case həssas axtarış."
+
+#: inary/cli/search.py:57
+msgid "Search in the package name."
+msgstr "Paket adından axtarın."
+
+#: inary/cli/search.py:59
+msgid "Search in the package summary."
+msgstr "Paket xülasəsində axtarın."
+
+#: inary/cli/search.py:61
+msgid "Search in the package description."
+msgstr "Paket təsvirində axtarın."
+
+#: inary/cli/disablerepo.py:24
+#, fuzzy
+msgid ""
+"Disable repository\n"
+"\n"
+"Usage: disable-repo [<repo1> <repo2> ... <repon>]\n"
+"\n"
+"<repoi>: repository name\n"
+"\n"
+"Disabled repositories are not taken into account in operations\n"
+msgstr ""
+"Repozitoriyanı deaktiv edinİstifadəsi: disable-repo [<repo1> <repo2> ... "
+"<geri qaytarma]]<repoi>: depo adıƏlil depozitlər əməliyyatlarda nəzərə "
+"alınmır"
+
+#: inary/cli/listavailable.py:28
+#, fuzzy
+msgid ""
+"List available packages in the repositories\n"
+"\n"
+"Usage: list-available [ <repo1> <repo2> ... repon ]\n"
+"\n"
+"Gives a brief list of INARY packages published in the specified\n"
+"repositories. If no repository is specified, we list packages in\n"
+"all repositories.\n"
+msgstr ""
+"Anbarlarda mövcud paketləri sadalayınİstifadəsi: list-available [<repo1> "
+"<repo2> ... repon]Göstəriləndə dərc edilmiş INARY paketlərin qısa siyahısını "
+"verirdepolar. Heç bir depo göstərilməyibsə, paketləri içəriyə daxil "
+"edirikbütün depolar."
+
+#: inary/cli/listavailable.py:46
+msgid "list-available options"
+msgstr "list-available seçimlər"
+
+#: inary/cli/listavailable.py:52
+msgid "List available packages under given component"
+msgstr "Verilən komponent altında mövcud paketləri sadalayın"
+
+#: inary/cli/listavailable.py:54
+msgid "Show uninstalled packages only"
+msgstr "Yalnız silinmiş paketləri göstərin"
+
+#: inary/cli/listavailable.py:64
+msgid "Installed packages are shown in this color."
+msgstr "Quraşdırılmış paketlər bu rəngdə göstərilir."
+
+#: inary/cli/listavailable.py:74
+#, fuzzy
+msgid ""
+"\n"
+" Repository : \"{}\"\n"
+msgstr "Depozitari: \"{}\""
+
+#: inary/operations/upgrade.py:59
+msgid ""
+"You must restart the following service(s) manually for the updated software "
+"to take effect:"
+msgstr ""
+"Yenilənmiş proqramın qüvvəyə minməsi üçün aşağıdakı xidmətləri (lər) əl ilə "
+"yenidən başlatmalısınız:"
+
+#: inary/operations/upgrade.py:66
+msgid ""
+"You must restart your system for the updates in the following package(s) to "
+"take effect:"
+msgstr ""
+"Aşağıdakı paket (lər) dəki yeniləmələr üçün sisteminizi yenidən "
+"başlatmalısınız:"
+
+#: inary/operations/upgrade.py:93
+msgid "Warning: package *name* ends with '.inary'"
+msgstr "Diqqət: paket *adı* '.inary' ilə bitir"
+
+#: inary/operations/upgrade.py:103
+msgid "Package \"{}\" is not available in repositories."
+msgstr "\"{}\" Paketi depolarda mövcud deyil."
+
+#: inary/operations/upgrade.py:127
+#, python-brace-format
+msgid "Package \"{0.name}\" is already at the latest release {0.release}."
+msgstr "\"{0.name}\" paketi ən son {0.release} versiyasındadır."
+
+#: inary/operations/upgrade.py:131
+msgid "The following packages have different sha1sum:"
+msgstr "Aşağıdakı paketlərdə fərqli sha1sum var:"
+
+#: inary/operations/upgrade.py:197
+msgid "The following packages will be upgraded:"
+msgstr "Aşağıdakı paketlər təkmilləşdiriləcək:"
+
+#: inary/operations/upgrade.py:207
+msgid "There are extra packages due to dependencies."
+msgstr "Asılılıq səbəbiylə əlavə paketlər var."
+
+#: inary/operations/upgrade.py:214 inary/operations/history.py:229
+#: inary/operations/history.py:248 inary/operations/install.py:284
+#: inary/operations/remove.py:101
+msgid "Would you like to continue?"
+msgstr "Davam etmək istərdinizmi?"
+
+#: inary/operations/upgrade.py:215 inary/operations/install.py:90
+#: inary/operations/install.py:285
+msgid "External dependencies not satisfied."
+msgstr "Xarici asılılıqlar qane etmir."
+
+#: inary/operations/upgrade.py:231 inary/operations/history.py:236
+#: inary/operations/install.py:106
+msgid "Downloading"
+msgstr "Yüklənir"
+
+#: inary/operations/upgrade.py:260 inary/operations/install.py:165
+msgid "Installing"
+msgstr "Quraşdırma"
+
+#: inary/operations/upgrade.py:403
+msgid "Safety switch forces the installation of following packages:"
+msgstr "Təhlükəsizlik açarı aşağıdakı paketlərin quraşdırılmasına məcbur edir:"
+
+#: inary/operations/upgrade.py:430
+msgid "Safety switch forces the upgrade of following packages:"
+msgstr "Təhlükəsizlik açarı aşağıdakı paketləri təkmilləşdirməyə məcbur edir:"
+
+#: inary/operations/upgrade.py:444 inary/operations/remove.py:63
+msgid "Safety switch: The component system.base cannot be found."
+msgstr "Təhlükəsizlik açarı: Komponent sistemi.base tapılmadı."
+
+#: inary/operations/delta.py:49
+#, python-brace-format
+msgid ""
+"The file \"{0}\" belongs to a different package other than '{1}'. Skipping "
+"it..."
+msgstr "\"{0}\" faylı '{1}' dən başqa bir paketə aiddir. Atlayırıq ..."
+
+#: inary/operations/delta.py:58
+msgid ""
+"Package \"{}\" has the same release number with the new package. Skipping "
+"it..."
+msgstr ""
+"Paket \"{}\" yeni paket ilə eyni buraxılış nömrəsinə malikdir. Atlayırıq ..."
+
+#: inary/operations/delta.py:69
+msgid "Creating delta package: \"{}\"..."
+msgstr "Delta paketi yaradılır: \"{}\" ..."
+
+#: inary/operations/delta.py:80
+msgid ""
+"All files in the package \"{}\" are different from the files in the new "
+"package. Skipping it..."
+msgstr ""
+"\"{}\" Paketindəki bütün fayllar yeni paketdəki fayllardan fərqlidir. "
+"Atlayırıq ..."
+
+#: inary/operations/delta.py:127
+msgid "New package \"{}\" exists in the list of old packages. Skipping it..."
+msgstr "Yeni paket \"{}\" köhnə paketlər siyahısında var. Atlayırıq ..."
+
+#: inary/operations/history.py:88 inary/operations/history.py:114
+#, python-brace-format
+msgid "Package \"{0}\" found in repository \"{1}\"."
+msgstr "\"{1}\" depozitində \"{0}\" paketi tapıldı."
+
+#: inary/operations/history.py:129 inary/operations/history.py:142
+#: inary/operations/history.py:152
+msgid "\"{}\" could not be found."
+msgstr "\"{}\" tapılmadı."
+
+#: inary/operations/history.py:215
+msgid "There is no packages to taking back (installing or removing)."
+msgstr "Geri çəkmək üçün heç bir paket yoxdur (quraşdırmaq və ya çıxarmaq)."
+
+#: inary/operations/history.py:220
+#, fuzzy
+msgid "Following packages will be installed:\n"
+msgstr "Aşağıdakı paketlər quraşdırılacaq:"
+
+#: inary/operations/history.py:225
+#, fuzzy
+msgid "Following packages will be removed:\n"
+msgstr "Aşağıdakı paketlər silinəcək:"
+
+#: inary/operations/history.py:246
+#, fuzzy
+msgid ""
+"\n"
+"Following packages could not be found in repositories and are not cached:\n"
+msgstr "Aşağıdakı paketlər depolarda tapılmadı və saxlanılmadı:"
+
+#: inary/operations/history.py:300
+msgid "Taking snapshot of the system."
+msgstr "Sistemin görüntülərini çəkir."
+
+#: inary/operations/install.py:51 inary/operations/install.py:209
+msgid ""
+"The following package(s) are already installed and are not going to be "
+"installed again:"
+msgstr ""
+"Aşağıdakı paket (lər) artıq quraşdırılıb və yenidən quraşdırılmaq niyyətində "
+"deyil:"
+
+#: inary/operations/install.py:57 inary/operations/install.py:299
+msgid "No packages to install."
+msgstr "Quraşdırmaq üçün paket yoxdur."
+
+#: inary/operations/install.py:63
+msgid "Checking dependencies for install..."
+msgstr "Quraşdırma üçün asılılıq yoxlanılır ..."
+
+#: inary/operations/install.py:76
+msgid "Following packages will be installed:"
+msgstr "Aşağıdakı paketlər quraşdırılacaq:"
+
+#: inary/operations/install.py:89
+msgid ""
+"There are extra packages due to dependencies. Would you like to continue?"
+msgstr "Asılılıq səbəbiylə əlavə paketlər var. Davam etmək istərdinizmi?"
+
+#: inary/operations/install.py:132
+#, fuzzy
+msgid "Checking integration"
+msgstr "Yoxlama əməliyyatları"
+
+#: inary/operations/install.py:146
+msgid "Current {} / Total {} files counted."
+msgstr ""
+
+#: inary/operations/install.py:148
+msgid "Integration check error detected."
+msgstr ""
+
+#: inary/operations/install.py:151
+#, fuzzy
+msgid "Do you want to continue?"
+msgstr "Davam etmək istərdinizmi?"
+
+#: inary/operations/install.py:195
+msgid "Mixing file names and package names not supported yet."
+msgstr "Qarışıq fayl adları və paket adları hələ dəstəklənmir."
+
+#: inary/operations/install.py:241
+#, python-brace-format
+msgid ""
+"Package \"{0}\" is not compatible with your distribution release '{1}' '{2}'."
+msgstr "\"{0}\" paketi '{1}' '{2}' paylama buraxılışınıza uyğun deyil."
+
+#: inary/operations/install.py:248
+#, python-brace-format
+msgid "Package \"{0}\" ('{1}') is not compatible with your '{2}' architecture."
+msgstr "\"{0}\" ('{1}') paketi '{2}' memarlığınıza uyğun deyildir."
+
+#: inary/operations/install.py:276
+#, fuzzy
+msgid "External dependencies not satisfied: \"{}\", \"{}\""
+msgstr "Xarici asılılıqlar təmin edilmədi: \"{}\""
+
+#: inary/operations/install.py:281
+msgid ""
+"The following packages will be installed in order to satisfy dependencies:"
+msgstr "Bağlılıqları təmin etmək üçün aşağıdakı paketlər quraşdırılacaq:"
+
+#: inary/operations/install.py:327
+msgid "Installation order: "
+msgstr "Quraşdırma qaydası:"
+
+#: inary/operations/install.py:387
+#, fuzzy
+msgid "Following packages are not satisfied:\n"
+msgstr "Aşağıdakı paketlər razı deyil:"
+
+#: inary/operations/install.py:389
+#, fuzzy, python-brace-format
+msgid " -> \"{0}\" dependency(s) of package \"{1}\" is not satisfied.\n"
+msgstr "- \"\" {0} \"\" {1} \"paketindən asılılıq (lar) təmin edilmir."
+
+#: inary/operations/build.py:121
+msgid "Path \"{}\" belongs in multiple packages."
+msgstr "\"{}\" Yolu çox paketə aiddir."
+
+#: inary/operations/build.py:152
+msgid "Removing special file skipped for: \"{}\""
+msgstr "Xüsusi faylın silinməsi: \"{}\""
+
+#: inary/operations/build.py:156
+#, python-brace-format
+msgid "Removing special \"{0}\" file: \"{1}\""
+msgstr "Xüsusi \"{0}\" faylı silinir: \"{1}\""
+
+#: inary/operations/build.py:203
+msgid "Source URI: {}"
+msgstr "Mənbə URI: {}"
+
+#: inary/operations/build.py:208
+msgid "Source \"{}\" not found in any active repository."
+msgstr "\"{}\" Mənbəyi heç bir aktiv depoda tapılmadı."
+
+#: inary/operations/build.py:243
+#, fuzzy
+msgid "Would you like to compile package as root user?"
+msgstr "Bu RFP paketini tərtib etmək istərdinizmi?"
+
+#: inary/operations/build.py:244
+#, fuzzy
+msgid "Operation canceled."
+msgstr "Əməliyyat"
+
+#: inary/operations/build.py:248
+msgid "[ !!! ] Building RFP for {}"
+msgstr "[ !!! ] {} Üçün RFP Tikinti"
+
+#: inary/operations/build.py:251
+msgid "Would you like to compile this RFP package?"
+msgstr "Bu RFP paketini tərtib etmək istərdinizmi?"
+
+#: inary/operations/build.py:254
+msgid "Didn't permit build RFP package."
+msgstr "RFP paketi yaratmağa icazə vermədi."
+
+#: inary/operations/build.py:266
+msgid "Translation cannot readed."
+msgstr ""
+
+#: inary/operations/build.py:373
+msgid "pspec.xml avoids this package from building for \"{}\""
+msgstr "pspec.xml bu paketi \"{}\" üçün qurmaqdan çəkindirir."
+
+#: inary/operations/build.py:376
+msgid "Building source package: \"{}\""
+msgstr "Bina mənbəyi paketi: \"{}\""
+
+#: inary/operations/build.py:387 inary/operations/build.py:1138
+#, fuzzy
+msgid "Component cannot readed."
+msgstr "{} Komponent tapılmadı."
+
+#: inary/operations/build.py:400
+msgid "ccache detected..."
+msgstr "ccache aşkarlandı ..."
+
+#: inary/operations/build.py:402
+msgid "IceCream detected. Make sure your daemon is up and running..."
+msgstr "Dondurma aşkarlandı. Daemonunuzun işlədiyinə əmin olun ..."
+
+#: inary/operations/build.py:444
+msgid "Rebuilding source for build type: {}"
+msgstr "Qurma növü üçün bərpa mənbəyi: {}"
+
+#: inary/operations/build.py:564
+msgid ""
+"Cannot find component.xml for \"{}\" in remote directory, Source is now part "
+"of unknown component."
+msgstr ""
+"Uzaq qovluqdakı \"{}\" üçün component.xml-i tapmaq olmur, Mənbə indi naməlum "
+"komponentin bir hissəsidir."
+
+#: inary/operations/build.py:572
+msgid ""
+"Cannot find component.xml for \"{}\" in upper directory, Source is now part "
+"of unknown component."
+msgstr ""
+"Üst qovluqdan \"{}\" üçün component.xml tapa bilmir, Mənbə indi bilinməyən "
+"komponentin bir hissəsidir."
+
+#: inary/operations/build.py:583
+msgid "Building source package: \"{}\" [ Fetching Step ]"
+msgstr "Bina mənbəyi paketi: \"{}\" [ Fetching Step ]"
+
+#: inary/operations/build.py:588
+msgid "Building source package: \"{}\" [ Unpacking Step ]"
+msgstr "İstehsal mənbəyi paketi: \"{}\" [ Unpacking Step ]"
+
+#: inary/operations/build.py:594
+msgid "Unpacking archive(s)..."
+msgstr "Arxiv (lər) ləğv olunur ..."
+
+#: inary/operations/build.py:602
+msgid " -> unpacked ({})"
+msgstr "-> açılmış ({})"
+
+#: inary/operations/build.py:607
+msgid "Building source package: \"{}\" [ SetupAction Step ]"
+msgstr "Tikinti mənbəyi paketi: \"{}\" [SetupAction Step]"
+
+#: inary/operations/build.py:613
+msgid "Setting up source..."
+msgstr "Mənbə qurulur ..."
+
+#: inary/operations/build.py:618
+msgid "Building source package: \"{}\" [ BuildAction Step ]"
+msgstr "Bina mənbəyi paketi: \"{}\" [BuildAction Step]"
+
+#: inary/operations/build.py:620
+msgid "Building source..."
+msgstr "Bina mənbəyi ..."
+
+#: inary/operations/build.py:625
+msgid "Building source package: \"{}\" [ CheckAction Step ]"
+msgstr "Bina mənbəyi paketi: \"{}\" [CheckAction Step]"
+
+#: inary/operations/build.py:627
+msgid "Testing package..."
+msgstr "Test paketi ..."
+
+#: inary/operations/build.py:631
+msgid "Building source package: \"{}\" [ InstallAction Step ]"
+msgstr "Bina mənbəyi paketi: \"{}\" [InstallAtion Step]"
+
+#: inary/operations/build.py:633
+msgid "Installing..."
+msgstr "Quraşdırılır ..."
+
+#: inary/operations/build.py:731
+msgid "WorkDir:{}"
+msgstr ""
+
+#: inary/operations/build.py:773
+msgid "Using actions file as python script"
+msgstr ""
+
+#: inary/operations/build.py:776 inary/operations/build.py:781
+msgid "unable to call function from actions: '{}'"
+msgstr "hərəkətlərdən funksiyanı çağıra bilmir: '{}'"
+
+#: inary/operations/build.py:778
+msgid "Using actions file as bash script"
+msgstr ""
+
+#: inary/operations/build.py:784
+msgid ""
+"Actions file not found\n"
+" function:{}\n"
+" Actions directory:{}"
+msgstr ""
+
+#: inary/operations/build.py:796
+#, python-brace-format
+msgid "Source package '{0}' defines a relative 'Path' element: {1}"
+msgstr "Mənbə paketi '{0}' nisbətən 'Yol' elementini təyin edir: {1}"
+
+#: inary/operations/build.py:800
+#, python-brace-format
+msgid "Source package '{0}' defines multiple 'Path' tags for {1}"
+msgstr "Mənbə paketi '{0}', {1} üçün çox sayda 'Yol' etiketini təyin edir."
+
+#: inary/operations/build.py:832
+msgid ""
+"Safety switch: following extra packages in system.devel will be installed: "
+msgstr ""
+"Təhlükəsizlik açarı: system.devel-də aşağıdakı əlavə paketlər quraşdırılacaq:"
+
+#: inary/operations/build.py:840
+msgid "Safety switch: the component system.devel cannot be found."
+msgstr "Təhlükəsizlik açarı: komponent system.devel tapılmadı."
+
+#: inary/operations/build.py:849
+msgid "Unsatisfied Build Dependencies:"
+msgstr "Razı qalmayan Quruluşdan asılılıqlar:"
+
+#: inary/operations/build.py:854
+msgid "Cannot build package due to unsatisfied build dependencies."
+msgstr "Razı qalmamış quruluş asılılığı səbəbindən paket qura bilmir."
+
+#: inary/operations/build.py:860
+msgid "Build dependency \"{}\" cannot be satisfied."
+msgstr "\"{}\" Asılılığını təmin etmək olmaz."
+
+#: inary/operations/build.py:863
+msgid "Would you like to install the unsatisfied build dependencies?"
+msgstr "Razı qalmamış asılılığı quraşdırmaq istərdinizmi?"
+
+#: inary/operations/build.py:864
+msgid "Installing build dependencies."
+msgstr "Qurulma asılılıqlarının quraşdırılması."
+
+#: inary/operations/build.py:871
+msgid "Ignoring build dependencies."
+msgstr "Bağlılıq asılılığına məhəl qoyma."
+
+#: inary/operations/build.py:882
+#, fuzzy
+msgid "Patch file is missing: \"{}\"\n"
+msgstr "Yamaq faylı yoxdur: \"{}\""
+
+#: inary/operations/build.py:886
+msgid "Patch file is empty: \"{}\""
+msgstr "Yamaq faylı boşdur: \"{}\""
+
+#: inary/operations/build.py:904
+msgid "Applying patch: {}"
+msgstr "Yamaq tətbiq olunur: {}"
+
+#: inary/operations/build.py:1047
+msgid "No user named '{}' found on the system"
+msgstr "Sistemdə '{}' adlı istifadəçi tapılmadı"
+
+#: inary/operations/build.py:1052
+msgid "No group named '{}' found on the system"
+msgstr "Sistemdə '{}' adlı qrup tapılmadı"
+
+#: inary/operations/build.py:1060
+msgid "/{} has suid bit set"
+msgstr "/ {} cənub bitdi"
+
+#: inary/operations/build.py:1081
+msgid ""
+"Module \"magic\" cannot found. Falling back with \"file\" command. It is "
+"dangerous. So, if you wanna create stable packages, please fix this issue in "
+"your workplace. Probably installing \"python3-filemagic\" package might be a "
+"good solution."
+msgstr ""
+"\"Sehr\" modulu tapılmadı. \"Fayl\" əmri ilə geri düşmək. Təhlükəlidir. "
+"Beləliklə, sabit paketlər yaratmaq istəyirsinizsə, xahiş edirəm bu məsələni "
+"iş yerinizdə həll edin. Yəqin ki, \"python3-filemagic\" paketinin "
+"quraşdırılması yaxşı bir həll ola bilər."
+
+#: inary/operations/build.py:1096
+msgid ""
+"File \"{}\" might be a broken symlink. Check it before publishing package."
+msgstr ""
+"\"{}\" Faylı pozulmuş simsiz əlaqə ola bilər. Paketi dərc etməzdən əvvəl "
+"yoxlayın."
+
+#: inary/operations/build.py:1102
+#, python-brace-format
+msgid "'magic' return of \"{0}\" is \"{1}\""
+msgstr "\"magic\" \"{0}\" qayıtması \"{1}\" dir"
+
+#: inary/operations/build.py:1108
+#, python-brace-format
+msgid "'file' command failed with return code {0} for file: \"{1}\""
+msgstr "'file' əmri fayl üçün {0} qaytarma kodu ilə uğursuz oldu: \"{1}\""
+
+#: inary/operations/build.py:1111
+#, fuzzy
+msgid ""
+"Output:\n"
+"{}"
+msgstr "Nəticə:{}"
+
+#: inary/operations/build.py:1116
+msgid "'file' command return is \"{}\""
+msgstr "'file' əmr qayıtması \"{}\" dir"
+
+#: inary/operations/build.py:1130
+msgid "Compiled source building package files generating for source: \"{}\""
+msgstr "Mənbə üçün yaradan mənbə bina paketi sənədlərini tərtib etdi: \"{}\""
+
+#: inary/operations/build.py:1140
+#, fuzzy
+msgid "Running file actions: \"{}\""
+msgstr "Yarımçıq fayl: \"/{}\""
+
+#: inary/operations/build.py:1187
+msgid "There are abandoned files under the install dir ({}):"
+msgstr "Quraşdırma dir ({}) altında tərk edilmiş sənədlər var:"
+
+#: inary/operations/build.py:1224 inary/operations/build.py:1230
+msgid "Ignoring empty package: \"{}\""
+msgstr "Boş paketi görməməzliyə vurur: \"{}\""
+
+#: inary/operations/build.py:1235
+msgid "Building package: \"{}\""
+msgstr "Bina paketi: \"{}\""
+
+#: inary/operations/build.py:1251
+msgid "Creating \"{}\"..."
+msgstr "\"{}\" Yaradılır ..."
+
+#: inary/operations/build.py:1315
+msgid "Cleaning build directory..."
+msgstr "Qurma qovluğunu təmizləyir ..."
+
+#: inary/operations/build.py:1318
+msgid "Keeping build directory"
+msgstr "Dizayn qurmaqda davam edir"
+
+#: inary/operations/build.py:1407
+msgid "Action script error caught. {}"
+msgstr "Fəaliyyət skriptində səhv baş verdi. {}"
+
+#: inary/operations/build.py:1410
+msgid "*** {} error(s), {} warning(s)"
+msgstr "*** {} səhv (lər), {} xəbərdarlıq (lar)"
+
+#: inary/operations/build.py:1496
+msgid "Last state was '{}'"
+msgstr "Son vəziyyət '{}' idi"
+
+#: inary/operations/emerge.py:44
+msgid "No packages to emerge."
+msgstr "Heç bir paket ortaya çıxmır."
+
+#: inary/operations/emerge.py:109
+msgid "Cannot find source package: \"{}\""
+msgstr "Mənbə paketini tapmaq olmur: \"{}\""
+
+#: inary/operations/repository.py:36
+msgid "Not a valid repository name."
+msgstr "Etibarlı depo adı deyil."
+
+#: inary/operations/repository.py:40
+msgid "Repository \"{}\" already present."
+msgstr "\"{}\" Depo artıq mövcuddur."
+
+#: inary/operations/repository.py:44
+msgid "Repository \"{}\" already present with name \"{}\"."
+msgstr "\"{}\" Depo artıq \"{}\" adı ilə təqdim olunur."
+
+#: inary/operations/repository.py:49
+msgid "Repository \"{}\" added to system."
+msgstr "\"{}\" Depoziti sistemə əlavə edildi."
+
+#: inary/operations/repository.py:57
+msgid "Flushing database caches..."
+msgstr "Flushing verilənlər bazası önbellekləri ..."
+
+#: inary/operations/repository.py:59
+msgid "Repository \"{}\" removed from system."
+msgstr "\"{}\" Depoziti sistemdən silindi."
+
+#: inary/operations/repository.py:62
+msgid "Repository \"{}\" does not exist. Cannot remove."
+msgstr "\"{}\" Depo mövcud deyil. Silinmir."
+
+#: inary/operations/repository.py:95
+msgid "Regenerating database caches..."
+msgstr "Verilənlər bazası önbellekleri yenilənir ..."
+
+#: inary/operations/repository.py:112
+msgid "\"{}\" repository information is up-to-date."
+msgstr "\"{}\" depo məlumatı yenidir."
+
+#: inary/operations/repository.py:114
+msgid "Updating database at any rate as requested."
+msgstr "İstənilən dərəcədə verilənlər bazası yenilənir."
+
+#: inary/operations/repository.py:128
+msgid "Repository \"{}\" is deactivated because of GPG Signature fail."
+msgstr "GPG imzası uğursuz olduğuna görə \"{}\" depoziti deaktiv edilmişdir."
+
+#: inary/operations/repository.py:133
+msgid "Package database updated."
+msgstr "Paket bazası yeniləndi."
+
+#: inary/operations/repository.py:136
+msgid "No repository named \"{}\" found."
+msgstr "\"{}\" Adlı bir depo tapılmadı."
+
+#: inary/operations/helper.py:57
+msgid "Selected packages \"[{}]\" are in conflict with each other."
+msgstr "Seçilmiş \"[{}]\" paketlər bir-biri ilə ziddiyyətdədir."
+
+#: inary/operations/helper.py:64
+#, fuzzy, python-brace-format
+msgid " - [\"{0}\" conflicts with: \"{1}\"]\n"
+msgstr "- [\"{0}\": \"{1}\" ilə ziddiyyətlər"
+
+#: inary/operations/helper.py:68
+#, fuzzy
+msgid ""
+"The following packages have conflicts:\n"
+"{}"
+msgstr "Aşağıdakı paketlərdə ziddiyyətlər var:{}"
+
+#: inary/operations/helper.py:70
+msgid "Remove the following conflicting packages?"
+msgstr "Aşağıdakı ziddiyyətli paketlər silinsin?"
+
+#: inary/operations/helper.py:72
+msgid "Conflicting packages should be removed to continue."
+msgstr "Ziddiyyətli paketlər davam etmək üçün çıxarılmalıdır."
+
+#: inary/operations/helper.py:121 inary/operations/remove.py:94
+msgid "After this operation, {:.2f} {} space will be freed."
+msgstr "Bu əməliyyatdan sonra {:.2f} {} yer boşalacaq."
+
+#: inary/operations/helper.py:124
+msgid "After this operation, {:.2f} {} space will be used."
+msgstr "Bu əməliyyatdan sonra {:.2f} {} boşluq istifadə ediləcəkdir."
+
+#: inary/operations/helper.py:248
+#, python-brace-format
+msgid "Keeping old config file {0} as {0}.old-byinary"
+msgstr "Köhnə konfiqurasiya faylını {0} {0}.old-byinary kimi saxlamaq"
+
+#: inary/operations/helper.py:259
+#, python-brace-format
+msgid "[?] Would you like to see changes in config files of \"{0}\" package"
+msgstr ""
+"[?] \"{0}\" paketinin konfiqurasiya fayllarında dəyişiklik görmək istərdiniz"
+
+#: inary/operations/helper.py:271
+msgid "[*] Changes in config file: {}"
+msgstr "[*] Konfiqurasiya sənədindəki dəyişikliklər: {}"
+
+#: inary/operations/helper.py:275
+msgid "[?] Select the process which will be happened:"
+msgstr "[?] Baş verəcək prosesi seçin:"
+
+#: inary/operations/helper.py:276
+msgid "1. Store new config file, not apply [*]"
+msgstr "1. Yeni konfiqurasiya faylı saxlayın, tətbiq olunmur [*]"
+
+#: inary/operations/helper.py:277
+msgid "2. Apply new config file (keep old config)"
+msgstr "2. Yeni konfiqurasiya tətbiq edin"
+
+#: inary/operations/helper.py:278
+msgid "3. Apply new config file (don't keep old config)"
+msgstr ""
+"3. Yeni konfiqurasiya sənədini tətbiq edin (köhnə konfiqurasiyanı saxlamayın)"
+
+#: inary/operations/helper.py:279
+msgid "4. Delete new config file"
+msgstr "4. Yeni konfiqurasiya sənədini silin"
+
+#: inary/operations/helper.py:301
+#, python-brace-format
+msgid "Deleting new config file {0}"
+msgstr "Yeni konfiqurasiya silinir {0}"
+
+#: inary/operations/remove.py:57
+#, fuzzy
+msgid "Safety switch prevents the removal of following packages:\n"
+msgstr ""
+"Təhlükəsizlik açarı aşağıdakı paketlərin çıxarılmasının qarşısını alır:"
+
+#: inary/operations/remove.py:71
+msgid "Package \"{}\" does not exist. Cannot remove."
+msgstr "\"{}\" Paketi yoxdur. Silinmir."
+
+#: inary/operations/remove.py:75
+msgid "No packages to remove."
+msgstr "Silinəcək paket yoxdur."
+
+#: inary/operations/remove.py:84
+msgid ""
+"The following list of packages will be removed in the respective order to "
+"satisfy dependencies:"
+msgstr ""
+"Bağlılıqları təmin etmək üçün aşağıdakı paketlərin siyahısı müvafiq qaydada "
+"silinəcəkdir:"
+
+#: inary/operations/remove.py:102
+msgid "Package removal declined."
+msgstr "Paket çıxarılması rədd edildi."
+
+#: inary/operations/remove.py:121
+msgid "Package \"{}\" is not installed. Cannot remove."
+msgstr "\"{}\" Paketi quraşdırılmadı. Silinmir."
+
+#: inary/operations/remove.py:169
+msgid "Conflicts remain."
+msgstr "Münaqişələr qalmaqdadır."
+
+#: inary/operations/remove.py:178
+msgid "Obsoleted packages remaining."
+msgstr "Qalan köhnəlmiş paketlər."
+
+#: inary/operations/remove.py:183
+msgid "Replaced package remains."
+msgstr "Əvəz edilmiş paket qalır."
+
+#: inary-cli:57
+#, fuzzy
+msgid ""
+"\n"
+"Unhandled internal exception.\n"
+"Please file a bug report to <https://github.com/SulinOS/inary/issues>."
+msgstr ""
+"Sökülməmiş daxili istisna.Zəhmət olmasa bir səhv hesabatı göndərin <https://"
+"github.com/SulinOS/inary/issues>"
+
+#: inary-cli:60
+msgid "Program terminated."
+msgstr "Proqrama xitam verildi."
+
+#: inary-cli:62
+#, fuzzy
+msgid ""
+"\n"
+"Keyboard Interrupt [Ctrl-C]: Exiting..."
+msgstr "Klaviaturanın kəsilməsi [Ctrl-C]: Çıxır ..."
+
+#: inary-cli:65
+#, fuzzy
+msgid ""
+"\n"
+"Keyboard Interrupt [Ctrl-D]: Exiting..."
+msgstr "Klaviaturanın kəsilməsi [Ctrl-D]: Çıxır ..."
+
+#: inary-cli:74
+msgid "System error. Program terminated."
+msgstr "Sistem səhvi. Proqrama xitam verildi."
+
+#: inary-cli:83
+msgid "Please use 'inary help' for general help."
+msgstr "Xahiş edirəm ümumi yardım üçün 'inary help' istifadə edin."
+
+#: inary-cli:86
+#, fuzzy
+msgid ""
+"\n"
+"Traceback:"
+msgstr "İzləmə:"
+
+#: inary-cli:89
+msgid "Use --debug to see a traceback."
+msgstr "Bir trackback görmək üçün --debug istifadə edin."
+
+#: inary-cli:102
+msgid "Using inary in WSL environment is not allowed."
+msgstr "WSL mühitində ikili istifadəyə icazə verilmir."
+
+#, python-format
+#~ msgid "no such option: %s"
+#~ msgstr "belə bir seçim yoxdur: %s"
+
+#, python-format
+#~ msgid "ambiguous option: %s (%s?)"
+#~ msgstr "qeyri-müəyyən seçim: %s (%s?)"
+
+#, fuzzy, python-format
+#~ msgid "Usage: %s\n"
+#~ msgstr "İstifadə qaydası: %s"
+
+#~ msgid "Usage"
+#~ msgstr "İstifadəsi"
+
+#~ msgid "integer"
+#~ msgstr "tam"
+
+#~ msgid "floating-point"
+#~ msgstr "üzən nöqtə"
+
+#~ msgid "complex"
+#~ msgstr "kompleks"
+
+#, python-format
+#~ msgid "option %s: invalid %s value: %r"
+#~ msgstr "seçim %s: etibarsız %s dəyəri: %r"
+
+#, python-format
+#~ msgid "option %s: invalid choice: %r (choose from %s)"
+#~ msgstr "seçim %s: etibarsız seçim: %r (%s arasından seçin)"
+
+#~ msgid "show this help message and exit"
+#~ msgstr "bu kömək mesajını göstərin və çıxın"
+
+#~ msgid "show program's version number and exit"
+#~ msgstr "şou proqramın versiya nömrəsi və çıxışı"
+
+#~ msgid "%prog [options]"
+#~ msgstr "%prog [seçimlər]"
+
+#, python-format
+#~ msgid "%(option)s option requires %(number)d argument"
+#~ msgid_plural "%(option)s option requires %(number)d arguments"
+#~ msgstr[0] "%(option)s seçimi %(number)d arqumentlər tələb edir"
+#~ msgstr[1] "%(option)s seçimi %(number)d arqumentləri tələb edir"
+
+#, python-format
+#~ msgid "%s option does not take a value"
+#~ msgstr "%s seçim dəyər almır"
+
+#~ msgid "Options"
+#~ msgstr "Seçimlər"
+
+#~ msgid "Inary package"
+#~ msgstr "Inary paket"
+
+#, fuzzy
+#~ msgid "Re-installing package."
+#~ msgstr "Test paketi ..."
+
+#, fuzzy
+#~ msgid ""
+#~ "Add \"{}\" repository without updating the database?\n"
+#~ "By confirming this you are also adding the repository to your system "
+#~ "without checking the distribution of the repository.\n"
+#~ "Would you like to continue?"
+#~ msgstr ""
+#~ "Verilənlər bazasını yeniləmədən \"{}\" depo əlavə edin?Bunu "
+#~ "təsdiqləyərək, depozitin paylanmasını yoxlamadan sisteminizə depo əlavə "
+#~ "edirsiniz.Davam etmək istərdinizmi?"
+
+#, fuzzy, python-brace-format
+#~ msgid ""
+#~ "Error: {0} repository could not be reached: \n"
+#~ "{1}"
+#~ msgstr "Xəta: {0} depozitə çatmadı:{1}"
+
+#, python-brace-format
+#~ msgid "Removing {0} from system."
+#~ msgstr "Sistemdən {0} silinir."
+
+#, python-brace-format
+#~ msgid "Couldn't trust \"{0}\" repository. It is deactivated."
+#~ msgstr "\"{0}\" depolarına etibar etmək olmur. Deaktivdir."
+
+#~ msgid "init"
+#~ msgstr "init"
+
+#~ msgid "Do not update repositories."
+#~ msgstr "Yaddaş yerlərini yeniləməyin."
+
+#~ msgid "Updating repositories."
+#~ msgstr "Depozitari yenilənir."
+
+#~ msgid "Will not update repositories."
+#~ msgstr "Yaddaş yerlərini yeniləməyəcək."
+
+#~ msgid "PostOps Script Fetched."
+#~ msgstr "PostOps Yazısı Alındı."
+
+#, fuzzy
+#~ msgid ""
+#~ "The following list of packages will be installed\n"
+#~ "from repository in the respective order to satisfy dependencies:\n"
+#~ msgstr ""
+#~ "Paketlərin aşağıdakı siyahısı quraşdırılacaqdırasılılığı təmin etmək üçün "
+#~ "müvafiq qaydada depozitdən:"
+
+#, fuzzy
+#~ msgid ""
+#~ "The following list of packages will be built and\n"
+#~ "installed in the respective order to satisfy dependencies:\n"
+#~ msgstr ""
+#~ "Paketlərin aşağıdakı siyahısı tikiləcək vəAsılılığı təmin etmək üçün "
+#~ "müvafiq qaydada quraşdırılmışdır:"
+
+#~ msgid "Upgrade is not possible."
+#~ msgstr "Yüksəltmək mümkün deyil."
+
+#, python-brace-format
+#~ msgid "Dependency \"{0}\" of \"{1}\" cannot be satisfied."
+#~ msgstr "\"{1}\" -in \"{0}\" asılılığı təmin edilə bilməz."
+
+#~ msgid "Running commands in \"{}\" function failed:Error Message: {}\t{} "
+#~ msgstr "\"{}\" Funksiyasında əmrlər yerinə yetirilmədi:Xəta Mesajı:{}\t{}"
+
+#~ msgid "[ Child Process PID ] : "
+#~ msgstr "[Uşaq Prosesi PİD]:"
+
+#, python-brace-format
+#~ msgid "SyntaxError in Post Operations script ({0}): {1}"
+#~ msgstr "Post əməliyyatları skriptindəki sintaksiya xətası ({0}): {1}"
+
+#, python-brace-format
+#~ msgid "Unable to read Post Operations script ({0}): {1}"
+#~ msgstr "Post Əməliyyatlar ssenarisini ({0}) oxumaq olmur: {1}"
+
+#, python-brace-format
+#~ msgid "SyntaxError in Actions Script ({0}): {1}"
+#~ msgstr "Sintaksiya Səhvlər Skriptindəki səhv ({0}): {1}"
+
+#, python-brace-format
+#~ msgid "Unable to read Actions Script ({0}): {1}"
+#~ msgstr "Actions Script ({0}) oxuya bilmədi: {1}"
+
+#~ msgid "[!] InstallDir {} cleant up."
+#~ msgstr "[!] InstallDir {} təmizlənir."
+
+#~ msgid "Partial file detected. Download resuming..."
+#~ msgstr "Qismən fayl aşkarlandı. Yenidən davam edin ..."
+
+#~ msgid ""
+#~ "PyCurl module not found. Please install python3-pycurl or check your "
+#~ "installation."
+#~ msgstr ""
+#~ "PyCurl modulu tapılmadı. Zəhmət olmasa python3-pycurl quraşdırın və ya "
+#~ "quraşdırmanızı yoxlayın."
+
+#~ msgid "Plotting a graph of relations among all installed packages."
+#~ msgstr ""
+#~ "Bütün quraşdırılmış paketlər arasında münasibətlər qrafikinin qurulması."
+
+#~ msgid "Plotting a graph of relations among all repository packages."
+#~ msgstr "Bütün depozit paketləri arasında münasibətlər qrafikinin qurulması."
+
+#~ msgid "Plotting packages in repository \"{}\""
+#~ msgstr "Paketləri \"{}\" depozitinə yerləşdirmək"
+
+#~ msgid "Dot output file"
+#~ msgstr "Nöqtəli çıxış faylı"
+
+#~ msgid "Draw reverse dependency graph."
+#~ msgstr "Əks asılılıq qrafiki çəkin."
+
+#~ msgid "Do not show installed packages."
+#~ msgstr "Quraşdırılmış paketləri göstərməyin."
+
+#~ msgid "Graph of installed packages"
+#~ msgstr "Quraşdırılmış paketlərin qrafiki"
+
+#~ msgid "Specify a particular repository."
+#~ msgstr "Müəyyən bir depo göstərin."
+
+#~ msgid "graph options"
+#~ msgstr "graph variantları"
+
+#~ msgid ""
+#~ "Graph package relationsUsage: graph [<package1> <package2> ...]Write a "
+#~ "graph of package relations, tracking dependency andconflicts relations "
+#~ "starting from given packages. By defaultshows the package relations among "
+#~ "repository packages, and writesthe package in graphviz format to 'pgraph."
+#~ "dot'."
+#~ msgstr ""
+#~ "Qrafik paket əlaqələriİstifadə qaydası: graph [<paket # 1 <paket> "
+#~ "2 ... ...]Paket əlaqələrinin qrafikini yazın, asılılığı izləyin vəverilən "
+#~ "paketlərdən başlayaraq münaqişələr. Varsayılan olaraqdepozit paketləri "
+#~ "arasındakı paket əlaqələrini göstərir və yazırpaketi grafviz formatında "
+#~ "'pgraph.dot'a göndərin."
+
+#~ msgid "Upgrading to new upstream version."
+#~ msgstr "Yeni upstream versiyasına yüksəldilir."
