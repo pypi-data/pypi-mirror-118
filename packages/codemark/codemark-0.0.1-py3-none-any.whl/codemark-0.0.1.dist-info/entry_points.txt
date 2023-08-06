@@ -1,0 +1,3 @@
+[console_scripts]
+codemark = codemark.__main__:main
+
