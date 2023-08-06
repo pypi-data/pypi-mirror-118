@@ -1,0 +1,5 @@
+skia-python
+IPython
+Pillow
+numpy
+easing-functions
