@@ -1,0 +1,21 @@
+
+![alt text][logo]
+
+[logo]: https://raw.githubusercontent.com/TBMath/Python-Tirtha/main/WeightConverter%20(1).png "Logo Title Text 2"
+This is a special Python Package that converts weight. It has grams, kg and pounds. When converting weight please exclude abbriviation: 10~~kg~~.
+
+#####Please run command to install Python Package. 
+```
+pip install WeightConverter
+```
+
+####Example:
+```python
+from WeightConverter import *
+grams2kg.convert(float)
+grams2pounds.convert(float)
+kg2grams.convert(float)
+kg2pounds.convert(float)
+pounds2grams(float)
+```
+Note: Integers can also be callable but result will still be in float.
