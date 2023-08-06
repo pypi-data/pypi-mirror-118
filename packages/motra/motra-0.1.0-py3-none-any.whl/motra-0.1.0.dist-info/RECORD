@@ -1,0 +1,10 @@
+motra/__init__.py,sha256=jEnDyq6bB7UJL_78bYgW8ZZoJ_0u_DpCzn0VuPtJG50,363
+motra/m2m.py,sha256=9W1UN0iUSb_xsrdxIDCwdYctqKLgJeVVoGlJQWMHUMI,9754
+motra/m2t.py,sha256=DuMXs40xRfi2_iX8Kh1WUNu8l13fgrZ242bPpo-Mlhs,5249
+motra/trace/TransformationTrace.py,sha256=kmNI8Pvu_WVMBEH-HMx77sVp7HTX2xrTzbw3QCsx5aQ,3972
+motra/trace/__init__.py,sha256=0Akw3sNUJnULYcUmyKLi0QYx-bxQFeZPo3y7PqEvjNo,1292
+motra-0.1.0.dist-info/LICENSE,sha256=IEcVKaBeiP2KRJFBqdJt7XouidQZ0kV2mrZzUhfSAbY,1523
+motra-0.1.0.dist-info/METADATA,sha256=A-a9Sg79deObLiR0CuPj4BhabEpI2rdBFEOKkg3xEH8,7842
+motra-0.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+motra-0.1.0.dist-info/top_level.txt,sha256=zAHejV_cuPpJfYam8IPW35aSt_zC-9tMkT6TNojKm5g,6
+motra-0.1.0.dist-info/RECORD,,
