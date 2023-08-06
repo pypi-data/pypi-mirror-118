@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: pbar_r0cky
+Version: 0.1
+Summary: Simple ProgressBar
+Home-page: https://github.com/R3GG3/pbar_r0cky
+Author: R0cKy
+Author-email: konrad.soczi@gmail.com
+License: MIT
+Download-URL: https://github.com/R3GG3/pbar_r0cky/archive/refs/tags/v0.1.tar.gz
+Description: UNKNOWN
+Keywords: R0CKY,SIMPLE,PROGRESSBAR
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
