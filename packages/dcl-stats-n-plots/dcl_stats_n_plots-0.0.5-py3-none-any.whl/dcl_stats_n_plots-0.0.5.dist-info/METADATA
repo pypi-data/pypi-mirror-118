@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: dcl-stats-n-plots
+Version: 0.0.5
+Summary: coming soon
+Home-page: https://github.com/DSegebarth/dcl_stats_n_plots/tree/master/
+Author: Dennis Segebarth
+Author-email: segebarth_d@ukw.de
+License: Apache Software License 2.0
+Keywords: DCLwidgets
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pip
+Requires-Dist: packaging
+Requires-Dist: ipywidgets
+Requires-Dist: matplotlib (>=3.3.4)
+Requires-Dist: pingouin (>=0.3.12)
+Requires-Dist: seaborn (>=0.11.0)
+Provides-Extra: dev
+
+# dcl_stats_n_plots
+> Will be updated soon!
+
+
+Readme will be created soon.
+
+## Install (to come!)
+
+`pip install dcl_stats_n_plots`
+
+## How to use (to come!)
+
+Examples and tutorials will be provided soon.
+
+
