@@ -1,0 +1,7 @@
+hdx-python-api>=5.2.5
+gspread
+olefile
+regex
+
+[pandas]
+pandas>=1.2.4
