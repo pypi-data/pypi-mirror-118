@@ -1,0 +1,5 @@
+setup.py
+pipenlp.egg-info/PKG-INFO
+pipenlp.egg-info/SOURCES.txt
+pipenlp.egg-info/dependency_links.txt
+pipenlp.egg-info/top_level.txt
