@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: quack-cli
+Version: 0.1.0
+Summary: A CLI for the Quackstack API
+License: MIT
+Author: Kronifer
+Author-email: 44979306+Kronifer@users.noreply.github.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: requests (>=2.26.0,<3.0.0)
+Requires-Dist: typer (>=0.4,<0.5)
