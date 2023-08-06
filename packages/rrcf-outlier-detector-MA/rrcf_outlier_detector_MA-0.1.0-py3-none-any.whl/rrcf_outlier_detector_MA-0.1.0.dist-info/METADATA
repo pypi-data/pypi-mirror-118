@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: rrcf-outlier-detector-MA
+Version: 0.1.0
+Summary: Demo library
+Home-page: https://www.moodysanalytics.com/
+Author: Roberto Martinez Cruz
+Author-email: roberto.martinezcruz@moodys.com
+License: Moody's Analytics
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: rrcf
+Requires-Dist: sklearn
+
+## **Random Robust Cut Forest - Moody's Analytics**
+
+#### **Installation**
+
+`pip install RRCF_Outlier_Detection`
+
+
+
+#### Objectives
+
+1.  Use the RRCTree included in `rrcf` package as a week learner for creating a forest, incrementing the outlier 
+
+    detection power.
+
+2.  Do the code more user-friendly for its fast implementation
+
+3.  Automatize the process of outlier detection through the usage of 3 Sigma analysis
+
+#### Functions
+
+
+
+`Outlier_Detector ( x, num_trees, num_samples per tree )`
+
+- Trains the RRCForest
+
+- Parameters:
+
+  
+
+    `x`  Numpy Array / Data from which we want to detect outliers
+
+  
+
+    `num_trees` int / Number of trees that are going to be used a weak learners for the forest
+
+  
+
+    `num_samples per tree`  int / Number of samples per tree. this parameter is recommended to be established as (1 / Estimated Proportion of Outliers)
+
+- Attributes:
+
+  
+
+    `rrcf_outlier_score ()`  Returns a Pandas' series with the CoDist scores for all input samples
+
+  
+
+    ` rrcf_outlier_detector ()`  Returns a Numpy array with the detected outliers from the input samples
+
+#### Citing
+
+M. Bartos, A. Mullapudi, & S. Troutman, rrcf: Implementation of the Robust Random Cut Forest algorithm for anomaly detection on streams, in: Journal of Open Source Software, The Open Journal, Volume 4, Number 35. 2019
+
