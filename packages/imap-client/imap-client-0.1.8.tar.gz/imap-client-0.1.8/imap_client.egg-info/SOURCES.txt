@@ -1,0 +1,8 @@
+README.md
+setup.py
+imap_client/__init__.py
+imap_client/imap_client.py
+imap_client.egg-info/PKG-INFO
+imap_client.egg-info/SOURCES.txt
+imap_client.egg-info/dependency_links.txt
+imap_client.egg-info/top_level.txt
