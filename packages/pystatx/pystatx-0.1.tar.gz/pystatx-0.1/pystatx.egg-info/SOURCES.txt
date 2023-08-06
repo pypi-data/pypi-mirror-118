@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+pystatx.egg-info/PKG-INFO
+pystatx.egg-info/SOURCES.txt
+pystatx.egg-info/dependency_links.txt
+pystatx.egg-info/top_level.txt
+statx/__init__.py
