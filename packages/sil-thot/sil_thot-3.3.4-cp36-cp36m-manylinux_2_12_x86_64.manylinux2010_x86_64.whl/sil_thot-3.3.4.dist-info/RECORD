@@ -1,0 +1,11 @@
+thot.cpython-36m-x86_64-linux-gnu.so,sha256=pwDKLggZuY6e1LFEWaCa7wfIZZwXeGISOIWfFxL01hw,2770592
+thot/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+thot/common/__init__.pyi,sha256=yLOmTuwZCPJPkNeeCehFOZL-I8Wku4ykS3OLkQtdw-Y,1842
+thot/alignment/__init__.pyi,sha256=YWYHJLfYKpxttSYefRKbe8vlAnTowrl-d64UKJWaCRI,6793
+sil_thot-3.3.4.dist-info/AUTHORS,sha256=cJdWzYIWVnz7lmnGOdO2baVMXQTQ2Qqxf7MXTKjISuw,205
+sil_thot-3.3.4.dist-info/RECORD,,
+sil_thot-3.3.4.dist-info/METADATA,sha256=2SOx26tJdC6zDvPsYqdqvMs315_pHB-UC30VAsH-b7s,1883
+sil_thot-3.3.4.dist-info/COPYING.LESSER,sha256=2n6rt7r999OuXp8iOqW9we7ORaxWncIbOwN1ILRGR2g,7651
+sil_thot-3.3.4.dist-info/WHEEL,sha256=jSYAETKun3X8yDp_zvBDSaL0sIuDwtk9aq685DhXmcU,150
+sil_thot-3.3.4.dist-info/top_level.txt,sha256=BV9H2vNx3k3-7JvpPnBryrItc6WxgXW1OKVRcUzoHQw,14
+sil_thot.libs/libgomp-f7e03b3e.so.1.0.0,sha256=GzmXB1qluHXQUhlsmNKuWncNm8Jezfq1jt5rKrV_8kQ,93080
