@@ -1,0 +1,19 @@
+Metadata-Version: 1.2
+Name: lash
+Version: 1.1.1
+Summary: Tools package to desktop
+Home-page: https://github.com/KevBoyz/Lash
+Author: Kevin Emmanuel
+Author-email: kevinho_gameplays@hotmail.com
+License: GPL-3.0
+Description: Check the README in github page (url)
+Keywords: toll tolls toolkit keylogger autoclick zip organize files file-handler os random
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Desktop Environment :: File Managers
+Requires-Python: >=3.8
