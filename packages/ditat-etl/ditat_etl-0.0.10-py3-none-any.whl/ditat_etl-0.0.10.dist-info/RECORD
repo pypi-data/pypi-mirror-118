@@ -1,0 +1,15 @@
+ditat_etl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ditat_etl/playground.py,sha256=BT-ij_y4W9fDd9cfGm2DGNB1FuZHeNAEtCGE46fpfmc,351
+ditat_etl/utils.py,sha256=lOs-IKJlRJVQfZhyf3psQPTFTRuqLTnHEw4u46mPfug,789
+ditat_etl/databases/__init__.py,sha256=yCKYbxVzrDhygu8ZsqFimrgmp_mZQ0KiUHwlRKb5bLY,31
+ditat_etl/databases/postgres.py,sha256=b4ORyRzp6f6x8rWUeAEldKXyet2ezKcIfdTVJ8SwkE8,16043
+ditat_etl/url/__init__.py,sha256=g7Mc9IszAGMnMoeYK_tY7amt3wuXj5L7yo23nIkKLi4,102
+ditat_etl/url/functions.py,sha256=AzevtkGRwIsuL7xeHvq1TP9tmZD8t5N_mDZ9l2TY4FM,188
+ditat_etl/url/proxies.json,sha256=O5BrmSp8n6mMflvYB1VUFZqehVCjVa8Nd4XEMXjdHvU,789
+ditat_etl/url/url.py,sha256=OrsKG5Ffh0AQ4ZBjJYINjtEAf-Rd3bt_eQnfkkfxrSU,12841
+ditat_etl/url/wrappers.py,sha256=9Rs5ZYPPuQ3zc47UxwwRZLdrd2aCl8nUfN61ydhmr_8,1134
+ditat_etl-0.0.10.dist-info/LICENSE,sha256=46SsfhsIXogqtlu_fMgN2503Yndn5D8wV1ldj2hH_GE,1062
+ditat_etl-0.0.10.dist-info/METADATA,sha256=bjZUGsk8LqNR274pAiB3EVvmBgYQrgWW3_nu1zhgI-Y,3482
+ditat_etl-0.0.10.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+ditat_etl-0.0.10.dist-info/top_level.txt,sha256=tiH-UXRo7MiNRX0hYZenwH6bq9tYfWsMq83cxQSDTCA,10
+ditat_etl-0.0.10.dist-info/RECORD,,
