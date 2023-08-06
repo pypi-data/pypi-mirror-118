@@ -1,0 +1,6 @@
+boto3==1.11.8
+redis==3.5.3
+peewee==3.13.1
+PyMySQL==0.9.3
+pika==0.13.1
+requests==2.26.0
