@@ -1,0 +1,35 @@
+Metadata-Version: 1.1
+Name: slz
+Version: 0.0.0.1
+Summary: slz
+Home-page: https://github.com/cielavenir/python-slz
+Author: cielavenir
+Author-email: cielartisan@gmail.com
+License: PSF
+Description: ## slz
+        
+        a (quick) binding for http://www.libslz.org/
+        
+        ```
+        o = slz.compressobj
+        o.compress('hello')
+        o.flush()
+        ```
+        
+        the stream is compatible with zlib deflate.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Python Software Foundation License
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
