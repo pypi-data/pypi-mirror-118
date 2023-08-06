@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+MiniTensorflow.egg-info/PKG-INFO
+MiniTensorflow.egg-info/SOURCES.txt
+MiniTensorflow.egg-info/dependency_links.txt
+MiniTensorflow.egg-info/requires.txt
+MiniTensorflow.egg-info/top_level.txt
+mini_tensorflow/MiniTensorflow.py
+mini_tensorflow/__init__.py
