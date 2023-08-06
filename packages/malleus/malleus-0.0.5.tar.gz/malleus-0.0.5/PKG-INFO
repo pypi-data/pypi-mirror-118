@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: malleus
+Version: 0.0.5
+Summary: Toolset for Terminal Use
+Home-page: https://github.com/fleetyeets/malleus
+Author: Travis Pawlikowski
+Author-email: tnp123@protonmail.com
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/fleetyeets/malleus/issues
+Project-URL: Source, https://github.com/fleetyeets/malleus
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# malleus
+
+## what is malleus?
+
+A personal toolkit to ease frequent terminal tasks; will be more verbose later.
+
+## System Requirements
+
+* python3
+* surely more to come
+
+
