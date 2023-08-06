@@ -1,0 +1,17 @@
+TakeBlipNer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+TakeBlipNer/data.py,sha256=i1YKhndO_OD5yauDJX7CAABRJ0CK5xow3yJyJc76--w,6351
+TakeBlipNer/nermodel.py,sha256=JtqfDeRY0DyXR1HKu-iYo9o-EIFetw0u0ZXdDypMkVQ,12088
+TakeBlipNer/utils.py,sha256=R8ECOG_uMt753aOttxvV8CgAQepnGJfKuRAqi-liJj8,3391
+TakeBlipNer/vocab.py,sha256=6_RrO4Jb0h5NyYALUBaL0AouesJijfmQciPNoayXoyk,2582
+TakeBlipNer/logger/AzuremlLogger.py,sha256=D7pBv4n_nCGhFrFdD3D5rzItEjYkJDqKEd_CJPl8DpU,6248
+TakeBlipNer/logger/__init__.py,sha256=Q8yHMn-osQ9Dk2RHjhkrCZM_rt_ZPHhDiBCEJWLoZw4,42
+TakeBlipNer/logger/azureml_logger.py,sha256=D7pBv4n_nCGhFrFdD3D5rzItEjYkJDqKEd_CJPl8DpU,6248
+TakeBlipNer/predict/NerPredict.py,sha256=pgT4BGkeM6B54ebOAAvUbFVj8o9NR0e6cG7sMGy2kV0,6903
+TakeBlipNer/predict/__init__.py,sha256=b-ovn9G4nc1lHhvTMPD-uytJKlvCHpveh1rlf4mTTHU,36
+TakeBlipNer/train/LSTMCRFTrainer.py,sha256=xErRaUZMt50ydaMGsjXUGIRmwBL4TOxFKwFBhGswY4Q,12021
+TakeBlipNer/train/__init__.py,sha256=FzzMJ4yT4Blm70eRACXBvRXnPJ4BfrLNaG4RoGkYeYA,44
+TakeBlipNer-0.0.4.dist-info/LICENSE,sha256=9yajx_4_mfr8qLukpPcZEvr4DdVYbJu5rHFJEpp0co0,1090
+TakeBlipNer-0.0.4.dist-info/METADATA,sha256=Z36Y5eM_bOGI6bbYtirhwfiXlAWUvV56Hf3EFaa2Lk4,12176
+TakeBlipNer-0.0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+TakeBlipNer-0.0.4.dist-info/top_level.txt,sha256=RPxP7bdEscS_5HOqKYCmHVnEmG7whZk4LJGj8OpRh8M,12
+TakeBlipNer-0.0.4.dist-info/RECORD,,
