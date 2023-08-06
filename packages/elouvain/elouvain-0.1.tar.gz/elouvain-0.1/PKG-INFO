@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: elouvain
+Version: 0.1
+Summary: Ensemble wrapper of Louvain for stable and accurate communities
+Home-page: https://github.com/boevkoski/ensemble-louvain
+Author: Bojan Evkoski
+Author-email: bojan.evkoski@ijs.si
+License: MIT
+Download-URL: https://github.com/boevkoski/ensemble-louvain/archive/refs/tags/v_01.zip
+Description: UNKNOWN
+Keywords: Communities,Clustering,Networks
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
