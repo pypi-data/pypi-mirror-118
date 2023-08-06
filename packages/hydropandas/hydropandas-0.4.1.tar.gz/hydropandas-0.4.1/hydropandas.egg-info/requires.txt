@@ -1,0 +1,6 @@
+scipy
+pandas<1.2.0,>=1.0
+tqdm
+zeep
+requests
+geopandas
