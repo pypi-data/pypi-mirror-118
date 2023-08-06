@@ -1,0 +1,11 @@
+LICENSE
+setup.py
+Math_Processing.egg-info/PKG-INFO
+Math_Processing.egg-info/SOURCES.txt
+Math_Processing.egg-info/dependency_links.txt
+Math_Processing.egg-info/top_level.txt
+mathprocessing/__init__.py
+mathprocessing/math.py
+mathprocessing/system.py
+mathprocessing/caculation/__init__.py
+mathprocessing/caculation/service.py
