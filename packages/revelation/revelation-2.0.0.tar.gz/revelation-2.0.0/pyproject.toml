@@ -1,0 +1,44 @@
+[tool.poetry]
+name = "revelation"
+version = "2.0.0"
+description = "Make awesome reveal.js presentations with revelation"
+authors = ["Humberto Rocha <humrochagf@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+exclude = ["revelation/static/*"]
+
+[tool.poetry.scripts]
+revelation = "revelation.cli:cli"
+rv = "revelation.cli:cli"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Werkzeug = {extras = ["watchdog"], version = "^2.0.1"}
+Jinja2 = "^3.0.1"
+typer = "^0.4.0"
+
+[tool.poetry.dev-dependencies]
+black = "^21.8b0"
+isort = {extras = ["colors"], version = "^5.9.3"}
+flake8 = "^3.9.2"
+ipdb = "^0.13.9"
+ipython = "^7.27.0"
+coveralls = "^3.2.0"
+pytest = "^6.2.5"
+pytest-mock = "^3.6.1"
+pytest-cov = "^2.12.1"
+mypy = "^0.910"
+types-Jinja2 = "^2.11.6"
+types-Werkzeug = "^1.0.5"
+
+[tool.isort]
+ensure_newline_before_comments = true
+force_grid_wrap = 0
+include_trailing_comma = true
+known_first_party = "revelation"
+multi_line_output = 3
+use_parentheses = true
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
