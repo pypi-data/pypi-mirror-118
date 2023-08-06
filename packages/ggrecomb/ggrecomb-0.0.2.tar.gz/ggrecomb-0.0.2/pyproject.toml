@@ -1,0 +1,29 @@
+[tool.poetry]
+name = 'ggrecomb'
+version = '0.0.2'
+description = 'Design recombinant protein libraries for Golden Gate Assembly.'
+authors = ['Bennett Bremer <bennettjamesbremer@gmail.com>']
+
+[tool.poetry.dependencies]
+python = '~3.9.1'
+biopython = '^1.79'
+scipy = '^1.6.3'
+
+[tool.poetry.dev-dependencies]
+flake8 = "^3.9.2"
+mypy = "^0.910"
+pytest = '^6.2.4'
+pytest-mock = '^3.6.1'
+sphinx = '^4.0.1'
+
+[tools.poetry.urls]
+"Download" = "https://pypi.org/project/ggrecomb/"
+"Source Code" = "https://github.com/RomeroLab/ggrecomb"
+"Documentation" = "https://ggrecomb.readthedocs.io/en/latest/"
+
+# [tool.poetry.scripts]
+# ggrecom = {reference = "bin/ggrecom", type="file"}
+
+[build-system]
+requires = ["poetry-core>=1.1.0a5"]
+build-backend = "poetry.core.masonry.api"
