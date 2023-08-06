@@ -1,0 +1,10 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+All_Modules.egg-info/PKG-INFO
+All_Modules.egg-info/SOURCES.txt
+All_Modules.egg-info/dependency_links.txt
+All_Modules.egg-info/requires.txt
+All_Modules.egg-info/top_level.txt

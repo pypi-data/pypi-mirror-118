@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: All-Modules
+Version: 0.0.1
+Summary: A Module That Contains Modules
+Home-page: UNKNOWN
+Author: ST
+Author-email: amazingfalcon1@gmail.com
+License: MIT
+Keywords: calculator
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+# This Module Contains Modules, turtle, os, winsound, pygame, time, tkinter, playsound, platform, random.
+
+To Install, pip install allmodules
+
+
+
+
+
+
