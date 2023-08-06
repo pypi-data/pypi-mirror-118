@@ -1,0 +1,5 @@
+setup.py
+inels_influxdb.egg-info/PKG-INFO
+inels_influxdb.egg-info/SOURCES.txt
+inels_influxdb.egg-info/dependency_links.txt
+inels_influxdb.egg-info/top_level.txt
