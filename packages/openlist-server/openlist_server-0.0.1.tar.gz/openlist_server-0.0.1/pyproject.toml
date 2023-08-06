@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "openlist_server"
+version = "0.0.1"
+description = "OpenList backend server API."
+authors = ["gruvw <gruvw.dev@gmail.com>"]
+readme = "README.md"
+homepage = "https://github.com/gruvw/openlist-server"
+
+[tool.poetry.scripts]
+openlist-server = 'openlist_server.cli:run'
+
+[tool.poetry.dependencies]
+python = "^3.9"
+click = "^8.0.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
