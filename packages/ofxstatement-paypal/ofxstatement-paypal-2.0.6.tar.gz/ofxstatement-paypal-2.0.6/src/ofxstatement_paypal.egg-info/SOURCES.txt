@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+README.rst
+setup.cfg
+setup.py
+src/ofxstatement/__init__.py
+src/ofxstatement/plugins/__init__.py
+src/ofxstatement/plugins/paypal.py
+src/ofxstatement_paypal.egg-info/PKG-INFO
+src/ofxstatement_paypal.egg-info/SOURCES.txt
+src/ofxstatement_paypal.egg-info/dependency_links.txt
+src/ofxstatement_paypal.egg-info/entry_points.txt
+src/ofxstatement_paypal.egg-info/namespace_packages.txt
+src/ofxstatement_paypal.egg-info/requires.txt
+src/ofxstatement_paypal.egg-info/top_level.txt
+src/ofxstatement_paypal.egg-info/zip-safe
