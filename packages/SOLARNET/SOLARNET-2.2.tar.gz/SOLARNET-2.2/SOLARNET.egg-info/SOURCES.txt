@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+SOLARNET/Data.py
+SOLARNET/Dataset.py
+SOLARNET/Datasets.py
+SOLARNET/__init__.py
+SOLARNET/api.py
+SOLARNET/filters.py
+SOLARNET/time.py
+SOLARNET.egg-info/PKG-INFO
+SOLARNET.egg-info/SOURCES.txt
+SOLARNET.egg-info/dependency_links.txt
+SOLARNET.egg-info/not-zip-safe
+SOLARNET.egg-info/requires.txt
+SOLARNET.egg-info/top_level.txt
