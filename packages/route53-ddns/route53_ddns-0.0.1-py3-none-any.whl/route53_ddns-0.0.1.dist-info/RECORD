@@ -1,0 +1,10 @@
+route53_ddns/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+route53_ddns/cli.py,sha256=VdDIc2X0kFSu_xgiN7Wl2rU5Q3X2N1FRjcQgYY4bOKo,2293
+route53_ddns/ip_utilities.py,sha256=HClidLs-VW5Jfj-oDV0u-g99M5GPaSonEry4lqNKK2Q,1566
+route53_ddns/route53_interface.py,sha256=hdtOyyGbnD-2hIvY1fmA7dx-A7t4h1Twpu9bMtXtbb8,5012
+route53_ddns-0.0.1.dist-info/LICENSE,sha256=f8XVzi_i0m13-j5Or8sAjvKRHyRIR5BPbo16xbzX960,1072
+route53_ddns-0.0.1.dist-info/METADATA,sha256=QRWvUqi5ichWzVIh_l_r1YNMeKyYs_4y_WOW1_wHzSo,4817
+route53_ddns-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+route53_ddns-0.0.1.dist-info/entry_points.txt,sha256=e-HJh_inX4Vw4rqOAeiW6COrwKg5wzNp_ftrXygl6Ec,64
+route53_ddns-0.0.1.dist-info/top_level.txt,sha256=bK5jcW4ytJFaTwZP20i8nLMzLNP1KVT-1VqicRNRjOo,13
+route53_ddns-0.0.1.dist-info/RECORD,,
