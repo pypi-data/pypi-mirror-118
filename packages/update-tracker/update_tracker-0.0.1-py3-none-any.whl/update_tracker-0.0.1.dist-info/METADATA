@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: update-tracker
+Version: 0.0.1
+Summary: tracking update of python packages or library
+Home-page: https://github.com/Independent-Dev
+Author: Jinoh Kim
+Author-email: juju08217@daum.net
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: Click
+Requires-Dist: requests
+
+UNKNOWN
+

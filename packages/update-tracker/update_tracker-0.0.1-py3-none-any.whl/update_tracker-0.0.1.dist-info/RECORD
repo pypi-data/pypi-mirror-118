@@ -1,0 +1,9 @@
+update_tracker/__init__.py,sha256=wH82raAcyzmWbBScQKCK8eoeF5Q3tmlUGo3cjv32Ess,35
+update_tracker/cli.py,sha256=JxJ1qbf6G7fVptyIYaUkawOOmIBRwKWQiqVoRpQMTJY,941
+update_tracker/local.py,sha256=hmgCk1mdWnbNmsxV8GnS7f9QHDEASw3tsBM_lPl9k8Y,2599
+update_tracker/utils.py,sha256=DHQyammTwwpnnuNh2rxw3mfN_fQ4NoS8oekN2JPkO1Y,89
+update_tracker-0.0.1.dist-info/METADATA,sha256=GjWQYi0q_CoXlzsflNjMkECzEBKIdDonVAkHjvi1lXI,319
+update_tracker-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+update_tracker-0.0.1.dist-info/entry_points.txt,sha256=fOQKxXgiwTiB_NscFmY6nTDLha9w7OKtI8m7xwYZMNA,52
+update_tracker-0.0.1.dist-info/top_level.txt,sha256=F8Qvx4DNAFptgU3h1hIdKUbcIQCCMxba0pLm8AWv5qU,15
+update_tracker-0.0.1.dist-info/RECORD,,
