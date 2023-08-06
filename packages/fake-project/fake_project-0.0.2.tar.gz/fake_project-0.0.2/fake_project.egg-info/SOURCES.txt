@@ -1,0 +1,5 @@
+setup.py
+fake_project.egg-info/PKG-INFO
+fake_project.egg-info/SOURCES.txt
+fake_project.egg-info/dependency_links.txt
+fake_project.egg-info/top_level.txt
