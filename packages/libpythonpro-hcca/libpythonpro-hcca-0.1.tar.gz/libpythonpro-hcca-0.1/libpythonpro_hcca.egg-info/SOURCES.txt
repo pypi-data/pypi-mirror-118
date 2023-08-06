@@ -1,0 +1,10 @@
+README.md
+setup.py
+libpythonpro/__init__.py
+libpythonpro/github_api.py
+libpythonpro_hcca.egg-info/PKG-INFO
+libpythonpro_hcca.egg-info/SOURCES.txt
+libpythonpro_hcca.egg-info/dependency_links.txt
+libpythonpro_hcca.egg-info/not-zip-safe
+libpythonpro_hcca.egg-info/requires.txt
+libpythonpro_hcca.egg-info/top_level.txt
