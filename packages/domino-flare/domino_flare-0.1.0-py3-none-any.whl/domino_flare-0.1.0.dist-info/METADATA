@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: domino-flare
+Version: 0.1.0
+Summary: Lightweight model monitoring framework.
+Home-page: https://github.com/dominodatalab/domino-research/flare
+Author: Kevin Flansburg, Josh Broomberg
+Author-email: kevin.flansburg@dominodatalab.com,josh.broomberg@dominodatalab.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: dacite (==1.6)
+Requires-Dist: pandas (==1.3.1)
+Requires-Dist: numpy (==1.21.1)
+Requires-Dist: requests (==2.26.0)
+
+UNKNOWN
+
