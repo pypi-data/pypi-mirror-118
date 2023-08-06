@@ -1,0 +1,10 @@
+README.md
+setup.py
+UpSetPlotly.egg-info/PKG-INFO
+UpSetPlotly.egg-info/SOURCES.txt
+UpSetPlotly.egg-info/dependency_links.txt
+UpSetPlotly.egg-info/requires.txt
+UpSetPlotly.egg-info/top_level.txt
+upsetplotly/__init__.py
+upsetplotly/plotting.py
+upsetplotly/set_functions.py
