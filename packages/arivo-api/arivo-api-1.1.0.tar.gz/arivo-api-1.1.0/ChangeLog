@@ -1,0 +1,15 @@
+CHANGES
+=======
+
+v1.1.0
+------
+
+* adds a delete api call
+
+v1.0.0
+------
+
+* fixed in testcases
+* raise for status, htmlcov artifacts
+* unittests and basic implementation
+* initial commit
