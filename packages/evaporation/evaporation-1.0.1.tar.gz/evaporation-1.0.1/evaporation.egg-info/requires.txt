@@ -1,0 +1,4 @@
+Click>=7.0
+hspatial<3,>=2
+htimeseries<4,>=3
+iso8601
