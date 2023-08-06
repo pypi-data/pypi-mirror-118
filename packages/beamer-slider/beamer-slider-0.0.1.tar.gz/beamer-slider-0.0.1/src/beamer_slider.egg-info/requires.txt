@@ -1,0 +1,9 @@
+jinja2
+numpy
+scipy
+bs4
+lxml
+codecs
+optparse
+PyPDF2
+pickle

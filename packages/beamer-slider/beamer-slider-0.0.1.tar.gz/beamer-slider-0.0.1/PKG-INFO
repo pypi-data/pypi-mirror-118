@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: beamer-slider
+Version: 0.0.1
+Summary: Software to create inkscape overlays in Beamer
+Home-page: https://lab.compute.dtu.dk/tuhe/slider
+Author: Tue Herlau
+Author-email: tuhe@dtu.dk
+License: MIT
+Project-URL: Bug Tracker, https://lab.compute.dtu.dk/tuhe/slider/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Slider
+
+Slide overlay software based on beamer and inkscape. This project is currently used in coursebox. 
+The software also offers a package for jinja2 (jinjafy) which offers a handful of convenient extensions.
+
