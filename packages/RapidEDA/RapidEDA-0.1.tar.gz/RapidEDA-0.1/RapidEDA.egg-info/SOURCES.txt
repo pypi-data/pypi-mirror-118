@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+RapidEDA/__init__.py
+RapidEDA/eda.py
+RapidEDA.egg-info/PKG-INFO
+RapidEDA.egg-info/SOURCES.txt
+RapidEDA.egg-info/dependency_links.txt
+RapidEDA.egg-info/requires.txt
+RapidEDA.egg-info/top_level.txt
