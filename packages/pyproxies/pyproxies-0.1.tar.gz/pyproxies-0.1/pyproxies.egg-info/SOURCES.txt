@@ -1,0 +1,8 @@
+README.md
+setup.py
+pyproxies/__init__.py
+pyproxies.egg-info/PKG-INFO
+pyproxies.egg-info/SOURCES.txt
+pyproxies.egg-info/dependency_links.txt
+pyproxies.egg-info/requires.txt
+pyproxies.egg-info/top_level.txt
