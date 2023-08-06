@@ -1,0 +1,11 @@
+# Mandatory dependencies
+gpflow
+tqdm
+scikit-learn
+
+# build dependencies
+setuptools
+
+# testing
+pytest-cov
+pytest-xdist

@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: ESEm
+Version: 1.1.0
+Summary: Earth System Emulator
+Home-page: UNKNOWN
+Author: Duncan Watson-Parris
+Author-email: duncan.watson-parris@physics.ox.ac.uk
+License: Apache
+Keywords: climate,machine-learning
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Scientific/Engineering
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+Provides-Extra: keras
+Provides-Extra: gpflow
+Provides-Extra: sklearn
+Provides-Extra: complete
+Provides-Extra: docs
+License-File: LICENSE
+
+
+A tool for emulating geophysical models including (but not limited to!) Earth System Models.
+
