@@ -1,0 +1,13 @@
+cbp_client/__init__.py,sha256=WxzKjX6NNYGrQHDecGOh5ndG28d54UrnSDna786gc9Y,93
+cbp_client/api.py,sha256=7WvXReD70HWPwpLQ4cPQNWZwkuER72bJr4cfSqALkG4,2954
+cbp_client/api_authenticated.py,sha256=WrSESfOb-UXtQ1VGD9sr0o3cvEL6dpat1mEsKB5iB2M,6233
+cbp_client/api_public.py,sha256=F5Hm_1lUyPY8Czy3CpqDLZAq2f7nh_nq4MhPO03OelI,8056
+cbp_client/auth.py,sha256=YFtkkVvFT8osDpZFHCyDRGgFx0o3aMbH4SnbZWxbAfg,1054
+cbp_client/history.py,sha256=FTlK4hdKl-hMUmOYDMFLeks-yQgdXa2nNRr8xpnoQCE,5823
+cbp_client/pagination.py,sha256=x9KFiXmLGyBS_ZrA3K-tYljdCd1MBU_VRdqhnNe4XZk,1503
+cbp_client/product.py,sha256=yqOAwEuYU0FPBQCmc1AfiHoyqmE00tnmqAkbxNyJ_ig,527
+cbp_client-1.1.1.dist-info/LICENSE,sha256=H69U1RDDvdGwj3Sly4vOMPx17wPQAZM6s_93aTIIqtU,1090
+cbp_client-1.1.1.dist-info/METADATA,sha256=k0DYUT6LKwIPXTAEv8pIa2uyRU4vqAc4K-YPyhcqcxM,6759
+cbp_client-1.1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+cbp_client-1.1.1.dist-info/top_level.txt,sha256=hTiuI7NxLdsLc3RdXsG9j3SQMDN-JtW45livb50ZypM,11
+cbp_client-1.1.1.dist-info/RECORD,,
