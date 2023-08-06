@@ -1,0 +1,5 @@
+enum34
+numpy
+pvporcupine==1.9.5
+pvrecorder==1.0.0
+soundfile
