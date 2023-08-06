@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+takenoko/__init__.py
+takenoko/takenoko.py
+takenoko.egg-info/PKG-INFO
+takenoko.egg-info/SOURCES.txt
+takenoko.egg-info/dependency_links.txt
+takenoko.egg-info/top_level.txt
