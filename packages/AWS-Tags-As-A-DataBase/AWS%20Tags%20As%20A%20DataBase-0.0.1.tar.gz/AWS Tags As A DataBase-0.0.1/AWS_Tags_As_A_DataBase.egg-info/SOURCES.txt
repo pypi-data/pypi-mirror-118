@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+AWS_Tags_As_A_DataBase.egg-info/PKG-INFO
+AWS_Tags_As_A_DataBase.egg-info/SOURCES.txt
+AWS_Tags_As_A_DataBase.egg-info/dependency_links.txt
+AWS_Tags_As_A_DataBase.egg-info/requires.txt
+AWS_Tags_As_A_DataBase.egg-info/top_level.txt
+TagsAsADatabase/__init__.py
+TagsAsADatabase/database.py
