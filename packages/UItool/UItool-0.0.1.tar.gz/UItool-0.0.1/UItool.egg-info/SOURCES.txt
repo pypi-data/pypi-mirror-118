@@ -1,0 +1,10 @@
+setup.py
+UItool/__init__.py
+UItool/dialogs.py
+UItool/widgets.py
+UItool.egg-info/PKG-INFO
+UItool.egg-info/SOURCES.txt
+UItool.egg-info/dependency_links.txt
+UItool.egg-info/top_level.txt
+UItool/UItool/__init__.py
+UItool/UItool/widgets.py
