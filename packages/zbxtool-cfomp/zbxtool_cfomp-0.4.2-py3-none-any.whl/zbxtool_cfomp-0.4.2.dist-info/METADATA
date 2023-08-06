@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: zbxtool-cfomp
+Version: 0.4.2
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: zabbix-api (>=0.5.4)
+Requires-Dist: ldap3 (>=2.9.1)
+Requires-Dist: elasticsearch (>=7.14.0)
+Requires-Dist: multicommand (>=0.1.1)
+Requires-Dist: pyVim (>=3.0.2)
+Requires-Dist: pyVmomi (>=7.0.2)
+
+UNKNOWN
+
+
