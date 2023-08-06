@@ -1,0 +1,191 @@
+Metadata-Version: 2.1
+Name: lazyt
+Version: 1.1.1
+Summary: Usefull methods cause i'm lazy and they made everything easier and fancier(check project link for a decent README)
+Home-page: https://gitlab.com/ThomasAndreatta/lazyt
+Author: Andreatta
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+
+# LazyT Project
+**Compilation of methods for speeding up the boring tasks such as build banner, ask for y/n or change the color for an error/warning message.**
+
+![](https://gitlab.com/ThomasAndreatta/lazyt/-/raw/master/logo_git.png)
+
+---
+### Table of contents
+
+* [LazyT](#LazyT)
+* [Install and Update](#Install and Update)
+* [Function](#)
+	* [Description](#Function Description)
+	* [Usage](#Function usage)
+		* [LazyT](#LazyT Project)
+		* [tprint](#tprint)
+		* [Loader](#Loader)
+* [Annotations](#Annotations)
+---
+## Install and Update
+###### Install
+>pip3 install LazyT==[version]
+
+###### update
+
+>pip3 install lazyt -U
+
+
+(released whenever a bunch of new method are developed and successfully tested)
+
+
+---
+
+# Function Description
+
+
+|class| Function name | Description |       Return  value             |
+|--| ------------- | -------|------------------------------ |
+|lazyt |[`yon(question,deaf=True) `](#yon(question,deaf=True))  |Accept only Y/n input.    |  **True/False**     |
+|lazyt|[`clear_console()`](#clear_console())   |clear the console| **None**     |
+|lazyt|[`create_banner(options,cols=3)`](#create_banner(options,cols=3))| Build personalized banner | **str**     |
+|lazyt|[`int_choice(max=None,min=None,banner='deafval',error_message='deafval')`](#int_choice(max=None,min=None,banner='Make a choice!',error_message='This is not a valid choice!'))| Make you choice only integers | **int**     |
+|tprint |[`info(text,end_el='\n') `](#tprint)  |Print the text in yellow    |  **None**     |
+|tprint |[`error(text,end_el='\n') `](#tprint)  |Print the text in red    |  **None**     |
+|tprint |[`system(text,end_el='\n') `](#tprint)  |Print the text in blue    |  **None**     |
+|Loader |[`Loader(runningmsg='', endmsg='', timeout=0.1)`](#Loader)  |initialize a Loader() element    |  **None**     |
+|Loader |[`start() `](#Loader)  |start the Loader element    |  **None**     |
+|Loader |[`stop() `](#Loader)  |stop the Loader element    |  **None**     |
+
+(All the example code shown below is in the "example.py" file inside the \<lazyt> directory)
+
+---
+#### Notation
+The line marked as follow:
+```py
+#>>> stuff
+```
+are used for showing the console output of the previous command.
+
+
+```py
+def main():
+	print("Hello!")
+	#>>> Hello!
+```
+All the arguments are mandatory except for the args defined as "method(arg=value)" which are, by definition optional and already with a default value.
+```py
+def default_example(ex="default text"):
+	print(ex)
+def main():
+	default_example()
+	#>>> default text
+	default_example(ex="different text")
+	#>>> different text
+
+```
+
+---
+## Function usage
+
+Import the library
+```py
+from lazyt import *
+```
+
+# lazyt
+###### yon(question,deaf=True)
+
+```py
+def main():
+    proceed=lazyt.yon("Would you like to proceed?")
+    #>>>Would you like to proceed?[Y/n]:
+    if(proceed):
+        print("Positive")
+    else:
+        print("never mind, bye")
+        exit(0)
+
+    #Default param is True, for setting it to False use:
+    proceed=lazyt.yon("Would you like to proceed?",deaf=False)
+    #>>>Would you like to proceed?[y/N]:
+    if(proceed):
+        print("positive pt.2")
+
+```
+###### clear_console()
+
+```py
+def main():
+	trash=os.urandom(10000)
+    print("{}\n\nThere's something on your console!".format(trash))
+	input("Press any button to wipe it away!")
+    lazyt.clear_console()
+    print("You're welcome.\n")
+```
+###### create_banner(options,cols=3)
+```py
+def main():
+    options=['first choice','second choice','third choice',
+            'fourth choice','fifth choice','sixth choice']
+
+    print(lazyt.create_banner(options))
+    #>>> [0] first choice 	[1] second choice	[2] third choice
+    #>>> [3] fourth choice	[4] fifth choice 	[5] sixth choice
+
+    #Default number of cols is 3
+    print(lazyt.create_banner(options,cols=2))
+    #>>> [0] first choice 	[1] second choice
+    #>>> [2] third choice 	[3] fourth choice
+    #>>> [4] fifth choice 	[5] sixth choice
+```
+
+###### int_choice(max=None,min=None,banner='Make a choice!',error_message='This is not a valid choice!')
+```py
+def main():
+		print(lazyt.int_choice(min=-1,banner="Value higher than -1",error_message="This number is lower than -1"))
+		print(lazyt.int_choice(max=123))
+```
+---
+# tprint
+```py
+def main():
+		tprint.info("info, yellow text to overwrite",end_el="\r")
+    tprint.info("info, yellow text overwrited")
+    #>>>(yellow)info, yellow text overwrited
+    tprint.error("error, red text")
+    #>>>(red)error, red text
+    tprint.system("system, blue text")
+    #>>>(blue)system, blue text
+```
+---
+# Loader
+```py
+def main():
+    import time
+
+    l = Loader("While working message...", "Work done message!", 0.05).start()
+    #>>>While working message... ⣽
+    for i in range(10):
+        time.sleep(0.25)
+    l.stop()
+    #delete the working message and write
+    #>>>Work done message!
+```
+---
+## Annotations
+If you have some cool methods feel free to ping me or create a merge request, this package have the only purpose of simplifying and speeding up the boring task and why not making even a small script look more aesthetic without too much effort.\
+
+All this methods are developed by me - **[@ThomasAndreatta](https://gitlab.com/ThomasAndreatta)** - in different project and copy-pasting the methods -or the class file - between the different repo was too much effort for me, that's why i've decided to build a pypi package, in this way wherever i am i can simply type
+```py
+import lazyt
+```
+and i'm good to go.\
+Funny how being lazy leaded me to BUILD a package with all the documentation instead of coping and pasting a file. \
+Yeah, LazyT 'cause i'm T, and i'm lazy.
+
+
