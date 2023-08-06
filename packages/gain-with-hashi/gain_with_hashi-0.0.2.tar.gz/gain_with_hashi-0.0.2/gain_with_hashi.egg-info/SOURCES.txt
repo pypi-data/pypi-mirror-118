@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+gain_with_hashi/__init__.py
+gain_with_hashi/gain_bot.py
+gain_with_hashi.egg-info/PKG-INFO
+gain_with_hashi.egg-info/SOURCES.txt
+gain_with_hashi.egg-info/dependency_links.txt
+gain_with_hashi.egg-info/top_level.txt
