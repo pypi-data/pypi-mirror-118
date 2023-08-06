@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: aixcalibuha
+Version: 0.2.0
+Summary: Framework used for sensitivity-analysisand calibration for models of HVAC components.
+Home-page: https://github.com/RWTH-EBC/AixCaliBuHA
+Author: RWTH Aachen University, E.ON Energy Research Center, Institute of Energy Efficient Buildings and Indoor Climate
+Author-email: fabian.wuellhorst@eonerc.rwth-aachen.de
+License: MIT
+Download-URL: https://github.com/RWTH-EBC/AixCaliBuHA/archive/refs/tags/0.2.0.tar.gz
+Description: UNKNOWN
+Keywords: calibration,building,energy,black-box optimization,sensitivity_analysis
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Scientific/Engineering
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8

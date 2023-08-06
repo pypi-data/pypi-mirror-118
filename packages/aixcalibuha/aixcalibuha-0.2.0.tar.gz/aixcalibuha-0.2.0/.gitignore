@@ -1,0 +1,33 @@
+# Individual #
+#####################
+.metadata
+*.pyc
+*.bak
+.project
+.pydevproject
+aixcalibuha/examples/testzone
+
+# pip install #
+#####################
+*.egg-info/
+*.egg/
+*.eggs
+dist
+*.pypirc
+build
+
+# PyCharm #
+#####################
+.idea
+.cache
+venv
+
+# Jupyter Notebook #
+#####################
+.ipynb_checkpoints
+
+# Unittest #
+#####################
+.pytest_cache
+htmlcov
+.coverage
