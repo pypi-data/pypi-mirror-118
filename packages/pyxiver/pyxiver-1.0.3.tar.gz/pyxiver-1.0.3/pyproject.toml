@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "pyxiver"
+version = "1.0.3"
+description = "Python wrapper for the arXiv.org public API."
+authors = ["Neil Van <nvq.alino@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.26.0"
+xmltodict = "^0.12.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
+mypy = "^0.910"
+types-requests = "^2.25.6"
+black = "^21.8b0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
