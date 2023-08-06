@@ -1,0 +1,3 @@
+[console_scripts]
+portfolio=portfolio_analyzer.cli:main
+

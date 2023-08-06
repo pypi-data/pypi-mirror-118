@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: portfolio-analyzer
+Version: 0.1.0
+Summary: 
+Author: Tapan Pandita
+Author-email: tapan.pandita@gmail.com
+Requires-Python: >=3.7,<3.10
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: click (>=8.0.1,<9.0.0)
+Requires-Dist: python-dateutil (>=2.8.2,<3.0.0)
+Requires-Dist: scipy (>=1.7.1,<2.0.0)
+Requires-Dist: tabulate (>=0.8.9,<0.9.0)
+Requires-Dist: yfinance (>=0.1.63,<0.2.0)
