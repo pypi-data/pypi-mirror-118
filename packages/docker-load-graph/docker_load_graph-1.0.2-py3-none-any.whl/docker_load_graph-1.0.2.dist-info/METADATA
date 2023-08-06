@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: docker-load-graph
+Version: 1.0.2
+Summary: A simple CLI graph for visualizing load on docker containers
+Home-page: https://github.com/cjmcgraw/docker-load-graph
+Author: Carl McGraw
+Author-email: c@rlmcgraw.io
+License: MIT License
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: python-version (>='3.7')
+Requires-Dist: plotext (==3.1.2)
+Requires-Dist: pandas (>=1.3.2)
+Requires-Dist: numpy (>=1.21.2)
+Requires-Dist: docker (>=5.0.0)
+
+# docker-load-graph
+---
+
+Have you ever been working with a docker stack, and been interested in how your containers fair over time? Me too.
+
+This project exists to solve that problem.
+
+## What does it do?
+
+Very simply this project uses [plotext](https://github.com/piccolomo/plotext) to display the current status
+of key [docker](https://www.docker.com/) container metrics in real time on the command line.
+
+![](https://raw.githubusercontent.com/cjmcgraw/docker-load-graph/main/.docs/0000-example.gif)
+
+## How do I use it?
+
+I've uploaded this project to the PYPA repository for pip to access. You can simply install this using `python3.7>` with
+```
+pip install docker-load-graph
+```
+
+To execute this project run:
+
+```
+docker-load-graph
+```
+
+It is just that simple.
+
+
