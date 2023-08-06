@@ -1,0 +1,11 @@
+oda_api_wrapper/__init__.py,sha256=w4tZH439GxwtQEkmmGn6B2a246r_xbua47kfIdVHm7M,744
+oda_api_wrapper/wrapper.py,sha256=Q0CzJ9hUobe1c7lurOESxGH5zbKevsejViY2tjkftyg,23553
+oda_integral_wrapper/__init__.py,sha256=zw_hf7G8ePR2pEx4TVB0pliHT_bUusQ_M9V9pVrtfaI,794
+oda_integral_wrapper/fitimage.py,sha256=6CbYVkQiDcyAPHPKFG2adVUAneBHfKn3DTv8jKaJ1yU,5988
+oda_integral_wrapper/get_osa10_11_factor.py,sha256=PxEBJHemLq2W2Jn4oGRILiO7YWM0sg18MXgTBbCjt5k,8623
+oda_integral_wrapper/wrapper.py,sha256=PrLkQUkE9u3bBXVV5C8j4v-1KgLI8uxQ9Xt-Wur7BAA,54606
+oda_integral_wrapper-1.3.18.dist-info/LICENSE.rst,sha256=ta9cvn5q358Qm7I1N134uEnbYsTGWVv2oFJvHU2agQg,1175
+oda_integral_wrapper-1.3.18.dist-info/METADATA,sha256=yyLVVUqS_ApJfCNxCzPdaWyZwqn2DFIkUdOnybndbWs,625
+oda_integral_wrapper-1.3.18.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+oda_integral_wrapper-1.3.18.dist-info/top_level.txt,sha256=dsCu2i69o_fvudrLJLJgMPXESvDG45i-ZNkYIZcLxW8,21
+oda_integral_wrapper-1.3.18.dist-info/RECORD,,
