@@ -1,0 +1,16 @@
+hjson
+six
+
+[all]
+SPARQLWrapper
+matplotlib>=2.2.0
+rdflib
+requests
+
+[glyspace]
+requests
+rdflib
+SPARQLWrapper
+
+[plot]
+matplotlib>=2.2.0
