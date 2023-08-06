@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: envoy.distribution.repo
+Version: 0.0.1
+Summary: "Release publishing tool used in Envoy proxy's CI"
+Home-page: https://github.com/envoyproxy/pytooling/tree/main/envoy.distribution.repo
+Author: Ryan Northey
+Author-email: ryan@synca.io
+Maintainer: Ryan Northey
+Maintainer-email: ryan@synca.io
+License: Apache Software License 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Pytest
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Testing
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.5
+Requires-Dist: abstracts (>=0.0.11)
+Requires-Dist: aio.functional (>=0.0.9)
+Requires-Dist: aio.subprocess (>=0.0.4)
+Requires-Dist: envoy.base.runner (>=0.0.4)
+Requires-Dist: envoy.base.utils (>=0.0.6)
+Requires-Dist: envoy.abstract.command (>=0.0.3)
+Requires-Dist: envoy.github.abstract (>=0.0.16)
+Requires-Dist: envoy.github.release (>=0.0.8)
+Provides-Extra: lint
+Requires-Dist: flake8 ; extra == 'lint'
+Provides-Extra: publish
+Requires-Dist: wheel ; extra == 'publish'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-asyncio ; extra == 'test'
+Requires-Dist: pytest-coverage ; extra == 'test'
+Requires-Dist: pytest-patches ; extra == 'test'
+Provides-Extra: types
+Requires-Dist: mypy ; extra == 'types'
+Requires-Dist: mypy-abstracts (>=0.0.6) ; extra == 'types'
+
+
+envoy.distribution.repo
+=======================
+
+Repo publishing tool used in Envoy proxy's CI
+
+
