@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/easy-distributed/__init__.py
+src/easy-distributed/example.py
+src/easydist.egg-info/PKG-INFO
+src/easydist.egg-info/SOURCES.txt
+src/easydist.egg-info/dependency_links.txt
+src/easydist.egg-info/top_level.txt
