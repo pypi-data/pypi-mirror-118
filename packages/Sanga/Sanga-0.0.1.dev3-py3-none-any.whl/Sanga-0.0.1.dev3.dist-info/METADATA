@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: Sanga
+Version: 0.0.1.dev3
+Summary: Sanga is a news crawler for Taiwan media.
+Home-page: https://github.com/allenyummy/Sanga.git
+Author: Yu-Lun Chiang
+Author-email: chiangyulun0914@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Natural Language :: Chinese (Traditional)
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tqdm (==4.61.2)
+Requires-Dist: requests (==2.26.0)
+Requires-Dist: beautifulsoup4 (==4.9.3)
+Requires-Dist: lxml (==4.6.3)
+Provides-Extra: dev
+Requires-Dist: pre-commit (==2.13) ; extra == 'dev'
+Requires-Dist: flake8 (==3.9.2) ; extra == 'dev'
+Requires-Dist: black (==21.6b0) ; extra == 'dev'
+Requires-Dist: isort (==5.8.0) ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: pytest (==6.2.3) ; extra == 'test'
+Requires-Dist: pytest-mock (==3.5.1) ; extra == 'test'
+Requires-Dist: pytest-cov (==2.11.1) ; extra == 'test'
+
+# Sanga
+
+Developing ...
+
+
