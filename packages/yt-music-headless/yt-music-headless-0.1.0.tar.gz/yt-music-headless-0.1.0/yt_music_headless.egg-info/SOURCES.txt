@@ -1,0 +1,9 @@
+setup.py
+yt_music_headless.egg-info/PKG-INFO
+yt_music_headless.egg-info/SOURCES.txt
+yt_music_headless.egg-info/dependency_links.txt
+yt_music_headless.egg-info/entry_points.txt
+yt_music_headless.egg-info/not-zip-safe
+yt_music_headless.egg-info/requires.txt
+yt_music_headless.egg-info/top_level.txt
+ytmusicheadless/__init__.py
