@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+setup.py
+ipysketch/__init__.py
+ipysketch/__main__.py
+ipysketch/ipywidget.py
+ipysketch/model.py
+ipysketch/tkapp.py
+ipysketch.egg-info/PKG-INFO
+ipysketch.egg-info/SOURCES.txt
+ipysketch.egg-info/dependency_links.txt
+ipysketch.egg-info/requires.txt
+ipysketch.egg-info/top_level.txt
+ipysketch/assets/delete-60.png
+ipysketch/assets/eraser-60.png
+ipysketch/assets/pen-60.png
+ipysketch/assets/save-60.png
