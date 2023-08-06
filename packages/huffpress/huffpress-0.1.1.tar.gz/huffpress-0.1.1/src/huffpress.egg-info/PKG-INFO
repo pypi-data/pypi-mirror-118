@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: huffpress
+Version: 0.1.1
+Summary: Library containing Huffman algos and bespoke compressor
+Home-page: https://github.com/selphaware/huffpress
+Author: Usman Ahmad
+Author-email: uahmad3013@outlook.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/selphaware/huffpress/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# HuffPress
+## Currently under development
+<i><b>huffpress</b></i> - Python library containing Huffman tree and encoding 
+algorithms. Including a bespoke compressor
+<br><br>
+<b>Installation</b><br>
+
+````commandline
+pip install huffpress
+````
+
+
