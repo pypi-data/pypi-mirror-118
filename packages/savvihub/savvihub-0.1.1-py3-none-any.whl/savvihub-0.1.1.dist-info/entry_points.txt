@@ -1,0 +1,4 @@
+[console_scripts]
+savvihub = vessl.cli._main:cli
+sv = vessl.cli._main:cli
+
