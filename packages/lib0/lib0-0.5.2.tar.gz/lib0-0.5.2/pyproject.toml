@@ -1,0 +1,8 @@
+[tool.poetry]
+name = "lib0"
+description = ""
+authors = [ "Tester <tester@pbt.com>",]
+version = "0.5.2"
+
+[tool.poetry.dependencies]
+python = "^3.8"
