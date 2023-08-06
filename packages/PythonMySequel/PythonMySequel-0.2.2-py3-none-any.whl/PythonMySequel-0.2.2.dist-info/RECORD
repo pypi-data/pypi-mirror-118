@@ -1,0 +1,16 @@
+pythonmysequel/Connection.py,sha256=cwubX8KrtL2LGfVzDlWkENNilQq2DQBRnjmtRh99Oxg,6605
+pythonmysequel/Row.py,sha256=2C0SCampJpagfgoKOvy7cgSJh0w7uQP0FrQHDcjGCFo,1145
+pythonmysequel/SQLite_Connection.py,sha256=gLtAPo0EbNCBKUWSIjhRQZmmzt3pI_5q0JV0gHWZl4Y,769
+pythonmysequel/Table.py,sha256=0Qks-wrqJn5o_BQH290tN0FlBv00Dny-PSHogTWLKJA,696
+pythonmysequel/__init__.py,sha256=rCdeJqFjK21XB1xbNI0q5xJk_B2W6xVgyBnwCGiU-XQ,1345
+pythonmysequel/values/Bool.py,sha256=V_XO75I_UnS_zCXU3yvgnMI85TPXIQRIbIuzX14ZD20,282
+pythonmysequel/values/Float.py,sha256=VKTEwIow-N9sgf0n4ftnWUJYnmpuUwqtnH_NBtHou5k,273
+pythonmysequel/values/Int.py,sha256=I4tK9K5QXutw9-OCWgageDi-BGrIfeDJ_nX3EGCCBYk,704
+pythonmysequel/values/String.py,sha256=YsyR2bkfXXU_Vzjkyu5tjvrStEe9lurO5bDCIe-ULeE,373
+pythonmysequel/values/_ValueType.py,sha256=B8fN3kIMXy-YGFe75LidAVwLBVfctzY_1_NpQOpzT-Q,462
+pythonmysequel/values/__init__.py,sha256=Dx9kqIHXwu-YvxysnpdGg-xstongJnJBniJE29ryn_o,185
+PythonMySequel-0.2.2.dist-info/LICENSE,sha256=G2r2zf-LELSg_gojjkibDeD7we9s18enr8BFdd9qsuc,1064
+PythonMySequel-0.2.2.dist-info/METADATA,sha256=mC9M4ZZ-S-v0aGx-EmjmFmyzLylQIf7FxPUmnSL2wiQ,2129
+PythonMySequel-0.2.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+PythonMySequel-0.2.2.dist-info/top_level.txt,sha256=WT1onKpb26kd1O8kww8cOEN-xuWPxduQVlgMyoH6Ahs,15
+PythonMySequel-0.2.2.dist-info/RECORD,,
