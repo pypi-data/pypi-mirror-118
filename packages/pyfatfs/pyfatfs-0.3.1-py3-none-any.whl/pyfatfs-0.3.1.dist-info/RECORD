@@ -1,0 +1,16 @@
+pyfatfs/DosDateTime.py,sha256=EoeQNVxlEDVd0oD04HCyq5Wm3ydQRtD8gU0g8C-WRLY,1649
+pyfatfs/EightDotThree.py,sha256=3aJD2Va5GVZpLWoFskBxyGNsGOl8BOzoCTuyrAczIJ4,8482
+pyfatfs/FATDirectoryEntry.py,sha256=Wj638d1DYG10rz1GQGa8TT1cyOFOn9Qw2nXIb9Id7rM,23331
+pyfatfs/FATHeader.py,sha256=ThZWSer8mI0QQakPwVpWQ-SkJa45G1IZpOITTs7qnHk,1874
+pyfatfs/FatIO.py,sha256=Wc3bK0eaPHVaN99k82jJml_MARCjTKSHecJL6Bh3EAM,7753
+pyfatfs/PyFat.py,sha256=xtYUV3gSpagkcAsXaTEyRIWqOy17vdKMflY5SEQdzgs,40798
+pyfatfs/PyFatFS.py,sha256=ZNwTmoHWRgs2Z4JHHGJeN7pFUoUUhmyBw0ccWAeSGvQ,18957
+pyfatfs/PyFatFSOpener.py,sha256=J3SIhSB1fVmOC_ksAT5bElWWsX3fhhdcjOI-UN8ezug,1166
+pyfatfs/__init__.py,sha256=R_vze0wH78xgMwTUMTXzVXUUoXU68bw1XSwH9Nrc2rA,630
+pyfatfs/_exceptions.py,sha256=m7LIIevzG1LHQDZWfQEUtAQygT1V1wwVtkSq6drIdqs,1290
+pyfatfs-0.3.1.dist-info/LICENSE,sha256=Yh3EMxoeNBKKFwqgyTv55HoktX3-uF5prhixKPQ6eKQ,1082
+pyfatfs-0.3.1.dist-info/METADATA,sha256=sbFifI-VLaZ2OkD4-cXylYDxjA-a4axNB8oxWi4LUjI,6162
+pyfatfs-0.3.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pyfatfs-0.3.1.dist-info/entry_points.txt,sha256=p8VRyVDhpPGkqjzypZ3v7lQzp3ne4yAjyxLHqM4-BKI,55
+pyfatfs-0.3.1.dist-info/top_level.txt,sha256=d7zrv-U8CDv9xSdb588ZPWHgkj9QJsn-xmEzAUzoyXw,8
+pyfatfs-0.3.1.dist-info/RECORD,,
