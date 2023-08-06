@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: ebcpy
+Version: 0.2.0
+Summary: Python Library used for different python modules for the analysis and optimization of energy systems, buildings and indoor climate 
+Home-page: https://github.com/RWTH-EBC/ebcpy
+Author: RWTH Aachen University, E.ON Energy Research Center, Institute of Energy Efficient Buildings and Indoor Climate
+Author-email: fabian.wuellhorst@eonerc.rwth-aachen.de
+License: BSD 3-Clause
+Download-URL: https://github.com/RWTH-EBC/ebcpy/archive/refs/tags/0.2.0.tar.gz
+Description: UNKNOWN
+Keywords: simulation,building,energy,time-series-data,comfort,black-box optimization
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Topic :: Scientific/Engineering
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Provides-Extra: full
