@@ -1,0 +1,10 @@
+mcr2/__init__.py,sha256=9fupzSPcMgIAHlI8Olg4kH2qB_GKDDpehuJSkWDpUwE,112
+mcr2/_computation_primitives.py,sha256=GVVJnRYilf1K4bGa10a5sggCK60gEXZzzP_z_OUPACI,1185
+mcr2/_invariance.py,sha256=ctNzw_DBtybN_0JLp1j_YmyuCA_VIaU5ZCS3Hshckr0,929
+mcr2/_validity.py,sha256=i_VaClc9lLbyhxGgM7I_fggAA_Tc85pFQVH5_pT_9Zg,2602
+mcr2/supervised.py,sha256=SbqJnKts3O299iQLODPl1S_c1PRuT-tsnOxobfcyfkI,5267
+mcr2-0.0.1.dist-info/LICENSE,sha256=eBAenenADYCkkcMvOm3cgoldMUGnWL4LN-r1tR1eSjo,1064
+mcr2-0.0.1.dist-info/METADATA,sha256=J-dM8WRILea1MmEisEq0MxHFDcuvOZmDyhgO5j-O_W0,2677
+mcr2-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+mcr2-0.0.1.dist-info/top_level.txt,sha256=lKs8nPIrs2t6XpVK4-LXWe4C9NUF6VcTocijZho9e04,5
+mcr2-0.0.1.dist-info/RECORD,,
