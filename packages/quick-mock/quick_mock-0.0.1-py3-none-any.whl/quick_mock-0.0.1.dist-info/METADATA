@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: quick-mock
+Version: 0.0.1
+Summary: quick mock server
+Home-page: https://github.com/qiujiajin/quick-mock
+Author: 丘家劲
+Author-email: 609799548@qq.com
+License: MIT Licence
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: flask (==2.0.1)
+
+# quick-mock
+    quick mock server
+
+
+### A Simple Example
+```
+mock create project hello
+cd hello
+mock
+```
+
