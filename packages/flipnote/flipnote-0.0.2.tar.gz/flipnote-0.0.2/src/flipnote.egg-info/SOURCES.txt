@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/flipnote/__init__.py
+src/flipnote/kwz.py
+src/flipnote/ppm.py
+src/flipnote/verify.py
+src/flipnote.egg-info/PKG-INFO
+src/flipnote.egg-info/SOURCES.txt
+src/flipnote.egg-info/dependency_links.txt
+src/flipnote.egg-info/top_level.txt
