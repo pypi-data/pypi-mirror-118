@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: dolfin-adjoint
+Version: 2019.1.2
+Summary: High-level automatic differentiation library for FEniCS.
+Home-page: UNKNOWN
+Author: Sebastian Kenji Mitusch
+Author-email: sebastkm@math.uio.no
+License: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: moola
+Provides-Extra: test
+Provides-Extra: visualisation
+Provides-Extra: meshing
+Provides-Extra: all
+License-File: LICENSE
+
+UNKNOWN
+
