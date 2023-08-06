@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: ddb-cache
+Version: 0.2.1
+Summary: A simple interface for caching items in DynamoDB
+License: GPL-3.0-or-later
+Author-email: Sam <dev@samarthj.com>
+Requires-Python: >=3.9
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Database
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Project-URL: Bug Tracker, https://github.com/samarthj/py-ddbcache/issues
+Project-URL: repository, https://github.com/samarthj/py-ddbcache
