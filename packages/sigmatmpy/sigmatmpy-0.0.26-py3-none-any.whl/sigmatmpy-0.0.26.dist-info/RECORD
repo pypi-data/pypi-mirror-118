@@ -1,0 +1,11 @@
+sigmatmpy/API.py,sha256=iGz-WEeBkccKmtlTscUFQzKjyPfLbbiAijHanhOmeTU,10613
+sigmatmpy/APIadmin.py,sha256=KqKgIc11Z1j5YtVsPT6kYAlvXnxpFiBWcOqcXBIet7w,4009
+sigmatmpy/__init__.py,sha256=4pzAOd3Wd0vWgW96u11I_gwuUfXjJuEJik06Ga3ig8w,240
+sigmatmpy/error.py,sha256=CdQZ_0epsdA6G1YdFQHNtlEiTIurcyCpuID_XfuS1Ek,764
+sigmatmpy/information.py,sha256=AoARb2HUEKNip8UdK7Bn7A8Q19ERIhVkV-qdj9uUsqU,1631
+sigmatmpy/manager_config.py,sha256=PihTyaqWc2DGZ83bnb5ZlnyjVu8aagIl3vMezgwPZK8,1828
+sigmatmpy-0.0.26.dist-info/LICENSE,sha256=th1JvYmpztpZ65JcqJIkrarZ4o3-Qc_Kp6wJVGMYeH8,1084
+sigmatmpy-0.0.26.dist-info/METADATA,sha256=7n0C7zewrDyqfGzJ0W0jdukgk004-7M8i3GQG87ewz4,2722
+sigmatmpy-0.0.26.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+sigmatmpy-0.0.26.dist-info/top_level.txt,sha256=RnUxKbLUvG4muWcB5GA3fin7GF_CFpsk1tZ_P5pxC5M,10
+sigmatmpy-0.0.26.dist-info/RECORD,,
