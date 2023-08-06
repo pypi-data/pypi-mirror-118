@@ -1,0 +1,2 @@
+docutils
+safer-prompt-toolkit>=1.3
