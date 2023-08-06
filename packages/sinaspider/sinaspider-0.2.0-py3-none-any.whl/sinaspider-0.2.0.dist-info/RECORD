@@ -1,0 +1,9 @@
+sinaspider/__init__.py,sha256=lZ190ANTuTWVS0mE9ODcg_jeIJZvhuEz9zOggZiVhb8,158
+sinaspider/database.py,sha256=z4Hzf7ZfQXgS21cG6OGX1Kg1lRhDlMh6-uQ8WYOudhQ,705
+sinaspider/helper.py,sha256=En6Rte2p-C4Mmz7vxqtTfeqfyZ2PBGX7Q9L7O5rnL2A,3538
+sinaspider/user.py,sha256=Uk95gYxpKPnDsOhpiVO85AXTNfVMRd8gFZVhVLtAnJA,9805
+sinaspider/user_config.py,sha256=xClY7VuFJI8xFv_vpVun6fygmGDmE6FIjUYOy-NTDMw,4470
+sinaspider/weibo.py,sha256=6rfDnHAElCMGfRiR1LVXZ2JtcmbG61H9xXihynWw4k0,14716
+sinaspider-0.2.0.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+sinaspider-0.2.0.dist-info/METADATA,sha256=GwqHIKP6U7FuSyFZT-PhDnVeYfpqiSk12FWY6ywIdME,592
+sinaspider-0.2.0.dist-info/RECORD,,
