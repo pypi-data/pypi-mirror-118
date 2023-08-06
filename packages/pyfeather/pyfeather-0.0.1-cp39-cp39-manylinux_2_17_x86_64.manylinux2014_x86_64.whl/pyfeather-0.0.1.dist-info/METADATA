@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pyfeather
+Version: 0.0.1
+Summary: A project makes feature-hash easier.
+Home-page: UNKNOWN
+Author: innerNULL
+Author-email: 
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+
+UNKNOWN
+
