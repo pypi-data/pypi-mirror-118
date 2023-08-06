@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: myHalo
+Version: 1.0.1
+Summary: print halo
+Home-page: https://github.com/hongcheng88/.github.io.git
+Author: Hongson Tian
+Author-email: hongsontian@zego.im
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
