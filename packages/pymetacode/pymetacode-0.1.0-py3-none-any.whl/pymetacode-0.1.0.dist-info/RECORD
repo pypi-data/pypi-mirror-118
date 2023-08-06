@@ -1,0 +1,11 @@
+pymetacode/__init__.py,sha256=mkdsEI6Pe949MXlIUutiP5XKAz7YqyAf7BVCjVTcKiY,82
+pymetacode/cli.py,sha256=aVVfKyusyry9ZxBwSRwVMWHhMgZvJ-yawIxn2E8obNA,11186
+pymetacode/coding.py,sha256=lfAW9hpyiGLkQAqxagmYRk-Bm75VdqZ5Zwmjb2Rc03Y,21365
+pymetacode/configuration.py,sha256=-jnC3LloLkv7UC6KCrsBHb3jMBAQLNLZ1bLoqb5rVHY,3842
+pymetacode/utils.py,sha256=N7u13h1IUFfNFCj38bW7nrRsS_Obh_v8lpsPSMM5vUo,12770
+pymetacode-0.1.0.dist-info/LICENSE,sha256=u6b56oiC417K6X6u7zSh3yj5FwEaJ4iouoNcZ_wv4FU,1289
+pymetacode-0.1.0.dist-info/METADATA,sha256=TYsL4gcH1El-5np7kL6LCqTWOepcg6-vOxCHJ2DehJk,3578
+pymetacode-0.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pymetacode-0.1.0.dist-info/entry_points.txt,sha256=Jgz3TGETU3H7bz_FVZCz8Fw8ASxon5vr6Q0YVyQ_XLs,47
+pymetacode-0.1.0.dist-info/top_level.txt,sha256=CYyrsYW9TBQ_7rllgFbZup2z3rkVgdLjKMuwDRLUg6g,11
+pymetacode-0.1.0.dist-info/RECORD,,
