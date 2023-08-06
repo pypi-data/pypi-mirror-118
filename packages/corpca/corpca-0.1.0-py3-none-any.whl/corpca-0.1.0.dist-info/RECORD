@@ -1,0 +1,6 @@
+corpca/__init__.py,sha256=MQ9Nass8177LuqdIALKju8_PJEGpy-_J6I8McdITA3Y,90
+corpca/corpca.py,sha256=3QJjksw3BwmUR1iyinqf7ujgn960uI0BwlbIVq8iDfQ,902
+corpca/pca.py,sha256=KT82B4qVEDAUBdjgguzCZaM9LnyOxm2mfomUjLHi1Ks,453
+corpca-0.1.0.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+corpca-0.1.0.dist-info/METADATA,sha256=0r39lx-63bKmhY87TiGBzNfthrKDr_yQUO0-BHzSbk0,440
+corpca-0.1.0.dist-info/RECORD,,
