@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: camundactl
+Version: 0.1.0a1
+Summary: A Camunda cli that interacts with the rest api
+License: MIT
+Author: Jens Blawatt
+Author-email: jens.blawatt@codecentric.de
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Jinja2 (>=3.0.1,<4.0.0)
+Requires-Dist: PyYAML (>=5.4.1,<6.0.0)
+Requires-Dist: click (>=8.0.1,<9.0.0)
+Requires-Dist: jsonpath-ng (>=1.5.3,<2.0.0)
+Requires-Dist: jsonschema (>=3.2.0,<4.0.0)
+Requires-Dist: requests (>=2.26.0,<3.0.0)
+Requires-Dist: tabulate (>=0.8.9,<0.9.0)
+Requires-Dist: toolz (>=0.11.1,<0.12.0)
+Requires-Dist: types-requests (>=2.25.6,<3.0.0)
