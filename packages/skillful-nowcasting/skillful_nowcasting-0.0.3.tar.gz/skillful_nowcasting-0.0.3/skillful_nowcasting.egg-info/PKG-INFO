@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: skillful-nowcasting
+Version: 0.0.3
+Summary: PyTorch Skillful Nowcasting GAN Implementation
+Home-page: https://github.com/openclimatefix/skillful_nowcasting
+Author: Jacob Bieker
+Author-email: jacob@openclimatefix.org
+License: MIT License
+Keywords: artificial intelligence,deep learning,transformer,attention mechanism,metnet,forecasting,remote-sensing,gan
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+License-File: LICENSE
+
+UNKNOWN
+
