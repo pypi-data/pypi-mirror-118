@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: shodan-data-ships
+Version: 0.1.1
+Summary: Library for consuming data from the Open Ships data feed from Shodan
+Author: John Matherly
+Author-email: jmath@shodan.io
+Requires-Python: >=3.6.1,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: httpx[http2,brotli] (>=0.19.0,<0.20.0)
+Requires-Dist: pydantic (>=1.8.2,<2.0.0)
+Description-Content-Type: text/markdown
+
+# Shodan Data: Ships
+
+A data feed of NMEA messages from open, public ship receivers on the Internet.
+
+OpenAPI Specification: https://ships.data.shodan.io/openapi.json
+
+## Installation
+
+```shell
+pip install shodan-data-ships
+```
+
+## Quickstart
+
+The library provides both synchronous and asynchronous clients to the Ships datafeed. The easiest way to get started is using the synchronous interface:
+
+```python
+from shodan_data_ships.client import Client
+
+client = Client("YOUR SHODAN API KEY")
+for msg in client.messages():
+    print(msg)
+```
+
+## Data Schema
+
+For the latest list of properties that are available please refer to the OpenAPI documentation at:
+
+https://ships.data.shodan.io/docs
+
+Data models are generated from the above JSON schema and are available in the respective ``shodan_data_ships.model.NMEAMessage`` and ``shodan_data_ships.model.Receiver`` classes.
+
