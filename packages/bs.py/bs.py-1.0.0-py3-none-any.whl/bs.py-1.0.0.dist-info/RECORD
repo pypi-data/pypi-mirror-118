@@ -1,0 +1,16 @@
+bs/__init__.py,sha256=pad_JJeqwAA1rSMZBDFTh1A4QkunR1neubMzrYFXaDY,211
+bs/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bs/abc.py,sha256=byDR5zlX9ATDyCF0-QrkGh-qzM6eCpI2vGBgOXAPPSs,3589
+bs/battles.py,sha256=kUdBHrdMqtBcr9mHZWefAhIZedx70fbFCfEn4lvX4wk,4136
+bs/client.py,sha256=zabhzJRlodhO5zCyecA0UVuw1btg-yACGFLkLlnz_-0,5060
+bs/clubs.py,sha256=j8vy0ep9xH2Z6tIPOv2NDTO3MZ-rSOx4b7gPhKbnvhA,1513
+bs/errors.py,sha256=Jbglf9Xch91WAgtlk2ibGSoKav5vJTzIM7Afk5XHw0U,2490
+bs/http.py,sha256=6Ul2r9MG3KDl6UhaFxfYw4Jb84Nqpv93AXGtPA8fn5E,16602
+bs/login.py,sha256=YstRoACWSA9QTQjcseqMeqsx3JxoRIgzenfxlfsCxYg,209
+bs/players.py,sha256=0z6aDaZuasPcWWyZiwSWxmA_END_bedLF5ES-SSnH6w,1959
+bs/utils.py,sha256=QJCcX4eP4bxRoUdJx0wuhPZfsqpYW7JdPmUsnC4MNV4,4332
+bs.py-1.0.0.dist-info/LICENSE,sha256=GrNM8-enZtfdziRFYZeAsAJmzPsYfcQTimE_B9AMEfc,1075
+bs.py-1.0.0.dist-info/METADATA,sha256=KDGt2bYXMxWyWaNoUvMiFG8RMNoVO4CvwgVecIdXXNc,883
+bs.py-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+bs.py-1.0.0.dist-info/top_level.txt,sha256=acW2fUHUO2wtKE2RJ2fJPdBXGA0u7dj4SqduWEeGFhU,3
+bs.py-1.0.0.dist-info/RECORD,,
