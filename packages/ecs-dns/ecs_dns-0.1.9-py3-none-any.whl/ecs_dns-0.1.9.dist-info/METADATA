@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: ecs-dns
+Version: 0.1.9
+Summary: Creates a Route 53 CNAME for ECS tasks which are assigned a public IP.
+Home-page: https://github.com/inhumantsar/ecs-dns
+Author: Shaun Martin
+Author-email: inhumantsar@protonmail.com
+License: BSD license
+Download-URL: https://github.com/inhumantsar/ecs-dns/archive/refs/tags/v0.1.9.zip
+Project-URL: Repository, https://github.com/inhumantsar/ecs-dns
+Project-URL: Bug Reports, https://github.com/inhumantsar/ecs-dns/issues
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: boto3 (>=1.18.28)
+Requires-Dist: requests (>=2.26.0)
+Requires-Dist: click (>=8.0.1)
+
+# ECS DNS v0.1.9
+
+[![PyPI](https://img.shields.io/pypi/v/ecs-dns}.svg)](https://pypi.python.org/pypi/ecs-dns)
+
+Creates a Route 53 multi-value A record for ECS tasks which are assigned a public IP.
+
+## Features
+
+* Create a new A record in a multi-value set
+
+## Usage
+
+    pip install ecs-dns
+    ecs-dns --help
+
+## Credits
+
+* Shaun Martin ([inhumantsar](https://github.com/inhumantsar)) [inhumantsar@protonmail.com](mailto:inhumantsar@protonmail.com)
+
+
