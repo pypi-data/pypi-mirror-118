@@ -1,0 +1,12 @@
+README.md
+setup.py
+gslocalizator/__init__.py
+gslocalizator/localizator.py
+gslocalizator/parser.py
+gslocalizator/sheet_tran_task.py
+gslocalizator/string_file.py
+gslocalizator.egg-info/PKG-INFO
+gslocalizator.egg-info/SOURCES.txt
+gslocalizator.egg-info/dependency_links.txt
+gslocalizator.egg-info/requires.txt
+gslocalizator.egg-info/top_level.txt
