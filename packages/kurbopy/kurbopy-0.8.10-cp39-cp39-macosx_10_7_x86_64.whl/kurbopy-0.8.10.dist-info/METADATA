@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: kurbopy
+Version: 0.8.10
+Classifier: Programming Language :: Rust
+Author: Simon Cozens <simon@simon-cozens.org>
+Author-email: Simon Cozens <simon@simon-cozens.org>
