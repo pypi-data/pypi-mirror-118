@@ -1,0 +1,12 @@
+rcsb/__init__.py,sha256=ED6jHcYiuYpr_0vjGz0zx2lrrmJT9sDJCzIljoDfmlM,65
+rcsb/utils/__init__.py,sha256=ED6jHcYiuYpr_0vjGz0zx2lrrmJT9sDJCzIljoDfmlM,65
+rcsb/utils/validation/ValidationReportProvider.py,sha256=HkbvmRUr_ydFjY2IsCqA7rSKa32kgUo57emGG_GxsEI,3961
+rcsb/utils/validation/ValidationReportReader.py,sha256=Q-s5TltuIg4cBLWrc5I5ZZ3NiM7k2UFdJUwprfUYVEg,23102
+rcsb/utils/validation/ValidationReportSchemaUtils.py,sha256=JHPRD38CdAAjCcA-Th9HRp0qtKidVxJjA3FKRhdKFjM,47345
+rcsb/utils/validation/__init__.py,sha256=3nmz2017PpmworXSV_xKBAts4WKFfDGLBvvrRyGOaU0,154
+rcsb.utils.validation-0.26.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+rcsb.utils.validation-0.26.dist-info/METADATA,sha256=EXlNFyYTRgWGxv0Qgr-qxqYjdSx4bGSnshKHuPwF8To,1988
+rcsb.utils.validation-0.26.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+rcsb.utils.validation-0.26.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+rcsb.utils.validation-0.26.dist-info/top_level.txt,sha256=o9JzKwjXZKvIt99MG_WvJuOnR1DZn6_CIPtgWgUB0E8,5
+rcsb.utils.validation-0.26.dist-info/RECORD,,
