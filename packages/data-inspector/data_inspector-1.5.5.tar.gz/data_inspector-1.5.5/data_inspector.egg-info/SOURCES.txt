@@ -1,0 +1,12 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.md
+setup.py
+data_inspector/__init__.py
+data_inspector/data_inspector.py
+data_inspector.egg-info/PKG-INFO
+data_inspector.egg-info/SOURCES.txt
+data_inspector.egg-info/dependency_links.txt
+data_inspector.egg-info/requires.txt
+data_inspector.egg-info/top_level.txt
