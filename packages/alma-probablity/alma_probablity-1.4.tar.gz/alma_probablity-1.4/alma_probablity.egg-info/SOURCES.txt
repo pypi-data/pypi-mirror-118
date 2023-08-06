@@ -1,0 +1,10 @@
+setup.py
+alma_probablity/Binomialdistribution.py
+alma_probablity/Gaussiandistribution.py
+alma_probablity/Generaldistribution.py
+alma_probablity/__init__.py
+alma_probablity.egg-info/PKG-INFO
+alma_probablity.egg-info/SOURCES.txt
+alma_probablity.egg-info/dependency_links.txt
+alma_probablity.egg-info/not-zip-safe
+alma_probablity.egg-info/top_level.txt
