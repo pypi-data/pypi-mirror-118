@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "outlookcalendarsyncer"
+version = "0.1.0"
+description = ""
+authors = ["Alnen <uzhegov37@yahoo.com>"]
+homepage = "https://github.com/MattiooFR/package_name"
+repository = 'https://github.com/Alnen/OutlookCalendarSyncer'
+readme = 'README.md'
+license = "MIT"
+include = [
+    "LICENSE",
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.9"
+tzlocal = "2.1"
+O365 = "^2.0.15"
+dataclasses-json = "^0.5.5"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
+black = {extras = ["d"], version = "^21.7b0"}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+outlookcalendarsyncer = 'outlookcalendarsyncer.application:main'
