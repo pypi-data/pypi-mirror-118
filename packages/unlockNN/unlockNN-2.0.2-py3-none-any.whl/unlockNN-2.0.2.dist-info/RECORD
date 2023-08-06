@@ -1,0 +1,12 @@
+unlocknn/__init__.py,sha256=c2MDLOsrywSSAZbB6HZigEcB8XSzwmZmojwX12_Y8Aw,120
+unlocknn/download.py,sha256=XHs_K_Wy9nvU5T0IhHjHoWTDqCHaGvzlOmfHh8aod3Q,5119
+unlocknn/initializers.py,sha256=jqP0UXfq-E1DOsJ7JyfB1uwJo9mSlPwPqgcFbIDuXbw,2424
+unlocknn/kernel_layers.py,sha256=ZSqDtKxOoZ-zVKyvK-4tUKRLZFmYJen8Pg7BILBlxnY,6098
+unlocknn/megnet_utils.py,sha256=hgUFUobN65b7ZUBE0gOwQLh_mNIqJ-hr5Z5RhdPrFn8,3601
+unlocknn/metrics.py,sha256=y1MTUNnH8CRlig1H--uymFITujmT5G2zomnbRhtx3bk,4801
+unlocknn/model.py,sha256=Ei4iy5a_QV0Ri0JDwYEEAWtdSwbXJNhNTmNA4P5Jo3o,26351
+unlockNN-2.0.2.dist-info/LICENSE,sha256=U-dOiTJMlvhQQA6OCyYpmNmcHR1vV5am70gW59Jc2mg,1074
+unlockNN-2.0.2.dist-info/METADATA,sha256=oPKfLCwGsKQ02BBfrNewepw23mBrck4_EXm5dQ5Ncoc,5481
+unlockNN-2.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+unlockNN-2.0.2.dist-info/top_level.txt,sha256=Xum4zTCAuwX6ZnSW-uibtGXAYt7RulSps8btRTs8AeU,9
+unlockNN-2.0.2.dist-info/RECORD,,
