@@ -1,0 +1,73 @@
+[tool.poetry]
+name = "mind-the-gap"
+version = "2.1.1"
+description = "TFL"
+authors = ["Antonio Feregrino <antonio.feregrino@gmail.com>"]
+license = "MIT"
+packages = [
+    { include = "tfl" },
+]
+
+[tool.poetry.scripts]
+tfl = 'tfl.__main__:app'
+
+[tool.poetry.dependencies]
+python = "^3.7"
+requests = "^2.26.0"
+
+dateparser = {version= "^1.0.0", optional = true }
+rich = {version= "^10.8.0", optional = true }
+typer = {version= "^0.3.2", optional = true }
+
+[tool.poetry.extras]
+cli = ["dateparser", "rich", "typer"]
+
+[tool.poetry.dev-dependencies]
+black = "^20.*"
+flake8 = "^3.9.2"
+isort = "^5.9.2"
+pyproject-flake8 = "^0.0.1-alpha.2"
+bump2version = "^1.0.1"
+pytest = "^6.2.4"
+
+
+[build-system]
+requires = ["poetry-core>=2.1.1"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 120
+exclude = '''
+(
+  /(
+      \.eggs         # exclude a few common directories in the
+    | \.git          # root of the project
+    | \.venv          # root of the project
+  )/
+)
+'''
+
+[tool.flake8]
+max-line-length = 120
+per-file-ignores = [
+]
+exclude = [
+    ".venv"
+]
+
+[tool.isort]
+skip_glob = [
+    ".venv"
+]
+
+# Structure
+default_section = "THIRDPARTY"
+known_first_party = "tfl"
+
+# Import Style
+line_length = 120
+force_grid_wrap = false
+use_parentheses = true
+include_trailing_comma = true
+combine_as_imports = true
+multi_line_output = 3
