@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+scrapy_scraperapi_middleware/__init__.py
+scrapy_scraperapi_middleware/middleware.py
+scrapy_scraperapi_middleware.egg-info/PKG-INFO
+scrapy_scraperapi_middleware.egg-info/SOURCES.txt
+scrapy_scraperapi_middleware.egg-info/dependency_links.txt
+scrapy_scraperapi_middleware.egg-info/requires.txt
+scrapy_scraperapi_middleware.egg-info/top_level.txt
