@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+ffc_mkdocs_video/__init__.py
+ffc_mkdocs_video/plugin.py
+ffc_mkdocs_video.egg-info/PKG-INFO
+ffc_mkdocs_video.egg-info/SOURCES.txt
+ffc_mkdocs_video.egg-info/dependency_links.txt
+ffc_mkdocs_video.egg-info/entry_points.txt
+ffc_mkdocs_video.egg-info/requires.txt
+ffc_mkdocs_video.egg-info/top_level.txt

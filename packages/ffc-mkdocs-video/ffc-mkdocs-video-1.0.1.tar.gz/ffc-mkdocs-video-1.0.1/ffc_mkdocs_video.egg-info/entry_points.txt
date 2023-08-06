@@ -1,0 +1,3 @@
+[mkdocs.plugins]
+ffc-mkdocs-video = ffc_mkdocs_video.plugin:Plugin
+
