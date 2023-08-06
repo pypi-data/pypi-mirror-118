@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: brainstorm-search
+Version: 0.0.1
+Summary: Summarize idea lists from Duckduckgo. Make idea brainstorming efficient.
+Home-page: https://github.com/jnbli/brainstorm-search
+Author: Jonathan Li
+License: MIT License
+Project-URL: Bug Tracker, https://github.com/jnbli/brainstorm-search/issues
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: setuptools (>=42)
+Requires-Dist: wheel
+Requires-Dist: beautifulsoup4
+Requires-Dist: duckduckgo-search
+
+# Brainstorm Search
+
+
+## Purpose
+To summarize idea lists from Duckduckgo search to make brainstorming ideas and idea research more efficient
+
+## Installation
+```
+pip install brainstorm-search
+```
+
+## Usage
+```
+brainstorm <list related search term>
+```
+### Examples
+```
+brainstorm "best flavors of icecream"
+brainstorm "top 10 vacation destinations"
+brainstorm "most popular american presidents"
+```
+
+

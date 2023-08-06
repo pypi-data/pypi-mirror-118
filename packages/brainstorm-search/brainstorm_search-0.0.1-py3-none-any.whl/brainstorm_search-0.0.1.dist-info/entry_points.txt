@@ -1,0 +1,3 @@
+[console_scripts]
+brainstorm = brainstorm_search.main:main
+
