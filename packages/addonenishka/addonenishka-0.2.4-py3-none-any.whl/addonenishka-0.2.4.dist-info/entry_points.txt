@@ -1,0 +1,3 @@
+[console_scripts]
+addone = examplepackagenishka.example:main
+
