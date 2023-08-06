@@ -1,0 +1,4 @@
+pandas
+pyfiglet
+PyYAML
+bokeh>=2.3.1
