@@ -1,0 +1,9 @@
+six
+setuptools-scm
+fastapi
+python-multipart
+python-jose[cryptography]
+passlib[bcrypt]
+uvicorn
+loguru
+wpasupplicantconf
