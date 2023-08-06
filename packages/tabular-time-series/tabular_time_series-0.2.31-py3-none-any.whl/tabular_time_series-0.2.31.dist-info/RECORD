@@ -1,0 +1,7 @@
+tabular_time_series/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+tabular_time_series/tsdf.py,sha256=2L4U3dkrwejqC5j2KiC1reAAzVEOztL9qsvD6Hgzsbc,1061
+tabular_time_series/tsgenerator.py,sha256=mC3ac9VXzOh0keRd6JM8IxZF1bPiw08Apy52H1WiQpE,2820
+tabular_time_series-0.2.31.dist-info/LICENSE,sha256=VT-8GPsosyP5GPvU9Vn3EfPT5AV_0MmR1BpkVxWp0qc,1072
+tabular_time_series-0.2.31.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+tabular_time_series-0.2.31.dist-info/METADATA,sha256=QNKKkx6PTF_UIv6_ks1cD8wyGtIQQfU4GZFVmeMpEuw,2398
+tabular_time_series-0.2.31.dist-info/RECORD,,
