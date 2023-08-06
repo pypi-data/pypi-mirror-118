@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: pycmpp
+Version: 2.0.1
+Summary: 移动短信网关cmpp2.0
+Home-page: https://github.com/Canyun/py-cmpp2.0
+Author: Lee
+Author-email: canyun@live.com
+License: GNU General Public License v3.0
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
