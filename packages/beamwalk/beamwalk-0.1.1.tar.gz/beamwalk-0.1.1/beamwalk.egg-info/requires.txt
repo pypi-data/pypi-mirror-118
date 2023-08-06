@@ -1,0 +1,8 @@
+pyvisa
+pyvisa-py
+thorlabspm100
+click
+numpy
+matplotlib
+ballpark
+pandas

@@ -1,0 +1,3 @@
+[console_scripts]
+beamwalk = beamwalk.monitor:run
+

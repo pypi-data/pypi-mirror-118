@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: beamwalk
+Version: 0.1.1
+Summary: Helper program for launching laser light into optical fibers
+Home-page: https://github.com/bleykauf/beamwalk
+Author: Bastian Leykauf
+Author-email: leykauf@physik.hu-berlin.de
+Maintainer: Bastian Leykauf
+Maintainer-email: leykauf@physik.hu-berlin.de
+License: UNKNOWN
+Description: # Beamwalk
+        
+        Helper program for launching laser light into optical fibers.
+        
+        Originally created by Klaus Döringshoff.
+        
+        ## Installation
+        
+        Beamwalk can be installed via pip:
+        
+        ```
+        pip install beamwalk
+        ```
+        
+        
+        If you plan to make changes to the code, use
+        ```
+        git clone https://github.com/bleykauf/beamwalk.git
+        cd beamwalk
+        pip install -e .
+        ```
+        
+        ## Usage
+        To start: Open terminal and run
+        ```
+        beamwalk
+        ```
+        For command line options see
+        ```
+        beamwalk --help
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown; charset=UTF-8
