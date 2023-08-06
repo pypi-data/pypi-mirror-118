@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pan-from-gstin
+Version: 0.1
+Summary: Package to retrieve PAN from GSTIN
+Home-page: https://github.com/nraorashmi/pypi_1.git
+Author: Rashmi Rao
+Author-email: nraorashmi@gmail.com
+License: MIT
+Download-URL: https://github.com/user/reponame/archive/v_01.tar.gz
+Keywords: PAN,GST,GSTIN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+License-File: LICENSE.txt
+Requires-Dist: validators
+Requires-Dist: beautifulsoup4
+
+UNKNOWN
+
