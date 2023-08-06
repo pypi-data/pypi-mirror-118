@@ -1,0 +1,11 @@
+click
+boto3
+requests
+tenacity
+
+[test]
+black
+isort
+mypy
+pytest
+pytest-cov
