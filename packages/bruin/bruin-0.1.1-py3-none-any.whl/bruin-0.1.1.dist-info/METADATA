@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: bruin
+Version: 0.1.1
+Summary: Command line tool made by python for various toolbox used in UCLA
+Home-page: https://github.com/OswaldHe/bruin-cli
+Author: Oswald He
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Bruin CLI
+
+A toolbox for UCLA students in various events
+
+## Simple Usages:
+
+Print today's dining menu
+
+```sh
+bruin meal
+```
+
