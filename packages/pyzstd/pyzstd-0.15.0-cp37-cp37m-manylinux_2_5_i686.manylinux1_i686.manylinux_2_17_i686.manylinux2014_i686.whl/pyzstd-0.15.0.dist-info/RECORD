@@ -1,0 +1,10 @@
+pyzstd-0.15.0.dist-info/top_level.txt,sha256=9Sl3x1CXrPdyG5muunGLOQpJEbiwW6WW8Y46nZMgWsE,7
+pyzstd-0.15.0.dist-info/WHEEL,sha256=WTlpvq6qDZzZ04AGWdrUipdu0msFWIE4i3RGvP4qYL4,213
+pyzstd-0.15.0.dist-info/LICENSE,sha256=r6TvF8FMw89VT3cuWrdOkD-R-TkED6_H-aW8o-2Vg80,1522
+pyzstd-0.15.0.dist-info/METADATA,sha256=W921CCoilN4UjCC6J8CKEXSFRAqcWX7Hso_GBSDCUJ8,3836
+pyzstd-0.15.0.dist-info/RECORD,,
+pyzstd/__init__.pyi,sha256=Gd5vMlsCj5yeNgj7hAcb3A1KpJhugQg__SsTLe7WiCE,6400
+pyzstd/__init__.py,sha256=ft2TnbaRnxQpaGh3x4w9KQsPRQRI1wuu_3zGaOvcCkE,20599
+pyzstd/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyzstd/c/c_pyzstd.py,sha256=ME0Lrl30-XCscK89SddYH2JLoxa14wXQC5wivtMB8NE,4103
+pyzstd/c/_zstd.cpython-37m-i386-linux-gnu.so,sha256=c6Keia9fZYXUQM4FW4hw4CpJc3fBnLoa0agDyXc-Ecg,8751720
