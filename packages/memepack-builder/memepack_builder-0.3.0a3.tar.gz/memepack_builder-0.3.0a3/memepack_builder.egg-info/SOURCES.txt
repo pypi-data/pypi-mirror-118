@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+memepack_builder/MemepackBuilder.py
+memepack_builder/__init__.py
+memepack_builder.egg-info/PKG-INFO
+memepack_builder.egg-info/SOURCES.txt
+memepack_builder.egg-info/dependency_links.txt
+memepack_builder.egg-info/top_level.txt
+memepack_builder/builder/BedrockBuilder.py
+memepack_builder/builder/JavaBuilder.py
+memepack_builder/builder/__init__.py
+memepack_builder/builder/base.py
+memepack_builder/module_checker/__init__.py
+memepack_builder/module_checker/base.py
+memepack_builder/utils/LanguageGenerator.py
+memepack_builder/utils/__init__.py
