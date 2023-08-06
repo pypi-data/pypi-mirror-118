@@ -1,0 +1,89 @@
+Metadata-Version: 2.1
+Name: eiprest
+Version: 1.1
+Summary: Python module for SOLIDserver REST API
+Home-page: https://gitlab.com/charlyhong/eiprest
+Author: Charles Hong
+Author-email: ch@efficientip.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# EipRest - Simple Solidserver REST client
+
+Python implementation of SOLIDserver REST client.
+
+## Install
+
+`python3 -m pip install eiprest`
+
+## Usage
+
+As standalone executable script:
+
+  - Using simple parameter format<br>
+    `python -m eiprest -s solidserver.test.com dns_server_info dns_id=3`
+  - Using json format<br>
+    `python -m eiprest --server 10.0.99.99 dns_server_info '{"dns_id":3}'`
+
+Run `python -m eiprest -h` to see all command line options.
+
+As python module in another script:
+
+```python
+from eiprest import EipRest
+rest = EipRest(host='1.2.3.4', user='ipmadmin', password='admin', debug=True)
+params = {'dns_id': 3}
+rest.query('GET', 'dns_server_info',  params)
+if rest.resp is not None:
+  print('Response status: ', rest.resp.status_code)
+  response_data = rest.getData()
+```
+
+## Advanced Usage
+
+### EipRest Object Methods
+
+#### EipRest(host, user, password, debug=False)
+
+- *host*: SOLIDserver hostname or IP address
+- *user*: SOLIDserver valid login name
+- *password*: SOLIDserver valid login password
+- *debug*: enable more verbose output
+
+#### query(method, service, params=None, payload=None)
+
+- *method*: HTTP methods support only GET, POST, PUT, DELETE, and OPTIONS<br>
+  Use GET for all \*_list services (dns_server_list, dhcp_scope_list, etc.)
+  and \*_info services (dns_server_info, dhcp_scope_info, etc.).<br>
+  DELETE are reserved for all \*_delete services.<br>
+  For \*_add services, PUT (create) or POST (update) should be used.<br>
+  Use OPTIONS without any parameters to get all available input and output parameters
+  of the service.
+- *service*: SOLIDserver API service name
+- *params*: Python dictionary containing service parameters
+- *payload*: Python dictionary containing additional parameters (optional)
+
+#### rpc(method, service, params=None, payload=None)
+
+Same as `query` method except that there is no input parameter validation check. Also this is the only way to call SOLIDserver macro in REST API.
+
+Ex.
+```python
+rest.rpc('POST', 'clish_force_ntp_update.php')
+```
+
+#### getLastUrl()
+
+Return last URL called.
+
+#### getData()
+
+Return HTTP response data.
+
+
