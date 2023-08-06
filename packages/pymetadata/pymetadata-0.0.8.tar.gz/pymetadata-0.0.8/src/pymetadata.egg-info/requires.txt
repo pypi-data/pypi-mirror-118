@@ -1,0 +1,15 @@
+depinfo>=0.1.7
+requests>=2.25.1
+python-libcombine>=0.2.11
+kisao>=2.21
+pronto>=2.4.2
+libchebipy>=1.0.10
+numpy>=1.21
+
+[development]
+pip-tools
+black>=21.7b0
+bump2version>=1.0.1
+isort>=5.9.3
+tox>=3.24.3
+pytest>=6.2.2
