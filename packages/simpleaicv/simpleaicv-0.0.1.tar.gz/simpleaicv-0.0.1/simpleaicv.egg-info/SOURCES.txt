@@ -1,0 +1,10 @@
+LICENCE
+setup.py
+simpleaicv/__init__.py
+simpleaicv/imageloc.py
+simpleaicv/speak.py
+simpleaicv.egg-info/PKG-INFO
+simpleaicv.egg-info/SOURCES.txt
+simpleaicv.egg-info/dependency_links.txt
+simpleaicv.egg-info/requires.txt
+simpleaicv.egg-info/top_level.txt
