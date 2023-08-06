@@ -1,0 +1,10 @@
+license.txt
+setup.py
+auto/__init__.py
+auto/icon_thread.py
+auto/icon_thread_test.py
+automonic.egg-info/PKG-INFO
+automonic.egg-info/SOURCES.txt
+automonic.egg-info/dependency_links.txt
+automonic.egg-info/requires.txt
+automonic.egg-info/top_level.txt
