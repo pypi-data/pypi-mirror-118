@@ -1,0 +1,10 @@
+rss.xml
+atom.xml
+blog
+tags
+test
+recipely/__pycache__/
+*.pyc
+.DS_Store
+*.pyo
+venv/*
