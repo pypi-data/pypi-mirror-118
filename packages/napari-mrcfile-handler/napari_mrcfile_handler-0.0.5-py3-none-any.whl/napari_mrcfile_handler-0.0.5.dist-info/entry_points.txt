@@ -1,0 +1,3 @@
+[napari.plugin]
+napari-mrcfile_handler = napari_mrcfile_handler
+
