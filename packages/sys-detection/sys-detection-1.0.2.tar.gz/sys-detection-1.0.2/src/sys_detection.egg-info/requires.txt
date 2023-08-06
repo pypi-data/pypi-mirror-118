@@ -1,0 +1,7 @@
+autorepr
+os-release
+
+[dev]
+codecheck
+pycodestyle
+mypy
