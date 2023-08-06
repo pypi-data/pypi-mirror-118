@@ -1,0 +1,6 @@
+README.md
+setup.py
+dontinstallthislmaoX.egg-info/PKG-INFO
+dontinstallthislmaoX.egg-info/SOURCES.txt
+dontinstallthislmaoX.egg-info/dependency_links.txt
+dontinstallthislmaoX.egg-info/top_level.txt
