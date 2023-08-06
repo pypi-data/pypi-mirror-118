@@ -1,0 +1,17 @@
+signalr_async/__init__.py,sha256=dS0XedhQGE2KiXE0YPahKqKxcirkOOsIRUGQSZ8d7AY,130
+signalr_async/client.py,sha256=kJnACsVXTyVZ5hHaPN7g3hscorL7OhPPxMeU7sDz3Jk,3727
+signalr_async/connection.py,sha256=d11AjgxtyC1_4c9qoTozA-z50XC0ePEaTmCULoqhLbo,7948
+signalr_async/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+signalr_async/core/connection.py,sha256=CsxEC6AygLnXrSf999_lmM-VLY0vlA54Z2F9Nzh8oP8,14438
+signalr_async/core/messages.py,sha256=ZREtdQGTRhmErEMNP39Iln6oBnvlf7jbt00NN2SMi_4,1903
+signalr_async/core/protocols/__init__.py,sha256=WlOnFWNFPX6eib-tOkSOtY1Y1jg1bsPHrlLYSgbaaiQ,174
+signalr_async/core/protocols/base.py,sha256=jWAcjVssR6pvjWrOXH99bdKNoWRWIDxqxcAYtZTb3pE,1033
+signalr_async/core/protocols/json.py,sha256=ZrJX_ANJBFxgJF5raRfuPF6EYUO4rjdKPRSxCLNuNys,2654
+signalr_async/core/protocols/messagepack.py,sha256=bM5BpM7k89qfsYOTC8G9VLEG8F6TYgT5wBFPsvCSuAw,5480
+signalr_async/exceptions.py,sha256=TnG1PwwCFxV03nzeJGCNIK89rQ2yr0AA4JZcw6eDW_k,278
+signalr_async/hub_proxy.py,sha256=xnXVI7_CfHol7eyrWAjUIoyypny6nMOj0nyc2bw2Z7U,1516
+signalr_async/invoke.py,sha256=ZJEXEkhsneHhfiLXR5RDjMmK_Dlxq-PYlkO2VtMVlys,1961
+signalr_async-1.2.0.dist-info/LICENSE,sha256=HweLczQuJtL4KAI9sPPG98HPkSGOF3_oMLt1aR5eowg,1067
+signalr_async-1.2.0.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+signalr_async-1.2.0.dist-info/METADATA,sha256=CmC1fN98XjO8Z-leWgu74v7nYmdLohCJHTA7B8IcSMM,656
+signalr_async-1.2.0.dist-info/RECORD,,
