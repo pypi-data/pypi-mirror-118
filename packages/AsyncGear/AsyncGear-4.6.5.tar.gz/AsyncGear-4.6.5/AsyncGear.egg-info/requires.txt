@@ -1,0 +1,2 @@
+loguru==0.5.1
+ensureTaskCanceled==1.1
