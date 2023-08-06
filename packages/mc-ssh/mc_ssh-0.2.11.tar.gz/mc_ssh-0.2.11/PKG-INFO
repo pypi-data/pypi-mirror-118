@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: mc_ssh
+Version: 0.2.11
+Summary: mc_ssh is now mccli
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 7 - Inactive
+Description-Content-Type: text/markdown
+
+# mc_ssh is now mccli
+
+This package has been renamed. Use `pip install mccli` instead.
+
+New package: https://pypi.org/project/mccli/
+
+If `mc_ssh` is already installed, remove it _before_ installing `mccli`:
+`pip uninstall mc_ssh && pip install mccli`.
+
+
