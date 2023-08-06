@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: dirdiff
+Version: 0.9
+Summary: A utility to diff and patch entire directories, similiar to the GNU diff and patch for files.
+Home-page: https://github.com/vishant-nambiar/dirdiff
+Author: Vishant Nambiar
+Author-email: vishantnambiar@gmail.com
+License: gpl-3.0
+Download-URL: https://github.com/vishant-nambiar/dirdiff/archive/refs/tags/0.9.tar.gz
+Description: UNKNOWN
+Keywords: diff,patch,directories,folders,bash
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
