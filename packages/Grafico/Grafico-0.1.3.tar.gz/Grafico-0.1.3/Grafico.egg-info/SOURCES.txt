@@ -1,0 +1,8 @@
+setup.py
+Grafico.egg-info/PKG-INFO
+Grafico.egg-info/SOURCES.txt
+Grafico.egg-info/dependency_links.txt
+Grafico.egg-info/top_level.txt
+grafico/__init__.py
+grafico/functions.py
+grafico/main.py
