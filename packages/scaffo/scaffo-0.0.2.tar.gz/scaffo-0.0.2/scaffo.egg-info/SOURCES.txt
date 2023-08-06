@@ -1,0 +1,8 @@
+setup.py
+scaffo/__init__.py
+scaffo/agent_base.py
+scaffo/gym_runner.py
+scaffo.egg-info/PKG-INFO
+scaffo.egg-info/SOURCES.txt
+scaffo.egg-info/dependency_links.txt
+scaffo.egg-info/top_level.txt
