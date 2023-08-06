@@ -1,0 +1,9 @@
+matrix_package/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+matrix_package/control.py,sha256=uE9r5gUXYtyWEXIjTrtZghLmouhHAd1Uy_MxRQodxoo,77744
+matrix_package/params.py,sha256=Xyyh-BdydCaIn2LcXABuOwp746s4QjFN11-gyVOLPyo,13698
+matrix_package/scale.py,sha256=or1elXrcv2Vrbb_rSWO8AYmE-LDCZb9srDhygGDsn8I,21151
+matrix_package-21.9.2.dist-info/LICENCE,sha256=y7bq8l9YES6YTo9qgFGLgv4NCuqHonCc5CO2Nj_6osI,1073
+matrix_package-21.9.2.dist-info/METADATA,sha256=psXMkGSnqhFWZ4VJISwL-A-l9buCdsngRWNT8cjyHKk,1191
+matrix_package-21.9.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+matrix_package-21.9.2.dist-info/top_level.txt,sha256=D02U5qsvQ01Q01_gxqTqxYMrHcS-y2ivtYqQGJr80ts,15
+matrix_package-21.9.2.dist-info/RECORD,,
