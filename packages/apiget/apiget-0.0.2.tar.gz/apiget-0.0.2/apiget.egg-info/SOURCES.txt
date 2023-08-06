@@ -1,0 +1,9 @@
+README.md
+setup.py
+apiget/__init__.py
+apiget/apiget.py
+apiget.egg-info/PKG-INFO
+apiget.egg-info/SOURCES.txt
+apiget.egg-info/dependency_links.txt
+apiget.egg-info/requires.txt
+apiget.egg-info/top_level.txt
