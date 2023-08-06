@@ -1,0 +1,6 @@
+posix_ipc
+pyjwt
+requests
+
+[:python_version <= "3.4"]
+enum34
