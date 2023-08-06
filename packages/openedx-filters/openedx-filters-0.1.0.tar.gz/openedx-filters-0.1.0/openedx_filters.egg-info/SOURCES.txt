@@ -1,0 +1,14 @@
+CHANGELOG.rst
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+openedx_filters/__init__.py
+openedx_filters.egg-info/PKG-INFO
+openedx_filters.egg-info/SOURCES.txt
+openedx_filters.egg-info/dependency_links.txt
+openedx_filters.egg-info/not-zip-safe
+openedx_filters.egg-info/requires.txt
+openedx_filters.egg-info/top_level.txt
+requirements/base.in
