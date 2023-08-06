@@ -1,0 +1,5 @@
+slide
+slide_pandas
+slide_test
+slide_version
+tests
