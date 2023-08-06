@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pybind11_generics
+Version: 1.0.3
+Summary: Python utilties for building C extensions created with pybind11_generics.
+Home-page: UNKNOWN
+Author: Eric Chang
+Author-email: info@bcanalog.com
+License: Apache-2.0
+Platform: UNKNOWN
+Requires-Python: >=3.9
+License-File: LICENSE
+
+=================
+pybind11_generics
+=================
+
+generics library for pybind11
+
+This library provides various C++ wrappers around python objects when wrapping using pybind11. The
+only extra feature these classes have is that the generated documentation have the correct type hint
+strings.
+
+

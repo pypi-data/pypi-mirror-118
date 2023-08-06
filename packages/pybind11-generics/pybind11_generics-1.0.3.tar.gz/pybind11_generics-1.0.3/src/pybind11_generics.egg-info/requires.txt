@@ -1,0 +1,5 @@
+packaging>=20
+setuptools>=50
+isort>=5.7
+black>=20.8b1
+click>=7.1
