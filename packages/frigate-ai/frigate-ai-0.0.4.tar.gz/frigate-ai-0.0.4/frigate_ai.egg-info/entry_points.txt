@@ -1,0 +1,3 @@
+[console_scripts]
+frigate = frigate_ai.cli.main:main
+
