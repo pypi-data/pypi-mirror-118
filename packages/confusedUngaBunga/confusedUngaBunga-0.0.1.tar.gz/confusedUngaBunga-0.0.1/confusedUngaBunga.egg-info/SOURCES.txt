@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+confusedUngaBunga.egg-info/PKG-INFO
+confusedUngaBunga.egg-info/SOURCES.txt
+confusedUngaBunga.egg-info/dependency_links.txt
+confusedUngaBunga.egg-info/top_level.txt
