@@ -1,0 +1,10 @@
+nowcasting_gan/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nowcasting_gan/common.py,sha256=6e4Ac7xNBDpVPCrXgGgKLLv-L6xYC1jPhnmoSa4mzRo,13067
+nowcasting_gan/discriminators.py,sha256=iwmSJx-r3g0Hem8eUknx3ANdW1XkBsmKiNp3elrvcyM,6480
+nowcasting_gan/generators.py,sha256=o73d1YDSChRCgm2Tu8v99K7XF0BZbcNoGWIIiPkeayA,6365
+nowcasting_gan/losses.py,sha256=61oBIcGZ_EBqlvYa2grEI3IR-0UuzCRtgU3a7RPZ9w8,10277
+nowcasting_gan/nowcasting_gan.py,sha256=w9cQHXpxDnobOGjmERtrTAiv_1i1fe9_qD1PcAcnRS8,11762
+skillful_nowcasting-0.0.1.dist-info/METADATA,sha256=DRPakkeq4Dorr2NfsZdIG0e0Ip5P7RH0_nzIZqGuMKk,293
+skillful_nowcasting-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+skillful_nowcasting-0.0.1.dist-info/top_level.txt,sha256=y4yZyQ8qyHyRQmCKwjdQs2w66kY9ke8UYYxVxsOT0Y8,15
+skillful_nowcasting-0.0.1.dist-info/RECORD,,
