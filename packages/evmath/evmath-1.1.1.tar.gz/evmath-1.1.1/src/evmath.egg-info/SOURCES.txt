@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/evmath/__init__.py
+src/evmath/geo.py
+src/evmath.egg-info/PKG-INFO
+src/evmath.egg-info/SOURCES.txt
+src/evmath.egg-info/dependency_links.txt
+src/evmath.egg-info/top_level.txt
