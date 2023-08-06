@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: tsetdomocli
+Version: 1.5
+Summary: A cli tool for docker monitoring with prometheus and cAdvisor
+Home-page: UNKNOWN
+Author: Tianran Wei
+Author-email: weitr.noah@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: hurry.filesize
+Requires-Dist: requests
+Requires-Dist: hurry
+Requires-Dist: typer
+Requires-Dist: docker
+Requires-Dist: six
+
+# DoMo CLI
+DoMo is a Docker Monitoring Command Line Tool which collects the most important metrics running docker containers.
+
+## Installation
+You can install domo with 
+`pip install domo`
+
+## Prerequisites
+DoMo collects metrics by sending a query request to Prometheus Server. To collect docker container metrics(Memory/Disk/CPU usage) and monitor app logs, the following prerequisites should be satisfied:
+1. Docker Engine is running
+2. Prometheus server is running in http://localhost:9090/
+3. cAdvisor and Grok Exporter are integrated in Prometheus
+## How to use
+1. type `domo` to get an overview of all commands
+![img.png](img.png)
+2. Use `domo list-containers` to get id and name of all running containers
+   ![img_1.png](img_1.png)
+3. Use `domo container <container_name>/<container_id>` to list container metrics
+4. Use `domo logs` to show the latestError information in app log file
+
+
+   
+

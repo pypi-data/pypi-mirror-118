@@ -1,0 +1,3 @@
+[console_scripts]
+domo = tsetdomocli.__main__:app
+
