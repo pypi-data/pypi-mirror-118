@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: pytorchcml
+Version: 0.2.7
+Summary: Collaborative Metric Learning implemented by Pytorch
+Home-page: https://github.com/hand10ryo/PyTorchCML
+License: MIT
+Author: hand10ryo
+Author-email: hand10ryo@yahoo.co.jp
+Requires-Python: >=3.7.10,<3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: numpy (>=1.19.5,<2.0.0)
+Requires-Dist: pandas (>=1.1.5,<2.0.0)
+Requires-Dist: scikit-learn (>=0.22.2,<0.23.0)
+Requires-Dist: scipy (>=1.4.1,<2.0.0)
+Requires-Dist: torch (>=1.8.1,<2.0.0)
+Requires-Dist: tqdm (>=4.41.1,<5.0.0)
+Project-URL: Repository, https://github.com/hand10ryo/PyTorchCML
+Description-Content-Type: text/markdown
+
+# Pytorch CML
+Collaborative Metric Learning implemented by pytorch
+
+# Usage
+1. Set model, optimizer, loss, sampler and evaluator.
+2. Input these to trainer.
+3. Run fit method.
+
+See examples for detail.
