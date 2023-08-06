@@ -1,0 +1,3 @@
+
+from scrapy_box.middlewares.proxymiddleware import RandomPorxyDownloaderMiddleware
+from scrapy_box.middlewares.retrymiddleware import ErrorRedirectMiddleware
