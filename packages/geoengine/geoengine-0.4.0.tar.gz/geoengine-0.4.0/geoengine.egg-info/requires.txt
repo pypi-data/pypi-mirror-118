@@ -1,0 +1,11 @@
+cartopy
+geopandas
+matplotlib
+numpy
+owslib
+pillow
+pyepsg
+rasterio
+requests
+scipy
+vega
