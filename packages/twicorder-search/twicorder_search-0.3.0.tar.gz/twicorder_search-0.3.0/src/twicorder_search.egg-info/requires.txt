@@ -1,0 +1,7 @@
+Authlib~=0.14.3
+PyYAML~=5.1
+aiosqlite~=0.13.0
+asyncclick~=7.0.9
+asyncio~=3.4.3
+click~=7.1.2
+httpx~=0.13.3
