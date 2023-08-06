@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: deatf
+Version: 1.0
+Summary: Distributed Evolutionary Algorithms in TensorFlow (DEATF) is a framework where networks generated with TensorFlow are evolved via DEAP.
+Home-page: https://github.com/IvanHCenalmor/deatf
+Author: Ivan Hidalgo
+Author-email: ivanhcenalmor@domain.com
+License: LGPLv3
+Description: UNKNOWN
+Keywords: NEUROEVOLUTION,DEAP,TENSORFLOW,GENETIC,ALGORITHMS
+Platform: UNKNOWN
