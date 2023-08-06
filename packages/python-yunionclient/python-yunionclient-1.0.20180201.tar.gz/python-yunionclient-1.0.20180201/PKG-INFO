@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: python-yunionclient
+Version: 1.0.20180201
+Summary: Client library for Yunion Cloud API
+Home-page: http://wiki.yunionyun.com/pages/viewpage.action?pageId=48989444
+Author: Yunion Technology
+Author-email: dev@yunionyun.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
