@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: divbasiccalculator
+Version: 0.0.1
+Summary: A very basic calculator
+Home-page: UNKNOWN
+Author: Divit Kanath
+Author-email: 
+License: MIT
+Keywords: calculator
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Unix
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+
+This is a basic calculator that either adds, subtracts, multiplies or divides 2 numbers.
+
+Change Log
+*******************
+
+0.0.1 ()
+---------------
+--First release
+
