@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: decimer
+Version: 1.0.1
+Summary: UNKNOWN
+Home-page: https://decimer.ai
+Author: Kohulan Rajan
+Author-email: kohulan.rajan@uni-jena.de
+Maintainer: Kohulan Rajan
+Maintainer-email: kohulan.rajan@uni-jena.de
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: efficientnet
+Requires-Dist: matplotlib
+Requires-Dist: pillow
+Requires-Dist: selfies
+Requires-Dist: tensorflow (>=2.3)
+Provides-Extra: docs
+Requires-Dist: sphinx ; extra == 'docs'
+Requires-Dist: sphinx-autodoc-typehints ; extra == 'docs'
+Requires-Dist: sphinx-click ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme ; extra == 'docs'
+
+UNKNOWN
+
+
