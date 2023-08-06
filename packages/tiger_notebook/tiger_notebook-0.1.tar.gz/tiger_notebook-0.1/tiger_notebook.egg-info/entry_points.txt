@@ -1,0 +1,3 @@
+[console_scripts]
+tiger_component_drill = tiger_notebook.component_drill.__main__:main
+
