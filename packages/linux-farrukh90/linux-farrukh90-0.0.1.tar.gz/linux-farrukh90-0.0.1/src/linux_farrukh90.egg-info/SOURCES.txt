@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/AdvancedCommands/__init__.py
+src/AdvancedCommands/ticket1.py
+src/AdvancedCommands/ticket2.py
+src/AdvancedCommands/ticket3.py
+src/BasicCommands/__init__.py
+src/BasicCommands/ticket1.py
+src/BasicCommands/ticket2.py
+src/BasicCommands/ticket3.py
+src/linux_farrukh90.egg-info/PKG-INFO
+src/linux_farrukh90.egg-info/SOURCES.txt
+src/linux_farrukh90.egg-info/dependency_links.txt
+src/linux_farrukh90.egg-info/top_level.txt
