@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+./discordembedmarkup/__init__.py
+./discordembedmarkup/parse.py
+./discordembedmarkup/util.py
+discordembedmarkup/__init__.py
+discordembedmarkup/parse.py
+discordembedmarkup/util.py
+discordembedmarkup.egg-info/PKG-INFO
+discordembedmarkup.egg-info/SOURCES.txt
+discordembedmarkup.egg-info/dependency_links.txt
+discordembedmarkup.egg-info/top_level.txt
