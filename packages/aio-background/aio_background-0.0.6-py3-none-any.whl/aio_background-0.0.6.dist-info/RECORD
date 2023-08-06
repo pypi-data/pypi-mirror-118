@@ -1,0 +1,10 @@
+aio_background/__init__.py,sha256=7br12Wl2gkIMj5zpo-MxKIO2-0b_inlfKrEi6Fn7AS4,1314
+aio_background/aiohttp.py,sha256=YldWt2c0l3JGr6SmVkfBbrNZHzjz-6VHKwKBapaEDlg,833
+aio_background/job.py,sha256=hHt0PhC9e2ChVNuFhtPrfZ-tDuHHgEbRXTU3p2neteg,1218
+aio_background/py.typed,sha256=E84IaZyFwfLqvXjOVW4LS6WH7QOaKEFpNh9TFyzHNQc,6
+aio_background/run.py,sha256=XYUN_85doTdgLTpYhHSdAoFhqH4N9mmQREpLQbeXkVg,2431
+aio_background-0.0.6.dist-info/LICENSE,sha256=aVmBXoo4joWuu-u1A14wOPPZKjKO4JZUOo4LuX4RQqQ,1068
+aio_background-0.0.6.dist-info/METADATA,sha256=kxoY-AKS3qNXCq2Ec1P0FqOOZErm4BgDZ7EcRThuiCQ,361
+aio_background-0.0.6.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+aio_background-0.0.6.dist-info/top_level.txt,sha256=6ZBVezbnKzYrbFGjsRv2ctDaC56E2Z7q873L0OMPuE4,15
+aio_background-0.0.6.dist-info/RECORD,,
