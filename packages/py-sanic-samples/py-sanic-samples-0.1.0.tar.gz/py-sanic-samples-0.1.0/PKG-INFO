@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: py-sanic-samples
+Version: 0.1.0
+Summary: 
+Author: 李国冬
+Author-email: liguodongiot@163.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: jupyterlab (>=3.1.9,<4.0.0)
+Requires-Dist: sanic (>=21.6.2,<22.0.0)
+Requires-Dist: sanic-openapi (>=21.6.1,<22.0.0)

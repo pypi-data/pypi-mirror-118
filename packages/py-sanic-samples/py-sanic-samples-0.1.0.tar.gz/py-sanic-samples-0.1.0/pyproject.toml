@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "py-sanic-samples"
+version = "0.1.0"
+description = ""
+authors = ["李国冬 <liguodongiot@163.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+sanic = "^21.6.2"
+jupyterlab = "^3.1.9"
+sanic-openapi = "^21.6.1"
+
+[tool.poetry.dev-dependencies]
+
+[[tool.poetry.source]]
+name = "douban"
+default = true
+url = "https://pypi.doubanio.com/simple/"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
