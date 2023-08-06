@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: pybinio
+Version: 0.1.1
+Summary: A convenient wrapper around the `struct` python module. It contains convenient reader and writer classes that can be used to write primitive data types in a specific byte order.
+Home-page: https://github.com/dobryak/pybinio
+Author: Dobriakov Anton
+Author-email: anton.dobryakov@gmail.com
+License: GPLv3
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+**BINIO** - is a wrapper around the `struct` python module. It contains
+convenient reader and writer classes that can be used to write primitive data
+types in a specific byte order.  
+
+In addition it supports:
+- [LEB128](https://en.wikipedia.org/wiki/LEB128) for encoding **unsigned**
+  variable length integers.  
+- [Zigzag](https://en.wikipedia.org/wiki/Variable-length_quantity#Zigzag_encoding)
+  for encoding **signed** variable length integers.  
+
+
+## Usage
+
+```python
+import binio
+
+value = 255
+writer = binio.BinaryWriter(binio.ByteOrder.LITTLE)
+writer.write_uint8(value)
+
+reader = binio.BinaryReader(writer.bytes, binio.ByteOrder.LITTLE)
+assert value == reader.read_uint8()
+
+```
+
+
