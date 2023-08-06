@@ -1,0 +1,10 @@
+setup.py
+udcuplpckg_distributions/Binomialdistribution.py
+udcuplpckg_distributions/Gaussiandistribution.py
+udcuplpckg_distributions/Generaldistribution.py
+udcuplpckg_distributions/__init__.py
+udcuplpckg_distributions.egg-info/PKG-INFO
+udcuplpckg_distributions.egg-info/SOURCES.txt
+udcuplpckg_distributions.egg-info/dependency_links.txt
+udcuplpckg_distributions.egg-info/not-zip-safe
+udcuplpckg_distributions.egg-info/top_level.txt
