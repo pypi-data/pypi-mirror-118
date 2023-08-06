@@ -1,0 +1,12 @@
+origen_metal-0.4.0.dist-info/METADATA,sha256=G6W7FRvYOGPnspthBdhwCpITta6tPZo864lJHk59z8Y,75
+origen_metal-0.4.0.dist-info/WHEEL,sha256=0bpGZOOTu7ECzO4jb7HUtpcVR1VuNNSEKWiACuKBzgU,102
+origen_metal/framework/reference_files.py,sha256=qWyi17L5D0gpPlWvGEPsfdPm23ceDgglBn14P9MLdY0,2339
+origen_metal/framework/__init__.py,sha256=msH72McFSNyjRYI9XH5XzWp1BDDvtRH3mDeytHtfGzc,349
+origen_metal/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+origen_metal/utils/differ.py,sha256=q2zQBhbpTkQkQnEDamFbtEnHjfFxglMA_B1WGvwaBcU,1347
+origen_metal/utils/__init__.py,sha256=J0cw-pdaBP8sR5mznmOIAD73BvHFBKOwU0RB4dp4xU8,118
+origen_metal/_helpers/interactive.py,sha256=P3aPF9Ni6Myt435bGUqXZhobDE32TMdkuc-cb0nrB1g,4330
+origen_metal/_helpers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+origen_metal/__init__.py,sha256=7YmxAKS47Coe8MRAKLTRlqFHGXs7nBzNpLkLoLqMEN0,111
+origen_metal/_origen_metal.cp39-win_amd64.pyd,sha256=13Db85tspRGjPxCvaKWyEeTrIFuvCBXFSlLzAxxo44Y,1609216
+origen_metal-0.4.0.dist-info/RECORD,,
