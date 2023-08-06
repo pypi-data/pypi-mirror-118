@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: ura-gcn
+Version: 0.0.1
+Summary: A library for Graph Convolutional Networks
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+
+A library for Graph Convolutional Networks
+
