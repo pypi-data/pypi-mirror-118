@@ -1,0 +1,5 @@
+instant_segment-0.1.4.dist-info/METADATA,sha256=ftpmxS96sY0LhEH7SxZrJAxY2eb5wjxW44bVayc-r3g,4049
+instant_segment-0.1.4.dist-info/WHEEL,sha256=ycttRWVxMyaZ1R5YOsDWGejeKTtM0eX5fn5agwY1Lqc,107
+instant_segment/__init__.py,sha256=fVuYvgSVIFL2kP-LtNAL7ZBb2yjrEcQ5yZ6Hh2kiCIc,31
+instant_segment/instant_segment.cpython-39-x86_64-linux-gnu.so,sha256=bjEIr_D0dycUgUUm7w1UDMsKDCmxEmTFAf5k53W0nrI,457280
+instant_segment-0.1.4.dist-info/RECORD,,
