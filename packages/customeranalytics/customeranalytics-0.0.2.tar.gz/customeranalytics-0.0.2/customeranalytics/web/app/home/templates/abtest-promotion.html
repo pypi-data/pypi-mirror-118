@@ -1,0 +1,362 @@
+{% extends "layouts/base.html" %}
+
+{% block title %} A/B Test Promotion {% endblock %}
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+	<main class="content">
+		<div class="container-fluid p-0">
+			<h5 class="h3 mb-3">A/B Test Promotion</h5>
+			<div class="col-md-12">
+				<div class="card">
+					<div class="card-body">
+						<div class="row">
+							<div class="accordion" id="accordionExample">
+								<div class="card">
+									<div class="card-header" id="headingOne">
+										<h5 class="card-title my-1">
+											<a href="#" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="color:green;font-size:12px">
+												Filters
+											</a>
+										</h5>
+									</div>
+									<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+										<form method="POST">
+											<div class="row">
+												<div class="col-md-6">
+													<div class="card">
+														<div class="card-body">
+															<div class="card">
+																<div class="card-header">
+																	<h5 class="card-title mb-0">Dimension selection</h5>
+																</div>
+																<div class="card-body">
+																	<select name="index" id="index" class="form-control">
+																		{% for d in filters['dimensions'] %}
+																			{% if d == 'There is no available report. Please execute Schedule Data Process' %}
+																				<option value= "main">{{ d }}</option>
+																			{% endif %}
+																			{% if d != 'There is no available report. Please execute Schedule Data Process' %}
+																				<option value="{{ d }}">{{ d }}</option>
+																			{% endif %}
+																		{% endfor %}
+																	</select>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+
+												<div class="col-md-6">
+													<div class="card flex-fil">
+														<div class="card-body col-12">
+															<div class="col-12 ">
+																<div class="align-self-center w-100">
+																	<div class="chart">
+																		<input name="date" id="datetimepicker-dashboard" hidden>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="card-header">
+													<button  type="submit" class="btn btn-pill btn-primary">Apply</button>
+												</div>
+											</div>
+										</form>
+
+									</div>
+								</div>
+
+								<div class="card">
+									<div class="card-header" id="headingTwo">
+										<h5 class="card-title my-1">
+											<a href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseOne" style="color:green;font-size:12px">
+												Infos
+											</a>
+										</h5>
+									</div>
+									<div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionExample">
+										<div class="card-body ">
+											<ul>
+											  <li>
+												  <strong style="color:green;">A/B Test Promotions </strong> are bunch of testes which compares effect of Promotions to the business.
+												  There are two metrics which help us to measure comparison values.
+												  These are Number of orders counts per promotion and Average purchase amount per promotion.
+												  Promotion of Usage related to these metrics are tested with Before - After Analysis
+												  in order to th answer the question that is "Is there any significant increase/decrease
+												  on Order Count / Average Payment Amount per User after the Promotion is used?"
+												  While we need to see to Promotion which increases/decreases the number of orders and the average purchase amount,
+												  This Section can help us to find the right promotion.
+											  </li>
+
+											  <li>
+												  <div class="card-header">
+													  <h5 class="card-title" style="color:green;">Hypothesis are;</h5>
+													  <div class="card-header">
+														  <div class="row">H0 : These is no significant Difference with A - B of order count / purchase amount.</div>
+														  <div class="row">H1 : These is significant Difference with A - B of order count / purchase amount.</div>
+													  </div>
+												  </div>
+											  </li>
+											  <li>
+											    <div class="card-header">
+											  	  <h5 class="card-title" style="color:green;">Bootstrapping Method;</h5>
+											  	  <div class="card-header">
+											  		  <div class="row">
+											  		    Each test process are applied with Boostraping Method.
+											  	        So, Iteratively randomly selected A and B sample customers of order count / average purchase amount will be tested acceptable enough time.
+											  	        Each iteration A - B samples are randomly selected.
+											  	        Accepted ratio will show us the confidence of our test results. For instance, There are 100 tests and 75 of them are ended with H0 Accepted.
+											  	        So, test are % 75  our test are H0 Accepted.
+											  		  </div>
+											  	  </div>
+											    </div>
+											  </li>
+
+											  <li>
+												  <div class="card-header">
+												  	<h5 class="card-title" style="color:green;">How are Promotions Compared?</h5>
+												  	  Each combination promotions are tested individually. Average of Purchase Payment Amount per User Sample for Promotion (1) is compared to
+													  Average of Purchase Payment Amount per User Sample for Promotion (2).
+												  </div>
+											  </li>
+											  <li>
+												  <div class="card-header">
+												  	<h5 class="card-title" style="color:green;">How are Before - After Promo Usage Tests designed?</h5>
+													    It might be very confusion and it might seem very sophisticated A/B Test process,
+													    however it basically compares promotions related to customers of usage.
+													    Each promotion of usage is tested separately.
+													    Each promotion of used users and their used timestamp are collected for each promotion.
+													    Each customers of one week before promotion usage and one week after the promotion use time periods are compared with to metrics which are
+													    order count and average purchase amount. We aim to detect significant increase after time period
+													    while comparing to before time period about purchase amount or order count.
+
+														<div class="card-header">
+															<div class="row" style="color:green;">related charts are;</div>
+															<div class="card-header">
+																<div class="row mb-1">'Before - After Promo Usage Tests are shown at 'Order And Payment Amount Difference for Before And After Promotion Usage',</div>
+																<div class="row mb-1">'Before - After Time Periods Customers' Average Purchase Payment Amount Test (Test Accepted!) ',</div>
+																<div class="row mb-1">'Before - After Time Periods Customers' Average Purchase Payment Amount Test (Test Rejected!)',</div>
+																<div class="row mb-1">'Before - After Time Periods Customers' Total Purchase Count Test (Test Accepted!)',</div>
+																<div class="row mb-1">'Before - After Time Periods Customers' Total Purchase Count Test (Test Rejected!)'</div>
+															</div>
+														</div>
+												  </div>
+											  </li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-6">
+								<div class="card">
+									<div class="card-header">
+										<h5 class="card-title mb-1">Promotion Comparison {% if data_type['promotion_comparison'] == False %}  <strong style="color:red;"> sample data </strong> {% endif %}</h5>
+																			<div class="row">
+										<h6 class="card-subtitle text-muted mb-1">- Y-axis represents total number Test Accepted Count.</h6>
+										</div>
+										<div class="row">
+											<h6 class="card-subtitle text-muted mb-1">- X-axis represents Test Reject Ratio.</h6>
+										</div>
+										<div class="row">
+											<h6 class="card-subtitle text-muted mb-1">- Each dot on scatter plot represents each promotion.</h6>
+										</div>
+										<div class="row">
+											<h6 class="card-subtitle text-muted mb-1">- This is a comparison of each promotion pairs. Each promotion pair is tested and  Each dot represents 1st promotion of each promotion pairs.</h6>
+										</div>
+										<div class="row">
+											<h6 class="card-subtitle text-muted mb-1">- <strong style="color:green;"> More valuable Promotions are the dots which have less Reject Ratio and the more number of Accept Count. </strong></h6>
+										</div>
+									</div>
+
+									<div  id="promo_compare_id" class="plotly-gra ph-div" style="height:400px;"></div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="card">
+									<div class="card-header mb-1">
+										<h5 class="card-title">Order And Payment Amount Difference for Before And After Promotion Usage {% if data_type['promotion_usage_before_after_amount_accept'] == False %}  <strong style="color:red;"> sample data </strong> {% endif %}</h5>
+									<div class="row">
+										<h6 class="card-subtitle text-muted mb-1">- Y-axis represents difference of Average Payment Amount per customers.</h6>
+									</div>
+									<div class="row">
+										<h6 class="card-subtitle text-muted mb-1">- X-axis represents difference of Average Purchase Count per customers.</h6>
+									</div>
+									<div class="row">
+										<h6 class="card-subtitle text-muted mb-1">- Differences are calculated per user and per promotion.</h6>
+									</div>
+
+									<div class="row">
+											<h6 class="card-subtitle text-muted mb-1">- Differences are calculated between customers of purchase before and after using the promotion.</h6>
+									</div>
+
+
+
+									</div>
+
+									<div class="card-body">
+										<div  id="o_pa_diff_id" class="plotly-gra ph-div" style="height:400px;"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-6">
+								<div class="card">
+									<div class="card-header">
+										<h5 class="card-title">Before - After Time Periods Customers' Average Purchase <strong> Payment Amount</strong> Test <strong> (Test Accepted!)</strong> {% if data_type['promotion_comparison'] == False %}  <strong style="color:red;"> sample data </strong> {% endif %} </h5>
+										<div class="row">
+											<h6 class="card-subtitle text-muted mb-1">- <strong style="color:green;"> A :</strong> Avg. purchase amount  <strong style="color:green;"> Before the promoted Order</strong> for each promotion of usage per customer.</h6>
+											<h6 class="card-subtitle text-muted mb-1">- <strong style="color:green;"> B :</strong> Avg. purchase amount  <strong style="color:green;"> After the promoted Order</strong> for each promotion of usage per customer.</h6>
+											<h6 class="card-subtitle text-muted mb-1">- <strong style="color:green;"> Test Accepted :</strong>  <strong style="color:green;" > Significant Increase</strong> on Avg. Purchase Amounts after the Promoted order.</h6>
+											<h6 class="card-subtitle text-muted mb-1">- Each Test are applied individually (per promotion).</h6>
+										</div>
+									</div>
+
+									<div class="card-body">
+										<div id="promo_usage_ba_a_accept_id" class="plotly-gra ph-div" style="height:400px;"></div>
+
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="card">
+									<div class="card-header">
+										<h5 class="card-title">Before - After Time Periods Customers' Average Purchase <strong> Payment Amount</strong> Test <strong> (Test Rejected!)</strong> {% if data_type['promotion_usage_before_after_amount_reject'] == False %}  <strong style="color:red;"> sample data </strong> {% endif %} </h5>
+										<div class="row">
+											<h6 class="card-subtitle text-muted mb-1">- <strong style="color:green;"> A :</strong> Avg. purchase amount  <strong style="color:green;"> Before the promoted Order</strong> for each promotion of usage per customer.</h6>
+											<h6 class="card-subtitle text-muted mb-1">- <strong style="color:green;"> B :</strong> Avg. purchase amount  <strong style="color:green;"> After the promoted Order</strong> for each promotion of usage per customer.</h6>
+											<h6 class="card-subtitle text-muted mb-1">- <strong style="color:green;"> Test Rejected :</strong>  <strong style="color:green;" > Significant Decrease</strong> on Avg. Purchase Amounts after the Promoted order.</h6>
+											<h6 class="card-subtitle text-muted mb-1">- Each Test are applied individually (per promotion).</h6>
+										</div>
+									</div>
+									<div class="card-body">
+										<div  id="promo_usage_ba_a_reject_id" class="plotly-gra ph-div" style="height:400px;"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-6">
+								<div class="card">
+									<div class="card-header">
+										<h5 class="card-title">Before - After Time Periods Customers' <strong> Total Purchase Count</strong> Test  <strong> (Test Accepted!)</strong> {% if data_type['promotion_usage_before_after_orders_accept'] == False %}  <strong style="color:red;"> sample data </strong> {% endif %} </h5>
+										<div class="row">
+											<h6 class="card-subtitle text-muted mb-1">- <strong style="color:green;"> A :</strong> Total P. Count  <strong style="color:green;"> Before the promoted Order</strong> for each promotion of usage per customer.</h6>
+											<h6 class="card-subtitle text-muted mb-1">- <strong style="color:green;"> B :</strong> Total P. Count  <strong style="color:green;"> After the promoted Order</strong> for each promotion of usage per customer.</h6>
+											<h6 class="card-subtitle text-muted mb-1">- <strong style="color:green;"> Test Accepted :</strong>  <strong style="color:green;" > Significant Increase</strong> on Total Purchase Counts after the Promoted order.</h6>
+											<h6 class="card-subtitle text-muted mb-1">- Each Test are applied individually (per promotion).</h6>
+										</div>
+									</div>
+									<div class="card-body">
+										<div id="promo_usage_ba_o_accept_id" class="plotly-gra ph-div" style="height:400px;"></div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="card">
+									<div class="card-header">
+										<h5 class="card-title">Before - After Time Periods Customers' <strong>Total Purchase Count</strong> Test <strong> (Test Rejected!)</strong> {% if data_type['promotion_usage_before_after_orders_reject'] == False %}  <strong style="color:red;"> sample data </strong> {% endif %} </h5>
+										<div class="row">
+											<h6 class="card-subtitle text-muted mb-1">- <strong style="color:green;"> A :</strong> Total P. Count  <strong style="color:green;"> Before the promoted Order</strong> for each promotion of usage per customer.</h6>
+											<h6 class="card-subtitle text-muted mb-1">- <strong style="color:green;"> B :</strong> Total P. Count  <strong style="color:green;"> After the promoted Order</strong> for each promotion of usage per customer.</h6>
+											<h6 class="card-subtitle text-muted mb-1">- <strong style="color:green;"> Test Rejected :</strong>  <strong style="color:green;" > Significant Decrease</strong> on Total Purchase Counts after the Promoted order.</h6>
+											<h6 class="card-subtitle text-muted mb-1">- Each Test are applied individually (per promotion).</h6>
+										</div>
+									</div>
+									<div class="card-body">
+										<div  id="promo_usage_ba_o_reject_id" class="plotly-gra ph-div" style="height:400px;"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}
+	<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
+	<script>
+
+
+			var promo_compare = {{promotion_comparison | safe}};
+
+	        Plotly.plot('promo_compare_id', // the ID of the div, created above
+						promo_compare.trace, promo_compare.layout, {});
+
+			var o_pa_diff_var = {{o_pa_diff | safe}};
+
+	        Plotly.plot('o_pa_diff_id', // the ID of the div, created above
+						o_pa_diff_var.trace, o_pa_diff_var.layout, {});
+
+
+
+			var promo_usage_ba_a_a = {{promo_use_ba_a_accept | safe}};
+
+	        Plotly.plot('promo_usage_ba_a_accept_id', // the ID of the div, created above
+						promo_usage_ba_a_a.trace, promo_usage_ba_a_a.layout, {});
+
+
+			var promo_usage_ba_a_r = {{promo_use_ba_a_reject | safe}};
+
+	        Plotly.plot('promo_usage_ba_a_reject_id', // the ID of the div, created above
+						promo_usage_ba_a_r.trace, promo_usage_ba_a_r.layout, {});
+
+
+			var promo_usage_ba_o_a = {{promo_use_ba_o_accept | safe}};
+
+	        Plotly.plot('promo_usage_ba_o_accept_id', // the ID of the div, created above
+						promo_usage_ba_o_a.trace, promo_usage_ba_o_a.layout, {});
+
+
+			var promo_usage_ba_o_r = {{promo_use_ba_o_reject | safe}};
+
+	        Plotly.plot('promo_usage_ba_o_reject_id', // the ID of the div, created above
+						promo_usage_ba_o_r.trace, promo_usage_ba_o_r.layout, {});
+
+
+
+
+
+
+
+
+
+	function myFunction() {
+	  // Get the checkbox
+	  var checkBox = document.getElementById("myCheck");
+	  // Get the output text
+	  var text = document.getElementById("text");
+
+	  // If the checkbox is checked, display the output text
+	  if (checkBox.checked == true){
+	    text.style.display = "block";
+	  } else {
+	    text.style.display = "none";
+	  }
+	}
+	</script>
+
+	<script>
+		document.addEventListener("DOMContentLoaded", function() {
+			document.getElementById("datetimepicker-dashboard").flatpickr({
+				inline: true,
+
+				prevArrow: "<span class=\"fas fa-chevron-left\" title=\"Previous month\"></span>",
+				nextArrow: "<span class=\"fas fa-chevron-right\" title=\"Next month\"></span>",
+			});
+		});
+	</script>
+{% endblock javascripts %}

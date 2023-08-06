@@ -1,0 +1,245 @@
+es_connection:
+  CREATE TABLE es_connection (
+  id INTEGER NOT NULL,
+  tag VARCHAR,
+  host VARCHAR,
+  port VARCHAR,
+  directory VARCHAR,
+  url VARCHAR,
+  PRIMARY KEY (id)
+  )
+
+data_connection:
+  CREATE TABLE data_connection (
+  id INTEGER NOT NULL,
+  orders_data_source_tag VARCHAR,
+  orders_data_source_type VARCHAR,
+  orders_data_query_path VARCHAR,
+  orders_password Binary,
+  orders_user VARCHAR,
+  orders_port VARCHAR,
+  orders_host VARCHAR,
+  orders_db VARCHAR,
+  downloads_data_source_tag VARCHAR,
+  downloads_data_source_type VARCHAR,
+  downloads_data_query_path VARCHAR,
+  downloads_password Binary,
+  downloads_user VARCHAR,
+  downloads_port VARCHAR,
+  downloads_host VARCHAR,
+  downloads_db VARCHAR,
+  products_data_source_tag VARCHAR,
+  products_data_source_type VARCHAR,
+  products_data_query_path VARCHAR,
+  products_password VARCHAR,
+  products_user VARCHAR,
+  products_port VARCHAR,
+  products_host VARCHAR,
+  products_db VARCHAR,
+  deliveries_data_source_tag VARCHAR,
+  deliveries_data_source_type VARCHAR,
+  deliveries_data_query_path VARCHAR,
+  deliveries_password VARCHAR,
+  deliveries_user VARCHAR,
+  deliveries_port VARCHAR,
+  deliveries_host VARCHAR,
+  deliveries_db VARCHAR,
+  dimension VARCHAR,
+  promotion_id VARCHAR,
+  PRIMARY KEY (id)
+  )
+
+data_columns_integration:
+  CREATE TABLE data_columns_integration (
+  id INTEGER NOT NULL,
+  order_id VARCHAR,
+  order_id_2 VARCHAR,
+  client VARCHAR,
+  session_start_date VARCHAR,
+  payment_amount VARCHAR,
+  discount_amount VARCHAR,
+  date VARCHAR,
+  download_date VARCHAR,
+  signup_date VARCHAR,
+  data_type VARCHAR,
+  has_purchased VARCHAR,
+  product VARCHAR,
+  price VARCHAR,
+  category VARCHAR,
+  promotion_id VARCHAR,
+  actions VARCHAR,
+  dimension VARCHAR,
+  client_2 VARCHAR,
+  delivery_date VARCHAR,
+  prepare_date VARCHAR,
+  return_date VARCHAR,
+  latitude VARCHAR,
+  longitude VARCHAR,
+  PRIMARY KEY (id)
+  )
+
+schedule_data:
+  CREATE TABLE schedule_data (
+  id INTEGER NOT NULL,
+  tag VARCHAR,
+  schedule_tag VARCHAR,
+  time_period VARCHAR,
+  status VARCHAR,
+  is_mlworks VARCHAR,
+  is_exploratory VARCHAR,
+  max_date_of_order_data VARCHAR,
+  PRIMARY KEY (id)
+  )
+
+logs:
+  CREATE TABLE logs (
+  id INTEGER NOT NULL,
+  login_user VARCHAR,
+  log_time VARCHAR,
+  page VARCHAR,
+  color VARCHAR,
+  info VARCHAR,
+  PRIMARY KEY (id)
+  )
+
+actions:
+  CREATE TABLE actions (
+  id INTEGER NOT NULL,
+  data_type VARCHAR,
+  action_name VARCHAR,
+  PRIMARY KEY (id)
+  )
+
+chat:
+  CREATE TABLE chat (
+  id INTEGER NOT NULL,
+  date VARCHAR,
+  message VARCHAR,
+  general_message VARCHAR,
+  user VARCHAR,
+  chat_type VARCHAR,
+  chart VARCHAR,
+  user_logo VARCHAR,
+  PRIMARY KEY (id)
+  )
+
+user_avatar:
+  CREATE TABLE user_avatar (
+  id INTEGER NOT NULL,
+  user VARCHAR,
+  user_avatar VARCHAR,
+  PRIMARY KEY (id)
+  )
+
+columns:
+  es_connection:
+    - id
+    - tag
+    - host
+    - port
+    - directory
+    - url
+
+  data_connection:
+    - id
+    - orders_data_source_tag
+    - orders_data_source_type
+    - orders_data_query_path
+    - orders_password
+    - orders_user
+    - orders_port
+    - orders_host
+    - orders_db
+    - downloads_data_source_tag
+    - downloads_data_source_type
+    - downloads_data_query_path
+    - downloads_password
+    - downloads_user
+    - downloads_port
+    - downloads_host
+    - downloads_db
+    - products_data_source_tag
+    - products_data_source_type
+    - products_data_query_path
+    - products_password
+    - products_user
+    - products_port
+    - products_host
+    - products_db
+    - deliveries_data_source_tag
+    - deliveries_data_source_type
+    - deliveries_data_query_path
+    - deliveries_password
+    - deliveries_user
+    - deliveries_port
+    - deliveries_host
+    - deliveries_db
+    - products_db
+    - dimension
+    - promotion_id
+
+  data_columns_integration:
+    - id
+    - order_id
+    - order_id_2
+    - client
+    - session_start_date
+    - payment_amount
+    - discount_amount
+    - date
+    - download_date
+    - signup_date
+    - data_type
+    - has_purchased
+    - product
+    - price
+    - category
+    - promotion_id
+    - actions
+    - dimension
+    - client_2
+    - delivery_date
+    - prepare_date
+    - return_date
+    - latitude
+    - longitude
+
+  schedule_data:
+    - id
+    - tag
+    - schedule_tag
+    - time_period
+    - is_mlworks
+    - is_exploratory
+    - max_date_of_order_data
+
+  logs:
+    - id
+    - login_user
+    - log_time
+    - page
+    - color
+    - info
+
+  actions:
+    - id
+    - data_type
+    - action_name
+
+  chat:
+    - id
+    - date
+    - message
+    - general_message
+    - user
+    - chat_type
+    - chart
+    - user_logo
+
+  user_avatar:
+    - id
+    - user
+    - user_avatar
+
+tables:
+  SELECT name, tbl_name FROM sqlite_master where type ='table'
