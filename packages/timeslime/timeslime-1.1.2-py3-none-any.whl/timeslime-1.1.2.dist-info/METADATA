@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: timeslime
+Version: 1.1.2
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Christian Decker
+Author-email: christian.decker@lookslikematrix.de
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+License-File: LICENSE
+
+# timeslime
+
+It's a tool to track your time.
+
+## Install
+
+~~~bash
+git clone https://gitlab.com/lookslikematrix/timeslime.git
+cd timeslime
+pipenv install
+pipenv shell
+~~~
+
+## Usage
+
+~~~bash
+# start time
+python timeslime.py start
+# stop time
+python timeslime.py stop
+# display time
+python timeslime.py display
+~~~
+
+## Raspberry Pi
+
+I added a Button, a LED and a 7-segment display with 4 digits to my raspberry pi and can now see me time there. If you like to do the same you have to follow this instructions.
+
+1. Install dependencies
+
+    ~~~bash
+    pipenv shell
+    pipenv install gpiozero raspberrypi-tm1637
+    ~~~
+
+2. Wire everything
+
+    ![timeslime](./assets/timeslime.png)
+
+3. Run this script
+
+    ~~~bash
+    python timeslime_hi.py
+    ~~~
+
+
