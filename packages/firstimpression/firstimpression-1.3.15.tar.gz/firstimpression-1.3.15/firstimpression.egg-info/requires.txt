@@ -1,0 +1,9 @@
+requests
+geopy
+wheel
+lxml
+pytz
+socketIO_client
+requests[security]
+w3lib
+unidecode
