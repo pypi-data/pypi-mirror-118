@@ -1,0 +1,14 @@
+LinAlgebraPy/__init__.py,sha256=gaIrDgc8MuvCDI63V888dSodal4Pf7qEmK5N2hi7VyA,291
+LinAlgebraPy/matrices/__init__.py,sha256=CBK1cOIY6Ottl2s_HY6nBrUEJflewZS-SUOPRNmeO14,134
+LinAlgebraPy/matrices/matrix.py,sha256=S_h4sweCKxZXkXN2eHImZ0nM-JCSmHJvlZeYf8MM70g,19762
+LinAlgebraPy/matrices/matrixfunc.py,sha256=fVb62O_cFGeqCWaCWJs3TV1f9VJGpXAAzvTRa3OKNRk,1862
+LinAlgebraPy/vectors/__init__.py,sha256=aEONRK2c4SuttZx_JOmFIs2l3wnBYvX2ZLylcEwn0rY,164
+LinAlgebraPy/vectors/vector.py,sha256=C6FOVUZd3PdMX7hg-13jMnaH8P4hr-cur-_2Oh1-9mg,9516
+LinAlgebraPy/vectors/vectorfunc.py,sha256=VUemd8qLd4vy9Kr9CQf5z2S_nt2ID9_3609GNtloBzk,601
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_m.py,sha256=qi0Tn03UX1uyGKfmuInS9f-13eaia3xLi_IoVvuwPr8,1298
+LinAlgebraPy-0.1.1.dist-info/LICENSE,sha256=N9wBs7xEng4DZDCNO5EAUN9hbUOIFV1j-irBKw-2b-U,1090
+LinAlgebraPy-0.1.1.dist-info/METADATA,sha256=VLLLEgc-sd_8gYX8ZJAG1QawuZFbiXg9Zbz4_V636_0,235
+LinAlgebraPy-0.1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+LinAlgebraPy-0.1.1.dist-info/top_level.txt,sha256=7hbICX_nzzstGSsyrjNn3YnK1vuA-mhHE2TzniTzx98,18
+LinAlgebraPy-0.1.1.dist-info/RECORD,,

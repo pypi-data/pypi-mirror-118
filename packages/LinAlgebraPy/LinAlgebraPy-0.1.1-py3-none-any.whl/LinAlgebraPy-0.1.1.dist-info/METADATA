@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: LinAlgebraPy
+Version: 0.1.1
+Summary: Linear Algebra Package
+Home-page: UNKNOWN
+Author: Rami El Dahouk
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: sympy
+Requires-Dist: numpy
+
+UNKNOWN
+
