@@ -1,0 +1,2 @@
+radicale>=3
+libdecsync>=2.0.0
