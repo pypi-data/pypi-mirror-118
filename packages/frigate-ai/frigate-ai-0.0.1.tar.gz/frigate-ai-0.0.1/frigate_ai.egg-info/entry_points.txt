@@ -1,0 +1,3 @@
+[console_scripts]
+frigate = cli.main:main
+
