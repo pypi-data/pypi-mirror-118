@@ -1,0 +1,16 @@
+[Unit]
+Description=ServiceWall firewall
+Wants=network-pre.target
+Before=network-pre.target
+Requires=servicewall-ulogd.service
+
+[Service]
+EnvironmentFile=/etc/environment
+# This service does nothing, sw will check it to see if it's enabled
+ExecStart=/usr/bin/sw start
+RemainAfterExit=yes
+ExecReload=/usr/bin/sw reload
+ExecStop=/usr/bin/sw stop
+
+[Install]
+WantedBy=multi-user.target
