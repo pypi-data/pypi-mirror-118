@@ -1,0 +1,13 @@
+con2020/Model.py,sha256=S7BVcTo3FSg-3ks7OViXLH90ne4tGUihBmUNZ3UKiSQ,28685
+con2020/ModelCart.py,sha256=BMSviXSDPbX9DzjfOw-H-MD76PdPv9yO_L1LYxSLaXM,3806
+con2020/OldModel.py,sha256=OiPOw28bISeBE4voWl-DHMoNmzPi_AnoDZMWdcdMhRc,18239
+con2020/Test.py,sha256=KAoOdRF1GBXGp_zddrCbxVEU90ZSfIXhWvVpmL930G0,11997
+con2020/_Analytic.py,sha256=DVnZ9M1fjy7TpoSjaCkEBOuL0oYnZuupD8H0wkk8ul0,10572
+con2020/_Integrate.py,sha256=1znGZiZMuKdZChqKy52JGtB9HiPjxovn0rD2jClURfE,355
+con2020/_Switcher.py,sha256=48aLkihMReBVN1P3lyyv00wlpSMQge1whusRU3p299U,1879
+con2020/__init__.py,sha256=zYagljncDNpTEOtOkuwl0kqmjtDtlxrsFLxQiDje-K8,182
+con2020/__data/testdata.sav,sha256=8FbtIij2diPEpcnki2hTouHv4xAjtlxUCqDWuYXun1o,7192619
+con2020-1.0.2.dist-info/METADATA,sha256=XRr27G9fB0hrhqIxd9gc5wwwTi8aGLa_Sjq_9SBYlg0,6931
+con2020-1.0.2.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+con2020-1.0.2.dist-info/top_level.txt,sha256=QZXRZCmleD8Y5uffkXFotN56FkxQfjvxy_YDIxPhS8g,8
+con2020-1.0.2.dist-info/RECORD,,
