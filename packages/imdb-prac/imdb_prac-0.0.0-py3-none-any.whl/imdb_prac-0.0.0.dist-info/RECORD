@@ -1,0 +1,14 @@
+imdb_prac/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imdb_prac/main.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imdb_prac/settings.py,sha256=fSp59ZfOnnrgOnB_mywBabPno1ehIGGcwLnY2YNrjVY,842
+imdb_prac/utils.py,sha256=0rL4FC4Q5DebWF4mXugqTCBipQE_2P7DttccD64ZA8M,868
+imdb_prac/process/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imdb_prac/process/data.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imdb_prac/process/data_loader.py,sha256=ongMWfnLyiBVx6esHqQt5jYRnEvpCR01P5IOXrNtJ9Y,4864
+imdb_prac/process/generate.py,sha256=JsXRhHRH_1X_A_zoRkT5aV0cxJAPokF9MyhikDKtpf0,3783
+imdb_prac/process/text.py,sha256=DTiSkzvwZXimGl0xSmGajVFQQbYis2UrK318CDq7sMY,317
+imdb_prac/trainer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imdb_prac-0.0.0.dist-info/METADATA,sha256=UZ4vN6xL53FKuhTqujFT519k3k850sxeS0BR79DGS7s,134
+imdb_prac-0.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+imdb_prac-0.0.0.dist-info/top_level.txt,sha256=ihLT-l2sezJ1weSs9dk2G4ZkmSRvXeNc50G4PXYlakQ,10
+imdb_prac-0.0.0.dist-info/RECORD,,
