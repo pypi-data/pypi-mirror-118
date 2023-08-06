@@ -1,0 +1,13 @@
+numpy
+requests
+regex
+arxiv
+pyowm
+psutil
+yahoo-fin
+pandas
+wikipedia
+
+[facebook]
+flask
+requests_toolbelt
