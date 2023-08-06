@@ -1,0 +1,9 @@
+parallelbam/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+parallelbam/parallelbam.py,sha256=O53fpo3afcxPl26gKxnZYE2gUoehpI4K9alwGTpEwes,3798
+parallelbam-0.0.17.data/scripts/mergeBAMs.sh,sha256=iqdMS4fHOQ3PWy0DlBbrNmFukjZx85XApg1uozAhyZg,137
+parallelbam-0.0.17.data/scripts/splitBAM.sh,sha256=QmTzyA4wrBTkuXensP-uuXcgINbmu_z9bT0FHwJHc_o,679
+parallelbam-0.0.17.dist-info/LICENSE,sha256=KoKsm7w-PuBmkIOB6NNziW21pgJdCD-9WWkv6cz7kRE,18651
+parallelbam-0.0.17.dist-info/METADATA,sha256=qJ9UDbZgk0yhfRXKrq7vv3gSzXiGV5EjqoY4c7VWukQ,2790
+parallelbam-0.0.17.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+parallelbam-0.0.17.dist-info/top_level.txt,sha256=MCuKLXIY8a7JA337brXVaNR-TeWp4nF8JWOGBaWNx80,12
+parallelbam-0.0.17.dist-info/RECORD,,
