@@ -1,0 +1,7 @@
+numpy<1.21,>=1.17
+cython
+pot
+scipy
+osqp
+sklearn
+numba
