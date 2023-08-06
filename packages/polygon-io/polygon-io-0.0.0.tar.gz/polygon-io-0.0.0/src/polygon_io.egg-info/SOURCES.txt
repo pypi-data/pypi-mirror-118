@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/polygon/__init__.py
+src/polygon/example.py
+src/polygon_io.egg-info/PKG-INFO
+src/polygon_io.egg-info/SOURCES.txt
+src/polygon_io.egg-info/dependency_links.txt
+src/polygon_io.egg-info/top_level.txt
