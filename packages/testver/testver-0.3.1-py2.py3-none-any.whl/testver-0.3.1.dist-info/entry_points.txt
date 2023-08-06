@@ -1,0 +1,3 @@
+[console_scripts]
+testver=testver.__main__:main
+
