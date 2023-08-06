@@ -1,0 +1,11 @@
+pip
+packaging
+pandas
+numpy
+seqlogo
+transformers==4.10.0
+datasets==1.11.0
+torch
+torchvision
+
+[dev]
