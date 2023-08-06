@@ -1,0 +1,7 @@
+README.rst
+setup.py
+src/sketchdraw.egg-info/PKG-INFO
+src/sketchdraw.egg-info/SOURCES.txt
+src/sketchdraw.egg-info/dependency_links.txt
+src/sketchdraw.egg-info/requires.txt
+src/sketchdraw.egg-info/top_level.txt
