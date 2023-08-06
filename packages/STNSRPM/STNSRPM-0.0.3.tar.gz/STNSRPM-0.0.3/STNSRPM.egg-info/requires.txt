@@ -1,0 +1,11 @@
+numpy
+pandas
+scipy
+datetime
+matplotlib
+pyyaml
+
+[plotting]
+matplotlib>=2.2.0
+jupyter
+jupyterlab
