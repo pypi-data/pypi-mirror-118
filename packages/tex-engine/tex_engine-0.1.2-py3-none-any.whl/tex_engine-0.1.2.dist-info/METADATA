@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: tex-engine
+Version: 0.1.2
+Summary: Template Engine X. Have fun with HTML
+Author: Leo B.
+Author-email: bernerdoodle@outlook.de
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+# TEX - Template Engine X
+This is a small TemplateEngine for Python3. The original code comes from [AlexMic](https://github.com/alexmic/microtemplates)
