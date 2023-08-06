@@ -1,0 +1,11 @@
+psutil
+
+[enable_notifications]
+plyer
+
+[enable_virustotal]
+vt-py
+
+[full]
+plyer
+vt-py
