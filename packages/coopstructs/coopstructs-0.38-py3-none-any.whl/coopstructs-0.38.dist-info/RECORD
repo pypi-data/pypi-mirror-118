@@ -1,0 +1,10 @@
+coopstructs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+coopstructs/curves.py,sha256=uhMZdrlxVwMjx0_WrvZ2ERRrJ_Y0zrbJvdMnJyOGr4E,37435
+coopstructs/geometry.py,sha256=76ZGzGPxhKwCEJlIHs8T7lrck_Ra-porhh3m7QGqpBo,9715
+coopstructs/toggles.py,sha256=IYMwhFkXhsaYQidA--shke5QS572Pu6qHaCLhyE9Nqc,2749
+coopstructs/vectors.py,sha256=4b3hKuqzMxZV97SNJ-Kuq6ieqKyJCL2t4sPBoG4wfOM,13639
+coopstructs-0.38.dist-info/LICENSE,sha256=P85ArvodXCoe1lImPpa-DTemhyuL3fHweaD0DlzsNns,1069
+coopstructs-0.38.dist-info/METADATA,sha256=Z6CZEFMMMHEBvhux8yW6cSytFV4oX0AO246qjZYZl4w,900
+coopstructs-0.38.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+coopstructs-0.38.dist-info/top_level.txt,sha256=AhamTY_8MrjiKB8hYIayZlWROpYdv2PRd6baIS3eVGk,12
+coopstructs-0.38.dist-info/RECORD,,
