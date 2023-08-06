@@ -1,0 +1,3 @@
+[console_scripts]
+ingot-psql-cli = ingot_psql.scripts.ingot_psql:main
+

@@ -1,0 +1,1 @@
+"""Ingot Psql entry-points."""
