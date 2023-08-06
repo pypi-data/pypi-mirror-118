@@ -1,0 +1,12 @@
+ediel/__init__.py,sha256=GvwG4pB0_7clR60EiFCqy20Ihc0F4VOGTQKpXox0g7o,161
+ediel/ediel.py,sha256=-fVYkLKRv7UJt_a-kvDlEszVkW64API_CUJm4x11z-Y,90
+ediel/filename.py,sha256=s4NpeQNB16LIJT1aAnhTSevmHVuZDe5KGJmdlZQIhSc,1136
+ediel/mig.py,sha256=Ut3Y7c97EVJoc1mJFrXsN_1XQS59IyeZuBlM06nA2Rg,8324
+ediel/misc.py,sha256=MNSkLSObUFs3plsIYKVUHxl4Ov9k4hoOAJwfDlLSmpA,1717
+ediel/twowire.py,sha256=-pubO0lmghOrPwFyrlMSEBa3CaVffbEDyWQsBeomz9M,6650
+ediel/uniformat.py,sha256=8x-in_5h_TUUh8v_UUHKV-aD5ITh-yqVLjV9Vb5rqbo,4450
+ediel-0.0.27.dist-info/LICENSE,sha256=Tx4hfh0tmZPOr3lL5r3p1djacqAEep-jUYc57zR38T4,1074
+ediel-0.0.27.dist-info/METADATA,sha256=xHQqKQTFL5m3gBVnIJz7mVdcw0De6932JHZd5_pl85I,704
+ediel-0.0.27.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+ediel-0.0.27.dist-info/top_level.txt,sha256=LK0xmK3AZUWpfKYdAcDq_AYgimQU2C1QfYw4UIwh6R0,6
+ediel-0.0.27.dist-info/RECORD,,
