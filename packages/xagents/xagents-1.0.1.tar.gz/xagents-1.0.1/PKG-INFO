@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: xagents
+Version: 1.0.1
+Summary: Implementations of deep reinforcement learning algorithms in tensorflow 2.5
+Home-page: https://github.com/schissmantics/xagents
+Author: schissmantics
+Author-email: schissmantics@outlook.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.6
+License-File: LICENSE
+
+UNKNOWN
+
