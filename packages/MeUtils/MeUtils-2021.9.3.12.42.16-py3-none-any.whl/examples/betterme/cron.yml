@@ -1,0 +1,20 @@
+# 从zk同步cron: 可配置每天最后一分钟同步crontab配置信息（zk/yaml） 59 23 * * *
+
+# 初始化
+##/home/ubuntu/.local/bin/mecli-cron - update_from_file /home/ubuntu/betterme/cron.yml
+
+# 0 9 * * * /usr/bin/python3 /home/ubuntu/betterme/tophub_news.py --title https://tophub.today/n/wkvlP5kvz1证券日报 --url https://tophub.today/n/wkvlP5kvz1 >> /home/ubuntu/betterme/logs/tophub_news_log.txt  2>&1
+
+
+从yaml同步cron:
+    - "59 23 * * * /home/ubuntu/.local/bin/mecli-cron - update_from_file /home/ubuntu/betterme/cron.yml"
+
+企业微信定时通知:
+    # TEST
+#    - "0 * * * * echo `date` | xargs -I {} /home/ubuntu/.local/bin/mecli notice 'TEST🐶: {}'"
+
+    # 爬取热榜
+    - "0 8 * * * /usr/bin/python3 /home/ubuntu/betterme/tophub_news.py >> /home/ubuntu/betterme/logs/tophub_news_log.txt  2>&1"
+    - "0 9 * * 1-4 /usr/bin/python3 /home/ubuntu/betterme/dailymeet.py >> /home/ubuntu/betterme/logs/dailymeet_log.txt  2>&1"
+    - "10 13 * * 2 /usr/bin/python3 /home/ubuntu/betterme/weekmeet.py >> /home/ubuntu/betterme/logs/meet_log.txt  2>&1"
+
