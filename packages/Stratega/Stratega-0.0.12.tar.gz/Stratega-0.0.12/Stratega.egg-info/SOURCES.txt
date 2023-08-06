@@ -1,0 +1,7 @@
+README.md
+setup.py
+Stratega.egg-info/PKG-INFO
+Stratega.egg-info/SOURCES.txt
+Stratega.egg-info/dependency_links.txt
+Stratega.egg-info/not-zip-safe
+Stratega.egg-info/top_level.txt
