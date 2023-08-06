@@ -1,0 +1,3 @@
+[console_scripts]
+map4cli2 = src.root:main
+
