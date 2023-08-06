@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: pspvis
+Version: 0.0.dev0
+Summary: pspvis - None
+Home-page: https://gitlab.com/pradyparanjpe/pspvis.git
+Author: Pradyumna Paranjape
+Author-email: pradyparanjpe@rediffmail.com
+License: LGPLv3
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: argcomplete
+Requires-Dist: sklearn
+Requires-Dist: PySide2
+Requires-Dist: psprint
+Requires-Dist: pyyaml
+Requires-Dist: toml
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+
+*************************
+pspvis
+*************************
+
+Gist
+==========
+
+Source Code Repository
+---------------------------
+
+|source| `Repository <https://gitlab.com/pradyparanjpe/pspvis.git>`__
+
+|pages| `Documentation <https://pradyparanjpe.gitlab.io/pspvis>`__
+
+Badges
+---------
+
+|Pipeline|  |Coverage|  |PyPi Version|  |PyPi Format|  |PyPi Pyversion|
+
+
+Description
+==============
+
+Create a python project from template.
+
+What does it do
+--------------------
+
+Some great thing
+
+.. |Pipeline| image:: https://gitlab.com/pradyparanjpe/pspvis/badges/master/pipeline.svg
+
+.. |source| image:: https://about.gitlab.com/images/press/logo/svg/gitlab-icon-rgb.svg
+   :width: 50
+   :target: https://gitlab.com/pradyparanjpe/pspvis.git
+
+.. |pages| image:: https://about.gitlab.com/images/press/logo/svg/gitlab-logo-gray-stacked-rgb.svg
+   :width: 50
+   :target: https://pradyparanjpe.gitlab.io/pspvis
+
+.. |PyPi Version| image:: https://img.shields.io/pypi/v/pspvis
+   :target: https://pypi.org/project/pspvis/
+   :alt: PyPI - version
+
+.. |PyPi Format| image:: https://img.shields.io/pypi/format/pspvis
+   :target: https://pypi.org/project/pspvis/
+   :alt: PyPI - format
+
+.. |PyPi Pyversion| image:: https://img.shields.io/pypi/pyversions/pspvis
+   :target: https://pypi.org/project/pspvis/
+   :alt: PyPi - pyversion
+
+.. |Coverage| image:: https://gitlab.com/pradyparanjpe/pspvis/badges/master/coverage.svg?skip_ignored=true
+
+
