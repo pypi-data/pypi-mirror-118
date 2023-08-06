@@ -1,0 +1,25 @@
+from fastapi import Depends, HTTPException
+from starlette.requests import Request
+
+from .limit_config import LimitConfig, Limit
+from .limiter import LimiterErrorHandler
+from .limiter_engine import LimiterEngine
+
+
+def create_ratelimit_depends(engine: LimiterEngine, error_handler: LimiterErrorHandler):
+    def ratelimit(key: str, *args: list[Limit]) -> Depends:
+        config = LimitConfig(key, *args)
+
+        async def call(request: Request):
+            limit_result = await engine.limit(config, request)
+            print(limit_result)
+
+            if limit_result.limit_applied:
+                if error_handler:
+                    error_handler(limit_result)
+                else:
+                    raise HTTPException(status_code=429, detail=limit_result.description)
+
+        return Depends(call)
+
+    return ratelimit
