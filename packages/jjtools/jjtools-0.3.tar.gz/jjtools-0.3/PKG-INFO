@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: jjtools
+Version: 0.3
+Summary: Algunas funciones de uso comun
+Home-page: https://github.com/Coldplx/jjtools
+Author: Joseph Darwin Jaramillo del Aguila
+Author-email: jjaramillod@uni.pe
+License: MIT
+Download-URL: https://github.com/Coldplx/jjtools/tarball/0.3
+Description: UNKNOWN
+Keywords: testing,logging,example
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
