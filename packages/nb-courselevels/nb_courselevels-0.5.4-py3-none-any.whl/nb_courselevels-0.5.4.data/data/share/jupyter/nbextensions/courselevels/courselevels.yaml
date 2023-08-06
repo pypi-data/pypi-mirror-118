@@ -1,0 +1,66 @@
+Type: Jupyter Notebook Extension
+Compatibility: 6.x
+Name: Color Cells by Level
+Main: index.js
+Description: >
+  tag cells as basic / intermediate / advanced with related color code :
+  green / blue / red respectively
+
+  defines the following Jupyter actions that can be bound to keyboard shortcuts 
+  using either Jupyter classic's shortcuts editor (in the Help menu), or in your `custom.js`
+
+  * courselevels:toggle-basic
+  * courselevels:toggle-intrmediate
+  * courselevels:toggle-advanced
+  * courselevels:toggle-frame
+Link: README.md
+
+# our parameters
+Parameters:
+- name: courselevels.create_menubar_buttons
+  description: >
+    when publishing a course we need the levels/colors to be displayed, but
+    the 3 icons on top for actually changing levels/colors are 
+    a hindrance
+  input_type: checkbox
+  default: yes
+
+- name: courselevels.clean_empty_tags
+  description: >
+    if set, the extension will remove the 'tags' entry from each cell metadata where no tag remains
+  input_type: checkbox
+  default: yes
+
+- name: courselevels.basic_color
+  description: the color to use for cells marked basic
+  input_type: color
+  default: "#D2FAD2"
+- name: courselevels.intermediate_color
+  description: the color to use for cells marked intermediate
+  input_type: color
+  default: "#D2D2FB"
+- name: courselevels.advanced_color
+  description: the color to use for cells marked advanced
+  input_type: color
+  default: "#F1D1D1"
+
+  - name: courselevels.basic_style
+  description: additional CSS style for basic cells
+  input_type: string
+- name: courselevels.intermediate_style
+  description: additional CSS style for intermediate cells
+  input_type: string
+- name: courselevels.advanced_style
+  description: additional CSS style for advanced cells
+  input_type: string
+
+
+- name: courselevels.frame_border
+  description: the CSS border to use for a framed cell
+  input_type: border
+  default: "3px ridge #400"
+
+  - name: courselevels.frame_style
+  description: the CSS style to use for a framed cell
+  input_type: str
+  default: ""
