@@ -1,0 +1,4 @@
+  File "/Users/lbusoni/opt/anaconda3/envs/plico37pip/lib/python3.7/site.py", line 177
+    file=sys.stderr)
+        ^
+SyntaxError: invalid syntax
