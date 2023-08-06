@@ -1,0 +1,10 @@
+README.md
+setup.py
+pyofdm/codec.py
+pyofdm/nyquistmodem.py
+pyofdm.egg-info/PKG-INFO
+pyofdm.egg-info/SOURCES.txt
+pyofdm.egg-info/dependency_links.txt
+pyofdm.egg-info/not-zip-safe
+pyofdm.egg-info/requires.txt
+pyofdm.egg-info/top_level.txt
