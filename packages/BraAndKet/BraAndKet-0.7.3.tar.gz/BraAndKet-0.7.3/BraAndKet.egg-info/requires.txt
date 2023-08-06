@@ -1,0 +1,8 @@
+numpy
+tqdm
+
+[pade]
+scipy
+
+[sparse matrix]
+scipy
