@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/jsonchick/__init__.py
+src/jsonchick/jsonchick.py
+src/jsonchick.egg-info/PKG-INFO
+src/jsonchick.egg-info/SOURCES.txt
+src/jsonchick.egg-info/dependency_links.txt
+src/jsonchick.egg-info/top_level.txt

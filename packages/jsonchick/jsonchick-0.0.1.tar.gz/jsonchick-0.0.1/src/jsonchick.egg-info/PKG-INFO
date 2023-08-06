@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: jsonchick
+Version: 0.0.1
+Summary: Find JSON data paths by value
+Home-page: https://github.com/andrkhar/jsonchick
+Author: Andrei Kharchenko
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# JSONCHICK
+Get paths to a value in JSON data.
+
+## Install
+`pip install jsonchick`
+
+## Use
+
+```
+from jsonchick import jsonchick
+
+
+data = [{'k1': 'v1'}, [{'k2': ['v1']]]
+value = 'v1'
+
+assert (('k1',), ('k2', 0)) == jsonchick.find(value, data)
+assert [['k1'], ['k2', 0]] == jsonchick.find(value, data, mutable=True)
+```
+
+## Credits
+The lib is a modified version of a Stackoverflow answer on the question:
+https://stackoverflow.com/questions/31010299/json-get-key-path-in-nested-dictionary
+
+
+
