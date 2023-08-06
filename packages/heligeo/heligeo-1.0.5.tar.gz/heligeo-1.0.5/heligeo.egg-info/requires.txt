@@ -1,0 +1,4 @@
+numpy
+Shapely
+plotly
+requests
