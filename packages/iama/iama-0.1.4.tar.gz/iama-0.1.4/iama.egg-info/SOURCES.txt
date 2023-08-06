@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.py
+iama/__init__.py
+iama/features.py
+iama/model.py
+iama.egg-info/PKG-INFO
+iama.egg-info/SOURCES.txt
+iama.egg-info/dependency_links.txt
+iama.egg-info/requires.txt
+iama.egg-info/top_level.txt

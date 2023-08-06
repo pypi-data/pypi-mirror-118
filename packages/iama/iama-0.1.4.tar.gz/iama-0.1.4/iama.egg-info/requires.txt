@@ -1,0 +1,4 @@
+nltk
+setuptools
+scikit-learn
+numpy
