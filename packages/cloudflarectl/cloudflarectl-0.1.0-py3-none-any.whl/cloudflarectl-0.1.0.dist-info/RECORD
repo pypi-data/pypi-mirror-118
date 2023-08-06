@@ -1,0 +1,9 @@
+cloudflarectl/__init__.py,sha256=jS-5ouD2SAUdQBQplZeqfxyn9juifBUlSw4C5iMIIeE,276
+cloudflarectl/__main__.py,sha256=ivDXiRTq0lQfbNvINfQ45anhaWFkrLIkheCABTCKTx8,54
+cloudflarectl/cli/__init__.py,sha256=0gXipkwnpj13cQaGo9h0fepxcv1bKfSW57ZoxOYb2T0,1254
+cloudflarectl/cli/commands/user.py,sha256=KJS4ZiJBu9a5-jRtibsBktLRvsniMmdwdRebbUMUCZA,145
+cloudflarectl-0.1.0.dist-info/entry_points.txt,sha256=tLD5rjIcnT8wEUqdsPgnMhgpVLq-n4-bW8DjNBppqFE,49
+cloudflarectl-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+cloudflarectl-0.1.0.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+cloudflarectl-0.1.0.dist-info/METADATA,sha256=luQS_ZQhVzIg0-dC_w9bbGeQeijqxK-fZOhL6dlfho0,980
+cloudflarectl-0.1.0.dist-info/RECORD,,
