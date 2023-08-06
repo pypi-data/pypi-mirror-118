@@ -1,0 +1,14 @@
+nn_sdk/__init__.py,sha256=sMMEkWkdYlVHGAXCiwThHpfapcjJ22uiUsxtfGLwSHs,82
+nn_sdk/csdk_wraper.py,sha256=vS7sA6t5wHi7c2XWeaUISUkZs8jEDW3P8w9hrHaknY0,1346
+nn_sdk/engine_csdk.so,sha256=bjU5nB8fB9uR6JFNP1fCg7KqUH5Ia1A2vDTMJ1VO1v8,6761872
+nn_sdk/engine_trt7.so,sha256=HflONtKimq1y-XyDPR38p10VbMPBE7XDc5ebwzmHyFM,1096600
+nn_sdk/engine_trt8.so,sha256=nfhlC_EK17edY8GHRyvxiekr4OuApN4FD9PAMspJozk,1102096
+nn_sdk/nn_sdk.h,sha256=5HdB61xbgEy5-zGEExQ0hdtvgd7F74Aq8sPMzdVMFAo,686
+nn_sdk/nn_sdk.java,sha256=7mJlgFqefER4TliVhqm_csZWmr0jtYIM02-xSnIDALc,2626
+nn_sdk/test.c,sha256=sz2yWnCtOpp1NenEXPY5JszjG8L1918Ki9xNBIXzKnE,1902
+nn_sdk/test_aes.py,sha256=qp6PlX3KoRWz_zXueU15y_OhufUrgcuCRfwarruGBTU,2140
+nn_sdk/test_py.py,sha256=GmB_s-20uvbk4wGUXG1uQLEkpbCdQsjAdWb16ACv_hE,2861
+nn_sdk-1.4.9.dist-info/METADATA,sha256=L6AGlYyW82ns0yrGHLDE3qUFAITHDUm03vFHDTf_c_8,11378
+nn_sdk-1.4.9.dist-info/WHEEL,sha256=3tgvlLnGmD7WTbSiU-9gDtREXUrL633mgRtZp5mWhas,104
+nn_sdk-1.4.9.dist-info/top_level.txt,sha256=v2CvTbgx6Cp9JlMX1A1zkf6Qv5pw3pxhhssGA-r4vSs,7
+nn_sdk-1.4.9.dist-info/RECORD,,
