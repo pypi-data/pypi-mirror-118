@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+Shcuts.egg-info/PKG-INFO
+Shcuts.egg-info/SOURCES.txt
+Shcuts.egg-info/dependency_links.txt
+Shcuts.egg-info/top_level.txt
+shcuts/__init__.py

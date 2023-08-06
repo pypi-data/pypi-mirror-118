@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: Shcuts
+Version: 0.0.1
+Summary: Some fun and helpful shortcuts
+Home-page: UNKNOWN
+Author: Daniel Hambach
+Author-email: daniel@hambach.org
+License: MIT
+Keywords: shortcuts
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+This is a library with some shortcuts wich are helpful or just for fun
+
+Change Log
+==========
+1.0(03/09/2021)
+---------------
+- First public release
+

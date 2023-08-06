@@ -1,0 +1,1 @@
+This is a library with some shortcuts wich are helpful or just for fun
