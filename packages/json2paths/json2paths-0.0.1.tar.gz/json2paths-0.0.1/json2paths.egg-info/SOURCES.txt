@@ -1,0 +1,9 @@
+README.md
+setup.py
+json2paths/__init__.py
+json2paths/main.py
+json2paths.egg-info/PKG-INFO
+json2paths.egg-info/SOURCES.txt
+json2paths.egg-info/dependency_links.txt
+json2paths.egg-info/entry_points.txt
+json2paths.egg-info/top_level.txt

@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: json2paths
+Version: 0.0.1
+Summary: converts json keys to paths for bruteforcing
+Home-page: https://github.com/s0md3v/json2paths
+Author: s0md3v
+License: Apache-2.0 License
+Download-URL: https://github.com/s0md3v/dump/tree/master/json2paths
+Description: ```
+        Usage: j2p <options> <prefix>+<path to burp-file>
+        
+        Available options:
+            p: print paths
+            k: print keys
+        
+        <prefix>+ and <options> are optional.
+        
+        Examples:
+            > j2p -p test.txt
+            > j2p -pk /+test.txt
+        ```
+Keywords: pentesting,security
+Platform: UNKNOWN
+Classifier: Topic :: Security
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
