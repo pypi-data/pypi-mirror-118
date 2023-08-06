@@ -1,0 +1,11 @@
+bridgedbpy.py,sha256=53sgWv0qOKCLnOdgFpiV-u1S7kyuIdTP655YNjuqr0A,971
+bridgedbpy/__init__.py,sha256=PdB8wyPcbwCvKmg3u9WpKWXymCpxOrhwBurRKGXxUEc,1090
+bridgedbpy/_version.py,sha256=wqhFI1hLJlh_FVHx32ha_vcRZIfgTakg-j4kjfSsP9Y,178
+bridgedbpy/get_full_name.py,sha256=yc9HiZo9HiEnNwaHjYzx4o1E3j6-QOtwphqAr7mzIfQ,316
+bridgedbpy/get_organism_code.py,sha256=sfOJRn9Ndeb0LisOXTelDOnbjiRde9_KNlcihFFBY1A,431
+bridgedbpy/get_system_code.py,sha256=OSxyiSMlhVRTMChF99UTMUeiO6flCqufNLrxbXKEtsM,299
+bridgedbpy-0.0.2.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+bridgedbpy-0.0.2.dist-info/METADATA,sha256=Tlp3m9wJG4y6X_UTfgzaSn0oqfvMkAKo_8NgEL-ANo0,1355
+bridgedbpy-0.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+bridgedbpy-0.0.2.dist-info/top_level.txt,sha256=ZtIpzosrahGM8lNsH6mQeoMSml3IAWxlb-dnhteCzDE,11
+bridgedbpy-0.0.2.dist-info/RECORD,,

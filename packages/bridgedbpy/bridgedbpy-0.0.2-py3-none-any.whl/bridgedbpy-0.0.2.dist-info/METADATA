@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: bridgedbpy
+Version: 0.0.2
+Summary: Code for using BridgeDb identifier mapping framework from within Python
+Home-page: https://github.com/kozo2/bridgedbpy
+Author: Kozo Nishida
+Author-email: kozo.nishida@gmail.com
+Maintainer: Kozo Nishida
+Maintainer-email: kozo.nishida@gmail.com
+License: AGPL-3
+Keywords: wikipathways,bioinformatics
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: pandas
+
+# bridgedbpy package
+Python package for BridgeDb, a tool for identifier mapping.
+
+Learn about BridgeDb at http://www.bridgedb.org/ and read about it in this paper:
+
+Van Iersel, M.; Pico, A.; Kelder, T.; Gao, J.; Ho, I.; Hanspers, K.; Conklin, B.; Evelo, C. BMC Bioinformatics 2010, 11, 5, https://doi.org/10.1186/1471-2105-11-5
+
+## Available from PyPI
+To install this package, run:
+```
+pip install bridgedbpy
+```
+
+
