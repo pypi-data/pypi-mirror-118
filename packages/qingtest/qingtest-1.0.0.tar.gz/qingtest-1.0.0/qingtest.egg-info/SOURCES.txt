@@ -1,0 +1,7 @@
+README.md
+setup.py
+qingtest.egg-info/PKG-INFO
+qingtest.egg-info/SOURCES.txt
+qingtest.egg-info/dependency_links.txt
+qingtest.egg-info/requires.txt
+qingtest.egg-info/top_level.txt
