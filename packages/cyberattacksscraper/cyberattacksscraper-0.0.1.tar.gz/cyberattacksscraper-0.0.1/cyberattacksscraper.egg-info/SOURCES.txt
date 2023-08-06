@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+cyberattacksscraper.egg-info/PKG-INFO
+cyberattacksscraper.egg-info/SOURCES.txt
+cyberattacksscraper.egg-info/dependency_links.txt
+cyberattacksscraper.egg-info/requires.txt
+cyberattacksscraper.egg-info/top_level.txt
+project/__init__.py
+project/rds_uploader/__init__.py
+project/rds_uploader/rds_module.py
+project/scraper/__init__.py
+project/scraper/__main__.py
+project/scraper/scraper.py
+test/test_project.py
