@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+BinanceAsyncWebsocket/BinanceAsyncWebsocket.py
+BinanceAsyncWebsocket/BinanceAsyncWebsocket2.py
+BinanceAsyncWebsocket/BinanceFapiAsyncWs.py
+BinanceAsyncWebsocket/__init__.py
+BinanceAsyncWebsocket.egg-info/PKG-INFO
+BinanceAsyncWebsocket.egg-info/SOURCES.txt
+BinanceAsyncWebsocket.egg-info/dependency_links.txt
+BinanceAsyncWebsocket.egg-info/requires.txt
+BinanceAsyncWebsocket.egg-info/top_level.txt
