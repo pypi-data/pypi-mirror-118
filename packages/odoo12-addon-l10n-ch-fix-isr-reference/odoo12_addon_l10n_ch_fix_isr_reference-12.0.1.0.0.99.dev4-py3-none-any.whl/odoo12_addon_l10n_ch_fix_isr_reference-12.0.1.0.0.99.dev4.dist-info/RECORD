@@ -1,0 +1,10 @@
+odoo/addons/l10n_ch_fix_isr_reference/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+odoo/addons/l10n_ch_fix_isr_reference/__manifest__.py,sha256=DdODp2_Wep29qhrJtZBw4ixihtnVP4d9LFXFNuxxxkM,496
+odoo/addons/l10n_ch_fix_isr_reference/i18n/l10n_ch_fix_isr_reference.pot,sha256=YpvF8vJ2CrhHtOZ-f8YZYVAQK1PtESMJIf4ut6yI5nA,1459
+odoo/addons/l10n_ch_fix_isr_reference/models/__init__.py,sha256=rSPq6bygWAuxXyPXRZYp0XCQKUzYVFajePn4OgzCt3g,22
+odoo/addons/l10n_ch_fix_isr_reference/models/invoice.py,sha256=jvmgbrZsQTNKEt_jiZs0BCve5OBb68bmZ8P05e7BUnM,5889
+odoo/addons/l10n_ch_fix_isr_reference/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo12_addon_l10n_ch_fix_isr_reference-12.0.1.0.0.99.dev4.dist-info/METADATA,sha256=fGzRlYCYU45k6xnF2Kd3TElsK_KaUePT3EAYgHV4fSg,583
+odoo12_addon_l10n_ch_fix_isr_reference-12.0.1.0.0.99.dev4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+odoo12_addon_l10n_ch_fix_isr_reference-12.0.1.0.0.99.dev4.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_l10n_ch_fix_isr_reference-12.0.1.0.0.99.dev4.dist-info/RECORD,,
