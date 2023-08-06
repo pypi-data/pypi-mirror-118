@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: python-opnsense
+Version: 0.1.6
+Summary: A python library that interacts with an Opnsense API
+Home-page: https://github.com/turnbros/python-opnsense
+Author: Dylan Turnbull
+Author-email: dylanturn@gmail.com
+License: apache-2.0
+Download-URL: https://github.com/turnbros/python-opnsense/archive/refs/tags/0.1.1.tar.gz
+Keywords: turnbros,opnsense
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+
+UNKNOWN
+
