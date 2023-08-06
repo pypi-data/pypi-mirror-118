@@ -1,0 +1,17 @@
+ctunet/__init__.py,sha256=0sRY4744utO88DB-FYAkKozMnuI1mkVSoJ4Um7FpB94,90
+ctunet/utilities.py,sha256=fWFQ1iLhyNCTzk6P6Ns-aOhGEorCtp2go_gPJnoEuJE,17985
+ctunet/cfg/AutoImplant2020_wShapePrior.ini,sha256=l_1dajagaDQkSe4IgAVmqGeQo7NxlUzSbcWV0LRR8Mk,774
+ctunet/cfg/AutoImplant2020_woShapePrior.ini,sha256=JNRM4rma5sjJuK_JRSRpKVxPkZddNES1u7eU_m5Asw8,747
+ctunet/pytorch/ProblemHandler.py,sha256=CzA-vU0tO0re40V4YHNZq0bqRaz1rbSYMJN12W2GMj4,13877
+ctunet/pytorch/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ctunet/pytorch/dataset_classes.py,sha256=Ax7eNwvBW0g_DeI25w_RF0d9B77WBKcLH-foukuttlQ,14544
+ctunet/pytorch/defect_generator.py,sha256=CrM9mogPHyL-9Egajja5On5rruRliE45C6LnQk4l-CM,8419
+ctunet/pytorch/models.py,sha256=kLFfhUmGqJKSfooqfOCnOEU2-M3d77J4NzYcb0GDM4g,25651
+ctunet/pytorch/train_test.py,sha256=8DSxHao7-yEitGZxjLainQtkuo8NLAvJUi3uUnL1LFk,20840
+ctunet/pytorch/transforms.py,sha256=LeFA1IPRnWIXFgT6NAiHRZUe-IL9p4lGOLTbMBUBCiw,3876
+ctunet-0.102.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+ctunet-0.102.dist-info/METADATA,sha256=vK16EvlCJrCArSojyISHRx1saEu2ZQKxSpsCJXPovjU,618
+ctunet-0.102.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+ctunet-0.102.dist-info/entry_points.txt,sha256=fa8_Jb79HOuoMkUurF__pors0YFW_oQJy8x4QGDNJuk,58
+ctunet-0.102.dist-info/top_level.txt,sha256=oYkIqiho3YdBd1BaXZKDTMOwnPeCLfMnirwPJuq4-G8,7
+ctunet-0.102.dist-info/RECORD,,

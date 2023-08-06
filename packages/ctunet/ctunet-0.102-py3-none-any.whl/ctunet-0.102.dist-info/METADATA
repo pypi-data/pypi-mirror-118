@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: ctunet
+Version: 0.102
+Summary: 3D UNet for CT segmentation with PyTorch
+Home-page: https://github.com/vfmatzkin/ctunet
+Author: ['Franco Matzkin']
+Author-email: fmatzkin@sinc.unl.edu.ar
+License: MIT
+Keywords: ctunet
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: torch
+Requires-Dist: SimpleITK
+Requires-Dist: pynrrd
+Requires-Dist: medpy
+Requires-Dist: raster-geometry
+Requires-Dist: requests
+Requires-Dist: typer
+Requires-Dist: tensorboard
+Requires-Dist: pandas
+Requires-Dist: scikit-image
+
+# ct-unet
+3D UNet for CT segmentation with PyTorch
+
+
