@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+pyK8sManager/DeploymentController.py
+pyK8sManager/DeploymentManager.py
+pyK8sManager/DescriptionGenerator.py
+pyK8sManager/__init__.py
+pyK8sManager.egg-info/PKG-INFO
+pyK8sManager.egg-info/SOURCES.txt
+pyK8sManager.egg-info/dependency_links.txt
+pyK8sManager.egg-info/requires.txt
+pyK8sManager.egg-info/top_level.txt
