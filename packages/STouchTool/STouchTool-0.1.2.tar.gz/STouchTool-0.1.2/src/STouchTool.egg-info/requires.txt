@@ -1,0 +1,15 @@
+matplotlib
+numpy
+scipy
+scikit_rf
+
+[:python_version < "3.8"]
+importlib-metadata
+
+[testing]
+setuptools
+pytest
+pytest-cov
+numpy
+PyPDF2
+scikit_rf

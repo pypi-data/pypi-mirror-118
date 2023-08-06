@@ -1,0 +1,4 @@
+[console_scripts]
+s_cat = stouchtool.s_cat:run
+s_plot = stouchtool.s_plot:run
+
