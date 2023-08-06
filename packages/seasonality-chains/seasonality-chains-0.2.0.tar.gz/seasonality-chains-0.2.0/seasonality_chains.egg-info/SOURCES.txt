@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+schains/__init__.py
+schains/chains.py
+schains/tsmodels.py
+seasonality_chains.egg-info/PKG-INFO
+seasonality_chains.egg-info/SOURCES.txt
+seasonality_chains.egg-info/dependency_links.txt
+seasonality_chains.egg-info/requires.txt
+seasonality_chains.egg-info/top_level.txt
