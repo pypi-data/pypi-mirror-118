@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+nutrimium/__init__.py
+nutrimium.egg-info/PKG-INFO
+nutrimium.egg-info/SOURCES.txt
+nutrimium.egg-info/dependency_links.txt
+nutrimium.egg-info/entry_points.txt
+nutrimium.egg-info/requires.txt
+nutrimium.egg-info/top_level.txt

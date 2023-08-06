@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: nutrimium
+Version: 0.0.5
+Summary: Command Line Interface for Nutrimium
+Home-page: https://github.com/nutrimium/nutrimium-cli
+Author: Yann Feunteun
+Author-email: yann.feunteun@protonmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+* nutrimium-cli
+
+
