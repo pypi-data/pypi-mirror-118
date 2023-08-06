@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: comcomdrive
+Version: 0.0.5
+Summary: google drive functions for jupyter notebook
+Home-page: https://ainize.ai
+Author: Hongmin
+Author-email: hongmin@comcom.ai
+License: UNKNOWN
+Project-URL: Bug Tracker, https://ainize.ai
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: testresources
+Requires-Dist: google-api-python-client
+Requires-Dist: google-auth-httplib2
+Requires-Dist: google-auth-oauthlib
+Requires-Dist: click
+
+UNKNOWN
+
