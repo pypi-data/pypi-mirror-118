@@ -1,0 +1,11 @@
+neo4j-driver~=4.3
+praatio~=4.1
+textgrid
+conch_sounds
+librosa
+influxdb
+tqdm
+requests
+
+[testing]
+pytest
