@@ -1,0 +1,9 @@
+README.rst
+setup.py
+bibcopy.egg-info/PKG-INFO
+bibcopy.egg-info/SOURCES.txt
+bibcopy.egg-info/dependency_links.txt
+bibcopy.egg-info/requires.txt
+bibcopy.egg-info/top_level.txt
+fb/__init__.py
+fb/bibcopy.py

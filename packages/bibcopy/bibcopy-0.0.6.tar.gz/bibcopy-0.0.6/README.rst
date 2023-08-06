@@ -1,0 +1,38 @@
+-- bibtexTidying 0.1.0 --
+
+Author: Jian Ding and Shibo Xu and Kun Chen
+Email: xxxxx@yy.com
+
+Mentor: X. Fu and Tingyu Luo
+[Purpose]
+This software is trying to help users to tidy up their bibtex files.
+
+[Prerequisite]
+
+
+[Github]
+https://github.com/Eagles2F/HelpGen4Android
+
+[Manual]
+How to install it?
+     use command following.
+          pip install bibtexTidying
+How to use it?
+     Type following code in your python files:
+          from bibtexTidying import bibcopy
+     Then you can use all the function in module bibcopy!
+
+[Function]
+     1.Formating your bibtex files.
+
+[Known Issues]:
+	1. Right now, the tool only works with Mediawiki beacause our parsing is specialized designed for mediawiki
+
+[Bug Report]:
+	Any bug or documentation error you found , please submit an issue on github parge: https://github.com/Eagles2F/HelpGen4Android
+
+License: 
+
+The MIT License (MIT)
+
+Copyright (c) 2015 
