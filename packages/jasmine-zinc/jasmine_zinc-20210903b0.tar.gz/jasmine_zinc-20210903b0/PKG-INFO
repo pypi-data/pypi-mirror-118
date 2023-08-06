@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: jasmine_zinc
+Version: 20210903b0
+Summary: UNKNOWN
+Home-page: https://github.com/aoirint/jasmine_zinc
+Author: aoirint
+Author-email: aoirint@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
