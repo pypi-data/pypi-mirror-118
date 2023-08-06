@@ -1,0 +1,11 @@
+pyG5/__init__.py,sha256=q_gVCxsEZV9dqFUd_0Bk7EXqhFUfVUPnnePtRbkWY2E,20
+pyG5/pyG5Main.py,sha256=S6eE0DMx-y9JFQ9_hOs2tfZ90RMyBQu3uy0_3wWDilI,3302
+pyG5/pyG5Network.py,sha256=8IiGUdmAJqpzx6ztl05--YGx3XeMb7Q78G8aCRKcwyo,14825
+pyG5/pyG5View.py,sha256=9VFnqBGeJ74OrrTkgC2Ug8dvOvVV_Eu3vWp0kDIUrWM,42829
+pyG5/pyG5ViewTester.py,sha256=yLtAbezxseMg_rqKq0FPyEtrp_mvuyBmDLoqkHyKpj0,4180
+pyG5-0.0.1b4.data/scripts/pyG5DualStacked,sha256=KG6RGqqAwyFLbzrwNRmgm76cVEMouWI2F7Un1wJ_NSM,180
+pyG5-0.0.1b4.dist-info/LICENSE.TXT,sha256=ou4oa7uQgkk6nElETCKkPwOBWZ_7dLKZnEkozNpPF3o,1112
+pyG5-0.0.1b4.dist-info/METADATA,sha256=hjOTa9YtlLMMdo6pCsVtTmjf1IiG8dy9oPaJ0wqFntI,3835
+pyG5-0.0.1b4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pyG5-0.0.1b4.dist-info/top_level.txt,sha256=3DPK2xvLphCGMejbl92dqGh2JAAyxZ-8_VFe2BNMCJQ,5
+pyG5-0.0.1b4.dist-info/RECORD,,
