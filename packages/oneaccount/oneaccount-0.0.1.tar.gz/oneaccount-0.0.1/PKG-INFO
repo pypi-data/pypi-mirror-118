@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: oneaccount
+Version: 0.0.1
+Summary: One Account Python Library
+Home-page: UNKNOWN
+Author: Oila Studio
+Author-email: manager@oneaccount.app
+License: MIT
+Keywords: privacy,authentication,login,secure,signup
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+this is a oila
+
+Change Log
+==========
+
+0.0.1 (05/09/2021)
+------------------
+- First Release
+
