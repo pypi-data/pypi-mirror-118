@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: blocktrace
+Version: 0.0.14
+Summary: Utility to enable blockchain verification of a program execution trace.
+Home-page: https://github.com/BigIan1969/Blocktracedev
+Author: Ian Holdsworth
+Author-email: Ian.Holdsworth@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/BigIan1969/Blocktracedev
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tracewrapper
+
+# Blocktrace
+Utility to enable blockchain verification of a programmes execution trace.  Essentially providing a verifiable evidence chain that a method executed at a specific time and that it behaved as expected (verifiable externally and automatically)
+
+
