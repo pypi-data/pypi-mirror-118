@@ -1,0 +1,3 @@
+[console_scripts]
+roborabbit=run:config_rmq
+
