@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: fix-ligatures
+Version: 0.1.0
+Summary: A pre-commit fixer for replacing ligature characters.
+Home-page: https://github.com/sirosen/fix-ligatures
+Author: Stephen Rosen
+Author-email: sirosen@uchicago.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6.2
+Description-Content-Type: text/markdown
+Requires-Dist: identify (<2.0)
+
+# fix-ligatures
+
+A pre-commit hook for automatically finding and replacing ligature
+characters with their ascii equivalents.
+
+## Supported Hooks
+
+Only one hook is provided, `fix-ligatures`.
+
+Use it in `.pre-commit-config.yaml` like so:
+
+```yaml
+- repo: https://github.com/sirosen/fix-ligatures
+  rev: 0.1.0
+  hooks:
+    - id: fix-ligatures
+```
+
+## Standalone Usage
+
+You can also `pip install fix-ligatures` to run the tool manually.
+
+For full usage info:
+
+```bash
+fix-ligatures --help
+```
+
+
