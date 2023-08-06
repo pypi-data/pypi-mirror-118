@@ -1,0 +1,8 @@
+numpy<1.20,>=1.19
+pandas<1.2,>=1.1
+tensorflow==2.4.0
+tf-models-official==2.3.0
+ml_collections>=0.1.0
+apache-beam==2.20.0
+google-nucleus==0.5.8
+absl-py>=0.13.0
