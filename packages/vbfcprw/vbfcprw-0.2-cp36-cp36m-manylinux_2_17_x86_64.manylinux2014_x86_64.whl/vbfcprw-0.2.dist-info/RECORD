@@ -1,0 +1,17 @@
+hawkroutines.cpython-36m-x86_64-linux-gnu.so,sha256=_SJlfI_lvZ1TMMT-AFNI6clywrbci5es4nxWD-GOL90,793072
+vbfcprw-0.2.dist-info/RECORD,,
+vbfcprw-0.2.dist-info/METADATA,sha256=4tlI0PwTL3zkBr0k70WMbUD94Y1VYUN8NDDU0jUJD1Q,1954
+vbfcprw-0.2.dist-info/LICENSE,sha256=5f5vt3kFGyDRFIpSSPook0zR60MS1pjDPVuXImEIcSc,1049
+vbfcprw-0.2.dist-info/top_level.txt,sha256=lW-wO_EAPk1a4VL2dojHgw_-PAfuEnqJgkZ52hD-EYo,21
+vbfcprw-0.2.dist-info/WHEEL,sha256=CdtYEWrHtc5X47KcSSxmzTgyODOCt-se2tHGP9gLcoc,150
+vbfcprw.libs/libquadmath-96973f99.so.0.0.0,sha256=l82oXdtRY-Labh7bTh1rVXgzqZpA7aB5rjflA5Rltl0,247608
+vbfcprw.libs/libgfortran-040039e1.so.5.0.0,sha256=Q5viiXtB7R66WBTR4sIaoXnnu2clec5MZ8AmCMR3eWY,2722952
+vbfcprw.libs/libz-745e0a09.so.1.2.7,sha256=qQL6_XYFNzGpn7FbxE6MCwxM96dzN4Ik8FXfgl_vPR8,96272
+vbfcprw/vbfcprw.py,sha256=uWZ6tpvDPO4LKW3R1Xb18DntsEVbAoFM7GiZrHQypqc,8853
+vbfcprw/constants.py,sha256=PF7UJHR8F6C6TuBbxmB9iP3x5OVVdK2qAdiP5_dhlpQ,138
+vbfcprw/test_vbfcprw.py,sha256=GiHgtqohs1J8MnVvNzsg2kRkLhATpIfG788YnB6C3Bw,3696
+vbfcprw/test.py,sha256=QrtqoEQvpdRGEdtuTrGrGhQl-33WKwCW_XKcz-hX294,1893
+vbfcprw/__init__.py,sha256=JAHzdELbQ0yCur202NlA1Bni82y622D9PEB6xPtaghg,209
+vbfcprw/pdf.py,sha256=Vu9wT9JR6X7Um_vajNG-IMCwgsi6jT4R_v0eBks5wDI,1407
+vbfcprw/data/CT10/CT10_0000.dat,sha256=FgL1bM5Hn0gYGqHIacXJvbNlDplplDT-46t1QlXwExY,621095
+vbfcprw/data/CT10/CT10.info,sha256=PoLHXkFTGjg2r7y2UAv4yeIO869YHENHImx3ZSjVE9c,1515
