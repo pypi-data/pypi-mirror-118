@@ -1,0 +1,35 @@
+
+# compliation
+__pycache__/
+*/__pycache__/
+*ipynb_checkpoint*
+# figures
+# figures/
+
+# scratch
+testing/scratch/
+testing/dana_driver.py
+
+# whatever I ever put in here
+visual_tests/
+faqs/test_tss_abundance.tsv
+swan_vis/requirements.txt
+testing/files/test_ab_2.txt
+tutorials/210816_test_dev.ipynb
+tutorials/test.ipynb
+tutorials/test_exon_path.tsv
+tutorials/test_tss_abundance.tsv
+
+# tutorials data
+tutorials/data/
+tutorials/figures/
+tutorials/swan.p
+tutorials/.ipynb_checkpoints/
+
+# other 
+.DS_Store
+
+# pip stuff
+dist/
+swan_vis.egg-info/
+

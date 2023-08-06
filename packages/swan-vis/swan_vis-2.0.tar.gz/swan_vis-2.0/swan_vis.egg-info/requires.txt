@@ -1,0 +1,11 @@
+fpdf
+matplotlib
+scipy
+statsmodels>=0.12.2
+numpy
+pandas>=1.1.0
+pytest
+networkx>=2.5
+tqdm
+anndata>=0.7
+diffxpy==0.7.4
