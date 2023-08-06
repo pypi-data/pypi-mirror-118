@@ -1,0 +1,15 @@
+slack_sdk
+requests
+boto3
+Unidecode
+pendulum
+expiringdict
+SQLAlchemy
+alembic
+psycopg2-binary
+
+[test]
+boto3
+pytest
+pylint
+black
