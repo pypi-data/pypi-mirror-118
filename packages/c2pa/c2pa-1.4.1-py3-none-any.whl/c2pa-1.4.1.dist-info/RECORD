@@ -1,0 +1,16 @@
+c2pa/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+c2pa/cai_tool.py,sha256=wUIYbGoUNcW1RDgx05mA9b-ADyIqmkSd8wSUc8LlnTQ,20600
+c2pa/core.py,sha256=qni7bfIL0x5a26TPqxxSilpNOLJwoLSNOJ5xySgc8Q8,9710
+c2pa/jumbf.py,sha256=jSfE_GrIl_sf2N-mQ9k57Q3jch1aGsBzG_UZbIclKy4,7957
+c2pa/starling.py,sha256=7nnA7WVpRqBPK2rSQZMuhmr05Lm4lK_Mo0NcJ_HqgiY,12310
+cai/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cai/cai_tool.py,sha256=gzWzvM2-T_g8mB_GDrrJvxRKAUPaOosmSTuGiSYzcVI,19913
+cai/core.py,sha256=qY5Sn_blhB2jVFOFhwMRrt-q_u0BFIwMc1_mx3h5q8E,9734
+cai/jumbf.py,sha256=hXTmFf_JOXjWizelWp9HbPTM3uP11rYlOcga4KGYfs0,7981
+cai/starling.py,sha256=p1BtH8Oz9RWNUEQHVpwUUU3a9huO2mydTdJ8jZ1U_JQ,12324
+c2pa-1.4.1.dist-info/LICENSE.txt,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+c2pa-1.4.1.dist-info/METADATA,sha256=Jx1sNDRb47dng4nUU6l6jxrtOjUJ058oSbQCVMhSKBQ,3677
+c2pa-1.4.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+c2pa-1.4.1.dist-info/entry_points.txt,sha256=oUQ9znbOfYO4Lw2mTaiGzTBWzfMyHveF7oXkV5cbKLk,75
+c2pa-1.4.1.dist-info/top_level.txt,sha256=ExreT1v3X1BMi_fTygO4xPNW9qoO8lCQKXXSF6NVVbc,5
+c2pa-1.4.1.dist-info/RECORD,,
