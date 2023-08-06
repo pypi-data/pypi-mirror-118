@@ -1,0 +1,10 @@
+setup.py
+dsd_dimas/Binomialdistribution.py
+dsd_dimas/Gaussiandistribution.py
+dsd_dimas/Generaldistribution.py
+dsd_dimas/__init__.py
+dsd_dimas.egg-info/PKG-INFO
+dsd_dimas.egg-info/SOURCES.txt
+dsd_dimas.egg-info/dependency_links.txt
+dsd_dimas.egg-info/not-zip-safe
+dsd_dimas.egg-info/top_level.txt
