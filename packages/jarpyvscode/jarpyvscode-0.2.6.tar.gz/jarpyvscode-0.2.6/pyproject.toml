@@ -1,0 +1,44 @@
+[build-system]
+requires = ["poetry-core>=1.0.0",]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "jarpyvscode"
+version = "0.2.6"
+description = "Python backend for Jamil Raichouni's personal Visual Studio Code Extension jamilraichouni.jarpyvscode"
+authors = ["Jamil Raichouni <raichouni@gmail.com>",]
+maintainers = ["Jamil Raichouni <raichouni@gmail.com>",]
+license = "MIT"
+readme = "README.md"
+documentation = "https://jar1.gitlab.io/jarpyvscode"
+homepage = "https://jar1.gitlab.io/jarpyvscode"
+repository = "https://gitlab.com/jar1/jarpyvscode"
+include = ["LICENSE", "README.md"]
+packages = [
+    {include = "jarpyvscode"},
+    {include = "tests"},
+]
+
+[tool.black]
+line-length = 88
+target-version = ["py38",]
+
+[tool.isort]
+ensure_newline_before_comments = true
+force_grid_wrap = 0
+import_heading_firstparty = "1st party:"
+import_heading_localfolder = "local:"
+import_heading_stdlib = "Standard library:"
+import_heading_thirdparty = "3rd party:"
+include_trailing_comma = true
+known_local_folder = ["app", "jarpyvscode", "tests",]
+line_length = 88
+multi_line_output = 3
+py_version = "auto"
+sections = ["FUTURE", "STDLIB", "THIRDPARTY", "FIRSTPARTY", "LOCALFOLDER",]
+use_parentheses = true
+
+[tool.vulture]
+exclude = ["docs", "jarpyvscode/constants.py"]
+ignore_decorators = ["@app.delete", "@app.get", "@app.head", "@app.on_event", "@app.options", "@app.patch", "@app.post", "@app.put", "@app.trace", "@cli.command", "@click.group"]
+
