@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: resultsdbrg
+Version: 0.1
+Summary: python library for analzying resultsdbrg
+Home-page: UNKNOWN
+Author: Eric Truett
+Author-email: eric@erictruett.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: python-dateutil
+Requires-Dist: tzlocal
+Requires-Dist: requests
+
+UNKNOWN
+
+
