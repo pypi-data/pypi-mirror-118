@@ -1,0 +1,10 @@
+make_runner/__init__.py,sha256=RJ7cUboDmu3qzyiXtPlwBwTUZzZGtNC5R249qdWuDpY,162
+make_runner/command_line.py,sha256=KHfN08tM-bCrF92vDSB1Ie4yyIkjgpwzAUCHQnbOD6Y,4625
+make_runner/makefile_parser.py,sha256=nT18eJoS_8tgAvH8fx6isnck7O5qkQ-rSzbw8UWu_DQ,2569
+make_runner/run.py,sha256=GW43L3ldsBZN4q3dksXsZUthSsC1Y8kMNtIdcLKW_c8,1653
+make_runner/utils.py,sha256=aAxtrV3DNi_RECA8yCv-Mx6hCxNTsxMrhG_xRx_UDqw,553
+make_runner-0.2.0.dist-info/entry_points.txt,sha256=x13cEWBsXLblI1CoXhsp7ASs7vSyHFXRRzO45ytGCuc,45
+make_runner-0.2.0.dist-info/LICENSE,sha256=ZB1goHngP9akO-wZoHCd3ZjmOZkR81jCMj6ctKbFZlE,1073
+make_runner-0.2.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+make_runner-0.2.0.dist-info/METADATA,sha256=1KwYR1lSuNw0SX5NotoTnTucryMSfFkgce4QN4rd4mM,1457
+make_runner-0.2.0.dist-info/RECORD,,
