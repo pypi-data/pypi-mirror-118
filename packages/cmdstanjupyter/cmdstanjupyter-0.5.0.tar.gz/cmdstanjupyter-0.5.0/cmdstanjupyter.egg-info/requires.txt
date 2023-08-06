@@ -1,0 +1,5 @@
+ipython
+humanize
+
+[ALL]
+cmdstanpy>=0.9.77
