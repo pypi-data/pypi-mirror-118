@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: leftpadx
+Version: 0.0.1
+Summary: A library that pads strings to the left. Feel free to make it your main dependency for your project.
+Home-page: https://github.com/Unity123/leftpad
+Author: TheColorRed
+Author-email: lucasgreer2@gmail.com
+License: UNKNOWN
+Project-URL: Bugs, https://github.com/Unity123/leftpad/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# leftpad
+`leftpad` is a Python library for padding the left of strings.
+
+# Installation
+`pip install leftpadx`
+
+# Usage
+```
+from leftpad import leftpad
+
+print(leftpad("epic", 100, "@"))
+```
+Expected output:
+```
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@epic
+```
+
