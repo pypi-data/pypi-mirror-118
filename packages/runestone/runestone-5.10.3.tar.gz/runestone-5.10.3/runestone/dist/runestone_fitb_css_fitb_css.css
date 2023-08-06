@@ -1,0 +1,13 @@
+.selectwidthauto {
+     width:auto !important;
+     display: inline-block !important;
+     margin: 5px;
+}
+
+input.input-validation-error {
+    border: 1px solid #e80c4d;
+}
+
+
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9XZWJDb21wb25lbnRzLy4vcnVuZXN0b25lL2ZpdGIvY3NzL2ZpdGIuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0tBQ0sscUJBQXFCO0tBQ3JCLGdDQUFnQztLQUNoQyxXQUFXO0FBQ2hCOztBQUVBO0lBQ0kseUJBQXlCO0FBQzdCIiwiZmlsZSI6InJ1bmVzdG9uZV9maXRiX2Nzc19maXRiX2Nzcy5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuc2VsZWN0d2lkdGhhdXRvIHtcbiAgICAgd2lkdGg6YXV0byAhaW1wb3J0YW50O1xuICAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2sgIWltcG9ydGFudDtcbiAgICAgbWFyZ2luOiA1cHg7XG59XG5cbmlucHV0LmlucHV0LXZhbGlkYXRpb24tZXJyb3Ige1xuICAgIGJvcmRlcjogMXB4IHNvbGlkICNlODBjNGQ7XG59XG5cbiJdLCJzb3VyY2VSb290IjoiIn0=*/
