@@ -1,0 +1,7 @@
+README.md
+setup.py
+csscolors/__init__.py
+csscolors.egg-info/PKG-INFO
+csscolors.egg-info/SOURCES.txt
+csscolors.egg-info/dependency_links.txt
+csscolors.egg-info/top_level.txt
