@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: qepler
+Version: 0.0.1
+Summary: Feyn is the high level Python interface to interact with an Abzu QLattice.
+Home-page: https://abzu.ai
+Author: Abzu
+Author-email: support@abzu.ai
+License: CC BY-ND 4.0
+Project-URL: Documentation, https://docs.abzu.ai
+Description: # Qepler
+        
+        Created by Abzu.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: C
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development
+Description-Content-Type: text/markdown
