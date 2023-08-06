@@ -1,0 +1,13 @@
+requests
+pytube
+docopt
+pystall
+python-whois-extended
+dnspython
+locust
+sdu
+
+[dev]
+nox
+pytest
+mkdocs
