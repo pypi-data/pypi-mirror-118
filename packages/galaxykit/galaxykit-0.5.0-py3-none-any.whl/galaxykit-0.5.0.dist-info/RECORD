@@ -1,0 +1,16 @@
+galaxykit/__init__.py,sha256=ZyQaq6Bi5Zuy8urLn8YflARsEQxuzYqct7AGxQi4or0,33
+galaxykit/client.py,sha256=dmjD54nNMj-ppFoLCmikKL3zkgoeImV9nfSyRdIy8fQ,6432
+galaxykit/collections.py,sha256=qDVCokROjusy8TNOQXDPnWnZFmafkLn7mz_gJGKdmg8,4071
+galaxykit/command.py,sha256=g6NTYSjUuXydeZdB5yxBiMiSG01ddrcty_c7GK_-amw,8383
+galaxykit/containers.py,sha256=wduyZIQ6SckoSDM-oPWGUSn0kBrWyuBCbraNUqynGok,526
+galaxykit/containerutils.py,sha256=ipS-qeQz3IS-UpBj2ys6u0-GtEB1CnoBX6VmffVemB4,2748
+galaxykit/dockerutils.py,sha256=i_VfHnZ5tcFbCQ7LQnPlJDb_lBVBCQwXDV0IQZDtKfU,2183
+galaxykit/groups.py,sha256=GAX5mSJzKgA-e2phHd-M9DAoCL4kfiuOI0dOnBwT9Kc,2783
+galaxykit/namespaces.py,sha256=5JVJJCyKv_0-4Iy210BqoVHpEbxjssAuvk0tvYcpdRo,2359
+galaxykit/users.py,sha256=5LjydhYV8zHAGcsCPC2FBHKCwdy_EtvduS0iGzZygQo,2696
+galaxykit-0.5.0.dist-info/LICENSE.md,sha256=FWBoQXekYNSXRU86l255USna3L9nZDC1idXqak4rizc,718
+galaxykit-0.5.0.dist-info/METADATA,sha256=HpaTDLDzajYNjY-LSzgLB7nU-w-q5aG8dr6cnKXdNR0,1109
+galaxykit-0.5.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+galaxykit-0.5.0.dist-info/entry_points.txt,sha256=IJDSQvffc049wLCLTfrf95Blo61aU7ca7QeHSB3fLP8,54
+galaxykit-0.5.0.dist-info/top_level.txt,sha256=VjOrfTIUB_6PYdscogzxes1YcjzxmAaqeMommuk4vaM,10
+galaxykit-0.5.0.dist-info/RECORD,,
