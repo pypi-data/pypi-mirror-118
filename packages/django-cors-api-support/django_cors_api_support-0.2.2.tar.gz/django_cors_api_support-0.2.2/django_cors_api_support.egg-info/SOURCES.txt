@@ -1,0 +1,17 @@
+README.rst
+setup.cfg
+setup.py
+django_cors_api_support/__init__.py
+django_cors_api_support/admin.py
+django_cors_api_support/apps.py
+django_cors_api_support/models.py
+django_cors_api_support/sessionMiddleware.py
+django_cors_api_support/tests.py
+django_cors_api_support/urls.py
+django_cors_api_support/views.py
+django_cors_api_support.egg-info/PKG-INFO
+django_cors_api_support.egg-info/SOURCES.txt
+django_cors_api_support.egg-info/dependency_links.txt
+django_cors_api_support.egg-info/requires.txt
+django_cors_api_support.egg-info/top_level.txt
+django_cors_api_support/migrations/__init__.py
