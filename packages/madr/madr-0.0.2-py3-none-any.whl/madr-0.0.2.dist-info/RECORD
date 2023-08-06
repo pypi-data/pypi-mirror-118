@@ -1,0 +1,14 @@
+madr/__init__.py,sha256=DsAHdxLC16H2VjdFOU5tBx2xT9VnNQ-XbTS24fRCa_w,22
+madr/cli.py,sha256=qCqapFGC5pdcDgkdiGVPU7Wj00I2b4Ls9kj3sZ6rqGs,812
+madr/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+madr/commands/init/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+madr/commands/init/command.py,sha256=nOTJsFnvFLsMz25SYYPcy5Bqvo96OCbJLzrIvepc16M,782
+madr/commands/init/template/.madr-config.yaml,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+madr/commands/init/template/README.md,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+madr/commands/init/template/docs/.empty,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+madr/commands/init/template/template/MADR.md,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+madr/commands/init/template/template/assets/.empty,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+madr-0.0.2.dist-info/entry_points.txt,sha256=ah49xsRt0RxSzK2zDjI5_r7PTYOK7u83Mx3foBmOEk8,37
+madr-0.0.2.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+madr-0.0.2.dist-info/METADATA,sha256=22TlSuQYeXXBbd-uJDYsovQL3uuJsV-oBf-sjyxlGHQ,409
+madr-0.0.2.dist-info/RECORD,,
