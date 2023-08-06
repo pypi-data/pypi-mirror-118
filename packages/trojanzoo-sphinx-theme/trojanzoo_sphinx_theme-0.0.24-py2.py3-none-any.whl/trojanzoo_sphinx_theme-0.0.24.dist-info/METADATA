@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: trojanzoo-sphinx-theme
+Version: 0.0.24
+Summary: TrojanZoo Sphinx Theme
+Home-page: https://github.com/ain-soph/trojanzoo_sphinx_theme
+Author: Ren Pang
+Author-email: rbp5354@psu.edu
+License: GPL-3
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Sphinx :: Theme
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Documentation
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Documentation
+Requires-Python: >3
+License-File: LICENSE
+Requires-Dist: sphinx (>=4.0.2)
+
+UNKNOWN
+
