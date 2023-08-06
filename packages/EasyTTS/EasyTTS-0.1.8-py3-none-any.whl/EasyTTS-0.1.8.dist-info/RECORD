@@ -1,0 +1,11 @@
+EasyTTS/__init__.py,sha256=xUh0WMf-ReJWP0HGd0AwSXWaEaOpo-5CVAL5Ay6ik-M,211
+EasyTTS/version.txt,sha256=QK4wsf7vC_oxaRRpzBC0UZrzPE8DzdBEbPyyxMgV3xo,5
+EasyTTS/inference/TTS.py,sha256=MZxQ-6_TXQswo1HOrfyuTKQkuZX5I-gy4ykw22isPsw,1650
+EasyTTS/inference/__init__.py,sha256=A3OuciIqjHuzgt1SmDtbPTha5-Pjy7pzsiDsVPdD_9I,341
+EasyTTS/models/__init__.py,sha256=A3OuciIqjHuzgt1SmDtbPTha5-Pjy7pzsiDsVPdD_9I,341
+EasyTTS/utils/__init__.py,sha256=A3OuciIqjHuzgt1SmDtbPTha5-Pjy7pzsiDsVPdD_9I,341
+EasyTTS-0.1.8.dist-info/LICENSE,sha256=wU_-MKmSBzo5bUgSSdMiQd7JqVXVyZsjIi4phsvKD90,1069
+EasyTTS-0.1.8.dist-info/METADATA,sha256=0I3Xy79s3Spv50aisG_dTSkJvt5wZvrIbgNSsQVa-70,4241
+EasyTTS-0.1.8.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+EasyTTS-0.1.8.dist-info/top_level.txt,sha256=xeD5rDoSkEZpu45zByDgXzkdoozr3xVCiZyhlc08twc,8
+EasyTTS-0.1.8.dist-info/RECORD,,
