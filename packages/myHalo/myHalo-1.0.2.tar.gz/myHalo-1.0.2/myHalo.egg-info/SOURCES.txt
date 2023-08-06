@@ -1,0 +1,10 @@
+README.md
+setup.py
+myHalo.egg-info/PKG-INFO
+myHalo.egg-info/SOURCES.txt
+myHalo.egg-info/dependency_links.txt
+myHalo.egg-info/entry_points.txt
+myHalo.egg-info/requires.txt
+myHalo.egg-info/top_level.txt
+printHalo/__init__.py
+printHalo/printHallo.py
