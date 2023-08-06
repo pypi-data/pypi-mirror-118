@@ -1,0 +1,1 @@
+from .info import get_user_info

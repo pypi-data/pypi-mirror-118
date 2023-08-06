@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "cf_cli"
+version = "0.1.0"
+description = "Terminal interaction with Cloudflare"
+license = "MIT"
+authors = ["Vivaan Verma <vivaan.verma@gmail.com>"]
+maintainers = ["Vivaan Verma <vivaan.verma@gmail.com>"]
+readme = "README.md"
+keywords = [
+    "CLI",
+    "Cloudflare",
+    "Terminal"
+]
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Environment :: Console",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.9",
+    "Topic :: Terminals"
+]
+
+[tool.poetry.scripts]
+cloudflare = "cf_cli:app"
+
+
+[tool.poetry.dependencies]
+orjson = "~=3.6"
+pydantic = "~=1.8"
+python = "~=3.9"
+requests = "~=2.26"
+typer = {extras = ["all"], version = "~=0.4"}
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
