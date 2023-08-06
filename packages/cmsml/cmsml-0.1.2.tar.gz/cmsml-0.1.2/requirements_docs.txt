@@ -1,0 +1,5 @@
+six>=1.13
+sphinx
+sphinx-rtd-theme
+autodocsumm
+tensorflow
