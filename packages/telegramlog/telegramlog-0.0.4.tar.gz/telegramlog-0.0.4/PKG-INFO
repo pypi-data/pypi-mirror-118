@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: telegramlog
+Version: 0.0.4
+Summary: 基于flylog的telegram日志发送
+Home-page: https://github.com/deanzhou69/telegram_log
+Author: dean
+Author-email: deanzhou56@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
