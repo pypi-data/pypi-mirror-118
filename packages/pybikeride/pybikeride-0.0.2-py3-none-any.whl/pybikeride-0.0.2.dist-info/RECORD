@@ -1,0 +1,10 @@
+bikeride/__init__.py,sha256=ub7JwHwGurMBgge96ZybCMvbXMHpCE_kdxXuh1Cbj5g,93
+bikeride/bikeride.py,sha256=srLPAOJ9VIz3cu6a2t0LRzyj6X_jZb3JCdULPRA9wiA,16775
+bikeride/knmi.py,sha256=p842Mor0qpBgbSU0TwSQehcbC-sffOcwjwJopagdOaI,5341
+bikeride/oikolab.py,sha256=du0ODl8VYYBHlB1twMQ3v48cAWWN-c7V9IZk90KpA-E,1184
+bikeride/plot.py,sha256=V0lt7AUeS136qxvOZ5yx6-idb-gQMNnt4xM58iaTLRM,1743
+bikeride/weather.py,sha256=07EfNEOnQaLH6nvVT81sILlTBwQzVMQ9kF_3mmSUDfk,854
+pybikeride-0.0.2.dist-info/METADATA,sha256=Lb_FmHq_8PKgUAeLjQj1xwRlMqDgF38iETMKuv3Nzyg,10424
+pybikeride-0.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pybikeride-0.0.2.dist-info/top_level.txt,sha256=SHGmeVTD83yVLf8bCNd13HHWHWdkzaN7V-tkTrxeqyk,9
+pybikeride-0.0.2.dist-info/RECORD,,
