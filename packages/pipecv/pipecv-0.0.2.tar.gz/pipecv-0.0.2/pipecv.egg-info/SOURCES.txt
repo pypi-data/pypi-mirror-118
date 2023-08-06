@@ -1,0 +1,5 @@
+setup.py
+pipecv.egg-info/PKG-INFO
+pipecv.egg-info/SOURCES.txt
+pipecv.egg-info/dependency_links.txt
+pipecv.egg-info/top_level.txt
