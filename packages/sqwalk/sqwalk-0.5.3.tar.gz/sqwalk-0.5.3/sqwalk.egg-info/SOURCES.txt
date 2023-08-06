@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+sqwalk/__init__.py
+sqwalk/objects.py
+sqwalk/utils.py
+sqwalk.egg-info/PKG-INFO
+sqwalk.egg-info/SOURCES.txt
+sqwalk.egg-info/dependency_links.txt
+sqwalk.egg-info/not-zip-safe
+sqwalk.egg-info/requires.txt
+sqwalk.egg-info/top_level.txt
