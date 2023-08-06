@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: sbx2imagej
+Version: 0.0.6
+Summary: ...
+Home-page: https://github.com/orena1/sbx2imagej
+Author: Oren Amsalem
+Author-email: oren.a4@gmail.com
+License: GPL
+Description: 
+        
+        # sbx2imagej
+        
+         ``pip install sbx2imagej``
+        
+        Source code is in [the repository](https://github.com/orena1/sbx2imagej.git)
+        
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
