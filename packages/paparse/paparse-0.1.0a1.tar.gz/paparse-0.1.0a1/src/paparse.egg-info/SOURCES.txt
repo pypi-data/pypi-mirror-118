@@ -1,0 +1,14 @@
+README.md
+setup.py
+src/paparse/__init__.py
+src/paparse/configs.py
+src/paparse/converters_primitive.py
+src/paparse/exceptions.py
+src/paparse/parameters.py
+src/paparse/predicates.py
+src/paparse.egg-info/PKG-INFO
+src/paparse.egg-info/SOURCES.txt
+src/paparse.egg-info/dependency_links.txt
+src/paparse.egg-info/not-zip-safe
+src/paparse.egg-info/requires.txt
+src/paparse.egg-info/top_level.txt

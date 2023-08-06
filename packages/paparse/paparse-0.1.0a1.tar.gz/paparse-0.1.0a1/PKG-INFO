@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: paparse
+Version: 0.1.0a1
+Summary: Python utility for creating configs from settings files
+Home-page: https://github.com/wulu473/paparse
+Author: Lukas Wutschitz
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.9.0
+Description-Content-Type: text/markdown
+
+# Parameter Parse (paparse)
+
+## Example
+
+``` yaml
+    trainer:
+        batch_size: 5
+    data:
+        train_path: "some_path"
+```
+
+``` python
+    @dataclass
+    class Config(SimpleConfig):
+```
+
+``` python
+    class EarlyTerminatorConfig(MultiActiveModuleConfig):
+        pass
+
+    @dataclass
+    class IncreasingValueConfig(EarlyTerminatorConfig):
+        patience:int
+        metric:str
+
+    @dataclass
+    class TrainerConfig:
+        early_terminators:list[EarlyTerminatorConfig]
+    #   batch_size:int
+    #   drop_remainder:bool
+    #   ...
+```
+
