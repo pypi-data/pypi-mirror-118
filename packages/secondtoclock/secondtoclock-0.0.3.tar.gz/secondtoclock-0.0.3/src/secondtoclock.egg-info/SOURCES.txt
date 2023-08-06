@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/secondtoclock.egg-info/PKG-INFO
+src/secondtoclock.egg-info/SOURCES.txt
+src/secondtoclock.egg-info/dependency_links.txt
+src/secondtoclock.egg-info/top_level.txt

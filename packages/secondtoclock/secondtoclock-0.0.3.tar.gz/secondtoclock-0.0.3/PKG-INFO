@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: secondtoclock
+Version: 0.0.3
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: LulubelleIII
+Author-email: <uytudef@gmail.com>
+License: UNKNOWN
+Keywords: python,time,clock,seconds to clock,time converter
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Second To Clock 
+
+This is a basic package for python converts seconds to clock
+
+## Installation
+
+Run the following to install:
+
+```python
+pip install secondtoclock
+```
+
+## Usage 
+### Code:
+```python
+from secondtoclock import secToClock
+
+
+# To convert
+print(secToClock(12569))
+```
+### Output:
+```txt
+03:29:29
+```
+
