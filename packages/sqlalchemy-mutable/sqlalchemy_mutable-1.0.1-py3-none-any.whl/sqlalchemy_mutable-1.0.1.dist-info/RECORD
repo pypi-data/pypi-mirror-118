@@ -1,0 +1,15 @@
+sqlalchemy_mutable/__init__.py,sha256=FQ7hgPewGaW5zXujZuyQ49DT-WpdjJcUOAf7DGLjRfU,399
+sqlalchemy_mutable/dict.py,sha256=20tmGxYKBEXKOluwuEVcgrgk5UuV_fIgLsvLUx037UM,2337
+sqlalchemy_mutable/html.py,sha256=aDNkCuEk7HrdytLPbhtmFRtpX_e9MN8p05Mzyr3HwYA,1026
+sqlalchemy_mutable/list.py,sha256=0aHm1IheYmi-IC10j1l_6mlwm044fgedh08wkUnze0g,2492
+sqlalchemy_mutable/model_shell.py,sha256=WxoiiBzRDZ3lfyz8133Z7p6w54mEMQ04mRf-H8KNNf8,1696
+sqlalchemy_mutable/mutable.py,sha256=UuhZTXNMcOK3Z6vfT8znqyQluUz4UYIJbMt-T3JeNHg,17499
+sqlalchemy_mutable/set.py,sha256=lnLbdzWRjrlY9NeE_amXu8zVSM6MZ1oG10vITDq0TcU,2043
+sqlalchemy_mutable/tuple.py,sha256=z1WzVAqW8D5Y_DQ3rwMHbT6n_9pj3gXAztpPtrXIFbg,1241
+sqlalchemy_mutable/types.py,sha256=xArWV-9cvc3yGFJ0d8IXhtK8dxrnzcnNVd1aewEJwZE,2900
+sqlalchemy_mutable/utils.py,sha256=VlOzkTxu1yUMPWPot4EjUb7otYa6_I89wemBOm6D0SM,2494
+sqlalchemy_mutable-1.0.1.dist-info/LICENSE,sha256=ghASXHlzIXyenosPgZLjkf7xKp3_N0VnrOtHjgITIME,1074
+sqlalchemy_mutable-1.0.1.dist-info/METADATA,sha256=k7rXtjBEUNmpk2ghWQn_cOklxeOYF8WkNvRr0J2rKbo,1753
+sqlalchemy_mutable-1.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+sqlalchemy_mutable-1.0.1.dist-info/top_level.txt,sha256=WOK4sWuCthu_UxpgSqt17pjLuHoPIHKhMypZxGZXUKY,19
+sqlalchemy_mutable-1.0.1.dist-info/RECORD,,
