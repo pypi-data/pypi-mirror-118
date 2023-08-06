@@ -1,0 +1,80 @@
+Sphinx-Needs-Capri
+==================
+
+.. image:: /docs/_static/sphinx_needs_codebeamer_logo.png
+   :align: center
+   :width: 50%
+
+This `Sphinx <https://www.sphinx-doc.org/en/master/>`_ extension provides scripts and directives to synchronize
+data between `codebeamer <https://codebeamer.com/>`_ from `Intland <https://intland.com/>`_ and the
+Requirement Engineering extension `Sphinx-Needs <https://sphinxcontrib-needs.readthedocs.io/en/latest/>`_ from
+`useblocks <https://useblocks.com>`_.
+
+License
+-------
+This software is licensed under **BSL 1.1** and it can be used and distributed for free as long as it is not
+used for and inside commercial projects, products or documentations.
+
+A commercial license can be obtained by contacting the
+`useblocks team <mailto:mail@useblocks.com?subject=License for sphinx-needs-capri>`_.
+
+See our `License file <https://raw.githubusercontent.com/useblocks/sphinx-needs-capri/main/LICENSE>`_
+for details. Or take a look into the general `BSL FAQ <https://mariadb.com/bsl-faq-adopting/>`_.
+
+Development
+-----------
+
+Codebeamer - Docker
+~~~~~~~~~~~~~~~~~~~
+
+To start a codebeamer server local, you can use ``docker-compose up -d`` under ``/docker``.
+This will download, create and run a codebeamer and a mysql container.
+
+After that open http://127.0.0.1:8080 in your browser and use the default codebeamer  user
+``bond`` with password ``007``.
+
+To stop everything, run ``docker-compose down`` under ``/docker``.
+
+For more information take a look into `Codebeamer's Docker documentation <https://codebeamer.com/cb/wiki/5562876>`_.
+
+License
+^^^^^^^
+codebeamer gets executed with an evaluation license, which is valid for 7 days.
+
+If you need a more suitable license, you can request one from the codebeamer support team: support@intland.com.
+
+The support team will need your Host-ID, which should be by default ``LIN-02:42:AC:16:00:03`` for most docker
+installations. You can check this and other License details under: http://127.0.0.1:8080/sysadmin/configLicense.spr
+
+To add your own license, create ``/docker/.env`` and add the following content::
+
+    # Your MAC Address
+    CB_MAC_ADDRESS=02:42:AC:16:00:03
+    CB_LICENSE=<license ...> ... </license>  #All in one line
+
+
+REST access
+^^^^^^^^^^^
+The default user ``bond`` has already all needed privileges to access the codebeamer REST API under
+``http://127.0.0.1:8080/rest``.
+
+For a quick test, execute ``curl --user bond:007 http://127.0.0.1:8080/rest/user/bond``.
+
+Return value should be::
+
+    {
+      "uri" : "/user/1",
+      "name" : "bond",
+      "firstName" : "Default",
+      "lastName" : "System Administrator",
+      "dateFormat" : "MMM dd yyyy",
+      "status" : "Activated"
+    }
+
+There is also a swagger-ui available to analyse the complete REST-API: http://127.0.0.1:8080/v3/swagger/editor.spr.
+
+
+
+
+
+
