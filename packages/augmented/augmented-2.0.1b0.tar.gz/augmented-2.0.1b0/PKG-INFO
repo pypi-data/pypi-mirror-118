@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: augmented
+Version: 2.0.1b0
+Summary: Augmented reality in python made easy
+Home-page: https://www.github.com/sarangt123/ar-python
+Author: Sarang T (github.com/sarangt123)
+Author-email: sarang.thekkedathpr@gmail.com
+License: BSD-3-Clause License
+Keywords: Augmented reality
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: BSD License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# ar-python
+(outdated will be updated soon)
+Ar python is a cross platform module used to do augmented reality using python
+
+`pip install augmented`
+
+# Requirements
+----
+*Open cv (opencv-python)
+
+*Numpy
+
+*keyboard
+
+* requirements may vary on diffrent operating systems
+
+# How to use 
+## initializing
+-----------
+```py
+import augmented as ar
+augmented = ar.ar(<capture:int"""Camera number""">, <targetImage:str"""location of the image to replace""">, <overlayImage:str"""Image to overlay""", >)
+```
+## Overlaying
+```py
+augmented.ar_overlay(<nfeatures:int>"""Used for opencv calcs""", <debug:bool>"""choosing to debug or not""", <confidence:int"""confidence of the ai model""">,<displayName:str"""Title for the window of the app""">, <exit:str"""key to exit the program""">)
+```
+
+First release
+
