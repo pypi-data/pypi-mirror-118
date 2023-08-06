@@ -1,0 +1,10 @@
+LICENSE
+setup.py
+IRonPyD.egg-info/PKG-INFO
+IRonPyD.egg-info/SOURCES.txt
+IRonPyD.egg-info/dependency_links.txt
+IRonPyD.egg-info/not-zip-safe
+IRonPyD.egg-info/requires.txt
+IRonPyD.egg-info/top_level.txt
+Phi/__init__.py
+Phi/finished_methods.py
