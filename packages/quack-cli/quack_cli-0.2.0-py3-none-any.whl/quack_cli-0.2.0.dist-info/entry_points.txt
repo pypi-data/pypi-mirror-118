@@ -1,0 +1,3 @@
+[console_scripts]
+quack=quack_cli.main:app
+
