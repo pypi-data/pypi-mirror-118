@@ -1,0 +1,1 @@
+# Once the prism result csv file is downloaded currently we filter the 0/5 issues manually and then convert it into className:method1,method2 format so that we can bulk run the prism failures. This repo will automate this manual process.
