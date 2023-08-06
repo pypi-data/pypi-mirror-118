@@ -1,0 +1,12 @@
+pyg600/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyg600/__main__.py,sha256=3iqHXM8ds81f9WWbwHH5sZZN26xomz0gJsUBFgdzbbk,121
+pyg600/config.py,sha256=qfhaJLARK0f5LwzCI6EhASNsyWq6GoSxLXWmZ2-6y68,2524
+pyg600/constants.py,sha256=sjv5Dp8ZQHK3tKzPmVK5pa0aiyH-yYl-5oZ4KqpdkIc,737
+pyg600/daemon.py,sha256=6hV0XnUuOVF6Mq-ehGUMgd6G3H8Tmz7M5Fe72SR3e4c,1453
+pyg600/default.yaml,sha256=VegWyO-SwtWuL9ZyguiWSeKePECk6TKrLUTN9luDssY,565
+pyg600-1.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pyg600-1.1.0.dist-info/METADATA,sha256=xMSvbOV4zPdjR43Gqfq5ze0FX23pzth14vPGNm3dVco,414
+pyg600-1.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pyg600-1.1.0.dist-info/entry_points.txt,sha256=TSDWSkkigud6jAYb1Q6HWNPCfvVcN5OLvFLOAnvUcic,49
+pyg600-1.1.0.dist-info/top_level.txt,sha256=_ZzomUm0qZ96vo_-mL1efW5Vm5A0TXE_qzSt5jAnQrQ,7
+pyg600-1.1.0.dist-info/RECORD,,
