@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: decrypt256
+Version: 1.0.1
+Summary: A sha-256 decryptor
+Home-page: https://github.com/101happy/decrypt256
+Author: 101 happy
+Author-email: ous.asist@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/101happy/decrypt256/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Decrypt256
+Decrypts SHA-256.
+# How to download
+To download it do:
+```py
+pip install decrypt256
+```
+# How to use it
+To include the python file use:
+```py
+from decrypt256 import decrypt256
+```
+And to use it do:
+```py
+from decrypt256 import decrypt256
+
+hash = input("Enter a hash: ")
+value_hash = decrypt256.decrypt256(hash)
+
+if value_hash != None:
+	print("The value of that hash is: " + value_hash)
+else:
+	print("Hash invalid or not found")
+```
+
