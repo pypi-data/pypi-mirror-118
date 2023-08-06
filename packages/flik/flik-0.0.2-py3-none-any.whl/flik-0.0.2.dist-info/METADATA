@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: flik
+Version: 0.0.2
+Summary: Flik, a Python Package for Film Buffs
+Home-page: https://github.com/dariush-bahrami/flik
+Author: Dariush Bahrami
+Author-email: dariushbahrami1993@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/dariush-bahrami/flik/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: bs4
+Requires-Dist: fake-useragent
+
+# Flik, a Python Package for Film Buffs
+
+## Review Functionality
+
+In order to get review rates for a specific movie use `review` function:
+
+```python
+import flik
+flik.review('se7en')
+```
+The returned object is a python dictionary containing available review rating in the first page of the Google search:
+
+```python
+{'www.imdb.com': '8.6/10',
+ 'www.rottentomatoes.com': '82%',
+ 'www.amazon.com': '4.7'}
+```
+
+
