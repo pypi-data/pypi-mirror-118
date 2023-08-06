@@ -1,0 +1,9 @@
+Django>=2.2
+
+[dev]
+tox
+jasmine
+
+[devdb]
+psycopg2
+mysqlclient
