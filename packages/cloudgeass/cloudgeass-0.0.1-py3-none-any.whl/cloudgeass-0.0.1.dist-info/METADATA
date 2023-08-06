@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: cloudgeass
+Version: 0.0.1
+Summary: Componentes de integração para construção de arquiteturas de soluções utilizando ambientes cloud
+Home-page: https://github.com/ThiagoPanini/cloudgeass
+Author: Thiago Panini
+Author-email: thipanini94@gmail.com
+License: MIT
+Keywords: Cloud,AWS,Python
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Framework :: Jupyter
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: Portuguese (Brazilian)
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.0.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: boto3
+Requires-Dist: pandas
+
+# cloudgear
+Componentes cloud utilizando bibliotecas prontas e SDKs para facilitar implementações, acoplamentos ou desenvolvimento de novas arquiteturas de soluções
+
+
