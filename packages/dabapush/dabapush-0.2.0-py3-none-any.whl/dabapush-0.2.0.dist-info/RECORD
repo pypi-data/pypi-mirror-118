@@ -1,0 +1,12 @@
+dabapush/Reader/Reader.py,sha256=wvDBCr8Gx0ZcVX78hrY62hvcC95Air7hh3BDo1AylTE,842
+dabapush/Reader/TwacapicReader.py,sha256=-KsCwyfMKhQRgejv2e3tLEKgu_KSI1tDX6vAb4hxdxA,1129
+dabapush/Writer/CSVWriter.py,sha256=R_stiyU_toLbKqJuuWqkxk_zNGITpCMBjDkZjysrt70,593
+dabapush/Writer/Writer.py,sha256=B3Z2_XQNtcNikhm9qOO0PwK_NkKdDlOxYJtMGUWXG-A,2273
+dabapush/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+dabapush/dabapush.py,sha256=jJFdoVh3tkQ1YJpm4qS47wH5W2YFoWISe8633j2sACo,4125
+dabapush/read.py,sha256=wE4qnpB_gcEtpQtZfMPp_0PkUkx2pS2spNgFFkcPVFk,352
+dabapush-0.2.0.dist-info/entry_points.txt,sha256=XuXgmg5XfyVJNuJFpxNuwm3I1RjejBDeAMvIWIO1jaA,50
+dabapush-0.2.0.dist-info/LICENSE,sha256=GX4Zbm3KuZmGdcUzLFALCEMl5WXo4t2Q__YHeM2vPEo,1117
+dabapush-0.2.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+dabapush-0.2.0.dist-info/METADATA,sha256=0TMzhm6fPv0XIlUg1kQfWiPcyOJOQw1Zfrx9PVR0K1o,1281
+dabapush-0.2.0.dist-info/RECORD,,
