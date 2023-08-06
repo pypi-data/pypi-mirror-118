@@ -1,0 +1,9 @@
+pandoc4ssg/__init__.py,sha256=oXEMrQAkRIqNJqmqzCvRYTra0TWPNXaRC418bGfrrPs,98
+pandoc4ssg/dirStruct.py,sha256=8Lsk3RIOvFE20rZP0BMYi_0jxZm6w46XKQcRhSFntHg,863
+pandoc4ssg/pipeline.py,sha256=bx0Az3WcTEFUqO276ZpMI6pZHTI8Dg0g6WjPwgBEcLI,600
+pandoc4ssg/postHandler.py,sha256=IYLdjtMoHnDxDhKl_TFCKV2x3sOaF7ZRZJBqjbJF81A,3750
+pandoc4ssg/utils.py,sha256=a_rDiB6A0zBuZsHT5eqiSCOc4uSmNP2zcNH_CE6ta6E,667
+pandoc4ssg-0.0.1.dist-info/METADATA,sha256=VTH-Fwlpcw7n-jqI1dsyol5F2ZqRTIqTvy_np8tBtr0,1588
+pandoc4ssg-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pandoc4ssg-0.0.1.dist-info/top_level.txt,sha256=NTLoT_iL5gteN_DIG16jJsuDIBrVT2zDhuyCI81KBUY,11
+pandoc4ssg-0.0.1.dist-info/RECORD,,
