@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: teleasy
+Version: 1.0.2
+Summary: Create Telegram Bots easily
+Home-page: https://github.com/noel-friedrich/teleasy
+Author: Noel Friedrich
+Author-email: noel.friedrich@outlook.de
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/noel-friedrich/teleasy/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# teleasy
+> Create Telegram Bots. But much easier than usual.
+
+
