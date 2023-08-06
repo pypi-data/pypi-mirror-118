@@ -1,0 +1,10 @@
+ecs_dns/__init__.py,sha256=Pf_dAcs-guNZtKUHw0rpDYC0tJOOj7BGVebXewRZDEw,607
+ecs_dns/_cli.py,sha256=fZxWherNdHDVl-BQiEVa61kUeiRc45WMuFbm5lzC8Pg,1435
+ecs_dns/_ecs_dns.py,sha256=7EfL_mjeIr0tmT4qadxwGxc0sSDK9qkEBrZn_RjVlMc,4635
+ecs_dns/models.py,sha256=inrLDhleCEciwfC2jqxiojK4xSFGadumqikVPZYEun8,2035
+ecs_dns-0.1.12.dist-info/LICENSE,sha256=GRZks4RDsAyXMv_fqFcVaVzpbKu5Gj2AFFPnt7YjA18,1506
+ecs_dns-0.1.12.dist-info/METADATA,sha256=P16933z2tmxoRmPcem8M5YHi58tmYv8KV6DziPBqaII,1585
+ecs_dns-0.1.12.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+ecs_dns-0.1.12.dist-info/entry_points.txt,sha256=upcB9K16ASGaSwsnHn4sEByevb7HKiupOVt0-5L1ecM,46
+ecs_dns-0.1.12.dist-info/top_level.txt,sha256=b-RAa7nBn4E_jlBGGET-PQ7IxTWbORXqwqjOX6Pu7bw,8
+ecs_dns-0.1.12.dist-info/RECORD,,
