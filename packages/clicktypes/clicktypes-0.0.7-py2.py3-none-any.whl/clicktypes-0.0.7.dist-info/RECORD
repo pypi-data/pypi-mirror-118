@@ -1,0 +1,14 @@
+clicktypes/__init__.py,sha256=N3M1WRnsi8boN87UGDydNJTAJEYFHUcFTqwk4jhfNbU,145
+clicktypes/__version__.py,sha256=odFg-nRAluxZ0J8_P86f__QOnxHe-DO3GjCNFv_urdU,308
+clicktypes/network/__init__.py,sha256=P_-X148Uc1OowYFzuYTb5NSNcjAD2rXbw_T73CCIgmU,420
+clicktypes/network/address.py,sha256=I_4y9dUq3pKJG0_59sTZG81cUsI3OuiJR5aagzuHW84,7199
+clicktypes/network/network.py,sha256=DPM7oDRt6R9nGXJjUgkp0m0QSdRsQm1fuOtfw3cyY24,8925
+clicktypes/web/__init__.py,sha256=gJOXaRWpuHaQelrLCepfoPlnqwjAreomsCye7uMLkRc,206
+clicktypes/web/domain.py,sha256=Wn3YzQHk8KE1H_LrAyoQboF6PRHURe6rhbn2B38Kj0s,922
+clicktypes/web/email.py,sha256=Kt5yHT4Ct2Q4DxQRrlEqQccleSPdTxkjr85dIM4Z5Ds,968
+clicktypes/web/url.py,sha256=iO01RsCwXRw6ok5T0H2F68qd7f4vmtBGMHkP98x4_7M,796
+clicktypes-0.0.7.dist-info/LICENSE,sha256=VgkC_DIkNWQ68CqcDB6nLxcf9QSdtYSoVXnwmQ4JQ94,1060
+clicktypes-0.0.7.dist-info/METADATA,sha256=1FiE8oRjANJq3J64HhT1iT2n2SBlYPGClI-2oc4LoWo,1985
+clicktypes-0.0.7.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+clicktypes-0.0.7.dist-info/top_level.txt,sha256=3V7c-bzxfAGQEHf1MnHy5sbLyHdIO-M-hZyrhmJJ5Lo,11
+clicktypes-0.0.7.dist-info/RECORD,,
