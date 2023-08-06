@@ -1,0 +1,9 @@
+LICENSE.txt
+setup.cfg
+setup.py
+sweelimiter/__init__.py
+sweelimiter.egg-info/PKG-INFO
+sweelimiter.egg-info/SOURCES.txt
+sweelimiter.egg-info/dependency_links.txt
+sweelimiter.egg-info/requires.txt
+sweelimiter.egg-info/top_level.txt
