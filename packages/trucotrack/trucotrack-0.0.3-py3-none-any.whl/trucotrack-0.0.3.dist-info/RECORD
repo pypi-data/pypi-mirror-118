@@ -1,0 +1,16 @@
+trucotrack/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+trucotrack/__main__.py,sha256=cBliAfV4ckRtWldCwsDFS8n3_cw83YbEbK-HPG8Iaiw,70
+trucotrack/cli.py,sha256=rMd6n1GyL7UemA2T3VjILheUJxwUIe6Q1V46XFg_blw,9503
+trucotrack/frame_dispatcher.py,sha256=3agezjMeyCF3cekgmgcTUR_ncm9CKdaD0r2sp0XGQLc,1538
+trucotrack/processors/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+trucotrack/processors/csv_gzip_writer.py,sha256=74UXkXPJQ6k2X5KO6mojJr32YsVcMzJ1DconPeAddh8,891
+trucotrack/trackers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+trucotrack/trackers/mediapipe_face.py,sha256=Bvz_XSJiU9ubfnpMwwx1YX6yKDq4BwvJLbJsH3wqUHo,2945
+trucotrack/trackers/mediapipe_hand.py,sha256=iqnk0-hTAmv6FlKdqaq-lTpCEdZIZ40ko2Xrx0wBZ58,3298
+trucotrack/trackers/mediapipe_pose.py,sha256=n3okEergX21LToQ2IvbjgSAaK3_iQ0poG_0YAxrsXEY,2295
+trucotrack-0.0.3.dist-info/LICENSE.txt,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+trucotrack-0.0.3.dist-info/METADATA,sha256=HmE4tjfubAassRBPw68X9vS6xTYS7cueFAaIhYlw7sE,2522
+trucotrack-0.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+trucotrack-0.0.3.dist-info/entry_points.txt,sha256=GhNon3puDDwduozmEskOsFdqvC5Scg0Z0VuT5cVNFCo,52
+trucotrack-0.0.3.dist-info/top_level.txt,sha256=cnz8RrzH5oUlG195R_QGEAPZc_NOKU6roEEwXZ8KIew,11
+trucotrack-0.0.3.dist-info/RECORD,,
