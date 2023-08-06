@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: pyft4222
+Version: 0.0.2
+Summary: A python wrapper for libft4222 library
+Home-page: https://github.com/lavovaLampa/pyft4222
+Author: Martin Cizmar
+Author-email: betacheer@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/lavovaLampa/pyft4222/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+WIP
+
