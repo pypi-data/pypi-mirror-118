@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: mingshe
+Version: 0.3.0
+Summary: 
+Home-page: https://github.com/abersheeran/mingshe
+License: Apache-2.0
+Author: abersheeran
+Author-email: me@abersheeran.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, https://github.com/abersheeran/mingshe
+Description-Content-Type: text/markdown
+
+# MíngShé
+
+A better [Python](https://www.python.org/) superset language.
+
+## Install
+
+```
+pip install mingshe
+```
+
+## Usage
+
+```bash
+mingshe --help
+```
+
+## Pipe
+
+Example:
+
+```
+range(10) |> sum |> print
+```
+
+Compile to:
+
+```python
+print(sum(range(10)))
+```
+
+## Conditional
+
+Example:
+
+```
+a ? b : c
+```
+
+Compile to:
+
+```python
+b if a else c
+```
+
+## Partial
+
+Example:
+
+```
+square = pow(?, 2)
+```
+
+Compile to:
+
+```python
+(lambda pow: lambda _0, /: pow(_0, 2))(pow)
+```
+
