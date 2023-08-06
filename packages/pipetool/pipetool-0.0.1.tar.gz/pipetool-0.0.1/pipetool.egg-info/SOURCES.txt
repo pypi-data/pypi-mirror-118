@@ -1,0 +1,5 @@
+setup.py
+pipetool.egg-info/PKG-INFO
+pipetool.egg-info/SOURCES.txt
+pipetool.egg-info/dependency_links.txt
+pipetool.egg-info/top_level.txt
