@@ -1,0 +1,8 @@
+colorama<1,>=0.4
+pyyaml<6,>=5.3.1
+ray[default]<2,>=1.5.2
+
+[test]
+pytest==6.1.*
+pytest-cov==2.10.*
+pytest-asyncio==0.14.*
