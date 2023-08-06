@@ -1,0 +1,7 @@
+setup.py
+discord/websocket.c
+discord.pyx.egg-info/PKG-INFO
+discord.pyx.egg-info/SOURCES.txt
+discord.pyx.egg-info/dependency_links.txt
+discord.pyx.egg-info/requires.txt
+discord.pyx.egg-info/top_level.txt
