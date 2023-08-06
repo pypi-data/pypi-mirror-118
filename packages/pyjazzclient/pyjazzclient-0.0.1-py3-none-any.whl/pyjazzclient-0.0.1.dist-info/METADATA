@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: pyjazzclient
+Version: 0.0.1
+Summary: Python package for interacting with IBM Jazz
+Home-page: https://github.com/gnomerspell/pyjazzclient
+Author: Steve Wallace
+Author-email: gnomerspell@gmail.com
+License: UNKNOWN
+Project-URL: Issues, https://github.com/gnomerspell/pyjazzclient/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+**PyJazzClient** is a simple python package for communicating with IBM Jazz.
+
+```python
+>>> from pyjazzclient.jazzclient import JazzClient
+>>> from pyjazzclient.testcase import TestCase
+>>> server_url = "https://jazz.net/jazz"
+>>> default_projects = {"qm": "__JVJ8e2eEeuHyM9xpDtK0B", "rm": "__JVJ8e2eEeuHyM9xpDtK0C"}
+>>> jazz = JazzClient(server_url, "username", "password", default_projects)
+>>> testcase = jazz.testcase(web_id=16197)
+>>> print(testcase.title)
+'The handheld device shall allow the meter reader to enter information about meters relocated on a particular route.'
+```
+
+Pyjazzclient allows you to create, edit, update, delete, lock, and unlock various artifacts within IBM Jazz with little need to understand the RqmAPI or OSLCS.
+
+
