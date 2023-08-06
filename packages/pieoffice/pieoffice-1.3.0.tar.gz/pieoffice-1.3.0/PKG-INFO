@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pieoffice
+Version: 1.3.0
+Summary: A terminal based script converter for ancient (Proto-)Indo-European languages.
+License: MIT
+Author: Caio Geraldes
+Author-email: caio.geraldes@usp.br
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: betacode (>=1.0,<2.0)
+Requires-Dist: docopt (>=0.6.2,<0.7.0)
