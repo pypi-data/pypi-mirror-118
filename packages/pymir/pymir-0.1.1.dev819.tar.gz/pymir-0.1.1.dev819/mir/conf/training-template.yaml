@@ -1,0 +1,54 @@
+# task id
+task_id: "center_0"
+
+model_name: detect_centernet
+model_version: 0.0.0
+backbone: ResNet18V1b_Deconv
+
+image_channel: 3
+image_height: 512
+image_width: 512
+
+# input folder
+train_data_dir: /in/train
+valid_data_dir: /in/val
+test_data_dir: /in/test
+out_data_dir: /out
+process_threads: 16 # threads num to encode/decode rec.
+
+# class_names:
+# - frisbee
+# - xxx
+# class_num: 81
+
+gpu_train: ''
+start_epoch: 0
+epochs: 200
+train_batch_size: 16
+shuffle: true
+learning_rate: 0.01
+lr_factor: 0.5
+lr_steps:
+    - 50
+    - 100
+    - 150
+dtype: float32
+
+# training params.
+seed: 123
+optimizer: adam
+kvstore: device
+wd: 0.0001
+momentum: 0.9
+log_interval: 10
+save_frequency: 1
+
+use_pretrained: false
+pretrained_model_params: /fake_model
+
+use_pretrained_base: true
+pretrained_base_model_path: network/pretrained/ResNetV1_18.params
+
+test_gpu_index: '1'
+conf_threshold: 0.29
+model_params_path: /fake_model

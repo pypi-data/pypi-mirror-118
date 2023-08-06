@@ -1,0 +1,24 @@
+# 任务id
+task_id: "center_0"
+# al策略，目前仅支持{"detection":{"aldd"，}，}
+strategy: "aldd"
+# 模型类型，目前仅有{"detection"}
+model_type: "detection"
+# 模型名称，目前仅有{"centernet"}
+model_name: "centernet"
+# 检测模型输出框置信度
+detection_confidence_thresh: 0.1
+# 模型权重路径，对mxnet而言同目录下应该含有mobilenet_sc_cpu_combined_aldd_select_iter2_2000-symbol.json
+model_params_path: "/in/model/mobilenet_sc_cpu_random_10w-0130.params"
+# 训练模型用到的数据集统计信息
+used_history:
+  cls_distribution:  # 类别数量
+    - 10
+    - 300
+    - 60000
+    - 50000
+    - 1200
+# 指定GPU，使用,分割，'0,1,2,3'表示使用4块GPU运行，速度会快一些
+gpu_id: '0'
+# 并行读取数据的worker数量
+data_workers: 28

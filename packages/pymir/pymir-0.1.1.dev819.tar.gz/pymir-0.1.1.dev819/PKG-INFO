@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: pymir
+Version: 0.1.1.dev819
+Summary: mir: A data version control tool for Ymir
+Home-page: http://192.168.70.8/scalable-ai/ymir
+Author: Scalable AI Team, Intellifusion
+Author-email: ymir-team@intellif.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7.8
