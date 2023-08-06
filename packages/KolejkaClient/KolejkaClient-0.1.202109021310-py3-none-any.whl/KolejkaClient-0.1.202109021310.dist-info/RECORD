@@ -1,0 +1,11 @@
+KolejkaClient-0.1.202109021310-nspkg.pth,sha256=ymghxcR0SaoJPJNC5JQSPrO2foeCxLaTaJ0CvL2Q_H4,544
+KolejkaClient-0.1.202109021310.dist-info/DESCRIPTION.rst,sha256=sfi5juLuDbz8kK7MAlY-J5YAOId91eQ25liLJQDQjQ8,183
+KolejkaClient-0.1.202109021310.dist-info/METADATA,sha256=xF6qbZJ69IASSyVyVQEV1LuVfofJPp6IzwhLxCXPuZM,535
+KolejkaClient-0.1.202109021310.dist-info/RECORD,,
+KolejkaClient-0.1.202109021310.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+KolejkaClient-0.1.202109021310.dist-info/entry_points.txt,sha256=S_LbdlFa8PWwuIrcnQN6g5mhUVHJml-uvP5AsqKm9BE,56
+KolejkaClient-0.1.202109021310.dist-info/metadata.json,sha256=CEFxTEMBE6PVas1OlOMsoKzJm9tzHkR7szTFMXRbKvs,705
+KolejkaClient-0.1.202109021310.dist-info/namespace_packages.txt,sha256=JRltIMS23djVkt75McrNZpEyfqHwicCBrIZYwdn_g98,8
+KolejkaClient-0.1.202109021310.dist-info/top_level.txt,sha256=JRltIMS23djVkt75McrNZpEyfqHwicCBrIZYwdn_g98,8
+kolejka/client/__init__.py,sha256=eCiI_HZ9kObOHYv6ogpHA3CGnm0FhhMnQr3IqdM4gUc,940
+kolejka/client/client.py,sha256=Bubosw1ua4AAEzoplmBZk3df49WRGhSpAVMElJraf8k,17520
