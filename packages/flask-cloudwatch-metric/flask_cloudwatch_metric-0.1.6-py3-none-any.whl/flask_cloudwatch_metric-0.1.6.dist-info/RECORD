@@ -1,0 +1,7 @@
+flask_cloudwatch_metric/__init__.py,sha256=XYHEDzbyoNGMOe1EYU6HLCBFM86Nt30GuGQgEoFuqRM,4312
+flask_cloudwatch_metric/decorator/__init__.py,sha256=DXYv0_3vLx4EED5jwHFniqY7vCbOz3JIJHD9El5hg7M,4366
+flask_cloudwatch_metric-0.1.6.dist-info/LICENSE,sha256=GhQpffu6N40g3qmVeA32knXUp8zexpeerkiub7Fo0dg,1046
+flask_cloudwatch_metric-0.1.6.dist-info/METADATA,sha256=EssJ8xJgjVf6GO0de6OrORsTr6Tzb935IfWpnLeTBmM,743
+flask_cloudwatch_metric-0.1.6.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+flask_cloudwatch_metric-0.1.6.dist-info/top_level.txt,sha256=UTuqOV7PHE3suuekoTFsA-miAYWQSffFe1qENiWXpjk,24
+flask_cloudwatch_metric-0.1.6.dist-info/RECORD,,
