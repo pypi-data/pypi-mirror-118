@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: RecursionBook
+Version: 0.1.0
+Summary: The programs used in Al Sweigart's book, "The Recursive Book of Recursion".
+Home-page: https://github.com/asweigart/recursionbook
+Author: Al Sweigart
+Author-email: al@inventwithpython.com
+License: MIT
+Description: Recursion Book
+        ======
+        
+        The programs used in Al Sweigart's book, "The Recursive Book of Recursion".
+        
+        2021/08/30: THIS MODULE IS CURRENTLY CONSTRUCTION AND NOT COMPLETE.
+        
+        Installation
+        ------------
+        
+        To install with pip, run:
+        
+            pip install recursionbook
+        
+        Quickstart Guide
+        ----------------
+        
+        TODO - fill this in later
+        
+        Contribute
+        ----------
+        
+        If you'd like to contribute to Recursion Book, check out https://github.com/asweigart/recursionbook
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
