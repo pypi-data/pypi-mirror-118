@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: ssl-metrics-github-issues
+Version: 0.1
+Summary: SSL Metrics - GitHub Issues Analysis
+Home-page: https://ssl.cs.luc.edu/projects/metricsDashboard
+Author: Software and Systems Laboratory - Loyola University Chicago
+Author-email: ssl-metrics@ssl.luc.edu
+License: Apache License 2.0
+Keywords: github,software engineering,metrics,issues
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3.0
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3
+License-File: LICENSE
+Requires-Dist: intervaltree
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+Requires-Dist: progress
+Requires-Dist: python-dateutil
+Requires-Dist: requests
+
+UNKNOWN
+
