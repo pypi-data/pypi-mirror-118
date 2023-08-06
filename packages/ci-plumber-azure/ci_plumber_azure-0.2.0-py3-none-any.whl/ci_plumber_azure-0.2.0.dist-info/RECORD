@@ -1,0 +1,9 @@
+ci_plumber_azure/__init__.py,sha256=IAs0nSMAR2m2C8dngf5noKR8yeUkHCvU8hLqC7ADu_0,894
+ci_plumber_azure/auth.py,sha256=18jeSgGsntd5-eeUMWlk_8vsLJc31Tw3eMZk3oD-P_A,905
+ci_plumber_azure/create_app.py,sha256=Kgr6A1LXl8yrUtXNz47_n-YDGa46Xi0f6pez883l1gc,4492
+ci_plumber_azure/create_registry.py,sha256=OqN1e8_0LaaPWnyXlodCrx5-43NknhqV_Q9CEQsvVUg,5514
+ci_plumber_azure/database.py,sha256=NUdHgLJhWfGe_3kK0tk3jG5ICfPstRivPvxhcJUxxyA,4684
+ci_plumber_azure/default_generators.py,sha256=0867gaOETRP66M4KK9pBEnPSgvg_b6DiAH0EHpjJ0e8,3861
+ci_plumber_azure-0.2.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+ci_plumber_azure-0.2.0.dist-info/METADATA,sha256=RGk0R2S2Y0R2s0nkZfcskAhxJAGfycM00sA9Q-1Nn7Y,287
+ci_plumber_azure-0.2.0.dist-info/RECORD,,
