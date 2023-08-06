@@ -1,0 +1,9 @@
+gppt/__init__.py,sha256=QXqsLbx105T217SrDP0oPX1WgTPBlPtFuC44sZRJe38,24
+gppt/main.py,sha256=nbqB2uel7-2nCQMbs_rzHx9sd_bnXzhbQbsfVbV22nE,3931
+gppt/selenium.py,sha256=nrA8SiEDVUeFU9y4zq1YS7EYeccI6m4tra92TG-QMSo,7419
+gppt-1.1.dist-info/LICENSE.txt,sha256=r8H2g5CSzw2VZr2CrBp33IHi2bpSxPAxRsUZhUn7e3M,1046
+gppt-1.1.dist-info/METADATA,sha256=Bngo8lq61IlU5FI7IfExFdgD-k0w8OP42IFJ3iAo9io,4134
+gppt-1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+gppt-1.1.dist-info/entry_points.txt,sha256=METSPtlfpN8NJm_Tg3uJkyI3cU_pTd5NTWzusmL2lEk,41
+gppt-1.1.dist-info/top_level.txt,sha256=_fjseX88D9QsGshbwXvV-hczs_vI85R1buiNmdSgzhg,5
+gppt-1.1.dist-info/RECORD,,
