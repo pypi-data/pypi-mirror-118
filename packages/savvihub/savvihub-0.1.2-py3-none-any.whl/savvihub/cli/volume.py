@@ -1,0 +1,80 @@
+import click
+
+from savvihub.cli._base import VesslGroup, vessl_argument, vessl_option
+from savvihub.cli._util import generic_prompter, print_volume_files
+from savvihub.volume import copy_volume_file, delete_volume_file, list_volume_files
+
+
+@click.command(name="volume", cls=VesslGroup)
+def cli():
+    pass
+
+
+@cli.vessl_command()
+@vessl_argument(
+    "id",
+    type=click.INT,
+    required=True,
+    prompter=generic_prompter("Volume ID", click.INT),
+)
+@click.option("-p", "--path", type=click.Path(), default="", help="Defaults to root.")
+@click.option("-r", "--recursive", is_flag=True)
+def list(id: int, path: str, recursive: bool):
+    files = list_volume_files(
+        volume_id=id,
+        path=path,
+        need_download_url=False,
+        recursive=recursive,
+    )
+    print_volume_files(files)
+
+
+@cli.vessl_command()
+@vessl_argument(
+    "id",
+    type=click.INT,
+    required=True,
+    prompter=generic_prompter("Volume ID", click.INT),
+)
+@click.option("-r", "--recursive", is_flag=True, help="Required if directory.")
+def delete(id: int, recursive: bool):
+    files = delete_volume_file(volume_id=id, recursive=recursive)
+    print(f"Deleted {id} ({len([x for x in files if not x.is_dir])} file(s)).")
+
+
+@cli.vessl_command()
+@vessl_option(
+    "--source-id",
+    type=click.INT,
+    prompter=generic_prompter("Source volume ID", click.INT),
+    help="If not specified, source is assumed to be local.",
+)
+@vessl_option(
+    "--source-path",
+    type=click.Path(),
+    required=True,
+    prompter=generic_prompter("Source path"),
+)
+@vessl_option(
+    "--dest-id",
+    type=click.INT,
+    prompter=generic_prompter("Destination volume ID", click.INT),
+    help="If not specified, destination is assumed to be local.",
+)
+@vessl_option(
+    "--dest-path",
+    type=click.Path(),
+    required=True,
+    prompter=generic_prompter("Destination path"),
+)
+@click.option("-r", "--recursive", is_flag=True, help="Required if directory.")
+def copy(
+    source_id: int, source_path: str, dest_id: int, dest_path: str, recursive: bool
+):
+    copy_volume_file(
+        source_volume_id=source_id,
+        source_path=source_path,
+        dest_volume_id=dest_id,
+        dest_path=dest_path,
+        recursive=recursive,
+    )
