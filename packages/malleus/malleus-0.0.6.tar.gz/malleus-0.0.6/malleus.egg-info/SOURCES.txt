@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+malleus.egg-info/PKG-INFO
+malleus.egg-info/SOURCES.txt
+malleus.egg-info/dependency_links.txt
+malleus.egg-info/entry_points.txt
+malleus.egg-info/top_level.txt
+malleus_main/__init__.py
+malleus_main/cli.py
