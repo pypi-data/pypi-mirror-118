@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: typewiseprediction
+Version: 1.0.0
+Summary: Typewise API
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Description:     Typewise server for text completion, autocorrection and emoji searching.  # noqa: E501
+            
+Keywords: Swagger,Typewise API
+Platform: UNKNOWN
