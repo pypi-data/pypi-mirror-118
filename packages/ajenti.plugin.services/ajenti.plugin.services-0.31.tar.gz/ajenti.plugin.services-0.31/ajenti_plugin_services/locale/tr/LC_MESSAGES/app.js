@@ -1,0 +1,1 @@
+{"": "", "Filter services": "Filtre hizmetleri", "Manager": "Y\u00f6netici", "Service": "Hizmet", "Services": "Hizmetler", "Manage system services": "Sistem hizmetlerini y\u00f6net", "Service operation failed": "Servis i\u015flemi ba\u015far\u0131s\u0131z oldu", "Done": "Tamam"}
