@@ -1,0 +1,24 @@
+<!doctype html>
+<title>{% block title %}{% endblock %} - VWsFriend</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<nav>
+  <h1>VWsFriend</h1>
+  <ul>
+    {% if current_app.connector.withDB %}
+    <li><a href="http://{{ request.remote_addr}}:3000">Visualization</a>
+    {% endif %}
+    <li><a href="{{ url_for('status.vehicles') }}">Status</a>
+    {% if current_app.homekitDriver %}
+    <li><a href="{{ url_for('settings.homekit') }}">Homekit</a>
+    {% endif %}
+  </ul>
+</nav>
+<section class="content">
+  <header>
+    {% block header %}{% endblock %}
+  </header>
+  {% for message in get_flashed_messages() %}
+    <div class="flash">{{ message }}</div>
+  {% endfor %}
+  {% block content %}{% endblock %}
+</section>
