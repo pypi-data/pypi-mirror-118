@@ -1,0 +1,3 @@
+[console_scripts]
+dataset_labeler = simpledatasetlabeler.commands.labeler:main
+
