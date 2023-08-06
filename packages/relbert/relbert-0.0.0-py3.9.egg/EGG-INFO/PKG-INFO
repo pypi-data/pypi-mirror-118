@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: relbert
+Version: 0.0.0
+Summary: RelBERT: the state-of-the-art lexical relation embedding model.
+Home-page: https://github.com/asahi417/relbert
+Author: Asahi Ushio
+Author-email: asahi1992ushio@gmail.com
+License: MIT
+Download-URL: https://github.com/asahi417/relbert/archive/v0.0.0.tar.gz
+Description: # RelBERT
+        This is the official implementation of
+        ***Distilling Relation Embeddings from Pre-trained Language Models***
+        (the camera-ready version of the paper will be soon available!)
+        which has been accepted by the EMNLP 2021 main conference.
+        
+        In the paper, we propose RelBERT, that is a lexical relation embedding model based on large scale pretrained masked language model.
+        We release 
+        
+        ## TODO
+        - readme (huggingface model)
+        - sample usage
+        - cleanup unused parameters
+        
+        
+        
+        
+        [gensim model file](https://drive.google.com/file/d/1z3UeWALwf6EkujI3oYUCwkrIhMuJFdRA/view?usp=sharing)
+Keywords: nlp
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
