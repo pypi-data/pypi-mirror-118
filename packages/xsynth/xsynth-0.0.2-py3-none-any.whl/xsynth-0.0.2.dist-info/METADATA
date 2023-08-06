@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: xsynth
+Version: 0.0.2
+Summary: An application preprocessor.
+Home-page: https://github.com/pypa/sampleproject
+Author: Al Margolis
+Author-email: almargolis@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: qdbase
+
+# XSynth
+
+XSynth is a command line tool for synthesing applications. It is a key
+component of the QuickDev system. As a stand-alone application it is
+a pre-processor for multiple languages include python, javascript
+and html.
+ 
+I have been using bits and pieces of this for over two decades. This
+is a very early release of code that I am origanizing and documenting
+for use by others.
+
+
