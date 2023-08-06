@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: nomad-envoy-utils-cli
+Version: 1.0.0
+Summary: Nomad Envoy Utils
+Home-page: UNKNOWN
+Author: OpenAPI Generator community
+Author-email: paul@samarkand.global
+License: UNKNOWN
+Description:     This is the API descriptor for the Nomad Platform and Customs utils. Developed by &#x60;Samarkand Global &lt;https://samarkand.global&gt;&#x60;_  # noqa: E501
+            
+Keywords: OpenAPI,OpenAPI-Generator,Nomad Envoy Utils
+Platform: UNKNOWN
