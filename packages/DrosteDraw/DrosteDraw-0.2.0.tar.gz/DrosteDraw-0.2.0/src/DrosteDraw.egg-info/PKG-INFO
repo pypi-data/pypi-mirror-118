@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: DrosteDraw
+Version: 0.2.0
+Summary: A Python module for making recursive drawings (aka Droste effect) with the built-in turtle module.
+Home-page: https://github.com/asweigart/drostedraw
+Author: Al Sweigart
+Author-email: al@inventwithpython.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+Droste Draw
+======
+
+A Python module for making recursive drawings (like the Droste effect) with the built-in turtle module.
+
+THIS MODULE IS CURRENTLY UNDER CONSTRUCTION. To see some demos, run `python -m drostedraw` and look
+at the code in the `main()` function of the module.
+
+Installation
+------------
+
+To install with pip, run:
+
+    pip install drostedraw
+
+Quickstart Guide
+----------------
+
+TODO - fill this in later
+
+Contribute
+----------
+
+If you'd like to contribute to Droste Draw, check out https://github.com/asweigart/drostedraw
+
+

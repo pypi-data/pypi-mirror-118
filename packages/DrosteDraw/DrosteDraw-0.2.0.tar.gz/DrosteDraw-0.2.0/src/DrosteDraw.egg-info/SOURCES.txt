@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+src/DrosteDraw.egg-info/PKG-INFO
+src/DrosteDraw.egg-info/SOURCES.txt
+src/DrosteDraw.egg-info/dependency_links.txt
+src/DrosteDraw.egg-info/top_level.txt
+src/drostedraw/__init__.py
+src/drostedraw/__main__.py
