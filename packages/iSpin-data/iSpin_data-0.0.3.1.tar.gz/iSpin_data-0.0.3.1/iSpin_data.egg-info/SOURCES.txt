@@ -1,0 +1,11 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+iSpin_data.egg-info/PKG-INFO
+iSpin_data.egg-info/SOURCES.txt
+iSpin_data.egg-info/dependency_links.txt
+iSpin_data.egg-info/requires.txt
+iSpin_data.egg-info/top_level.txt
+ispin_data/__init__.py
+ispin_data/api.py
