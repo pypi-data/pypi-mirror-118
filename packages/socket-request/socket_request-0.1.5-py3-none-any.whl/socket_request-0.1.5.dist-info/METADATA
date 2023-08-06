@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: socket-request
+Version: 0.1.5
+Summary: socket_request is parse and build HTTP requests using unix domain socket.
+Home-page: https://github.com/jinwoo-j/socket_request
+Author: Jinwoo Jeong
+Author-email: jinwoo@iconloop.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: halo (>=0.0.31)
+Requires-Dist: devtools (>=0.6.1)
+
+# socket_request
+
+socket_request는 unix domain socket으로 HTTP reuqests를 만들고 분석할 수 있다.
+
+
+
+
+### Examples:
+
+```python
+import socket_request
+
+docker = socket_request.DockerSock(unix_socket="/var/run/docker.sock")
+docker.get_docker_images()
+
+
+```
+
+
+```python
+import socket_request
+
+control_chain = socket_request.ControlChain(unix_socket="./cli.sock")
+control_chain.stop()
+control_chain.start()
+
+```
+
+
+
+## ControlChain
+
+- start()
+- stop()
+- reset()
+- leave()
+- backup()
+- backup_list()
+- restore(name="name")
+- join(seed_list=["127.0.0.1:7100"], role=3)
+- view_chain(detail=False, inspect=False)
+- chain_config(payload={"key": "autoStart", "value": "true"})
+- view_system_config()
+- system_config(payload={"key": "rpcIncludeDebug", "value": "true"})
+
+## ConnectSock
+
+## DockerSock
+
+
