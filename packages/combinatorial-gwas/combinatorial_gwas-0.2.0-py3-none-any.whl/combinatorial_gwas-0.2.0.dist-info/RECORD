@@ -1,0 +1,15 @@
+combinatorial_gwas/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+combinatorial_gwas/_high_level_old.py,sha256=j2XuTlENi9zRcgmbqmOKJPlXFMfOXEXyMBVFBlfQDGI,2192
+combinatorial_gwas/_nbdev.py,sha256=jOKQmOQunCnXFgzlohfXahe77ENlHFfr3c5-ehErpl8,2536
+combinatorial_gwas/data_catalog.py,sha256=qa7emC6Mvj6fO2NDXc93WNRuUNx8ZQYjU-IAYgv5oBY,2659
+combinatorial_gwas/genotype.py,sha256=EqE-UwjuAqjpc6ktCUp1Wc1ekNVWFi2Fg9HC9iNpn8U,4270
+combinatorial_gwas/high_level.py,sha256=Od7RCsqbSJz_NpN8KZlhQhGJ0vjz8qGwDIVt3Pt8g5c,9045
+combinatorial_gwas/phenotypes/Field.py,sha256=Ti2k1q1Fo2QIG0WOXYZJA6rgLStLgoDQHvHKhXywI6Q,12214
+combinatorial_gwas/phenotypes/__init__.py,sha256=Hq2ykdMOGZMhNV-nr7Bn1f9_-WdFgQ9ibIj2IeMLWXI,5913
+combinatorial_gwas/simulation.py,sha256=fhgK2zhtYkAHDtQLA14wkusC9El41ZnMJuA13CP_lXo,3949
+combinatorial_gwas/training/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+combinatorial_gwas/training/cnn.py,sha256=eaik7wOMwzk9HhGJZgvbrosCQwa7uWBEttZxFPccwM4,115
+combinatorial_gwas-0.2.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+combinatorial_gwas-0.2.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+combinatorial_gwas-0.2.0.dist-info/METADATA,sha256=dm_Y8vj0bEUZwQ8IbkUFnEAzXNwtGVrNJ5msAskuWvM,1216
+combinatorial_gwas-0.2.0.dist-info/RECORD,,
