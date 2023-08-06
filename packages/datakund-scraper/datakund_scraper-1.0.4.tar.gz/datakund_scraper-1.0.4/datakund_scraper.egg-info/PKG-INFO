@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: datakund-scraper
+Version: 1.0.4
+Summary: Web Scraping Library
+Home-page: UNKNOWN
+Author: DataKund
+Author-email: datakund@gmail.com
+License: Apache License 2.0
+Description: DataKund Scraper is a library that makes it easy to scrape information from any HTML page. You don't have to inspect any web elements to find tags, xpath id etc.
+        It learns from the data given by you & builds a scraper. Then you can use it to get JSON data out of the HTML.
+        
+        ### Train Scraper
+        We train scraper by passing html of 2 similar pages for eg. page 1 & page 2 of search results. This gives us a unique id. That id can be used for runing the scraper and fetching our data.
+        You can save this id to run the scraper next time, so that you don't need to train the scraper everytime for that type of page.
+        ```sh
+        from datakund_scraper import *
+        html1='<html>.....</html>'
+        html2='<html>.....</html>'
+        response=scraper.train(html1,html2)
+        #response={"id":"esfdesd342","success":True}
+        ```
+        
+        ### Run Scraper
+        We run scraper by passing html and scraper id which we fetched earlier. This gives us JSON data in return.
+        ```sh
+        from datakund_scraper import *
+        html1='<html>.....</html>'
+        response=scraper.run(html=html1,id="esfdesd342")
+        #response={"Results":[{"title":"","link":""},...]}
+        ```
+        
+        ### What are similiar HTMLs?
+        Similiar pages are those which look same on the UI but with different data. 
+        Once the scraper is trained, then can use it to fetch data from all similar pages
+        
+        Below are some of the examples of pages using which you can run autoscraper:-
+        1. Pypi Search Results [https://pypi.org/search/?q=firebase,https://pypi.org/search/?q=sql]
+        2. Amazon Search Results [https://www.amazon.com/s?k=shoes&ref=nb_sb_noss,https://www.amazon.com/s?k=shoes+for+men&crid=XSYZ3H3YZ2D7&sprefix=shoes%2Caps%2C474&ref=nb_sb_ss_ts-doa-p_1_5]
+        3. Wordpress Themes [https://wordpress.org/themes/skt-green/,https://wordpress.org/themes/redio-writers/]
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
