@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+license.txt
+setup.py
+simpleprocessbar/__init__.py
+simpleprocessbar/simpleprocessbar.py
+simpleprocessbar.egg-info/PKG-INFO
+simpleprocessbar.egg-info/SOURCES.txt
+simpleprocessbar.egg-info/dependency_links.txt
+simpleprocessbar.egg-info/top_level.txt
