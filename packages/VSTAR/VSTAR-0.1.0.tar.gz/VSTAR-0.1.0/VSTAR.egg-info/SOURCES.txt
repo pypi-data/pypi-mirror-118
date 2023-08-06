@@ -1,0 +1,11 @@
+README.md
+requirements.txt
+setup.py
+VSTAR/__init__.py
+VSTAR/vstar.py
+VSTAR.egg-info/PKG-INFO
+VSTAR.egg-info/SOURCES.txt
+VSTAR.egg-info/dependency_links.txt
+VSTAR.egg-info/entry_points.txt
+VSTAR.egg-info/requires.txt
+VSTAR.egg-info/top_level.txt
