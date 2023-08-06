@@ -1,0 +1,8 @@
+# 从zk同步cron: 可配置每天最后一分钟同步crontab配置信息（zk/yaml） 59 23 * * *
+
+从yaml同步cron:
+    - "59 23 * * * mecli-cron - update_from_file /Users/yuanjie/Desktop/Projects/Python/MeUtils/examples/betterme/cron.yml"
+
+企业微信定时通知:
+  - "*/1 * * * * mecli notice cmd1"
+  - "*/1 * * * * mecli notice cmd2"
