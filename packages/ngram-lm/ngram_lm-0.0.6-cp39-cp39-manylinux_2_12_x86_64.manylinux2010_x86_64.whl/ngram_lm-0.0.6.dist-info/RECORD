@@ -1,0 +1,7 @@
+ngram_lm-0.0.6.dist-info/METADATA,sha256=rHpJOB6tC4LKU0eZVb42gw2UJvt4wer4MGbtZc96pzE,784
+ngram_lm-0.0.6.dist-info/top_level.txt,sha256=GhGDflENgcRodGobwoxKcKCJHkHWYMjh0bmpeYv_8aM,9
+ngram_lm-0.0.6.dist-info/WHEEL,sha256=0JUwTucFjv30CIZQTRPZxOSiL7ZsZ_T-19WLKFnAX_I,148
+ngram_lm-0.0.6.dist-info/RECORD,,
+ngram_lm.libs/libngram_lm-6b9f52c6.so,sha256=2a8Am8wlWj5s2axvgy01uXPWRqLTAsxPOUgufQKR3rI,55320
+ngram_lm/trie.cpython-39-x86_64-linux-gnu.so,sha256=7YnjmAKYKmvlIyM2fsg9Qo7rPRjsXvv2FwZDFWm3bQU,564216
+ngram_lm/word.cpython-39-x86_64-linux-gnu.so,sha256=M5Mg6GOMlsvZ5c5YtSiElTeFUjgjL9MHI35PIJpmoP4,153712
