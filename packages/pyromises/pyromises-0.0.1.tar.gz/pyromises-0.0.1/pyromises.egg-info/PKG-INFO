@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: pyromises
+Version: 0.0.1
+Summary: Promises for Python
+Home-page: UNKNOWN
+Author: Eder Lima
+Author-email: lima.eder101@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: python,async,promises
+Platform: UNKNOWN
