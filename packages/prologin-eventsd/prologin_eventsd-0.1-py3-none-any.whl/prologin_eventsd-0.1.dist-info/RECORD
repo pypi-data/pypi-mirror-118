@@ -1,0 +1,17 @@
+eventsd/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+eventsd/admin.py,sha256=2RH1vJV2id6KxcWb0ua1VgGa5C6_OByOoOkIxUmIDqo,3166
+eventsd/apps.py,sha256=E-s778tkW3HMOJA0eqPvebw4O3R7UFAUd5HzYZryElU,237
+eventsd/forms.py,sha256=E4QJbcWp_ayCJyDIEOfgTgTeja6JsDtGilXIeww8RaI,974
+eventsd/tests.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+eventsd/urls.py,sha256=xhZOT9QNmEFoikEFXiq-yaOSIAMV1HqIqrHQjygma1M,953
+eventsd/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+eventsd/models/__init__.py,sha256=Jz4Iw3VDuV_O5G4l_aLXGwrMqoaLv0giLC0y1bwj1_E,508
+eventsd/models/events.py,sha256=1WqqgBJe4F7fnWXZLUfGTUWrRolpVBBgLdmITLLM0jE,5575
+eventsd/models/signup.py,sha256=8krwFB86AjH5KnNdd9Nv-f61MVsc-aSLiBsmk_1FCQI,6364
+eventsd/views/__init__.py,sha256=YK8CHrz59JUFQSteH_5KbFuXbcVxkkI_-gDwuoVWBsA,482
+eventsd/views/events.py,sha256=1PvK0JD8H1DfQCyZaH-rss2nqDeIRNgqqISPqxrTy94,979
+eventsd/views/signup.py,sha256=jy2FMofULB0kJrhXqtlUJkTcn8oFIihAfwDy0v8Jow8,3527
+prologin_eventsd-0.1.dist-info/METADATA,sha256=V_VU_0HegsHe0yIxRsVMp6QS1Hrs8Gd9XsK8GDQ8csA,582
+prologin_eventsd-0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+prologin_eventsd-0.1.dist-info/top_level.txt,sha256=TFnUyiFEtvpSh1irs4bO6k5I5McLAOQmNHWM_KkEkvk,8
+prologin_eventsd-0.1.dist-info/RECORD,,
