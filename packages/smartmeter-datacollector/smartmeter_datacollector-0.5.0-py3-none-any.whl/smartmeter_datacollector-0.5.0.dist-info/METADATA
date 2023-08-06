@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: smartmeter-datacollector
+Version: 0.5.0
+Summary: Smart Meter Data Collector
+Home-page: https://github.com/scs/smartmeter-datacollector
+Author: Supercomputing Systems AG
+Author-email: info@scs.ch
+License: GPLv2
+Project-URL: Source, https://github.com/scs/smartmeter-datacollector
+Project-URL: Bug Reports, https://github.com/scs/smartmeter-datacollector/issues
+Project-URL: Pull Requests, https://github.com/scs/smartmeter-datacollector/pulls
+Project-URL: SCS, https://www.scs.ch
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Typing :: Typed
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aioserial (==1.3.0)
+Requires-Dist: asyncio-mqtt (==0.10.0)
+Requires-Dist: gurux-dlms (==1.0.104)
+Requires-Dist: paho-mqtt (==1.5.1)
+Requires-Dist: pyserial (==3.5)
+
+# Smart Meter Data Collector
+
+<p align="center">
+    <a href="LICENSE"><img alt="License: GPL-2.0-only" src="https://img.shields.io/badge/license-GPLv2-blue.svg"></a> <a href="https://github.com/scs/smartmeter-datacollector/pulls"><img alt="Pull Requests Welcome" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg"></a> <a href="https://github.com/scs/smartmeter-datacollector/pulls"><img alt="Contributions Welcome" src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg"></a>
+    <br />
+    <img alt="Python Code Checks" src="https://github.com/scs/smartmeter-datacollector/actions/workflows/python-code-checks.yml/badge.svg?branch=master"> <a href="https://pypi.org/project/smartmeter-datacollector/"><img alt="PyPI - Python Version" src="https://img.shields.io/pypi/pyversions/smartmeter-datacollector"></a>
+</p>
+
+
