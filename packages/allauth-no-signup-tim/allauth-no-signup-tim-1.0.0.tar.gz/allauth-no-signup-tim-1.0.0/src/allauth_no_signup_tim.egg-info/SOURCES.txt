@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/allauth-no-signup-tim/__init__.py
+src/allauth-no-signup-tim/disable_auth_adapter.py
+src/allauth_no_signup_tim.egg-info/PKG-INFO
+src/allauth_no_signup_tim.egg-info/SOURCES.txt
+src/allauth_no_signup_tim.egg-info/dependency_links.txt
+src/allauth_no_signup_tim.egg-info/requires.txt
+src/allauth_no_signup_tim.egg-info/top_level.txt
