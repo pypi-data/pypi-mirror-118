@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/betterLogs4Python.egg-info/PKG-INFO
+src/betterLogs4Python.egg-info/SOURCES.txt
+src/betterLogs4Python.egg-info/dependency_links.txt
+src/betterLogs4Python.egg-info/top_level.txt
