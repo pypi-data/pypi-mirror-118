@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+pyproject.toml
+setup.cfg
+docs/myfile.md
+src/RainCheckPy/README.md
+src/RainCheckPy/RainDataChecks.py
+src/RainCheckPy/__init__.py
+src/RainCheckPy.egg-info/PKG-INFO
+src/RainCheckPy.egg-info/SOURCES.txt
+src/RainCheckPy.egg-info/dependency_links.txt
+src/RainCheckPy.egg-info/top_level.txt
