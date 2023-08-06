@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/bits/__init__.py
+src/pybits.egg-info/PKG-INFO
+src/pybits.egg-info/SOURCES.txt
+src/pybits.egg-info/dependency_links.txt
+src/pybits.egg-info/top_level.txt
