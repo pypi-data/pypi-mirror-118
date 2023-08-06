@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: mandarin
+Version: 0.0.1a1
+Summary: Template engine for Python
+Home-page: https://github.com/joegasewicz/password-mixin
+Author: Joe Gasewicz
+Author-email: joegasewicz@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.0
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+![Amber](./logo/Group.png)
+Template engine for Python based on Node's Pug.js syntax with jinja2's API
+
+🌱 Work in progress, please call back soon...
+
