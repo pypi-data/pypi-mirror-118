@@ -1,0 +1,31 @@
+Metadata-Version: 1.1
+Name: pirate_chain_py
+Version: 1.0
+Summary: Pirate Chain, the most anonymous cryptocurrency in existence now with python wrapped Remote Procedure Calls for easy integration with any python based program. https://pirate.black/
+Home-page: https://github.com/Mr1djit/pirate_chain_py
+Author: Mr_Idjit
+Author-email: mr_idjit@protonmail.com
+License: MIT
+Download-URL: https://github.com/Mr1djit/pirate_chain_py/archive/refs/tags/v1.00.tar.gz
+Description: UNKNOWN
+Keywords: Pirate Chain,pirate,chain,crypto,wallet,privacy,integration,finance, 
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Intended Audience :: Other Audience
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Office/Business :: Financial
+Classifier: Topic :: Security :: Cryptography
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.0
+Classifier: Programming Language :: Python :: 3.1
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
