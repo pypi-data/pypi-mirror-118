@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+sanime/sanime.egg-info/PKG-INFO
+sanime/sanime.egg-info/SOURCES.txt
+sanime/sanime.egg-info/dependency_links.txt
+sanime/sanime.egg-info/not-zip-safe
+sanime/sanime.egg-info/top_level.txt

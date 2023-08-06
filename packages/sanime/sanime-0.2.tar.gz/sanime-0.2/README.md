@@ -1,0 +1,1 @@
+AniManga API wrapper for Anime-Planet.
