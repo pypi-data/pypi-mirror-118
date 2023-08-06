@@ -1,0 +1,112 @@
+Metadata-Version: 2.1
+Name: gerritstats
+Version: 1.1.0
+Summary: Gerrit Stats
+Home-page: https://github.com/craftslab/gerritstats
+Author: Jia Jia
+Author-email: angersax@sina.com
+License: Apache-2.0
+Download-URL: https://github.com/craftslab/gerritstats/archive/v1.1.0.tar.gz
+Keywords: gerrit,stats
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: black
+Requires-Dist: flake8
+Requires-Dist: colorama
+Requires-Dist: coverage
+Requires-Dist: coveralls
+Requires-Dist: hypothesis
+Requires-Dist: openpyxl
+Requires-Dist: mypy
+Requires-Dist: pre-commit
+Requires-Dist: pytest
+Requires-Dist: requests
+Requires-Dist: setuptools
+Requires-Dist: twine
+Requires-Dist: wheel
+
+# Gerrit Stats
+
+[![PyPI](https://img.shields.io/pypi/v/gerritstats.svg?color=brightgreen)](https://pypi.org/project/gerritstats/)
+[![Travis](https://travis-ci.com/craftslab/gerritstats.svg?branch=master)](https://travis-ci.com/craftslab/gerritstats)
+[![Coverage](https://coveralls.io/repos/github/craftslab/gerritstats/badge.svg?branch=master)](https://coveralls.io/github/craftslab/gerritstats?branch=master)
+[![License](https://img.shields.io/github/license/craftslab/gerritstats.svg?color=brightgreen)](https://github.com/craftslab/gerritstats/blob/master/LICENSE)
+
+
+
+*Gerrit Stats* is a tool used for Gerrit stats via Gerrit API.
+
+
+
+## Requirement
+
+- python >= 3.7
+
+
+
+## Build
+
+```
+pip install -U pywin32
+pip install -U pyinstaller
+pip install -Ur requirements.txt
+
+pyinstaller --clean --name gerritstats -F stats.py
+```
+
+
+
+## Installation
+
+```bash
+pip install gerritstats
+```
+
+
+
+## Update
+
+```bash
+pip install gerritstats --upgrade
+```
+
+
+
+## Run
+
+```bash
+gerritstats --config-file config.json --gerrit-query "since:2020-06-01 until:2020-06-02" --output-file output.json
+```
+
+
+
+## Settings
+
+*Gerrit Stats* parameters can be set in the directory [config](https://github.com/craftslab/gerritstats/blob/master/gerritstats/config).
+
+An example of configuration in [config.json](https://github.com/craftslab/gerritstats/blob/master/gerritstats/config/config.json):
+
+```
+{
+  "gerrit": {
+    "host": "localhost:80",
+    "pass": "pass",
+    "query": {
+      "option": ["CURRENT_REVISION"]
+    },
+    "user": "user"
+  }
+}
+```
+
+
+
+## License
+
+Project License can be found [here](https://github.com/craftslab/gerritstats/blob/master/LICENSE).
+
+
