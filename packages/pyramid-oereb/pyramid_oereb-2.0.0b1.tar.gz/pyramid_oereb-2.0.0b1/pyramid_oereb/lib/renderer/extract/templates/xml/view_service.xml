@@ -1,0 +1,38 @@
+<%page args="map"/>
+%if map.image:
+<data:Image>
+    <%include file="localized_image.xml" args="image=map.image"/>
+</data:Image>
+%endif
+%if map.reference_wms:
+<data:ReferenceWMS>
+    <%include file="multilingual_text.xml" args="text=map.reference_wms, not_null=True"/>
+</data:ReferenceWMS>
+%endif
+%if map.legends:
+<%
+    accessor = lambda element: element.legend_text
+    sorted_legends = sort_by_localized_text(map.legends, accessor)
+%>
+%for legend_entry in sorted_legends:
+<data:OtherLegend>
+    <%include file="legend_entry.xml" args="legend_entry=legend_entry"/>
+</data:OtherLegend>
+%endfor
+%endif
+%if map.min_NS95 is not None:
+<data:min_NS95>
+    <gml:Point gml:id="${get_gml_id()}">
+        <gml:pos>${map.min_NS95.x} ${map.min_NS95.y}</gml:pos>
+    </gml:Point>
+</data:min_NS95>
+%endif
+%if map.max_NS95 is not None:
+<data:max_NS95>
+    <gml:Point gml:id="${get_gml_id()}">
+        <gml:pos>${map.max_NS95.x} ${map.max_NS95.y}</gml:pos>
+    </gml:Point>
+</data:max_NS95>
+%endif
+<data:layerIndex>${map.layer_index | x}</data:layerIndex>
+<data:layerOpacity>${map.layer_opacity | x}</data:layerOpacity>

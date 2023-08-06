@@ -1,0 +1,34 @@
+<%page args="document"/>
+<%
+    from pyramid_oereb import Config
+    document_type = Config.get_document_type_by_code(document.document_type)
+%>
+<data:Type>
+    <%include file="document_type.xml" args="document_type=document_type"/>
+</data:Type>
+<data:Index>${document.index}</data:Index>
+<data:Title>
+    <%include file="multilingual_text.xml" args="text=document.title, not_null=True"/>
+</data:Title>
+<data:TextAtWeb>
+    <%include file="multilingual_text.xml" args="text=document.text_at_web, not_null=True"/>
+</data:TextAtWeb>
+<data:Lawstatus>
+    <%include file="law_status.xml" args="law_status=document.law_status, not_null=True"/>
+</data:Lawstatus>
+%if document.abbreviation:
+<data:Abbreviation>
+    <%include file="multilingual_text.xml" args="text=document.abbreviation, not_null=True"/>
+</data:Abbreviation>
+%endif
+%if document.official_number:
+<data:OfficialNumber>
+    <%include file="multilingual_text.xml" args="text=document.official_number, not_null=True"/>
+</data:OfficialNumber>
+%endif
+<data:ResponsibleOffice>
+    <%include file="office.xml" args="office=document.responsible_office"/>
+</data:ResponsibleOffice>
+%if document.article_numbers:
+<data:ArticleNumber>${document.article_numbers | x}</data:ArticleNumber>
+%endif
