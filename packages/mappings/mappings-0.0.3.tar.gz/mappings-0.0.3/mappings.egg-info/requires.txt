@@ -1,0 +1,6 @@
+numpy
+pandas
+click
+pathlib
+networkx
+tqdm
