@@ -1,0 +1,3 @@
+[vdk.plugin.run]
+vdk-csv = taurus.vdk.csv_plugin
+
