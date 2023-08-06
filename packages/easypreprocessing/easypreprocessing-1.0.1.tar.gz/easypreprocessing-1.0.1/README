@@ -1,0 +1,8 @@
+
+
+# Data PreProcessing
+
+
+EasyPreProcessing is a Python module that comprises of data pre-processing helper functions mainly for the purpose of data science and machine learning.
+
+Many of the common machine learning activities that are performed during the Feature Engineering can be performed in a single line of code using this library.
