@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+vcspack300.egg-info/PKG-INFO
+vcspack300.egg-info/SOURCES.txt
+vcspack300.egg-info/dependency_links.txt
+vcspack300.egg-info/top_level.txt
+vcspack301/__init__.py
+vcspack301/utils.py
