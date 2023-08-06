@@ -1,0 +1,8 @@
+setup.py
+spectacularme/__init__.py
+spectacularme/spectacularme.py
+spectacularme.egg-info/PKG-INFO
+spectacularme.egg-info/SOURCES.txt
+spectacularme.egg-info/dependency_links.txt
+spectacularme.egg-info/requires.txt
+spectacularme.egg-info/top_level.txt
