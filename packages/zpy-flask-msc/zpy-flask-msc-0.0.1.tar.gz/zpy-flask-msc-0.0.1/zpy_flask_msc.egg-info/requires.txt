@@ -1,0 +1,10 @@
+pycryptodome
+pycryptodomex
+Flask
+flask-rest-api
+Flask-RESTful
+marshmallow
+python-dotenv
+flask_cors
+cx-Oracle
+marshmallow_objects
