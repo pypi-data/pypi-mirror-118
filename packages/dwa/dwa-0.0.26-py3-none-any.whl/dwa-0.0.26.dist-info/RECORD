@@ -1,0 +1,12 @@
+dwa/__init__.py,sha256=nvzuUgbNqaBdl6R4kyGggqB2tVl0ZQJFBR-GU0wjC0U,10266
+dwa/core.py,sha256=6iRzxnRFAeOMlt-U1x_cuAvIz7ukPfVKi4Y6zpnLpFg,3297
+dwa/handlers.py,sha256=RHJmD3T6Kn4tetiGGi_2aADiZABLEyI3Utrg8Kvxqu4,14814
+dwa/utils.py,sha256=_foiwSzZZM3HQdBR1vlClsI9CYWdCHhJyOBlvzz_h3g,214
+dwa/workers.py,sha256=dPphOWNka4ju3cFjMZBZumIajuIMAjm31iRWDicyMjo,1515
+dwa/example/cookie_secret.txt,sha256=a5pDf1Ht3LwdL2YAgHBn8iCx0MSKQ10RavoW2M0BZME,11
+dwa/example/test.py,sha256=jr-r5q3jXwjL25iQ14CgGKyrKOnVibzI2bvL4Os2v5Q,25
+dwa-0.0.26.dist-info/LICENSE,sha256=E_tIpsMacuDitpZQsc6-iVT3tzRJhISS3P0islvZGvo,35182
+dwa-0.0.26.dist-info/METADATA,sha256=96HTrbSumEB4_41oEudAKXtpKyOgJxG8e7jyPNwPXOY,1667
+dwa-0.0.26.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+dwa-0.0.26.dist-info/top_level.txt,sha256=PROr4qp_vDToaw2vU_wjar-TQNTrWJmJ8myvrg74N3w,4
+dwa-0.0.26.dist-info/RECORD,,
