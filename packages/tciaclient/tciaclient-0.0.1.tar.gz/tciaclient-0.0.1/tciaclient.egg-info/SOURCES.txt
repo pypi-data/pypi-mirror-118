@@ -1,0 +1,16 @@
+CONTRIBUTING.md
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+tciaclient/__init__.py
+tciaclient/_nbdev.py
+tciaclient/core.py
+tciaclient.egg-info/PKG-INFO
+tciaclient.egg-info/SOURCES.txt
+tciaclient.egg-info/dependency_links.txt
+tciaclient.egg-info/entry_points.txt
+tciaclient.egg-info/not-zip-safe
+tciaclient.egg-info/requires.txt
+tciaclient.egg-info/top_level.txt
