@@ -1,0 +1,13 @@
+calcyoulater/__init__.py,sha256=DvAdpIb5d-hGEJEmeLV8czpshA0KDcYRJpxTSAyteDM,1952
+calcyoulater/unit_tests.py,sha256=kLCWIkjmgdem5B3ZMk-nM1bVmtreitRsxWqOw5thKkk,446
+calcyoulater/static/img/calcyoulater.PNG,sha256=JKdd_Zn8jxQPMo6EiTL_6Rni9_MPpXzSK6WLnZz6FUo,981
+calcyoulater/static/styles/style.css,sha256=bY44CfQu3hbXTJW4pmc0b5FBsDAc7PuRJLufle7bwJ4,610
+calcyoulater/templates/add.html,sha256=Lo4kC-eEqwdv1MtprlS2S6Yztaf4pCrpbsgm3XQLCJw,1349
+calcyoulater/templates/divide.html,sha256=myVcwUr1T4OFyfbA08VOwQgzk47BMqOZVBePT1Njswg,1274
+calcyoulater/templates/index.html,sha256=_lMMA3xiYluDkbyZutP6mGJJunVFpg2B1sPbKMNErno,1067
+calcyoulater/templates/multiply.html,sha256=Wkgr1SrFiN3g-48vvqqlnJczeprPLGS1ddrgLgvyTnk,1279
+calcyoulater/templates/subtract.html,sha256=mJJh-9jjotB8MifK0jrSJlTuxl_R6MWHO5pfcq2Luaw,1238
+calcyoulater-0.0.1.dist-info/METADATA,sha256=GBTE_jIOaI4z5DuGQxzBmyZwaCrl5mmb79Tnw9g1wO4,197
+calcyoulater-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+calcyoulater-0.0.1.dist-info/top_level.txt,sha256=DHmJbe4Bvr7JQaS7PtRjs6OStGa7eHowdYtJI0Gh7Vw,13
+calcyoulater-0.0.1.dist-info/RECORD,,
