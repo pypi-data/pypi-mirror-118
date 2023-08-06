@@ -1,0 +1,9 @@
+pyscora_wrangler/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyscora_wrangler/aws/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyscora_wrangler/aws/athena.py,sha256=T7vqXGnV6u4ydxY7W8VLAX3bu5hcDw-hhq7yo3Tm234,2973
+pyscora_wrangler/transform.py,sha256=6WmPOX3zSlw3JqqzuXqXDby-PQy-siMR-ntJg5lsXYM,3122
+pyscora_wrangler/upload.py,sha256=OmGGYG1Foq4s7_T--KxlrwUivmkHFF_mfYLMdogKVVU,4073
+pyscora_wrangler/utils.py,sha256=5ZQyeWvZb4C3HRv3auSIeoXixNg6F4HJwpoUe6XbFF0,1477
+pyscora_wrangler-0.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+pyscora_wrangler-0.1.0.dist-info/METADATA,sha256=Mh9bn_XJBsMPmQYst1wN9F3i-Wl2kUJpYZXQgMr-qfg,1194
+pyscora_wrangler-0.1.0.dist-info/RECORD,,
