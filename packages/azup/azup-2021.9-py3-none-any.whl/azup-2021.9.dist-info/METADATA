@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: azup
+Version: 2021.9
+Summary: Work with azure cloud using `az` cli
+Home-page: https://github.com/walnutgeek/azup
+Author: Walnut Geek
+Author-email: wg@walnutgeek.com
+License: Apache 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: System :: Archiving :: Backup
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+Requires-Dist: pyyaml
+Requires-Dist: python-dateutil
+Provides-Extra: dev
+Requires-Dist: hs-build-tools ; extra == 'dev'
+Requires-Dist: coverage ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: wheel ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-mypy ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: types-python-dateutil ; extra == 'dev'
+Requires-Dist: types-pyyaml ; extra == 'dev'
+
+# azup
+
+Army of robots already here, they are just hiding in datacenters. This is my 
+attempt to understand how to manage that army in context of Azure cloud.
+
+I know there are well supported projects that do simular things: 
+ARM templates, Terraform and may be more ... and still I want to understand 
+cloud from first principles. So here it is. 
+
+I may do simular thing for GCP and AWS later.
+
+## Dev setup
+
+Install all dependencies:
+
+    pip install -e .[dev]
+
+Tidy up and run tests:
+
+    python setup.py tidy; pytest
+
+## Install
+
+Beta:
+
+    pip install -i https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple azup
+
+Stable:
+
+    pip install azup
+
+## Usage
+
+No much but:
+
+    $ azup
+    USAGES:
+     azup dump_config <resource_group>
+     azup list_images <config_yml>
+     azup purge_acr <config_yml>
+     azup syncup_apps <config_yml>
+
+## YAML config
+
+TODO
+
+## 
+

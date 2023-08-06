@@ -1,0 +1,11 @@
+azup/__init__.py,sha256=pmdtsxcCtdC6_I5yqn5KZ1c96q2l7gNFNWOnCuqOa1M,6544
+azup/annotations.py,sha256=aMaXRL7shtmv69GUIqmG6dKm4raaBotxSVz9WZV3jnE,2973
+azup/cmd.py,sha256=gm5uYSQGPqSdd_2UByXa4BlE6ZabYxuDhIMkCGDR290,12402
+azup/context.py,sha256=PyiDnPZfPy4T490RELhM0a5SNH9yeULzqy3qLRACJf8,15603
+azup/main.py,sha256=EjqO8Ne9Zfj4sZe0U3grKki7wBo5aQTVa5Z8aopiqc0,3810
+azup/yaml.py,sha256=BJzj_mHQaB7ItHLqVilzZ5AeHOUFGMY34R-fwyxREvI,3236
+azup-2021.9.dist-info/METADATA,sha256=KqnypICbXkdbO1U1l2PJiToBxo0m8wQ6fhnHrimjCy8,2083
+azup-2021.9.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+azup-2021.9.dist-info/entry_points.txt,sha256=g1-Z-ZQE7xJkXkOI_uK0bAMghzGCEJx_8YO9XrM6cg0,47
+azup-2021.9.dist-info/top_level.txt,sha256=zmo0p2qXGK0rQiYMzgF01XTRW42mBE48MQbV6Jqrpjc,5
+azup-2021.9.dist-info/RECORD,,
