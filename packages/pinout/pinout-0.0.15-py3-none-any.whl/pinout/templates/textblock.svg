@@ -1,0 +1,33 @@
+<g 
+    {% if tag %}
+        class="{{ tag }}"
+    {% endif %}
+    {% if text.clip_id %}
+        clip-path="url(#{{ text.clip_id }})"
+    {% endif %}
+    transform=" 
+        translate({{ translate }}) 
+        scale({{ scale.x }} {{ scale.y }})
+        rotate({{ text.rotate }})
+    "
+>
+
+    {% for content in text_content %}
+        <text
+            x="0" 
+            y="{{ text.line_height * loop.index }}"
+            fill="{{ text.fill|rgb }}"
+            dominant-baseline="auto"
+            text-anchor="left"
+            font-family="{{ text.family }}"
+            font-size="{{ text.size }}"
+            font-weight="{{ text.weight }}"
+        >
+            {{ content }}
+        </text>
+    {% endfor %}    
+
+</g>
+
+
+
