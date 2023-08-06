@@ -1,0 +1,24 @@
+[console_scripts]
+metta = mirantis.testing.metta_cli.entrypoint:main
+
+[metta.bootstrap.bootstrapper]
+metta_common = mirantis.testing.metta_common:bootstrap_bootstrapper
+metta_states = mirantis.testing.metta_states:bootstrap_bootstrapper
+
+[metta.bootstrap.environment]
+metta_ansible = mirantis.testing.metta_ansible:bootstrap_environment
+metta_binhelper = mirantis.testing.metta_binhelper:bootstrap_environment
+metta_cli = mirantis.testing.metta_cli:bootstrap_environment
+metta_common = mirantis.testing.metta_common:bootstrap_environment
+metta_common_config = mirantis.testing.metta_common:bootstrap_environment_common
+metta_docker = mirantis.testing.metta_docker:bootstrap_environment
+metta_dummy = mirantis.testing.metta_dummy:bootstrap_environment
+metta_health = mirantis.testing.metta_health:bootstrap_environment
+metta_kubernetes = mirantis.testing.metta_kubernetes:bootstrap_environment
+metta_launchpad = mirantis.testing.metta_launchpad:bootstrap_environment
+metta_mirantis_common = mirantis.testing.metta_mirantis:bootstrap_environment_common
+metta_mirantis_presets = mirantis.testing.metta_mirantis:bootstrap_environment_presets
+metta_sonobuoy = mirantis.testing.metta_sonobuoy:bootstrap_environment
+metta_terraform = mirantis.testing.metta_terraform:bootstrap_environment
+metta_testkit = mirantis.testing.metta_testkit:bootstrap_environment
+
