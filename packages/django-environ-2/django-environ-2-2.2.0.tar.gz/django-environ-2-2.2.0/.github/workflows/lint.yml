@@ -1,0 +1,45 @@
+# This file is part of the django-environ-2.
+#
+# Copyright (C) 2021 Serghei Iakovlev <egrep@protonmail.ch>
+# Copyright (C) 2013-2021 Daniele Faraglia <daniele.faraglia@gmail.com>
+#
+# For the full copyright and license information, please view
+# the LICENSE file that was distributed with this source code.
+
+name: CS
+
+on:
+  push:
+    branches:
+      - master
+      - 'feature/**'
+      - 'release/**'
+      - 'fix/**'
+
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  lint:
+    runs-on: ubuntu-20.04
+    name: Code linting
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2.3.4
+
+      - name: Set up Python 3.9
+        uses: actions/setup-python@v2.2.2
+        with:
+          python-version: '3.9'
+
+      - name: Set up virtualenv
+        run: make init
+
+      - name: Install dependencies
+        run: make install
+
+      - name: Code linting
+        # TODO: run: make lint
+        run: .venv/bin/flake8 ./environ
