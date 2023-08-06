@@ -1,0 +1,14 @@
+sedona/Converter.py,sha256=fu4PFp88ySGVaETsjMu2pz7q1YbPhroWUtjnJ3VBTIg,684
+sedona/Downloader.py,sha256=tyFb969LAWtkXo8eQo07QmU06hZ78KlFsGswgziWq8Y,1043
+sedona/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sedona/__main__.py,sha256=2RnHMGAmgMffQNOWekV3h56P-YTbTE7im4stX8HqMfw,1422
+sedona/author.py,sha256=6J4_CbZVTdPFtZ5z8pypGqvnMhRO9ZxYay2SewSrLSw,31
+sedona/author_email.py,sha256=OGhJZ0EJzWNFFRpbyfZKGXk5hmfgdS8soFPWhMaMl9Y,45
+sedona/description.py,sha256=5MXa5VZCOLbbbo2hgttXfM06w92qUlFcceXVXZiOzqI,78
+sedona/version.py,sha256=gW5NUxwGdPsiQjn0cOuuQT11pfthByI5DITDg_HMhLQ,22
+sedona-0.1.6.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+sedona-0.1.6.dist-info/METADATA,sha256=Y6KkyelptKCfaqIuJlDED3F-MaF16b5OuFFJ0xwkVis,2056
+sedona-0.1.6.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+sedona-0.1.6.dist-info/entry_points.txt,sha256=ELei6FOJLc4q4MZ9c2F9Fw_p_0jvfjXiHD5pgZDPgdM,67
+sedona-0.1.6.dist-info/top_level.txt,sha256=e1hAyupkDoMk3HvImfgGPsJqqLmFuLmqT_SzL3xbixM,7
+sedona-0.1.6.dist-info/RECORD,,
