@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+src/pysure/pysure.py
+src/pysure.egg-info/PKG-INFO
+src/pysure.egg-info/SOURCES.txt
+src/pysure.egg-info/dependency_links.txt
+src/pysure.egg-info/top_level.txt
