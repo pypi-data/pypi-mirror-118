@@ -1,0 +1,10 @@
+custom_logging/__init__.py,sha256=yid-J5Jh4XzKSdg1QoE2dhPzeHZ-0MjI1BZ0yq2IGzo,73
+custom_logging/exceptions.py,sha256=4syv5g9q_VhuU2XJs__cHv2Cx5cWGcjeZZx5PBPSQwA,62
+custom_logging/filters.py,sha256=lXL6GB8qe1M_R3Ulds34Ife52xu_la-LqylJlnaP_MU,779
+custom_logging/middlewares.py,sha256=wnsLc4avtvbJksj15umXh4tDQDBfPehz9vIltOb2vIo,200
+custom_logging/utils.py,sha256=qPwdkG-1ugKgSQA-BxtFHv-gP6zu65FkMDev3TNYaos,602
+django_custom_logging-0.1.1.dist-info/LICENSE,sha256=1QhZbK9mVawIn15K8lOpTb-pg4ZJCD3cZpJVTfyi1Uw,1071
+django_custom_logging-0.1.1.dist-info/METADATA,sha256=_CmP1tiri2aer8Rb9Gd0PKQNcK9qAabYkCwzSSUVrvs,4728
+django_custom_logging-0.1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+django_custom_logging-0.1.1.dist-info/top_level.txt,sha256=n0ZM1mThzvT-brTkmxhJaLWORUgbcfhMd8rnZ7AhSp8,15
+django_custom_logging-0.1.1.dist-info/RECORD,,
