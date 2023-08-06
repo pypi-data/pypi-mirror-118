@@ -1,0 +1,9 @@
+bublik/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bublik/managers.py,sha256=0JxOxDSCcqH-tkP5rynvmESHU-6EIDIov2BHx_0XNaE,1591
+bublik/model_mixin.py,sha256=aiTDCT3dFN8ZwPqphpiOeh87bqeSg6H1PVCw_iWwNkU,1963
+bublik/tabl.py,sha256=yCFHmraeVh2XtXLZHi4cUdWb_0WZnZIcRt4t0N_SRbc,4373
+django_bublik-0.1.4.dist-info/LICENSE,sha256=oYi0IVia3FKU-2BA0lodWlQXa5pNmIPxEFFRNzcBoWE,1536
+django_bublik-0.1.4.dist-info/METADATA,sha256=SHCbGA81lcanRspVMaji8ECZRVUFli0NVL04vhWJlSI,1040
+django_bublik-0.1.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+django_bublik-0.1.4.dist-info/top_level.txt,sha256=Qil35ofGA3wbKJnJelZ_xCZ6HZ4iuLPqYDfihEFybN0,7
+django_bublik-0.1.4.dist-info/RECORD,,
