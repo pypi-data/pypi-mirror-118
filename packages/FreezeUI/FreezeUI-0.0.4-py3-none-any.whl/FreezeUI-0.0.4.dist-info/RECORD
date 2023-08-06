@@ -1,0 +1,25 @@
+FreezeUI/__init__.py,sha256=su0jfCRqO8vDtB0usDOqgdtZrcEPHwj99yU8UP6H6YE,933
+FreezeUI/__main__.py,sha256=bnQogiwpZN9ZLgT2Mml1kTKs9nn7iwmTsIGwZWGC1AU,1653
+FreezeUI/editor_window.py,sha256=6Dzuw3lVnM6JVtDMPHp4HFDqM_ys4dZmyMpWbplld-4,8808
+FreezeUI/exe_win.py,sha256=HVnZBl3lCIi5-xCxK7bJ3OWfYXf6HhCZQ7j8frgkKKk,11874
+FreezeUI/msi_win.py,sha256=FFpVtRbizVuPrQFTxQugMHk_fasxXw_SZf0gRE2NfEU,17923
+FreezeUI/assets/exe_template.txt,sha256=7Mnz1K4U9NNxShxjvDL22RdUczbetZPUHS8-vSMt5pI,487
+FreezeUI/assets/exe_text.png,sha256=5f2FuzzrvH4TvD-hPnPoBXLjEumiPvLVp3YOHUrn85g,55735
+FreezeUI/assets/icon.gif,sha256=TPr3jU7j0JIK54KwfWqr7xbTc9fLY0JvF45br1_EY9A,2646457
+FreezeUI/assets/icon.ico,sha256=DtwMAZ9AeAqKXveEaHmKYMo6F4mYMzSscnmXFGDhNsM,77945
+FreezeUI/assets/msi_template.txt,sha256=0_fCQbsgesNqzKVfijpFJgiGIm0zvEmMIWK_AHjiWDE,1166
+FreezeUI/assets/msi_text.png,sha256=a0OFl6n1DvpGGGUye0-xHGVukRkw5D_7gBRirvcSEOs,27716
+FreezeUI/assets/pyicon.svg,sha256=pTdgHFiTzQh7uYodFG6lVpzW_2ihodDdAcqGY7Q_mz0,1107
+FreezeUI-0.0.4.data/data/bitmaps/exe_text.png,sha256=5f2FuzzrvH4TvD-hPnPoBXLjEumiPvLVp3YOHUrn85g,55735
+FreezeUI-0.0.4.data/data/bitmaps/icon.gif,sha256=TPr3jU7j0JIK54KwfWqr7xbTc9fLY0JvF45br1_EY9A,2646457
+FreezeUI-0.0.4.data/data/bitmaps/icon.ico,sha256=DtwMAZ9AeAqKXveEaHmKYMo6F4mYMzSscnmXFGDhNsM,77945
+FreezeUI-0.0.4.data/data/bitmaps/msi_text.png,sha256=a0OFl6n1DvpGGGUye0-xHGVukRkw5D_7gBRirvcSEOs,27716
+FreezeUI-0.0.4.data/data/bitmaps/pyicon.svg,sha256=pTdgHFiTzQh7uYodFG6lVpzW_2ihodDdAcqGY7Q_mz0,1107
+FreezeUI-0.0.4.data/data/text files/exe_template.txt,sha256=7Mnz1K4U9NNxShxjvDL22RdUczbetZPUHS8-vSMt5pI,487
+FreezeUI-0.0.4.data/data/text files/msi_template.txt,sha256=0_fCQbsgesNqzKVfijpFJgiGIm0zvEmMIWK_AHjiWDE,1166
+FreezeUI-0.0.4.dist-info/LICENSE,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+FreezeUI-0.0.4.dist-info/METADATA,sha256=_zSz1aHEAbBHIIM1dzlhScYsDSlkyscVoe2lGRtcXRw,2875
+FreezeUI-0.0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+FreezeUI-0.0.4.dist-info/entry_points.txt,sha256=0dAt5L4O32JRGTryVr-PcjFiIbmQrGcrMTpQSMEAVv0,107
+FreezeUI-0.0.4.dist-info/top_level.txt,sha256=LVeXbntuSlUxxqSfcgnHyVr603JZOcfQXlzedm3QIuA,9
+FreezeUI-0.0.4.dist-info/RECORD,,
