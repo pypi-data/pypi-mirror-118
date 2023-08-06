@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: fly-online
+Version: 0.0.2
+Summary: Never get offline in NBU
+Home-page: UNKNOWN
+Author: QiangZiBro
+Author-email: qiangzibro@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: selenium
+Requires-Dist: geckodriver-autoinstaller
+
+UNKNOWN
+
+
