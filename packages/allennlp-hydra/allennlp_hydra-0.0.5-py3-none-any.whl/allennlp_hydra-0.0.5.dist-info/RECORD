@@ -1,0 +1,17 @@
+allennlp_hydra/__init__.py,sha256=nGFNkRKiqL888WE_DxEmt9695MCAlz1WW0RQA7J9fes,73
+allennlp_hydra/version.py,sha256=hP6pL6dRDVrgtRWVDXO_NvjkiDZk01U3uNrNiMf9xZw,264
+allennlp_hydra/commands/__init__.py,sha256=PgwILdyyJGUWIy57sTs31X1XcA7odWCoITczPprzV8s,124
+allennlp_hydra/commands/class_to_yaml.py,sha256=cYbm3Jww0MmXfP5z7zYmdwzSxpBfmkm8moztfS62NYc,3829
+allennlp_hydra/commands/compose_config.py,sha256=d9IRt92P5Rb7vCNRas0b8mz_eOIeLCBWvyA9-xvINbU,8594
+allennlp_hydra/commands/hydra_train.py,sha256=VGGazS_f9xEYEnMcWSB91Qyu5RsezcpKoxm7MU8Symg,5675
+allennlp_hydra/config/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+allennlp_hydra/config/fill_defaults.py,sha256=Km2thA8RrQQNolqybRW2dnSTwQ-XR_JLgbs5WDESgb0,7706
+allennlp_hydra/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+allennlp_hydra/utils/testing/__init__.py,sha256=fc_7vx_zy5yWBwa_gq04Fv0HIJiXYQd2CzkUUKQaJgw,200
+allennlp_hydra/utils/testing/test_case.py,sha256=ARaPhr3DOgiE5OathoctdMamlKpqraF1fx7nc9fB11g,1511
+allennlp_hydra/utils/testing/utils.py,sha256=5bU-hvpTTHhBwR3SwoYhTlaEVdvfu1lKmWHKCQ8qMnw,454
+allennlp_hydra-0.0.5.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+allennlp_hydra-0.0.5.dist-info/METADATA,sha256=x9gMfe9xKlUXlAbMVUSGOJxU43M2UADTAwMBo1gA4ao,3640
+allennlp_hydra-0.0.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+allennlp_hydra-0.0.5.dist-info/top_level.txt,sha256=oaaXUVX6Z0NtLe58pyIgNuyzPldadhPbtnJbYOO0f7s,15
+allennlp_hydra-0.0.5.dist-info/RECORD,,
