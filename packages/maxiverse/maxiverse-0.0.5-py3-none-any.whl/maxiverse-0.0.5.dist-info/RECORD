@@ -1,0 +1,10 @@
+maxiverse/__init__.py,sha256=5UVTfX1DWgvED0GYPJsllHidXQ3Xy7l6Nu0qnTJ__oQ,43
+maxiverse/base/__init__.py,sha256=gNwspU6ihIQbLQnDNsRumIliSmBCIgLmXTwG1nTc4AA,27
+maxiverse/base/abstract_base.py,sha256=1jma0X6T9aDwqM1iDRNt2TRjB-sIo7VxbZMz4XvvLNI,217
+maxiverse/classifier/__init__.py,sha256=iKf0lV0bEIZM9gMd29JVQ7dDql0ilvApFRTrhFg6bt8,23
+maxiverse/classifier/evaluator.py,sha256=jSLFZ7YJqsNlTgSq5LJk2O2IyMsUSpBKydxBYFTgdMw,3383
+maxiverse-0.0.5.dist-info/LICENSE,sha256=AzrC1e51d0dwi1lP3dCMD5tmu0CLtssULEomOVRTzeI,1070
+maxiverse-0.0.5.dist-info/METADATA,sha256=0QMU5toZT-TglPAC4jJC1o0rcgdWZv4loDnzg2mHLM8,1683
+maxiverse-0.0.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+maxiverse-0.0.5.dist-info/top_level.txt,sha256=ptEFqRn9tEEoIUda2EKkZLKqe9j6lNnKEd4mNJLgUGk,10
+maxiverse-0.0.5.dist-info/RECORD,,
