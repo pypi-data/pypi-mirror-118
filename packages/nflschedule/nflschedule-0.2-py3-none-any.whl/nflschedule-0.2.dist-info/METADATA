@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: nflschedule
+Version: 0.2
+Summary: python library for standardizing NFL schedule information
+Home-page: UNKNOWN
+Author: Eric Truett
+Author-email: eric@erictruett.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: python-dateutil (>=2.4)
+Requires-Dist: pandas (>=1.0)
+
+UNKNOWN
+
+

@@ -1,0 +1,9 @@
+nflschedule/__init__.py,sha256=i5MP82scgM_TESF235WZ7AMiPbZGfgyr6yEzN-407cg,48
+nflschedule/dates.py,sha256=y_hfKskRBe7RK9qlNYQ5lOsOIAot8_LZNToMeeF26VE,4897
+nflschedule/nflschedule.py,sha256=X3BvhJ18k_QCOPFul8Ff84km5BbqZRr957rbBTXL4yM,5735
+nflschedule/data/schedule.csv,sha256=H2v01yD5iw4VVDqttYwfdyEWgbOhV8Kn4uQGap90XYo,462384
+nflschedule-0.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+nflschedule-0.2.dist-info/METADATA,sha256=toCoNXGHUIbvTRt89fnkwlYwhtHBIaoOudYqa3a1MQc,304
+nflschedule-0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+nflschedule-0.2.dist-info/top_level.txt,sha256=6U-_e8eSD7Vp3-tZKl-wj8_LlB51Q5UkYmiTVWQwrR0,12
+nflschedule-0.2.dist-info/RECORD,,
