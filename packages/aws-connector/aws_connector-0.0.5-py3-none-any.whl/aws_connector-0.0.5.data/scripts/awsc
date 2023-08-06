@@ -1,0 +1,6 @@
+#!python
+
+import aws_connector
+
+awsc = Menu()
+awsc.now()
