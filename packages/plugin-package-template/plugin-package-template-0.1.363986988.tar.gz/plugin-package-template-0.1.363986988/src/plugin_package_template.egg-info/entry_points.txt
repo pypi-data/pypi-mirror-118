@@ -1,0 +1,3 @@
+[vdk.plugin.run]
+plugin-template = taurus.vdk.plugin_template
+
