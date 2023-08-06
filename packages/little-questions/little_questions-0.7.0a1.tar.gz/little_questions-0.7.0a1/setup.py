@@ -1,0 +1,30 @@
+from setuptools import setup
+
+setup(
+    name='little_questions',
+    version='0.7.0a1',
+    packages=['little_questions',
+              'little_questions.classifiers',
+              'little_questions.classifiers.lang',
+              'little_questions.classifiers.lang.ca',
+              'little_questions.classifiers.lang.de',
+              'little_questions.classifiers.lang.en',
+              'little_questions.classifiers.lang.es',
+              'little_questions.classifiers.lang.fr',
+              'little_questions.classifiers.lang.it',
+              'little_questions.classifiers.lang.pt',
+              'little_questions.models'],
+    url='https://github.com/OpenJarbas/little_questions',
+    install_requires=["numpy>=1.21.2",
+                      "nltk",
+                      "wordfreq",
+                      "scikit-learn",
+                      "joblib",
+                      "JarbasModelZoo>=0.2.0a2",
+                      "pyxdg"],
+    include_package_data=True,
+    license='Apache2.0',
+    author='jarbasAI',
+    author_email='jarbasai@mailfence.com',
+    description='question parser and classifier'
+)
