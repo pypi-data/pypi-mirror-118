@@ -1,0 +1,33 @@
+import setuptools
+
+
+with open("README.md", "r") as fh:
+    long_description = fh.read()
+
+
+setuptools.setup(
+    name="labelci",
+    version="0.1.3",
+    author="wunsch",
+    author_email="wunsch0106@gmail.com",
+    description="XuelangCloud vision algorithm labelci",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
+    url="",
+    packages=setuptools.find_packages(),
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ],
+    install_requires=[
+        "Pillow",
+        "numpy"
+    ],
+
+    entry_points={
+        "console_scripts": [
+            "labelci=labelci.bin.cli:label_cli",
+        ]
+    }
+)

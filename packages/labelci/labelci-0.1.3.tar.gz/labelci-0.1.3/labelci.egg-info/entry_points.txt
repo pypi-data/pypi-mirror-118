@@ -1,0 +1,3 @@
+[console_scripts]
+labelci = labelci.bin.cli:label_cli
+
