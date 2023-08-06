@@ -1,0 +1,9 @@
+longqinsi_reader/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+longqinsi_reader/__main__.py,sha256=fIxUsDftK7aI3Z5d0aabfxmDr-oKgBkktTcJ2g3mr-Y,135
+longqinsi_reader/multireader.py,sha256=4DRx95s7VfRK5UMmPYt4AkbcDgkBJYIWhcVmL2C9Gi4,690
+longqinsi_reader/util/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+longqinsi_reader/util/writer.py,sha256=6uvXl3syxVmqVEaXBy99ObiLlBi22tBp6qzWlqKUIjc,127
+longqinsi_reader-1.0.0.dist-info/METADATA,sha256=yV6OMVfcQfjPnYqPXTGshyopLO5eCvg_yg5JbPlyvFY,211
+longqinsi_reader-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+longqinsi_reader-1.0.0.dist-info/top_level.txt,sha256=19kVnrsbS_DL-0WVQtCdv_1bheGSsUOx0FIneZvFUFc,17
+longqinsi_reader-1.0.0.dist-info/RECORD,,
