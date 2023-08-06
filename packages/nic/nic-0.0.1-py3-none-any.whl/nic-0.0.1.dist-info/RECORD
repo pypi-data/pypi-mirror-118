@@ -1,0 +1,17 @@
+nic/__init__.py,sha256=S8wt3EgGSLYkkd-He7vagnnt1KrcdCHXUswIsiVyia0,454
+nic/callbacks.py,sha256=inp1Cij1olJKlb3164hnvjCMU4OEqfPQ2sKGpze-oO0,4019
+nic/captioning.py,sha256=mVF102oo7y59UUK8gtCk43z0CFfqqDqe6vbB7OK8Pxs,13321
+nic/evaluation.py,sha256=-gLIWoGVZH9arIejaU0TeVKLkuyG2pf__aDzSL3zZKo,2646
+nic/metrics.py,sha256=cMBuMbqRWEgcedq-TmbGDpQZpXWh2jX1mu4dXP0U_k0,2240
+nic/model.py,sha256=-QYOO6VmeIJhi1wqGWmFrdJOOmo1pjX_0Ebfx0VMD1E,10059
+nic/training.py,sha256=RqZw0sFWT4uoaln7Pu08hFaVExDLB39c9V3Vdmaw3t4,8487
+nic/datapreparation/__init__.py,sha256=NGUtzFMVXaZDGUmHJAGxLwrgHxkgtVYLbFzpYm5tR8Q,418
+nic/datapreparation/data.py,sha256=Os3SYEW18h8imYHWxlSsu1QOrD3I3hrRWL-ZNjIQtTM,6180
+nic/datapreparation/downloading.py,sha256=2I2GcoH6IK62VZlZ3b6WHOpqOIb6XzHh3nOansXhNck,5821
+nic/datapreparation/preprocessing.py,sha256=JyHDKYHQYbNwZQR4hxvE7peQgtfOd8BCJ8v2mfMK4Aw,13128
+nic/datapreparation/utils.py,sha256=1UAFGObYWa10rTKjmZl5qUbfwq1nah2dzYIdqx98WPI,1456
+nic-0.0.1.dist-info/LICENSE.md,sha256=iuAh9I76b4mBsPWMqs_aXX0H3krnqeaajHwZ6BTBhKI,1076
+nic-0.0.1.dist-info/METADATA,sha256=Y8oAxU1dEP16ErP6At96bJd1I6V-1sq1IbYuE_snBsU,22403
+nic-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+nic-0.0.1.dist-info/top_level.txt,sha256=VHPkAK6-iQ8-FRxZYGYvPSdnc0fXBYc2ZAXzgkxBGNI,4
+nic-0.0.1.dist-info/RECORD,,
