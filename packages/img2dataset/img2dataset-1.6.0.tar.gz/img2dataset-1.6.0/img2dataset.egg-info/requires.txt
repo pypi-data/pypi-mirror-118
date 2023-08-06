@@ -1,0 +1,7 @@
+tqdm
+opencv-python
+fire
+webdataset==0.1.62
+pandas
+pyarrow
+exifread
