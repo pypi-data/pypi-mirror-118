@@ -1,0 +1,3 @@
+[console_scripts]
+codefield = codefield.__main__:main
+
