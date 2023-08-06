@@ -1,0 +1,9 @@
+hzkerberos/__init__.py,sha256=V9pArDa5J8Yxrpi7Azbg7ozjaiYNpcel4gdQzt80T8s,180
+hzkerberos/c.py,sha256=FVeqAJwr2fvEPK5jb0zRlr7lvie7BbRUn02SddAVEr8,10859
+hzkerberos/errors.py,sha256=21pMMmGEpXqPLM-zlsGwvdUukS3uE7UcWIhffj8JYOU,677
+hzkerberos/token_provider.py,sha256=6StLC2AjoWeThdQm5o62um63lXJmgnEqjsAaeU9PFAg,3523
+hazelcast_kerberos-1.0.0.dist-info/LICENSE.txt,sha256=xllut76FgcGL5zbIRvuRc7aezPbvlMUTWJPsVr2Sugg,11358
+hazelcast_kerberos-1.0.0.dist-info/METADATA,sha256=qNtw_bo0JaDDZ7H3dvt1r8Uu0fXgOSuVqR5q4NIEX98,7524
+hazelcast_kerberos-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+hazelcast_kerberos-1.0.0.dist-info/top_level.txt,sha256=Ph1_B_UYAzKdC_bdrwY9tigY0ZCc_4279falhlVvHR8,11
+hazelcast_kerberos-1.0.0.dist-info/RECORD,,
