@@ -1,0 +1,3 @@
+[console_scripts]
+rayon=rayon.__main__:cli
+
