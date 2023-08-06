@@ -1,0 +1,59 @@
+Metadata-Version: 1.0
+Name: iSpin-data
+Version: 0.3.1
+Summary: Gets iSpin data for a turbine ID.
+Home-page: https://gitlab.com/romowind_public/ispin_data
+Author: Nabla Wind Hub
+Author-email: reppower@romowind.com
+License: UNKNOWN
+Description: ==============
+        iSpin Data
+        ==============
+        
+        .. image:: https://travis-ci.org/lead-ratings/iSpin-data.svg?branch=master
+            :target: https://gitlab.com/romowind_public/ispin_data
+        
+        
+        This package provides access to iSpin data for a specified turbine ID.  Its use is pretty straightforward::
+        
+            >>> import ispin_data.api as ispin
+            
+            >>> ispin.username = 'your_username'
+            >>> ispin.password = 'your_password'
+            
+            >>> df = ispin.request_overview()
+            # Returns iSpin installations
+            
+            >>> df = ispin.request_data(6)
+            # Returns data for the installation with the turbine ID number 6. 
+            # The start and end date can also be specified
+        
+        
+        
+        
+        Licenses
+        ========
+        
+        Nabla Wind Hub
+        
+        ROMO Wind
+        
+        
+        Changelog
+        =========
+        
+        0.1.0 (2021-08-24)
+        ******************
+        
+        * First release
+        
+        0.3.0 (2021-08-30)
+        ******************
+        
+        * Second release
+        
+        0.3.1 (2021-08-31)
+        ******************
+        
+        * Added author name and company to main code
+Platform: UNKNOWN
