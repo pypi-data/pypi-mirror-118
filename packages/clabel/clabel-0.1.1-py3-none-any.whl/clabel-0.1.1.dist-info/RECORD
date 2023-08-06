@@ -1,0 +1,12 @@
+clabel/__init__.py,sha256=rnObPjuBcEStqSO0S6gsdS_ot8ITOQjVj_-P1LUUYpg,22
+clabel/data_utils.py,sha256=x5UiTtQqJozBl146OK032Elr-2FdQYAV_9rxc3Xw4UY,3561
+clabel/demo.py,sha256=aHQs-TRV-JAU8fMMVa2B__Y_q6VrqjVR31Tb_SNmRlE,254
+clabel/io.py,sha256=oGE-hcgKlBwkS6I3UrV7LqNzeCxVL2gxZf3cG601xy4,1947
+clabel/main.py,sha256=K64mnMSNP_53_u1m9kUnNg3c_xGaEcQBF4RhbCwMQgo,4092
+clabel/questions.py,sha256=eNO4Ks5fYy7dkZCoU4IxSrnQ1J-H89J7GEpBMCdLZmQ,1699
+clabel/styles.py,sha256=NI7jdWJ3OCRDRDjyyK-p28ZX_IyeSjQqnqz-VbRAiw4,1041
+clabel-0.1.1.dist-info/entry_points.txt,sha256=CjsFA5JKNdv-I59-vpRh83IqiVfnIWC3Uye_Ylobclc,43
+clabel-0.1.1.dist-info/LICENSE,sha256=DKtP-Nmnn-6BIuiILIWs7KVzimN9n4lvvx9nR6lyhwM,1084
+clabel-0.1.1.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+clabel-0.1.1.dist-info/METADATA,sha256=irGW8sBqqvV26EmJ0Gcq9kCjYOJQASdY9gzTemfm_DA,1195
+clabel-0.1.1.dist-info/RECORD,,
