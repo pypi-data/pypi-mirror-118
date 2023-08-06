@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+teska_monitor.egg-info/PKG-INFO
+teska_monitor.egg-info/SOURCES.txt
+teska_monitor.egg-info/dependency_links.txt
+teska_monitor.egg-info/requires.txt
+teska_monitor.egg-info/top_level.txt

@@ -1,0 +1,7 @@
+requests
+psutil
+flask
+fire
+python-dateutil
+dash
+dash-bootstrap-components
