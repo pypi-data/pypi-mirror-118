@@ -1,0 +1,5 @@
+requests<3,>=2.13.0
+
+[docs]
+sphinx
+sphinx-argparse
