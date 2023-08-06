@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: sketchdraw
+Version: 1.0.3
+Summary: A simple Python Library to convert Real world images to pencil sketch
+Home-page: https://github.com/tambibhavika2000/sketch.git
+Author: Bhavika Tambi
+License: UNKNOWN
+Keywords: sketch,pencil sketch,cartoonise
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: opencv-python
+
+# sketch
+A python library for converting Real images to pencil sketch
+
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)                 
+[![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)   
+
+## Usage
+
+- Make sure you have Python and Open-cv installed in your system.
+- Run Following command in the CMD.
+ ```
+  pip install sketchdraw
+  ```
+## Example
+
+ ```
+# test.py
+
+from sketch import sketchit
+img_path = 'path/of/image'
+sketchit(img_path)
+  ```
+
+## Run the following Script.
+ ```
+  python test.py
+ ```
+
+
