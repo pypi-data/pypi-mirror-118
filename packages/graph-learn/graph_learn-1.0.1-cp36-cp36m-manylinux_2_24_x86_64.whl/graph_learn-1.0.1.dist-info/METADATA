@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: graph-learn
+Version: 1.0.1
+Summary: Python Interface for Graph Neural Network
+Home-page: https://github.com/alibaba/graph-learn
+License: Apache License 2.0
+Project-URL: Bug Tracker, https://github.com/alibaba/graph-learn/issues
+Project-URL: Documentation, https://graph-learn.readthedocs.io/en/latest/
+Project-URL: Source Code, https://github.com/alibaba/graph-learn
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+
