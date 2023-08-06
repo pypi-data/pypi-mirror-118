@@ -1,0 +1,3 @@
+[napari.plugin]
+napari-sdeconv = napari_sdeconv
+
