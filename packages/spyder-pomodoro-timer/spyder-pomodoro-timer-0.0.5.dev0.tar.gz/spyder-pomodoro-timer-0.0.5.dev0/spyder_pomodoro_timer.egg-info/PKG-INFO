@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: spyder-pomodoro-timer
+Version: 0.0.5.dev0
+Summary: A very simple pomodoro timer that shows in the status bar.
+Home-page: https://github.com/map0logo/spyder-pomodoro-timer
+Author: Francisco Palm
+Author-email: fpalm@qu4nt.com
+License: MIT license
+Platform: UNKNOWN
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Utilities
+Requires-Python: >= 3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+License-File: AUTHORS.md
+
+# Spyder Pomodoro Timer
+
+A very simple pomodoro timer that shows in the status bar.
+
+## Build status
+
+https://github.com/spyder-ide/spyder-boilerplate/actions?query=workflow%3A%22Win+tests%22
+
+[![Win](https://github.com/spyder-ide/spyder-pomodoro-timer/workflows/Win%20tests/badge.svg)](https://github.com/spyder-ide/spyder-pomodoro-timer/actions?query=workflow%3A%22Win+tests%22)
+[![Mac](https://github.com/spyder-ide/spyder-pomodoro-timer/workflows/Mac%20tests/badge.svg)](https://github.com/spyder-ide/spyder-pomodoro-timer/actions?query=workflow%3A%22Mac+tests%22)
+[![Linux](https://github.com/spyder-ide/spyder-pomodoro-timer/workflows/Linux%20tests/badge.svg)](https://github.com/spyder-ide/spyder-pomodoro-timer/actions?query=workflow%3A%Linux+tests%22)
+[![Codecov](https://codecov.io/gh/spyder-ide/spyder-pomodoro-timer/branch/master/graph/badge.svg)](https://codecov.io/gh/spyder-ide/spyder-pomodoro-timer)
+[![Crowdin](https://badges.crowdin.net/spyder-pomodoro-timer/localized.svg)](https://crowdin.com/project/spyder-pomodoro-timer)
+[![Docs](https://readthedocs.org/projects/spyder-pomodoro-timer/badge/?version=latest)](https://spyder-pomodoro-timer.readthedocs.io/en/latest/?badge=latest)
+
+## Features
+
+* TODO
+
+## Credits
+
+This package was created with [Cookiecutter](https://github.com/audreyr/cookiecutter) and the [spyder-ide/spyder5-plugin-cookiecutter](https://github.com/spyder-ide/spyder5-plugin-cookiecutter) project template.
+
+
