@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: aio.stream
+Version: 0.0.2
+Summary: Stream utils for aiohttp and aiofiles
+Home-page: https://github.com/envoyproxy/pytooling/tree/main/aio.stream
+Author: Ryan Northey
+Author-email: ryan@synca.io
+Maintainer: Ryan Northey
+Maintainer-email: ryan@synca.io
+License: Apache Software License 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Pytest
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Testing
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.5
+Requires-Dist: aiohttp
+Requires-Dist: aiofiles
+Provides-Extra: lint
+Requires-Dist: flake8 ; extra == 'lint'
+Provides-Extra: publish
+Requires-Dist: wheel ; extra == 'publish'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-asyncio ; extra == 'test'
+Requires-Dist: pytest-coverage ; extra == 'test'
+Requires-Dist: pytest-patches ; extra == 'test'
+Provides-Extra: types
+Requires-Dist: mypy ; extra == 'types'
+Requires-Dist: types-aiofiles ; extra == 'types'
+
+
+aio.stream
+==========
+
+Stream utils for aiohttp and aiofiles.
+
+
