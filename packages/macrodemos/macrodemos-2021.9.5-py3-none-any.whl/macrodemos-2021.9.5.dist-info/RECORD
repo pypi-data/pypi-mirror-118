@@ -1,0 +1,16 @@
+macrodemos/__init__.py,sha256=8tTmrdyUHygpNMwF0BCyL6aEigyclUhZNPrmIopaWBM,715
+macrodemos/captura.py,sha256=eJ6D79TT3_YQHD8RcdMzvliqclPuohYjEhXzTj6bRrs,8654
+macrodemos/common_components.py,sha256=g46mlc9R1lyVGKVbhetq-5xm4ua_FV5LDbN4DQ8ZNSo,7928
+macrodemos/constants.py,sha256=yJoJR28HUSdh60dsv-05VEUEUKXvpKSqhn0NcQzLDlc,6525
+macrodemos/demo_ARMA.py,sha256=MOHcm-i5xkpUY3ycuD22xlckxwh03oqG-suJltMaToM,23448
+macrodemos/demo_Markov.py,sha256=LqD_yfuST9-T4vhdCcW5IBhTb0XymwRyY5dqpPCVBqQ,10722
+macrodemos/demo_Solow.py,sha256=Veim3hJ_N29PjLWeEZW2koED9onaemU4rkuLlcI7ZwE,17063
+macrodemos/demo_filters.py,sha256=9U9QBnqBANKMn7_mG8IhDEw9wB-xGsVP5a0-VOXnb40,22671
+macrodemos/data/CRI-initial-data.csv,sha256=tnLRPoq19eFzShoFTtcmblkxyOk4y6I_JuL10KbjbXY,14510
+macrodemos/data/CRI-initial-data.pickle,sha256=RIwQtq1iDGy7cQHN-ZDFvZUcseXWa5Y_BWdGr6m026A,7674
+macrodemos/data/IFS_GDP.xlsx,sha256=4Aly84OUdhl9tLhT2IZyc-ej_jQGEaemJ2ucoPVLGpQ,227875
+macrodemos/data/national_accounts.xlsx,sha256=SoclghV6CVjss45e_JYWi77GzuMtjLGNIWDrsGekQc8,43884
+macrodemos-2021.9.5.dist-info/METADATA,sha256=5PCfDAUvdW4vYz-Eqrl_vqJfVM99k1cI-zgcYIpNlJE,431
+macrodemos-2021.9.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+macrodemos-2021.9.5.dist-info/top_level.txt,sha256=Bl40XOraxDePP3KjCzhfM4n8uoBAnZNuACQZyOFyj5U,11
+macrodemos-2021.9.5.dist-info/RECORD,,
