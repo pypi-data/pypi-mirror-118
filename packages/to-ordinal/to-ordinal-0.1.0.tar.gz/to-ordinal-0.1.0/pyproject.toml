@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "to-ordinal"
+version = "0.1.0"
+description = ""
+authors = ["Bernardo da Eira Duarte <bernardoeiraduarte@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/bernardoduarte/python-to-ordinal"
+repository = "https://github.com/bernardoduarte/python-to-ordinal"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
