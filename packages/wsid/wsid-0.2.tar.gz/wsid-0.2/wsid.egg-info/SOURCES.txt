@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.cfg
+wsid
+wsid.egg-info/PKG-INFO
+wsid.egg-info/SOURCES.txt
+wsid.egg-info/dependency_links.txt
+wsid.egg-info/top_level.txt
