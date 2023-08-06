@@ -1,0 +1,12 @@
+README.md
+setup.py
+pdfuris/__init__.py
+pdfuris/__main__.py
+pdfuris/py.typed
+pdfuris.egg-info/PKG-INFO
+pdfuris.egg-info/SOURCES.txt
+pdfuris.egg-info/dependency_links.txt
+pdfuris.egg-info/entry_points.txt
+pdfuris.egg-info/not-zip-safe
+pdfuris.egg-info/requires.txt
+pdfuris.egg-info/top_level.txt
