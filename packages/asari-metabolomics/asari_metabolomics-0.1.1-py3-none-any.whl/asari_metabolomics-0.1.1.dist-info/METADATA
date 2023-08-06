@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: asari-metabolomics
+Version: 0.1.1
+Summary: Simple metabolomics data preprocessing
+Home-page: https://github.com/shuzhao-li/asari
+Author: Shuzhao Li
+Author-email: shuzhao.li@gmail.com
+License: BSD 3-Clause
+Keywords: metabolomics bioinformatics mass spectrometry
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: metDataModel
+Requires-Dist: mass2chem
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: xlsxwriter
+
+Asari
+=====
+
+Simple Python program for LC-MS metabolomics data preprocessing.
+This focuses on high-resolution data, where most features are specific to a formula based mass.
+
+- Simple peak dection based on local maxima and prominence.
+- Fully incorporating peak quality, selectiviy (on m/z, database, elution).
+- Peaks of high quality and selectivity are aligned via formula mass.
+- Fast assembly and annotation of serum/plasma metabolomes.
+
+Basic concepts follow https://github.com/shuzhao-li/metDataModel, as
+
+    ├── Experiment
+       ├── Sample (injection) 
+           ├── MassTrace (EIC)
+               ├── Peak
+           ├── MassTrace 
+               ├── Peak
+               ├── Peak
+        ...
+       ├── Sample 
+        ...
+       ├── Sample 
+
+Algorithms
+==========
+
+Align (correspondence) peaks of high selectivity in both measured data and in reference database via formula mass.
+
+Group degenerate peaks into empicical compounds (based on primary ions in previous step) in each sample.
+
+Mass calibration if needed. RT calibration.
+
+RANSAC alignment of the remaining peaks.
+
+
+
+
+
+https://github.com/shuzhao-li/asari
+
+
