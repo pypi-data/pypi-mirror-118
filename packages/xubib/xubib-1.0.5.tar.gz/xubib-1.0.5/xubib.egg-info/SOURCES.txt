@@ -1,0 +1,9 @@
+README.rst
+setup.py
+fb/__init__.py
+fb/bibcopy.py
+xubib.egg-info/PKG-INFO
+xubib.egg-info/SOURCES.txt
+xubib.egg-info/dependency_links.txt
+xubib.egg-info/requires.txt
+xubib.egg-info/top_level.txt
