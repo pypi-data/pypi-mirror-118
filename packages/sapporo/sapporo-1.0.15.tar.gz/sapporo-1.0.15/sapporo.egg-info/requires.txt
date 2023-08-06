@@ -1,0 +1,12 @@
+Flask
+jsonschema
+requests
+uwsgi
+
+[tests]
+flake8
+isort
+mypy
+pytest
+types-requests
+typing-extensions
