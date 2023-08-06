@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: crams-allocation
+Version: 1.0.2
+Summary: CRAMS API opensource crams allocation package.
+Home-page: https://github.com/CRAMS-Dashboard/crams-api
+Author: Monash University e-Research Centre
+Author-email: crams@monash.edu
+License: GNU General Public License v3.0
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Framework :: Django :: 3.2
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
+Requires-Dist: merc-common (>=1.0.0)
+Requires-Dist: crams-log (>=1.0.0)
+Requires-Dist: crams-contact (>=1.0.0)
+
+
+Crams Allocation
+=================
+
+Crams Allocation is a Django app package for CRAMS api open source. Detailed documentation is in the "docs" directory.
+Souce code is available at https://github.com/CRAMS-Dashboard/crams-api
+
+
+Quick start
+-----------
+
+1. Add "crams_allocation" to your INSTALLED_APPS setting like this::
+
+    INSTALLED_APPS = [
+        ...
+        'crams_allocation',
+    ]
+
+2. Include the crams_allocation URLconf in your project urls.py like this::
+
+    path('', include('crams_allocation.urls')),
+
+
