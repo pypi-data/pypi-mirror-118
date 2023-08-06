@@ -1,0 +1,8 @@
+README.md
+setup.py
+github_installer/__init__.py
+github_installer.egg-info/PKG-INFO
+github_installer.egg-info/SOURCES.txt
+github_installer.egg-info/dependency_links.txt
+github_installer.egg-info/requires.txt
+github_installer.egg-info/top_level.txt
