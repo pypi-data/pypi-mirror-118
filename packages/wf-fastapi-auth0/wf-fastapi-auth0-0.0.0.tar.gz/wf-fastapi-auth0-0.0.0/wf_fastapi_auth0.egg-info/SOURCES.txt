@@ -1,0 +1,7 @@
+setup.py
+wf_fastapi_auth0/__init__.py
+wf_fastapi_auth0.egg-info/PKG-INFO
+wf_fastapi_auth0.egg-info/SOURCES.txt
+wf_fastapi_auth0.egg-info/dependency_links.txt
+wf_fastapi_auth0.egg-info/requires.txt
+wf_fastapi_auth0.egg-info/top_level.txt
