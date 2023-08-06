@@ -1,0 +1,6 @@
+beeprint==2.4.10
+websockets==8.1
+ensureTaskCanceled==1.1
+loguru==0.5.3
+NoLossAsyncGenerator==2.4
+AsyncExclusivePeriods==1.12
