@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: lattice-stocks-data
+Version: 1.1.0
+Summary: Comprehensive stock market data sourced from Yahoo Finance and a variety of other sources in one clean package.
+Home-page: https://lattice.dev/products/stock-market-data
+Author: Lattice
+Author-email: ashkon@lattice.dev
+License: UNKNOWN
+Project-URL: Source, https://github.com/LatticeData/lattice-stocks-data
+Project-URL: Documentation, https://github.com/LatticeData/lattice-stocks-data/blob/master/README.md#Usage
+Project-URL: Bug Reports, https://github.com/LatticeData/lattice-stocks-data/issues
+Project-URL: Get your key, https://rapidapi.com/lattice-data-lattice-data-default/api/stock-market-data/
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+Comprehensive stock market data sourced from Yahoo Finance and a variety of other sources in one clean package. Provided data types include basic company information, real-time price information, financial statements, news coverage, stock similarity metrics, valuation metrics, and economic indicators.
+
+
