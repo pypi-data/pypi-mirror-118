@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+disnake/__init__.py
+disnake.egg-info/PKG-INFO
+disnake.egg-info/SOURCES.txt
+disnake.egg-info/dependency_links.txt
+disnake.egg-info/requires.txt
+disnake.egg-info/top_level.txt
