@@ -1,0 +1,4 @@
+loguru
+Click
+pipenv
+sqlalchemy
