@@ -1,0 +1,4 @@
+include mcfp/libs/*
+include mcfp/config.ini
+include requirements.txt
+include LICENSE
