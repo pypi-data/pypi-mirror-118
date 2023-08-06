@@ -1,0 +1,38 @@
+# https://python-poetry.org/docs/pyproject/
+[tool.poetry]
+name = "dora-lakehouse-sdk"
+version = "0.0.1"
+description = "Dora Lakehouse"
+authors = ["Didone <didone@live.com>"]
+maintainers = ["DataLabs <time.dataanalytics.datalabs@compasso.com.br>"]
+license = "Apache-2.0"
+readme = "README.md"
+homepage = "https://github.com/doraproject/lakehouse"
+repository = "https://github.com/doraproject/lakehouse-sdk.git"
+keywords = ["dora","lakehouse"]
+classifiers = [
+        "Development Status :: 4 - Beta",
+        "Topic :: Software Development :: Libraries",
+        "Topic :: Software Development :: Libraries :: Python Modules",
+        "Programming Language :: Python :: 3.7",
+		"License :: OSI Approved :: Apache Software License"
+]
+packages = [
+    { include = "dora_lakehouse" }
+]
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/doraproject/lakehouse-sdk/issues"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+boto3 = "^1.17.87"
+pyspark = "3.0.1"
+requests = "^2.25.1"
+pylint = "^2.8.3"
+pytest = "^6.2.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
