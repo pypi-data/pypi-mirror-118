@@ -1,0 +1,15 @@
+memepack_builder/MemepackBuilder.py,sha256=7QR5rhwQ1eBO8m5-8oakHX1xlhFDtvqaPNmt42P7OHI,1344
+memepack_builder/__init__.py,sha256=vilts9QcOJbHJ4NLwvQJOd2wybExDwE-jbKexsoHZZc,155
+memepack_builder/builder/BedrockBuilder.py,sha256=yJuTFb2NoFws-vM3hYUULET0bvydPevP6qeyxVAQOEY,2812
+memepack_builder/builder/JavaBuilder.py,sha256=DC7wZDS8INDGHj6dEkkbluz9_R3GbZHsU6b-P2-xLaA,5256
+memepack_builder/builder/__init__.py,sha256=Vv6Mg530bistXjAdO6RYTpSNwp0JUBh_itsxa7PHpms,79
+memepack_builder/builder/base.py,sha256=oVrwhJPlHpw96dh0Tr8-d6aNjM7HnbzXo49x_AWb4M4,4015
+memepack_builder/module_checker/__init__.py,sha256=9AOJewRKjN7rnBCoUQY6gGYFZgm55_R7P8J-Z5Q06rY,31
+memepack_builder/module_checker/base.py,sha256=SKi8ItDXPI_sIlYozEiqMzQKFFHbgbJBs_TU-lQUQAU,989
+memepack_builder/utils/LanguageGenerator.py,sha256=WCus30fBX0dvTtLLC1izFIpbSUdaSaZuvrha6fe4JX0,4079
+memepack_builder/utils/__init__.py,sha256=5LnZBHdxBfyBDdn9zUEqmKLpuxGbRNNkVTXy74LbdPI,107
+memepack_builder-0.3.0a3.dist-info/LICENSE,sha256=9TZeKxDWJEkMqZLMWfUO5o7_6NDav1mZDgcqPyo6Gxk,11362
+memepack_builder-0.3.0a3.dist-info/METADATA,sha256=q5DnMVnXI2OWUx4LLI-v5CE0-THeWUpfS3jb914plO4,2361
+memepack_builder-0.3.0a3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+memepack_builder-0.3.0a3.dist-info/top_level.txt,sha256=uEdLe8vpES2FbXVw-INOHLCupAJW-cfzxGzvohA5jwU,17
+memepack_builder-0.3.0a3.dist-info/RECORD,,
