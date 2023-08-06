@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: Bstyle
+Version: 2021.8.31.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: maplelost
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Utilities
+Requires-Dist: qdarkstyle (==3.0.2)
+
+支持python3.6以上
+
+
