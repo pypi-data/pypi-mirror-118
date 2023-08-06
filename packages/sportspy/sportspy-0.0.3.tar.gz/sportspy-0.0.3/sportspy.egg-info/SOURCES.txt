@@ -1,0 +1,13 @@
+License.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+sportspy/__init__.py
+sportspy/anthropometry.py
+sportspy/load.py
+sportspy/somato.png
+sportspy.egg-info/PKG-INFO
+sportspy.egg-info/SOURCES.txt
+sportspy.egg-info/dependency_links.txt
+sportspy.egg-info/top_level.txt
