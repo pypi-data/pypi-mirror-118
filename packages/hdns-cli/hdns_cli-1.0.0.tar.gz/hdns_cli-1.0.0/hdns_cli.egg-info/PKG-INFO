@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: hdns-cli
+Version: 1.0.0
+Summary: Hetzner DNS CLI Tool
+Home-page: https://github.com/lanbugs/hdns_cli/
+Author: Maximilian Thoma
+Author-email: dev@lanbugs.de
+License: GNU General Public License v3.0
+Description: UNKNOWN
+Platform: UNKNOWN

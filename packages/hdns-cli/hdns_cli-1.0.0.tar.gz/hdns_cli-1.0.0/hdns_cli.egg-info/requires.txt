@@ -1,0 +1,5 @@
+fire
+loguru
+pyyaml
+requests
+tabulate

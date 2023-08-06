@@ -1,0 +1,3 @@
+[console_scripts]
+hdns = hdns_cli:main
+

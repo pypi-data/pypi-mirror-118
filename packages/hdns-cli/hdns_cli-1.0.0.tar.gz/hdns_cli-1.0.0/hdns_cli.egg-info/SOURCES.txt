@@ -1,0 +1,10 @@
+README.md
+hdns_cli.py
+setup.cfg
+setup.py
+hdns_cli.egg-info/PKG-INFO
+hdns_cli.egg-info/SOURCES.txt
+hdns_cli.egg-info/dependency_links.txt
+hdns_cli.egg-info/entry_points.txt
+hdns_cli.egg-info/requires.txt
+hdns_cli.egg-info/top_level.txt
