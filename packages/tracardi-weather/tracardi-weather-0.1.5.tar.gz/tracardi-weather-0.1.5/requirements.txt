@@ -1,0 +1,4 @@
+tracardi_plugin_sdk
+pydantic
+python_weather
+tracardi_dot_notation
