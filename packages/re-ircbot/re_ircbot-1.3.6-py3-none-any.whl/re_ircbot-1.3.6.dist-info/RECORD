@@ -1,0 +1,10 @@
+IrcBot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+IrcBot/bot.py,sha256=zF6cGnvWeYp8mvmhACqev2NJ1Xhy6S05XsuunaeouMA,33390
+IrcBot/shortestPrefix.py,sha256=-rKVJ-iWPhK8mn2BXpdoVJY5HYrrHJpBuUKsAYKYDts,1902
+IrcBot/sqlitedb.py,sha256=tVu6VZvcUOqt8kzjXrH23g_WDk6JcBFwrWyotwu5LZY,9762
+IrcBot/utils.py,sha256=qUlx1WUmdv1Svb0-KGPfynT0l65mf6dvgXUBJ1NABKA,10400
+re_ircbot-1.3.6.dist-info/LICENSE,sha256=Qm7ktbkXnmLz5oA-NukPbL6WlcTDcZv-g8T5sFxQRAQ,1072
+re_ircbot-1.3.6.dist-info/METADATA,sha256=vostxb4ljKp_KgWOO9Yqh-hiTYbtcrRTsMjyYGC-QYQ,9467
+re_ircbot-1.3.6.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+re_ircbot-1.3.6.dist-info/top_level.txt,sha256=JsLnJJGV85YOIkmCORqo736yOghOcwBhWqDcPl6L3kk,7
+re_ircbot-1.3.6.dist-info/RECORD,,
