@@ -1,0 +1,14 @@
+walax/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+walax/admin.py,sha256=wAH8QAyFdlA-21gW2K5Sgb3aPcShq9frf9hJYnE9vC8,104
+walax/apps.py,sha256=fcLb9omDPWH93eyLwTOMLYSwfMrPOGK3gRJw4HnTUNI,85
+walax/metadata.py,sha256=BBLzwD5kNcG-PL77BKUzNyAaoQ1COMxDD2Unm_lI48Q,6252
+walax/models.py,sha256=FZ3_Ev2HlOCtgCHVn1sSTdFb2X-5siITqwwJpg_Qe70,188
+walax/routers.py,sha256=woz5ox3DginrPkKSJxC45bfA0OvJnCwA562B-TC9Dic,1935
+walax/serializers.py,sha256=RHK4pZLeQreba4Oqw9rmEsjTRbGgRS4xRb5BrIMhO-g,424
+walax/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+walax/views.py,sha256=rmA4JyqMUFv6OzdcyCKUEiiR5IK0491lBVsOL81LIug,2508
+django_walax-0.1.4.dist-info/LICENSE,sha256=k79sPZRNlCPCPSTw9mm7DQ2ILpRuJgYqXslQFM1gfZo,1087
+django_walax-0.1.4.dist-info/METADATA,sha256=jAGVqGDExKY5Elq2ddKjS1U2VIGHrQFkwtAoy06xTm4,547
+django_walax-0.1.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+django_walax-0.1.4.dist-info/top_level.txt,sha256=Wn2PqBsn9n5M3mIQ17PRZNebWAJbq3lArm6nwVNVp-c,6
+django_walax-0.1.4.dist-info/RECORD,,
