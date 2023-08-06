@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: goflow
+Version: 0.0.1
+Summary: Collecton of tools for computation of flows and and fluxes on Kirchhoff circuits and their corresponding adaptation. 
+Home-page: https://github.com/felixk1990/go-with-the-flow
+Author: felixk1990
+Author-email: felixuwekramer@protonmail.com
+License: UNKNOWN
+Description: # goflow
+        This repository is all about simulating flow driven pruning in biological flow networks. 
+        
+        ##  Introduction
+        
+        ##  Installation
+        pip install goflow
+        
+        ##  Usage
+        ./notebook contains examples to play with in the form of jupyter notebooks
+        ##  Requirements
+        ``` pandas ```,``` networkx ```, ``` numpy ```, ``` scipy ```, ``` kirchhoff ```, ``` hailhydro ```
+        ##  Gallery
+        
+        ## Acknowledgement
+        ```goflow``` written by Felix Kramer
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
