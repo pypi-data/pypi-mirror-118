@@ -1,0 +1,8 @@
+aio/subprocess/__init__.py,sha256=E9ACbh47av_kFZ0d_TI2YcFIcs12BVrN5--kgP2uMUs,176
+aio/subprocess/async_subprocess.py,sha256=_IDn2mSFwhxNZSbbN4WaOoDZU8r3cVoN4-FMLNKa98w,3079
+aio/subprocess/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_aio.py,sha256=DXR75N_GatYUonNyPfwUujW7k6Zhlup--fLZR-9apYg,2692
+aio.subprocess-0.0.4.dist-info/METADATA,sha256=l7WEayLAs16G2VsG6WOWuhkAafTmv3pVxkZir8anBm4,1432
+aio.subprocess-0.0.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+aio.subprocess-0.0.4.dist-info/top_level.txt,sha256=PplNn_Vwim_RlT_3AK-RPcB5SNHaSNk_8pNDPo8I7Wg,10
+aio.subprocess-0.0.4.dist-info/RECORD,,
