@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: salt
+Version: 3001.8
+Summary: Portable, distributed, remote execution and configuration management system
+Home-page: http://saltstack.org
+Author: Thomas S Hatch
+Author-email: thatch45@gmail.com
+License: Apache Software License 2.0
+Platform: UNKNOWN
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+License-File: AUTHORS
+
+UNKNOWN
+
