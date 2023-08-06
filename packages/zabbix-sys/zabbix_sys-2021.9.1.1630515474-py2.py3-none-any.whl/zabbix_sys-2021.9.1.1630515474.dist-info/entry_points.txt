@@ -1,0 +1,3 @@
+[console_scripts]
+sys-cli = zabbix_sys.cli:cli
+

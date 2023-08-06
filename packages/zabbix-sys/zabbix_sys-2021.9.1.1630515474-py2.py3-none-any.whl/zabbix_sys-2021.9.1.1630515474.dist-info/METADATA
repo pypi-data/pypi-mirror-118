@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: zabbix-sys
+Version: 2021.9.1.1630515474
+Summary: Zabbix agent commands for lld / metrics
+Home-page: https://git.sys.im/oss/zabbix
+Author: Rakhinskiy Vyacheslav
+Author-email: adm@sys.im
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: System :: Monitoring
+Classifier: Topic :: System :: Networking :: Monitoring
+Classifier: Topic :: System :: Systems Administration
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: wheel (==0.37.0)
+Requires-Dist: certifi (==2021.5.30)
+Requires-Dist: chardet (==4.0.0)
+Requires-Dist: click (==8.0.1)
+Requires-Dist: distro (==1.6.0)
+Requires-Dist: dnspython (==2.1.0)
+Requires-Dist: idna (==2.10)
+Requires-Dist: mysql-connector-python (==8.0.26)
+Requires-Dist: protobuf (==3.14.0)
+Requires-Dist: psutil (==5.8.0)
+Requires-Dist: PyYAML (==5.4.1)
+Requires-Dist: python-json-logger (==2.0.1)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: pyrabbit2 (==1.0.7)
+Requires-Dist: requests (==2.26.0)
+Requires-Dist: redis (==3.5.3)
+Requires-Dist: hiredis (==2.0.0)
+Requires-Dist: elasticsearch (==7.14.0)
+Requires-Dist: urllib3 (==1.26.6)
+
+UNKNOWN
+
+
