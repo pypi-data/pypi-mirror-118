@@ -1,0 +1,6 @@
+datasette>=0.59a2
+
+[test]
+pytest
+pytest-asyncio
+black
