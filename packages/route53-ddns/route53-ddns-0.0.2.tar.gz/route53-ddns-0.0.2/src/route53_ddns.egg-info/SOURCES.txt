@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/route53_ddns/__init__.py
+src/route53_ddns/cli.py
+src/route53_ddns/ip_utilities.py
+src/route53_ddns/route53_interface.py
+src/route53_ddns.egg-info/PKG-INFO
+src/route53_ddns.egg-info/SOURCES.txt
+src/route53_ddns.egg-info/dependency_links.txt
+src/route53_ddns.egg-info/entry_points.txt
+src/route53_ddns.egg-info/requires.txt
+src/route53_ddns.egg-info/top_level.txt
+test/test_ip_utilities.py
