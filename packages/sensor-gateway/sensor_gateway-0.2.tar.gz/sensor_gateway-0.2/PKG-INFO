@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: sensor_gateway
+Version: 0.2
+Summary: sensor gateway for data collection
+Home-page: https://github.com/nbdy/sensor_gateway
+Author: Pascal Eberlein
+Author-email: pascal@eberlein.io
+License: UNKNOWN
+Keywords: sensor gateway data collection
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+
+# sensor gateway
+## features
+- [X] USB Serial reader and manager
+- [X] Inserting data to postgresql database
+## install
+```shell
+pip3 install sensor_gateway
+```
+or <br>
+```shell
+git clone https://github.com/nbdy/sensor_gateway
+cd sensor_gateway
+./setup.sh
+pip3 install .
+```
+
+
