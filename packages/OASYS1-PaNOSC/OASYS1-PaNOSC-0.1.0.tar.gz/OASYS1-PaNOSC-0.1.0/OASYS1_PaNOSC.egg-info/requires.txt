@@ -1,0 +1,5 @@
+setuptools
+openpmd-api
+jsonschema
+urllib3
+requests
