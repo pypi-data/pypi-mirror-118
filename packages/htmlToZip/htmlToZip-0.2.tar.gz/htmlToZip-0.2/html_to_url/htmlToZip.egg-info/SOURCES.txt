@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+html_to_url/htmlToZip.egg-info/PKG-INFO
+html_to_url/htmlToZip.egg-info/SOURCES.txt
+html_to_url/htmlToZip.egg-info/dependency_links.txt
+html_to_url/htmlToZip.egg-info/top_level.txt
