@@ -1,0 +1,3 @@
+[console_scripts]
+fdsdecompose = fdsdecompose.main:main
+
