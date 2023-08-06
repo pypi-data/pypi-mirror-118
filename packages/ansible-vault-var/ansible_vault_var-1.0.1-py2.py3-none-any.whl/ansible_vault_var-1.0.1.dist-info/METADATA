@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: ansible-vault-var
+Version: 1.0.1
+Summary: Get and set encrypted values in vars yaml file.
+Home-page: https://github.com/cbuschka/ansible-vault-var
+Author: Cornelius Buschka
+Author-email: cbuschka@gmail.com
+License: MIT License
+Platform: Posix; MacOS X
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: System :: Software Distribution
+Requires-Python: >= 3.6
+Description-Content-Type: text/markdown
+Requires-Dist: ansible (>=2.9.0)
+
+[![Build](https://img.shields.io/github/workflow/status/cbuschka/ansible-vault-var/build)](https://github.io/cbuschka/ansible-vault-var) [![PyPI](https://img.shields.io/pypi/v/ansible-vault-var)](https://pypi.org/project/ansible-vault-var/) [![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)](https://github.com/cbuschka/ansible-vault-var/blob/main/license.txt)
+
+# ansible-vault-var - Get and set encrypted values in vars yaml file.
+
+## Features
+
+* get encrypted value as plain text from ansible vars yaml file
+* set encrypted value from plain text in ansible vars yaml file
+
+## Prerequisites
+
+* GNU make
+* python >= 3.6
+* pipenv
+
+## Usage
+
+### Get variable
+
+```
+python3 -m ansible_vault_var --vault-password-file=vault_password.txt \
+	get_var --var-name=secret_ingredient --vars-file=secret_vars.yml
+```
+
+### Set variable
+
+```
+python3 -m ansible_vault_var --vault-password-file=vault_password.txt \
+	set_var --var-name=secret_ingredient --vars-file=secret_vars.yml --new-var-value=salt
+```
+
+Copyright (c) 2021 by [Cornelius Buschka](https://github.com/cbuschka).
+
+[MIT](https://github.com/cbuschka/ansible-vault-var/blob/v1.0.1/license.txt)
+
+
