@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+activation_code.py
+base32check1.py
+setup.cfg
+setup.py
+base32check1.egg-info/PKG-INFO
+base32check1.egg-info/SOURCES.txt
+base32check1.egg-info/dependency_links.txt
+base32check1.egg-info/top_level.txt
+base32check1.egg-info/zip-safe

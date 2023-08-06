@@ -1,0 +1,2 @@
+activation_code
+base32check1

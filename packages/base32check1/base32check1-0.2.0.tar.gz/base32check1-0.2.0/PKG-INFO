@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: base32check1
+Version: 0.2.0
+Summary: Implementation of the base32check1 algorithm.
+Home-page: https://github.com/bitmarck-service/base32check-python
+Author: BITMARCK Service GmbH
+Author-email: info@bitmarck.de
+License: Apache v2
+Project-URL: Homepage, https://base32check.org/
+Project-URL: Source, https://github.com/bitmarck-service/base32check-python
+Keywords: base32,RFC 4648
+Platform: unix
+Platform: linux
+Platform: osx
+Platform: cygwin
+Platform: win32
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+[![Release Notes](https://img.shields.io/github/release/bitmarck-service/base32check-python.svg)](https://github.com/bitmarck-service/base32check-python/releases/latest)
+[![Apache License 2.0](https://img.shields.io/github/license/bitmarck-service/base32check-python.svg)](https://www.apache.org/licenses/LICENSE-2.0)
+[![Test Workflow](https://github.com/bitmarck-service/base32check-python/workflows/test/badge.svg)](https://github.com/bitmarck-service/base32check-python/actions?query=workflow%3Atest)
+
+# base32check-python
+
+This project is a Python 3 implementation of the [Base32Check1](https://base32check.org/) algorithm.
+The minimum requirement is Python 3.6.
+There are no additional requirements/dependencies.
+
+## License
+
+This project is covered by the [Apache License, Version 2](LICENSE).
+
+## Release
+
+For an easy release process and upload to PyPI [zest.releaser]
+(https://github.com/zestsoftware/zest.releaser) can be used.
+
+First you have to configure your `~/.pypirc` with your credentials. ([doc]
+(https://zestreleaser.readthedocs.io/en/latest/uploading.html#pypi-configuration-file-pypirc))
+Then you can start the release process.
+
+
+````bash
+$ python3.9 -m venv venv
+$ venv/bin pip install zest.releaser[recommended]
+$ venv/bin/fullrelease
+
+```
+
+
