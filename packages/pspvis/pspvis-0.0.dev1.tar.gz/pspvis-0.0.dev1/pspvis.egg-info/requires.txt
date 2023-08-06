@@ -1,0 +1,7 @@
+matplotlib
+pandas
+psprint
+PyQt5
+pyyaml
+sklearn
+toml
