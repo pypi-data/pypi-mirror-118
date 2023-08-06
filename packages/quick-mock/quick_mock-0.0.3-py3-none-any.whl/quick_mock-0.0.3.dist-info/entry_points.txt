@@ -1,0 +1,3 @@
+[console_scripts]
+mock = quick_mock:main
+
