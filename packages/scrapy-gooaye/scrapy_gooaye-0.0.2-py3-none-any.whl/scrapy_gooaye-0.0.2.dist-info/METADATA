@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: scrapy-gooaye
+Version: 0.0.2
+Summary: Scrapy spider for Gooaye Website
+Home-page: https://github.com/Bluesss30/Gooaye
+Author: Blue
+Author-email: iamjasonlan@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: Scrapy (>=1)
+
+ # Gooayeproject
+ 
+ ## show gooayenews article weekly
+ <!-- ![gooayenews](line_notify_gooaye.JPG) -->
+ ```
+ 【news_notify】 2021/08/10 gooaye news weekly broadcast 
+  https://gooaye.com/0805-gooaye-news-%e9%81%8b%e9%88%94%e8%bb%8a/
+ 【news_notify】 2021/08/10 gooaye news weekly broadcast 
+  https://gooaye.com/0803-gooaye-news-%e9%81%8b%e9%88%94%e8%bb%8a/
+
+ ```
+
+ ## Data Sources
+ - https://gooaye.com/
+
+ ## Getting Started
+ 
+ ### Install Scrapy & Python 3.6.8
+ 
+ **Windows**
+ 
+ ### Run
+ ```sh
+ $ git clone https://github.com/Bluesss30/Gooaye.git
+ web: pipenv run scrapy crawl gooaye
+ $ pip install pipenv
+ pipenv install
+ pipenv run scrapy crawl gooaye
+ ```
+
+ ```bat
+    ./GooayeNews.bat
+ ```
+ 
+ ### Update Schedule
+ 
+ - Weekly @Tuesday 10:00am
+ - Duration: ~ 1 mins
+ 
+
+ 
+
+
