@@ -1,0 +1,11 @@
+README.md
+setup.py
+src/taurus/vdk/control_service_properties.py
+src/taurus/vdk/properties_plugin.py
+src/taurus/vdk/vdk_plugin_control_cli.py
+src/vdk_plugin_control_cli.egg-info/PKG-INFO
+src/vdk_plugin_control_cli.egg-info/SOURCES.txt
+src/vdk_plugin_control_cli.egg-info/dependency_links.txt
+src/vdk_plugin_control_cli.egg-info/entry_points.txt
+src/vdk_plugin_control_cli.egg-info/requires.txt
+src/vdk_plugin_control_cli.egg-info/top_level.txt
