@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.cfg
+src/mySimpleLogger/__init__.py
+src/mySimpleLogger/simpleLogger.py
+src/mySimpleLogger.egg-info/PKG-INFO
+src/mySimpleLogger.egg-info/SOURCES.txt
+src/mySimpleLogger.egg-info/dependency_links.txt
+src/mySimpleLogger.egg-info/top_level.txt
