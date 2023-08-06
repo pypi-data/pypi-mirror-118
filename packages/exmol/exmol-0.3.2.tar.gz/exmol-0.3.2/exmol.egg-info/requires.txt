@@ -1,0 +1,8 @@
+selfies
+numpy
+requests
+tqdm
+ratelimit
+rdkit-pypi
+matplotlib
+scikit-learn
