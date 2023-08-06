@@ -1,0 +1,43 @@
+# end2endML package
+
+The end2endML Python package implemented all the components, data preprocessing, data splitting, model selection, model fitting and model evaluation, required for defining pipelines to do do automate data analysis using some most commonly used machine learning algorithms. 
+
+### Installation
+
+Install end2endML package by running:
+
+```
+pip install end2endML
+```
+
+on the command line of either Linux system or the Anaconda Prompt on Windows system. If you don't have root privileges, some times you need to add --user after the above commands, then pip will install the packages in your home directory. which doesn't require root privileges.
+
+### User guide
+
+User guide is available at https://end2endml.readthedocs.io/en/latest/.
+
+### TODO
+
+- make the gitlab project private, retrive the read the docs. After Mengzhe gives a final decision, I will see if we can release it or not.
+- update docs: add where you can find it on the pypi, then you can install it pip install end2endML==0.9.0. 
+- update docs for prediction.
+- bug fix: in evaluating the selected models on test set, there should the possibilities to set the y_hat_prob to None.
+- update docs: basic tutorial on using conda to manage the virtual environment.
+- Think about how should we add the cite information for this project. Cite information on the Gitlab, or write out a preprint paper about the project.
+- Think about add a component about automatic reporting (e.g., a dashboard or a set of figures) with a very simple GUI, we may be able to publish it. It also has the potential to be used as an educational component, when we gave talks to medical students and potential collaborators. This also reminds me that we need to update the webpage of the github. 
+- ~~Implement feature extraction feature to the models.~~
+  - The feature extraction methods only implemented for linear models, svm and neural network. For Tree based methods, they are not implemented.
+  - The number of components are taken as a hyperparameter for model selection. 
+- ~~Implement the unite test suite to do automate testing for every update.~~
+- ~~Currently, if we specify a gradient boosting model for imbalanced classification both RUSBOOST and EASYENSYMBLE, which differs in how the undersampling is implemented, are selected and trained. Need to find a way to let the user to set it.~~
+- ~~If the trained model has already used 10 cores, specify the CV procedure to use another 10 cores, in general is Ok. However, it can be a problem for easyensemble models when the data set is large. Fix it by set the CV procedure n_jobs to be None in easyensembler model~~ 
+- ~~Add the fun to check if the preprocessed data is avaliable. If the data is avaliable, there is no need to preprocess the data anymore. Myabe this is not a good idea, as sometime we may use different parameters to control the behavior to do data preprocessing. And the time to re-preprocess time is not much.~~
+- ~~Bug. The data analysis pipline should has the ability to remove the inifnte values existed in X and y.~~
+- ~~When cat_threshold set to 2, which means we are not going to classify the subjects with numerical data type but with limited unique values, then the y will not be transformed to object data type, then the automate data analysis procedure will take it as a regression task.~~
+- ~~We should re-save the preprocessed data sets every time. Currently, if the function detect the preprocessed data has already saved, it will not save the preprocessed data anymore. This  can lead to serious issue when the data preprocessing parameters change. In addition, it doesn't take much time, we should save the preprocessed data.~~
+- ~~For binary classificatoin and regression problems, the saved feature importances should be one dimentional rather than two dimensional.~~
+- ~~--user, why~~ 
+- ~~Keep track of all the preprocessing steps, so we can apply the exat same preprocessing steps to the new data.~~
+- ~~Add Dan and Mengzhe to author list. Haven't got the agreement from Mengzhe and Dan. Thus, only include them into the credits.~~
+- ~~Print out time~~ 
+
