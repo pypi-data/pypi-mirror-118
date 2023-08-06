@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+stupidArtnet/StupidArtnet.py
+stupidArtnet/__init__.py
+stupidArtnet.egg-info/PKG-INFO
+stupidArtnet.egg-info/SOURCES.txt
+stupidArtnet.egg-info/dependency_links.txt
+stupidArtnet.egg-info/top_level.txt
