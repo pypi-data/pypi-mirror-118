@@ -1,0 +1,2 @@
+from jstopen.document.DocumentGetUriByIdRequest import DocumentGetUriByIdRequest
+from jstopen.document.DocumentGetUriForUploadRequest import DocumentGetUriForUploadRequest
