@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+basic_python_package_fb.egg-info/PKG-INFO
+basic_python_package_fb.egg-info/SOURCES.txt
+basic_python_package_fb.egg-info/dependency_links.txt
+basic_python_package_fb.egg-info/entry_points.txt
+basic_python_package_fb.egg-info/requires.txt
+basic_python_package_fb.egg-info/top_level.txt
+package/__init__.py
+package/__main__.py

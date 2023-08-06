@@ -1,0 +1,3 @@
+[console_scripts]
+basic-python-package-fb = package.__main__:main
+
