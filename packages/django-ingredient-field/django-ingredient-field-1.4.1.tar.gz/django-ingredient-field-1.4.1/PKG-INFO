@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: django-ingredient-field
+Version: 1.4.1
+Summary: A Django app providing ingredient handling.
+Home-page: https://www.example.com/
+Author: Maksymilian Mozolewski
+Author-email: mozolewskimaks@gmail.com
+License: MIT
+Description: =======================
+        django-ingredient-field
+        =======================
+        
+        Quick start
+        -----------
+        
+        1. Add "dj_ingredient_field" to your INSTALLED_APPS setting like this::
+        
+            INSTALLED_APPS = [
+                ...
+                'dj_ingredient_field',
+            ]
+        
+        2. To use lazy loaded widgets include this module in your urlpatterns::
+        
+            urlpatterns = [
+                path('cooking/', include('dj_ingredient_field.urls')),
+                ...
+            ]
+        
+        3. That's it!
+        
+        Usage
+        -----
+        
+        Simply add the fields you need to your model::
+        
+           from dj_ingredient_field import IngredientField, MeasurementUnitField
+        
+           class MyModel(models.Model):
+              ingredient = IngredientField()
+              unit = MeasurementUnitField()
+        
+        The fields map to Ingredient and MeasurementUnit classes::
+        
+           from dj_ingredient_field import IngredientName, Ingredient, MeasurementUnit, INGREDIENT_UNITS
+        
+           model.ingredient = Ingredient(IngredientName.I_ARUGULA)
+           model.unit = MeasurementUnit(**INGREDIENT_UNITS["Killogram"])
+        
+        All the available ingredients can be found in the ``IngredientName`` enum
+        
+        Ingredients and units can be customized, see 'Settings'
+        
+        Documentation 
+        -------------
+        https://django-ingredient-field.readthedocs.io/en/latest
+        
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.2
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst

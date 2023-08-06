@@ -1,0 +1,6 @@
+<select name="{{ widget.name }}"{% include "django/forms/widgets/attrs.html" %} 
+    data-value="{{ widget.value }}" 
+    data-checked-attribute="{{ widget.checked_attribute }}"
+    {% if widget.allow_multiple_selected %} data-allow-multiple-selected {% endif %}>
+
+</select>
