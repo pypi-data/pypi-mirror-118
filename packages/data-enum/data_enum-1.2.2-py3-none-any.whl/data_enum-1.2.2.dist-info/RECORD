@@ -1,0 +1,8 @@
+data_enum/__init__.py,sha256=vQb7CtgJLrj1numgtWiywOhEWq1hG-FlU8q05Zo9B7k,8910
+tests/__init__.py,sha256=NvV5TXsBGRoPc2BmvD4rVwhZNnoX1ddCnj5UgnpTfrc,169
+tests/test_data_enum.py,sha256=tPKw5lThC8eR2CskICTes7rcQ54pszJE46zcAgXNstQ,7171
+data_enum-1.2.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+data_enum-1.2.2.dist-info/METADATA,sha256=PQGoP9q1MiJLRlE-tnug-tmI5xU-BcxWd-VfwnPg4AQ,4621
+data_enum-1.2.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+data_enum-1.2.2.dist-info/top_level.txt,sha256=e9xLrnRiNuXALrsn4o8sMNgW2SbcyA5a9ZiOcnAHUPA,16
+data_enum-1.2.2.dist-info/RECORD,,
