@@ -1,0 +1,10 @@
+LICENSE
+pyproject.toml
+setup.py
+src/arxiv_auto_crawler/__init__.py
+src/arxiv_auto_crawler/daily_crawl.py
+src/arxiv_auto_crawler/download_file.py
+src/arxiv_auto_crawler.egg-info/PKG-INFO
+src/arxiv_auto_crawler.egg-info/SOURCES.txt
+src/arxiv_auto_crawler.egg-info/dependency_links.txt
+src/arxiv_auto_crawler.egg-info/top_level.txt
