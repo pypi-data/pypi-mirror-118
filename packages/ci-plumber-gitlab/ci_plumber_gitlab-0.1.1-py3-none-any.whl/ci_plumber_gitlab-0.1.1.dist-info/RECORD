@@ -1,0 +1,6 @@
+ci_plumber_gitlab/__init__.py,sha256=FSPaT9NQK6ezNIp0mqGTUDdnnAjpkmlyo7EpyA7w7jk,424
+ci_plumber_gitlab/auth.py,sha256=EWsxVzGU2-0UQQ3Ji1B26c6xVUlK2ssY0fxIyZbMbXQ,462
+ci_plumber_gitlab/init.py,sha256=yLB1k7934PxD5xwIZgEJsL44j9D3agAmDxqi61oiJG4,2679
+ci_plumber_gitlab-0.1.1.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+ci_plumber_gitlab-0.1.1.dist-info/METADATA,sha256=19IHRl-AJgtmJRgmQpcVxmzQGoCmxhSiLtliZIJlhhM,288
+ci_plumber_gitlab-0.1.1.dist-info/RECORD,,
