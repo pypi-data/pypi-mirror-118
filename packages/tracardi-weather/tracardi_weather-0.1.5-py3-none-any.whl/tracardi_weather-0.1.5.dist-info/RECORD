@@ -1,0 +1,10 @@
+tracardi_weather/plugin.py,sha256=VJ85C66U0NbD_N_nVT7ZDz6sCjyUYqvW8Ma2BWO6it8,2108
+tracardi_weather/service/weather_client.py,sha256=Q-tOSoClbQTFK9mztPnA4VrLTbuRbM_CUN1vU2bWOYI,537
+tracardi_weather/service/__pycache__/weather_client.cpython-38.pyc,sha256=9VUzS83S1H90Z-b5rJdcmnkrhu61zzTuL4GXIfRYI5o,965
+tracardi_weather/test/manual/test_client.py,sha256=OHujmdMsMIYr2gvQJJa3UrtFfuuv41qkhzvgbf550Ns,234
+tracardi_weather/test/manual/test_plugin.py,sha256=EwWGuErTHBxoetU6AlsnOqXgLNVNuvcMmQMqORSgzkg,672
+tracardi_weather-0.1.5.dist-info/LICENSE.md,sha256=l3ZUNaXLxnJvPaG7GYQk8VW6uUE0meUyDOrd7QXXu28,1072
+tracardi_weather-0.1.5.dist-info/METADATA,sha256=ZL9ZwdeiUQafSq9EyZtcZVfGs5tPFkl24EM3p1_NepE,1197
+tracardi_weather-0.1.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+tracardi_weather-0.1.5.dist-info/top_level.txt,sha256=pF2D8b3gQ9h54mz9FpcuwFJKqGV1EL7kiea68l8It0U,17
+tracardi_weather-0.1.5.dist-info/RECORD,,
