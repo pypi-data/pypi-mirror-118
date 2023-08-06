@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: weathergen
+Version: 0.1
+Summary: Weather generation.
+Home-page: https://github.com/tomachito/weathergen
+Author: Thomas Morris
+License: UNKNOWN
+Description: # Weathergen
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
