@@ -1,0 +1,60 @@
+# ice-moviepy [![License: MIT](https://img.shields.io/badge/License-MIT-gree.svg)](https://opensource.org/licenses/MIT)
+
+
+a package for extracting short subtitled clips from movies by subtitle.srt file.
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install ice-moviepy.
+
+```bash
+pip install ice-moviepy
+```
+
+## Usage
+given a movie with a srt file subtitle, cut some parts of subtitle.srt and paste them into another file, such as sub.srt and run the following: 
+
+```python
+import ice_moviepy
+
+subtitle2video("Video.mkv",'Sub.srt','logo.png')
+```
+or 
+
+```python
+subtitle2video("Video.mkv",'Sub.srt')
+```
+if you don't want to attach a watermark on it.
+
+## editing subtitle 
+you can colorize different parts of subtitle. for example you can use red{...}, blue{...}, yellow{...} and so on, to colorize your subtitle.
+
+Place an {end} at the end of the block you want to cut out as a separate clip.
+
+```
+173
+20
+00:01:33,980 --> 00:01:35,858
+If, I'm red{just} saying if.
+
+21
+00:01:35,940 --> 00:01:37,977
+The frequency blue{could} never
+be more green{than} five years.
+
+22
+00:01:38,100 --> 00:01:39,978
+Five is a little high. But
+if you could bend on that... {end}
+
+23
+00:01:40,140 --> 00:01:42,211
+Marty... Wait, wait, wait.
+And it's not just frequency.
+
+24
+00:01:42,620 --> 00:01:44,339
+Veteran teachers
+would have to be exempt
+```
+
