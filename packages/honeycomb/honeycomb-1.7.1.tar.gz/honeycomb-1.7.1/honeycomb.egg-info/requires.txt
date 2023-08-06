@@ -1,0 +1,11 @@
+pandas>=0.25.3
+pyhive[hive,presto]>=0.6.1
+rivet>=1.6
+pandavro>=1.6
+
+[bigquery]
+google-auth>=1.22
+pandas-gbq>=0.14
+
+[salesforce]
+simple-salesforce>=1.1.0
