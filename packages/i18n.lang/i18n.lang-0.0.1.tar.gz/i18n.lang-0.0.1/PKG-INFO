@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: i18n.lang
+Version: 0.0.1
+Summary: A module used for building and translating data to create application internationally
+Home-page: UNKNOWN
+Author: Zenqi
+License: MIT
+Project-URL: Source, https://github.com/znqi/i18n.lang
+Description: # i18n.lang
+        A module used for building and translating data to create application internationally
+        
+        Examples
+        ---
+        ```py
+        from i18n.lang import i18nLangBuilder
+        builder = i18nLangBuilder()
+        builder.generateLang(['spanish', 'french', 'chinese', 'japanese'])
+        ```
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Provides-Extra: translator
