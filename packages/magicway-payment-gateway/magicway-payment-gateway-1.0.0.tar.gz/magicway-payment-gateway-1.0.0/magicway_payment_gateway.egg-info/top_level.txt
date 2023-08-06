@@ -1,0 +1,1 @@
+magicway_payment_gateway

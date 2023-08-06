@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+magicway_payment_gateway/__init__.py
+magicway_payment_gateway/momagic_connector.py
+magicway_payment_gateway/status_code.py
+magicway_payment_gateway.egg-info/PKG-INFO
+magicway_payment_gateway.egg-info/SOURCES.txt
+magicway_payment_gateway.egg-info/dependency_links.txt
+magicway_payment_gateway.egg-info/requires.txt
+magicway_payment_gateway.egg-info/top_level.txt
