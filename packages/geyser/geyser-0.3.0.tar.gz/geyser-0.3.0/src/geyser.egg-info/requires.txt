@@ -1,0 +1,14 @@
+taskflow>=4.6.1
+greenlet
+ruamel.yaml>=0.17.16
+toml>=0.10.2
+
+[all]
+pyhocon>=0.3.58
+proctitle>=1.2.2
+
+[hocon]
+pyhocon>=0.3.58
+
+[proctitle]
+proctitle>=1.2.2
