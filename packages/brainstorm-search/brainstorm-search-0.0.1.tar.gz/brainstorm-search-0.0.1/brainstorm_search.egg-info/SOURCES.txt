@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+brainstorm_search/__init__.py
+brainstorm_search/helper.py
+brainstorm_search/main.py
+brainstorm_search.egg-info/PKG-INFO
+brainstorm_search.egg-info/SOURCES.txt
+brainstorm_search.egg-info/dependency_links.txt
+brainstorm_search.egg-info/entry_points.txt
+brainstorm_search.egg-info/requires.txt
+brainstorm_search.egg-info/top_level.txt

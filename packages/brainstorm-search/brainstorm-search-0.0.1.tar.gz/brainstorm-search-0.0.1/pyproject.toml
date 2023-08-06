@@ -1,0 +1,8 @@
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel",
+    "beautifulsoup4",
+    "duckduckgo_search"
+]
+build-backend = "setuptools.build_meta"
