@@ -1,0 +1,3 @@
+[console_scripts]
+dpcmaps = dpcmaps.dpc_gui:run_dpc_gui
+
