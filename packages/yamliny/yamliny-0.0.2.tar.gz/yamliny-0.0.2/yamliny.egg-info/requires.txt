@@ -1,0 +1,4 @@
+
+[TEST]
+pytest>=4.0.0
+pyyaml
