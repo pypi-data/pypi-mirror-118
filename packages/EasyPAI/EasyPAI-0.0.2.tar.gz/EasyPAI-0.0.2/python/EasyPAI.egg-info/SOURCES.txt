@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+python/EasyPAI.egg-info/PKG-INFO
+python/EasyPAI.egg-info/SOURCES.txt
+python/EasyPAI.egg-info/dependency_links.txt
+python/EasyPAI.egg-info/top_level.txt
+python/easypai/__init__.py
+python/easypai/torch/__init__.py
+python/easypai/torch/launch.py
