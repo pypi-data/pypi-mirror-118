@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: zids
+Version: 0.0.1
+Summary: Create interactive documentation documents
+Home-page: https://github.com/zgulde/zids
+Author: Zach Gulde
+Author-email: zachgulde@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: jinja2 (>=3)
+Requires-Dist: markdown (>=3)
+Requires-Dist: markdown-full-yaml-metadata (>=2)
+
+# zids
+
+Zach's Interactive Documentation System
+
+For creating interactive pieces of documentation.
+
+```
+zids -i example.md -o example.html
+```
+
+
