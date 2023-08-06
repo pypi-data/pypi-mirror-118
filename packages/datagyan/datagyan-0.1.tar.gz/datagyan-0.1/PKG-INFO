@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: datagyan
+Version: 0.1
+Summary: This library would help data mining in few lines of code
+Home-page: https://github.com/dinesh13n/datagyan
+Author: Dinesh Naik
+Author-email: dinesh13n@gmail.com
+License: MIT
+Download-URL: https://github.com/dinesh13n/datagyan/archive/refs/tags/v_01.tar.gz
+Description: UNKNOWN
+Keywords: DATAMINING,DATAVISUALIZATION,EDA,DATAPREPROCESSING
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
