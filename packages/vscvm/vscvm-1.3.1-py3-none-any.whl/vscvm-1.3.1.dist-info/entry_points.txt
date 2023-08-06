@@ -1,0 +1,4 @@
+[console_scripts]
+vsc = vscvm:cli
+vscvm_check_update = vscvm:check_update
+
