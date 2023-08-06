@@ -1,0 +1,28 @@
+\begin{abstract}
+
+Pylightnix is a minimalistic Python library for managing filesystem-based
+immutable data objects, inspired by
+\href{https://edolstra.github.io/pubs/phd-thesis.pdf}{Purely Functional
+Software Deployment Model thesis by Eelco Dolstra} and the
+\href{https://nixos.org}{Nix} package manager.
+
+The library may be thought as of low-level API for creating caching wrappers
+for a subset of Python functions. In particular, Pylightnix allows user to
+
+\begin{itemize}
+  \item Prepare (or, in our terms, \textbf{instantiate}) the computation plan
+    aimed at creating a tree of linked immutable stage objects, stored
+    in the filesystem.
+  \item Implement (\textbf{realize1}) the prepared computation plan, access the
+    resulting artifacts. Pylightnix is able to handle \textbf{non-deterministic}
+    results of the computation. As one example, it is possible to define a stage
+    depending on best top-10 instances (in a user-defined sense) of prerequisite
+    stages.
+  \item Handle changes in the computation plan, re-use the existing artifacts
+    whenever possible.
+  \item Gain full control over all aspects of the cached data including the
+    garbage-collection.
+\end{itemize}
+
+\end{abstract}
+

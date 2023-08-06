@@ -1,0 +1,74 @@
+\section{Install}
+
+\subsection{Install with Pip}
+
+\begin{shellcode}
+$ pip3 install pylightnix
+\end{shellcode}
+
+Note that Pylightnix is currenlty under development. PyPi database may contain
+an outdated version.
+
+\subsection{Build from source}
+
+\begin{enumerate}
+  \item Clone the repo
+
+    \begin{shellcode}
+    $ git clone https://github.com/stagedml/pylightnix
+    $ cd pylightnix
+    \end{shellcode}
+
+    As a suggestion, consider making Pylightnix a part of a larger project.
+    In Git VCS, one would typically use \texttt{git submodule add} to link
+    Pylightnix to a project as a submodule.
+
+  \item Either:
+    \begin{itemize}
+
+      \item Set the \texttt{PYTHONPATH} environment variable to import
+        Pylightnix in-place. Currently we recommend to prefer this way of
+        importing the library.
+
+        \begin{shellcode}
+        $ export PYTHONPATH="`pwd`/src:$PYTHONPATH"
+        \end{shellcode}
+
+        MyPy type checker may also requre a setting of \texttt{MYPYPATH}
+        environment variable: \texttt{export MYPYPATH=`pwd`/src:`pwd`/tests}
+
+      \item Build and install the wheel package.
+        \begin{shellcode}
+        $ make wheel
+        $ sudo -H make install
+        \end{shellcode}
+
+    \end{itemize}
+  % \item (Optional) Run the tests.
+  % \item (Optional) Make docs
+  % \item (Optional) Build the demos
+\end{enumerate}
+
+See the Development section of the Manual for a detailed guidance on operating a
+development environment.
+
+\subsection{Install the recommended system packages}
+
+Pylightnix utilities rely on Curl and ATool system packages. Installing them
+is highly advised.
+
+\begin{shellcode}
+$ apt-get install -y curl atool      # Use your system's package manager here!
+...
+$ curl --version | head -n1
+curl 7.70.0
+$ aunpack --version | head -n1
+atool 0.39.0
+\end{shellcode}
+
+\subsection{Make sure GCC and GNU Autotools are available}
+
+Some demonstration code from this manual also uses GCC and GNU Autotools. Make
+sure they are installed.
+
+
