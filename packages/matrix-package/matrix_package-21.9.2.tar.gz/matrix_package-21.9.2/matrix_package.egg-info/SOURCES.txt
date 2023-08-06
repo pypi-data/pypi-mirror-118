@@ -1,0 +1,15 @@
+LICENCE
+README.md
+README.txt
+pyproject.toml
+setup.py
+matrix_package/__init__.py
+matrix_package/control.py
+matrix_package/params.py
+matrix_package/scale.py
+matrix_package.egg-info/PKG-INFO
+matrix_package.egg-info/SOURCES.txt
+matrix_package.egg-info/dependency_links.txt
+matrix_package.egg-info/not-zip-safe
+matrix_package.egg-info/requires.txt
+matrix_package.egg-info/top_level.txt
