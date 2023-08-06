@@ -1,0 +1,14 @@
+README.md
+setup.py
+vec2vec/__init__.py
+vec2vec/main.py
+vec2vec/matrix2vec.py
+vec2vec/train_Image_SpectralClustering.py
+vec2vec/train_MNIST_TestingMatrix2vec.py
+vec2vec/train_MNIST_linux.py
+vec2vec.egg-info/PKG-INFO
+vec2vec.egg-info/SOURCES.txt
+vec2vec.egg-info/dependency_links.txt
+vec2vec.egg-info/top_level.txt
+vec2vec/node2vec_master/__init__.py
+vec2vec/node2vec_master/node2vec.py
