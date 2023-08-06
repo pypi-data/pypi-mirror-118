@@ -1,0 +1,66 @@
+﻿'''_3888.py
+
+ClutchHalfCompoundPowerFlow
+'''
+
+
+from typing import List
+
+from mastapy.system_model.part_model.couplings import _2286
+from mastapy._internal import constructor, conversion
+from mastapy.system_model.analyses_and_results.power_flows import _3754
+from mastapy.system_model.analyses_and_results.power_flows.compound import _3904
+from mastapy._internal.python_net import python_net_import
+
+_CLUTCH_HALF_COMPOUND_POWER_FLOW = python_net_import('SMT.MastaAPI.SystemModel.AnalysesAndResults.PowerFlows.Compound', 'ClutchHalfCompoundPowerFlow')
+
+
+__docformat__ = 'restructuredtext en'
+__all__ = ('ClutchHalfCompoundPowerFlow',)
+
+
+class ClutchHalfCompoundPowerFlow(_3904.CouplingHalfCompoundPowerFlow):
+    '''ClutchHalfCompoundPowerFlow
+
+    This is a mastapy class.
+    '''
+
+    TYPE = _CLUTCH_HALF_COMPOUND_POWER_FLOW
+
+    __hash__ = None
+
+    def __init__(self, instance_to_wrap: 'ClutchHalfCompoundPowerFlow.TYPE'):
+        super().__init__(instance_to_wrap)
+        self._freeze()
+
+    @property
+    def component_design(self) -> '_2286.ClutchHalf':
+        '''ClutchHalf: 'ComponentDesign' is the original name of this property.
+
+        Note:
+            This property is readonly.
+        '''
+
+        return constructor.new(_2286.ClutchHalf)(self.wrapped.ComponentDesign) if self.wrapped.ComponentDesign else None
+
+    @property
+    def component_analysis_cases_ready(self) -> 'List[_3754.ClutchHalfPowerFlow]':
+        '''List[ClutchHalfPowerFlow]: 'ComponentAnalysisCasesReady' is the original name of this property.
+
+        Note:
+            This property is readonly.
+        '''
+
+        value = conversion.pn_to_mp_objects_in_list(self.wrapped.ComponentAnalysisCasesReady, constructor.new(_3754.ClutchHalfPowerFlow))
+        return value
+
+    @property
+    def component_analysis_cases(self) -> 'List[_3754.ClutchHalfPowerFlow]':
+        '''List[ClutchHalfPowerFlow]: 'ComponentAnalysisCases' is the original name of this property.
+
+        Note:
+            This property is readonly.
+        '''
+
+        value = conversion.pn_to_mp_objects_in_list(self.wrapped.ComponentAnalysisCases, constructor.new(_3754.ClutchHalfPowerFlow))
+        return value
