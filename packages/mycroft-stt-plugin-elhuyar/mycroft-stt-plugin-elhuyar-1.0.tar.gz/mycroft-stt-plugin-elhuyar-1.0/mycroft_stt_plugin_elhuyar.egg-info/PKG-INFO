@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: mycroft-stt-plugin-elhuyar
+Version: 1.0
+Summary: STT plugin for Mycroft that uses Elhuyar's STT service (Basque)
+Home-page: https://github.com/Mycroft-eus/mycroft-stt-plugin-elhuyar
+Author: Igor Leturia
+Author-email: i.leturia@elhuyar.eus
+License: Apache-2.0
+Keywords: mycroft plugin stt
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Text Processing :: Linguistic
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.0
+Classifier: Programming Language :: Python :: 3.1
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+License-File: LICENSE.txt
+
+mycroft-stt-plugin-elhuyar
+==========================
+
+This STT service for Mycroft requires credentials for accessing Elhuyar STT API. The access to the API is free for developers.
+
+Configuration parameters (only the credentials are mandatory, others are defaulted as in the following) ::
+
+    "stt": {
+        "module": "elhuyar_stt",
+        "elhuyar_stt": {
+            "api_id": "insert_your_api_id_here",
+            "api_key": "insert_your_api_key_here"
+        }
+    }
+
+Installation
+------------
+
+::
+
+    mycroft-pip install mycroft-stt-plugin-elhuyar
+
+License
+-------
+
+Apache-2.0
+
+
