@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+com-petrabytes-unit-converter/__init__.py
+com_petrabytes_unit_system.egg-info/PKG-INFO
+com_petrabytes_unit_system.egg-info/SOURCES.txt
+com_petrabytes_unit_system.egg-info/dependency_links.txt
+com_petrabytes_unit_system.egg-info/requires.txt
+com_petrabytes_unit_system.egg-info/top_level.txt
