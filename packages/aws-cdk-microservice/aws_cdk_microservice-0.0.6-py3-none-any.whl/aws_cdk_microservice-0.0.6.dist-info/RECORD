@@ -1,0 +1,9 @@
+aws_cdk_microservice/__init__.py,sha256=DqhT0CdS5DiGFMp_vDmq_7HCXis2FQtAR1PD-H3yoq0,70763
+aws_cdk_microservice/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk_microservice/_jsii/__init__.py,sha256=H4fAA7L1-iZog-M10pivYK8Po8BxramatdD8Vjm_NMs,581
+aws_cdk_microservice/_jsii/aws-cdk-microservice@0.0.6.jsii.tgz,sha256=Q7Z72VB09nYtrIHxTkxCNdyxtAtdeVYRF0FrapApUzs,432519
+aws_cdk_microservice-0.0.6.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+aws_cdk_microservice-0.0.6.dist-info/METADATA,sha256=SE5sIP5QjPpZ7GhFa3ZcR5HXT37bsgYrGb478wjAE58,10351
+aws_cdk_microservice-0.0.6.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+aws_cdk_microservice-0.0.6.dist-info/top_level.txt,sha256=9hytfo60BBhcVjDtsIHZYczA63qqHs6u9XQv0GAEyYg,21
+aws_cdk_microservice-0.0.6.dist-info/RECORD,,
