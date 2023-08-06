@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: simpleaicv
+Version: 0.0.1
+Summary: simpleaicv
+Home-page: UNKNOWN
+Author: Aum
+Author-email: aumdev01@gmail.com
+License: UNKNOWN
+Keywords: speech recognition,image identification,image clicker,speaking jarvis,jarvis
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: pyautogui
+Requires-Dist: SpeechRecognition
+Requires-Dist: pyttsx3
+
+A package which is used for image identification and the speak and take the commands
+
+
