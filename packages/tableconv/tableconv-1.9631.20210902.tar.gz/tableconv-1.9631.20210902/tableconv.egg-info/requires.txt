@@ -1,0 +1,15 @@
+pandas
+xlwt
+xlrd
+duckdb
+tabulate
+PyYAML
+python-dateutil
+genson
+sqlalchemy
+boto3
+fsspec
+google-api-python-client
+httplib2
+oauth2client
+sumologic
