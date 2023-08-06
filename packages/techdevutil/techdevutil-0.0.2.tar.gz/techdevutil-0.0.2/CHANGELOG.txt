@@ -1,0 +1,10 @@
+Change Log
+==========
+
+0.0.2 (8/30/201)
+----------------
+- Added palindrome Function
+
+0.0.1 (8/29/2021)
+-----------------
+- First Release
