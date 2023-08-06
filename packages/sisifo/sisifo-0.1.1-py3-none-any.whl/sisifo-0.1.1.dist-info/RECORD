@@ -1,0 +1,17 @@
+sisifo/__init__.py,sha256=ujfjDwWMbt0zO9Ox9-QwsXJ8mKUGlBlehpSutaF9fdw,1348
+sisifo/_version.py,sha256=rnObPjuBcEStqSO0S6gsdS_ot8ITOQjVj_-P1LUUYpg,22
+sisifo/abstract_task.py,sha256=q8xz3Yv7V146RuVBWVNADouhdfzQJG1mYjuF0VLX0fI,846
+sisifo/concrete_tasks.py,sha256=R-XA4cj3OFvPSk2rq3bB4kyaLKTHXQEulr74V-pd2AE,3344
+sisifo/data_collection.py,sha256=ldZJoxvJLrm0MXPnHYXdAEpXZWwkVGpo1HFYimUrdpw,337
+sisifo/named_collection.py,sha256=MdIjWm42-7R0EieXUgkvkuzZYL3C3gse8H8EFZ_Hrek,3751
+sisifo/plugins.py,sha256=1YngHb8XiHybHntOQ4-BNtlGhfBCGAPdUl-OS4VOiXs,1229
+sisifo/task_factory.py,sha256=SDQalrwAecrMz1hIc8m4QmdQNRoQMmU7Jwn-bOC8G00,1139
+sisifo/task_registry.py,sha256=fCrlI772BNueVPkUFOW3bko_7Rb48T6D_7IB0i5awxo,2391
+sisifo/utils.py,sha256=-emcaXTqQHxa_8cSbLYdBe3BkOddV0VO9Uv4_EJQuak,548
+sisifo_common/__init__.py,sha256=kcfMsOmVE6U6XzVCv41gFeU5QVPunGGRFP8LYzSud84,137
+sisifo_common/parallel_pipeline.py,sha256=-PvWGXlCes5XrYwbDrnZhOTl7j5Nb1w2n44mfJ8bick,509
+sisifo_common/pipeline.py,sha256=0yELiePi4uDvEA-lVj7ojvQvGu3OcoIly2f4wkSIgSE,305
+sisifo_common/run_script.py,sha256=Ah1Z1gf-_n4JbYyuOfoR5cJfv9RJ9nOxwzTDGe7D3NE,565
+sisifo-0.1.1.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+sisifo-0.1.1.dist-info/METADATA,sha256=S4O3WSA5SJmuFz71BWrsAsFUzg2q0JRS5fH_nrw73eg,5828
+sisifo-0.1.1.dist-info/RECORD,,
