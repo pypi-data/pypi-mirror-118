@@ -1,0 +1,11 @@
+birdisle/redis.py,sha256=Xi2oBssRvcN5zfBVFX-dDrijFg4O-CvdaseYWBkEk5w,4869
+birdisle/aioredis.py,sha256=kKt4hFU7h7H4RleyBxZebWeAkhqvZ0OZs42UL-yE6Lg,4445
+birdisle/_version.py,sha256=geuTFhVC8X7-BZ1ZFl8nRycfu3mHDKQ6S8LCQ0PnMzw,92
+birdisle/__init__.py,sha256=L6TdY_yoAwKL5_tL30mTTaIqJ2EDI1QYm4YkrUCBzPo,3519
+birdisle/_birdisle.pypy37-pp73-x86_64-linux-gnu.so,sha256=rk6nLwzDKZ0li2OlL9vu3PNuO3IxtsI5Z3-3-JBHUdI,8592
+birdisle/.libs/libbirdisle.so.1,sha256=SjazgEoEfEeY4WZmCvucR6KpPnfl6CXK4quFEE7RVKM,4829416
+birdisle-0.2.1.dist-info/RECORD,,
+birdisle-0.2.1.dist-info/COPYING,sha256=jsLwLKDY_f_7TnjFAFtDRg-LZQeXUIvR87ac5wjSA-g,3122
+birdisle-0.2.1.dist-info/METADATA,sha256=d3ffE-Vn3i5FzXI4ugn44SmRjfj6NQaG9U0fP55L7gU,2276
+birdisle-0.2.1.dist-info/WHEEL,sha256=gf3hoWdWu5FXvrouuic-7iRI4J2iJYR3Bgg_jZXjNEw,162
+birdisle-0.2.1.dist-info/top_level.txt,sha256=igtHWojU38URV0Ztm8Bzt-4UG88p2mYrTePe-Bv-UUs,9
