@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+subscrypt/__init__.py
+subscrypt/client.py
+subscrypt.egg-info/PKG-INFO
+subscrypt.egg-info/SOURCES.txt
+subscrypt.egg-info/dependency_links.txt
+subscrypt.egg-info/requires.txt
+subscrypt.egg-info/top_level.txt
