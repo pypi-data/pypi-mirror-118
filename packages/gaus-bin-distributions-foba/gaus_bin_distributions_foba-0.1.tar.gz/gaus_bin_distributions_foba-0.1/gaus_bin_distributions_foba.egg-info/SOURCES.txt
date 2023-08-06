@@ -1,0 +1,10 @@
+setup.py
+gaus_bin_distributions_foba/Binomialdistribution.py
+gaus_bin_distributions_foba/Gaussiandistribution.py
+gaus_bin_distributions_foba/Generaldistribution.py
+gaus_bin_distributions_foba/__init__.py
+gaus_bin_distributions_foba.egg-info/PKG-INFO
+gaus_bin_distributions_foba.egg-info/SOURCES.txt
+gaus_bin_distributions_foba.egg-info/dependency_links.txt
+gaus_bin_distributions_foba.egg-info/not-zip-safe
+gaus_bin_distributions_foba.egg-info/top_level.txt
