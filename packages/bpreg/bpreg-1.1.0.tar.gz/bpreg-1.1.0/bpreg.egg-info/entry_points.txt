@@ -1,0 +1,3 @@
+[console_scripts]
+bpreg_predict = bpreg.scripts.bpreg_inference:main
+
