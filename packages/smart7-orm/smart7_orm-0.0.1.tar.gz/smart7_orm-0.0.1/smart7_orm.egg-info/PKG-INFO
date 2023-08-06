@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: smart7-orm
+Version: 0.0.1
+Summary: SQLAlchemy ORM Tools.
+Home-page: https://gitee.com/hubertshelley/smart7-orm
+Author: Hubert Shelley
+Author-email: hubertshelley@163.com
+License: Apache Software License
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# Smart7_ORM
+![avatar](smart7_orm/md_file/Perfect7.png)
+## test code
+model.py
+```python
+from smart7_orm import models
+
+
+class UserMixin(models.Model):
+    __abstract__ = True
+    name = models.StringField(50)
+    fullname = models.StringField(50)
+    nickname = models.StringField(50)
+
+    def __repr__(self):
+        return "<User(name='%s', fullname='%s', nickname='%s')>" % (
+            self.name, self.fullname, self.nickname)
+
+
+class User(UserMixin):
+    __tablename__ = 'users'
+```
+
+test.py
+```python
+from model import User
+from smart7_orm import setup
+
+user = User.objects.first()
+print(user, type(user))
+```
+# PS
+model文件全部引用后需要引入  
+`from smart7_orm import setup`
+
