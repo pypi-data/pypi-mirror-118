@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: pytest-patches
+Version: 0.0.3
+Summary: A contextmanager pytest fixture for handling multiple mock patches
+Home-page: https://github.com/envoyproxy/pytooling/tree/main/pytest-patches
+Author: Ryan Northey
+Author-email: ryan@synca.io
+Maintainer: Ryan Northey
+Maintainer-email: ryan@synca.io
+License: Apache Software License 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Pytest
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Testing
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.5
+Requires-Dist: pytest (>=3.5.0)
+Provides-Extra: lint
+Requires-Dist: flake8 ; extra == 'lint'
+Provides-Extra: publish
+Requires-Dist: wheel ; extra == 'publish'
+Provides-Extra: test
+Requires-Dist: pytest-coverage ; extra == 'test'
+Provides-Extra: types
+Requires-Dist: mypy ; extra == 'types'
+
+==============
+pytest-patches
+==============
+
+
+Installation
+------------
+
+You can install "pytest-patches" via ``pip``
+
+.. code-block:: console
+
+    $ pip install pytest-patches
+
+
+License
+-------
+
+Distributed under the terms of the Apache Software License 2.0 license, "pytest-patches" is free and open source software
+
+
