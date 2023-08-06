@@ -1,0 +1,14 @@
+LICENSE.txt
+README.rst
+setup.cfg
+setup.py
+kipy_dict_to_xml/__init__.py
+kipy_dict_to_xml/buffered_bytearray_pipe.py
+kipy_dict_to_xml/data_xml_pipe.py
+kipy_dict_to_xml/iterator_reader.py
+kipy_dict_to_xml/string_concat_pipe.py
+kipy_dict_to_xml/utility.py
+kipy_dict_to_xml.egg-info/PKG-INFO
+kipy_dict_to_xml.egg-info/SOURCES.txt
+kipy_dict_to_xml.egg-info/dependency_links.txt
+kipy_dict_to_xml.egg-info/top_level.txt

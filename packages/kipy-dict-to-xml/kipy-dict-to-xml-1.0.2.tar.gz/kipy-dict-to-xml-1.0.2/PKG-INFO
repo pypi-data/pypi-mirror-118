@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: kipy-dict-to-xml
+Version: 1.0.2
+Summary: Transforms python data into stream of XML
+Home-page: https://github.com/peracto/kipy-dict-to-xml
+Author: Gary Ranson
+Author-email: 
+License: MIT License
+Keywords: xml,dicttoxml
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7
+License-File: LICENSE.txt
+
+UNKNOWN
+
