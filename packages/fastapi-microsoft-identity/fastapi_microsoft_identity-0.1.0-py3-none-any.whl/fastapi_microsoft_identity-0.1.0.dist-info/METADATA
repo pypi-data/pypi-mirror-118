@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: fastapi-microsoft-identity
+Version: 0.1.0
+Summary: Azure AD authentication for Fast API
+Home-page: https://github.com/425Show/fastapi_microsoft_identity
+Author: Christos Matskas
+Author-email: christos.matskas@microsoft.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+Requires-Dist: fastapi
+Requires-Dist: httpx
+Requires-Dist: requests
+Requires-Dist: python-jose
+
+fastapi_microsoft_identity
+==========================
+
+.. image:: https://img.shields.io/pypi/v/fastapi_microsoft_identity.svg
+    :target: https://pypi.python.org/pypi/fastapi_microsoft_identity
+    :alt: Latest PyPI version
+
+Azure AD authentication for Fast API
+
+Usage
+-----
+
+Installation
+------------
+
+Requirements
+^^^^^^^^^^^^
+
+Compatibility
+-------------
+
+Licence
+-------
+
+Authors
+-------
+
+`fastapi_microsoft_identity` was written by `Christos Matskas <christos.matskas@microsoft.com>`_.
+
+
