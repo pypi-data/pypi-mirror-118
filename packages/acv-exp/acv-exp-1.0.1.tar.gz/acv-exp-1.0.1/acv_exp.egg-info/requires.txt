@@ -1,0 +1,16 @@
+numpy
+scipy
+scikit-learn
+matplotlib
+pandas
+tqdm
+ipython
+seaborn
+
+[test]
+xgboost
+lightgbm
+catboost
+pyspark
+shap
+rpy2==2.9.4
