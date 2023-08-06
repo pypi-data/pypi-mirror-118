@@ -1,0 +1,12 @@
+jasmine_zinc/Avatar.py,sha256=OGHGGuTM-STGrbZeo7XSfaOp3ecZL3o8xomK-CeVL0A,332
+jasmine_zinc/Talk.py,sha256=xadUYW0FuTvwk7Y92TkyLib776gghbXJrVhJ5Rji2m4,1657
+jasmine_zinc/__init__.py,sha256=f0m7r05BNu5AX45ErwyPnfBZ69v4JMdkDqeFmVJ9F5E,487
+jasmine_zinc/add_talk_arguments.py,sha256=aYSGllbkf2hMy5tmmcsvejBbBtTSYzBWHka0DPZz5Ho,1116
+jasmine_zinc/get_avatars.py,sha256=gP6NtfGdYKWzgAmKhWXXjQefL2n_9Yu0fgZOtyeAboI,443
+jasmine_zinc/record_talk.py,sha256=qpSsOQeOSZlSju4_YeKN827OiB0lSLeAYxvj0I8_XxU,745
+jasmine_zinc/talk_on_server.py,sha256=t1IMok7Y4yGIhyN4xbOmpKoIu-ua9Zq_rGyTJGevSUw,649
+jasmine_zinc-20210903.7.dist-info/LICENSE,sha256=MXyx83SSl48SedPI7ItVIjAAaXyujPDc2-93vpLPovM,1064
+jasmine_zinc-20210903.7.dist-info/METADATA,sha256=_1O9UVXxfFltShRb3Z9Bj05_kVQraIMx4qHICon7sy8,743
+jasmine_zinc-20210903.7.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+jasmine_zinc-20210903.7.dist-info/top_level.txt,sha256=vFhLOfhvNsNTIO6cOSuGKmLfBqQnzAiK8k814iXPqfM,13
+jasmine_zinc-20210903.7.dist-info/RECORD,,
