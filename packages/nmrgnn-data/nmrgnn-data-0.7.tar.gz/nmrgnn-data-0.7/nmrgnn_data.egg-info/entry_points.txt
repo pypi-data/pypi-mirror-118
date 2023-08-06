@@ -1,0 +1,5 @@
+
+        [console_scripts]
+        nmrparse=nmrdata.parse.main:nmrparse
+        nmrdata=nmrdata.main:nmrdata
+            
