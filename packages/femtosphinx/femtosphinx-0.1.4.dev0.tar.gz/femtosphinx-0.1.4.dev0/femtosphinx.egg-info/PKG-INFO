@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: femtosphinx
+Version: 0.1.4.dev0
+Summary: template project/walkthrough
+Home-page: https://github.com/femtosense/femtosphinx
+Author: Femtosense
+Author-email: info@femtosense.ai
+License: UNKNOWN
+Project-URL: Source, https://github.com/femtosense/femtosphinx
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# femtosphinx
+A repository providing some documentation for how to use sphinx.
+
+Also provides the `execute_code` sphinx extension, which can be enabled with: (in `docs/conf.py`)
+
+```python
+extensions = [
+  ...
+  'femtosphinx.execute_code',
+  ...
+]
+```
+
+And then used with the `.. exec::` and `.. exec_as_bullets::` directives.
+
+# Getting started
+
+Install sphinx
+```
+pip install sphinx
+```
+
+Read this [getting started guide](https://www.sphinx-doc.org/en/master/usage/quickstart.html).
+
+Take a look at our [intro guide](https://github.com/femtosense/femtosphinx/blob/main/docs/api.rst).
+
+Start generating documentation!
+
+

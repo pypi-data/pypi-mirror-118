@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+NAME
+README.md
+buildspec.yml
+pyproject.toml
+setup.py
+femtosphinx/ENV_REQUIREMENTS.sh
+femtosphinx/PY_REQUIREMENTS
+femtosphinx/VERSION
+femtosphinx/__init__.py
+femtosphinx/execute_code.py
+femtosphinx/foo.py
+femtosphinx.egg-info/PKG-INFO
+femtosphinx.egg-info/SOURCES.txt
+femtosphinx.egg-info/dependency_links.txt
+femtosphinx.egg-info/top_level.txt
