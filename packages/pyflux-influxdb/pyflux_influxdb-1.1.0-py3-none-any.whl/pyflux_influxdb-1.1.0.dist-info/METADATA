@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pyflux-influxdb
+Version: 1.1.0
+Summary: influxdb pyflux
+Home-page: https://broadtech.com.cn
+Author: Lee
+Author-email: canyun@live.com
+License: GNU General Public License v3.0
+Platform: UNKNOWN
+Requires-Python: >=3.7
+
+UNKNOWN
+
+
