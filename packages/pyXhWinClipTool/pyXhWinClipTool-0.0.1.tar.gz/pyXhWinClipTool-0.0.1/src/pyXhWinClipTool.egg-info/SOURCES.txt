@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/pyXhWinClipTool.egg-info/PKG-INFO
+src/pyXhWinClipTool.egg-info/SOURCES.txt
+src/pyXhWinClipTool.egg-info/dependency_links.txt
+src/pyXhWinClipTool.egg-info/requires.txt
+src/pyXhWinClipTool.egg-info/top_level.txt
