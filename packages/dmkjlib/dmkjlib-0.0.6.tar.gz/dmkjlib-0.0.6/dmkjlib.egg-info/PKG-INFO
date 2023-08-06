@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: dmkjlib
+Version: 0.0.6
+Summary: 盗梦空间工作室官方库
+Home-page: https://github.com/
+Author: Junshuo Tan
+Author-email: 2379238696@qq.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
