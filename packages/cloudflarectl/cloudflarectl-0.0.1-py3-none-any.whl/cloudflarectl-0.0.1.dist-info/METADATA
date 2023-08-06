@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: cloudflarectl
+Version: 0.0.1
+Summary: Cloudflare interaction in a black box!
+License: MIT
+Keywords: CLI,Cloudflare,Terminal
+Author: Vivaan Verma
+Author-email: vivaan.verma@gmail.com
+Maintainer: Vivaan Verma
+Maintainer-email: vivaan.verma@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Terminals
+Requires-Dist: orjson (>=3.6,<4.0)
+Requires-Dist: pydantic (>=1.8,<2.0)
+Requires-Dist: requests (>=2.26,<3.0)
+Requires-Dist: typer[all] (>=0.4,<1.0)
+Description-Content-Type: text/markdown
+
+# Greetings from `cloudflarectl`!
+
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/doublevcodes/cloudflarectl/Lint?label=Lint&logo=github)
+![PyPI](https://img.shields.io/pypi/v/cloudflarectl?label=PyPI&logo=pypi&logoColor=white)
+
+`cloudflarectl` is a command line interface constructed especially for interacting with Cloudflare.
+It's interacting with Cloudflare within a black box; your terminal!
+
