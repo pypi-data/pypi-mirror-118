@@ -1,0 +1,6 @@
+README.md
+setup.py
+src/preJProcess.egg-info/PKG-INFO
+src/preJProcess.egg-info/SOURCES.txt
+src/preJProcess.egg-info/dependency_links.txt
+src/preJProcess.egg-info/top_level.txt
