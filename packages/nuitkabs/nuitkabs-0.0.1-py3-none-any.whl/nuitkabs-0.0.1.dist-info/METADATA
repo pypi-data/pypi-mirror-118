@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: nuitkabs
+Version: 0.0.1
+Summary: Nuitka build system
+Home-page: https://github.com/kai3341/nuitkabs
+Author: kai3341
+Author-email: noreplay@example.com
+License: GNU GPL v3
+Keywords: nuitka build
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: nuitka
+
+UNKNOWN
+
+
