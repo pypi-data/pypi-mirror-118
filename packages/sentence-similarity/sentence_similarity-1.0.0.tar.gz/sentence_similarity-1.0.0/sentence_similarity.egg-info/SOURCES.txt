@@ -1,0 +1,12 @@
+README.md
+setup.py
+sentence_similarity/__init__.py
+sentence_similarity/cls_token_embedding.py
+sentence_similarity/sentence_embedding.py
+sentence_similarity/sentence_similarity.py
+sentence_similarity/similarity_functions.py
+sentence_similarity.egg-info/PKG-INFO
+sentence_similarity.egg-info/SOURCES.txt
+sentence_similarity.egg-info/dependency_links.txt
+sentence_similarity.egg-info/requires.txt
+sentence_similarity.egg-info/top_level.txt
