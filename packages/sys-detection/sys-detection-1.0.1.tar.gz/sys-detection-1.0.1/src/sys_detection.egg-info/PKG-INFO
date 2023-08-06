@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: sys-detection
+Version: 1.0.1
+Summary: A library to detect the operating system, its version, architecture, etc.
+Home-page: https://github.com/yugabyte/sys-detection
+Author: Mikhail Bautin
+Author-email: mbautin@users.noreply.github.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Provides-Extra: dev
