@@ -1,0 +1,7 @@
+cfservice/__init__.py,sha256=tc_Fq-NccTV3fmtx_eXHKSmHEt-4lek6ugOGRUc9Khs,7506
+cfservice/errors.py,sha256=Ne_ncI35uNRCg8Zmw7kQ0lSA4rdg0ZQGd-L9NdkYvpg,263
+tools/__init__.py,sha256=oOaVnvUmOtjRUKBA2QftUZvHKTYIf76h_-De3F8RbA0,319
+cfshandler-0.0.5.dist-info/METADATA,sha256=lNT6ZEG88wy_liisq3M-xceidEKdK0D1mcyXtiBh4jI,946
+cfshandler-0.0.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+cfshandler-0.0.5.dist-info/top_level.txt,sha256=ZcHlYGJo211FTTPeyikR-jkNIOUkb4ohWoWMYqgjUSA,16
+cfshandler-0.0.5.dist-info/RECORD,,
