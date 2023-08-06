@@ -1,0 +1,11 @@
+requests<3.0
+pillow
+setuptools
+wheel
+PyQt5
+QtAwesome
+psutil
+pypresence
+
+[:platform_system == "Windows"]
+pywin32
