@@ -1,0 +1,13 @@
+README.md
+license.txt
+setup.cfg
+setup.py
+fjgu_probability/Binomialdistribution.py
+fjgu_probability/Gaussiandistribution.py
+fjgu_probability/Generaldistribution.py
+fjgu_probability/__init__.py
+fjgu_probability.egg-info/PKG-INFO
+fjgu_probability.egg-info/SOURCES.txt
+fjgu_probability.egg-info/dependency_links.txt
+fjgu_probability.egg-info/not-zip-safe
+fjgu_probability.egg-info/top_level.txt
