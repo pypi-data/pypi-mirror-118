@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: base-automation
+Version: 0.0.7
+Summary: base-automation
+Home-page: https://upload.pypi.org/legacy/
+Author: Automation Team
+Author-email: automation.team@rafael.co.il
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+base-automation-package
+
