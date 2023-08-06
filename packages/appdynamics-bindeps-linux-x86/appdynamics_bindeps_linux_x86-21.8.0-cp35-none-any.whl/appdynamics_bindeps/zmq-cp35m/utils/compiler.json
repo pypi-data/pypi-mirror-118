@@ -1,0 +1,19 @@
+{
+  "library_dirs": [],
+  "define_macros": [
+    [
+      "HAVE_SYS_UN_H",
+      1
+    ],
+    [
+      "ZMQ_STATIC",
+      "1"
+    ]
+  ],
+  "runtime_library_dirs": [],
+  "libraries": [],
+  "include_dirs": [
+    "bundled/zeromq/include",
+    "appdynamics_bindeps/zmq/utils"
+  ]
+}
