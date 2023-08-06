@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+py_to_ts_interfaces/__init__.py
+py_to_ts_interfaces/__main__.py
+py_to_ts_interfaces.egg-info/PKG-INFO
+py_to_ts_interfaces.egg-info/SOURCES.txt
+py_to_ts_interfaces.egg-info/dependency_links.txt
+py_to_ts_interfaces.egg-info/entry_points.txt
+py_to_ts_interfaces.egg-info/top_level.txt
