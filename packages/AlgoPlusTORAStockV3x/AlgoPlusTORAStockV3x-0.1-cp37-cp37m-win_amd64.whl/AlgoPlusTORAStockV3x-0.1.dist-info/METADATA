@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: AlgoPlusTORAStockV3x
+Version: 0.1
+Summary: NSight股票模拟交易API
+Home-page: http://algo.plus
+Author: www.algo.plus
+Author-email: algo@algo.com
+License: UNKNOWN
+Keywords: 股票 NSight 奇点
+Platform: Windows
+Platform: Linux
+Requires-Python: >=3.7
+
+NSight官网注册模拟交易账号http://n-sight.com.cn
+
+
