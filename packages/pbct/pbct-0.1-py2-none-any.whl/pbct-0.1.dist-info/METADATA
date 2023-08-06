@@ -1,0 +1,21 @@
+Metadata-Version: 2.0
+Name: pbct
+Version: 0.1
+Summary: Predictive Bi-Clustering Trees
+Home-page: http://github.com/pedroilidio/PCT
+Author: Pedro Ilidio
+Author-email: pedrilidio@gmail.com
+License: GPLv3
+Platform: UNKNOWN
+Provides-Extra: Tree visualization
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: numba
+Requires-Dist: tqdm
+Provides-Extra: Tree visualization
+Requires-Dist: graphviz; extra == 'Tree visualization'
+Requires-Dist: matplotlib; extra == 'Tree visualization'
+
+UNKNOWN
+
+
