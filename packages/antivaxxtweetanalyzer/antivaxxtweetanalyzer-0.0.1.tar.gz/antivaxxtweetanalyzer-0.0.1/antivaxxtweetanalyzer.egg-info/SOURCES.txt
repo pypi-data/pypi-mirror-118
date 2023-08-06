@@ -1,0 +1,16 @@
+.gitignore
+LICENSE
+README.md
+setup.py
+antivaxxtweetanalyzer.egg-info/PKG-INFO
+antivaxxtweetanalyzer.egg-info/SOURCES.txt
+antivaxxtweetanalyzer.egg-info/dependency_links.txt
+antivaxxtweetanalyzer.egg-info/top_level.txt
+src/.gitattributes
+src/AvaxModel.py
+src/Avax_NN.py
+src/DF_from_DICT.py
+src/Example.py
+src/__init__.py
+src/model_pytorch1.pt
+src/scaler1.joblib
