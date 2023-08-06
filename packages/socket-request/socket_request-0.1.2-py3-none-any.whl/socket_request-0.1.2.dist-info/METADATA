@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: socket-request
+Version: 0.1.2
+Summary: Control the goloop using unix domain socket
+Home-page: https://github.com
+Author: Jinwoo Jeong
+Author-email: jinwoo@iconloop.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+
+## Control goloop chain
+
+
