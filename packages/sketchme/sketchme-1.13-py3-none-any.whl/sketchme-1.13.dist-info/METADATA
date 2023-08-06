@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: sketchme
+Version: 1.13
+Summary: Converts a real world images into Pencil SKETCH
+Home-page: UNKNOWN
+Author: Bhavika Tambi
+Author-email: tambibhavika2000@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+
+# sketch
+A python library for converting Real images to pencil sketch
+
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)                 
+[![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)   
+
+## Usage
+
+- Make sure you have Python and Open-cv installed in your system.
+- Run Following command in the CMD.
+ ```
+  pip install sketchme==1.13
+  ```
+
+## Run the following Script.
+ ```
+ from sketchit import draw
+ Enter image Path : path_to_image
+
+ Result : sketch.png
+ ```
+

@@ -1,0 +1,3 @@
+[console_scripts]
+sketchit = sketchit.__main__:main
+
