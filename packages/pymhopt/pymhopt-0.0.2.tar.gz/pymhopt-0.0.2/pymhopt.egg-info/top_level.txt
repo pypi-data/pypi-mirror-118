@@ -1,0 +1,8 @@
+pyOP/Evolution/Evolution
+pyOP/Fitness/FitnessFunction
+pyOP/Nodes/BaseNode
+pyOP/Nodes/SymbolicRegressionNodes
+pyOP/SKLearnInterface
+pyOP/Selection/Selection
+pyOP/Variation/Variation
+pyOP/optimization
