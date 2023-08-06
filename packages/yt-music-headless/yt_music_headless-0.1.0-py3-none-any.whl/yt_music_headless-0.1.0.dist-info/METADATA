@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: yt-music-headless
+Version: 0.1.0
+Summary: A CLI to search & retrieve audio streams from YouTube Music.
+Home-page: https://github.com/alexmercerind/yt-music-headless
+Author: Hitesh Kumar Saini
+Author-email: saini123hitesh@gmail.com
+License: MIT
+Keywords: youtube youtube-music youtube-playback
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: fastapi
+Requires-Dist: uvicorn[standard]
+Requires-Dist: pytube
+Requires-Dist: mutagen
+Requires-Dist: aiofiles
+Requires-Dist: aiohttp
+Requires-Dist: Pillow
+
+A CLI to search & retrieve audio streams from YouTube Music.
+
+
