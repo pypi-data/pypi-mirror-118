@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+easemail/easemail.egg-info/PKG-INFO
+easemail/easemail.egg-info/SOURCES.txt
+easemail/easemail.egg-info/dependency_links.txt
+easemail/easemail.egg-info/not-zip-safe
+easemail/easemail.egg-info/requires.txt
+easemail/easemail.egg-info/top_level.txt
