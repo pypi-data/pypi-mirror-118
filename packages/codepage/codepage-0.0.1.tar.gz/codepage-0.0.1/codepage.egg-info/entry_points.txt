@@ -1,0 +1,3 @@
+[console_scripts]
+codepage = codepage.__main__:main
+
