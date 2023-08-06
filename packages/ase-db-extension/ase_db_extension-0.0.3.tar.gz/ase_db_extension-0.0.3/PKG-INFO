@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: ase_db_extension
+Version: 0.0.3
+Summary: database for ase.db.
+Home-page: https://github.com/boliqq07/perovskite
+Author: wangchangxin
+Author-email: 986798607@qq.com
+Maintainer: wangchangxin
+License: UNKNOWN
+Description: 
+        ase-db-extension
+        ----------------------
+        Extension for ase.db
+        
+        Quick Install
+        ----------------------
+        
+        ```bash
+        pip install ase_db_extension
+        ```
+        
+        License
+        ----------------------
+        BSD-3-Clause License
+        
+        Contact
+        ----------------------
+        Developer: boliqq07: 986798607@qq.com
+        
+        
+Keywords: database, structure
+Platform: Windows
+Platform: Unix
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: English
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
