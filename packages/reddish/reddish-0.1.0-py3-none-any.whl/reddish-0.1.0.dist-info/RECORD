@@ -1,0 +1,10 @@
+reddish/__init__.py,sha256=_yykht7qbg9hfsKeRimXZpnUuLzGROPcr1DC6k_mhOc,66
+reddish/_command.py,sha256=qOmpT9ga4pRYop-GoT64krPBpdEj7qkBB6hHFPdQhPc,2607
+reddish/_errors.py,sha256=mLqdLHZLaX8AyZ8VfktORUAQeNILQFZv4LCtaN2NOfM,48
+reddish/_models.py,sha256=NFWI7V75gV4hVqO7qjjxl5mPD4UkG4AEpySk45caeHs,683
+reddish/_parser.py,sha256=XNBoNnyoD2S81uRBOvfurg36xkvoC07sV6U8f1VKMEc,1694
+reddish/_redis.py,sha256=OrAoOqwyfriSQ4NoVyaxw_V_i-PArhVh3TAcgk0el9U,1914
+reddish/_utils.py,sha256=cAHJ45kmjDBe9nP_idXC3Il7XxwihbzK0aJVmu1SzE0,827
+reddish-0.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+reddish-0.1.0.dist-info/METADATA,sha256=_VC_fRC6gw7QdMhTPE7RagNEcDdSe9Trpts5VWJIIkc,479
+reddish-0.1.0.dist-info/RECORD,,
