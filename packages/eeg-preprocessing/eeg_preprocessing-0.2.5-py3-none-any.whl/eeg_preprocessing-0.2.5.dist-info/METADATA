@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: eeg-preprocessing
+Version: 0.2.5
+Summary: eeg-preprocessing is now meeg-tools
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 7 - Inactive
+Description-Content-Type: text/markdown
+Requires-Dist: meeg-tools
+
+# eeg-preprocessing is now meeg-tools
+
+This package has been renamed. Use `pip install meeg-tools` instead.
+
+New package: https://pypi.org/project/meeg-tools/
+
+
