@@ -1,0 +1,49 @@
+Metadata-Version: 1.1
+Name: petrabytesunitconverter
+Version: 0.0.2
+Summary: Can convert scientific units.
+Home-page: https://www.petrabytes.com/
+Author: Lalan Ranjan
+Author-email: lranjan@petrabytes.com
+License: Petrabytes Corp.
+Description: This python libraries to do all the unit conversion. It usses the Python PINT library and adds additional feature of unit conversion which is useful for OIL & GAS Logs calculation.
+        
+        
+        Change Log
+        ==========
+        
+        0.0.1 (31/08/2021)
+        -------------------
+        - First Release
+        
+        
+        0.0.2 (31/08/2021)
+        -------------------
+        - Second Release
+        
+        
+        
+        
+        Usage
+        -----
+        
+        
+        
+        Importing the library
+        
+        	$  import petrabytes-unitsconverter
+        
+        Example:
+        
+        	$ petrabytesunitconverter.unit_convert(5,"meter","centimeter",false)
+        	$ 500
+Keywords: Unit_Converter
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: Open Software License 3.0 (OSL-3.0) 
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8

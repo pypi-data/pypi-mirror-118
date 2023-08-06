@@ -1,0 +1,14 @@
+
+Usage
+-----
+
+
+
+Importing the library
+
+	$  import petrabytes-unitsconverter
+
+Example:
+
+	$ petrabytesunitconverter.unit_convert(5,"meter","centimeter",false)
+	$ 500
