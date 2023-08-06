@@ -1,0 +1,10 @@
+hauliopylib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hauliopylib/shared.py,sha256=UjEvNejiv5H-j4fgq0ShcMXPaemmP0QmcMWXx2q5Es8,106807
+hauliopylib/version.py,sha256=9BLRUKLo7ItARQsYhFkoe1EIVEJ517VrGpEuM7Wa-mA,21
+hauliopylib/geo/__init__.py,sha256=XuDVg45QdltQJKN-1rmRNt5H2mP4VVvdyaW0XvU9WFg,1284
+hauliopylib/geo/sg.py,sha256=arrFGHh52TVF76dhSOf9ZP_8hNwYzMSDF0_CPmi5xsA,93210
+hauliopylib-0.23.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+hauliopylib-0.23.dist-info/METADATA,sha256=0--zlvo6DdoLmgxbWJ4LNWjSI1KSKGXhk_XGMcypR1s,477
+hauliopylib-0.23.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+hauliopylib-0.23.dist-info/top_level.txt,sha256=xz0xrmU_IOHtzIoQ3WDc-bUJsVqvkLXQq85UIclst9M,12
+hauliopylib-0.23.dist-info/RECORD,,
