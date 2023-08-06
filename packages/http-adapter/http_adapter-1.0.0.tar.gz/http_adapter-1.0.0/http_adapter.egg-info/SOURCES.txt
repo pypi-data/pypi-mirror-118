@@ -1,0 +1,12 @@
+LICENCE
+README.md
+setup.py
+http_adapter/__init__.py
+http_adapter.egg-info/PKG-INFO
+http_adapter.egg-info/SOURCES.txt
+http_adapter.egg-info/dependency_links.txt
+http_adapter.egg-info/requires.txt
+http_adapter.egg-info/top_level.txt
+http_adapter.egg-info/zip-safe
+http_adapter/base/__init__.py
+http_adapter/base/proxy.py
