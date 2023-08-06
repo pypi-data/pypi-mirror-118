@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: markings
+Version: 0.0.2
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: 
+Author-email: 
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+
+[![image](https://img.shields.io/pypi/v/package_name.svg)](https://pypi.org/project/package_name)
+
+# package_name
+Description
+
+# Installation
+
+# Getting started
+
+# Tests
+
+# Lint
+
+# How to contribute
+
+
