@@ -1,0 +1,3 @@
+[console_scripts]
+ykps = ykps.cli:main
+
