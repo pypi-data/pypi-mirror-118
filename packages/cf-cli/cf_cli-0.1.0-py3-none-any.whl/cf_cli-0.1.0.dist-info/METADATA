@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: cf-cli
+Version: 0.1.0
+Summary: Terminal interaction with Cloudflare
+License: MIT
+Keywords: CLI,Cloudflare,Terminal
+Author: Vivaan Verma
+Author-email: vivaan.verma@gmail.com
+Maintainer: Vivaan Verma
+Maintainer-email: vivaan.verma@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Terminals
+Requires-Dist: orjson (>=3.6,<4.0)
+Requires-Dist: pydantic (>=1.8,<2.0)
+Requires-Dist: requests (>=2.26,<3.0)
+Requires-Dist: typer[all] (>=0.4,<1.0)
+Description-Content-Type: text/markdown
+
+# Cloudflare CLI
+Terminal interaction with Cloudflare
+

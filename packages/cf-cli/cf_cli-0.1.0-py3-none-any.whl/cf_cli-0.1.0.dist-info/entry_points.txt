@@ -1,0 +1,3 @@
+[console_scripts]
+cloudflare=cf_cli:app
+
