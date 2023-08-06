@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: pymhopt
+Version: 0.0.1
+Summary: Python Wrapper for Optimization Algorithms
+Home-page: https://github.com/ajayarunachalam/pymhopt/
+Author: Ajay Arunachalam
+Author-email: ajay.arunachalam08@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/x-rst
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: gplearn
+Requires-Dist: scikit-learn
+Requires-Dist: matplotlib
+Requires-Dist: graphviz
+
+# pymhopt: Python Wrapper for Optimization Algorithms 
+
+This Python 3 code provides wrapper for symbolic regression providing two implementations a) Genetic Programming with symbolic regression b) multi-objective genetic programming using NSGA-II (https://ieeexplore.ieee.org/document/996017).
+
+## Dependencies
+pandas; numpy; scikit-learn; gplearn; graphviz.
+
+## Installation
+Run `pip install pymhopt` 
+
+## Example 
+See `test.py` for an example. 
+
+## Acknowledgements & Credits
+
+* The gplearn module is used as base for symbolic expression and genetic programming evaluations. (https://gplearn.readthedocs.io/en/stable/)
+* The nsga-II algorithm is adapted from [marcovirgolin repo](https://github.com/marcovirgolin/pyNSGP/).
+* A fast and elitist multiobjective genetic algorithm: NSGA-II (https://ieeexplore.ieee.org/document/996017)
+
+Note:- This package is still under development & WORK IN PROGRESS, I will aim to cover a bunch of different meta-heuristics optimization algorithms.
+
+
+
+
+
+
+
