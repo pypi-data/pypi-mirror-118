@@ -1,0 +1,6 @@
+README.md
+setup.py
+simpleprinting.egg-info/PKG-INFO
+simpleprinting.egg-info/SOURCES.txt
+simpleprinting.egg-info/dependency_links.txt
+simpleprinting.egg-info/top_level.txt
