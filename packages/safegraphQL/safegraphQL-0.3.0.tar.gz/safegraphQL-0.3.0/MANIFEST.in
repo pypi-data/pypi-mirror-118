@@ -1,0 +1,7 @@
+include *.lock
+include *.txt
+include Pipfile
+recursive-include tests *.py
+exclude apiKey.txt
+exclude info.txt
+exclude results.csv
