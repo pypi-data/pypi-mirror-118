@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: simplyencrypt
+Version: 0.0.4
+Summary: Simple Encryption Tool
+Home-page: UNKNOWN
+Author: Ayush K M
+Author-email: kmayushkm@gmail.com
+License: UNKNOWN
+Description: A package that can be used to do simple encryption of strings with random passwords.
+Keywords: python,cryptography,encrypt,password
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Information Technology
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
