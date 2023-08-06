@@ -1,0 +1,6 @@
+Change Log
+==========
+
+1.0.0 (05/09/2021)
+------------------
+- This is initial release which includes all functionality needed for the integration although it is missing some options.

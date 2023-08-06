@@ -1,0 +1,12 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+oneaccount/__init__.py
+oneaccount/main.py
+oneaccount.egg-info/PKG-INFO
+oneaccount.egg-info/SOURCES.txt
+oneaccount.egg-info/dependency_links.txt
+oneaccount.egg-info/requires.txt
+oneaccount.egg-info/top_level.txt

@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: oneaccount
+Version: 1.0.0
+Summary: One account python library
+Home-page: UNKNOWN
+Author: Oila Studio
+Author-email: manager@oneaccount.app
+License: MIT
+Keywords: privacy,authentication,login,secure,signup
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+This is oneaccount integration library.
+
+Please follow the documentation on the official website in order to integrate it to your service.
+https://docs.oneaccount.app
+
+Change Log
+==========
+
+1.0.0 (05/09/2021)
+------------------
+- This is initial release which includes all functionality needed for the integration although it is missing some options.
+
