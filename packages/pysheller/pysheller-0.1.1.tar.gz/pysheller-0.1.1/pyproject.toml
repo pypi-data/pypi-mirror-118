@@ -1,0 +1,39 @@
+[tool.poetry]
+name = "pysheller"
+version = "0.1.1"
+description = "Small library to create Python application based on shell scripts."
+authors = ["samedamci <samedamci@disroot.org>"]
+license = "ISC"
+homepage = "https://github.com/samedamci/guzzy"
+repository = "https://github.com/samedamci/guzzy"
+keywords = ["package", "shell", "shell-script"]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "License :: OSI Approved :: ISC License (ISCL)",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Unix Shell",
+  "Intended Audience :: Developers",
+  "Topic :: Software Development :: Libraries",
+  "Topic :: Utilities",
+]
+exclude = ["example"]
+
+[tool.poetry.dependencies]
+python = "^3.9.2"
+
+[tool.poetry.dev-dependencies]
+black = "^21.8b0"
+flake8 = "^3.9.2"
+flake8-bugbear = "^21.4.3"
+
+[tool.poetry-dynamic-versioning]
+enable = false
+vcs = "git"
+style = "semver"
+format = "{base}"
+
+[build-system]
+requires = ["poetry-core>=1.0.0, poetry-dynamic-versioning"]
+build-backend = "poetry.core.masonry.api"
