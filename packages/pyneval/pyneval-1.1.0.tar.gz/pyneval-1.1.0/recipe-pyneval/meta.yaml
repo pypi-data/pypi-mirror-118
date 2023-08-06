@@ -1,0 +1,56 @@
+{% set name = "pyneval" %}
+{% set data = load_setup_py_data() %}
+
+package:
+  name: "{{ name|lower }}"
+  version: {{ data['version'] }}
+
+source:
+  path: ..
+
+build:
+  number: 0
+  entry_points:
+    - pyneval=pyneval.cli.pyneval:run
+    - pyneval_tools=pyneval.cli.pyneval_tools:run
+  script: "{{ PYTHON }} -m pip install . -vv"
+  noarch: python
+
+requirements:
+  host:
+    - python>=3.7
+    - setuptools
+  run:
+    - python>=3.7
+    {% for dep in data['install_requires'] %}
+    - {{ dep.lower() }}
+    {% endfor %}
+
+test:
+  imports:
+    - pyneval
+    - pyneval.cli
+    - pyneval.io
+    - pyneval.metric
+    - pyneval.metric.utils
+    - pyneval.metric.utils.klib
+    - pyneval.model
+    - pyneval.tools
+    - pyneval.tools.optimize
+    - test
+  commands:
+    - pyneval --help
+    - pyneval_tools --help
+
+about:
+  home: "https://github.com/CSDLLab/PyNeval"
+  license: GPL
+  license_family: GPL
+  license_file: LICENSE.txt
+  summary: "pyneval, a toolbox for quantitative metric on reconstructed neuron"
+  doc_url: "https://csdllab.github.io/PyNeval"
+  dev_url: "https://github.com/CSDLLab/PyNeval"
+
+extra:
+  recipe-maintainers:
+    - benniehan
