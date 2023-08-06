@@ -1,0 +1,3 @@
+[console_scripts]
+docker-load-graph = docker_load_graph.__main__:main
+
