@@ -1,0 +1,45 @@
+[build-system]
+requires = ["flit_core >=3.2, <4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "funcy-chain"
+home-page = "https://github.com/taleinat/funcy-chain"
+authors = [{name = "Tal Einat", email = "taleinat@gmail.com"}]
+description = "Method chaining with funcy."
+readme = "README.md"
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: MIT License"]
+keywords = ["chain", "method", "chaining", "funcy", "method-chaining"]
+requires-python = ">=3.5"
+dynamic = ["version"]
+dependencies = [
+    "funcy",
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest >=2.7.3",
+    "tox >=3, <4",
+]
+dev = [
+    "flit >=3.3, <4",
+]
+lint = [
+    "black",
+    "isort",
+    "pylint",
+]
+
+[tool.flit.module]
+name = "funcy_chain"
+
+[tool.black]
+line-length = 100
+target-version = ['py36', 'py37', 'py38', 'py39']
+include = '\.pyi?$'
+
+[tool.isort]
+line_length = 100
+multi_line_output = 3
+profile = "black"
