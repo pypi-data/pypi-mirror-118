@@ -1,0 +1,12 @@
+README.md
+setup.py
+multi_prophet/__init__.py
+multi_prophet/data_builder.py
+multi_prophet/factories.py
+multi_prophet/plots.py
+multi_prophet/prophet.py
+multi_prophet.egg-info/PKG-INFO
+multi_prophet.egg-info/SOURCES.txt
+multi_prophet.egg-info/dependency_links.txt
+multi_prophet.egg-info/requires.txt
+multi_prophet.egg-info/top_level.txt
