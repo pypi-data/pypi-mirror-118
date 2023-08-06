@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+moad/__init__.py
+moad/__main__.py
+moad/moad.py
+moad.egg-info/PKG-INFO
+moad.egg-info/SOURCES.txt
+moad.egg-info/dependency_links.txt
+moad.egg-info/requires.txt
+moad.egg-info/top_level.txt
