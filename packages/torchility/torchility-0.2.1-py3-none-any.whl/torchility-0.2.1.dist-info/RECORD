@@ -1,0 +1,17 @@
+torchility/__init__.py,sha256=KCVX8pNMgD6Ym43AecyoLZUX0D6qtq-TzTiecXbahWc,71
+torchility/hooks.py,sha256=Bf0quEhMkeXpW44FikBZRkwD-vOVleZsecQwizNF8Y0,2390
+torchility/losses.py,sha256=L6j6ysMV7J5RX5Ra0OZi-df92m48XTwrWL1p5qmbGz0,577
+torchility/metrics.py,sha256=X-pkqGxEOYtEjqoeYAn8DN_Mmkix4NBroEXDlWNZo_M,2907
+torchility/tasks.py,sha256=pzUvFd6bKDGbHZT_zMMEw77fvOCx4NEQi_pxA1D8FY0,2784
+torchility/trainer.py,sha256=-hFJK882_RIB8Uyjo_fRA99wjQJVjThUUKKkfwIZNIQ,1398
+torchility/trainer_base.py,sha256=7wj_sEqcs-13mycFa8o53WePZ6ZaLFffjL8tXKv4rl0,8379
+torchility/utils.py,sha256=82NPuqa19nMHGCIhR_X-qWaMuZDZIlKMZxyF1IjOsTc,2815
+torchility/callbacks/__init__.py,sha256=5bQ3g2dbcBcCPoXPW956RAIwx0rDJmUb4N0IwjIENck,83
+torchility/callbacks/interpreters.py,sha256=qMT9x3nHx8u2q9CM0anQVR6wq3x8epPKVCO5QGMJ2kE,3849
+torchility/callbacks/performances.py,sha256=OD9jdB7QQjasZfcrvVTHLzpenMscotyAQOzKe5wXAGo,2701
+torchility/callbacks/progressbars.py,sha256=qiEsk5YkvCtmvJnJOMr79gHMDu40aDv6lIuEG3-JdCU,3991
+torchility-0.2.1.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+torchility-0.2.1.dist-info/METADATA,sha256=NYCRem6YYN-6XWwcrEnRM0bcx1ojYZx6vWOHl2qtwS8,2130
+torchility-0.2.1.dist-info/WHEEL,sha256=nvhOrkn7_9sGzJjxuUFjoJ6OkO7SJJqHSjq9VNu0Elc,92
+torchility-0.2.1.dist-info/top_level.txt,sha256=h68G1gpBSPaQllZODMmla2qI-GNiQ-HfupMqcvvDT-E,11
+torchility-0.2.1.dist-info/RECORD,,
