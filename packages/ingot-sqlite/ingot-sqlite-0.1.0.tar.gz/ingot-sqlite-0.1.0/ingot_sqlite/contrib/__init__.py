@@ -1,0 +1,1 @@
+"""Ingot Sqlite package contrib."""
