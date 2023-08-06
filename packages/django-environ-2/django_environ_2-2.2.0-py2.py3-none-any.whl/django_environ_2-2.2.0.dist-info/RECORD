@@ -1,0 +1,8 @@
+environ/__init__.py,sha256=g-GUd4aGXI918Ay7GFSOTSvsj2XybBIJ1ZS2WYFs4IA,1295
+environ/compat.py,sha256=dJ4bG7qICUsU4JlWmycw8EEshgUY4oW9eadv2RCUzmA,1174
+environ/environ.py,sha256=PsY35sizFXTB6Izl16MERd_YOJ477jKmAlBZilA8ldw,30570
+django_environ_2-2.2.0.dist-info/LICENSE,sha256=YLZLzgPBwwp1Kd_VA0BoXi0QiQayElIhnKNWIRaU4r8,1155
+django_environ_2-2.2.0.dist-info/METADATA,sha256=InrXCcWpK67Rxv_gRWhO1lQJjyo62tzbvD6N2qew3Dc,9548
+django_environ_2-2.2.0.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+django_environ_2-2.2.0.dist-info/top_level.txt,sha256=vLrvR0rjlfzn--WLv_InBUvf9Lhd-VZIisjM2eBC9QE,8
+django_environ_2-2.2.0.dist-info/RECORD,,
