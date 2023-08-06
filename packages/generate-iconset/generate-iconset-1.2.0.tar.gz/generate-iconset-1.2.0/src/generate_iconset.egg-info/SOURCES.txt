@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/generate_iconset/__init__.py
+src/generate_iconset/generate_iconset.py
+src/generate_iconset/version.py
+src/generate_iconset.egg-info/PKG-INFO
+src/generate_iconset.egg-info/SOURCES.txt
+src/generate_iconset.egg-info/dependency_links.txt
+src/generate_iconset.egg-info/entry_points.txt
+src/generate_iconset.egg-info/top_level.txt

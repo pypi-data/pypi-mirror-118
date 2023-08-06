@@ -1,0 +1,3 @@
+[console_scripts]
+generate-iconset = generate_iconset.generate_iconset:main
+
