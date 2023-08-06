@@ -1,0 +1,9 @@
+requests>=2.22.0
+
+[testing]
+docutils>=0.13.1
+flake8
+mypy
+pdoc==7.4.0
+pytest
+types-requests
