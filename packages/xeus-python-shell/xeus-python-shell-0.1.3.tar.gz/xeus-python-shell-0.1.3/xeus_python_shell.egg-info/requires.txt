@@ -1,0 +1,4 @@
+ipython<8,>=7.21
+
+[testing]
+flake8
