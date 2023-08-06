@@ -1,0 +1,8 @@
+networksns/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+networksns/centrality_measures.py,sha256=__GIPi1z03-UKmucJvlGLNkOh2LSiHmidCzP1ORR5m0,65070
+networksns/networksns_test.py,sha256=pgRrEHkh-CDNSe7b0GkIH9PHEvhtohZCk_Yiq8juMUo,8687
+networksns/statistical_models.py,sha256=fw3Y7XtkPwGrJT834lAXm1SV83jMeFi0Om_1mqFV7AI,159558
+networksns-0.0.3.dist-info/METADATA,sha256=s5EfR9eGuPKxTpuy44Eh8QbXBX8UWp9gHXJOmyh9dKc,758
+networksns-0.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+networksns-0.0.3.dist-info/top_level.txt,sha256=2GMbta5EUNnlvq3jMIns_UpyZgWO9hM2S1L43SuA3I0,11
+networksns-0.0.3.dist-info/RECORD,,
