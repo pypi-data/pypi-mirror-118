@@ -1,0 +1,13 @@
+pybind11_generics/__init__.py,sha256=M1LwY2vGJOAXvmkOP4ta80uipphE8WHj13iIlPqzjqE,1407
+pybind11_generics/_version.py,sha256=gPkMfmOGThrz4o674naa8XDGyE9rc-bspbXXQ2Y5FtY,142
+pybind11_generics/py.typed,sha256=W_1Ms4LRtcbhey0Pf45eQgbQ-4PznGJJN8Dy783xr24,60
+pybind11_generics/build/__init__.py,sha256=ZyB9YprCjxRIJ6lB8_LFDA1_06zSEj6AfL8_eDP_N6c,5486
+pybind11_generics/stubgen/__init__.py,sha256=Rae2esRoJ2tIxAPULvq_qbZNuW1wSVkrA8m0xyiC1AM,1567
+pybind11_generics/stubgen/__main__.py,sha256=NSI_t8cv1K3lxavekJN4Mqnfm5uKz7L5Zj6eVeB-8yE,3755
+pybind11_generics/stubgen/parsedoc.py,sha256=iszsaI_McCXDSRh0M2Ou0JRdzu9Uurdtz-iUNk8TufI,8202
+pybind11_generics/stubgen/stubgenc.py,sha256=nDcqisuKMh1sguA7uxixXIQHNrBLf20lexzPa9qCN7M,9231
+pybind11_generics-1.0.3.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+pybind11_generics-1.0.3.dist-info/METADATA,sha256=Ip-Ah18eG5f_90yudHF1_eA3gMKSIh4h6m5ToiGClsI,750
+pybind11_generics-1.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pybind11_generics-1.0.3.dist-info/top_level.txt,sha256=1RFkKqintNBmo-0mPRTuzINOqLpCTpkRMMdKF4m865k,18
+pybind11_generics-1.0.3.dist-info/RECORD,,
