@@ -1,0 +1,16 @@
+django_saml2_auth/__init__.py,sha256=gHEKa8aZIIISAI3nbVdCUgvGBVgnTA7vyJy6PY_QxZc,24
+django_saml2_auth/urls.py,sha256=ztO9WtYKx5T17z1mCk-Or5rEaR-xeb9-Qczf1MoH3EU,286
+django_saml2_auth/views.py,sha256=EwtqdyZi1O8v8P7vGKaevPTrd4UDaCPFJv9ZHgpjAkE,7073
+django_saml2_auth/templates/django_saml2_auth/denied.html,sha256=05_q8edXdlUZman8fBD8VIs_TQ7CXYp8v_yjOxsKzoA,327
+django_saml2_auth/templates/django_saml2_auth/signout.html,sha256=nKiy8LhA9cu_LFm8AZHHpccVPr0ZhbD7U81tWWHBQss,308
+django_saml2_auth_custom/__init__.py,sha256=gHEKa8aZIIISAI3nbVdCUgvGBVgnTA7vyJy6PY_QxZc,24
+django_saml2_auth_custom/urls.py,sha256=ztO9WtYKx5T17z1mCk-Or5rEaR-xeb9-Qczf1MoH3EU,286
+django_saml2_auth_custom/views.py,sha256=EwtqdyZi1O8v8P7vGKaevPTrd4UDaCPFJv9ZHgpjAkE,7073
+django_saml2_auth_custom/templates/django_saml2_auth_custom/denied.html,sha256=05_q8edXdlUZman8fBD8VIs_TQ7CXYp8v_yjOxsKzoA,327
+django_saml2_auth_custom/templates/django_saml2_auth_custom/signout.html,sha256=nKiy8LhA9cu_LFm8AZHHpccVPr0ZhbD7U81tWWHBQss,308
+django_saml2_auth_custom-1.0.4.dist-info/AUTHORS.rst,sha256=JkjEw-aYbRXVSKQhNTtIrQA7TqNe0nR_yb-VMuTGp1E,212
+django_saml2_auth_custom-1.0.4.dist-info/LICENSE,sha256=920c9Ame4SlJPrJUoKDcmJe6c5F0j5kOBKFoZf9FIUI,547
+django_saml2_auth_custom-1.0.4.dist-info/METADATA,sha256=4MS6h2q61E7wRkjnOwrGU_t8Lfpv0OemMTBlU4J-CJg,8305
+django_saml2_auth_custom-1.0.4.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+django_saml2_auth_custom-1.0.4.dist-info/top_level.txt,sha256=5Dj8AwuKg5VZp9w5zEjLmOVr2A9wfBO-v_Bo1fy1j3E,25
+django_saml2_auth_custom-1.0.4.dist-info/RECORD,,
