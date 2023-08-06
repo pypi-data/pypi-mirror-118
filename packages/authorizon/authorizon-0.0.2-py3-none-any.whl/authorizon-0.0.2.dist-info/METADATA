@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: authorizon
+Version: 0.0.2
+Summary: authorizon python sdk
+Home-page: UNKNOWN
+Author: Or Weis, Asaf Cohen
+Author-email: or@authorizon.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Requires-Dist: requests (==2.24.0)
+
+UNKNOWN
+
+
