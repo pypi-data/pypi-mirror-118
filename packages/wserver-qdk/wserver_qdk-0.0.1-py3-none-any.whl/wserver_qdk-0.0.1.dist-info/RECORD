@@ -1,0 +1,10 @@
+wserver_qdk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wserver_qdk/main.py,sha256=qYcrzz2vLOPboshgbp_qHtKZyYlYMkRZ9Y3HEGCReD0,9549
+wserver_qdk/tools.py,sha256=lxVbdsOY7eQrTCZ-NquMjNyMir1d7GpAAuCMexeQ13o,483
+wserver_qdk/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wserver_qdk/tests/main_test.py,sha256=TwUhgLi6T4ZQdL3gwQ_PL_RaH64vMvJvPLqK389vEeE,4767
+wserver_qdk-0.0.1.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+wserver_qdk-0.0.1.dist-info/METADATA,sha256=PA_KP1sKOaK_V_1QoBIM2BoB_JQqIZ7h88ly9QUs6tE,284
+wserver_qdk-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+wserver_qdk-0.0.1.dist-info/top_level.txt,sha256=3QgJ0oOKimo_scFP7KalDXRrmsLaKTRGnxH4fKobPFk,12
+wserver_qdk-0.0.1.dist-info/RECORD,,
