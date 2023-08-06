@@ -1,0 +1,4 @@
+requests
+prettytable
+lxml
+colorama
