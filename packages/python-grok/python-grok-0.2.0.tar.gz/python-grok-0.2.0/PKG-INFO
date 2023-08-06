@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: python-grok
+Version: 0.2.0
+Summary: A Python package to use Grok expressions
+Home-page: https://github.com/dperdices/python-grok
+Author: Daniel Perdices
+Author-email: daniel.perdices@uam.es
+License: MIT
+Description: # python-grok
+        Python module for Grok Expressions
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
