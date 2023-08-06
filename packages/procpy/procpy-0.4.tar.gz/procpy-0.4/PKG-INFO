@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: procpy
+Version: 0.4
+Summary: multiprocessing wrapper
+Home-page: https://github.com/nbdy/procpy
+Author: Pascal Eberlein
+Author-email: pascal@eberlein.io
+License: UNKNOWN
+Keywords: multiprocessing
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# procpy
+## features
+- [X] start / stop syntax
+- [X] on_start / on_stop overrides
+- [X] is_running getter
+- [X] standard multiprocessing.Process functionality
+- [X] exposes
+    - [X] multiprocessing.Queue
+
