@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: goldenowl
+Version: 4.2.2
+Summary: Tools for financial analysis
+Home-page: https://github.com/nishanth-/goldenowl
+Author: Nishanth (nishanth-)
+Author-email: 
+License: MIT
+Download-URL: https://github.com/nishanth-/goldenowl/archive/refs/tags/v_422.tar.gz
+Description: # goldenowl: Financial analysis toolkit
+        ---
+        ## What is it?
+        
+        **goldenowl** is a Python package that provides most commonly used utilities for analysis in the financial domain such as those related to investments and trading.
+        
+        ## Main Features
+        Here are few things this package does
+        
+          - [**Holding Analysis**] - Calculate XIRR of multi touch point investments, portfolio returns etc
+          
+        ## Where to get it
+        The source code is currently hosted on GitHub at:
+        https://github.com/nishanth-/goldenowl
+        
+        Installers for the latest released version are available at the [Python
+        Package Index (PyPI)](https://pypi.org/project/goldenowl)
+        
+        ```sh
+        pip install goldenowl
+        ```
+        
+        ## Dependencies
+        - [xirr - For calculation of xirr](https://pypi.org/project/xirr/)
+        - [pandas - For data manipulation](https://pypi.org/project/pandas/)
+        
+        
+        ## License
+        [MIT](LICENSE)
+        
+Keywords: finance,investment,quant
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
