@@ -1,0 +1,3 @@
+[console_scripts]
+efunx = efunx.__main__:main
+
