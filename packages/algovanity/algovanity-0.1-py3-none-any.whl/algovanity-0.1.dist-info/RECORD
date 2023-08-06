@@ -1,0 +1,16 @@
+algovanity/__init__.py,sha256=CoBn1Ppo5l5zLZon--JZ5EcccmQ2lE659yC128vr2w4,839
+algovanity/__metadata__.py,sha256=ba9PgTMYA86he_1JOrZtoZqqHvw_uBML75xLxjmk69Y,293
+algovanity/cli/__init__.py,sha256=ZS1TPRs4W_Cei0HxvPfvw2akgBaxPQurzBD0VqGoRTM,1295
+algovanity/cli/logger.py,sha256=T7nhzTocxaFtKI2MqbHi2mAytPZA6s2fUKr0N90cymg,1326
+algovanity/cli/parser.py,sha256=_3-LvCEmJynawUVwFtQvQCu9HShADUYZgG3rakb_0pU,2287
+algovanity/lib/__init__.py,sha256=RgzCpdZuq-TMfQxS16EC57QYH96XcSYFDTdF4SCnJXw,2960
+algovanity/lib/helpers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+algovanity/lib/helpers/matches.py,sha256=SURyrm0iWPzYVxOpQguB0ha_CEyekv_B8bLO2dC1Ci4,2045
+algovanity/lib/helpers/mproc.py,sha256=bwD0709_soPw-i6xsfA9NjQCZn4Ec92JjBon-L7EeN4,6470
+algovanity/lib/helpers/patterns.py,sha256=gr-1KdlIVtltUlm94sNdrhbBUp6LSXHReJqrZi8DME4,2679
+algovanity-0.1.dist-info/LICENSE,sha256=VXapH-nuSz68DG5ScURElxHkl1lKk4MOK9cgZCSRDXs,34502
+algovanity-0.1.dist-info/METADATA,sha256=3lvQHbkd1zyBYb2m4yxlKC0Kdr8FS83gFroe3dafdgo,4021
+algovanity-0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+algovanity-0.1.dist-info/entry_points.txt,sha256=0izXQ3Mpz29YicrVwNvpgYxuQPVUzjTNOa0undj70O8,52
+algovanity-0.1.dist-info/top_level.txt,sha256=dbacdBB1V7XeHqpd01jzXVjctvOPDmhb3WPlJbtZbkk,11
+algovanity-0.1.dist-info/RECORD,,

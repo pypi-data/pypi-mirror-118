@@ -1,0 +1,3 @@
+[console_scripts]
+algovanity = algovanity.cli:main
+
