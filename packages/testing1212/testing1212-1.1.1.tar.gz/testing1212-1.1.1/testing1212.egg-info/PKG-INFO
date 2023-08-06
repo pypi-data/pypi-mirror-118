@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: testing1212
+Version: 1.1.1
+Summary: Utility code
+Home-page: https://gitlab.com/Rahultrel/testing
+Author: Rahul Kumar
+Author-email: rahul@trell.in
+License: UNKNOWN
+Description: <center><img src="Figures/Trell_Logo.png" alt="TRELL" width="200"/></center>
+        <center> <h1>Trell Pip Package</h1> </center> 
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.6.9
+Description-Content-Type: text/markdown
