@@ -1,0 +1,10 @@
+rvsfunc/__init__.py,sha256=4E1JBnPMyutbhe1kuaabJBQzlxXuW7puIknyBv_Z3qc,170
+rvsfunc/cursed.py,sha256=01rUMIujhatSxU4FgPi81B1jLkt-DvmnNlncqb_042g,5239
+rvsfunc/dvd.py,sha256=mRA8fjILiRi8ibLUSQM5RrblHFTY0uQelqNn89CraBE,5412
+rvsfunc/masking.py,sha256=MTsR2pPG2KHs_US-exUOXXAF2ZfVOFRSOt3ogkwng2M,5298
+rvsfunc/utils.py,sha256=UT9I3IPKOHiYe0LtdQ6BXt5CaYKt9wrVN-x9PjdEwzY,4586
+rvsfunc-0.0.4.dist-info/LICENSE,sha256=ErOhe--jYQ5n9e_5BOzGKhfAbJGQWhVbQIvONuRn63Y,1068
+rvsfunc-0.0.4.dist-info/METADATA,sha256=Dsi4b6pL63cNA6zJbb0VXCNrvhB4RRL6z6M912o-mkQ,1773
+rvsfunc-0.0.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+rvsfunc-0.0.4.dist-info/top_level.txt,sha256=KaJikZ7gyCBWotdl34N33BeZiJCODoe2iuoxJ5fysvU,8
+rvsfunc-0.0.4.dist-info/RECORD,,
