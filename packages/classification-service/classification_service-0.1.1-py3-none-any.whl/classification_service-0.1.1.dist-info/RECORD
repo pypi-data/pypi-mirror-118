@@ -1,0 +1,5 @@
+classification_service/__init__.py,sha256=ls1camlIoMxEZz9gSkZ1OJo-MXqHWwKPtdPbZJmwp7E,22
+classification_service/app.py,sha256=uJ5Dls3sVd1b0nCDrzTt0W1f57lz7vkJuj95o-6JkQc,225
+classification_service-0.1.1.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+classification_service-0.1.1.dist-info/METADATA,sha256=ggQmlLiLwm_dzZASYxxd8hhDdflUyWsoyX6JAl6TBO8,388
+classification_service-0.1.1.dist-info/RECORD,,
