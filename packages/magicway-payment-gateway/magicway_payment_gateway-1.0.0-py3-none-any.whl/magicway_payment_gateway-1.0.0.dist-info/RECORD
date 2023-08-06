@@ -1,0 +1,8 @@
+magicway_payment_gateway/__init__.py,sha256=-5MOmsWY4dhhquSvdk5Lo3t9v6FfgLQnqZMYU27dEDw,40
+magicway_payment_gateway/momagic_connector.py,sha256=fKjySzYmdYPp5ZyYOxEcXIfVgBUcIwhXHYqP9KlGbz8,8683
+magicway_payment_gateway/status_code.py,sha256=MZ66xbn6RIenh9V2EKXcNsLlT6Laz-EeklOYUdZ12Vo,42
+magicway_payment_gateway-1.0.0.dist-info/LICENSE,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+magicway_payment_gateway-1.0.0.dist-info/METADATA,sha256=ndn7xsfEh6Mg43drIDV8WIsNKhxsQNGUFbub6h9RQvI,3616
+magicway_payment_gateway-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+magicway_payment_gateway-1.0.0.dist-info/top_level.txt,sha256=b-BFdOGiQYkxnE4TB0Gn3WSHDNSVn5ZW4KXqaewyMrQ,25
+magicway_payment_gateway-1.0.0.dist-info/RECORD,,
