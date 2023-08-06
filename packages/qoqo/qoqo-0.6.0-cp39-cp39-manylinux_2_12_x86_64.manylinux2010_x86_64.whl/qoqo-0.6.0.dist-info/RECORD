@@ -1,0 +1,10 @@
+qoqo-0.6.0.dist-info/METADATA,sha256=LQ3WhahZiYhuLYGTX3bHihDBlHFRsW_w2sqjDSV2UZE,6133
+qoqo-0.6.0.dist-info/WHEEL,sha256=KTWsw3byzdxEt9s5FhkNPRPaQHPySVr3x04JdjJQI_g,128
+qoqo/LICENSE_FOR_BINARY_DISTRIBUTION,sha256=Z80iWLsuE4k77wNXkDeRxmWH55_4uMZTGFIj3nm6TpQ,11881
+qoqo/DEPENDENCIES,sha256=kgqgbI1HiMiBGNfUUx1O16fSHnGCTSosyH1b4sKwZ_8,729874
+qoqo/do_unitary/do_unitary.py,sha256=l97j3K2jpCo2CEePXAn2lUkMsirvVthSJvac1rwfJDI,5436
+qoqo/do_unitary/__init__.py,sha256=n5Q4OLXSUFrTO0CSE-K0eSSIjrzfIkkrBtlcejJpYk8,753
+qoqo/PYTHON_LICENSE,sha256=EIDJleXqxNadayI7WklFgKoY4Wpe6nCi1vO5S6pMBX4,2404
+qoqo/__init__.py,sha256=O_5hcr4RBNRJE88HlnOEnSQ7g28-wt2ekxH0Iemngd4,1072
+qoqo/qoqo.cpython-39-x86_64-linux-gnu.so,sha256=S4jTU3SPP9R68JyyS2I0UG5m6GgjqGbFdRAeE1KTiMc,9845120
+qoqo-0.6.0.dist-info/RECORD,,
