@@ -1,0 +1,17 @@
+torchzq/__init__.py,sha256=sAUDowjExzxyotS9DlNOrm9VvyXwBQTDB_iECygdnus,94
+torchzq/cli.py,sha256=FUc-2cBhbZbRC_wYDFOWGAhYjw7-g3w0uRrTTChwTzo,1247
+torchzq/interrupt.py,sha256=I_VSlxvUy0JClZvD6BsTmwwhOOcXxXWjING_BrqfFaY,671
+torchzq/metric.py,sha256=61CkyZAyxq5IUAsNGGeRm5bY1bcru_4pjQAywCcOHoU,1983
+torchzq/named_array.py,sha256=bgHC6gSvrUjWrCxqqgd8Rdqm3ZcjcJM6gCjR7B3QlCE,2534
+torchzq/runner.py,sha256=ayrjOHe52bMJqjmgxulQMgNHhZ4uLu5AUBUJmlcE9jw,15796
+torchzq/saver.py,sha256=N5wGLJBXnS-JqMGOM2gQgFCpTvwVYt55tCUBa97uVo0,5379
+torchzq/scheduler.py,sha256=qYjsFgVuG-zwkmRmklOpUQZkzJEF_6wyQYc35bCyxD0,1987
+torchzq/typing.py,sha256=v02kRMXTgPCIg1gseS9d9NLrLofegxXQ_I6MWnoSKBk,115
+torchzq/utils.py,sha256=Fif-YukXAaErNyNS2zribWe5EyA1kCeH72rdHxaDfz8,1168
+torchzq/version.py,sha256=ODk6oL5zzovuPtfcunxy_3_pend_ER_wy49MoQrGNSw,41
+torchzq-1.0.10.dev20210906183416.dist-info/LICENSE,sha256=c3Mx4v782fhKnn-XlMdjFNJGdFXkpwlBNJfZzc1PFsI,1064
+torchzq-1.0.10.dev20210906183416.dist-info/METADATA,sha256=P8cTxvtduSiCvBMkzQD55AdrfxtQGhjIU-nir_QHhPE,3289
+torchzq-1.0.10.dev20210906183416.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+torchzq-1.0.10.dev20210906183416.dist-info/entry_points.txt,sha256=jPV2sCJaQ1zuOV5zN36ki88495qEDj4voNUz_hjNvjE,42
+torchzq-1.0.10.dev20210906183416.dist-info/top_level.txt,sha256=aBvJ4bc5ANJu6JRa9m7hyBHIg-FO-eY6eAsO4Cf1dCw,8
+torchzq-1.0.10.dev20210906183416.dist-info/RECORD,,
