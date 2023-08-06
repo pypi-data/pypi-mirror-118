@@ -1,0 +1,83 @@
+Metadata-Version: 2.1
+Name: finalbib
+Version: 0.0.7
+Summary: this is my first test
+Home-page: UNKNOWN
+Author: chenkun
+Author-email: qbei113043@163.com
+License: MANIFEST.in
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+#-- bibtextidying 0.1.0 --
+
+Author: Jian Ding and ShiBo Xu and Kun Chen
+Email: qbei113043@163.com
+Mentor: X. Fu and TingYu Luo
+
+##[Purpose]
+This software is trying to help users to tidy up their bibtex files.
+
+##[Prerequisite]
+- Python3
+- MySQL
+
+##[Requires Projects]
+- bibtexparser
+- mysqlclient
+
+##[Github]
+https://gitee.com/chen-kun19/summer-program
+
+##[Manual]
+- **How to install it?**
+  - use command following.
+    - For Windows 
+    ```PowerShell
+    pip install bibtexTidying
+    ```
+    - For Linux
+    ```PowerShell
+    sudo apt-get update
+    sudo apt-get install libmysqlclient-dev
+    sudo pip install mysqlclient
+    pip install bibtexTidying
+    ```
+- **How to use it?**
+  - Type following code in your python files:
+    ```PowerShell
+    from bibtextidying import finalbib
+    ```
+- **Then you can use all the function in module bibcopy!**
+  ```PowerShell
+  finalbib.comprehensive("filename")
+  ```
+  - like this:请选择功能如下：
+              必须基本功能：
+              1：将.bib文件解析为Python list；
+              2：检测bib文件条目提供的域是否完全；
+              3：检测同一文章是否存在多个条目，去掉相同项，并提示冲突信息；
+              4：将两个.bib文件综合为一个.bib文件；
+              5：将.bib文件格式化。
+              可选高阶功能：
+              6：统一bib文件关键字格式；
+              7：存储指定类型数据库；
+              8：输出数据库中指定类型条目的指定类型的域信息，并生成.bib文件。
+
+##[Function]
+     1. Resolves the bib_file to a list form.
+     2. Checks whether the field provided by the file entry is complete.
+     3. Checks the same article whether there are more than the same items, remove the same items, if there are conflicts prompted conflict information.
+     4. Synthesizes the two files into a single file, outputting is filename1_filename2.bib.
+     5. Formats the file.
+     6. Uniform file's keyword style.
+     7. Stores a database of the specified type.
+     8. Outputs domain information of the specified type for the specified type entry in the database, and generates bib_file.
+
+##[Known Issues]:
+1. 
+
+##[Bug Report]:
+Any bug or documentation error you found , please submit an issue on github parge: https://gitee.com/chen-kun19/summer-program
+
