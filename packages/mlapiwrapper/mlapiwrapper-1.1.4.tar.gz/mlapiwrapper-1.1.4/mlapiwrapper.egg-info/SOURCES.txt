@@ -1,0 +1,13 @@
+pyproject.toml
+setup.py
+./mlapiwrapper.egg-info/PKG-INFO
+./mlapiwrapper.egg-info/SOURCES.txt
+./mlapiwrapper.egg-info/dependency_links.txt
+./mlapiwrapper.egg-info/top_level.txt
+mlapiwrapper/__init__.py
+mlapiwrapper/main.py
+mlapiwrapper/sentimentApi.py
+mlapiwrapper.egg-info/PKG-INFO
+mlapiwrapper.egg-info/SOURCES.txt
+mlapiwrapper.egg-info/dependency_links.txt
+mlapiwrapper.egg-info/top_level.txt
