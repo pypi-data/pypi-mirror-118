@@ -1,0 +1,10 @@
+LICENCE
+README.md
+setup.cfg
+setup.py
+classGenerator/__init__.py
+classGenerator/generateClass.py
+classGenerator.egg-info/PKG-INFO
+classGenerator.egg-info/SOURCES.txt
+classGenerator.egg-info/dependency_links.txt
+classGenerator.egg-info/top_level.txt
