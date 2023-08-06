@@ -1,0 +1,192 @@
+#!python
+# -*- coding: utf-8 -*-
+
+import asyncio
+import asyncclick as click
+import faulthandler
+import os
+import sys
+
+import aiosqlite
+
+from concurrent.futures import ThreadPoolExecutor
+from typing import List, Tuple, Optional
+
+from twicorder.constants import (
+    DEFAULT_EXPAND_USERS_INTERVAL,
+    DEFAULT_APP_DATA_CONNECTION_TIMEOUT,
+)
+
+
+@click.group()
+@click.option('--project-dir', help='Root directory for project')
+@click.pass_context
+def cli(ctx: click.Context, project_dir: str):
+    """
+    Twicorder Search
+    """
+    faulthandler.enable()
+    ctx.obj = dict(project_dir=project_dir)
+
+
+@cli.command()
+@click.option(
+    '--clear-cache',
+    is_flag=True,
+    default=False,
+    help='Clear cache and exit'
+)
+@click.option(
+    '--purge-logs',
+    is_flag=True,
+    default=False,
+    help='Purge logs and exit'
+)
+@click.pass_context
+def utils(ctx: click.Context, clear_cache: bool, purge_logs: bool):
+    """
+    Utility functions
+    """
+    from twicorder import config
+    config.load(
+        project_dir=ctx.obj['project_dir'],
+    )
+    from twicorder.controller import Twicorder
+    Twicorder(clear_cache=clear_cache, purge_logs=purge_logs)
+
+
+@cli.command()
+@click.option('--consumer-key', help='Twitter consumer key', required=True)
+@click.option('--consumer-secret', help='Twitter consumer secret', required=True)
+@click.option('--access-token', help='Twitter access token', required=True)
+@click.option('--access-secret', help='Twitter access secret', required=True)
+@click.option('--out-dir', help='Custom output dir for crawled data')
+@click.option(
+    '--out-extension',
+    help='File extension for crawled files (.txt or .zip)'
+)
+@click.option('--task-file', help='Yaml file containing tasks to execute')
+@click.option(
+    '--full-user-mentions',
+    is_flag=True,
+    default=False,
+    help='For mentions, look up full user data'
+)
+@click.option('--appdata-token', default="", help='App data token')
+@click.option(
+    '--user-lookup-interval',
+    default=DEFAULT_EXPAND_USERS_INTERVAL,
+    show_default=True,
+    help='Minutes between lookups of the same user'
+)
+@click.option(
+    '--appdata-timeout',
+    default=DEFAULT_APP_DATA_CONNECTION_TIMEOUT,
+    show_default=True,
+    help='Seconds to timeout for internal data store'
+)
+@click.option(
+    '--task-gen',
+    show_default=True,
+    type=click.Tuple([str, str]),
+    multiple=True,
+    help=(
+        'Task generator(s) to use. Example: '
+        '"user_id name_pattern=/tmp/**/*_ids.txt,delimiter=," '
+        '[default: config]'
+    )
+)
+@click.option(
+    '--remove-duplicates',
+    is_flag=True,
+    default=True,
+    show_default=True,
+    help=(
+        'Ensures duplicated tweets/users are not recorded. Saves space, but '
+        'can slow down the crawler.'
+    )
+)
+@click.pass_context
+async def run(ctx: click.Context, consumer_key: str, consumer_secret: str,
+              access_token: str, access_secret: str, out_dir: str,
+              out_extension: str, task_file: str, full_user_mentions: bool,
+              appdata_token: str, user_lookup_interval: int,
+              appdata_timeout: float, task_gen: Optional[List[Tuple[str, str]]],
+              remove_duplicates: bool):
+    """
+    Start crawler
+    """
+    loop = asyncio.get_event_loop()
+    loop.set_default_executor(ThreadPoolExecutor(max_workers=8))
+
+    from twicorder import config
+    config.load(
+        consumer_key=consumer_key,
+        consumer_secret=consumer_secret,
+        access_token=access_token,
+        access_secret=access_secret,
+        project_dir=ctx.obj['project_dir'],
+        out_dir=out_dir,
+        out_extension=out_extension,
+        task_file=task_file,
+        full_user_mentions=full_user_mentions,
+        appdata_token=appdata_token,
+        user_lookup_interval=user_lookup_interval,
+        appdata_timeout=appdata_timeout,
+        task_gen=task_gen,
+        remove_duplicates=remove_duplicates,
+    )
+    from twicorder.config import Config
+    from twicorder.logger import TwiLogger
+    from twicorder.controller import Twicorder
+    logger = TwiLogger()
+    twicorder = Twicorder()
+    try:
+        if not os.path.exists(Config.appdata_dir):
+            os.makedirs(Config.appdata_dir)
+        async with aiosqlite.connect(
+                Config.appdata,
+                timeout=float(Config.appdata_timeout)
+        ) as db:
+            await twicorder.run(db=db)
+    except Exception:
+        logger.exception('Twicorder encountered an error and quit:\n')
+        sys.exit(1)
+
+
+if __name__ == '__main__':
+    try:
+        cli(_anyio_backend='asyncio', auto_envvar_prefix='TWICORDER')
+    except KeyboardInterrupt:
+
+        loop = asyncio.get_event_loop()
+
+        def exception_handler(loop: asyncio.AbstractEventLoop, context: dict):
+            """
+            Suppress CancelledError exceptions.
+
+            Args:
+                loop: Event loop
+                context: Exception context
+
+            """
+            exception = context.get('exception')
+            if exception and isinstance(exception, asyncio.CancelledError):
+                return
+            loop.default_exception_handler(context)
+
+        loop.set_exception_handler(exception_handler)
+
+        tasks = asyncio.gather(
+            *asyncio.all_tasks(loop=loop),
+            loop=loop,
+            return_exceptions=True
+        )
+        tasks.add_done_callback(lambda t: loop.stop())
+        tasks.cancel()
+
+        while not tasks.done() and not loop.is_closed():
+            loop.run_forever()
+
+        click.echo('Twicorder was terminated by the user')
+        sys.exit(0)
