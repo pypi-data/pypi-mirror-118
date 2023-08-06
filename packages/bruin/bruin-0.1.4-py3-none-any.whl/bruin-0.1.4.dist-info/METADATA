@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: bruin
+Version: 0.1.4
+Summary: Command line tool made by python for various toolbox used in UCLA
+Home-page: https://github.com/OswaldHe/bruin-cli
+Author: Oswald He
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: beautifulsoup4 (==4.9.3)
+Requires-Dist: bleach (==4.1.0)
+Requires-Dist: certifi (==2021.5.30)
+Requires-Dist: charset-normalizer (==2.0.4)
+Requires-Dist: colorama (==0.4.4)
+Requires-Dist: docutils (==0.17.1)
+Requires-Dist: idna (==3.2)
+Requires-Dist: importlib-metadata (==4.8.1)
+Requires-Dist: keyring (==23.1.0)
+Requires-Dist: lxml (==4.6.3)
+Requires-Dist: packaging (==21.0)
+Requires-Dist: pathlib (==1.0.1)
+Requires-Dist: pkginfo (==1.7.1)
+Requires-Dist: Pygments (==2.10.0)
+Requires-Dist: pyparsing (==2.4.7)
+Requires-Dist: readme-renderer (==29.0)
+Requires-Dist: requests (==2.26.0)
+Requires-Dist: requests-toolbelt (==0.9.1)
+Requires-Dist: rfc3986 (==1.5.0)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: soupsieve (==2.2.1)
+Requires-Dist: termcolor (==1.1.0)
+Requires-Dist: tqdm (==4.62.2)
+Requires-Dist: twine (==3.4.2)
+Requires-Dist: typing-extensions (==3.10.0.2)
+Requires-Dist: Unidecode (==1.2.0)
+Requires-Dist: urllib3 (==1.26.6)
+Requires-Dist: webencodings (==0.5.1)
+Requires-Dist: zipp (==3.5.0)
+
+# Bruin CLI
+
+A toolbox for UCLA students in various events
+Project published on PyPi: https://pypi.org/project/bruin/
+
+## Installation:
+```sh
+pip install bruin
+```
+
+## Simple Usages:
+
+### Meal
+Print today's dining menu
+
+```sh
+bruin meal
+```
+Print hour of operations:
+```sh
+bruin meal --hour=['', 'all', 'De Neve', etc.]
+```
+
+Print detail menu:
+```sh
+bruin meal --detail=['Breakfast', 'Lunch', 'Dinner']
+```
+
