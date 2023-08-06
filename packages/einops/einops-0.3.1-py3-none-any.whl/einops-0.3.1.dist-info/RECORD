@@ -1,0 +1,17 @@
+einops/__init__.py,sha256=n_6nfzZMDPCBAHqWFAzy6UphZ2qE2rVz2Xz8qfM_rPk,297
+einops/_backends.py,sha256=-9lduWz5PZnMGTUt5ywggCJS0wbaZYLdTRevi3pipPI,16893
+einops/_torch_specific.py,sha256=M_6i2YtHDe24VT5B0NnuZyDrG8ctsg2dpn2_GGalbL4,90
+einops/einops.py,sha256=kg5chv9oNOin5PdFP-ceCgbkzyOprKifXbuk5uBb4MY,25893
+einops/parsing.py,sha256=9Wjyc87OT_M99_jDYOBRmx41epEJT-tM-CNFMCVdwd8,6250
+einops/layers/__init__.py,sha256=B-Fy8JmGCJhHRrTN-NLtJkfRbJ_i9kFPWAevULQBP2o,2689
+einops/layers/_weighted_einsum.py,sha256=bfC_uyC6RPiFxi3XjbVKUQqakGoiR6S9KYw1WkfmmCY,6782
+einops/layers/chainer.py,sha256=R2nYD4qWqBGslcUTMiYrQMGArB6ihqNdT6YajVa4sSo,1073
+einops/layers/gluon.py,sha256=oaEICwtar91AuP538XHz6RQ0LFmtfTxxEujiHOWT4xg,1322
+einops/layers/keras.py,sha256=kURwDZmS6QyOiXAMEr-OiYkkaLuMBgOAih_i1n6LTnw,1500
+einops/layers/tensorflow.py,sha256=7YGugc40aZGqg4N5p4hKLJcDfMmu-jQmMYPVdyS603U,2410
+einops/layers/torch.py,sha256=Zjw84lZvEXD_SquE5psvJyQ4ktnmq34O06WPM7teqQk,1127
+einops-0.3.1.dist-info/LICENSE,sha256=MNmENkKW9R_67K1LAe4SfpUlDFBokY1LZvyWIGcj5DQ,1073
+einops-0.3.1.dist-info/METADATA,sha256=dUwABXoXyznEYEWInYOXHunsRgb2XKetgumftH-eglU,10088
+einops-0.3.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+einops-0.3.1.dist-info/top_level.txt,sha256=zh9ckJ4QUP-fUBSO5-UKAcNKvC_lzMGMYS6_nnoT4Tc,7
+einops-0.3.1.dist-info/RECORD,,
