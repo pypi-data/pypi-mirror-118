@@ -1,0 +1,14 @@
+authorizon/__init__.py,sha256=Dsy2k0t1ebQ7rntu9uTy2byuLtnqVFgmqjsWX4fdmgs,813
+authorizon/api.py,sha256=mGkJq4ocrhdoEcF1speTAFZ2xL7mW0m2TYhhmMg2RBY,3106
+authorizon/client.py,sha256=_Xm_XnGJTXgY0bc7AIj0RsEK-yD2nBkadAjM2a-hBRQ,6788
+authorizon/constants.py,sha256=WVFlCXbkqH4yZqk2DsAMCKkWGlsZKaYUeSwYhgMX7-o,79
+authorizon/enforcer.py,sha256=cd1Kp39R6Wa2u6AUzPrUjoDeos7ODYXqoWcb-krLrkY,2900
+authorizon/logger.py,sha256=RztLqj9812rkHebdKWJ3G8Go4-V23C7jY_AKsf7Ewyk,3452
+authorizon/markers.py,sha256=UNuNFtueMwwu-o2EZTYuLjxI72UMtOoYwN9jlM-fGNw,984
+authorizon/resource.py,sha256=LGW32HJRNYGo3QbAOV6Kpgdv6XjgozKeeNFVyKGM-qA,1115
+authorizon/resource_registry.py,sha256=qkHdON8CAcEz0A6Pdk7rDFC1ZCS2Y9lNp_ZUkwvB5Z8,6409
+authorizon/types.py,sha256=6Vy_kz2NH689RQp_JrSE7axUKOPWh1GvQdDDnRD0nKo,13
+authorizon-0.0.4.dist-info/METADATA,sha256=OASKHS3JrSS0sNNJ04FmzirtBogiXKiqS3zks7p3mtE,555
+authorizon-0.0.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+authorizon-0.0.4.dist-info/top_level.txt,sha256=b5U4sdb8BPBSCacYSZE_w5pTMCpDDPCQFTWvZ0ecsHo,11
+authorizon-0.0.4.dist-info/RECORD,,
