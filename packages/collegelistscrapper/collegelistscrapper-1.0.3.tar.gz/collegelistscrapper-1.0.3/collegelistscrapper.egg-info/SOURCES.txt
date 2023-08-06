@@ -1,0 +1,9 @@
+setup.py
+collegelistscrapper/__init__.py
+collegelistscrapper/__main__.py
+collegelistscrapper/nichescrapper.py
+collegelistscrapper.egg-info/PKG-INFO
+collegelistscrapper.egg-info/SOURCES.txt
+collegelistscrapper.egg-info/dependency_links.txt
+collegelistscrapper.egg-info/requires.txt
+collegelistscrapper.egg-info/top_level.txt
