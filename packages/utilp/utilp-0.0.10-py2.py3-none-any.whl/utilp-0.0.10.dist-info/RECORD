@@ -1,0 +1,14 @@
+tests/func/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/func/test_path.py,sha256=14DTxfoIBrib4d_he2HMmARb2DZ4mrd-K8lRRcUOZbk,544
+utilp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+utilp/_version.py,sha256=sSAJsC0RJeN4k4JiQQ01nhr2r6Kl2ctB-HRR-x0M4C4,498
+utilp/classes.py,sha256=XfkmRaUjVgaqD-eY16bvS70dZXPlUh_6ZpEambQW3GM,10187
+utilp/decorators.py,sha256=bAq4JuZMKb2jEMT4wW4Wa3G2Eir9bOxABocCguQWDhs,847
+utilp/func/__init__.py,sha256=KlR7lUXGpUxGvbA9_1KCycXXwWOTsf0KrB-3Ol8796I,389
+utilp/func/path.py,sha256=UUMJtg_F2TNpfTZMad32HlcwOs8M_SHhFN4_ajaeSAQ,7632
+utilp/func/str.py,sha256=l5iiFEp_zWtJWHAEIkdmgAGpnVgDQZKALrQQe9rhSaM,825
+utilp-0.0.10.dist-info/LICENSE,sha256=8sZx0cvuX2vE9eAsPtA3Aw32RkmoMKrQBIkh-u7BP9A,1069
+utilp-0.0.10.dist-info/METADATA,sha256=DZC1jFPTQ2yq5eiCpUAGZsqJfg9_p5ONe6yywyRqhv4,2066
+utilp-0.0.10.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+utilp-0.0.10.dist-info/top_level.txt,sha256=wCWlxSJrwB964CVPD1lgxiyUqjepseVwu0sybm6GKK8,12
+utilp-0.0.10.dist-info/RECORD,,
