@@ -1,0 +1,76 @@
+#!python
+# This file is placed in the Public Domain.
+
+import importlib
+import pkgutil
+import os
+import readline
+import sys
+import termios
+import time
+
+from obj import RunCfg, fmt
+from run import spl
+
+RunCfg.wd = "/var/lib/botd/"
+
+from bot.irc import Cfg
+
+
+Cfg.channel = "#botd"
+Cfg.nick = "botd"
+Cfg.username = "botd"
+Cfg.realname = "24/7 channel daemon"
+Cfg.users = True
+
+from run import Runtime, Table
+
+
+class Kernel(Runtime):
+
+    def error(self, txt):
+        self.log(txt)
+
+    def log(self, txt):
+        print(txt)
+        sys.stdout.flush()
+
+
+class Table(Table):
+
+    def addmod(self, mn):
+        spc = importlib.util.find_spec(mn)
+        if not spc:
+            return
+        mod = importlib.import_module(mn)
+        self.introspect(mod)
+
+    def scan(self, pn):
+        spc = importlib.util.find_spec(pn)
+        if not spc:
+            return
+        pkg = importlib.import_module(pn)
+        for mn in pkgutil.walk_packages(pkg.__path__, pn + "."):
+            mod = importlib.import_module(mn.name)
+            if mod:
+                self.introspect(mod)
+
+        
+
+k = Kernel()
+tbl = Table()
+
+
+def main(): 
+    k.privileges()
+    k.log("BOTD started at %s" % (time.ctime(time.time())))
+    k.log(fmt(k.cfg))
+    k.cfg.mod += ",irc"
+    tbl.scan("bot")
+    k.start()
+    for mn in spl(k.cfg.mod):
+        k.init("bot.%s" % mn)
+    k.wait()
+
+
+main()
