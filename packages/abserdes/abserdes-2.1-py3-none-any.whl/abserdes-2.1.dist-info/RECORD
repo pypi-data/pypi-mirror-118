@@ -1,0 +1,14 @@
+abserdes/__init__.py,sha256=uht5xFvEva9xwieD8l1hnVblOcat_78wvljTOmQJI3k,45
+abserdes/datatype.py,sha256=z62zi0_zs8dPt_vndCOOMftv-uI6Lblhg3FvnfFFF9w,1486
+abserdes/deserializeuserinput.py,sha256=3g3j9JtmBlx31vc971H23AVoSEHbKN3gR0bV6W5OQ60,5737
+abserdes/instanceattrs.py,sha256=mJhg5n-C6j3iW1FfiB1uJOT9obgHIRE9UcvKsVj1G8E,3288
+abserdes/serialize.py,sha256=VJqmxmSqivgXwPLoQoIUhAFFmLhDoQKNod_cOJFtK8o,7519
+abserdes/serializer.py,sha256=T64peYm_2QA9eHpLu6iMWC8nhnNqtCuHxBNO7CESJwk,14614
+abserdes/serializerutils.py,sha256=Fja0ur6u_eU6A2F8FX_iOS-VqFSXW3qa6AfbiV_uUXc,3154
+abserdes/strcast.py,sha256=28Wf1D3Y0ZXtD7my7Svz_BM_GrAeM-5liONkuFEs7Kk,13150
+abserdes/userinputnode.py,sha256=71FiG4G9bIiAnWwEgZrIxO6G-ROR-Aod_CNsqkC4UqQ,1250
+abserdes-2.1.dist-info/LICENSE,sha256=enQTuLATJ7GHK8I1jEPbdUnH3_4Qd_-IN91m_DhAQoc,1066
+abserdes-2.1.dist-info/METADATA,sha256=a3h4xCDKxLb_t06Tl6Ro6XPQ989GE4L3xskrYJ6-q3g,472
+abserdes-2.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+abserdes-2.1.dist-info/top_level.txt,sha256=fXkugLFgAjT3LKedT0mGxr-nWs9-rXgooozFtiXjRuQ,9
+abserdes-2.1.dist-info/RECORD,,
