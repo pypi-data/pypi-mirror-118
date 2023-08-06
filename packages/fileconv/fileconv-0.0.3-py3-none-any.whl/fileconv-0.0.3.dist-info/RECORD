@@ -1,0 +1,12 @@
+fileconv/__init__.py,sha256=6w6QETryXqe3o1yyAYPPi4yryBtI6SrV6yRVYFZVIBE,191
+fileconv/cli.py,sha256=krspet4NUZoZMHyiwsvQ68iHl47DnRdxNm2svKF6FPk,2122
+fileconv/crawlers.py,sha256=2RGP_9GrP9Y6yrrzw2CSdAR1ic6elAKav0ppL0CSe_E,2582
+fileconv/office_to_pdf.py,sha256=ncdNp51WXrUfnSSXaR74ljdq2ORJIsJ1uC7sX9tF7Ug,1365
+fileconv/pdf_to_txt.py,sha256=g1a_nprs00O9dHL3UH7xc43vLK_sBETF9OKX_w5kYTI,823
+fileconv/txt_to_pdf.py,sha256=ubvx9SnNJJRicROBLMeS6J1VEaKuDvwuF0zwcL7kyNM,874
+fileconv-0.0.3.dist-info/LICENSE,sha256=JpIvL_9PEQAavATGP98ysky4nM7ZInYlt0dyBxEUY38,1092
+fileconv-0.0.3.dist-info/METADATA,sha256=WNhZa_zDMJRoxvEFOr3dBlRPEcURLZh3w2_qSHUQTgM,6663
+fileconv-0.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+fileconv-0.0.3.dist-info/entry_points.txt,sha256=3n8rL0USmxkQolvi7Df9pLVZk8xdGeazsxQyUf9ccDs,48
+fileconv-0.0.3.dist-info/top_level.txt,sha256=5VRut1RS5ge_4sSk3S4lxBSPjDfc9dOv6thnjVuz-8Q,9
+fileconv-0.0.3.dist-info/RECORD,,
