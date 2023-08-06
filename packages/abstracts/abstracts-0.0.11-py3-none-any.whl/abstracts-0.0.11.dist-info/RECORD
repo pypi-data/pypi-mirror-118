@@ -1,0 +1,12 @@
+abstracts/__init__.py,sha256=Riv7Gmg192jqx6wkKKutdE_lgWEHU9mJyhq40PlSlFA,270
+abstracts/abstraction.py,sha256=UyXejJXOnfPA_1UZw6rLYM1qXRzLau-vDW9NMFFFlRk,84
+abstracts/decorators.py,sha256=Ivu3tTe1unKNwRBAcsFbtp_yJLxRqk-ollCezTyfoa0,1294
+abstracts/implements.py,sha256=vjjPLsFNPJSnqmLPE0MzcOpqSdteS35CTTnGlsydf5M,7159
+abstracts/interface.py,sha256=F97v0y8mE-xhnhQABrxdIOCip7Sfw7voPs8gxbH1YVY,120
+abstracts/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_decorators.py,sha256=RN1Nq4yezwDypGO0MbaWrefGwAVGLIYhazVjfwe6paI,3045
+tests/test_implements.py,sha256=GC3yZkU7x3oEArlKEm3KOAQMEl3jgBb0qzelitdPcoc,14068
+abstracts-0.0.11.dist-info/METADATA,sha256=R_7C8z6JEk__16vi4gy44x2bxE3ycsDc8CBY9i3DBfQ,11367
+abstracts-0.0.11.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+abstracts-0.0.11.dist-info/top_level.txt,sha256=oWw1s9tskTa__Tj_3z33gdCU-Mv3cE2nGlZZwIjHkuU,16
+abstracts-0.0.11.dist-info/RECORD,,
