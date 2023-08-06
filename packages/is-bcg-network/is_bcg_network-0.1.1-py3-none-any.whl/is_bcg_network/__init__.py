@@ -1,0 +1,2 @@
+from is_bcg_network.logic import is_bcg_network
+from logic import is_bcg_network
