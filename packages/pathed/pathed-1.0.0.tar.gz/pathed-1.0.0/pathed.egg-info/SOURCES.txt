@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+op/__init__.py
+pathed.egg-info/PKG-INFO
+pathed.egg-info/SOURCES.txt
+pathed.egg-info/dependency_links.txt
+pathed.egg-info/top_level.txt
