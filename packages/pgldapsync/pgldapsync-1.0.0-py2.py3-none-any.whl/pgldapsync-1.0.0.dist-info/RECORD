@@ -1,0 +1,15 @@
+pgldapsync/__init__.py,sha256=24nNWo5_DWePOB8jxqdF10TQfZG9FA5GWd0_5eB92uw,8408
+pgldapsync/config.ini.example,sha256=Q3DSA9HQgNJ-HMutNXmQ9jrZJhwTG-eZxoVT60aODYs,4514
+pgldapsync/config_default.ini,sha256=sPzy1AGNAgogaY2bcrQf1h56-3B2valjl52NmRbpZhw,854
+pgldapsync/ldaputils/__init__.py,sha256=WGA8WllCte_UMUjOVH4V04jw3VhdKzrNk2J58yz1N7k,361
+pgldapsync/ldaputils/connection.py,sha256=ZYSn9xDme8jNkx4qR18fwP6A23gledODYflgDUKZ3Hw,3232
+pgldapsync/ldaputils/users.py,sha256=qI0xmDRnMT6oHOgpwErAWLKlHgWg95S2ZySIHjVxAbA,2464
+pgldapsync/pgutils/__init__.py,sha256=gKJCQk3bs2XMJ8vaZUBe99kDEOaSPSmeqneRatEw51g,357
+pgldapsync/pgutils/connection.py,sha256=l7EB0EhX0CpfKRaWgFJjpEOSAP5DqMq11wwHLclQfNk,820
+pgldapsync/pgutils/roles.py,sha256=qkMqRGeedvnVNUw2dXCL8NfOS709J2Hb62DiDlYxijI,5971
+pgldapsync-1.0.0.dist-info/LICENSE,sha256=R8mRGx7V4rejfvIsdkCRCekZCSCs6lukeMeUnqJrp90,1006
+pgldapsync-1.0.0.dist-info/METADATA,sha256=S6c_xIiJ4ZdsO6zCt0sbill7Uu6mgxfxGB90z-dApJo,1744
+pgldapsync-1.0.0.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+pgldapsync-1.0.0.dist-info/entry_points.txt,sha256=f4KidkKAz8-Y9_rR0poxkARh9c-GRU-RIp1J7Iy-8DY,57
+pgldapsync-1.0.0.dist-info/top_level.txt,sha256=hVlHfEFSZjvCcCJ1aCqhR_Tjr_4_klA2XEU_AL10yv0,11
+pgldapsync-1.0.0.dist-info/RECORD,,

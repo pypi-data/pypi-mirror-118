@@ -1,0 +1,3 @@
+[console_scripts]
+pgldapsync = pgldapsync.__init__:main
+
