@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: sgraphic
+Version: 0.0.5
+Summary: Fast and simple graphics. 
+Home-page: https://github.com/ReneTC/Simple-graphics
+Author: Rene Czepluch Thomsen
+Author-email: sepluk1@gmail.com
+License: BSD
+Keywords: graphics package 2d
+Platform: UNKNOWN
+Requires-Dist: skia-python
+Requires-Dist: IPython
+Requires-Dist: PIL
+Requires-Dist: numpy
+Requires-Dist: easing-functions
+
+UNKNOWN
+
+

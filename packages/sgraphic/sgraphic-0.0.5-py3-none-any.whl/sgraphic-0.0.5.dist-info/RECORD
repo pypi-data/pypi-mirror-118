@@ -1,0 +1,10 @@
+sgraphic/__init__.py,sha256=X7IiqatUftThUbjoazzoN32YDk8vo_Hr_l08FF9MBtI,170
+sgraphic/animation.py,sha256=fSX7HK8EaFiEhx20Euiwbul78sZdkOn2b3KwVWOsaTc,2630
+sgraphic/helpers.py,sha256=-Qblakl2jJBmQr1fKGqEfM39Fk_WlrP7Jt62e36bWqM,326
+sgraphic/main.py,sha256=FFxwOjoYAOAoIuqpa6LGbEVXzBNjhWecnkATiMBELvc,8329
+src/__init__.py,sha256=6yuwIB5Ef-yhGF5YT4ecWn-p8ZW-xCxsa_zO39wDO8w,33
+sgraphic-0.0.5.dist-info/LICENSE,sha256=D2bisFO32V1xAjn5hyoA9tuexZf8KLJFvruVv30cA_Q,1062
+sgraphic-0.0.5.dist-info/METADATA,sha256=TmbhbnPynS2dFLdwYchsZLRN9NQJxBOPOoeltRy7uRc,397
+sgraphic-0.0.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+sgraphic-0.0.5.dist-info/top_level.txt,sha256=inoCS3XteIfCFK0UcVwXB3gGAopXtYm4ldGewSIQeDE,9
+sgraphic-0.0.5.dist-info/RECORD,,
