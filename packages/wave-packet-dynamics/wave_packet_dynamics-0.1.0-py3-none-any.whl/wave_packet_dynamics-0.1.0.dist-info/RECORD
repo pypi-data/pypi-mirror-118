@@ -1,0 +1,9 @@
+wave_packet_dynamics/__init__.py,sha256=aje1BT0fSzpx67iVNullBvFT62fbdAmIpeHh8-Kcquw,190
+wave_packet_dynamics/main.py,sha256=VAr9AFxH_UHuDf0ER9pxjgI8aNXGzRKXy9BW3dLs5LE,25904
+wave_packet_dynamics/potential.py,sha256=oX2Wk5yUjtmyLYbINaQLI70cooMZp4z1J5HIHxAPAMc,1474
+wave_packet_dynamics/wave_function.py,sha256=IAVySY8u5ff3gWXSOP8aOOJ_EkiO7IE8H-8H7ek3qVQ,852
+wave_packet_dynamics-0.1.0.dist-info/LICENSE,sha256=kphePnkmJU8JSHHLUZLEda6sXfBvN5h9iUdv1q1RCrU,1073
+wave_packet_dynamics-0.1.0.dist-info/METADATA,sha256=3hUo_BiK4HbtWZwza3IkbwIU2ic4yCS2NPBOfjtdmnE,1670
+wave_packet_dynamics-0.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+wave_packet_dynamics-0.1.0.dist-info/top_level.txt,sha256=y8kWM3sS-4QM-bcHzJqUyVgpvDoUWMCEFNIFVKkWf1Y,21
+wave_packet_dynamics-0.1.0.dist-info/RECORD,,
