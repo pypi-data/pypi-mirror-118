@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: spud-mc
+Version: 1.2
+Summary: A Minecraft Spigot plugin manager that adheres to the Unix philosophy and Python best practices
+Home-page: https://github.com/exciteabletom/spud
+Author: Tommy Dougiamas
+Author-email: tom@digitalnook.net
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: colorama
+Requires-Dist: PyYAML
+Requires-Dist: emoji
+Requires-Dist: beautifulsoup4
+
+# Spud
+[![GPLv3 License](https://www.gnu.org/graphics/gplv3-88x31.png)](https://www.gnu.org/licenses/gpl-3.0.en.html) [![GitHub Release](https://img.shields.io/github/release/exciteabletom/spud.svg?style=flat)](https://github.com/exciteabletom/spud/releases) [![PyPi Version](https://img.shields.io/pypi/v/spud-mc.svg)](https://pypi.python.org/pypi/spud-mc/)
+
+A cross-platform, [Spigot](https://www.spigotmc.org/) plugin manager that adheres to the
+[Unix philosophy](https://en.wikipedia.org/wiki/Unix_philosophy) and Python best practices.
+
+## Installation
+Python 3.8 or later is required
+
+Install with `python -m pip install spud-mc`
+
+Run `spud -h` to see all the options.
+
+
+## Example usages
+- Install a plugin: `spud install PluginName`
+- Install a plugin without prompting for input: `spud -n install PluginName`
+- Update all plugins in the working directory: `spud update`
+- Update all plugins in `~/server/plugins`: `spud -d ~/server/plugins update`
+- Update plugin `myplugin.jar`: `spud update myplugin.jar` or `spud update myplugin`
+
+## Known Issues
+- Some resources have lots of filler in the title. e.g. `[1.8-1.17] · PluginName |
+😃 😃 😃 | Epic Gaming Moments`.
+Spud tries its best to extract the plugin name, but it will fail if there is copious amounts of garbage in the title
+
+
+- Spud can't update plugins it has not installed. Make sure to install the plugin with Spud first, so it can save a metadata file to the jar.
+
+
+- Spud can't install resources not listed on https://spigotmc.org
+
+
+- Spud can't install premium resources
+
+## Acknowledgements
+Inspired by [pluGET](https://github.com/Neocky/pluGET)
+
+
