@@ -1,0 +1,3 @@
+[console_scripts]
+azup = azup.main:print_main
+
