@@ -1,0 +1,12 @@
+numpy
+opencv-python
+websocket-client
+scipy==1.4.1
+Pillow
+cython
+matplotlib
+tensorflow==2.5.0
+scikit-image==0.16.2
+h5py
+imgaug
+IPython[all]
