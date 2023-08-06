@@ -1,0 +1,22 @@
+version: '3'
+services:
+  map4_engine_web_backend:
+    image: registry.gitlab.com/mapiv/map4_engine_web/backend:latest
+    container_name: map4_engine_web_backend
+    ports:
+      - "5000:5000"
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock"    # Docker out of Docker
+      - "$PWD/file_storage:$PWD/file_storage"
+    environment:
+      - "FILE_STORAGE_PATH=$PWD/file_storage"
+      - "TZ=Asia/Tokyo"                                # Timezone
+    command: python3 server.py
+  map4_engine_web_frontend:
+    image: registry.gitlab.com/mapiv/map4_engine_web/frontend:latest
+    container_name: map4_engine_web_frontend
+    depends_on:
+      - map4_engine_web_backend
+    ports:
+      - "8000:8000"
+    command: serve -s build -l 8000
