@@ -1,0 +1,2 @@
+class FotMob():
+    pass

@@ -1,0 +1,8 @@
+README.md
+setup.py
+fotmob/__init__.py
+fotmob/fotmob.py
+fotmob.egg-info/PKG-INFO
+fotmob.egg-info/SOURCES.txt
+fotmob.egg-info/dependency_links.txt
+fotmob.egg-info/top_level.txt
