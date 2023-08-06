@@ -1,0 +1,9 @@
+LICENCE.txt
+README.txt
+setup.py
+pymathlibs/__init__.py
+pymathlibs/simpleoperators.py
+pymathlibs.egg-info/PKG-INFO
+pymathlibs.egg-info/SOURCES.txt
+pymathlibs.egg-info/dependency_links.txt
+pymathlibs.egg-info/top_level.txt

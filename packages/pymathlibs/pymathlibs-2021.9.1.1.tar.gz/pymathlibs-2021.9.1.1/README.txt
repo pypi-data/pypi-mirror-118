@@ -1,0 +1,1 @@
+PyMathLibs is a large math library in python. Used by many It contains ordanary math functions like add(1 + 1) sub(10 - 5). It also contains complex math functions like problem = equ(1, "+", "(", 10, "-", "7" ")"), and piify(pymathlibs.pi).

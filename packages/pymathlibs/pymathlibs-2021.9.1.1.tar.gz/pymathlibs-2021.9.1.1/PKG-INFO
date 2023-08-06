@@ -1,0 +1,27 @@
+Metadata-Version: 1.1
+Name: pymathlibs
+Version: 2021.9.1.1
+Summary: PyMathLibs is a free math library in python. This library contains most of the math class libs, and some other features.
+Home-page: UNKNOWN
+Author: NoobBit
+Author-email: noobbit90@gmail.com
+License: MIT
+Description: PyMathLibs is a large math library in python. Used by many It contains ordanary math functions like add(1 + 1) sub(10 - 5). It also contains complex math functions like problem = equ(1, "+", "(", 10, "-", "7" ")"), and piify(pymathlibs.pi).
+        
+        Change Log
+        ==========
+        
+        2021.9.1.0 (Tuesday, September 1 2021)
+        --------------------------------------
+        -First Release
+        
+        2021.9.1.1 (Tuesday, September 1 2021)
+        --------------------------------------
+        -Added Basic Operator Functions
+Keywords: math
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
