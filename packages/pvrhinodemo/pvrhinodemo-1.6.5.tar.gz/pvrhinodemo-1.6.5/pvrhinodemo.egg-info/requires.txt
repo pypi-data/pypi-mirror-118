@@ -1,0 +1,5 @@
+enum34
+numpy
+pvrecorder==1.0.0
+pvrhino==1.6.3
+soundfile
