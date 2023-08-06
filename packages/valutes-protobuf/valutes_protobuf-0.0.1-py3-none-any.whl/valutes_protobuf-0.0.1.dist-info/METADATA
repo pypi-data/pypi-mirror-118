@@ -1,0 +1,17 @@
+Metadata-Version: 2.0
+Name: valutes-protobuf
+Version: 0.0.1
+Summary: Protobuf-files for VisorLabs test task.
+Home-page: UNKNOWN
+Author: Oleg Tolkachev
+Author-email: blockbusted.dev@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+
+UNKNOWN
+
+
