@@ -1,0 +1,15 @@
+HISTORY.md
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+syndi/__init__.py
+syndi/core.py
+syndi.egg-info/PKG-INFO
+syndi.egg-info/SOURCES.txt
+syndi.egg-info/dependency_links.txt
+syndi.egg-info/entry_points.txt
+syndi.egg-info/not-zip-safe
+syndi.egg-info/requires.txt
+syndi.egg-info/top_level.txt
