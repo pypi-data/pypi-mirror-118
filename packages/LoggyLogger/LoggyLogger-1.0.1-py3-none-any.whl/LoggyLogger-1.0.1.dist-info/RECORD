@@ -1,0 +1,12 @@
+Loggy/Loggy.py,sha256=ZEEJVFQzPNRFwsBhMsKspMy9b0Sx9ZloggSrLzjrZdU,4973
+Loggy/__init__.py,sha256=3wPePSUmmtu98LGejjOq62EkchtqtWxRHPHmOfgcSmg,200
+Loggy/module/LogLevelEnum.py,sha256=K31ZFwWDkbe9IUcX-8Se95JNOXZE4Gs2dk5tb6xAZKM,154
+Loggy/module/LoggyTheme.py,sha256=0fjxpARHHAGypzPYiqR8f24aI1k_esAjDmX7ofVQoLI,3891
+Loggy/module/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Loggy/module/termcolor.py,sha256=OQYlYGVAKxWOtv7JxIiSEv-vJv5FCEa633FTzMerY7I,5044
+Loggy/theme/ClassicTheme.py,sha256=YiPzOgKO8nAbSZdAV2dklxsEp-O8mHiQ-rBGSlOR3ls,3931
+Loggy/theme/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+LoggyLogger-1.0.1.dist-info/METADATA,sha256=mFjp6ByvrrooUNDTXJPr-cD0PiTQ-lDHPQML12U-mfU,4106
+LoggyLogger-1.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+LoggyLogger-1.0.1.dist-info/top_level.txt,sha256=YooocgfcLIdImNK_QkuOFW0jlHMCL62hgtqheXDFH0g,6
+LoggyLogger-1.0.1.dist-info/RECORD,,
