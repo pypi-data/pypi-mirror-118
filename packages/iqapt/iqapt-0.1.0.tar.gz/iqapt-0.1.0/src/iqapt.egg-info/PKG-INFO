@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: iqapt
+Version: 0.1.0
+Summary: A Image Quality Assessment Package based on PyTorch
+Home-page: https://github.com/winterYANGWT/IQAPT-Image_Quality_Assessment_PyTorch
+Author: Winteryan
+Author-email: Winteryan1998@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/winterYANGWT/IQAPT-Image_Quality_Assessment_PyTorch/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# IQAPT-Image_Quality_Assessment_Pytorch
+A Image Quality Assessment package based on PyTorch
+
+
