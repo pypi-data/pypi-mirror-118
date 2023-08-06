@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: imagee
+Version: 1.1
+Summary: Tool for image optimization
+Home-page: https://github.com/dev-muhammad/imagee
+Author: dev-muhammad
+Author-email: iam.markjobs@gmail.com
+License: MIT
+Keywords: image
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering :: Image Processing
+Description-Content-Type: text/markdown
+Requires-Dist: markdown
+Requires-Dist: Pillow
+
+# Imagee
+## Simple image optimization tool
+Install with pip
+```
+pip install imagee
+```
+Optimaze image with simple way
+
+```
+from imagee import Imagee
+image_path = "images/peach.jpg"
+output_path = "images/min_peach.png"
+im = Imagee()
+im.read(image_path)
+print(im.format)
+print(im.size)
+im.optimaze()
+print(im.optimized_size)
+print(im.optimization_rate)
+im.save(output_path)
+```
+
