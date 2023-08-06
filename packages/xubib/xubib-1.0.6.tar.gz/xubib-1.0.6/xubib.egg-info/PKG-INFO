@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: xubib
+Version: 1.0.6
+Summary: this is my first test
+Home-page: UNKNOWN
+Author: xushibo
+Author-email: 937207118@qq.com
+License: UNKNOWN
+Description: # test 
+        test is a good begin.
+        ## [author]
+            Jian Ding and Kun Chen and Shibo Xu
+        ## [email]
+            937207118@qq.com
+        
+        ## [Function]
+        - PythonList: 阿巴巴
+          
+        
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
