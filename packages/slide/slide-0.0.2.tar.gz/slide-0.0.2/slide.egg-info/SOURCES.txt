@@ -1,0 +1,16 @@
+LICENSE
+LICENSE copy
+README.md
+setup.cfg
+setup.py
+pandasy/__init__.py
+pandasy/dummy.py
+pandasy_version/__init__.py
+slide.egg-info/PKG-INFO
+slide.egg-info/SOURCES.txt
+slide.egg-info/dependency_links.txt
+slide.egg-info/requires.txt
+slide.egg-info/top_level.txt
+tests/__init__.py
+tests/pandasy/__init__.py
+tests/pandasy/test_dummy.py
