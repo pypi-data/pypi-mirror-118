@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: smart-enums
+Version: 0.1.0
+Summary: Contains a Result and Option enum similar to other languages like Rust, Haskell or Elm.
+Home-page: https://github.com/mawilms/smart-enums
+Author: Marius Wilms
+Author-email: info@mariuswilms.dev
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/mawilms/smart-enums/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Smart Enums
+
+Smart Enums is a small package to provide comfort enums from other languages like Rust, Haskell or Elm.
+
+There are currently two enums included. The `Result` and `Some` enum.
+Additional enums and functionality will be added in the future. This package is currently mostly for personal use but maybe someone else has use cases for it too. :blush: :relaxed:
+
+
