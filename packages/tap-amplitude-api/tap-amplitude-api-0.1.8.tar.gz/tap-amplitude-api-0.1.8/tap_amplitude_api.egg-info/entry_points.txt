@@ -1,0 +1,4 @@
+
+    [console_scripts]
+    tap-amplitude-api=tap_amplitude:main
+    
