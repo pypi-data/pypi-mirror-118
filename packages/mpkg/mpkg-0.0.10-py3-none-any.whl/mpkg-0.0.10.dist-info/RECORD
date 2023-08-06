@@ -1,0 +1,13 @@
+mpkg/__init__.py,sha256=op0YgbBDjpD8XP_2_aEIvFkIRz9w0nlrOp56GUt0XxQ,23
+mpkg/app.py,sha256=ZhotFJqksyjWH_IVeWV2Ndag3sxDgckepFFo-aFGNKs,9635
+mpkg/cli.py,sha256=hxo1L_q8ppi82dWzwECrvRUwS6YPvqhOohMWCh4LJbc,13356
+mpkg/common.py,sha256=TqikMpn_pmuiv0hqn1Lpd-RQcouPPiVwdLuronXc-cU,5589
+mpkg/config.py,sha256=WVl-N1u0MuzOUh7nveip-GsdG7kMQu7g6-o2qwlk1t8,1387
+mpkg/load.py,sha256=62V6yysKeForb7fQYEBgW0XJOmI-E5dSt7cRNO0BnAQ,10036
+mpkg/utils.py,sha256=bLwl7k_uxEbATZGjCgwizhrsmQ9XTZ_dGBCLsd1_6eA,12035
+mpkg-0.0.10.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+mpkg-0.0.10.dist-info/METADATA,sha256=KmzJeihJ4QxYpT7yGckW6NBTmExo5YxuzasyK1tXSGY,9229
+mpkg-0.0.10.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+mpkg-0.0.10.dist-info/entry_points.txt,sha256=nP6EcfrYgJHFPxIWRZD6NNpdFSCX0wIAevb63BcF7-E,39
+mpkg-0.0.10.dist-info/top_level.txt,sha256=HxygOBLsRk5yoCDEEz8rxuhgXsDq7p6a_DdCs8fmEhY,5
+mpkg-0.0.10.dist-info/RECORD,,
