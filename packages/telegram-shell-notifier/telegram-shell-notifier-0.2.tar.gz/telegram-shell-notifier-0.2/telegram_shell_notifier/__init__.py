@@ -1,0 +1,1 @@
+from telegram_shell_notifier.telegram_notifier import TelegramNotifier
