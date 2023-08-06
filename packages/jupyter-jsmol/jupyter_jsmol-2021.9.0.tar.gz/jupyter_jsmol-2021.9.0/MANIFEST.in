@@ -1,0 +1,34 @@
+include README.md
+
+# Javascript files
+include js/tsconfig.json
+include js/package.json
+include js/webpack.config.js
+include jupyter_jsmol/labextension/*.tgz
+
+# Documentation
+graft docs
+exclude docs/\#*
+prune site
+
+# Examples
+prune examples
+
+# Tests
+graft tests
+prune tests/build
+
+# Javascript files
+graft jupyter_jsmol/nbextension
+graft js/src
+graft js/css
+prune **/node_modules
+prune js/coverage
+prune js/lib
+
+# Patterns to exclude from any directory
+global-exclude *~
+global-exclude *.pyc
+global-exclude *.pyo
+global-exclude .git
+global-exclude .ipynb_checkpoints

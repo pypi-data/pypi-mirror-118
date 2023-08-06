@@ -1,0 +1,14 @@
+ipywidgets>=7.0.0
+
+[docs]
+mkdocs
+mkdocs-material
+
+[examples]
+ase
+matplotlib
+plotly
+
+[test]
+pytest>=4.6
+pytest-cov
