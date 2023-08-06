@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ebase"
+version = "0.1.1"
+description = "Deta Base engine for essencia organization."
+authors = ["arantesdv <arantesdv@me.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+starlette = "^0.16.0"
+deta = "^1.0.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
