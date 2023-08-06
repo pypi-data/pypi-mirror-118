@@ -1,0 +1,3 @@
+[console_scripts]
+prism_rerun = prism_rerun.command_line:main
+
