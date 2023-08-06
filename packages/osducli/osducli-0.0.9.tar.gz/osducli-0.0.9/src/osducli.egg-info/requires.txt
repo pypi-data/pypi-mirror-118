@@ -1,0 +1,4 @@
+knack==0.8.2
+osdu-sdk==0.0.3
+requests
+msal
