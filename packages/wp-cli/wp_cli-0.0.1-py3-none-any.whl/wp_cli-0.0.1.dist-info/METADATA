@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: wp-cli
+Version: 0.0.1
+Summary: A wrapper for WP CLI to use within Python scripts
+Home-page: https://github.com/wpsmith/wp-cli-python
+Author: Travis Smith
+Author-email: t@wpsmith.net
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/wpsmith/wp-cli-python/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# WP CLI for Python
+
+This is a simple example package. You can use
+[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
+
+
