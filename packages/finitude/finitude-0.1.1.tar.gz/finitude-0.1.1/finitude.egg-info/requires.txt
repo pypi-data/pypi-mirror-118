@@ -1,0 +1,3 @@
+pyserial
+prometheus_client
+PyYAML

@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+finitude.yml
+pyproject.toml
+setup.cfg
+finitude/__init__.py
+finitude/__main__.py
+finitude/finitude.py
+finitude/frames.py
+finitude/registers.py
+finitude/sniffserver.py
+finitude.egg-info/PKG-INFO
+finitude.egg-info/SOURCES.txt
+finitude.egg-info/dependency_links.txt
+finitude.egg-info/requires.txt
+finitude.egg-info/top_level.txt
