@@ -1,0 +1,11 @@
+readme.md
+release.sh
+setup.py
+zids/__main__.py
+zids/zids.py
+zids.egg-info/PKG-INFO
+zids.egg-info/SOURCES.txt
+zids.egg-info/dependency_links.txt
+zids.egg-info/entry_points.txt
+zids.egg-info/requires.txt
+zids.egg-info/top_level.txt
