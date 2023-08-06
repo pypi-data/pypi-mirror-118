@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: sutherland
+Version: 0.0.1
+Summary: Sutherland's Law for Viscosity
+Home-page: https://github.com/sadicesur/sutherland.git
+Author: Sadi Cesur
+Author-email: cesursadi@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/sadicesur/sutherland.git
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# [SUTHERLAND'S VISCOSITY MODEL](https://www.tandfonline.com/doi/abs/10.1080/14786449308620508)
+
+* William Sutherland's viscosity model calculated from reference temperature. 
+
+## Relevant Paper
+
+* William Sutherland (1893) LII. The viscosity of gases and molecular force ,Philosophical Magazine Series 5, 36:223, 507-531, DOI: 10.1080/14786449308620508
+
+
