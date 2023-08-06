@@ -1,0 +1,11 @@
+pytest
+pytest-runner
+pytest-xdist
+appdirs
+flake8
+colorama
+Click
+pandas
+pynastran
+femap-neutral-parser
+junit2html
