@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: transmitDB
+Version: 1.0
+Summary: transmit db structure and data
+Home-page: https://github.com/xiqiuyimeng/transmit_db
+Author: xiqiuyimeng
+Author-email: JEET847466569@163.com
+License: Apache v2
+Platform: UNKNOWN
+Requires-Python: >=3
+License-File: LICENSE
+Requires-Dist: loguru (==0.5.3)
+Requires-Dist: PyMySQL (==1.0.2)
+
+UNKNOWN
+
