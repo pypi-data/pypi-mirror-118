@@ -1,0 +1,10 @@
+LICENCE
+README.md
+pyproject.toml
+setup.cfg
+src/lobby/__init__.py
+src/lobby/client.py
+src/lobby_python.egg-info/PKG-INFO
+src/lobby_python.egg-info/SOURCES.txt
+src/lobby_python.egg-info/dependency_links.txt
+src/lobby_python.egg-info/top_level.txt

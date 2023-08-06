@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: lobby-python
+Version: 1.0.0
+Summary: Client for service discovery tool Lobby
+Home-page: https://github.com/by-cx/lobby-python
+Author: Adam Štrauch
+Author-email: cx@initd.cz
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/by-cx/lobby-python/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Natural Language :: English
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+# lobby-python
+
+This is a simple wrapper for Lobby's REST API interface that allows to list discovered
+servers and their labels and also update labels of the destination instance.
+
+Check [Lobby](https://gitea.ceperka.net/cx/lobby) for more information.
+
+## Example
+
+```python
+from lobby import Lobby
+import json
+
+lobby = Lobby(host="localhost", port=1313, token="", proto="http")
+
+response = lobby.add_labels(["service:ns", "service:smtp", "service:node", "backup:/srv/apps", "backup:/etc"])
+print(response)
+
+response = lobby.delete_labels(["service:node"])
+print(response)
+
+response = lobby.get_discovery()
+print(json.dumps(response, indent=2))
+
+response = lobby.get_discoveries()
+print(json.dumps(response, indent=2))
+```
+
+
