@@ -1,0 +1,12 @@
+preferences/__init__.py,sha256=J_1lwFAhHEBzM86x-esHlq2kXvTS5E-wBfbChAbz-60,193
+preferences/admin.py,sha256=cRsjq7KEOEJvGmhga0NwhWN5ruWLheAefE4Xe7YAwIw,1195
+preferences/context_processors.py,sha256=gMxdKvT3utgSK4kgPDE6eBx-cBuWZg3xMCE5WnTSbbw,238
+preferences/managers.py,sha256=gno8SBQMWM5BT1KE0dnLJfuagE25kUGCPYPMFxOs_aI,499
+preferences/models.py,sha256=DirFG0Ku8vBoZD85Lm3_43UyfjPBlTXLQRBKYHz1m6Y,874
+preferences/migrations/0001_initial.py,sha256=1Yw0dhfKIx4nksLjP6FNPBLAUsKM27e-GiQdnbAb_Qc,523
+preferences/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django3_preferences-0.0.1.dist-info/LICENSE,sha256=ek8KAdy6o6bJlTXVu195tpVDQ8KeipbAEAmz2O7d0lA,1569
+django3_preferences-0.0.1.dist-info/METADATA,sha256=bx_TGffmgQ8yFYnOcwGACjmkafH3kL1aXumiNqMxQlo,3921
+django3_preferences-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+django3_preferences-0.0.1.dist-info/top_level.txt,sha256=yRJeT0wpY-cTZlXHoaRyzTBvd9I0AkIN8xPfGiUyeVU,12
+django3_preferences-0.0.1.dist-info/RECORD,,
