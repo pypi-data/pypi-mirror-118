@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: minerl-wrappers
+Version: 0.1.2
+Summary: minerl-wrappers compiles common wrappers and standardizes code for reproducibility in the MineRL environment!
+Author: Julius Frost
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: PyYAML (>=5.4.1,<6.0.0)
+Requires-Dist: gym (>=0.18.3,<0.19.0)
+Requires-Dist: minerl (==0.4.1)
+Requires-Dist: numpy (>=1.21.0,<2.0.0)
+Requires-Dist: opencv-python (>=4.5.3,<5.0.0)
