@@ -1,0 +1,11 @@
+httpsuite/RFC.py,sha256=RLPkRmnS0L7lFx8ezYSA7YsgQAql-AwENWFizcTcWH8,6050
+httpsuite/__init__.py,sha256=MgN4v2EmT1EnOYHcJ8KvzXEptbxxRpknJNJ0zv0YRX0,45
+httpsuite/http.py,sha256=aAg7E0BNBkM35Re3aS12FTFVLKg8xWVT5MwsCHNfi4o,17003
+httpsuite/interface.py,sha256=L7EZc54rPSVBWbH9sd3Advvp0BE1dpGIicTcjEeY_v0,965
+httpsuite-1.2.0.dist-info/AUTHORS,sha256=1IuRPL-pYqNkffnRWk4YS72W12Qr3PxDnMst3nAB-1I,63
+httpsuite-1.2.0.dist-info/LICENSE,sha256=JXPN_UOETeAj7_APaTofTYtcD4DAKkdVTGAjfi6HMuM,1069
+httpsuite-1.2.0.dist-info/METADATA,sha256=tCSfo0qoOvaDEQ4dvs9ErsdFR1S0IB52UW7uSBPbGLE,5356
+httpsuite-1.2.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+httpsuite-1.2.0.dist-info/pbr.json,sha256=-IxYOXIhzJwV0pBjZdL6QFybB4l3OAjmKrX1oD8r038,47
+httpsuite-1.2.0.dist-info/top_level.txt,sha256=yomfJMEspPKttMFDdPjNB1wUcJGlPZwHGYJliKAwpFg,10
+httpsuite-1.2.0.dist-info/RECORD,,
