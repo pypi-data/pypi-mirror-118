@@ -1,0 +1,10 @@
+PyQt5<=5.15.4
+cx_Freeze<=6.7
+python_version<=3.6
+QtPy<=1.10.0
+qtconsole<=5.1.1
+qscintilla<=2.13.0
+plyer<=2.0.0
+
+[dev]
+pytest==6.2.4
