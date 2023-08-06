@@ -1,0 +1,12 @@
+LICENSE,sha256=t8n_O8-pXq7E0QG3KzykYr6nmpW_I8ak1jv_j1H9Jww,749
+guzzy/__init__.py,sha256=BSfQFHwsoZ-Wy4ePIemQ0E9PqLEbq5UeXlWTJm5ifsQ,545
+guzzy/__main__.py,sha256=5BjNuyet8AY-POwoF5rGt722rHQ7tJ0Vf0UFUfzzi-I,58
+guzzy/commands/diff.sh,sha256=pJKj-GX8pb_wq77-IUMWOyyfTGS4H_oV1h_1palpzC8,80
+guzzy/commands/files.sh,sha256=GtrYLCA08rJt-MoVtBtOPFst_g5oCIudbb_qxP0_j7c,360
+guzzy/commands/log.sh,sha256=acJ4rrgauYfUefO8j21-rjIYpbCJzP0Gk7m6-hPgjRw,329
+guzzy/commands/tags.sh,sha256=rDnRTlmrCs5nhwbrkUuMeQnTYliLbF7RKmyyUMVq0RU,122
+guzzy-0.1.4.dist-info/entry_points.txt,sha256=k1hh6Tmm05nEwt94vzfh36oBELLKuMBYrBBtxYk7-qw,36
+guzzy-0.1.4.dist-info/LICENSE,sha256=t8n_O8-pXq7E0QG3KzykYr6nmpW_I8ak1jv_j1H9Jww,749
+guzzy-0.1.4.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+guzzy-0.1.4.dist-info/METADATA,sha256=NJYKPGzBOdBRk0H6VsLVVUyOTVfFc3hjBljQbToXcq8,940
+guzzy-0.1.4.dist-info/RECORD,,
