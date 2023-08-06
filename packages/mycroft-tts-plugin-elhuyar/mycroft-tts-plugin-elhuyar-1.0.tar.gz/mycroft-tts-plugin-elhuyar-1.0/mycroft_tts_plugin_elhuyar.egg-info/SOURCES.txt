@@ -1,0 +1,11 @@
+LICENSE.txt
+README.rst
+setup.py
+mycroft_tts_plugin_elhuyar/__init__.py
+mycroft_tts_plugin_elhuyar.egg-info/PKG-INFO
+mycroft_tts_plugin_elhuyar.egg-info/SOURCES.txt
+mycroft_tts_plugin_elhuyar.egg-info/dependency_links.txt
+mycroft_tts_plugin_elhuyar.egg-info/entry_points.txt
+mycroft_tts_plugin_elhuyar.egg-info/requires.txt
+mycroft_tts_plugin_elhuyar.egg-info/top_level.txt
+mycroft_tts_plugin_elhuyar.egg-info/zip-safe
