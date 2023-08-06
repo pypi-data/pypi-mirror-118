@@ -1,0 +1,14 @@
+cohere/__init__.py,sha256=FUFx2Q36DBFLvdzwMO90aaENduC2bGiQHqy3srXS5ok,252
+cohere/best_choices.py,sha256=YYgwkvnTGfO_RJMnqJpSuGyHe0LcLQDC4rkYft-_30w,543
+cohere/client.py,sha256=cfXM-qcv1ciueM7SNMaQvPQf1Tz0VZVWSofZQl-XjOI,3617
+cohere/embeddings.py,sha256=eIZ7YuglocpJ44KOUETYo6j0sHWXIisVM3ubk0NhTUk,377
+cohere/error.py,sha256=-S66bPen7absrycf1PVuvCxjZjHBpZWhkpAjfEhyt2g,606
+cohere/generation.py,sha256=qJ2DF3P5fdOT58pwe6HAnvVS4fmqZgegkOdu5mtTdGY,336
+cohere/likelihoods.py,sha256=wRNlsZH2t7BjOQsXHGxghEZebe-VDw9LUSL8J-y5GBg,279
+cohere/response.py,sha256=BV88khKUQXzrBSbTtCmz3fSvrUJsejtWi5Fl5Jm0AG8,336
+cohere/similarities.py,sha256=-5KOS-6QQOd3Fy3cwid1LvWxWyRbxhQL6Pno4q6mVu8,377
+cohere-0.0.13.dist-info/LICENSE,sha256=UZd3kNwLM_FjJ8XO0cqzZbcjEYt10S1pgnZVjpgXd5A,1063
+cohere-0.0.13.dist-info/METADATA,sha256=Te5rNNPWAXDNuyKtZ3Otf95VocrSo0YEyThHK0G2eOI,2602
+cohere-0.0.13.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+cohere-0.0.13.dist-info/top_level.txt,sha256=m5EoStTZfmdhyNb7iYHKsttyNcmF1WyGc2Y28E23k1M,7
+cohere-0.0.13.dist-info/RECORD,,
