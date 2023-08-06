@@ -1,0 +1,14 @@
+shopify/__init__.py,sha256=Ufdhrz3WBKTudjTJhA8RcvWtlUC-YMNWr-kpy4CaU7g,1718
+shopify/base.py,sha256=jyTEYkb8u7LL53QBg4xCtoXeCg0HNPzod6xZ-iO998Y,8916
+shopify/cart.py,sha256=5fDkdRv5YxMDCRStcTkwr3hJeNZ9yMXVBkOEFSrdpmM,2440
+shopify/inventory_item.py,sha256=J_byTBaMPSFuP15hWg5VvtFyr79ysKLWU-zSX0KGe4I,1955
+shopify/location.py,sha256=_K9NGL-911fE8Er-62cOSMMZK_--_WmP93eKtuO16P4,1493
+shopify/order.py,sha256=h-ri8qyqYRRXK_-klfvl3PzL5Egg84fxnynZq-Iioy8,2984
+shopify/product.py,sha256=CVI_1gh0vM4uLgT06MnSeiN7E1a1hgC3m0ieHsafVsY,3779
+shopify/shop.py,sha256=H6zoJoOzsrbL10RVyWOU3yZTQ_40QUVe9cGUly9KgBQ,1473
+shopify/smart_collection.py,sha256=A3NTBWSV4tGweu3fuuTvDmCLSwWPCGgrZSsJdSVRXu8,2669
+shopify/webhook.py,sha256=QnWOS3GIFZivIOvHepP6dr1nN8mfg97bc3hyA1-NrYE,2189
+shopify_api-0.4.0.dist-info/METADATA,sha256=wTUlfvJiFYd2cpfogSsVHQ65FIw1FN7qPTLCKcqEAi8,1021
+shopify_api-0.4.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+shopify_api-0.4.0.dist-info/top_level.txt,sha256=QzBm7XrheP8UyMoVWMPlv1izeGa0yQef067FY9eCxUI,8
+shopify_api-0.4.0.dist-info/RECORD,,
