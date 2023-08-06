@@ -1,0 +1,17 @@
+jasmine_zinc/Avatar.py,sha256=OGHGGuTM-STGrbZeo7XSfaOp3ecZL3o8xomK-CeVL0A,332
+jasmine_zinc/Talk.py,sha256=xadUYW0FuTvwk7Y92TkyLib776gghbXJrVhJ5Rji2m4,1657
+jasmine_zinc/__init__.py,sha256=NGlxsmUjqy8a4tzAGTdzndu56OxzvPAJan6au1_k07A,488
+jasmine_zinc/add_talk_arguments.py,sha256=aYSGllbkf2hMy5tmmcsvejBbBtTSYzBWHka0DPZz5Ho,1116
+jasmine_zinc/get_avatars.py,sha256=csgObnzBo5AKqdgvPMlyPP_-hJ2EJErQh1k-akLwWZg,473
+jasmine_zinc/record_talk.py,sha256=3XLInv8YwwEEF9UWEqHfHt-1UkXxUgQo-eOfH9fXdlU,785
+jasmine_zinc/talk_on_server.py,sha256=vbd2G_V0SBbP3M_tsqruxqkUCO3kKywiRbX1B3sE850,684
+jasmine_zinc/scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jasmine_zinc/scripts/get_avatars.py,sha256=HHHncB00U5zDXWloE5GSUlIs9dUilA9Ev0ehr8p8sew,616
+jasmine_zinc/scripts/record_talk.py,sha256=buAgWekPbuoLu6iHXVpZhZcy9wFKoq2LQ10xpHYkbN0,1571
+jasmine_zinc/scripts/talk_on_server.py,sha256=bgrMctKqjVmT-5nagSGML-s6zIK-1Qi4383zIscXzIo,914
+jasmine_zinc-20210903.11.dist-info/LICENSE,sha256=MXyx83SSl48SedPI7ItVIjAAaXyujPDc2-93vpLPovM,1064
+jasmine_zinc-20210903.11.dist-info/METADATA,sha256=mKdF8OtDVc46029SUwZSszTqyy7XGiIXphDrY8Pkvdk,2649
+jasmine_zinc-20210903.11.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+jasmine_zinc-20210903.11.dist-info/entry_points.txt,sha256=PDhrcPItVz51Z43nllT3z0hysx3b0bJAolVnXKCIGng,193
+jasmine_zinc-20210903.11.dist-info/top_level.txt,sha256=vFhLOfhvNsNTIO6cOSuGKmLfBqQnzAiK8k814iXPqfM,13
+jasmine_zinc-20210903.11.dist-info/RECORD,,
