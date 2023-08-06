@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+color_palette.png
+setup.py
+src/test_yatts.py
+src/yatts.py
+src/yatts.egg-info/PKG-INFO
+src/yatts.egg-info/SOURCES.txt
+src/yatts.egg-info/dependency_links.txt
+src/yatts.egg-info/top_level.txt
