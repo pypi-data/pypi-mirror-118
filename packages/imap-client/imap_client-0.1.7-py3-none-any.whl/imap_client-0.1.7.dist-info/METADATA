@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: imap-client
+Version: 0.1.7
+Summary: Simple client providing an object interface for imaplib
+Home-page: https://github.com/dawidl022/imap-client
+Author: dawidl022
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# Simple IMAP Client object
+
+This is an IMAP client that encapsulates some of the most common interactions with `imaplib` into an object-oriented structure.
+
+### Installation
+
+```
+pip3 install imap-client
+```
+
+### Usage
+
+```python
+from imap_client import IMAPClient
+```
+
+
