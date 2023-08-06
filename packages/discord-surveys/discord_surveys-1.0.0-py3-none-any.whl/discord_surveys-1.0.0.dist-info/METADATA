@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: discord-surveys
+Version: 1.0.0
+Summary: A survey object that utilizes discord.py and discord-interactions.
+Home-page: https://github.com/refekt/discord-surveys
+Author: refekt
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/refekt/discord-surveys/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# SlashSurveys
+A survey object that utilizes discord.py and discord-interactions.
+
+# Usage
+`bot` -> `discord.Bot` or `discord.AutoShardedBot`
+
+`ctx` -> `discord_slash.context.SlashContext`
+
+`embed` -> `discord.Embed`
+
+`options` -> `str` and then converted to `SurveyOption`
+
+`timeout` -> `int`
+
+```py
+from discord_surveys import Survey
+
+async def survey(self, ctx: SlashContext, question: str, options: str):
+    await Survey(
+        bot=ctx.bot,
+        ctx=ctx,
+        question=question,
+        options=options
+    ).send()
+```
+
+
