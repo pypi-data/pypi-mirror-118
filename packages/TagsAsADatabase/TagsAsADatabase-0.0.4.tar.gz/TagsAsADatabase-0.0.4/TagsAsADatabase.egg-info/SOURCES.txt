@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+TagsAsADatabase/__init__.py
+TagsAsADatabase/database.py
+TagsAsADatabase.egg-info/PKG-INFO
+TagsAsADatabase.egg-info/SOURCES.txt
+TagsAsADatabase.egg-info/dependency_links.txt
+TagsAsADatabase.egg-info/requires.txt
+TagsAsADatabase.egg-info/top_level.txt
