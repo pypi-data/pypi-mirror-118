@@ -1,0 +1,6 @@
+README.md
+setup.py
+DataLeopard_Inventory_System_Scripts.egg-info/PKG-INFO
+DataLeopard_Inventory_System_Scripts.egg-info/SOURCES.txt
+DataLeopard_Inventory_System_Scripts.egg-info/dependency_links.txt
+DataLeopard_Inventory_System_Scripts.egg-info/top_level.txt
