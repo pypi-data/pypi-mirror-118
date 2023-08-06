@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: testing-pypi
+Version: 5.6
+Summary: testing stuff w/ poetry
+Home-page: https://github.com/cbonafin
+License: MIT
+Keywords: test
+Author: cbonafin
+Requires-Python: >=3.7.1,<4.0.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: fire (==0.4.0)
+Requires-Dist: pandas (>=1.3.0,<2.0.0)
+Project-URL: Repository, https://github.com/cbonafin
+Description-Content-Type: text/markdown
+
+# testing_pypi
+Just to do tests with:
+-  GitHub actions creating an enviormnent with poetry
+    - Automate testing
+    - Automate publishing
+-  Fire library for CLI
+
