@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+Dalpsy/src/Dalpsy.egg-info/PKG-INFO
+Dalpsy/src/Dalpsy.egg-info/SOURCES.txt
+Dalpsy/src/Dalpsy.egg-info/dependency_links.txt
+Dalpsy/src/Dalpsy.egg-info/requires.txt
+Dalpsy/src/Dalpsy.egg-info/top_level.txt
+Dalpsy/src/Dalpsy.egg-info/SOURCES.txt
