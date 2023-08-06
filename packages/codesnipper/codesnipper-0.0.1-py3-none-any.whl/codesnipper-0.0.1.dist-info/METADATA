@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: codesnipper
+Version: 0.0.1
+Summary: A lightweight framework for censoring student solutions files and extracting code + output
+Home-page: https://lab.compute.dtu.dk/tuhe/snipper
+Author: Tue Herlau
+Author-email: tuhe@dtu.dk
+License: UNKNOWN
+Project-URL: Bug Tracker, https://lab.compute.dtu.dk/tuhe/snipper/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: jinja2
+
+# Snip
+A lightweight framework for removing code from student solutions. Currently used at DTU. 
+
+
+
