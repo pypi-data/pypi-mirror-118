@@ -1,0 +1,16 @@
+docs/COLLABORATE.md,sha256=dbNcGpFnc1P-GO2_Cu0qU3y6hjHcUcHJPJ3hxYhOfsY,343
+docs/README.md,sha256=FacLkHTpLPUo9cbZMAul3-a9XmgnEgvvPrFOn5Bwc6c,809
+docs/refs.md,sha256=qKShl7REUDTn5_lOyUb9INEHoP3c-HxJAbXpS98coxc,11
+examples/cli.py,sha256=AsFLp71O1s9sxrYfmlIqbTaDfwTknVyAEgsN7ZnO9CY,982
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=zjN9iGWl02rn1pfrRmvQDBD49NNRb975hN_Z9__Zmas,170
+tests/test_factory.py,sha256=1jTdmLiuoX6Q7nuvROPu-H-7ViQsRakUNfofR05W_cM,553
+tests/test_names.py,sha256=ilZ1SboHHa3_Wdqzq6f-DW-9RNQePyvladQruCH1-Lg,509
+tests/test_singleton.py,sha256=aOpZzeMmOEEC07hdy9ITnBAhEjLjv3iAVgmC72H5dac,982
+vacuna/__init__.py,sha256=ObBz41FCnK6oBNmrJDGtCXNLx85OpjVTbrP_-prRTyU,3324
+vacuna/__version__.py,sha256=FVHPBGkfhbQDi_z3v0PiKJrXXqXOx0vGW_1VaqNJi7U,22
+vacuna/lazy.py,sha256=VtInlJGA1FJmzW-qe1IdZ3ObZNxwqO1Utn1OnS5T-5A,5192
+vacuna-0.2.0.dist-info/LICENSE,sha256=xt3kW88WvRa8xM35zK2SZtupxT_Y67a1pu850-aRje8,1085
+vacuna-0.2.0.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+vacuna-0.2.0.dist-info/METADATA,sha256=9_9Uvin6ZpoZKZfVdkU1GyI7JQ0_94lUGpRYMNFZgwE,1592
+vacuna-0.2.0.dist-info/RECORD,,
