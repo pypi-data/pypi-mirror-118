@@ -1,0 +1,326 @@
+{
+  "title": "EngineUploadMetadata",
+  "type": "object",
+  "properties": {
+    "project": {
+      "$ref": "#/definitions/ProjectMetaInput"
+    },
+    "subject": {
+      "$ref": "#/definitions/SubjectMetaInput"
+    },
+    "session": {
+      "$ref": "#/definitions/SessionMetaInput"
+    },
+    "acquisition": {
+      "$ref": "#/definitions/AcquisitionMetaInput"
+    },
+    "analysis": {
+      "$ref": "#/definitions/AnalysisMetaInput"
+    },
+    "type": {
+      "title": "Type",
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "definitions": {
+    "FileMetaInput": {
+      "title": "FileMetaInput",
+      "description": "User Input for creating a file",
+      "type": "object",
+      "properties": {
+        "name": {
+          "title": "Name",
+          "type": "string"
+        },
+        "size": {
+          "title": "Size",
+          "type": "integer"
+        },
+        "type": {
+          "title": "Type",
+          "type": "string"
+        },
+        "mimetype": {
+          "title": "Mimetype",
+          "type": "string"
+        },
+        "modality": {
+          "title": "Modality",
+          "pattern": "^[ 0-9a-zA-Z_-]{2,64}$",
+          "type": "string"
+        },
+        "classification": {
+          "title": "Classification",
+          "type": "object",
+          "additionalProperties": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "tags": {
+          "title": "Tags",
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "info": {
+          "title": "Info",
+          "type": "object"
+        },
+        "zip_member_count": {
+          "title": "Zip Member Count",
+          "type": "integer"
+        },
+        "deid_log_id": {
+          "title": "Deid Log Id",
+          "pattern": "[0-9a-f]{8}-([0-9a-f]{4}-){3}[0-9a-f]{12}",
+          "type": "string"
+        }
+      },
+      "required": [
+        "name"
+      ],
+      "additionalProperties": false
+    },
+    "ProjectMetaInput": {
+      "title": "ProjectMetaInput",
+      "type": "object",
+      "properties": {
+        "files": {
+          "title": "Files",
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/FileMetaInput"
+          }
+        },
+        "info": {
+          "title": "Info",
+          "type": "object"
+        },
+        "tags": {
+          "title": "Tags",
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "label": {
+          "title": "Label",
+          "type": "string"
+        }
+      }
+    },
+    "SubjectMetaInput": {
+      "title": "SubjectMetaInput",
+      "type": "object",
+      "properties": {
+        "label": {
+          "title": "Label",
+          "type": "string"
+        },
+        "code": {
+          "title": "Code",
+          "type": "string"
+        },
+        "project": {
+          "title": "Project",
+          "pattern": "^[0-9a-fA-F]{24}$",
+          "type": "string"
+        },
+        "master_code": {
+          "title": "Master Code",
+          "type": "string"
+        },
+        "info": {
+          "title": "Info",
+          "type": "object"
+        },
+        "age": {
+          "title": "Age",
+          "type": "integer"
+        },
+        "firstname": {
+          "title": "Firstname",
+          "pattern": "[^/]{0,64}",
+          "type": "string"
+        },
+        "lastname": {
+          "title": "Lastname",
+          "pattern": "[^/]{0,64}",
+          "type": "string"
+        },
+        "sex": {
+          "title": "Sex",
+          "pattern": "male|female|other|unknown",
+          "type": "string"
+        },
+        "race": {
+          "title": "Race",
+          "pattern": "American Indian or Alaska Native|Asian|Native Hawaiian or Other Pacific Islander|Black or African American|White|More Than One Race|Unknown or Not Reported",
+          "type": "string"
+        },
+        "ethnicity": {
+          "title": "Ethnicity",
+          "pattern": "Not Hispanic or Latino|Hispanic or Latino|Unknown or Not Reported",
+          "type": "string"
+        },
+        "files": {
+          "title": "Files",
+          "default": [],
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/FileMetaInput"
+          }
+        }
+      }
+    },
+    "SessionMetaInput": {
+      "title": "SessionMetaInput",
+      "type": "object",
+      "properties": {
+        "operator": {
+          "title": "Operator",
+          "type": "string"
+        },
+        "timestamp": {
+          "title": "Timestamp",
+          "type": "string",
+          "format": "date-time"
+        },
+        "timezone": {
+          "title": "Timezone",
+          "type": "string"
+        },
+        "info": {
+          "title": "Info",
+          "type": "object"
+        },
+        "subject": {
+          "$ref": "#/definitions/SubjectMetaInput"
+        },
+        "age": {
+          "title": "Age",
+          "type": "integer"
+        },
+        "weight": {
+          "title": "Weight",
+          "type": "number"
+        },
+        "tags": {
+          "title": "Tags",
+          "default": [],
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "files": {
+          "title": "Files",
+          "default": [],
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/FileMetaInput"
+          }
+        },
+        "label": {
+          "title": "Label",
+          "type": "string"
+        },
+        "uid": {
+          "title": "Uid",
+          "type": "string"
+        }
+      }
+    },
+    "AcquisitionMetaInput": {
+      "title": "AcquisitionMetaInput",
+      "type": "object",
+      "properties": {
+        "info": {
+          "title": "Info",
+          "type": "object"
+        },
+        "metadata": {
+          "title": "Metadata",
+          "type": "object"
+        },
+        "measurement": {
+          "title": "Measurement",
+          "type": "string"
+        },
+        "timestamp": {
+          "title": "Timestamp",
+          "type": "string",
+          "format": "date-time"
+        },
+        "timezone": {
+          "title": "Timezone",
+          "type": "string"
+        },
+        "tags": {
+          "title": "Tags",
+          "default": [],
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "files": {
+          "title": "Files",
+          "default": [],
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/FileMetaInput"
+          }
+        },
+        "uid": {
+          "title": "Uid",
+          "type": "string"
+        },
+        "label": {
+          "title": "Label",
+          "type": "string"
+        }
+      }
+    },
+    "AnalysisMetaInput": {
+      "title": "AnalysisMetaInput",
+      "type": "object",
+      "properties": {
+        "label": {
+          "title": "Label",
+          "type": "string"
+        },
+        "files": {
+          "title": "Files",
+          "default": [],
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/FileMetaInput"
+          }
+        },
+        "timestamp": {
+          "title": "Timestamp",
+          "type": "string",
+          "format": "date-time"
+        },
+        "tags": {
+          "title": "Tags",
+          "default": [],
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "info": {
+          "title": "Info",
+          "type": "object"
+        }
+      }
+    }
+  }
+}
