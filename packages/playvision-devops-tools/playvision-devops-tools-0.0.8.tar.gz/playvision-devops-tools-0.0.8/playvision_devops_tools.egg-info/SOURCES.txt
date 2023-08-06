@@ -1,0 +1,15 @@
+README.md
+setup.py
+playvision/__init__.py
+playvision/cli/__init__.py
+playvision/cli/main.py
+playvision/database/__init__.py
+playvision/database/couchbase.py
+playvision/storage/__init__.py
+playvision/storage/swift.py
+playvision_devops_tools.egg-info/PKG-INFO
+playvision_devops_tools.egg-info/SOURCES.txt
+playvision_devops_tools.egg-info/dependency_links.txt
+playvision_devops_tools.egg-info/entry_points.txt
+playvision_devops_tools.egg-info/requires.txt
+playvision_devops_tools.egg-info/top_level.txt
