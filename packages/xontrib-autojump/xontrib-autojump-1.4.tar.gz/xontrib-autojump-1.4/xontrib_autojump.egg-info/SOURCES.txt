@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+xontrib/autojump.py
+xontrib_autojump.egg-info/PKG-INFO
+xontrib_autojump.egg-info/SOURCES.txt
+xontrib_autojump.egg-info/dependency_links.txt
+xontrib_autojump.egg-info/top_level.txt
