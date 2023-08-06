@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+pandoc4ssg/__init__.py
+pandoc4ssg/dirStruct.py
+pandoc4ssg/pipeline.py
+pandoc4ssg/postHandler.py
+pandoc4ssg/utils.py
+pandoc4ssg.egg-info/PKG-INFO
+pandoc4ssg.egg-info/SOURCES.txt
+pandoc4ssg.egg-info/dependency_links.txt
+pandoc4ssg.egg-info/not-zip-safe
+pandoc4ssg.egg-info/requires.txt
+pandoc4ssg.egg-info/top_level.txt
