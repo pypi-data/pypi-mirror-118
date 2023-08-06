@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: bigninja
+Version: 0.0.3
+Summary: pyspark helpers
+Home-page: https://github.com/aloneguid/bigninja
+Author: Ivan Gavryliuk
+Author-email: aloneguid@outlook.com
+License: Apache-2.0
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# bigninja
+
+[![PyPI](https://img.shields.io/pypi/v/bigninja)](https://pypi.org/project/bigninja/) ![PyPI - License](https://img.shields.io/pypi/l/bigninja)
+
+PySpark helpers to maximise data engineer productivity. Follow [pain-driven development](https://deviq.com/practices/pain-driven-development) technique.
+
+## Setup
+
+After `pip install bigninja` start using it by
+
+```python
+from bigninja import *
+```
+
+BigNinja works by adding extension methods to Spark's DataFrame class. All the methods start with `bn_` prefix to avoid conflicts with built-in methods.
+
+## DataFrame
+
+### `.bn_select(*pattern: str), .bn_drop(*pattern: str)`
+
+Select/drop columns using a wildcard pattern i.e. `df.wc_select("co*")` returns columns starting with *co*. For instance:
+
+- `bn_select("ci*")` will select columns starting with `city`.
+- `bn_select("id*", "ci*")` with select both columns starting with `id` and `ci` and so on.
+
+### `.bn_display()`
+
+Is like `.show()` but `truncate` is set to `False` and arrays and structs are transformed to JSON so that you can read it.
+
+### `.bn_union(df: DataFrame)`
+
+Unions DataFrames, even if number of columns, their names and types don't match, by creating an overlap of columns from both datasets and filling missing values with null.
+
+## Etc
+
+- Inspired by [quinn]([MrPowers/quinn: pyspark methods to enhance developer productivity 📣 👯 🎉 (github.com)](https://github.com/MrPowers/quinn)). Most ideas are initially taken from there.
+
+
+
+
+
