@@ -1,0 +1,9 @@
+snektris/__init__.py,sha256=tyezOAC2Xia5qoDHpVvszVSgbi8bF_guqd9koFfimn8,40
+snektris/blocks.py,sha256=I4-Kjgeikv00cqegh_YOrxRx7F56iza9oY07WhbJexc,5944
+snektris/network.py,sha256=MpUu0O5iqj52TE326KPDpQ9EddfCLefvyRfAL2CgVkA,1648
+snektris/snektris.py,sha256=x5_gJT1zgMIRQcixO9m9xwsBE2v4qfPv9LDz-1uYWzo,6228
+snektris-0.0.3.dist-info/entry_points.txt,sha256=5wklMU0K5Ji7qQugXSsCFt9kh5YvWZ83LrzPYLqdruU,80
+snektris-0.0.3.dist-info/LICENSE,sha256=ljOS4DjXvqEo5VzGfdaRwgRZPbNScGBmfwyC8PChvmQ,32422
+snektris-0.0.3.dist-info/WHEEL,sha256=2adPsdwavOXlr3i4h108dwQdqKgJbVa5zTEEuD11F08,99
+snektris-0.0.3.dist-info/METADATA,sha256=_sHgi9nkmLHgQIj02dQIcvIrNUOR6k82n_YakrmiJRI,285
+snektris-0.0.3.dist-info/RECORD,,

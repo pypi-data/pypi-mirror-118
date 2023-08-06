@@ -1,0 +1,4 @@
+[console_scripts]
+snek_net=snektris.network:cli
+snektris=snektris.snektris:cli
+
