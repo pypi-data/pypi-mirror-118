@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: aprsd-weewx-plugin
+Version: 0.1.0
+Summary: HAM Radio APRSD that reports weather from a weewx weather station.
+Home-page: UNKNOWN
+Author: Walter A. Boring IV
+Author-email: waboring@hemna.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Topic :: Communications :: Ham Radio
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: pbr
+Requires-Dist: aprsd (>=2.1.0)
+Requires-Dist: requests
+Requires-Dist: paho-mqtt
+
+==================
+aprsd_weewx_plugin
+==================
+
+
+.. image:: https://img.shields.io/pypi/v/aprsd_weewx_plugin.svg
+        :target: https://pypi.python.org/pypi/aprsd_weewx_plugin
+
+.. image:: https://img.shields.io/travis/hemna/aprsd_weewx_plugin.svg
+        :target: https://travis-ci.com/hemna/aprsd_weewx_plugin
+
+.. image:: https://readthedocs.org/projects/aprsd-weewx-plugin/badge/?version=latest
+        :target: https://aprsd-weewx-plugin.readthedocs.io/en/latest/?version=latest
+        :alt: Documentation Status
+
+
+.. image:: https://pyup.io/repos/github/hemna/aprsd_weewx_plugin/shield.svg
+     :target: https://pyup.io/repos/github/hemna/aprsd_weewx_plugin/
+     :alt: Updates
+
+
+
+Ham Radio APRSD Weewx plugin for reporting weather from a weewx station
+
+
+* Free software: Apache Software License 2.0
+* Documentation: https://aprsd-weewx-plugin.readthedocs.io.
+
+
+Features
+--------
+
+* TODO
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+
+
+
