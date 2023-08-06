@@ -1,0 +1,164 @@
+Metadata-Version: 2.1
+Name: ice-moviepy
+Version: 0.0.9
+Summary: a package for extracting short subtitled clips from movies by subtitle.srt file.
+Home-page: UNKNOWN
+Author: Haj mammad
+Author-email: mbxeby@hi2.in
+License: MIT License
+Keywords: cut clip logo video editing audio compositing ffmpeg
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Multimedia
+Classifier: Topic :: Multimedia :: Sound/Audio
+Classifier: Topic :: Multimedia :: Sound/Audio :: Analysis
+Classifier: Topic :: Multimedia :: Video
+Classifier: Topic :: Multimedia :: Video :: Capture
+Classifier: Topic :: Multimedia :: Video :: Conversion
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: decorator (==4.4.2)
+Requires-Dist: imageio (==2.9.0)
+Requires-Dist: imageio-ffmpeg (==0.4.5)
+Requires-Dist: numpy (==1.21.2)
+Requires-Dist: proglog (==0.1.9)
+Requires-Dist: Pillow (==8.1.0)
+Requires-Dist: pysrt (==1.1.2)
+Provides-Extra: doc
+Requires-Dist: numpydoc (<2.0) ; extra == 'doc'
+Requires-Dist: Sphinx (==3.4.3) ; extra == 'doc'
+Requires-Dist: sphinx-rtd-theme (==0.5.1) ; extra == 'doc'
+Provides-Extra: lint
+Requires-Dist: black (>=20.8b1) ; extra == 'lint'
+Requires-Dist: flake8 (<4.0.0,>3.7.0) ; extra == 'lint'
+Requires-Dist: flake8-absolute-import (>=1.0) ; extra == 'lint'
+Requires-Dist: flake8-docstrings (>=1.5.0) ; extra == 'lint'
+Requires-Dist: flake8-rst-docstrings (>=0.0.14) ; extra == 'lint'
+Requires-Dist: flake8-implicit-str-concat (==0.2.0) ; extra == 'lint'
+Requires-Dist: isort (>=5.7.0) ; extra == 'lint'
+Requires-Dist: pre-commit (>=2.9.3) ; extra == 'lint'
+Provides-Extra: optional
+Requires-Dist: pygame (>=1.9.3) ; extra == 'optional'
+Requires-Dist: python-dotenv (>=0.10) ; extra == 'optional'
+Requires-Dist: opencv-python ; extra == 'optional'
+Requires-Dist: scikit-image ; extra == 'optional'
+Requires-Dist: scikit-learn ; extra == 'optional'
+Requires-Dist: scipy ; extra == 'optional'
+Requires-Dist: matplotlib ; extra == 'optional'
+Requires-Dist: youtube-dl ; extra == 'optional'
+Provides-Extra: test
+Requires-Dist: coveralls (<4.0,>=3.0) ; extra == 'test'
+Requires-Dist: pytest-cov (<3.0,>=2.5.1) ; extra == 'test'
+Requires-Dist: pytest (<7.0.0,>=3.0.0) ; extra == 'test'
+
+# ice-moviepy [![License: MIT](https://img.shields.io/badge/License-MIT-gree.svg)]
+
+
+
+
+
+a package for extracting short subtitled clips from movies by subtitle.srt file.
+
+
+
+## Installation
+
+
+
+Use the package manager [pip] to install ice-moviepy.
+
+
+
+```bash
+
+pip install ice-moviepy
+
+```
+
+
+
+## Usage
+
+given a movie with a srt file subtitle, cut some parts of subtitle.srt and paste them into another file, such as sub.srt and run the following: 
+
+
+
+```python
+
+import ice_moviepy
+
+
+
+ice_moviepy.subtitle2video("Video.mkv",'Sub.srt','logo.png')
+
+```
+
+or 
+
+
+
+```python
+
+ice_moviepy.subtitle2video("Video.mkv",'Sub.srt')
+
+```
+
+if you don't want to attach a watermark on it.
+
+
+
+## editing subtitle 
+
+you can colorize different parts of subtitle. for example you can use red{...}, blue{...}, yellow{...} and so on, to colorize your subtitle.
+
+
+
+Place an {end} at the end of the block you want to cut out as a separate clip.
+
+
+
+```
+
+9
+
+00:00:48,920 --> 00:00:51,151
+
+There are two
+
+kinds of pain.
+
+
+
+10
+
+00:00:51,280 --> 00:00:53,272
+
+The sort of pain
+
+blue{that makes} you strong
+
+
+
+11
+
+00:00:53,360 --> 00:00:57,240
+
+red{or useless} yellow{pain}, the purple{sort of}
+
+pain blue{that's} only orange{suffering}. {end}
+
+```
+
+
+
+![alt text](example.png)
+
