@@ -1,0 +1,8 @@
+ibmcloud_iam/__init__.py,sha256=daFRGCNCjO4bk4kblxZ0IDm1q6UWkrjBWsBC5D2hxBc,576
+ibmcloud_iam/pdp.py,sha256=chbFU3zNY-lqa6PMzVpFZq9zgvJ39D9yV0ejXQ3BBnU,3436
+ibmcloud_iam/token.py,sha256=XRxDZYqZm4NXHjvsSa32Ejf3lxwr8ZJefI87bvFO4yQ,2186
+ibmcloud_iam-0.1.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+ibmcloud_iam-0.1.2.dist-info/METADATA,sha256=5xJ02mRSkTAHRuKpBbcmu9URSlNDl-RuwL4cljSWBcw,3691
+ibmcloud_iam-0.1.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+ibmcloud_iam-0.1.2.dist-info/top_level.txt,sha256=EjZQY9bqiKVnJPft_15-_owFynDADaoI6qyHrqE-i4Y,13
+ibmcloud_iam-0.1.2.dist-info/RECORD,,
