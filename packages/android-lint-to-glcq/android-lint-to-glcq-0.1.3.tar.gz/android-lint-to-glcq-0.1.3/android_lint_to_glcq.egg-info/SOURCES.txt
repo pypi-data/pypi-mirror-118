@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+android_lint_to_glcq.egg-info/PKG-INFO
+android_lint_to_glcq.egg-info/SOURCES.txt
+android_lint_to_glcq.egg-info/dependency_links.txt
+android_lint_to_glcq.egg-info/entry_points.txt
+android_lint_to_glcq.egg-info/not-zip-safe
+android_lint_to_glcq.egg-info/top_level.txt
+androidllinttoglqc/__init__.py
+androidllinttoglqc/androidllinttoglqc.py
