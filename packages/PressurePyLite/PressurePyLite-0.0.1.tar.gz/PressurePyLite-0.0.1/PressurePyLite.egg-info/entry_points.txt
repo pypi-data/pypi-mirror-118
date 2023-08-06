@@ -1,0 +1,3 @@
+[console_scripts]
+PressurePyLite = PressurePy.main:main
+
