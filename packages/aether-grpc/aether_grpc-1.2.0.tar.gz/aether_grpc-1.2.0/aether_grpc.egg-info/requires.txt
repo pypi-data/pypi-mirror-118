@@ -1,0 +1,8 @@
+grpcio==1.39.0
+
+[dev]
+grpcio-tools==1.39.0
+black==21.8b0
+bump2version==1.0.1
+ipdb==0.13.9
+twine==3.4.2
