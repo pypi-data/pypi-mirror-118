@@ -1,0 +1,9 @@
+src/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+src/__main__.py,sha256=dbGvNhevkb4ztb-B7UbwizLX0rZ2cg-HYhHSIdTf5mk,59
+src/main.py,sha256=phYx1MnqqqX4f2Q4jQDUlHLrzeA1BLxZFj4H6hwt_kQ,321
+src/server.py,sha256=gKO83Nb22vVbFM5D7pikHp4JWFT8nWpmxJ4WSK7BO58,5248
+jc_udp_game-0.0.1.dist-info/METADATA,sha256=B4XexDvpnX2Zr4CtLPS-dQMUI5BCR511TnlIWDQDvTI,330
+jc_udp_game-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+jc_udp_game-0.0.1.dist-info/entry_points.txt,sha256=AwTIu9K8p4sShlS6Jx01Gj3BG4Qct_zzYKnr2AF3LTY,84
+jc_udp_game-0.0.1.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+jc_udp_game-0.0.1.dist-info/RECORD,,

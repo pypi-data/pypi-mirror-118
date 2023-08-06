@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: jc-udp-game
+Version: 0.0.1
+Summary: Multiplayer UDP game
+Home-page: https://jencat.pro
+Author: JenCat
+Author-email: jencat@jencat.pro
+License: MIT
+Keywords: game pygame udp multiplayer
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Utilities
+
+Multiplayer UDP game
+
+

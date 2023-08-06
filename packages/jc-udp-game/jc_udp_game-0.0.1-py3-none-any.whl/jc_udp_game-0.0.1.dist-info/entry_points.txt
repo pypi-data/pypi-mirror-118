@@ -1,0 +1,4 @@
+[console_scripts]
+jc-udp-game = src.main:run
+jc-udp-game-server = src.server:start
+
