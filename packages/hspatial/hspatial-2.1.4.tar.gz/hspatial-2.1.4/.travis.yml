@@ -1,0 +1,28 @@
+dist: focal
+
+language: python
+python:
+  - 3.8
+
+install:
+  - pip install --upgrade pip
+  - CPLUS_INCLUDE_PATH=/usr/include/gdal C_INCLUDE_PATH=/usr/include/gdal pip install 'gdal==3.0.4'
+  - pip install codecov coverage isort flake8 twine black
+  - python setup.py install
+
+addons:
+  apt:
+    packages:
+      - gdal-bin
+      - libgdal-dev
+
+script:
+ - black; black --check .
+ - flake8 --max-line-length=88 .
+ - isort --recursive --check-only --diff hspatial tests
+ - ./setup.py sdist bdist_wheel
+ - twine check dist/*
+ - coverage run --include="./*" --omit="docs/","*/tests/*","*/tests.py","setup.py" -m unittest -v
+
+after_success:
+  - codecov
