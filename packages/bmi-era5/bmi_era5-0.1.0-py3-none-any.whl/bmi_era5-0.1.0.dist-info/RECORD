@@ -1,0 +1,9 @@
+bmi_era5/__init__.py,sha256=RDiVkOQ3HkeamLw3kkR99dcrGNDuNZOVXmV9gC8vqp4,181
+bmi_era5/_version.py,sha256=CSPRLd813p-FyCNf-Dp63eLYfVF_1Z6b-3BR7iY5pto,498
+bmi_era5/bmi.py,sha256=N3g7eaNY2di0kG13XISOl2OYk9Uzzl19qPDwNMLv33Y,23914
+bmi_era5/utils.py,sha256=BAS6kQHaEzUU7io9qN4I3m2IrIumjVjwBM_KW4QSsBo,2732
+bmi_era5-0.1.0.dist-info/LICENSE.txt,sha256=3soh-RNmaj0mmv7RFFj5Q6-wkMly-GplrRNQu4Q78bQ,1065
+bmi_era5-0.1.0.dist-info/METADATA,sha256=xc-9RXrO1Jr6rmm2bwbi2L7WcQw2_dELKokso51gl6k,5785
+bmi_era5-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+bmi_era5-0.1.0.dist-info/top_level.txt,sha256=XEMn5zqUyG_7Xtay0ZWFakBkmP-zjTL7qAHDwOldDDc,9
+bmi_era5-0.1.0.dist-info/RECORD,,
