@@ -1,0 +1,13 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+vcetdspdcom/__init__.py
+vcetdspdcom/dcom.py
+vcetdspdcom/dsp.py
+vcetdspdcom.egg-info/PKG-INFO
+vcetdspdcom.egg-info/SOURCES.txt
+vcetdspdcom.egg-info/dependency_links.txt
+vcetdspdcom.egg-info/requires.txt
+vcetdspdcom.egg-info/top_level.txt
