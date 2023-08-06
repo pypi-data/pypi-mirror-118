@@ -1,0 +1,6 @@
+vacuna/__init__.py,sha256=fqv8x56KG1fthZaZsz0Q_21qkssEOPbpwtB75ANlSUA,3803
+vacuna/container.py,sha256=jVfiF5vFHVwS2iCstq4x3-NwQ5Yg0VbEvrzC91g5tZo,1249
+vacuna/lazy.py,sha256=Xn2mkRFrPOD3mebQ3dkDAdkAeI6TZcN70pQoRRAtSKU,5146
+vacuna-0.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+vacuna-0.1.0.dist-info/METADATA,sha256=dITctJCnAd0HWWW4RR-yLBgI2vCuk4d1JpiLdqm0AwA,526
+vacuna-0.1.0.dist-info/RECORD,,
