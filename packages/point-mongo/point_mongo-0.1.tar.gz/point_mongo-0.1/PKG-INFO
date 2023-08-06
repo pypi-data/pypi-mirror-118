@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: point_mongo
+Version: 0.1
+Summary: Library for connecting, fetching, filtering and sending back the point cloud data to MongoDB obtained using IWR6843ISK.
+Home-page: https://github.com/Aleena25/point_mongo
+Author: Aleena N A
+Author-email: aleenaalikhan06@gmail.com
+License: MIT
+Download-URL: https://github.com/Aleena25/point_mongo/archive/refs/tags/point_mongo-v_01.tar.gz
+Description: UNKNOWN
+Keywords: mongodb,pointclouddata,IWR6843ISK
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
