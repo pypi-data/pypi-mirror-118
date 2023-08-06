@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+pysrgrads/__init__.py
+pysrgrads/pysrgrads.py
+pysrgrads/salvar.png
+pysrgrads/testSRGrads.py
+pysrgrads.egg-info/PKG-INFO
+pysrgrads.egg-info/SOURCES.txt
+pysrgrads.egg-info/dependency_links.txt
+pysrgrads.egg-info/top_level.txt
