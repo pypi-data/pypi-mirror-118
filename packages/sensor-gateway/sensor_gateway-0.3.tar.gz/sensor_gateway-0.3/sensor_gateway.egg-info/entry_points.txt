@@ -1,0 +1,3 @@
+[console_scripts]
+sensor_gateway = sensor_gateway.__main__:main
+

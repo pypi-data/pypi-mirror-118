@@ -1,0 +1,12 @@
+README.md
+setup.py
+sensor_gateway/API.py
+sensor_gateway/USBSerial.py
+sensor_gateway/__init__.py
+sensor_gateway/__main__.py
+sensor_gateway.egg-info/PKG-INFO
+sensor_gateway.egg-info/SOURCES.txt
+sensor_gateway.egg-info/dependency_links.txt
+sensor_gateway.egg-info/entry_points.txt
+sensor_gateway.egg-info/requires.txt
+sensor_gateway.egg-info/top_level.txt
