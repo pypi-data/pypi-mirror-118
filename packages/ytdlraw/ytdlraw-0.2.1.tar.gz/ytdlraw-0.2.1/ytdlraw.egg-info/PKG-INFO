@@ -1,0 +1,29 @@
+Metadata-Version: 1.1
+Name: ytdlraw
+Version: 0.2.1
+Summary: A barebones YouTube Downloader
+Home-page: UNKNOWN
+Author: DS_Stift007
+Author-email: dsstif@icloud.org
+License: MIT
+Description: # YTDLraw
+        
+        ## Download YouTube Videos AND playlists in almost no time!
+        
+        Instead of typing long, annoying lines of code to download a YouTube Video,  
+        just use this Module!  
+        
+        Quick, reliable Downloads made possible with PyTube
+        
+        ChangeLog
+        =========
+        0.2.1 (05/09/21)
+        ----------------
+        - Initial Release
+Keywords: youtube,download,ytdl
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10 
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

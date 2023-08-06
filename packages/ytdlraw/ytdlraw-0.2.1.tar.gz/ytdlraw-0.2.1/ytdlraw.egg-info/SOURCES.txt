@@ -1,0 +1,11 @@
+LICENSE.md
+MANIFEST.in
+README.md
+setup.py
+ytdlraw/__init__.py
+ytdlraw/dl.py
+ytdlraw.egg-info/PKG-INFO
+ytdlraw.egg-info/SOURCES.txt
+ytdlraw.egg-info/dependency_links.txt
+ytdlraw.egg-info/requires.txt
+ytdlraw.egg-info/top_level.txt
