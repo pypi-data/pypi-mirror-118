@@ -1,0 +1,11 @@
+notify/__init__.py,sha256=082WH79xAoY4PBuNnAGaZN4B-sM26EuW4BF1xr2IR18,372
+notify/exceptions.py,sha256=PSgw-hrxhkSQoo7Ub5VlhzFH1ntwybfUZrm5XTV8ixw,109
+notify/mail.py,sha256=Q_BWOONSn8aq5O5-2FaRSBwsc1fdoacxOGcD-Yt6yGE,3263
+notify/teams.py,sha256=BOAfhU7yUX2eI5b25fYPHthSIge3T-eumJFaptj05vI,3440
+notify/types.py,sha256=OVmrbeW5iI-LcLtP1Xwt2lBno0P2TEyR_R8Z76ze2UM,94
+notify/utils.py,sha256=0H9GyGF05vbnyi3152TH2ZJmEGoX-l_oGWxQOIfjbB8,4183
+zyppnotify-0.2.1.dist-info/LICENSE,sha256=RNnTva-LCQ8EQYlJb6Wi7ZmJ3KBDaxDFFqAkOejiof0,1060
+zyppnotify-0.2.1.dist-info/METADATA,sha256=fZmvDE6H4h5-XQuSrWhqWPkzaZi2FI8qC-FlSFL2BwU,2915
+zyppnotify-0.2.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+zyppnotify-0.2.1.dist-info/top_level.txt,sha256=Kk6_ellnkvCS1o5NMa6G2vRgPmvON-4lzi9zajDOUfI,7
+zyppnotify-0.2.1.dist-info/RECORD,,
