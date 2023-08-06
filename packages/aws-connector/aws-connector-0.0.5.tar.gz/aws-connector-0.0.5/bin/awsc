@@ -1,0 +1,6 @@
+#!/usr/bin/env python3
+
+import aws_connector
+
+awsc = Menu()
+awsc.now()
