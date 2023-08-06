@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: dap-thrust
+Version: 0.0.5
+Summary: PYDAP
+Home-page: https://github.com/gitvipin/thrust
+Author: Vipin Sharma
+Author-email: sh.vipin@gmail.com
+License: UNKNOWN
+Description: # THRUST 
+        A PYDAP
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
