@@ -1,0 +1,10 @@
+reliquery/__init__.py,sha256=IUYMxmKz3n6agMVT0lzWIftrfGd4IFeS3Lyp0ZxZcY0,47
+reliquery/arrays.py,sha256=iBx15_B8aRrobzN1pgf2yyVJ8L5mQt7qKcW7PtviuX4,1057
+reliquery/relic.py,sha256=R6jW4iwqmiEbeudgrMk-AlJC8vkjzdXHbR0rMOGv8R8,2513
+reliquery/settings.py,sha256=2JV9EHmf0cMKK4f9h37iD8DVjeEAlJuQcX2-ZGEEuSk,630
+reliquery/storage.py,sha256=8i_e12KM35lIhstP9YTrHP1irYisuOr-jX5JvTxpSEs,5591
+reliquery-0.2.0.dist-info/LICENSE,sha256=I6owFrgBgoYga2gJwCykJA8m56VL83I-d3AZt1rxEjY,233
+reliquery-0.2.0.dist-info/METADATA,sha256=jdZ9zxl9PmSAwBCsBGsYwhRQrljuzeNA8RgueRGJz2E,368
+reliquery-0.2.0.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+reliquery-0.2.0.dist-info/top_level.txt,sha256=hn82E0BqxY02inIf7SLgy5gz23Uj_9dkGZMCkKO6A-Y,10
+reliquery-0.2.0.dist-info/RECORD,,
