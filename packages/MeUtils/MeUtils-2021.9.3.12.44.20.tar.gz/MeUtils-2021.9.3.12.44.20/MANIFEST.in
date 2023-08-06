@@ -1,0 +1,14 @@
+include LICENSE
+include README*
+
+recursive-exclude meutils *.pyc
+recursive-exclude meutils __pycache__
+
+recursive-include docs *
+recursive-include meutils/templates *
+
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
+
+
+recursive-include docs *.rst conf.py Makefile make.bat *.jpg *.png *.gif
