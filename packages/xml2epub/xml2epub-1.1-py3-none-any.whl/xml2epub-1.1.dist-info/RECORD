@@ -1,0 +1,14 @@
+xml2epub/__init__.py,sha256=4s5m5E4yfDxbmElE8RiFhwjzTR-Cq0tTQRoTkz7fu8M,166
+xml2epub/chapter.py,sha256=ggxXzo0XOEqbEb8njd6VrPRoVVP1dd6xuiHQKqbbk38,12892
+xml2epub/clean.py,sha256=9aet0fjo9fkrKKXM_T9pXU0jeo2dRBVUFX3EOdDcAh0,6505
+xml2epub/constants.py,sha256=mz1L93AlE3nlpS_GW8u2zLzu7-2R6DU176AnjuhI6to,1755
+xml2epub/epub.py,sha256=MjhhssLibwWddHvo7i8cN4dJt6ptHO4jlWOZQyWer7s,13220
+xml2epub/epub_templates/container.xml,sha256=V1ZOa27B_pHiT6DdxHYAsQ8p9e2gglSnNvth66JNtnE,263
+xml2epub/epub_templates/mimetype,sha256=5GjjUNEUPrZI9gx7C9YDEQHsBUSjYcp07O8laskB9Is,20
+xml2epub/epub_templates/opf.xml,sha256=9iZszOJSj128lgRuUQ--IhknB-U9haxLyfW4F3qksfc,1429
+xml2epub/epub_templates/toc.html,sha256=63Dr7b0drIXuyNXrM4tK6dXmQLoKx7nD7iYUw9ssU0Y,652
+xml2epub/epub_templates/toc_ncx.xml,sha256=dZdjnd_t5xJSoFPzyZz7hoCjdz0KktF9t05HDms0MiE,748
+xml2epub-1.1.dist-info/METADATA,sha256=kHPd1rPLFKtFwgvfgGKC_OaB9qP7Fp5PiPGUC8RMzVQ,1763
+xml2epub-1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+xml2epub-1.1.dist-info/top_level.txt,sha256=e4kd6EuGezpnArTxpm8fxnnKNdf7i3XaRxCNZvKalD0,9
+xml2epub-1.1.dist-info/RECORD,,
