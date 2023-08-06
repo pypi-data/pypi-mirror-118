@@ -1,0 +1,10 @@
+MANIFEST.in
+setup.py
+valutes_protobuf/__init__.py
+valutes_protobuf/get_dollar_rate_pb2.py
+valutes_protobuf/get_dollar_rate_twirp.py
+valutes_protobuf.egg-info/PKG-INFO
+valutes_protobuf.egg-info/SOURCES.txt
+valutes_protobuf.egg-info/dependency_links.txt
+valutes_protobuf.egg-info/entry_points.txt
+valutes_protobuf.egg-info/top_level.txt

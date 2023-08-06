@@ -1,0 +1,3 @@
+[console_scripts]
+init_proto_configs = init_proto_configs:main
+
