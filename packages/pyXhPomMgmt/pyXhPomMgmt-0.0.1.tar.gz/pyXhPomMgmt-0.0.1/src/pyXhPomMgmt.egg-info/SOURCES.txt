@@ -1,0 +1,13 @@
+README.md
+setup.py
+src/Dependency.py
+src/POM.py
+src/POMREPOS.py
+src/ScanDir.py
+src/pyXhPomMgmt.py
+src/pyXhPomMgmt.egg-info/PKG-INFO
+src/pyXhPomMgmt.egg-info/SOURCES.txt
+src/pyXhPomMgmt.egg-info/dependency_links.txt
+src/pyXhPomMgmt.egg-info/entry_points.txt
+src/pyXhPomMgmt.egg-info/requires.txt
+src/pyXhPomMgmt.egg-info/top_level.txt
