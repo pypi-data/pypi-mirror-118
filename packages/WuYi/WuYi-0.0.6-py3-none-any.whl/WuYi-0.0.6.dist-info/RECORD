@@ -1,0 +1,14 @@
+wuyi/__init__.py,sha256=ReOoJhjTFZ8HZ9kYgigtp7wPJQzCcw8pXCn84SMaI2c,303
+wuyi/__main__.py,sha256=v5wK9YI_qQRbETWe6aLZKq-2ZiaZR3BqPcU5Ijdqwt0,169
+wuyi/clustering/kmeans.py,sha256=SD5yi51TgoXjSp7MSKayKZjgonm2NP8sfxW46iojME8,187
+wuyi/core/distances.py,sha256=M5Ty5o0vzOP4VERFh1IrTuOlyFtU_vmq3z_ZwBu12Vs,357
+wuyi/core/tf-idf.py,sha256=6CM0xAw2-FkxTUrTcigBHgNKsY9I1reZqUfkU98mvcQ,313
+wuyi/metric/BLEU.py,sha256=QS__kIl-mxqyaVKtcrfK5aAzgVmHy4_INQEx-YAibUM,4081
+wuyi/metric/ROUGE.py,sha256=MbZZEKOHp_P_jqM0JEESX-YXIC93pqaUKQx4wI48ohU,3792
+wuyi/metric/rouge_score.py,sha256=UlsrYtauvnQayJn_WEH2YwpsF1XmSWVhigLb102m3gE,13172
+wuyi/tokenizers/BasicTokenizer.py,sha256=wBckuYnuYdyQd9uiBL017TXe2gkb635FMc_Cbw7CvGk,9627
+WuYi-0.0.6.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+WuYi-0.0.6.dist-info/METADATA,sha256=vDQkr_wPZojswtuI7t3NW_LYauOSrKd5WFvdGPtAh90,2081
+WuYi-0.0.6.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+WuYi-0.0.6.dist-info/top_level.txt,sha256=IsmgJtFY6aYxOWoyKPN4kWbbu3b_zw9r-p1Nk2Z-vcc,5
+WuYi-0.0.6.dist-info/RECORD,,
