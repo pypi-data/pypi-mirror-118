@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+pyfunc/__init__.py
+pyfunc/__main__.py
+pyfunc/errors.py
+pyfunc/invoke.py
+pyfunc/locate.py
+pyfunc_invoker.egg-info/PKG-INFO
+pyfunc_invoker.egg-info/SOURCES.txt
+pyfunc_invoker.egg-info/dependency_links.txt
+pyfunc_invoker.egg-info/requires.txt
+pyfunc_invoker.egg-info/top_level.txt
