@@ -1,0 +1,8 @@
+*~
+*.diff
+*.pyc
+
+docs/api
+build
+dist
+*.egg-info/

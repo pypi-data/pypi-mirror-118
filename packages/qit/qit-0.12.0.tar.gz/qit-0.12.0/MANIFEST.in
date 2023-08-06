@@ -1,0 +1,2 @@
+recursive-include docs *.rst *.bib conf.py Makefile
+prune docs/api
