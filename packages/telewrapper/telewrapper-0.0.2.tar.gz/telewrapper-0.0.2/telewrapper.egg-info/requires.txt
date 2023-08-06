@@ -1,0 +1,3 @@
+filehandling>=0.0.1
+omnitools>=0.0.1
+telethon>=0.0.1
