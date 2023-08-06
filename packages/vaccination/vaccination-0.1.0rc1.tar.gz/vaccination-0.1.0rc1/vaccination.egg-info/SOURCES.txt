@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+vaccination/__init__.py
+vaccination/__main__.py
+vaccination.egg-info/PKG-INFO
+vaccination.egg-info/SOURCES.txt
+vaccination.egg-info/dependency_links.txt
+vaccination.egg-info/entry_points.txt
+vaccination.egg-info/requires.txt
+vaccination.egg-info/top_level.txt
