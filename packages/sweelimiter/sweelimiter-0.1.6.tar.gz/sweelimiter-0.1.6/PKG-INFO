@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: sweelimiter
+Version: 0.1.6
+Summary: Limiter for fastapi
+Home-page: UNKNOWN
+Author: Maxim Besogonov
+Author-email: swifstail@gmail.com
+License: mpl-2.0
+Keywords: fastapi,starlette,ratelimit,limiter,redis
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+License-File: LICENSE.txt
+
+UNKNOWN
+
