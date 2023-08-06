@@ -1,0 +1,3 @@
+[console_scripts]
+exec=run:config_rmq
+
