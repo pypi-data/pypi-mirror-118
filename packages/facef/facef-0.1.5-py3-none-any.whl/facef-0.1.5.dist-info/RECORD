@@ -1,0 +1,15 @@
+facef/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+facef/detection.py,sha256=_V5AMPPic9tNeFDXynyY7gprmYt3KSY0_fg1-xHehn0,6864
+facef/distance.py,sha256=s0zHgM8yB7C23LB2WWM3-auBp1cRe_ISLSfsGNGCfsA,327
+facef/extraction.py,sha256=jlgFyVmnH3v4IxROeywr6OhzZlU92gXxLzhYFHsKC_A,666
+facef/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+facef/utils/model_utils.py,sha256=4IprcAC77i2I8x9bhF4WKrXHUnKIkFEV0qjIZ5j-_AA,4586
+facef/utils/ultra_light.py,sha256=ZB73EUcjobYrll7x-y5bNIOI7o1PHPtAIMsr-fdkWjk,4590
+facef/utils/mtcnntf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+facef/utils/mtcnntf/models.py,sha256=str24mV_6SBM43mhC8IaGDcUwcLHuGzNJwTX5lH2RRw,5018
+facef/utils/mtcnntf/utils.py,sha256=52qYw37_DBkkZxtdgDFsNdkK-UzXjqMtZnTTebFkoWA,9383
+facef-0.1.5.dist-info/LICENSE,sha256=XTZaMbMyjGe88i6Tb5wWW5TEv4LUD5NLWID7u2k1dkA,1072
+facef-0.1.5.dist-info/METADATA,sha256=KB4LLG95BRJQHE4MnLe0PI6N2WMhaWc0bH6mW1cRZkQ,1525
+facef-0.1.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+facef-0.1.5.dist-info/top_level.txt,sha256=xVgLlEWZnqKLik5tGu8Lhz6Oum5-QUwDfM5A3sr645A,6
+facef-0.1.5.dist-info/RECORD,,
