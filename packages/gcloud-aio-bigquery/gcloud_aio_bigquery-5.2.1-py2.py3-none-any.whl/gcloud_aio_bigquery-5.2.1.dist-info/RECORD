@@ -1,0 +1,15 @@
+gcloud_aio_bigquery-5.2.1-py3.9-nspkg.pth,sha256=bGEMtsEE-ubFTc0BV5U-qVH5QmXIvfU27SFd22s6zBk,1686
+gcloud/aio/bigquery/__init__.py,sha256=aXLnoyAEtFsd9ewezx31C1IVbdfKghyL20-e2n2v9Og,531
+gcloud/aio/bigquery/bigquery.py,sha256=R7yKhALoxew3b-DXMrJYNNFDfdFhUrTqIvKGWzKCTa8,19749
+gcloud/aio/bigquery/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/integration/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/integration/conftest.py,sha256=3L5FoG9v6_kP00OAOIAeYHWxQCryOZ-Qkc10ePFI1oM,527
+tests/integration/smoke_test.py,sha256=wp0XlSSXAPwFJrYIBbB5VJaGsNdT1lFg9Z5_329XuZI,3921
+tests/unit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/unit/bigquery_test.py,sha256=s4Eb2dxiwqgqmmQKkDD0E0yVA4QHDZlAp2PmJQwQ63U,1807
+gcloud_aio_bigquery-5.2.1.dist-info/LICENSE,sha256=5BNZKnocORweIzozcY2dB5Mf_d0MJP5VbpwdzL4ZjoM,1063
+gcloud_aio_bigquery-5.2.1.dist-info/METADATA,sha256=f769pSyyxKTb610GXUOFD5speVTizwdQAnS6-Q8t5RE,2526
+gcloud_aio_bigquery-5.2.1.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+gcloud_aio_bigquery-5.2.1.dist-info/namespace_packages.txt,sha256=-g45M0lNSIP1YnGVZdmhV1skM4SizE4Y8TV1arz1_38,18
+gcloud_aio_bigquery-5.2.1.dist-info/top_level.txt,sha256=sox9WnuebKsnnDxekC1Pd7Q7wUz_DL8DRjlHhthn-ik,13
+gcloud_aio_bigquery-5.2.1.dist-info/RECORD,,
