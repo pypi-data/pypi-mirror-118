@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+tapi_yandex_market/__init__.py
+tapi_yandex_market/exceptions.py
+tapi_yandex_market/helper.py
+tapi_yandex_market/resource_mapping.py
+tapi_yandex_market/tapi_yandex_market.py
+tapi_yandex_market/tapi_yandex_market.pyi
+tapi_yandex_market.egg-info/PKG-INFO
+tapi_yandex_market.egg-info/SOURCES.txt
+tapi_yandex_market.egg-info/dependency_links.txt
+tapi_yandex_market.egg-info/not-zip-safe
+tapi_yandex_market.egg-info/requires.txt
+tapi_yandex_market.egg-info/top_level.txt
