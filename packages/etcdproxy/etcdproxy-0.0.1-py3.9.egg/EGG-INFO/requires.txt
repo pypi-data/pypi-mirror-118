@@ -1,0 +1,3 @@
+etcd3>=0.12.0
+aetcd3>=0.1.0a7
+pyproxypattern>=0.0.1
