@@ -1,0 +1,4 @@
+[console_scripts]
+18nlang = i18n.lang.__main__
+i18n = i18n.lang.__main__
+
