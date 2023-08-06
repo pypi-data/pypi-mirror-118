@@ -1,0 +1,4 @@
+[console_scripts]
+git-ver = version_stamp.vmn:main
+vmn = version_stamp.vmn:main
+
