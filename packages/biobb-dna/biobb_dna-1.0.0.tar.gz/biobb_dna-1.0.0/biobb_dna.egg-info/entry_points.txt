@@ -1,0 +1,18 @@
+[console_scripts]
+biobb_avgstiff = biobb_dna.stiffness.average_stiffness:averagestiffness
+biobb_bimod = biobb_dna.dna.bimodality:helparbimodality
+biobb_bipopulations = biobb_dna.backbone.bipopulations:bipopulations
+biobb_bpstiff = biobb_dna.stiffness.basepair_stiffness:bpstiffness
+biobb_canal = biobb_dna.curvesplus.canal:canal
+biobb_canonicalag = biobb_dna.backbone.canonical_alpha_gamma:canonicalag
+biobb_curves = biobb_dna.curvesplus.curves:curves
+biobb_hpavg = biobb_dna.dna.averages:helparaverages
+biobb_hptimeseries = biobb_dna.dna.timeseries:helpartimeseries
+biobb_puckering = biobb_dna.backbone.puckering:puckering
+inter_bpcorr = biobb_dna.interbp_correlations.basepaircorrelation:basepaircorrelation
+inter_hpcorr = biobb_dna.interbp_correlations.helparcorrelation:helparcorrelation
+inter_seqcorr = biobb_dna.interbp_correlations.sequencecorrelation:sequencecorrelation
+intra_bpcorr = biobb_dna.intrabp_correlations.basepaircorrelation:basepaircorrelation
+intra_hpcorr = biobb_dna.intrabp_correlations.helparcorrelation:helparcorrelation
+intra_seqcorr = biobb_dna.intrabp_correlations.sequencecorrelation:sequencecorrelation
+

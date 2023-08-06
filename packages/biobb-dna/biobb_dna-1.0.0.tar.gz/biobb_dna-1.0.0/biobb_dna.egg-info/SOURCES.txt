@@ -1,0 +1,17 @@
+README.md
+setup.py
+biobb_dna/__init__.py
+biobb_dna.egg-info/PKG-INFO
+biobb_dna.egg-info/SOURCES.txt
+biobb_dna.egg-info/dependency_links.txt
+biobb_dna.egg-info/entry_points.txt
+biobb_dna.egg-info/requires.txt
+biobb_dna.egg-info/top_level.txt
+biobb_dna/curvesplus/__init__.py
+biobb_dna/curvesplus/canal.py
+biobb_dna/curvesplus/curves.py
+biobb_dna/dna/__init__.py
+biobb_dna/dna/averages.py
+biobb_dna/dna/bimodality.py
+biobb_dna/dna/timeseries.py
+biobb_dna/test/__init__.py
