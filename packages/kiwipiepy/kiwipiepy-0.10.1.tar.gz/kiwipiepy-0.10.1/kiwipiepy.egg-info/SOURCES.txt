@@ -1,0 +1,16 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+kiwipiepy/__init__.py
+kiwipiepy/__main__.py
+kiwipiepy/_version.py
+kiwipiepy/documentation.rst
+kiwipiepy.egg-info/PKG-INFO
+kiwipiepy.egg-info/SOURCES.txt
+kiwipiepy.egg-info/dependency_links.txt
+kiwipiepy.egg-info/requires.txt
+kiwipiepy.egg-info/top_level.txt
+src/KiwiPy.cpp
+src/PyDoc.h
+src/PyUtils.h
