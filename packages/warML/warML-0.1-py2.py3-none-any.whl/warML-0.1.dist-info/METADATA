@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: warML
+Version: 0.1
+Summary: ML package for those tired of finding the proper syntax
+Author-email: Alexandre Rozier <alexandre.rozier@lilo.org>
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: sklearn
