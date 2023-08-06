@@ -1,0 +1,54 @@
+from sphinx_needs_extensions import ServiceExtension
+from sphinx_needs_extensions.util import dict_undefined_set
+
+
+class CodebeamerService(ServiceExtension):
+    options = ['query', 'prefix']
+
+    def __init__(self, app, name, config, **kwargs):
+        self.app = app
+        self.name = name
+
+        # Set default values, if nothing got configured
+        dict_undefined_set(config, "url", "http://127.0.0.1:8080")
+        dict_undefined_set(config, "id_prefix", "CB_")
+        dict_undefined_set(config, "url_postfix", "/rest/v3/items/query")
+        dict_undefined_set(config, "content", "{{description}}")
+
+        mappings_default = {
+            'id': ['id'],
+            'type': ['typeName'],
+            'status': ['status', 'name'],
+            'title': ['name'],
+        }
+        dict_undefined_set(config, "mappings", mappings_default)
+
+        mappings_replaces_default = {
+            r'^Task$': 'task',
+            r'^Requirement$': 'req',
+            r'^Specification$': 'spec',
+            r'\\\\\\\\\\r\\n': '\n\n'
+        }
+        dict_undefined_set(config, "mappings_replaces", mappings_replaces_default)
+
+        super().__init__(config, **kwargs)
+
+    def request(self, options=None):
+        params = self._prepare_request(options)
+
+        request_params = {
+            "method": 'GET',
+            "url": params['url'],
+            "auth": params['auth'],
+            "params": {'queryString': params["query"]},
+        }
+
+        answer = self._send_request(request_params)
+        data = answer.json()['items']
+        need_data = self._extract_data(data, options)
+
+        return need_data
+
+
+class InvalidConfigException(BaseException):
+    pass

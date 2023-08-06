@@ -1,0 +1,10 @@
+sphinxcontrib/__init__.py,sha256=q3JNmHn0CMPtEqkMR40lkjKQzuWUtT39xIFUYJ-MKIE,56
+sphinxcontrib/needs_capri/__init__.py,sha256=QmnE40mOcEq1ZG1csacu0HhE9nnA8cidUeO6Oz6rxAc,64
+sphinxcontrib/needs_capri/needs_capri.py,sha256=nvCEyhNJgSmJSVT5XeR0CWhu4AfnzM2xlxBf_Yp0lO8,304
+sphinxcontrib/needs_capri/service/__init__.py,sha256=AyV9A7IItNHlQDc1MhP7rNXlxOO3zjYrIviLhqRLsNQ,75
+sphinxcontrib/needs_capri/service/codebeamer.py,sha256=fh9o4InJQ2lkwDiQm6-n_HcfC8XUatkYBZBq268pz48,1678
+sphinxcontrib/needs_capri/service/config.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sphinx_needs_capri-0.1.0.dist-info/LICENSE,sha256=M1-2oT_OgGj00Siz0jWQYPHYmh8gAyh7ZoHaylpIJbo,4340
+sphinx_needs_capri-0.1.0.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+sphinx_needs_capri-0.1.0.dist-info/METADATA,sha256=nKZA7fJnjWL2NBUMRcrUPskv_QdKsnZiaCw9JXGcHAE,3982
+sphinx_needs_capri-0.1.0.dist-info/RECORD,,
