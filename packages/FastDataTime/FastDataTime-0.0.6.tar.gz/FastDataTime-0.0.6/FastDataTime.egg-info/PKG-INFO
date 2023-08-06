@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: FastDataTime
+Version: 0.0.6
+Summary: Library for fast time output
+Home-page: https://codechina.csdn.net/qq_53280175/fastdatatime
+Author: PYmili
+Author-email: mc2005wj@163.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# FastDataTime 时间处理包 | Fastdatatime time processing package
+
+使用方法在作者的第三方仓库中，可以自行查看
+The usage method is in the author's third-party warehouse and can be used by yourself
+
+[codechina.csdn 教程链接|Tutorial links](https://codechina.csdn.net/qq_53280175/fastdatatime)
+
+
