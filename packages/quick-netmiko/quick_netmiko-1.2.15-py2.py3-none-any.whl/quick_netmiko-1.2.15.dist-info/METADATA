@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: quick-netmiko
+Version: 1.2.15
+Summary: This is a way to just get commands using Netmiko
+Home-page: https://quick-netmiko.readthedocs.io
+Author: Benjamin P. Trachtenberg
+Author-email: e_ben_75-python@yahoo.com
+License: The MIT License (MIT)
+Project-URL: Documentation, https://quick-netmiko.readthedocs.io/en/latest/
+Project-URL: Source, https://github.com/btr1975/quick_netmiko
+Project-URL: Tracker, https://github.com/btr1975/quick_netmiko/issues
+Keywords: ipv4 ip multicast unicast network engineer
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: BSD
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: netmiko (~=3.4.0)
+
+| BRANCH | STATUS |
+|---|---|
+| master | [![Unit-Testing, Coverage, Linting](https://github.com/btr1975/quick_netmiko/actions/workflows/test-coverage-lint.yml/badge.svg?branch=master)](https://github.com/btr1975/quick_netmiko/actions/workflows/test-coverage-lint.yml) |
+| develop | [![Unit-Testing, Coverage, Linting](https://github.com/btr1975/quick_netmiko/actions/workflows/test-coverage-lint.yml/badge.svg?branch=develop)](https://github.com/btr1975/quick_netmiko/actions/workflows/test-coverage-lint.yml) |
+
+[![Downloads](https://static.pepy.tech/personalized-badge/quick-netmiko?period=total&units=international_system&left_color=black&right_color=blue&left_text=Downloads)](https://pepy.tech/project/quick-netmiko)
+[![Supported Versions](https://img.shields.io/pypi/pyversions/quick-netmiko.svg)](https://pypi.org/project/quick-netmiko)
+
+# quick_netmiko
+Just a quick way to use Netmiko to get command output from devices
+
+
+
