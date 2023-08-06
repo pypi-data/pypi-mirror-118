@@ -1,0 +1,8 @@
+# bash/zsh complete
+argcomplete
+psprint
+pyyaml
+toml
+pandas
+matplotlib
+sklearn

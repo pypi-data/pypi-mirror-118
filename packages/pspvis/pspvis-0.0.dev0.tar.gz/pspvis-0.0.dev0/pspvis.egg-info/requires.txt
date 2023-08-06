@@ -1,0 +1,8 @@
+argcomplete
+sklearn
+PySide2
+psprint
+pyyaml
+toml
+pandas
+matplotlib
