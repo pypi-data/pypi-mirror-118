@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: pystopwatch
+Version: 1.0.2
+Summary: GUI StopWatch
+Home-page: https://github.com/huwns/pystopwatch
+Author: huwns
+Author-email: huwnss2@gmail.com
+License: BSD-3-Clause
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+
+===========
+PyStopwatch
+===========
+PyStopwatch is a simple GUI stopwatch application.
+
+
+Installation
+============
+PyStopwatch is published on `PyPI`__ and can be installed from there::
+    pip install pystopwatch
+
+__ https://pypi.org/project/pystopwatch/
+
+
