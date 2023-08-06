@@ -1,0 +1,11 @@
+atldld/__init__.py,sha256=4kJ9pxWXp-hdB3AmOpU20Jvhf1fvQkKlUd8M5y9rVWc,868
+atldld/base.py,sha256=Me9wXCuJyeuh9LBEyg5pdaCfEMZ1LpmE_gsNTZC6fR8,34445
+atldld/sync.py,sha256=MQqCeh1PCoNTVL6IpwejZd2V56zKIlPR5GCxvXNbgrY,26275
+atldld/utils.py,sha256=PKtJcyGlMv13zzFAEKazsEe1urrIaWHdu1sOW7Hus6M,15037
+atldld/version.py,sha256=pbV5IOchu4aA4Tgx3awO3VjK0ABCLPOOHKy2rbkRW7U,49
+atldld-0.2.2.dist-info/AUTHORS.md,sha256=tfG5JetqExFxyrchEDGntJCahCVvoJvq0YYzkBt4_t0,63
+atldld-0.2.2.dist-info/LICENSE.txt,sha256=6or154nLLU6bELzjh0mCreFjt0m2v72zLi3yHE0QbeE,7650
+atldld-0.2.2.dist-info/METADATA,sha256=Cd3a6u_WHB8Nq65Q38wyyLG_-gL0yEIzzdmOVFITZaU,809
+atldld-0.2.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+atldld-0.2.2.dist-info/top_level.txt,sha256=VmBvfHEV-IqSvI_9WzhGNObQlwlDx6q8ke3tCetwyeY,7
+atldld-0.2.2.dist-info/RECORD,,

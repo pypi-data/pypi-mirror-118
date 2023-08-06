@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: atldld
+Version: 0.2.2
+Summary: UNKNOWN
+Home-page: https://github.com/BlueBrain/Atlas-Download-Tools
+Author: Blue Brain Project, EPFL
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+License-File: LICENSE.txt
+License-File: AUTHORS.md
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: pandas
+Requires-Dist: requests
+Requires-Dist: scikit-image
+Provides-Extra: dev
+Requires-Dist: bandit ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: pydocstyle ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: pytest-mock ; extra == 'dev'
+Requires-Dist: tox ; extra == 'dev'
+
+UNKNOWN
+
