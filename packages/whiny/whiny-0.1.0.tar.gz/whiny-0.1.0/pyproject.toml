@@ -1,0 +1,61 @@
+
+[tool.poetry]
+name = "whiny"
+version = "0.1.0"
+description = "Simple validation leveraging Python's descriptor protocol."
+authors = ["rednafi <redowan.nafi@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/rednafi/whiny"
+repository = "https://github.com/rednafi/whiny"
+keywords = ["python", "validation", "data", "json"]
+
+classifiers = [
+    "Environment :: Console",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Software Development :: Quality Assurance",
+]
+
+include = ["LICENSE"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+# CLI entrypoints
+[tool.poetry.scripts]
+whiny = "whiny.__main__:Foo"
+
+
+# Linter configuruation.
+[tool.isort]
+profile = "black"
+atomic = true
+extend_skip_glob = "migrations,scripts"
+line_length = 88
+
+
+[tool.black]
+extend-exclude = "migrations,scripts"
+
+
+[tool.mypy]
+follow_imports = "skip"
+ignore_missing_imports = true
+warn_no_return = false
+warn_unused_ignores = true
+allow_untyped_globals = true
+allow_redefinition = true
+pretty = true
+
+
+[[tool.mypy.overrides]]
+module = "tests.*"
+ignore_errors = true
