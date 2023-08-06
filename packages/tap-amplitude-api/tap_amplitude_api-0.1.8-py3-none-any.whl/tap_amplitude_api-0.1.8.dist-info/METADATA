@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: tap-amplitude-api
+Version: 0.1.8
+Summary: Singer.io tap for extracting date from amplitude via API
+Home-page: https://github.com/fridgenomore/singer-tap-amplitude 
+Author: FNM, ashalitkin
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 :: Only
+License-File: LICENSE
+Requires-Dist: singer-python
+Requires-Dist: requests
+
+UNKNOWN
+
