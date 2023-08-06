@@ -1,0 +1,3 @@
+[console_scripts]
+hvor=hvor.console:main
+

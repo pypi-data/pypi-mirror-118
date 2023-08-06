@@ -1,0 +1,12 @@
+hvor/__init__.py,sha256=b7EWwevpUPvbnGk3YDoibWwlIDv5TUHVcEonrDLAa_8,66
+hvor/console.py,sha256=-fQur1r1pvNjEYuoDnkrrUpTQgwwQbnAdJMyWwdGY5M,951
+hvor/data.py,sha256=B6D97uS8gYLk1TpPFaXpILF_s9V8t7AfFCA6tjl1ruw,897
+hvor/geolocator.py,sha256=M7MlPAjTqPS52anH57quQI7Dc0BOzPjMhg6WOELcfco,943
+hvor/hvor.py,sha256=2WNkgy_8EYt3AJtyWcB7V_H9bIFUwaMabowHP_GIJCA,2454
+hvor/resources/Fylker-2020-large.json.bz2,sha256=hwR4MOt_7bFHUSNaryL6pjpZmEq5GM1K7mPpPJC6rbo,602567
+hvor/resources/Kommuner-2020-large.json.bz2,sha256=SzT8kOteZQ2YMHQ2J89zalbaTcVha6fGlngJqWcsHAI,1103416
+hvor-0.2.0.dist-info/entry_points.txt,sha256=W4DYXbcYskyDAtbD8rOgg81H2AR8VW-WJ_me2lHmhTo,42
+hvor-0.2.0.dist-info/LICENSE,sha256=DJsOLTMDPrY_rhzbJGnypIPLbGpaffZaXg4-tkDEYug,7441
+hvor-0.2.0.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+hvor-0.2.0.dist-info/METADATA,sha256=bqiwwan44F7agp631Dp-O6LgHpfwAHXysE0_ZVWHASA,2519
+hvor-0.2.0.dist-info/RECORD,,
