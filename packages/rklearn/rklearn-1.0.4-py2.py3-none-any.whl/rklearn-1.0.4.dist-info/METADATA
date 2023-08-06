@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: rklearn
+Version: 1.0.4
+Summary: The Régis Kla ML package
+Home-page: http://xxxxxx
+Author: Régis KLA
+Author-email: klaregis@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.0.*
+License-File: LICENSE
+
+NO README.
+
