@@ -1,0 +1,3 @@
+[console_scripts]
+happy-ci = happyci:main
+

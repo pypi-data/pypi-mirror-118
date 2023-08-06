@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: happy-ci
+Version: 0.1.0
+Summary: A lightweight CI/CD program
+Home-page: https://gitee.com/xing-phil/happy-ci
+Author: Xing Fei
+Author-email: xfei-q@qq.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://gitee.com/xing-phil/happy-ci/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: PyYAML
+
+# Happy CI
+
+happy-ci is a lightweight CI/CD program.
+
+It comes along with a simple plugin system, aims to make CI/CD very happy ^_^.
+
+ # Features will be implemented
+ 1. basic features of a ci runner.
+ 1. make it a cluster, including master and runner.
+ 1. a web based user interface
+ 
+ # Notice
+ this project is at it's very early age, use it at your own risk.
+
