@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.cfg
+src/Qnverter/__init__.py
+src/Qnverter.egg-info/PKG-INFO
+src/Qnverter.egg-info/SOURCES.txt
+src/Qnverter.egg-info/dependency_links.txt
+src/Qnverter.egg-info/top_level.txt
