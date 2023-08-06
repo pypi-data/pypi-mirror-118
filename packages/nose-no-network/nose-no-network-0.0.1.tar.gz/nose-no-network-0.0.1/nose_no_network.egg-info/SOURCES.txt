@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+nose_no_network.egg-info/PKG-INFO
+nose_no_network.egg-info/SOURCES.txt
+nose_no_network.egg-info/dependency_links.txt
+nose_no_network.egg-info/entry_points.txt
+nose_no_network.egg-info/requires.txt
+nose_no_network.egg-info/top_level.txt
+nosenonetwork/__init__.py

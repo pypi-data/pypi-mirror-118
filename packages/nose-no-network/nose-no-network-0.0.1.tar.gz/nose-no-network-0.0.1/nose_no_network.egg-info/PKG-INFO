@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: nose-no-network
+Version: 0.0.1
+Summary: A plugin for nosetests that disables network access
+Home-page: https://github.com/ross/nose-no-network
+Author: Ross McFarland
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Testing
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Simplest possible [nose](https://nose.readthedocs.io/en/latest/) plugin to
+disable network access during tests. 
+
+## Installation
+
+```console
+pip install nose-no-network
+```
+
+## Usage
+
+```console
+nosetests --with-no-network ...
+```
+
+## How it works
+
+nose-no-tests works by monkey patching `socket.socket` to throw an exception.
+
+## License
+
+nose-no-network is licensed under the MIT license.
+
+## Authors
+
+* [Ross McFarland](https://github.com/ross)
+
+
