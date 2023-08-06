@@ -1,0 +1,12 @@
+README.md
+setup.py
+nflschedule/__init__.py
+nflschedule/dates.py
+nflschedule/nflschedule.py
+nflschedule.egg-info/PKG-INFO
+nflschedule.egg-info/SOURCES.txt
+nflschedule.egg-info/dependency_links.txt
+nflschedule.egg-info/not-zip-safe
+nflschedule.egg-info/requires.txt
+nflschedule.egg-info/top_level.txt
+nflschedule/data/schedule.csv
