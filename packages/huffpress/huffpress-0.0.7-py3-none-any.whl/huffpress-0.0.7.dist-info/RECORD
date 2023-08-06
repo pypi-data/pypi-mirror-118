@@ -1,0 +1,10 @@
+huffpress/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+huffpress/compress.py,sha256=hLmQy6c-YmxWG5Mw_X1ClPiRKsXcsbJvpKBN87aBWgk,2828
+huffpress/decompress.py,sha256=fT3ACBpgC7of8WuazMMKcrBaocsz7s_HR8VBwaxmrDw,2714
+huffpress/generic.py,sha256=ssen1sKXvLwogRIWBp-k-7Wqz2Hn-OIaSkvJP7CkFNg,402
+huffpress/huffman.py,sha256=P1TRYm_olwIHeU1-p99V8y1yMHn__VHipmIDNGF6aQg,3376
+huffpress-0.0.7.dist-info/LICENSE,sha256=Kgqb0h8SCHfqO5dbSia2fGXPNKzxIyQj2Mp2K2qU2ME,1072
+huffpress-0.0.7.dist-info/METADATA,sha256=XwUHkFOTuzNmj-uD7G2_fJFVkW8O6DTI5jtE84h4Kek,841
+huffpress-0.0.7.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+huffpress-0.0.7.dist-info/top_level.txt,sha256=ZGnN96kjOEcf6EMD9vwJFORJ5juFGpYlVFkJBm9OSao,10
+huffpress-0.0.7.dist-info/RECORD,,
