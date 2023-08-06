@@ -1,0 +1,13 @@
+biosimulators_utils[logging,sbml]>=0.1.114
+kisao
+pandas
+
+[all]
+numpy
+python_dateutil
+
+[docs]
+
+[tests]
+numpy
+python_dateutil
