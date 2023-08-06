@@ -1,0 +1,5 @@
+include README.rst
+include cities.gz
+include fuzzyset/cfuzzyset.c
+recursive-include fuzzyset *
+recursive-include tests *
