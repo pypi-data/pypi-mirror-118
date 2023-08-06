@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+fiixclient/__init__.py
+fiixclient/client.py
+fiixclient.egg-info/PKG-INFO
+fiixclient.egg-info/SOURCES.txt
+fiixclient.egg-info/dependency_links.txt
+fiixclient.egg-info/requires.txt
+fiixclient.egg-info/top_level.txt
