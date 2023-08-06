@@ -1,0 +1,3 @@
+[console_scripts]
+viperthonix = viperthonix.__main__:main
+
