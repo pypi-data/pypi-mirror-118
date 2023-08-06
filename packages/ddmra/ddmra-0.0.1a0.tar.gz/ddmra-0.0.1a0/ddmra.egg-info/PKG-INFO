@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: ddmra
+Version: 0.0.1a0
+Summary: A Python package for distance-dependent motion-related artifact (DDMRA) analysis.
+Home-page: https://github.com/ME-ICA/ddmra
+Author: Taylor Salo
+Author-email: tsalo006@fiu.edu
+Maintainer: Taylor Salo
+Maintainer-email: tsalo006@fiu.edu
+License: LGPL 2.1
+Download-URL: https://github.com/tsalo/ddmra/archive/v0.0.1a.tar.gz
+Description: # ddmra
+        
+        [![Latest Version](https://img.shields.io/pypi/v/ddmra.svg)](https://pypi.python.org/pypi/ddmra/)
+        [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/ddmra.svg)](https://pypi.python.org/pypi/ddmra/)
+        [![DOI](https://zenodo.org/badge/110845855.svg)](https://zenodo.org/badge/latestdoi/110845855)
+        [![License](https://img.shields.io/badge/License-LGPL%202.1-blue.svg)](https://opensource.org/licenses/LGPL-2.1)
+        [![CircleCI](https://circleci.com/gh/ME-ICA/ddmra.svg?style=shield)](https://circleci.com/gh/ME-ICA/ddmra)
+        [![Documentation Status](https://readthedocs.org/projects/ddmra/badge/?version=latest)](http://ddmra.readthedocs.io/en/latest/?badge=latest)
+        [![Codecov](https://codecov.io/gh/me-ica/ddmra/branch/main/graph/badge.svg)](https://codecov.io/gh/me-ica/ddmra)
+        
+        Code for running distance-dependent motion-related artifact analyses in Python
+        
+        We've chosen to model our DDMRA approach off of the analyses performed in
+        [Power et al. (2018)](https://doi.org/10.1073/pnas.1720985115), with some changes.
+        
+        ## Example results
+        
+        <img src="docs/_static/example_results.png" alt="Example results" width="200"/>
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: doc
+Provides-Extra: tests
+Provides-Extra: duecredit
+Provides-Extra: all
