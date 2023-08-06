@@ -1,0 +1,3 @@
+[console_scripts]
+appiumrun = appiumrunner.cli:main
+
