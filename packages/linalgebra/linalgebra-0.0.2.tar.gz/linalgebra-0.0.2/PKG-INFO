@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: linalgebra
+Version: 0.0.2
+Summary: Linear algebra tools
+Home-page: UNKNOWN
+Author: Matthew G. Flegg
+Author-email: <matthewflegg@outlook.com>
+License: UNKNOWN
+Description: Linear algebra tools, including 2D vectors and matrices
+Keywords: python,package
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS :: MacOS X
