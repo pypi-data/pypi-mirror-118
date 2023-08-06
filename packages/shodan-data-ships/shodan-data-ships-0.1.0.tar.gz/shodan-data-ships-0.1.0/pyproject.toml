@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "shodan-data-ships"
+version = "0.1.0"
+description = ""
+authors = ["John Matherly <jmath@shodan.io>"]
+
+[tool.poetry.dependencies]
+python = ">=3.6.1,<4.0.0"
+pydantic = "^1.8.2"
+httpx = {extras = ["brotli", "http2"], version = "^0.19.0"}
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+datamodel-code-generator = {extras = ["http"], version = "^0.11.12"}
+shodan = "^1.25.0"
+pytest-asyncio = "^0.15.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
