@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+metnet/__init__.py
+metnet/model.py
+metnet.egg-info/PKG-INFO
+metnet.egg-info/SOURCES.txt
+metnet.egg-info/dependency_links.txt
+metnet.egg-info/requires.txt
+metnet.egg-info/top_level.txt
