@@ -1,0 +1,5 @@
+mono_repo_poetry/__init__.py,sha256=irOWySuMegDxzeS3AFUf2GBOjt0tzrv40yLf5V_AhUI,72
+mono_repo_poetry/server.py,sha256=HdZiEystrT_NIZ9HX2h46fN6JMeoa5BczjiV-a_i0PM,334
+mono_repo_poetry-0.1.4.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+mono_repo_poetry-0.1.4.dist-info/METADATA,sha256=O7MFCGsWxrakkFMp2k5X_Rj-dN0YKnqNvw8Pc1aGeUY,361
+mono_repo_poetry-0.1.4.dist-info/RECORD,,
