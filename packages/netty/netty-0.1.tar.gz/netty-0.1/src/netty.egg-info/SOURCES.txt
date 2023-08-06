@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/netty/__init__.py
+src/netty/connection.py
+src/netty/crypttools.py
+src/netty/examples.py
+src/netty/handle.py
+src/netty/main.py
+src/netty.egg-info/PKG-INFO
+src/netty.egg-info/SOURCES.txt
+src/netty.egg-info/dependency_links.txt
+src/netty.egg-info/top_level.txt
