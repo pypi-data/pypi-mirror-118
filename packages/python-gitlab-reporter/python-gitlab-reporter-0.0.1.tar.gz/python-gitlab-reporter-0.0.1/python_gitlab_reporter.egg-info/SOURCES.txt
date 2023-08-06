@@ -1,0 +1,11 @@
+README.md
+setup.py
+python_gitlab_reporter.egg-info/PKG-INFO
+python_gitlab_reporter.egg-info/SOURCES.txt
+python_gitlab_reporter.egg-info/dependency_links.txt
+python_gitlab_reporter.egg-info/requires.txt
+python_gitlab_reporter.egg-info/top_level.txt
+reporter/__init__.py
+reporter/core.py
+tests/__init__.py
+tests/test_core.py
