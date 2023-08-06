@@ -1,0 +1,5 @@
+pytest
+pywin32
+pyarmor
+unpy2exe
+uncompyle6
