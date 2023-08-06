@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: uro
+Version: 0.0.1
+Summary: declutters url lists
+Home-page: https://github.com/s0md3v/uro
+Author: Somdev Sangwan
+Author-email: s0md3v@gmail.com
+License: Apache-2.0 License
+Download-URL: https://github.com/s0md3v/uro/archive/v0.0.1.zip
+Keywords: crawling,fuzzing
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Security
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.4
+Description-Content-Type: text/markdown
+
+## uru
+Using a list of URLs for security testing can be painful as most of those URLs have uninteresting or duplicated content in them; **uru** aims to solve this.
+Just do this:
+```
+cat urls.txt | uru
+```
+
+
