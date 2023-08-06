@@ -1,0 +1,10 @@
+numpy
+scipy
+matplotlib
+PySide2
+qtawesome
+scikit-learn
+torch
+xlrd
+openpyxl
+SciencePlots

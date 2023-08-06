@@ -1,0 +1,3 @@
+[console_scripts]
+QGrain = QGrain.entry:qgrain_console
+
