@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: ob-dj-payment-tap
+Version: 0.0.1
+Summary: OBytes Django application for managing payment processing with TAP.
+Home-page: https://www.obytes.com/
+Author: OBytes
+Author-email: hello@obytes.com
+License: BSD-3-Clause
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+## OBytes Django Payment Tap App
+
+Payment TAP is a Django app for managing payment transactions with TAP. The project consist of wrapper and models to
+track transactions, settlement and configuration of tap accounts.
+
+
+## Quick start
+
+1. Install `ob_dj_payment_tap` latest version `pip install ob_dj_payment_tap`
+
+2. Add "ob_dj_payment_tap" to your `INSTALLED_APPS` setting like this:
+
+```python
+   # settings.py
+   INSTALLED_APPS = [
+        ...
+        "ob_dj_payment_tap",
+   ]
+```
+
+4. Run ``python manage.py migrate`` to create the TAP models.
+
+
+## Developer Guide
+
+1. Clone github repo `git clone [url]`
+
+2. `pipenv install --dev`
+
+3. `pre-commit install`
+
+4. Run unit tests `pytest`
+
+
+*Hint* You can install the changes directly in your env using `pip install .`; this should allow you to `pipenv shell` to any env and navigate to the source code and install the package `pip install .`
+
+
