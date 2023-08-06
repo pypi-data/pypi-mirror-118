@@ -1,0 +1,13 @@
+telegrambotclient/__init__.py,sha256=DZI4Nc8JWDMHnf6EXe7eSf7i7qkDqB-MwGq9SHF2Ia8,3291
+telegrambotclient/api.py,sha256=UjRclYmfKXqGrjHDxe3bRszk1B7-vzugnEgNHsHVeyw,15773
+telegrambotclient/base.py,sha256=dGI_QbUHyjqCG7vLe0Wdoz8Nlw-whzTo2neokzalSTA,27891
+telegrambotclient/bot.py,sha256=Vngz4mQUKkUiUA1gQHScR7p891BwkhFdHu0e2xSCKKo,8640
+telegrambotclient/handler.py,sha256=HpZaq1AirwEOFOD2jnTPI47HsAQuB5AQKoamrmTi4Vg,7826
+telegrambotclient/router.py,sha256=v-G5c_jlLQkaI1Hj6ta7xAhYcVK0LIUr4j_wtF3-EBs,30591
+telegrambotclient/storage.py,sha256=O3Ccc5kJmw3rHCuw-4JyKN_A7Nj2qJ5MRKYMgNcOrew,12859
+telegrambotclient/ui.py,sha256=nY881wZSN7HAm5Ry4DTxmu5-_DSvd8P2cyGn-oRO4ew,15478
+telegrambotclient/utils.py,sha256=gTHO4SwCxvvbh9Ikhlqv0bLWmemZPRHRXBt7qaZUD9A,2894
+py_telegram_bot_client-5.3.4.dist-info/METADATA,sha256=WKe99EX1Tznq68JNitwK5vMYoxPbirUIA_DWRh-aqio,8336
+py_telegram_bot_client-5.3.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+py_telegram_bot_client-5.3.4.dist-info/top_level.txt,sha256=3wBNLx-MTUNQ80BooHChLNnSDdspVLYIe8Lv_RwiVpE,18
+py_telegram_bot_client-5.3.4.dist-info/RECORD,,
