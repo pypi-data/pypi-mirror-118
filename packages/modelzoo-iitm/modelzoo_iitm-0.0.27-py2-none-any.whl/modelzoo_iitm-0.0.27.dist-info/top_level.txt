@@ -1,0 +1,9 @@
+AdapAttnIC_zoo
+CharCNN_zoo
+Inpainting_zoo
+PSPNet_zoo
+PointNet_zoo
+StackGAN_zoo
+UNetPP_zoo
+UNet_zoo
+modelzoo_iitm
