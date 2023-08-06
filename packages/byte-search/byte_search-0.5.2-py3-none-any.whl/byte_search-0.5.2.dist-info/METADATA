@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: byte-search
+Version: 0.5.2
+Summary: Fast lexical search
+Home-page: https://github.com/urchade/byte_search
+Author: Urchade Zaratiana
+Author-email: urchade.zaratiana@gmail.com
+License: LICENSE.txt
+Platform: UNKNOWN
+License-File: LICENSE.txt
+
+# byte_search
+
+
