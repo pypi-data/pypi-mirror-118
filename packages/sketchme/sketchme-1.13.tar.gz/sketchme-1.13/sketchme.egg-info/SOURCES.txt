@@ -1,0 +1,10 @@
+README.md
+setup.py
+sketchit/__init__.py
+sketchit/__main__.py
+sketchit/draw.py
+sketchme.egg-info/PKG-INFO
+sketchme.egg-info/SOURCES.txt
+sketchme.egg-info/dependency_links.txt
+sketchme.egg-info/entry_points.txt
+sketchme.egg-info/top_level.txt
