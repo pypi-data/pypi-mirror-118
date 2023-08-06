@@ -1,0 +1,13 @@
+vsbasicvsr/BasicVSR_REDS4.pth,sha256=VDyCYROp79yXFXIyCp4lmDP8Iw-EPZT373JwyStepNw,25234632
+vsbasicvsr/BasicVSR_Vimeo90K_BDx4.pth,sha256=6b9G67R4q_wwAlcq5nGU9rmf7VBwJi117FN_m530R34,25234632
+vsbasicvsr/BasicVSR_Vimeo90K_BIx4.pth,sha256=KilpWiYHoQ2xkyNMrjiKK0hoYqrPY24Lb4vCGKnLpAE,25234632
+vsbasicvsr/__init__.py,sha256=QXkYSZaiEX5YrXdM5hz4uXVY1NTTmhE6BuN_qaC8zx8,6501
+vsbasicvsr/arch_util.py,sha256=nByzRJQiospIDCCGGreQjn5DfXFUTU1Hw66gRUE1cvI,8492
+vsbasicvsr/basicvsr_arch.py,sha256=owuBkQgEHZ6gnpw74zQJOJ8DBD8-CCfPWcD9X7P58B0,11664
+vsbasicvsr/registry.py,sha256=u8NQcUgQG7IC6PUvXMp10swh14De91fAVdgsuOa9WU4,2267
+vsbasicvsr/spynet_arch.py,sha256=BPECwnF89_Y818GUJTjFuWXILoLgLRfLlJ_LuvF3GBM,3859
+vsbasicvsr-1.2.0.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+vsbasicvsr-1.2.0.dist-info/METADATA,sha256=LyuLv7f1wa6wJ0fbZZhhcFt0DpJAARsXKU58CN8-rv4,1188
+vsbasicvsr-1.2.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+vsbasicvsr-1.2.0.dist-info/top_level.txt,sha256=Y8gMOpRXfCkCje8eKlSZpKvxWba02BV9u9iuHSs8aMc,11
+vsbasicvsr-1.2.0.dist-info/RECORD,,
