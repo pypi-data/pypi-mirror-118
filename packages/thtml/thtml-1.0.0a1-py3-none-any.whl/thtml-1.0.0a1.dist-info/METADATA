@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: thtml
+Version: 1.0.0a1
+Summary: thtml
+Home-page: https://github.com/cariad/thtml
+Author: Cariad Eccleston
+Author-email: cariad@cariad.io
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# thtml
+
+[![CircleCI](https://circleci.com/gh/cariad/thtml/tree/main.svg?style=shield)](https://circleci.com/gh/cariad/thtml/tree/main)
+
+CLI tool and Python package for converting text to HTML
+
+
