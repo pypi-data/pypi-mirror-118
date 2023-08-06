@@ -1,0 +1,9 @@
+ipysketch/__init__.py,sha256=8qVS4G4rpLTQ1OPCE5Bc7fGSSZmvUkAUlWgHuqxjs5w,30
+ipysketch/__main__.py,sha256=tFg58jq-MD9JoDr0sr2BGEMTjaVEBkNJRZvK1RU00pc,238
+ipysketch/ipywidget.py,sha256=n_AsDZrfHAePNWh5mjqM4rjBQwt9gjS4OwGKlTBho2M,1885
+ipysketch/kivyapp.py,sha256=699OXy8YPoMjKfdOBufkVHJ5PeiGst0quoHfntMVN8o,8009
+ipysketch/model.py,sha256=ossNpQRc83i7-0IQG4-lRwS05qwhDYQ-ZuqhJnIITKk,989
+ipysketch-0.0.1.dist-info/METADATA,sha256=i6CRV8SyCgPRmHGOoxKTsb7mmJYD_1dGG1WzleYaxL0,516
+ipysketch-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+ipysketch-0.0.1.dist-info/top_level.txt,sha256=NfhmSIaQfdVmN88KDOIr4aIzQA1wsMebKAxJWdUXbTw,10
+ipysketch-0.0.1.dist-info/RECORD,,
