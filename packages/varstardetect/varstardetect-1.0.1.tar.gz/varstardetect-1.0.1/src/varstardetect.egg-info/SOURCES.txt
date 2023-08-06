@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/varstardetect/__init__.py
+src/varstardetect/star.py
+src/varstardetect.egg-info/PKG-INFO
+src/varstardetect.egg-info/SOURCES.txt
+src/varstardetect.egg-info/dependency_links.txt
+src/varstardetect.egg-info/top_level.txt
