@@ -1,0 +1,8 @@
+README.md
+setup.py
+dldtrainer.egg-info/PKG-INFO
+dldtrainer.egg-info/SOURCES.txt
+dldtrainer.egg-info/dependency_links.txt
+dldtrainer.egg-info/not-zip-safe
+dldtrainer.egg-info/top_level.txt
+test/test_scheduler.py
