@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+gstin/__init__.py
+gstin/app.py
+gstin.egg-info/PKG-INFO
+gstin.egg-info/SOURCES.txt
+gstin.egg-info/dependency_links.txt
+gstin.egg-info/top_level.txt
