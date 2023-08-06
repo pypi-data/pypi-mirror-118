@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+entropyshannon copy/__init__.py
+entropyshannon.egg-info/PKG-INFO
+entropyshannon.egg-info/SOURCES.txt
+entropyshannon.egg-info/dependency_links.txt
+entropyshannon.egg-info/top_level.txt

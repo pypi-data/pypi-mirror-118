@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: entropyshannon
+Version: 0.0.2
+Summary: A python package for various  type of entropy calculations(Specially Shannon)
+Home-page: https://github.com/ffalpha/Entropy-Calucalator
+Author: Kalana Mihiranga
+Author-email: kalanam217@gmail.com
+License: MIT
+Keywords: entropy,shannon,calculator
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+<div id="headline" align="center">
+  <h1>Entropy-Calucalator</h1>
+  <p>Conations a python package for various  type of entropy calculations</p>
+</div> 
+
+
+
+
+
+### Requirements
+- None
+### Installation
+```
+pip install entropyshannon
+```
+	
+### Basic example
+
+```py
+from entropyshannon import *
+
+string_entropy=shannon_entropy("12311331")
+print(string_entropy)
+
+
+probability_list=[1/2,1/3,1/10,7/10]
+print(shannon_entropy_probability_list(probability_list))
+
+
+```
+
+
+    
+
+
