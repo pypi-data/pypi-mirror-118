@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: soundrecorder
+Version: 0.1.6
+Summary: Recorder tool for Python
+Home-page: https://github.com/albertoccelli/Sound_Recorder
+Author: Alberto Occelli
+Author-email: albertoccelli@gmail.com
+License: MIT
+Download-URL: https://github.com/albertoccelli/Sound_Recorder/archive/refs/tags/0.1.6-alpha.tar.gz
+Description: UNKNOWN
+Keywords: SOUND,RECORDER
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
