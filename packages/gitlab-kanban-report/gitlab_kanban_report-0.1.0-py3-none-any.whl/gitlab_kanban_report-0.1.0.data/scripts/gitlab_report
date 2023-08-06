@@ -1,0 +1,9 @@
+#!python
+from gitlab_kaban_report.api_interface import APIInterface
+
+
+
+if __name__ == "main":
+    project_id = input("Coloque o id do projeto que quer realizar a busca: ")
+    api = APIInterface(project_id=project_id)
+    api.format_markdow()
