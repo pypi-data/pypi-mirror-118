@@ -1,0 +1,40 @@
+# secrets
+service_account.json
+
+## Project related
+.wip
+dev.py
+
+# Python, VS Code, Eclipse
+.venv
+**/__pycache__
+*.pyc
+.vscode
+.project
+.pydevproject
+.coverage
+coverage.xml
+
+# Webdrivers
+**chromedriver*
+**geckodriver*
+
+# Robot Framework
+log.html
+output.xml
+report.html
+
+# log and other artifacts
+*_log.json
+*.log
+!tests/*.log
+*.har
+!tests/*.har
+!examples/**/*.har
+tests/output.txt
+
+# packaging and docs
+dist/
+*.egg-info/
+build/
+_build/

@@ -1,0 +1,21 @@
+{
+    "base_url": "https://particuliers.engie.fr",
+    "version": "0.1",
+    "test_cases": {
+        "home_engie": {
+            "description": "tracking plan for unittesting",
+            "author": "VinceCabs",
+            "events": [
+                {
+                    "dp": "A"
+                },
+                {
+                    "dp": "B"
+                },
+                {
+                    "dp": "C"
+                }
+            ]
+        }
+    }
+}
