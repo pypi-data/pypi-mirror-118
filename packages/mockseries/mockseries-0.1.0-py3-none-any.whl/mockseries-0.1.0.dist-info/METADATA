@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: mockseries
+Version: 0.1.0
+Summary: Easy and intuitive generation of synthetic timeseries.
+Home-page: http://catheu.tech/
+Author: Cyril de Catheu
+Author-email: cdecatheu@hey.com
+License: All Rights Reserved to Cyril de Catheu.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: numpy (==1.19.5)
+
+UNKNOWN
+
+
