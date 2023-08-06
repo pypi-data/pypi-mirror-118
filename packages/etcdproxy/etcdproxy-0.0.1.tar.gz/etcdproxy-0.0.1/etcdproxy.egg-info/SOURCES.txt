@@ -1,0 +1,16 @@
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.cfg
+setup.py
+etcdproxy/__init__.py
+etcdproxy/url_parser.py
+etcdproxy.egg-info/PKG-INFO
+etcdproxy.egg-info/SOURCES.txt
+etcdproxy.egg-info/dependency_links.txt
+etcdproxy.egg-info/not-zip-safe
+etcdproxy.egg-info/requires.txt
+etcdproxy.egg-info/top_level.txt
