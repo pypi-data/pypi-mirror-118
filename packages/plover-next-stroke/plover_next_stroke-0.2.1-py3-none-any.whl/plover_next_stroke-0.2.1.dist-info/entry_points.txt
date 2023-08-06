@@ -1,0 +1,8 @@
+[plover.gui.qt.tool]
+next_stroke = plover_next_stroke.next_stroke_suggestions:NextStrokeSuggestions
+
+[plover.macro]
+ns_next_page = plover_next_stroke.next_stroke_macros:next_page
+ns_prev_page = plover_next_stroke.next_stroke_macros:prev_page
+ns_reload = plover_next_stroke.next_stroke_macros:next_stroke_reload
+
