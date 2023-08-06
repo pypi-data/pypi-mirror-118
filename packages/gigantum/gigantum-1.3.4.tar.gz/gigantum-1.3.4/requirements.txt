@@ -1,0 +1,6 @@
+# docker currently mandates a specific version range for requests (which we use)
+# Please ensure that requests remains required if you bump the docker version!
+docker==4.3.1
+six==1.12.0
+PyYAML==5.4.1
+click==7.1.2
