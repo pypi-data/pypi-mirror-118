@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: quick-mock
+Version: 0.0.5
+Summary: quick mock server
+Home-page: https://github.com/qiujiajin/quick-mock
+Author: Hugh
+Author-email: 609799548@qq.com
+License: MIT Licence
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: flask (==1.1.0)
+
+# quick-mock
+    quick mock server
+
+
+### A Simple Example
+```
+mock create project hello
+cd hello
+mock
+```
+
+#### create project
+```
+mock create project <project_name>
+```
+
+#### create interface
+```
+mock create interface <interface_name>
+```
+
+#### run mock server
+```
+use default port(5000): mock
+
+specify port: mock run port <port>
+```
+
+
