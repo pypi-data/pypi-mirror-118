@@ -1,0 +1,18 @@
+Metadata-Version: 1.0
+Name: pythontron
+Version: 1.1
+Summary: Python library for creating perceptrons.
+Home-page: http://github.com/HonestHacker123/pythontron
+Author: Makar Kuznetsov
+Author-email: makar10kuznetsov@mail.ru
+License: UNKNOWN
+Description: 
+        Pythontron.
+        
+        Copyright © Makar Kuznetsov 2021. All rights reserved
+        
+        License – GNU GPL.
+        
+        See more information on Github.
+        
+Platform: UNKNOWN
