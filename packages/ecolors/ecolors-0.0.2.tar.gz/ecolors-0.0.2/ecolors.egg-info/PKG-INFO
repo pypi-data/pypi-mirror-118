@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: ecolors
+Version: 0.0.2
+Summary: Colors for the printing functions
+Home-page: UNKNOWN
+Author: Electro Development
+Author-email: contactus.electro@gmail.com
+License: UNKNOWN
+Keywords: python,colors
+Platform: UNKNOWN
+
+"ecolors" gives you many optionas and colors to color your print function in python!
+>>>ecolors.red
+ecolors.purple
+ecolors.blue
+ecolors.red
+ecolors.cyan
+ecolors.green
+ecolors.yellow
+ecolors.bold
+ecolors.underline
+ecolors.deafult
+
+
