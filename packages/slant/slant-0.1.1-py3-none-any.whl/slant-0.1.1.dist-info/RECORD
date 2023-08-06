@@ -1,0 +1,13 @@
+slant/__init__.py,sha256=fgwrxs1zyQw-VpIuVDaCynyHnzibYZMyVlyvAl2CzXA,185
+slant/bias.py,sha256=7YJy2vm-eUlYu7EgFzPW1-rU3KndrPMiRcB39ELW3EM,4589
+slant/content.py,sha256=WLF8N8D0vBIGjbivCUn71I0UHMkFkmqZ91TGJ-JlVs4,3132
+slant/dictionaries/bias_words.txt,sha256=6JI0QobtzAsmE0tyH69pQnsggZHN7IynRmBvUWHwjZU,4020
+slant/dictionaries/emoji_utf8_lexicon.txt,sha256=JbIXYB-1nU7Y-JNgtxndtPNSpA3wdD8c-2-BUNAuuDo,118417
+slant/dictionaries/stop_words.txt,sha256=t7KZtxfTXKp8lfhEQrvE-X3-AWdpLutbAUT1Dq2SeCo,2526
+slant/dictionaries/vader_lexicon.txt,sha256=7GNviE82td5qTWgbL2HAjC7JDutEBHIDPzMH0Nb6i8k,426786
+slant/sentiment.py,sha256=lWRCiRdbyzPpf6RIr57UPwY6sTkdHCENPruqr4F8KMs,14188
+slant/utils.py,sha256=WOPre6I9pOzRyA_3BXROnij691jlcAjiCfBXI3a6IvU,2269
+slant-0.1.1.dist-info/LICENSE.md,sha256=X2inlUE-1hVKD68_sfjD5a7N1PlhAR6yeRkdRRPPt3o,6938
+slant-0.1.1.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+slant-0.1.1.dist-info/METADATA,sha256=l050CSkFspzufiEviWGFTin3DGsROo0qY9hKtDsZlkc,589
+slant-0.1.1.dist-info/RECORD,,
