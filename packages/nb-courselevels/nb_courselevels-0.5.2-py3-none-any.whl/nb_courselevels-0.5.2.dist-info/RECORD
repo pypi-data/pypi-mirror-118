@@ -1,0 +1,11 @@
+courselevels/version.py,sha256=isJrmDBLRag7Zc2UK9ZovWGOv7ji1Oh-zJtJMNJFkXw,22
+courselevels/static/courselevels.yaml,sha256=3RQ4Tf2M8Nwr-NV37yr0by61KjGBrA4A1DkIrl3QDb4,1836
+courselevels/static/index.js,sha256=NVit5J1URInVlD13c4YYHaPFODGOGqIND6n8IC4a61w,8286
+nb_courselevels-0.5.2.data/data/etc/jupyter/nbconfig/notebook.d/nb-courselevels.json,sha256=vLLp0BwJo-UzeYDByhbkUNC6KZth28cLXMUc8TIqLlM,70
+nb_courselevels-0.5.2.data/data/share/jupyter/nbextensions/courselevels/courselevels.yaml,sha256=3RQ4Tf2M8Nwr-NV37yr0by61KjGBrA4A1DkIrl3QDb4,1836
+nb_courselevels-0.5.2.data/data/share/jupyter/nbextensions/courselevels/index.js,sha256=NVit5J1URInVlD13c4YYHaPFODGOGqIND6n8IC4a61w,8286
+nb_courselevels-0.5.2.dist-info/LICENSE,sha256=L33bslK_aZOwIz_HlsXIXWrDalxPdxLCeR6qxCqMcCA,406
+nb_courselevels-0.5.2.dist-info/METADATA,sha256=nCfqFiHwCtnl-geFrCeMLGeGK9X5eIn9QTVU5K0HolM,1421
+nb_courselevels-0.5.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+nb_courselevels-0.5.2.dist-info/top_level.txt,sha256=jYgGr55qaG-C217mDd7dJPGHMMVPR2BcHzsyHL91RkQ,13
+nb_courselevels-0.5.2.dist-info/RECORD,,
