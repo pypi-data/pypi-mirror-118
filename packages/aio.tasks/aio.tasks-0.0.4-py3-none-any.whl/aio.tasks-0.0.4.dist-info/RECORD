@@ -1,0 +1,9 @@
+aio/tasks/__init__.py,sha256=5D6zkZoZf2oR5HkgIlMDEsqUe1sWiMmu4QGocB6_4Hk,247
+aio/tasks/exceptions.py,sha256=S2NOm8PPc7iiY7xM7AayveR0AtAxIdu_SxrRBNzLab4,346
+aio/tasks/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aio/tasks/tasks.py,sha256=6osXtBxS2ZrAPfkhSYOvI4ooxEBslUnn6DulJ6Z6CGY,15172
+tests/test_task.py,sha256=GOE1N-2b0GiT5Ax6LFhtgz1yEEeebiDNJTkFFo-tZDI,38951
+aio.tasks-0.0.4.dist-info/METADATA,sha256=8JVB1AqoKNw_pdXDdIWMfbUWbQ_B1e3j0WI1q6_njUc,4459
+aio.tasks-0.0.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+aio.tasks-0.0.4.dist-info/top_level.txt,sha256=PplNn_Vwim_RlT_3AK-RPcB5SNHaSNk_8pNDPo8I7Wg,10
+aio.tasks-0.0.4.dist-info/RECORD,,
