@@ -1,0 +1,7 @@
+setup.py
+shipyard_optimization.egg-info/PKG-INFO
+shipyard_optimization.egg-info/SOURCES.txt
+shipyard_optimization.egg-info/dependency_links.txt
+shipyard_optimization.egg-info/not-zip-safe
+shipyard_optimization.egg-info/requires.txt
+shipyard_optimization.egg-info/top_level.txt

@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: shipyard-optimization
+Version: 0.1
+Summary: shipyard_optimization
+Home-page: https://github.com/cscUOU/Shipyard-process-logistics-optimization
+Author: cscUOU
+Author-email: kgm0817@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/cscUOU/Shipyard-process-logistics-optimization/archive/master.zip
+Description: UNKNOWN
+Keywords: pypi deploy
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7
