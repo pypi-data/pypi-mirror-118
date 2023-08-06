@@ -1,0 +1,9 @@
+allure-pytest==2.9.43
+allure-python-commons==2.9.43
+setuptools==57.4.0
+genson~=1.2.2
+jsonschema~=3.2.0
+artifacts-keyring==0.3.1
+mysql-connector-python==8.0.26
+twine==3.4.2
+wheel==0.37.0
