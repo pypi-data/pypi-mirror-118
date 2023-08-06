@@ -1,0 +1,3 @@
+[console_scripts]
+ingot-sqlite-cli = ingot_sqlite.scripts.ingot_sqlite:main
+
