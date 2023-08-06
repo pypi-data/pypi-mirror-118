@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pymoex
+Version: 0.0.2
+Summary: Unofficial ISS MOEX API on Python
+Home-page: https://github.com/ntcny/moex
+Author: Anton Parshutin
+Author-email: n.tcnie@gmail.com
+License: GNU
+Platform: UNKNOWN
+Requires-Dist: pandas (>=0.18.0)
+
+UNKNOWN
+
+
