@@ -1,0 +1,11 @@
+finitude/__init__.py,sha256=4xUn3DNBPcs7Fq38C9AcyWZkIufLzZ0zCjQYSDkmCrc,1493
+finitude/__main__.py,sha256=d4kbyFcmw0Gsvf22S9wtqjkR99y3qMcwC0lf9AwyLmw,161
+finitude/finitude.py,sha256=AUy7eXVsFZCxFK9BeoQH7ejWi8-5nxg185cp7b62-dk,17296
+finitude/frames.py,sha256=0mC4n5i6-AyIXBGAbm_zzqYqJ0eFDCvPWBazPq9nuKQ,16076
+finitude/registers.py,sha256=FFtpkR43LKhz4rTFj8B8XVXvTvRR4AqjG2imfOHIB1E,33956
+finitude/sniffserver.py,sha256=ItPPRc04UsOwIuyAVFNMr5jrym1R6cGsBUyUMfuPPAc,6371
+finitude-0.1.1.dist-info/LICENSE,sha256=NJ7VTpAXU_nPGC23mG2WB9cWOgWnXC37lNmMLOEJQZg,1070
+finitude-0.1.1.dist-info/METADATA,sha256=qXaOadAf2MUdiTMu-Q2yi80B-wku06L_acAddzgOKHA,3276
+finitude-0.1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+finitude-0.1.1.dist-info/top_level.txt,sha256=KPaGaDgZwGnhb9cXhapgnLvFnLD39S0gGH6Oqcisvag,9
+finitude-0.1.1.dist-info/RECORD,,
