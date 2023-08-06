@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: base-automation
+Version: 0.0.2
+Summary: base-automation
+Home-page: https://upload.pypi.org/legacy/
+Author: Automation Team
+Author-email: automation.team@rafael.co.il
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: allure-pytest (==2.9.43)
+Requires-Dist: allure-python-commons (==2.9.43)
+Requires-Dist: setuptools (==57.4.0)
+Requires-Dist: genson (~=1.2.2)
+Requires-Dist: jsonschema (~=3.2.0)
+Requires-Dist: artifacts-keyring (==0.3.1)
+Requires-Dist: mysql-connector-python (==8.0.26)
+Requires-Dist: twine (==3.4.2)
+Requires-Dist: wheel (==0.37.0)
+
+base-automation-package
+
