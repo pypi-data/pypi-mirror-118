@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+ufid/__init__.py
+user_friendly_id.egg-info/PKG-INFO
+user_friendly_id.egg-info/SOURCES.txt
+user_friendly_id.egg-info/dependency_links.txt
+user_friendly_id.egg-info/not-zip-safe
+user_friendly_id.egg-info/top_level.txt
