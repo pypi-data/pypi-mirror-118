@@ -1,0 +1,13 @@
+README.md
+setup.py
+goflow/__init__.py
+goflow/custom_dual_models.py
+goflow/init_ivp.py
+goflow/ivp_ds.py
+goflow/ivp_dual.py
+goflow/ivp_opt.py
+goflow/models.py
+goflow.egg-info/PKG-INFO
+goflow.egg-info/SOURCES.txt
+goflow.egg-info/dependency_links.txt
+goflow.egg-info/top_level.txt
