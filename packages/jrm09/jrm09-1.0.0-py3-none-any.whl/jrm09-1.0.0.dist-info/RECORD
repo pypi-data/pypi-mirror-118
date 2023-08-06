@@ -1,0 +1,16 @@
+jrm09/Globals.py,sha256=gvNMueW-P7g_EtIBjXjg4aEBGWvxTrFiRYH40-ox9G0,131
+jrm09/Model.py,sha256=0V-Lzxsm_u-seqfVGZmjLlr0_74CPNmLigyVqL18hl4,1056
+jrm09/ModelCart.py,sha256=_0CtL_s1IRbou0Js7F_skwgzgEIM8D2f2AwY0enguWY,1368
+jrm09/Test.py,sha256=hLvwTIYn0aId0ykIMAM_eyuR8baXYBeYg2XjqAq0_74,1789
+jrm09/_CoeffGrids.py,sha256=Xq5X3zgrISTI4ojywD7xe0BwiypFyjl_uceb5SBAvpY,1071
+jrm09/_Legendre.py,sha256=22nCMhKeJRpkpQOOAj00BQ2BVonw15d-D6kgpXPKhYE,1500
+jrm09/_ReadCoeffs.py,sha256=DUQoPCKVRiSmx0nsvY-_G4cSqV__3iVYyuQXZYRm1Is,1057
+jrm09/_Schmidt.py,sha256=vtbw3X9epO6XzvjGj5yZc1IkOlSMaa6OsNRNkoCyKLM,826
+jrm09/_SphHarm.py,sha256=apxeg78hdNOKKyVLV500zKv_LSyIreDly0-9HL07Jtc,2497
+jrm09/__init__.py,sha256=m3xyigXec2DpMsPF4VUE09hp_sIky-zSBPeIGXYqzXE,295
+jrm09/__data/coeffs.dat,sha256=ZcHREj2q9FyImpcnK99EkNovIKCrt_j-GB8kx3SIZP8,2648
+jrm09-1.0.0.dist-info/LICENSE,sha256=qsB9FW21oUnBQUBYA-W4RQBLzIt73jLjotsHb7dwI7s,1070
+jrm09-1.0.0.dist-info/METADATA,sha256=4ohcZCqMmVub-KGAbnTP8W6aZ18JUWMABO2SJqsvKqk,1979
+jrm09-1.0.0.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+jrm09-1.0.0.dist-info/top_level.txt,sha256=IYCJ_sgNugXHUbE8GwGH22G9yKQVf8OT3XRGDU71fR8,6
+jrm09-1.0.0.dist-info/RECORD,,
