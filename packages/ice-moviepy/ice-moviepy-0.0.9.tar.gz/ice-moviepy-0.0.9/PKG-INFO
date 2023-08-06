@@ -1,0 +1,85 @@
+Metadata-Version: 2.1
+Name: ice-moviepy
+Version: 0.0.9
+Summary: a package for extracting short subtitled clips from movies by subtitle.srt file.
+Home-page: UNKNOWN
+Author: Haj mammad
+Author-email: mbxeby@hi2.in
+License: MIT License
+Keywords: cut clip logo video editing audio compositing ffmpeg
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Multimedia
+Classifier: Topic :: Multimedia :: Sound/Audio
+Classifier: Topic :: Multimedia :: Sound/Audio :: Analysis
+Classifier: Topic :: Multimedia :: Video
+Classifier: Topic :: Multimedia :: Video :: Capture
+Classifier: Topic :: Multimedia :: Video :: Conversion
+Description-Content-Type: text/markdown
+Provides-Extra: optional
+Provides-Extra: doc
+Provides-Extra: test
+Provides-Extra: lint
+License-File: LICENSE
+
+# ice-moviepy [![License: MIT](https://img.shields.io/badge/License-MIT-gree.svg)]
+
+
+a package for extracting short subtitled clips from movies by subtitle.srt file.
+
+## Installation
+
+Use the package manager [pip] to install ice-moviepy.
+
+```bash
+pip install ice-moviepy
+```
+
+## Usage
+given a movie with a srt file subtitle, cut some parts of subtitle.srt and paste them into another file, such as sub.srt and run the following: 
+
+```python
+import ice_moviepy
+
+ice_moviepy.subtitle2video("Video.mkv",'Sub.srt','logo.png')
+```
+or 
+
+```python
+ice_moviepy.subtitle2video("Video.mkv",'Sub.srt')
+```
+if you don't want to attach a watermark on it.
+
+## editing subtitle 
+you can colorize different parts of subtitle. for example you can use red{...}, blue{...}, yellow{...} and so on, to colorize your subtitle.
+
+Place an {end} at the end of the block you want to cut out as a separate clip.
+
+```
+9
+00:00:48,920 --> 00:00:51,151
+There are two
+kinds of pain.
+
+10
+00:00:51,280 --> 00:00:53,272
+The sort of pain
+blue{that makes} you strong
+
+11
+00:00:53,360 --> 00:00:57,240
+red{or useless} yellow{pain}, the purple{sort of}
+pain blue{that's} only orange{suffering}. {end}
+```
+
+![alt text](example.png)
+
