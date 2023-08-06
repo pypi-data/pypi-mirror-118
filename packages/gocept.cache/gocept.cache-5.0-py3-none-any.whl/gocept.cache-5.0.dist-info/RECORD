@@ -1,0 +1,14 @@
+gocept.cache-5.0-py3.7-nspkg.pth,sha256=XrF_EgR9630Tyi-5ziXbOZVzDtiNiqRPelyeS-BvoAA,539
+gocept/cache/README.rst,sha256=8vPZ5qfOUc1rX_AppReQwV1r3N2oVsfHsirE0xBFmI8,6166
+gocept/cache/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gocept/cache/method.py,sha256=D2UkNSBUG0FzZJPlginHHJ8J4ffw4hEs-G_s4cx6yMk,2486
+gocept/cache/property.py,sha256=uXxIiU4F65N1BtcVJM8IXr9n22ZxftGY-MiJLY1fpUk,1595
+gocept/cache/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gocept/cache/tests/test_method.py,sha256=6SRYWc3yHE-gp3nfjzdZ_wmRDomdK8uNJGA0y76PAsc,2974
+gocept/cache/tests/test_property.py,sha256=-NJsOhNkuX-IpR52adoV7cnqyxRljdPN0tXa8SD0oYk,2520
+gocept.cache-5.0.dist-info/LICENSE.txt,sha256=LgkZgYmTrW63RHfPZ8BfITPglCA-HDxyqtyqLPU7KSs,2070
+gocept.cache-5.0.dist-info/METADATA,sha256=1H0yWmHVUW-B57vH5VFZQ_mElgkYPyP9kD2YOTjmAIM,10210
+gocept.cache-5.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+gocept.cache-5.0.dist-info/namespace_packages.txt,sha256=dLXUiNQ2z7NJIlFVMgdxhn_daKSodZVJYenJ47LRf3E,7
+gocept.cache-5.0.dist-info/top_level.txt,sha256=dLXUiNQ2z7NJIlFVMgdxhn_daKSodZVJYenJ47LRf3E,7
+gocept.cache-5.0.dist-info/RECORD,,
