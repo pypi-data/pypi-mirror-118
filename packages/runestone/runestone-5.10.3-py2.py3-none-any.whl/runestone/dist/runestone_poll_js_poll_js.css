@@ -1,0 +1,33 @@
+/* Styles for Runestone poll directive */
+.poll .poll-question {
+    padding-bottom: 10px;
+}
+
+.poll-options > label {
+    margin-right: 5px;
+}
+
+.poll .progress {
+    width: 350px;
+    height: 25px;
+    margin-top: -20px;
+}
+
+.poll .progress .progress-bar {
+    height: 30px;
+    color: #333;
+}
+
+.poll-text {
+    line-height: 22px;
+    display: inline-block;
+    vertical-align: text-bottom;
+}
+
+.results-container {
+    display: grid;
+    grid-template-columns: 2em 90%;
+}
+
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9XZWJDb21wb25lbnRzLy4vcnVuZXN0b25lL3BvbGwvY3NzL3BvbGwuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLHdDQUF3QztBQUN4QztJQUNJLG9CQUFvQjtBQUN4Qjs7QUFFQTtJQUNJLGlCQUFpQjtBQUNyQjs7QUFFQTtJQUNJLFlBQVk7SUFDWixZQUFZO0lBQ1osaUJBQWlCO0FBQ3JCOztBQUVBO0lBQ0ksWUFBWTtJQUNaLFdBQVc7QUFDZjs7QUFFQTtJQUNJLGlCQUFpQjtJQUNqQixxQkFBcUI7SUFDckIsMkJBQTJCO0FBQy9COztBQUVBO0lBQ0ksYUFBYTtJQUNiLDhCQUE4QjtBQUNsQyIsImZpbGUiOiJydW5lc3RvbmVfcG9sbF9qc19wb2xsX2pzLmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi8qIFN0eWxlcyBmb3IgUnVuZXN0b25lIHBvbGwgZGlyZWN0aXZlICovXG4ucG9sbCAucG9sbC1xdWVzdGlvbiB7XG4gICAgcGFkZGluZy1ib3R0b206IDEwcHg7XG59XG5cbi5wb2xsLW9wdGlvbnMgPiBsYWJlbCB7XG4gICAgbWFyZ2luLXJpZ2h0OiA1cHg7XG59XG5cbi5wb2xsIC5wcm9ncmVzcyB7XG4gICAgd2lkdGg6IDM1MHB4O1xuICAgIGhlaWdodDogMjVweDtcbiAgICBtYXJnaW4tdG9wOiAtMjBweDtcbn1cblxuLnBvbGwgLnByb2dyZXNzIC5wcm9ncmVzcy1iYXIge1xuICAgIGhlaWdodDogMzBweDtcbiAgICBjb2xvcjogIzMzMztcbn1cblxuLnBvbGwtdGV4dCB7XG4gICAgbGluZS1oZWlnaHQ6IDIycHg7XG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICAgIHZlcnRpY2FsLWFsaWduOiB0ZXh0LWJvdHRvbTtcbn1cblxuLnJlc3VsdHMtY29udGFpbmVyIHtcbiAgICBkaXNwbGF5OiBncmlkO1xuICAgIGdyaWQtdGVtcGxhdGUtY29sdW1uczogMmVtIDkwJTtcbn1cbiJdLCJzb3VyY2VSb290IjoiIn0=*/
