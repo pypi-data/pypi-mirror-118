@@ -1,0 +1,9 @@
+include LICENSE
+include README*
+
+recursive-include docs *
+recursive-include meutils/data *
+recursive-include meutils/templates *
+
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
