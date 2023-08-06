@@ -1,0 +1,3 @@
+[mkdocs.plugins]
+title-casing = mkdocs_title_casing_plugin.plugin:TitleCasingPlugin
+
