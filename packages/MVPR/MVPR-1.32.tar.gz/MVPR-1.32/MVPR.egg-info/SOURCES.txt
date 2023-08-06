@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+MVPR/MVPR.py
+MVPR/__init__.py
+MVPR.egg-info/PKG-INFO
+MVPR.egg-info/SOURCES.txt
+MVPR.egg-info/dependency_links.txt
+MVPR.egg-info/requires.txt
+MVPR.egg-info/top_level.txt
