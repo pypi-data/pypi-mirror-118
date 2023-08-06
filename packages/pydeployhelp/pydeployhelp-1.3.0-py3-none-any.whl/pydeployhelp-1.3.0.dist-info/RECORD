@@ -1,0 +1,11 @@
+pydeployhelp/__init__.py,sha256=zi_LaUT_OsChAtsPXbOeRpQkCohSsOyeXfavQPM0GoE,22
+pydeployhelp/base.py,sha256=Jm6Xg6HDoyNVPLjUSzG27wFASPaaananEVRx9vH9LpI,3302
+pydeployhelp/deploy.py,sha256=Nrgv0v-L7dFSgZeAbgtzLQ9j0ZWWHxDQEmhdGYSIwNk,7665
+pydeployhelp/quickstart.py,sha256=sydHh-TDTzJD1sf_-mCv-v0eFdsTWd1gZAqbpKy9O5I,6109
+pydeployhelp/utils.py,sha256=Kwa_oZH9-vsxeumyipnSKwc9EdMBuepPkb7GS9D87ww,906
+pydeployhelp-1.3.0.dist-info/LICENSE,sha256=XcZsbfGoRT19tNThTwH2a9V_bm-Qqx384Utyod-mblU,1069
+pydeployhelp-1.3.0.dist-info/METADATA,sha256=Or-cBsKEp-Ps_-E_gAtC2ffg3FX2IOKlo1siTsTCQyY,2965
+pydeployhelp-1.3.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pydeployhelp-1.3.0.dist-info/entry_points.txt,sha256=0oabL0UpNsM7Df_pJeygkVZn75trGqb3gNleliaCBzU,112
+pydeployhelp-1.3.0.dist-info/top_level.txt,sha256=JBB9e2HK6kPjC9FZkBLfSxkZBFKpzqnMg4qftSxkPO4,13
+pydeployhelp-1.3.0.dist-info/RECORD,,
