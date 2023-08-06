@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: megfile
+Version: 0.0.5
+Summary: R-eng team file operation library
+Home-page: https://github.com/megvii-research/megfile
+Author: r-eng
+Author-email: r-eng@megvii.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: Other/Proprietary License
+Requires-Python: >=3.5
+License-File: LICENSE
+Requires-Dist: boto3
+Requires-Dist: botocore (>=1.13.0)
+Requires-Dist: smart-open (>=1.6.0)
+Requires-Dist: requests
+Requires-Dist: redis
+
+UNKNOWN
+
