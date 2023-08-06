@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+catbuffer_parser.egg-info/PKG-INFO
+catbuffer_parser.egg-info/SOURCES.txt
+catbuffer_parser.egg-info/dependency_links.txt
+catbuffer_parser.egg-info/requires.txt
+catbuffer_parser.egg-info/top_level.txt
