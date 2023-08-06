@@ -1,0 +1,3 @@
+[console_scripts]
+ci-plumber=ci_plumber.main:app
+
