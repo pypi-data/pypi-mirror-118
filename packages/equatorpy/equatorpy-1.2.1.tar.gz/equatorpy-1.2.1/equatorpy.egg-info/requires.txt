@@ -1,0 +1,5 @@
+sympy
+colorama
+
+[:platform_system == "Windows"]
+windows-curses>=2.2.0
