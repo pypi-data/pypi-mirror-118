@@ -1,0 +1,17 @@
+setup.py
+frigate_ai/__init__.py
+frigate_ai.egg-info/PKG-INFO
+frigate_ai.egg-info/SOURCES.txt
+frigate_ai.egg-info/dependency_links.txt
+frigate_ai.egg-info/entry_points.txt
+frigate_ai.egg-info/requires.txt
+frigate_ai.egg-info/top_level.txt
+frigate_ai/cli/__init__.py
+frigate_ai/cli/main.py
+frigate_ai/cli/cdk/__init__.py
+frigate_ai/cli/cdk/app.py
+frigate_ai/cli/cdk/setup.py
+frigate_ai/cli/cdk/cdk/__init__.py
+frigate_ai/cli/cdk/cdk/cdk_stack.py
+frigate_ai/wrapper/__init__.py
+frigate_ai/wrapper/wrapper.py
