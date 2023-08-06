@@ -1,0 +1,11 @@
+proxverter/__init__.py,sha256=LFgQJYETpiNBgNYZhy6wATUotY5RW2KjN3fs-oNMOTA,5962
+proxverter/certgen.py,sha256=8xjreg6va5MTcRacWJeFnIl-2HsJ_3zoigI0qfERrkQ,6225
+proxverter/installer.py,sha256=MetiCHNM6bp8GUpA_g2S8X76_wpqVvhPO-DxPxJDUFs,1650
+proxverter/sysprox.py,sha256=j2MVCrdfvuwpC2C2vLqWvs_Aw5TWL4_dz1K4MlUmiRY,10955
+proxverter/plugins/__init__.py,sha256=VRjvjlfVFqJJQmw2EHjom92xDbsl4c8um2a8O5yR4Dc,30
+proxverter/plugins/base.py,sha256=VVTDCy4SqqtBnNCzLuykq554LypFqNG2U2wEUFunIGw,4465
+proxverter-0.4.4.dist-info/LICENSE,sha256=f_4ZVFh8d9-6HPjrmy6nQ2cfpuY_nnovJYEZ1C4U7v4,27030
+proxverter-0.4.4.dist-info/METADATA,sha256=9lxscJ6KhqXv2XMUo0gVEZCQemwCKkgPzST7X-qXuP0,1891
+proxverter-0.4.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+proxverter-0.4.4.dist-info/top_level.txt,sha256=MuShOv5K6fNzCkd35v5PIYAkxtNz2Ga1xk3QTFPVgoM,11
+proxverter-0.4.4.dist-info/RECORD,,
