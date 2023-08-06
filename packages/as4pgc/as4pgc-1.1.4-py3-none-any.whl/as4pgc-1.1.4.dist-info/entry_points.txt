@@ -1,0 +1,3 @@
+[console_scripts]
+as4pgc = as4pgc.AS4PGC:main
+
