@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: auto-optional
+Version: 0.1.1
+Summary: Makes typed arguments Optional when the default argument is None
+Home-page: https://github.com/Luttik/auto-optional
+Author: Luttik
+Author-email: dtluttik@gmail.com
+Requires-Python: >3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: libcst (>=0.3.20,<0.4.0)
+Requires-Dist: typer (>=0.4.0,<0.5.0)
+Project-URL: Repository, https://github.com/Luttik/auto-optional
+Description-Content-Type: text/markdown
+
+# auto-optional
+Makes typed arguments Optional when the default argument is None.
+
+For example:
+```py
+def foo(bar: str = None):
+    ...
+```
+
+Would turn into
+
+```py
+from typing import Optional
+def foo(bar: Optional[str] = None):
+    ...
+```
+
+## Install
+Install with `pip install auto-optional`.
+
+## run
+You can run this with `auto-optional [path]` (path is an optional argument).
+
+## Properties
+
+- Existing imports are reused.
+- 
+- `import as` statements are properly handled.
+
+## Things of note
+
+For all these points I welcome pull-requests.
+
+- There is no exclude (path patterns) option yet
+- There is no ignore (code line) option yet
+- Code is aways read and written as `UTF-8` (which is accurate most of the time).
+
