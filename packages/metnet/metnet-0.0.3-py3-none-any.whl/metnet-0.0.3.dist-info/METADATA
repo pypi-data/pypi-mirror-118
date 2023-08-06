@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: metnet
+Version: 0.0.3
+Summary: PyTorch MetNet Implementation
+Home-page: https://github.com/openclimatefix/metnet
+Author: Jacob Bieker
+Author-email: jacob@openclimatefix.org
+License: MIT License
+Keywords: artificial intelligence,deep learning,transformer,attention mechanism,metnet,forecasting,remote-sensing
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+License-File: LICENSE
+Requires-Dist: einops (~=0.3.0)
+Requires-Dist: numpy (~=1.19.5)
+Requires-Dist: torchvision (~=0.10.0)
+Requires-Dist: antialiased-cnns
+Requires-Dist: axial-attention
+Requires-Dist: pytorch-msssim
+Requires-Dist: torch
+
+UNKNOWN
+
