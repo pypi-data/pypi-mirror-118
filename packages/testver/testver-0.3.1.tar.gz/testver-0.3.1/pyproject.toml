@@ -1,0 +1,18 @@
+[build-system]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "testver"
+author = "Jan Freyberg"
+author-email = "jan.freyberg@gmail.com"
+description-file = "README.md"
+home-page = "https://www.github.com/janfreyberg/testver"
+classifiers = ["License :: OSI Approved :: MIT License"]
+requires = ["astunparse"]
+
+[tool.flit.entrypoints.console_scripts]
+testver = "testver.__main__:main"
+
+[tool.black]
+line-length = 79
