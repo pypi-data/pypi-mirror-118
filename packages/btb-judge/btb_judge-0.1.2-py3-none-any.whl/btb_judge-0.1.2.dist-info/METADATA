@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: btb-judge
+Version: 0.1.2
+Summary: The judge for Bob The Builder game
+Author: Shreyansh Murarka
+Author-email: shreyanshmurarka97@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: djangorestframework (>=3.12.4,<4.0.0)
+Requires-Dist: requests (>=2.26.0,<3.0.0)
+Requires-Dist: typer[all] (>=0.3.2,<0.4.0)
+Description-Content-Type: text/markdown
+
+# Bob The Builder Judge
+
+Local judge for bob the builder
+
