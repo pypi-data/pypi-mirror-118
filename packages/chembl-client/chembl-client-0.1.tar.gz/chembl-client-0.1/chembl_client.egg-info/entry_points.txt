@@ -1,0 +1,8 @@
+[console_scripts]
+chembl_act = chembl_client.scripts.chembl_act:main
+chembl_ids = chembl_client.scripts.chembl_ids:main
+chembl_m2t = chembl_client.scripts.chembl_m2t:main
+chembl_sim = chembl_client.scripts.chembl_sim:main
+chembl_sub = chembl_client.scripts.chembl_sub:main
+chembl_t2m = chembl_client.scripts.chembl_t2m:main
+
