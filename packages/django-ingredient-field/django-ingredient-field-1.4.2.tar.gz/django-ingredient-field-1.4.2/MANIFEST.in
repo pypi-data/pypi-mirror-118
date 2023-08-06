@@ -1,0 +1,6 @@
+include LICENSE
+include README.rst
+recursive-include dj_ingredient_field/data *
+recursive-include docs *
+recursive-include dj_ingredient_field/templates *
+recursive-include dj_ingredient_field/static *
