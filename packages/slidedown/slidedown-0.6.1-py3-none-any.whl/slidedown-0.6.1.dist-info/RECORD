@@ -1,0 +1,11 @@
+slidedown/__init__.py,sha256=1GUyRnCEdtPlB8hO4wiMV20jBr_Tf6plgM6KtTS7K3o,39
+slidedown/__main__.py,sha256=0a1nmYtrl-IYQsg4_dhGJU7x1KFLZJ0SRnamYk1hmTc,1680
+slidedown/load.py,sha256=XtpD5YjFz5RihumrGgUKSh2VFVYNXBd7XADJTUuxNf0,2188
+slidedown/slides.py,sha256=zAR5o9pxfIVsBC6uJ00mL23tRIWCp_rB1-z9a0V9bQk,2440
+slidedown/static/markdown.css,sha256=M78Qm6wN4AxPbq1gx_SP9Kmo8kjnwLzZnEXTCrcIpMU,6559
+slidedown-0.6.1.dist-info/LICENSE,sha256=2g6gYokLtgiM_s7J3Jv41vRMaEfQ_GgkvQ718EqXxdQ,1083
+slidedown-0.6.1.dist-info/METADATA,sha256=2-LstOI-NqNfHSci8rj_VbVSrFSPIrMbtOx-g3vjVKc,2121
+slidedown-0.6.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+slidedown-0.6.1.dist-info/entry_points.txt,sha256=S46rZaV1aEQK9UBlGFy7DiTOFGKk_dhAlieviREQ4-w,54
+slidedown-0.6.1.dist-info/top_level.txt,sha256=44HzDeTffTD13P1YqupPVvKaO1ZOI5-CJKm3XtjiWFg,10
+slidedown-0.6.1.dist-info/RECORD,,
