@@ -1,0 +1,7 @@
+setup.py
+Odyssi.egg-info/PKG-INFO
+Odyssi.egg-info/SOURCES.txt
+Odyssi.egg-info/dependency_links.txt
+Odyssi.egg-info/top_level.txt
+libname/__init__.py
+libname/app.py
