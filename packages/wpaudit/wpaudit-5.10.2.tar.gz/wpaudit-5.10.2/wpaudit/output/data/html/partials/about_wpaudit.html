@@ -1,0 +1,26 @@
+<script id="about_wpaudit-template" type="text/x-handlebars-template">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">About WP Audit</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body m-3">
+                <div>
+                    <p>WP Audit is an open-source tool released by Wembley Partners</a>.</p>
+                    <p>Use the top navigation bar to review the configuration of the supported cloud provider services.</p>
+                    <p>
+                        For more information about WP Audit, please check out the project's page on
+                        <a href="https://github.com/wperic/wpaudit" target="_blank">GitHub</a>.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</script>
+
+<script>
+    var about_wpaudit_template = Handlebars.compile($("#about_wpaudit-template").html());
+</script>
