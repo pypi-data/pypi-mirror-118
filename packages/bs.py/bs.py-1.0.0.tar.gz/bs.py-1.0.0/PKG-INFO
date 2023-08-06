@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: bs.py
+Version: 1.0.0
+Summary: A python wrapper for the Brawl Stars API
+Home-page: https://github.com/priyamroy/bs.py
+Author: priyamroy
+License: MIT
+Project-URL: Source, https://github.com/priyamroy/bs.py
+Project-URL: Tracker, https://github.com/priyamroy/bs.py/issues
+Description: # bs.py
+        
+        ### ! Work In Progress !
+        
+        Async python wrapper for the brawl stars api.
+        Some HTTP codes are taken from coc.py.
+        
+Keywords: brawl stars,bs api,brawl stars python,brawl stars api
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
