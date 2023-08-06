@@ -1,0 +1,4 @@
+future
+openpyxl
+psycopg2-binary
+python-plus
