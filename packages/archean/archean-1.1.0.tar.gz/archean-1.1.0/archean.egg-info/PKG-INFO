@@ -1,0 +1,105 @@
+Metadata-Version: 2.1
+Name: archean
+Version: 1.1.0
+Summary: Extract information from Wikipedia Dumps
+Home-page: https://gitlab.com/thisisayushg/archean
+Author: Ayush Gupta
+Author-email: info@realpython.com
+License: MIT
+Description: # Table of Contents
+        - [Table of Contents](#table-of-contents)
+        - [Note](#note)
+        - [About](#about)
+        - [Installation](#installation)
+        - [Usage Notes](#usage-notes)
+        - [FAQs](#faqs)
+          - [1. Why is only MongoDB supported as a Database?](#1-why-is-only-mongodb-supported-as-a-database)
+          - [2. The parser only extracts information from the latest version of the pages. Why?](#2-the-parser-only-extracts-information-from-the-latest-version-of-the-pages-why)
+          - [3. The parser is only extracts Film Infobox. Why is that so? Can you extend the support to other parts of Wikipedia articles?](#3-the-parser-is-only-extracts-film-infobox-why-is-that-so-can-you-extend-the-support-to-other-parts-of-wikipedia-articles)
+          - [4. Is there any plan to extend this parser to other Infobox types as well?](#4-is-there-any-plan-to-extend-this-parser-to-other-infobox-types-as-well)
+        
+        # Note
+        archean's parser utility only works in linux machines. This is due to its dependency on `bzcat` command to open `bz2` files. This command is not available natively on Windows. So this program will throw error.
+        
+        <br/>
+        <br/>
+        
+        
+        # About
+        Archean is a tool to process Wikipedia dumps and extract required information from them. The tool contains several files:
+        1. wiki_downloader.py
+        2. wiki_parser.py
+        3. db_writer.py
+        4. cleanup.py
+        
+        `wiki_downloader` is used to download the dumps from a wikipedia dump directory. `wiki_parser` is the brain of the project. The module houses the logic for processing the Wikipedia dumps and extract information.
+        `cleanup.py` is the file for cleaning the extracted content to be in structured form. Lastly, `db_writer` is an additional tool in case the JSON file created from the dumps need to be written into the database. The supported database is MongoDB.
+        
+        <br/>
+        <br/>
+        
+        # Installation
+        ```
+        pip install archean
+        ```
+        <br/>
+        <br/>
+        
+        # Usage Notes
+        The parser accepts a few parameters that can be specified during script invokation. These are lised below:
+         - `no-db`: No DB related activity will be performed. Only extracted content from dumps will be placed in JSON files. <br/>
+          Example:
+          ```
+           archean --no-db
+          ```
+         - `conn`: Connection string for the database. Defaults to local db `mongodb://localhost:27017`.<br/>
+          Example:
+          ```
+          archean --conn='mongodb://localhost:27017'
+          ```
+         - `db`: Database name to point to. Defaults to `media`. <br/>
+          Example:
+          ```
+          archean --conn='mongodb://localhost:27017' --db='library'
+          ```
+         - `collection`: Collection in which the JSON data will be stored in. (Data from all created JSON files will be stored in this collection). Defaults to `movies`.<br/>
+          Example:
+          ```
+          archean --conn='mongodb://localhost:27017' --db='library' --collection='fictional'
+          ```
+         - `download`: When provided, it indicates the dumps are to be downloaded from the Wikipedia Dumps archive. Value to be provided for the parameter is the directory from which the dump is to be downloaded.<br/>
+          Example:
+          ```
+          archean --download='20210801'
+          ```
+        <br/>
+        <br/>
+        
+        # FAQs
+        ## 1. Why is only MongoDB supported as a Database?
+        Wikipedia is not a structured information collection. The information extracted from the Wikipedia might be missing some information in case of one article but might be present in another article. In such cases, NoSQL databases become an obvious choice of data storage. Hence MongoDB was chosen.
+        
+        <br/>
+        
+        ## 2. The parser only extracts information from the latest version of the pages. Why?
+        Wikipedia has a lot of information. It keeps the edit history of the pages in its archive but since any project is less likely to involve processing of old version data, the `downloader` has been kept at minimum to download only the latest version.
+        
+        <br/>
+        
+        ## 3. The parser is only extracts Film Infobox. Why is that so? Can you extend the support to other parts of Wikipedia articles?
+        Infoboxes are great summary sections in Wikipedia pages. They can provide answers to most common queries in a giffy. Hence `wiki-parser` is created to parse Infoboxes first.
+        Why the choice of Film infobox was made is simply because it is easy to judge the validity of  parsed information during development phase. Also because we all love movies ;)
+        
+        <br/>
+        
+        ## 4. Is there any plan to extend this parser to other Infobox types as well?
+        Definitely! There is so much to be done in the project. Infobox for books information, for countries, for music, for magazines,and so much more are there to cater the project to.
+        
+        <br/>
+        
+        
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
