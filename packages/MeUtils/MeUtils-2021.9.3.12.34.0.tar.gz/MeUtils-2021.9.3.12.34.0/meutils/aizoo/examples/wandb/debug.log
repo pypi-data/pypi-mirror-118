@@ -1,0 +1,247 @@
+2020-05-19 15:06:15,732 DEBUG   MainThread:26040 [wandb_config.py:_load_defaults():119] no defaults not found in config-defaults.yaml
+2020-05-19 15:06:15,737 DEBUG   MainThread:26040 [cmd.py:execute():722] Popen(['git', 'rev-parse', '--git-path', 'config'], cwd=/Users/yuanjie/Desktop/Projects/Python/inn, universal_newlines=False, shell=None, istream=None)
+2020-05-19 15:06:15,748 DEBUG   MainThread:26040 [cmd.py:execute():722] Popen(['git', 'rev-parse', '--show-toplevel'], cwd=/Users/yuanjie/Desktop/Projects/Python/inn, universal_newlines=False, shell=None, istream=None)
+2020-05-19 15:06:15,761 DEBUG   MainThread:26040 [meta.py:setup():97] code probe starting
+2020-05-19 15:06:15,761 DEBUG   MainThread:26040 [meta.py:_setup_code_git():49] probe for git information
+2020-05-19 15:06:15,761 DEBUG   MainThread:26040 [cmd.py:execute():722] Popen(['git', 'rev-parse', '--git-path', 'config'], cwd=/Users/yuanjie/Desktop/Projects/Python/inn, universal_newlines=False, shell=None, istream=None)
+2020-05-19 15:06:15,772 DEBUG   MainThread:26040 [cmd.py:execute():722] Popen(['git', 'rev-parse', '--git-path', 'config'], cwd=/Users/yuanjie/Desktop/Projects/Python/inn, universal_newlines=False, shell=None, istream=None)
+2020-05-19 15:06:15,781 DEBUG   MainThread:26040 [cmd.py:execute():722] Popen(['git', 'rev-parse', '--git-path', 'config'], cwd=/Users/yuanjie/Desktop/Projects/Python/inn, universal_newlines=False, shell=None, istream=None)
+2020-05-19 15:06:15,791 DEBUG   MainThread:26040 [cmd.py:execute():722] Popen(['git', 'cat-file', '--batch-check'], cwd=/Users/yuanjie/Desktop/Projects/Python/inn, universal_newlines=False, shell=None, istream=<valid stream>)
+2020-05-19 15:06:15,803 DEBUG   MainThread:26040 [cmd.py:execute():722] Popen(['git', 'rev-parse', '--git-path', 'config'], cwd=/Users/yuanjie/Desktop/Projects/Python/inn, universal_newlines=False, shell=None, istream=None)
+2020-05-19 15:06:15,814 DEBUG   MainThread:26040 [cmd.py:execute():722] Popen(['git', 'rev-parse', '--show-toplevel'], cwd=/Users/yuanjie/Desktop/Projects/Python/inn, universal_newlines=False, shell=None, istream=None)
+2020-05-19 15:06:15,823 DEBUG   MainThread:26040 [meta.py:_setup_code_program():58] save program starting
+2020-05-19 15:06:15,824 DEBUG   MainThread:26040 [meta.py:_setup_code_program():60] save program starting: /Users/yuanjie/Desktop/Projects/Python/inn/Examples/wandb_example.py
+2020-05-19 15:06:15,824 DEBUG   MainThread:26040 [meta.py:_setup_code_program():65] save program saved: /Users/yuanjie/Desktop/Projects/Python/inn/Examples/wandb/run-20200519_070614-7n5rpasq/code/Examples/wandb_example.py
+2020-05-19 15:06:15,824 DEBUG   MainThread:26040 [meta.py:_setup_code_program():67] save program
+2020-05-19 15:06:15,824 DEBUG   MainThread:26040 [meta.py:setup():119] code probe done
+2020-05-19 15:06:15,842 DEBUG   MainThread:26040 [run_manager.py:__init__():541] Initialized sync for inn-Examples/7n5rpasq
+2020-05-19 15:06:15,872 INFO    MainThread:26040 [run_manager.py:wrap_existing_process():1144] wrapping existing process 26032
+2020-05-19 15:06:15,877 DEBUG   MainThread:26040 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): pypi.org:443
+2020-05-19 15:06:15,880 INFO    MainThread:26040 [run_manager.py:init_run():924] system metrics and metadata threads started
+2020-05-19 15:06:15,881 INFO    MainThread:26040 [run_manager.py:init_run():963] upserting run before process can begin, waiting at most 10 seconds
+2020-05-19 15:06:15,881 DEBUG   Thread-14 :26040 [cmd.py:execute():722] Popen(['git', 'rev-parse', '--show-toplevel'], cwd=/Users/yuanjie/Desktop/Projects/Python/inn, universal_newlines=False, shell=None, istream=None)
+2020-05-19 15:06:15,896 DEBUG   Thread-14 :26040 [cmd.py:execute():722] Popen(['git', 'rev-parse', '--git-path', 'config'], cwd=/Users/yuanjie/Desktop/Projects/Python/inn, universal_newlines=False, shell=None, istream=None)
+2020-05-19 15:06:15,906 DEBUG   Thread-14 :26040 [cmd.py:execute():722] Popen(['git', 'rev-parse', '--git-path', 'config'], cwd=/Users/yuanjie/Desktop/Projects/Python/inn, universal_newlines=False, shell=None, istream=None)
+2020-05-19 15:06:15,917 DEBUG   Thread-14 :26040 [cmd.py:execute():722] Popen(['git', 'rev-parse', '--git-path', 'config'], cwd=/Users/yuanjie/Desktop/Projects/Python/inn, universal_newlines=False, shell=None, istream=None)
+2020-05-19 15:06:15,936 DEBUG   Thread-14 :26040 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-05-19 15:06:16,767 INFO    Thread-3  :26040 [run_manager.py:_on_file_modified():688] file/dir modified: /Users/yuanjie/Desktop/Projects/Python/inn/Examples/wandb/run-20200519_070614-7n5rpasq/config.yaml
+2020-05-19 15:06:16,958 DEBUG   Thread-14 :26040 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-05-19 15:06:19,450 DEBUG   Thread-14 :26040 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-05-19 15:06:19,452 ERROR   Thread-14 :26040 [retry.py:__call__():108] Retry attempt failed:
+Traceback (most recent call last):
+  File "/Users/yuanjie/Desktop/intelpython3/lib/python3.6/site-packages/urllib3/connection.py", line 159, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "/Users/yuanjie/Desktop/intelpython3/lib/python3.6/site-packages/urllib3/util/connection.py", line 57, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Users/yuanjie/Desktop/intelpython3/lib/python3.6/socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yuanjie/Desktop/intelpython3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "/Users/yuanjie/Desktop/intelpython3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 343, in _make_request
+    self._validate_conn(conn)
+  File "/Users/yuanjie/Desktop/intelpython3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 839, in _validate_conn
+    conn.connect()
+  File "/Users/yuanjie/Desktop/intelpython3/lib/python3.6/site-packages/urllib3/connection.py", line 301, in connect
+    conn = self._new_conn()
+  File "/Users/yuanjie/Desktop/intelpython3/lib/python3.6/site-packages/urllib3/connection.py", line 168, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x119827748>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yuanjie/Desktop/intelpython3/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Users/yuanjie/Desktop/intelpython3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/Users/yuanjie/Desktop/intelpython3/lib/python3.6/site-packages/urllib3/util/retry.py", line 398, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x119827748>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yuanjie/Desktop/intelpython3/lib/python3.6/site-packages/wandb/retry.py", line 95, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/Users/yuanjie/Desktop/intelpython3/lib/python3.6/site-packages/wandb/apis/internal.py", line 110, in execute
+    return self.client.execute(*args, **kwargs)
+  File "/Users/yuanjie/Desktop/intelpython3/lib/python3.6/site-packages/gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/Users/yuanjie/Desktop/intelpython3/lib/python3.6/site-packages/gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/Users/yuanjie/Desktop/intelpython3/lib/python3.6/site-packages/gql/transport/requests.py", line 38, in execute
+    request = requests.post(self.url, **post_args)
+  File "/Users/yuanjie/Desktop/intelpython3/lib/python3.6/site-packages/requests/api.py", line 116, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/Users/yuanjie/Desktop/intelpython3/lib/python3.6/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/yuanjie/Desktop/intelpython3/lib/python3.6/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/yuanjie/Desktop/intelpython3/lib/python3.6/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/yuanjie/Desktop/intelpython3/lib/python3.6/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x119827748>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+2020-05-19 15:06:23,798 DEBUG   Thread-14 :26040 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-05-19 15:06:25,886 ERROR   MainThread:26040 [run_manager.py:init_run():968] Failed to connect to W&B servers after 10 seconds.                    Letting user process proceed while attempting to reconnect.
+2020-05-19 15:06:25,886 INFO    MainThread:26040 [run_manager.py:wrap_existing_process():1161] informing user process we are ready to proceed
+2020-05-19 15:06:25,888 DEBUG   Thread-15 :26040 [cmd.py:execute():722] Popen(['git', 'rev-parse', '--show-toplevel'], cwd=/Users/yuanjie/Desktop/Projects/Python/inn, universal_newlines=False, shell=None, istream=None)
+2020-05-19 15:06:25,888 INFO    MainThread:26040 [run_manager.py:_sync_etc():1268] entering loop for messages from user process
+2020-05-19 15:06:25,903 DEBUG   Thread-15 :26040 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-05-19 15:06:26,531 INFO    MainThread:26040 [run_manager.py:_sync_etc():1291] received message from user process: {"save_policy": {"glob": "model-best.h5", "policy": "live"}}
+2020-05-19 15:06:27,139 DEBUG   Thread-15 :26040 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-05-19 15:06:29,190 DEBUG   Thread-15 :26040 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-05-19 15:06:29,191 ERROR   Thread-15 :26040 [retry.py:__call__():108] Retry attempt failed:
+Traceback (most recent call last):
+  File "/Users/yuanjie/Desktop/intelpython3/lib/python3.6/site-packages/urllib3/connection.py", line 159, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "/Users/yuanjie/Desktop/intelpython3/lib/python3.6/site-packages/urllib3/util/connection.py", line 57, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Users/yuanjie/Desktop/intelpython3/lib/python3.6/socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yuanjie/Desktop/intelpython3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "/Users/yuanjie/Desktop/intelpython3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 343, in _make_request
+    self._validate_conn(conn)
+  File "/Users/yuanjie/Desktop/intelpython3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 839, in _validate_conn
+    conn.connect()
+  File "/Users/yuanjie/Desktop/intelpython3/lib/python3.6/site-packages/urllib3/connection.py", line 301, in connect
+    conn = self._new_conn()
+  File "/Users/yuanjie/Desktop/intelpython3/lib/python3.6/site-packages/urllib3/connection.py", line 168, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x1198acc50>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yuanjie/Desktop/intelpython3/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Users/yuanjie/Desktop/intelpython3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/Users/yuanjie/Desktop/intelpython3/lib/python3.6/site-packages/urllib3/util/retry.py", line 398, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x1198acc50>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yuanjie/Desktop/intelpython3/lib/python3.6/site-packages/wandb/retry.py", line 95, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/Users/yuanjie/Desktop/intelpython3/lib/python3.6/site-packages/wandb/apis/internal.py", line 110, in execute
+    return self.client.execute(*args, **kwargs)
+  File "/Users/yuanjie/Desktop/intelpython3/lib/python3.6/site-packages/gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/Users/yuanjie/Desktop/intelpython3/lib/python3.6/site-packages/gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/Users/yuanjie/Desktop/intelpython3/lib/python3.6/site-packages/gql/transport/requests.py", line 38, in execute
+    request = requests.post(self.url, **post_args)
+  File "/Users/yuanjie/Desktop/intelpython3/lib/python3.6/site-packages/requests/api.py", line 116, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/Users/yuanjie/Desktop/intelpython3/lib/python3.6/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/yuanjie/Desktop/intelpython3/lib/python3.6/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/yuanjie/Desktop/intelpython3/lib/python3.6/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/yuanjie/Desktop/intelpython3/lib/python3.6/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x1198acc50>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+2020-05-19 15:06:33,040 DEBUG   Thread-14 :26040 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-05-19 15:06:33,222 DEBUG   Thread-15 :26040 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-05-19 15:06:43,124 DEBUG   Thread-15 :26040 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-05-19 15:06:51,285 DEBUG   Thread-14 :26040 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-05-19 15:06:57,481 INFO    MainThread:26040 [run_manager.py:_sync_etc():1291] received message from user process: {"exitcode": 0}
+2020-05-19 15:06:57,482 INFO    MainThread:26040 [run_manager.py:_sync_etc():1377] closing log streams and sending exitcode to W&B
+2020-05-19 15:06:57,482 INFO    MainThread:26040 [run_manager.py:shutdown():1068] shutting down system stats and metadata service
+2020-05-19 15:06:59,567 DEBUG   Thread-15 :26040 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-05-19 15:07:00,344 DEBUG   Thread-15 :26040 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 400 None
+2020-05-19 15:07:00,347 ERROR   Thread-15 :26040 [internal.py:execute():113] 400 response executing GraphQL.
+2020-05-19 15:07:00,347 ERROR   Thread-15 :26040 [internal.py:execute():114] {"errors":[{"message":"entityName required for project query","path":["project"]}],"data":{"project":null}}
+2020-05-19 15:07:00,347 ERROR   Thread-15 :26040 [run_manager.py:check_status():465] Failed to check stop requested status: 400 Client Error: Bad Request for url: https://api.wandb.ai/graphql
+Traceback (most recent call last):
+  File "/Users/yuanjie/Desktop/intelpython3/lib/python3.6/site-packages/wandb/apis/__init__.py", line 60, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/yuanjie/Desktop/intelpython3/lib/python3.6/site-packages/wandb/apis/internal.py", line 643, in check_stop_requested
+    'projectName': project_name, 'entityName': entity_name, 'runId': run_id,
+  File "/Users/yuanjie/Desktop/intelpython3/lib/python3.6/site-packages/wandb/retry.py", line 95, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/Users/yuanjie/Desktop/intelpython3/lib/python3.6/site-packages/wandb/apis/internal.py", line 116, in execute
+    six.reraise(*sys.exc_info())
+  File "/Users/yuanjie/Desktop/intelpython3/lib/python3.6/site-packages/six.py", line 703, in reraise
+    raise value
+  File "/Users/yuanjie/Desktop/intelpython3/lib/python3.6/site-packages/wandb/apis/internal.py", line 110, in execute
+    return self.client.execute(*args, **kwargs)
+  File "/Users/yuanjie/Desktop/intelpython3/lib/python3.6/site-packages/gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/Users/yuanjie/Desktop/intelpython3/lib/python3.6/site-packages/gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/Users/yuanjie/Desktop/intelpython3/lib/python3.6/site-packages/gql/transport/requests.py", line 39, in execute
+    request.raise_for_status()
+  File "/Users/yuanjie/Desktop/intelpython3/lib/python3.6/site-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.wandb.ai/graphql
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yuanjie/Desktop/intelpython3/lib/python3.6/site-packages/wandb/run_manager.py", line 463, in check_status
+    run_id=self._run.id)
+  File "/Users/yuanjie/Desktop/intelpython3/lib/python3.6/site-packages/wandb/apis/__init__.py", line 62, in wrapper
+    raise CommError(err.response, err)
+wandb.apis.CommError: <Response [400]>
+2020-05-19 15:07:00,351 INFO    MainThread:26040 [run_manager.py:shutdown():1080] stopping streaming files and file change observer
+anjie/Desktop/intelpython3/lib/python3.6/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/yuanjie/Desktop/intelpython3/lib/python3.6/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/yuanjie/Desktop/intelpython3/lib/python3.6/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x1198acc50>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+2020-05-19 15:06:57,481 INFO    MainThread:26040 [7n5rpasq:run_manager.py:_sync_etc():1291] received message from user process: {"exitcode": 0}
+2020-05-19 15:06:57,482 INFO    MainThread:26040 [7n5rpasq:run_manager.py:_sync_etc():1377] closing log streams and sending exitcode to W&B
+2020-05-19 15:06:57,482 INFO    MainThread:26040 [7n5rpasq:run_manager.py:shutdown():1068] shutting down system stats and metadata service
+2020-05-19 15:07:00,347 ERROR   Thread-15 :26040 [7n5rpasq:internal.py:execute():113] 400 response executing GraphQL.
+2020-05-19 15:07:00,347 ERROR   Thread-15 :26040 [7n5rpasq:internal.py:execute():114] {"errors":[{"message":"entityName required for project query","path":["project"]}],"data":{"project":null}}
+2020-05-19 15:07:00,347 ERROR   Thread-15 :26040 [7n5rpasq:run_manager.py:check_status():465] Failed to check stop requested status: 400 Client Error: Bad Request for url: https://api.wandb.ai/graphql
+Traceback (most recent call last):
+  File "/Users/yuanjie/Desktop/intelpython3/lib/python3.6/site-packages/wandb/apis/__init__.py", line 60, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/yuanjie/Desktop/intelpython3/lib/python3.6/site-packages/wandb/apis/internal.py", line 643, in check_stop_requested
+    'projectName': project_name, 'entityName': entity_name, 'runId': run_id,
+  File "/Users/yuanjie/Desktop/intelpython3/lib/python3.6/site-packages/wandb/retry.py", line 95, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/Users/yuanjie/Desktop/intelpython3/lib/python3.6/site-packages/wandb/apis/internal.py", line 116, in execute
+    six.reraise(*sys.exc_info())
+  File "/Users/yuanjie/Desktop/intelpython3/lib/python3.6/site-packages/six.py", line 703, in reraise
+    raise value
+  File "/Users/yuanjie/Desktop/intelpython3/lib/python3.6/site-packages/wandb/apis/internal.py", line 110, in execute
+    return self.client.execute(*args, **kwargs)
+  File "/Users/yuanjie/Desktop/intelpython3/lib/python3.6/site-packages/gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/Users/yuanjie/Desktop/intelpython3/lib/python3.6/site-packages/gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/Users/yuanjie/Desktop/intelpython3/lib/python3.6/site-packages/gql/transport/requests.py", line 39, in execute
+    request.raise_for_status()
+  File "/Users/yuanjie/Desktop/intelpython3/lib/python3.6/site-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.wandb.ai/graphql
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yuanjie/Desktop/intelpython3/lib/python3.6/site-packages/wandb/run_manager.py", line 463, in check_status
+    run_id=self._run.id)
+  File "/Users/yuanjie/Desktop/intelpython3/lib/python3.6/site-packages/wandb/apis/__init__.py", line 62, in wrapper
+    raise CommError(err.response, err)
+wandb.apis.CommError: <Response [400]>
+2020-05-19 15:07:00,351 INFO    MainThread:26040 [7n5rpasq:run_manager.py:shutdown():1080] stopping streaming files and file change observer
