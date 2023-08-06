@@ -1,0 +1,16 @@
+LICENSE,sha256=eo4wFR__Xh19PlPMGmI_HYl3Ee8tDf-qd6_JPd-t3eM,1089
+saucenaopie/__init__.py,sha256=0FPUtnlPgyq3JclFBwilGMWp0D1v_8QThuK_SXUl8gQ,127
+saucenaopie/client/__init__.py,sha256=7V7dbnDNQKBmoXYT7K-GDZxKgDHwUFf1k0a9UnL9GFw,121
+saucenaopie/client/asyncio.py,sha256=VVKJNRGr0xYarPs2IPRAFqrD0E9d5ldqYPqDmIX5QQ0,1756
+saucenaopie/client/base.py,sha256=WWbeCZ_98-27RROE7hFTYCRUaoA8lcZkrg2RAe9MK-w,8862
+saucenaopie/client/sync.py,sha256=blXvNxvvqeHqwW6hZ1Lpzped1Wf_F4B8QvVBU7VJh50,1687
+saucenaopie/exceptions.py,sha256=SOD9hcQBVTYifkjQShyHZlU6tF9UqkuUUKezeAKNimE,1122
+saucenaopie/helper.py,sha256=kT1I61GMIUkSahrNro-XDZpXzgCmiSl2ZPeBxzJy-p4,2878
+saucenaopie/types/__init__.py,sha256=EtzNlGxmu6Ff9qMhssOliCdHFQ_XCDMs7yYR-ojogGs,219
+saucenaopie/types/response.py,sha256=An8CSxCoGy0y5iGbBI-FnhLf3TNIVTQXBi245wSv2-c,3608
+saucenaopie/types/result.py,sha256=K3vecbWQMYbSfJE3PrUa1JxkW68DDefARw1SHG0W4FQ,820
+saucenaopie/types/sauce.py,sha256=dI-ODsowUZwIzbExx1pb8cikl2GE8ZEDlhxsvO4Sx54,1681
+saucenaopie-1.0.1.dist-info/LICENSE,sha256=eo4wFR__Xh19PlPMGmI_HYl3Ee8tDf-qd6_JPd-t3eM,1089
+saucenaopie-1.0.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+saucenaopie-1.0.1.dist-info/METADATA,sha256=wPVDuuFfE4bq1ZPM3HLdwb7baptUVlP1yFjE1w9NJRc,8184
+saucenaopie-1.0.1.dist-info/RECORD,,
