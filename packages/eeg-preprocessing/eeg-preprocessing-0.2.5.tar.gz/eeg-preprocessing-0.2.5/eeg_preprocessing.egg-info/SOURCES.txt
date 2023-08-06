@@ -1,0 +1,7 @@
+README.md
+setup.py
+eeg_preprocessing.egg-info/PKG-INFO
+eeg_preprocessing.egg-info/SOURCES.txt
+eeg_preprocessing.egg-info/dependency_links.txt
+eeg_preprocessing.egg-info/requires.txt
+eeg_preprocessing.egg-info/top_level.txt
