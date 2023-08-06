@@ -1,0 +1,3 @@
+[console_scripts]
+qbox=qbox.__main__:main
+
