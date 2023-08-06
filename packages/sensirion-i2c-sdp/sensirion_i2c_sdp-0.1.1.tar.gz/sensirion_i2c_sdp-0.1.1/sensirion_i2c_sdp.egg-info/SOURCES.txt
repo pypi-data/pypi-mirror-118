@@ -1,0 +1,16 @@
+CHANGELOG.rst
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+sensirion_i2c_sdp/__init__.py
+sensirion_i2c_sdp/version.py
+sensirion_i2c_sdp.egg-info/PKG-INFO
+sensirion_i2c_sdp.egg-info/SOURCES.txt
+sensirion_i2c_sdp.egg-info/dependency_links.txt
+sensirion_i2c_sdp.egg-info/requires.txt
+sensirion_i2c_sdp.egg-info/top_level.txt
+sensirion_i2c_sdp/sdp/__init__.py
+sensirion_i2c_sdp/sdp/commands.py
+sensirion_i2c_sdp/sdp/device.py
+sensirion_i2c_sdp/sdp/response_types.py
