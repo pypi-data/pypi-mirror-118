@@ -1,0 +1,13 @@
+nvme/__init__.py,sha256=UlMVaqKWK985hRdtNVV-vMjWBjSUDO-aITgyh1NBAsg,2129
+nvme/cmd/__init__.py,sha256=ajKpGcXCFNB_kKLf-JhtVQx0MjMjOyFR95qr4hrQHV0,1136
+nvme/cmd/admin/identify.py,sha256=oXRIMYpYMSsZTue-REL1QJ0SaWhSwonaxv1mDsXtdE8,5465
+nvme/cmd/admin/logpage.py,sha256=oqg743PX4-nnGvHX21hPnQw3dLBQSkBWQbgJExPvl7I,2561
+nvme/cmd/completion.py,sha256=G2Fhtf7txDYNkmKIoZy9gPZVD3abYrk81V3nPLcvV2s,2256
+nvme/driver/__init__.py,sha256=oBeH6Wnbv4Cc0ONPzDuLMCzmYey33a-NkyeyKF432o0,9326
+nvme/driver/linuxioctl.py,sha256=TRK0ClRlSk4PAwDcvoqkhwCBhu0mBA93qwDrwgxx_QU,6063
+nvme/util.py,sha256=iPDgpdA6JOd-3EOXR8z5Dph988cfB0-SeGUZzoKF-MA,347
+nvme-0.2.0.dist-info/entry_points.txt,sha256=dujg0VIEPzv6oPEOhbElKU8gi2ksl0eZyyaAAz5BAfg,68
+nvme-0.2.0.dist-info/LICENSE,sha256=s4dgN09WgrgrFhyjrwl4hj3V9UsAtnOb7rPz5sUULpA,1070
+nvme-0.2.0.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+nvme-0.2.0.dist-info/METADATA,sha256=ZzfCc0Qc4nqTAlPINX095G99cPTZhx85lpZZF-G-h9E,1453
+nvme-0.2.0.dist-info/RECORD,,
