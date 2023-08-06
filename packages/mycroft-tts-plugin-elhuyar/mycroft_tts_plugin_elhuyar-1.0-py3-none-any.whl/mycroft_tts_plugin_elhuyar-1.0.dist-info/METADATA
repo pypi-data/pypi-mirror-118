@@ -1,0 +1,56 @@
+Metadata-Version: 2.0
+Name: mycroft-tts-plugin-elhuyar
+Version: 1.0
+Summary: TTS plugin for Mycroft that uses Elhuyar's TTS service (Basque)
+Home-page: https://github.com/Mycroft-eus/mycroft-tts-plugin-elhuyar
+Author: Igor Leturia
+Author-email: i.leturia@elhuyar.eus
+License: Apache-2.0
+Keywords: mycroft plugin tts
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Text Processing :: Linguistic
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.0
+Classifier: Programming Language :: Python :: 3.1
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+License-File: LICENSE.txt
+Requires-Dist: requests
+
+mycroft-tts-plugin-elhuyar
+==========================
+
+This TTS service for Mycroft requires a token for accessing Elhuyar TTS API. The access to the API is free for developers.
+
+Configuration parameters (only the token is mandatory, others are defaulted as in the following) ::
+
+    "tts": {
+        "module": "elhuyar_tts",
+        "elhuyar_tts": {
+            "token": "insert_your_token_here",
+            "genre": "M", # optional, F or M, defaults to M
+            "speed": 100 # optional, defaults to 100)
+        }
+    }
+
+Installation
+------------
+
+::
+
+    mycroft-pip install mycroft-tts-plugin-elhuyar`
+
+License
+-------
+
+Apache-2.0
+
+
