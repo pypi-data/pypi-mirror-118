@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: reliapy
+Version: 1.0.0
+Summary: Structural Risk and Reliability with Python.
+Home-page: https://github.com/reliapy/reliapy
+Author: Ketson R. M. dos Santos
+Author-email: ketson.santos@epfl.ch
+License: BSD
+Description: UNKNOWN
+Platform: OSX
+Platform: Windows
+Platform: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
