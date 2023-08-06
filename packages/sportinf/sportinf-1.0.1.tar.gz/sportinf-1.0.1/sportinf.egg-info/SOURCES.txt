@@ -1,0 +1,15 @@
+LICENSE.txt
+README.rst
+setup.cfg
+setup.py
+sport_info/__init__.py
+sport_info/constants.py
+sport_info/parse_information.py
+sportinf.egg-info/PKG-INFO
+sportinf.egg-info/SOURCES.txt
+sportinf.egg-info/dependency_links.txt
+sportinf.egg-info/requires.txt
+sportinf.egg-info/top_level.txt
+tests/__init__.py
+tests/results.py
+tests/test.py
