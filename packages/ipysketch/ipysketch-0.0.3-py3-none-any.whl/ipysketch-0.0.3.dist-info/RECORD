@@ -1,0 +1,13 @@
+ipysketch/__init__.py,sha256=8qVS4G4rpLTQ1OPCE5Bc7fGSSZmvUkAUlWgHuqxjs5w,30
+ipysketch/__main__.py,sha256=BPqGxXA3HGP8mooSOdaqGykSkBLTxKEcjHwOLtr6qFo,184
+ipysketch/ipywidget.py,sha256=qQoyYLkXY6zlLGH3kBUK4rcqDHjJ-vH41BaO_tzMpFE,2047
+ipysketch/model.py,sha256=yaaGDwWDigyQiKM7OLqeliXs3dt4Vf_A-0rOzpXX66Y,3113
+ipysketch/tkapp.py,sha256=LJUeOkAGe7GG_uaByrIJs-nQO2YDGluTza79Eefy0E0,6657
+ipysketch/assets/delete-60.png,sha256=AIOyGCsdn85WaqMb0Qf6AE3vkgfUVAwPJbTn9yz1zF4,290
+ipysketch/assets/eraser-60.png,sha256=cWqvTk9kyclxonfT0Y07ZGZQwPIm8DdrWjv_AETIctg,542
+ipysketch/assets/pen-60.png,sha256=20ZweXS-kch5eoUd_w0Wb3u09_vAIRBIKCAmg5GDMiM,675
+ipysketch/assets/save-60.png,sha256=EzFwLMvvmDOcgnEPnwW5Q8L2WwUYTeydwcASwY8LoeU,409
+ipysketch-0.0.3.dist-info/METADATA,sha256=51Ql9GeaRI2t0t3B9PUszvQHskC4ILtO-DgwbzHtWew,641
+ipysketch-0.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+ipysketch-0.0.3.dist-info/top_level.txt,sha256=NfhmSIaQfdVmN88KDOIr4aIzQA1wsMebKAxJWdUXbTw,10
+ipysketch-0.0.3.dist-info/RECORD,,
