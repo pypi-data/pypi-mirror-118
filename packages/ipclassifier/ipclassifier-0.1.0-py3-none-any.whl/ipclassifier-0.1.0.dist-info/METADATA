@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: ipclassifier
+Version: 0.1.0
+Summary: Classifies English iambic pentameter poetry by period
+Home-page: https://github.com/Chad-Mowbray/iamb-classifier
+Author: Chad Mowbray
+Author-email: mail@mail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+Requires-Dist: click (==8.0.1)
+Requires-Dist: joblib (==1.0.1)
+Requires-Dist: nltk (==3.6.2)
+Requires-Dist: numpy (==1.21.2)
+Requires-Dist: regex (==2021.8.28)
+Requires-Dist: scikit-learn (==0.24.2)
+Requires-Dist: scipy (==1.7.1)
+Requires-Dist: sklearn (==0.0)
+Requires-Dist: threadpoolctl (==2.2.0)
+Requires-Dist: tqdm (==4.62.2)
+Requires-Dist: Unidecode (==1.2.0)
+
+UNKNOWN
+
