@@ -1,0 +1,16 @@
+four_letter_blocks/__init__.py,sha256=b6-WiVk0Li5MaV2rBnHYl104TsouINojSWKqHDas0js,22
+four_letter_blocks/__main__.py,sha256=BzRjMExcKGsi4F6asbTYYJ3d52Lqgv8KZ0Mai9IVZuA,14929
+four_letter_blocks/block.py,sha256=HfuAf5KY-on6pBCiracKc7NSi837W8xxTTIycPZYRQA,2612
+four_letter_blocks/clue.py,sha256=L4EtrOcLKO9R2vsyt0o2kp90VesJiPTzFs3gIEQYugM,379
+four_letter_blocks/focused_plain_text_edit.py,sha256=yD2QV09eYb9YgTHgkTOOWnmaV1hAsVKHh4RPHkhAslI,337
+four_letter_blocks/grid.py,sha256=ikEMBwXutD8iv6EU1DCKuvcm5TtqXsxxQ_4TwRU4V-w,2222
+four_letter_blocks/main_window.py,sha256=dGjpdi65Xog_3-vHVCg7DYvBgVABIeLvzgb6hOLkeeI,8517
+four_letter_blocks/puzzle.py,sha256=Dd594JsQyHTRi7puL-0qGuAOB94NK8PkFPMJ9HQsC6U,12822
+four_letter_blocks/square.py,sha256=phH3g0pVhSNt46V-CJo6kr3Lzs5x_AFrtb7It5OyNUo,2489
+four_letter_blocks/suit.py,sha256=hxuxnIWptD75ieR-S5rMA2ylajBMI5WFJVnQb-k4FqI,200
+four_letter_blocks-1.1.0.dist-info/LICENSE,sha256=1xUbtU-uT1vbMoQykiXs3wqMoh8ww8karg6b25iPQZc,1067
+four_letter_blocks-1.1.0.dist-info/METADATA,sha256=IeJg-6_BPKSFb4qF676FIvlqraMcR8PO1ohFwcyZ2Fs,3521
+four_letter_blocks-1.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+four_letter_blocks-1.1.0.dist-info/entry_points.txt,sha256=uM308B2k70vDppb2t5dbtM6jbjyn86kBTaCPqC2XEJA,69
+four_letter_blocks-1.1.0.dist-info/top_level.txt,sha256=shVuNpB1HTBxN2r_G4Y72DWABN1VGzu2lVme0aXhVo0,19
+four_letter_blocks-1.1.0.dist-info/RECORD,,
