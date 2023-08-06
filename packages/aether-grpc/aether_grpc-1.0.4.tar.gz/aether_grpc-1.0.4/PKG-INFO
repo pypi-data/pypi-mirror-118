@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: aether_grpc
+Version: 1.0.4
+Summary: Aether GRPC definitions
+Home-page: https://github.com/aether-labs/aether-grpc
+Author: Calum Webb
+Author-email: calumpeterwebb@icloud.com
+License: UNKNOWN
+Download-URL: https://github.com/aether-labs/aether-grpc/archive/refs/tags/1.0.4.tar.gz
+Description: UNKNOWN
+Keywords: aether,aether-grpc,grpc
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Provides-Extra: dev
