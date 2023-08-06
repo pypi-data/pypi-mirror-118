@@ -1,0 +1,2 @@
+exclude plover_next_stroke/*_rc.py
+recursive-include plover_next_stroke/resources *

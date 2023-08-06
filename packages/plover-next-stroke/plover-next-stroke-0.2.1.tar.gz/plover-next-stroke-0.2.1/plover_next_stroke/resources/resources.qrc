@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="/next_stroke">
+    <file>pin.svg</file>
+    <file>settings.svg</file>
+    <file>timeline.svg</file>
+  </qresource>
+</RCC>
