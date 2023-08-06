@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/pyiris/__init__.py
+src/pyiris/iris.py
+src/pyiris.egg-info/PKG-INFO
+src/pyiris.egg-info/SOURCES.txt
+src/pyiris.egg-info/dependency_links.txt
+src/pyiris.egg-info/top_level.txt
