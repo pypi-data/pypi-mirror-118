@@ -1,0 +1,11 @@
+#!python
+
+
+from takenoko import __version__ as takenoko_version
+
+def main():
+    print(takenoko_version)
+
+
+if __name__ == '__main__':
+    main()
