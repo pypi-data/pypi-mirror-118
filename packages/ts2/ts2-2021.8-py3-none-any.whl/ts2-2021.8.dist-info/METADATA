@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: ts2
+Version: 2021.8
+Summary: Package used to manage time series with metadata.
+Home-page: UNKNOWN
+Author: Riccardo Remo Appino
+Author-email: riccardoremo.appino@terna.it
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+README.md
+
+# time series standard package
+
+Author: Riccardo Remo Appino
+Email: riccardoremo.appino@terna.it
+
+# description
+
+
+# list of metadata
+
+
+# list of functions
+
