@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: communicationsystemlabtelkom
+Version: 0.0.1
+Summary: Communication System Lab Telkom University
+Home-page: UNKNOWN
+Author: Laboratorium Siskom Tel-u
+Author-email: commsylab@gmail.com
+License: MIT
+Description: This is the result of Telkom University's 2021 communication system junior research
+        
+        Change Log
+        ===========
+        
+        0.0.1 (17/06/2021)
+        ------------------
+        - first release
+Keywords: communication system laboratory
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

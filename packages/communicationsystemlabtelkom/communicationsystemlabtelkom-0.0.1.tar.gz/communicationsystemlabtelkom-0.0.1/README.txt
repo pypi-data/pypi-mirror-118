@@ -1,0 +1,1 @@
+This is the result of Telkom University's 2021 communication system junior research

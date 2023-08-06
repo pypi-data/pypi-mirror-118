@@ -1,0 +1,14 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.cfg
+setup.py
+communicationlabtelkom/_init_.py
+communicationlabtelkom.egg-info/SOURCES.txt
+communicationlabtelkom.egg-info/dependency_links.txt
+communicationlabtelkom.egg-info/top_level.txt
+communicationsystemlabtelkom.egg-info/PKG-INFO
+communicationsystemlabtelkom.egg-info/SOURCES.txt
+communicationsystemlabtelkom.egg-info/dependency_links.txt
+communicationsystemlabtelkom.egg-info/top_level.txt
