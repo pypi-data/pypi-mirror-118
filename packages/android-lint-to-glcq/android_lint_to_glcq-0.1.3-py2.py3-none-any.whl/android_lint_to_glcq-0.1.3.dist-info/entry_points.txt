@@ -1,0 +1,3 @@
+[console_scripts]
+android-lint-to-glcq = androidllinttoglqc.androidllinttoglqc:main
+
