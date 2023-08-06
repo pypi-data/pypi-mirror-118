@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+moleculex.egg-info/PKG-INFO
+moleculex.egg-info/SOURCES.txt
+moleculex.egg-info/dependency_links.txt
+moleculex.egg-info/requires.txt
+moleculex.egg-info/top_level.txt
+molx/__init__.py
+molx/version.py
