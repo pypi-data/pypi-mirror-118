@@ -1,0 +1,15 @@
+biosimulators_bionetgen/__init__.py,sha256=FiJcR3mZJRO-Ia3EJvkBi8NJwFzg2qTCq5ec7QccZ6c,568
+biosimulators_bionetgen/__main__.py,sha256=2bQfzboWHWRIAsZp_gT_usrnmO2RN_MJfv2SipV1W38,638
+biosimulators_bionetgen/_version.py,sha256=WBOcXh8XZ4FNX3RRgliAF5LcxRZyjlt2fyuSPGfwP98,23
+biosimulators_bionetgen/config.py,sha256=8VoHt7ijoordcQgJJoGoIUxpHmhHF5GoS1K8ffouJQU,453
+biosimulators_bionetgen/core.py,sha256=HGI3b-nt9Zk9HmwyitUS08rMDVuB-DnH4gHbFsAc_D8,6724
+biosimulators_bionetgen/data_model.py,sha256=1GAtfzYNeKUsK0UqJLiYCOeI41PIDdu-_ZaByX1Tc-U,5451
+biosimulators_bionetgen/io.py,sha256=7x6bQtr3HKlMnpg9mphoiWjiD7J6aDnZv1X_D7Gl6i4,5144
+biosimulators_bionetgen/utils.py,sha256=2t3bq0wwlsEH2-0DOlT-19r061N2tHCCvgQ2o9AmIT8,15062
+biosimulators_bionetgen/warnings.py,sha256=mjtDizsE8pG10mW0aHgpeaegotgboF_hbGl_kIH576g,474
+biosimulators_bionetgen-0.1.12.dist-info/LICENSE,sha256=HEgoRB3A2xcLy7Uu8JZdMvnKnnJLmifKaaJQwEePmUo,1110
+biosimulators_bionetgen-0.1.12.dist-info/METADATA,sha256=VJzDaMTsyMJ88En_HKCRBPRGk3UrKibHZhXQxq3Gbx0,5503
+biosimulators_bionetgen-0.1.12.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+biosimulators_bionetgen-0.1.12.dist-info/entry_points.txt,sha256=qjEOJygkI2hVVCgIkOD4Laxq7t5bB7I-zz20JgFMfHo,83
+biosimulators_bionetgen-0.1.12.dist-info/top_level.txt,sha256=bFCVXj_C7yKGfy9ptfuKztWYYissfbbXJxWRjyV2Bpo,24
+biosimulators_bionetgen-0.1.12.dist-info/RECORD,,
