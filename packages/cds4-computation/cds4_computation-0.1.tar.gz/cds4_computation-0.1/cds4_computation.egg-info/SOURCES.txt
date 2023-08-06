@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+cds4_computation.egg-info/PKG-INFO
+cds4_computation.egg-info/SOURCES.txt
+cds4_computation.egg-info/dependency_links.txt
+cds4_computation.egg-info/not-zip-safe
+cds4_computation.egg-info/top_level.txt
+my_calculator/__init__.py
+my_calculator/my_calculator.py
