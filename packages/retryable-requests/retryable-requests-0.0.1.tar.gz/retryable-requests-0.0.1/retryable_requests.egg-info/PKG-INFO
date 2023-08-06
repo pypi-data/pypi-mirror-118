@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: retryable-requests
+Version: 0.0.1
+Summary: Easy to use retryable requests sessions.
+Home-page: https://github.com/danlamanna/retryable-requests
+Author: Kitware, Inc.
+Author-email: kitware@kitware.com
+License: Apache 2.0
+Project-URL: Bug Reports, https://github.com/danlamanna/retryable-requests/issues
+Project-URL: Source, https://github.com/danlamanna/retryable-requests
+Keywords: requests
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# retryable-requests
+[![PyPI](https://img.shields.io/pypi/v/retryable-requests)](https://pypi.org/project/retryable-requests/)
+
+Easy to use retryable requests sessions.
+
+
