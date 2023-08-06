@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.rst
+requirements.txt
+setup.py
+wave_packet_dynamics/__init__.py
+wave_packet_dynamics/main.py
+wave_packet_dynamics/potential.py
+wave_packet_dynamics/wave_function.py
+wave_packet_dynamics.egg-info/PKG-INFO
+wave_packet_dynamics.egg-info/SOURCES.txt
+wave_packet_dynamics.egg-info/dependency_links.txt
+wave_packet_dynamics.egg-info/requires.txt
+wave_packet_dynamics.egg-info/top_level.txt
