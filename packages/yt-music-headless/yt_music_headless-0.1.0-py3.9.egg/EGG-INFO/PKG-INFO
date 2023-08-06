@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: yt-music-headless
+Version: 0.1.0
+Summary: A simple package to search & play music from YouTube Music.
+Home-page: https://github.com/alexmercerind/yt-music-headless
+Author: Hitesh Kumar Saini
+Author-email: saini123hitesh@gmail.com
+License: MIT
+Description: A simple package to search & play music from YouTube Music.
+Keywords: youtube youtube-music youtube-playback
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
