@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: zangorth-helpers
+Version: 1.3.0
+Summary: Collection of helper functions for my projects
+Home-page: https://github.com/Zangorth/Helpers
+Author: Zangorth
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: pyodbc
+Requires-Dist: SQLAlchemy
+Requires-Dist: numpy
+Requires-Dist: streamlit
+Requires-Dist: pytube
+Requires-Dist: pandas
+Requires-Dist: imbalanced-learn
+Requires-Dist: youtube-transcript-api
+Requires-Dist: pydub
+Requires-Dist: scipy
+Requires-Dist: torch
+Requires-Dist: librosa
+Requires-Dist: imblearn
+Requires-Dist: scikit-learn
+
+# Helpers
+
+Repository for various helper functions that I regularly use. 
+
+**SGA:** Genetic algorithm functions
+
+**arbitraryNN**: Pytorch based Neural Network which can accept an arbitrary number of layers as a parameter
+
+**cross_validation**: Function that outputs the cross validated score for a model
+
