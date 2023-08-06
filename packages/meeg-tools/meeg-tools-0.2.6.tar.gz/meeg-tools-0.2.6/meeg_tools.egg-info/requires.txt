@@ -1,0 +1,10 @@
+mne
+PyQt5
+scipy
+pandas
+autoreject
+jupyter
+joblib
+sklearn
+matplotlib
+ipyfilechooser
