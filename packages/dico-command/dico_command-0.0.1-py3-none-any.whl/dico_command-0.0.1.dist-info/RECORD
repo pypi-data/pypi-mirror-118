@@ -1,0 +1,13 @@
+dico_command/__init__.py,sha256=8QqU8PB13_isTp-_hvqkYKru4QH7CfkNshpAPD9Im3E,253
+dico_command/addon.py,sha256=NC6JBWD6ZYLQ3wIB9yabF8yXF4apf4mK1z5yqGlJiQ8,1510
+dico_command/bot.py,sha256=BxfmJ0uKXnyKD-gCducRxVJn-1CmwCNDELOHfnNhdLg,6238
+dico_command/command.py,sha256=xymedBsvQhd7kmoSOuHtsuZ7hp5AhHGuPCTj1I6x6AM,1151
+dico_command/context.py,sha256=YQxpiG4-NujdmgOEsL6QnntJDRoW1adLzXIa2dehct4,1167
+dico_command/decorator.py,sha256=6OoAFnEdEGuld77WwO84BzVMZWqCdhwHgrBwmBYuUkY,451
+dico_command/exception.py,sha256=ybGW16jM46yKqqNpoJqlRQwqpwjZBz9c2ny58riUmpg,743
+dico_command/utils.py,sha256=_BdaDVcMW4O2khGEOh1Np60rhKlBVq8AcUdPj6XUD-w,2440
+dico_command-0.0.1.dist-info/LICENSE,sha256=XEqrGR-hi1oT4Qddkn1GDEdi1lqiygDyoRnAijiymk8,1065
+dico_command-0.0.1.dist-info/METADATA,sha256=i9BLNA_jae5847Puya_rWt-DbnanPJ2GKqA6o0X-7t0,1482
+dico_command-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+dico_command-0.0.1.dist-info/top_level.txt,sha256=HHhxUNMRxvr4frKPaJT9GBeT5Ft-yVnk2fy4EIEotfg,13
+dico_command-0.0.1.dist-info/RECORD,,
