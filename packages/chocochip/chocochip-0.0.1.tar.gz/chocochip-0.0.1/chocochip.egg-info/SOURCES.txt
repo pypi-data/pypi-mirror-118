@@ -1,0 +1,8 @@
+README.md
+setup.py
+chocochip/__init__.py
+chocochip/chocochip.py
+chocochip.egg-info/PKG-INFO
+chocochip.egg-info/SOURCES.txt
+chocochip.egg-info/dependency_links.txt
+chocochip.egg-info/top_level.txt
