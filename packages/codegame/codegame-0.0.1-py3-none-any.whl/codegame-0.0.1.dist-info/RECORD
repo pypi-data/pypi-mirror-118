@@ -1,0 +1,17 @@
+codegame/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+codegame/__main__.py,sha256=O3svS2gW9ajX-I8bSLeiE0zREQ9-mGjDJR7kAzbEWgM,521
+codegame/pyrustic_data/backstage/config/build.json,sha256=mMDBP-HiKdFhhm2dLdClRl_A3RCPD_ZWdGWM3KBFO2Q,109
+codegame/pyrustic_data/backstage/config/init.json,sha256=sjZW3XAItXtCJ9RWX-cXWs5EYRO_YtfaJG404iN8q14,39
+codegame/pyrustic_data/backstage/config/release.json,sha256=WB__jwqf1lorBbSDNoQkF-1eUuh1DcaZh8ACdaOgKlM,133
+codegame/pyrustic_data/backstage/data/github_release_form.json,sha256=n_UMENTjBLTltBOzvsnUfrlisGffLMR0Sngry1cwovM,272
+codegame/pyrustic_data/backstage/report/build_report.json,sha256=T1PNoYwrqgwDVLtfmj7L5e0Sq02OEbqHPC8RFhICuUU,2
+codegame/pyrustic_data/backstage/report/release_report.json,sha256=T1PNoYwrqgwDVLtfmj7L5e0Sq02OEbqHPC8RFhICuUU,2
+codegame/pyrustic_data/hubstore/img.json,sha256=clw8FUprs0HLKAhamFKT5eQaFaLfjZXb3GiJ56N3eIQ,48
+codegame/pyrustic_data/hubstore/promotion.json,sha256=RBNvo1WzZ4oRRq0W9-hknpT7T8If536DEMBg9hyq_4o,2
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+codegame-0.0.1.dist-info/LICENSE,sha256=qa7R_AbaR83ZfoUV_42NLm1y03WIzvfz5kcIrGwX-UY,1075
+codegame-0.0.1.dist-info/METADATA,sha256=3XSnRU-Ivx9yRDWb65frPww7r_c2S6_ldkepRRGFBLw,1178
+codegame-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+codegame-0.0.1.dist-info/entry_points.txt,sha256=RCE6ZVsEcrhXSpFcsnR6h29RUI1KODZn3y5Bcu7ryG4,53
+codegame-0.0.1.dist-info/top_level.txt,sha256=QKOnSL9N4IB2svW6ov93yBTZkb2pUwNexaYOr31vKxk,15
+codegame-0.0.1.dist-info/RECORD,,
