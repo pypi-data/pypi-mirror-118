@@ -1,0 +1,5 @@
+py-multibase>=1.0.3
+pycryptodome>=3.9.9
+pymultihash>=0.8.2
+py3exiv2>=0.9.3
+endesive>=2.0.2

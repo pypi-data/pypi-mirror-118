@@ -1,0 +1,14 @@
+LICENSE.txt
+README.md
+setup.py
+c2pa/__init__.py
+c2pa/cai_tool.py
+c2pa/core.py
+c2pa/jumbf.py
+c2pa/starling.py
+c2pa.egg-info/PKG-INFO
+c2pa.egg-info/SOURCES.txt
+c2pa.egg-info/dependency_links.txt
+c2pa.egg-info/entry_points.txt
+c2pa.egg-info/requires.txt
+c2pa.egg-info/top_level.txt

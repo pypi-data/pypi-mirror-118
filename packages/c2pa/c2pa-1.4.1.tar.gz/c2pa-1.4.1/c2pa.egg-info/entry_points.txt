@@ -1,0 +1,4 @@
+[console_scripts]
+c2pa = c2pa.starling:main
+cai_tool = c2pa.cai_tool:main
+
