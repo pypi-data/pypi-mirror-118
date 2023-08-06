@@ -1,0 +1,13 @@
+AUTHORS.rst,sha256=HkFPdhxO7PsAzh8x6dTwluvAnSV9TKUEAPjOlEBAErc,553
+LICENSE,sha256=5bSWn9VokaqpjIGDuRIg0IaDFTm1ZXLXVT5akBnGMgE,1061
+README.md,sha256=kYnuf_fHEfeIbFGi7Q85zVgK0BUYDMCynx7hRKVoACM,4028
+autoflake8/__init__.py,sha256=rnObPjuBcEStqSO0S6gsdS_ot8ITOQjVj_-P1LUUYpg,22
+autoflake8/cli.py,sha256=QHng1OeJzgA2JUkIM-8PPMvUvyKUNbaHJpMYrMz8ruY,4475
+autoflake8/fix.py,sha256=VCJxTWJtk-OA8MYWuNsYyai1wLOwmubR3FfAYkue9wY,23137
+autoflake8/multiline.py,sha256=NbTwh1fgL44JsqYaosJ-BcklFEDpMw8bUPZQBBGL7Zo,5984
+autoflake8/pending_fix.py,sha256=FiTVF_M2bX7_l7JijDtR4bhWuh1dR871Jg3aj9aeyaA,1052
+autoflake8-0.1.1.dist-info/entry_points.txt,sha256=_NvjqMLKOouwOLqinK3U7kzyWDIgyT8q5OZM3BqoJqw,50
+autoflake8-0.1.1.dist-info/LICENSE,sha256=5bSWn9VokaqpjIGDuRIg0IaDFTm1ZXLXVT5akBnGMgE,1061
+autoflake8-0.1.1.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+autoflake8-0.1.1.dist-info/METADATA,sha256=HxYhu4EYRtJCH8jsFymXvn4bCXMkwXULvcksgKia-x4,5000
+autoflake8-0.1.1.dist-info/RECORD,,
