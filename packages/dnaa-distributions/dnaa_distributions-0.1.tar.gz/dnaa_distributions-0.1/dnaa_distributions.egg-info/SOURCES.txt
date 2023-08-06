@@ -1,0 +1,10 @@
+setup.py
+dnaa_distributions/Binomialdistribution_challenge.py
+dnaa_distributions/GaussianDistribution.py
+dnaa_distributions/GeneralDistribution.py
+dnaa_distributions/__init__.py
+dnaa_distributions.egg-info/PKG-INFO
+dnaa_distributions.egg-info/SOURCES.txt
+dnaa_distributions.egg-info/dependency_links.txt
+dnaa_distributions.egg-info/not-zip-safe
+dnaa_distributions.egg-info/top_level.txt
