@@ -1,0 +1,6 @@
+metDataModel
+mass2chem
+matplotlib
+numpy
+scipy
+xlsxwriter
