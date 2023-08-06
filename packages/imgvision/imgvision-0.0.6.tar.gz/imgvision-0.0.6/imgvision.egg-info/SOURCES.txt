@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.py
+imgvision/__init__.py
+imgvision/__version__.py
+imgvision.egg-info/PKG-INFO
+imgvision.egg-info/SOURCES.txt
+imgvision.egg-info/dependency_links.txt
+imgvision.egg-info/requires.txt
+imgvision.egg-info/top_level.txt
+imgvision/data/A_D75.npy
+imgvision/data/Lab_D65.npy
+imgvision/data/S_xyz_10.npy
+imgvision/data/S_xyz_50.npy
+imgvision/data/S_xyz_A.npy
+imgvision/data/cie64.npy
