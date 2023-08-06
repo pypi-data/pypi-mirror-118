@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: connect-baas-db
+Version: 1.0.0
+Summary: A Python package with the intend of connecting to a Postgres database
+Home-page: UNKNOWN
+Author: Sander van Dessel
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6, <4
+License-File: LICENSE.txt
+Requires-Dist: psycopg2-binary
+Requires-Dist: pyyaml
+
+This package can be used to simplify connecting to Postgres database and logging to the Postgres database. Furthermore a functionality for opening yaml files has been added. This package has been created for specific purposes
+
