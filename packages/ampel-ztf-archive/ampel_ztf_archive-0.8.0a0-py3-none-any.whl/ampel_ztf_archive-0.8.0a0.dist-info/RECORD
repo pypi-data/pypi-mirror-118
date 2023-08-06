@@ -1,0 +1,14 @@
+ampel/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ampel/ztf/archive/ArchiveDB.py,sha256=lymK-iVJgLDN8FtzWMWZg8uDZ_4beXgM7o5AllOFzl4,36654
+ampel/ztf/archive/ArchiveDBClient.py,sha256=o0MlE9HocUh0rIjzIB5krEHB7_b3TnyxfhavJrjeBg8,1688
+ampel/ztf/archive/ZUDSArchiveDB.py,sha256=odmpc495qeJS4oD7H66iZsJ2e9VJiFChwTQlHvWUcLA,3091
+ampel/ztf/archive/server/app.py,sha256=RAOMSVlcYFG7zCv_ZmaGGI0GfDmBSvCia1CI1y7TcS4,12148
+ampel/ztf/archive/server/models.py,sha256=oK-l-yg2oUuhCKSvhndkdyA9M32cIMvpTx9bA9NW55w,7013
+ampel/ztf/archive/server/settings.py,sha256=iih5qAgy6Msxa9LIe9lAGBUov2wweCkemixI-ddeMOc,711
+ampel/ztf/t0/ArchiveUpdater.py,sha256=6jJNT75YAizovWxQWUDjjz_iaXkz5R-t0Iv72uqySZc,4740
+ampel/ztf/t0/ZUDSArchiveUpdater.py,sha256=ax2W86iorjrJ2esZfs5NMRpEpbT0ex2wvXA81ifw6ag,3393
+ampel_ztf_archive-0.8.0a0.dist-info/entry_points.txt,sha256=vhwqtju4ISV1xrX9m8PbURav-U2-J7sOW5VBQbe6Eiw,105
+ampel_ztf_archive-0.8.0a0.dist-info/LICENSE,sha256=szcwmYNnRi478DkQ_O2OBCW_3hZ5Yy2rzUzeDqgAnIY,1517
+ampel_ztf_archive-0.8.0a0.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+ampel_ztf_archive-0.8.0a0.dist-info/METADATA,sha256=yBQx57oArk4mvd-HB06_niY_e06XYWtbNUtbHyV807I,1443
+ampel_ztf_archive-0.8.0a0.dist-info/RECORD,,
