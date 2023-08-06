@@ -1,0 +1,15 @@
+LICENSE.txt
+README.md
+setup.py
+run_many/__init__.py
+run_many/default_settings.json
+run_many/parser.py
+run_many/runmany.py
+run_many/runner.py
+run_many/settings.py
+run_many/util.py
+runmany.egg-info/PKG-INFO
+runmany.egg-info/SOURCES.txt
+runmany.egg-info/dependency_links.txt
+runmany.egg-info/entry_points.txt
+runmany.egg-info/top_level.txt

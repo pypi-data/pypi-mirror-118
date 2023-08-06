@@ -1,0 +1,3 @@
+[console_scripts]
+runmany = run_many.run_many:main
+
