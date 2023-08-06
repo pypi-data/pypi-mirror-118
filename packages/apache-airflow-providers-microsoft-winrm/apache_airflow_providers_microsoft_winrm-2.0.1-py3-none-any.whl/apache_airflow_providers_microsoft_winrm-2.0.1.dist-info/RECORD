@@ -1,0 +1,15 @@
+airflow/providers/microsoft/winrm/__init__.py,sha256=mlJxuZLkd5x-iq2SBwD3mvRQpt3YR7wjz_nceyF1IaI,787
+airflow/providers/microsoft/winrm/get_provider_info.py,sha256=3BQROksu7TqeFbks_prmUXHOpZVe6YJa8zNUjkHNR6c,2231
+airflow/providers/microsoft/winrm/example_dags/__init__.py,sha256=mlJxuZLkd5x-iq2SBwD3mvRQpt3YR7wjz_nceyF1IaI,787
+airflow/providers/microsoft/winrm/example_dags/example_winrm.py,sha256=-LYRLdsn8ijr3S-iiMpW57nXyH0Xc4RWlsjlljUewR4,2301
+airflow/providers/microsoft/winrm/hooks/__init__.py,sha256=mlJxuZLkd5x-iq2SBwD3mvRQpt3YR7wjz_nceyF1IaI,787
+airflow/providers/microsoft/winrm/hooks/winrm.py,sha256=B8lC3FQcwKDziLCzWoAmlBi-B-hXI2Ktc6rsXt1sIPo,11205
+airflow/providers/microsoft/winrm/operators/__init__.py,sha256=mlJxuZLkd5x-iq2SBwD3mvRQpt3YR7wjz_nceyF1IaI,787
+airflow/providers/microsoft/winrm/operators/winrm.py,sha256=c9kcAfAn-zLy958I_Fuh2RyNRPdx8dEOMrVKgkGxMG4,6593
+apache_airflow_providers_microsoft_winrm-2.0.1.dist-info/LICENSE,sha256=gXPVwptPlW1TJ4HSuG5OMPg-a3h43OGMkZRR1rpwfJA,10850
+apache_airflow_providers_microsoft_winrm-2.0.1.dist-info/METADATA,sha256=Ez0sxlcJFPB_0ztw4cTyh4qvzUBTTaZW7hT_LG-VAxI,5888
+apache_airflow_providers_microsoft_winrm-2.0.1.dist-info/NOTICE,sha256=m-6s2XynUxVSUIxO4rVablAZCvFq-wmLrqV91DotRBw,240
+apache_airflow_providers_microsoft_winrm-2.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+apache_airflow_providers_microsoft_winrm-2.0.1.dist-info/entry_points.txt,sha256=2Q0ufLsCBVBvTqhpvF5LcoKe-1TDfyd8qtVKolpZqv0,113
+apache_airflow_providers_microsoft_winrm-2.0.1.dist-info/top_level.txt,sha256=OeMVH5md7fr2QQWpnZoOWWxWO-0WH1IP70lpTVwopPg,8
+apache_airflow_providers_microsoft_winrm-2.0.1.dist-info/RECORD,,
