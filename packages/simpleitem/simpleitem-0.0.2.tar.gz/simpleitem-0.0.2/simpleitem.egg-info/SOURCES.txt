@@ -1,0 +1,11 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.py
+simpleitem/__init__.py
+simpleitem/simpleitem.py
+simpleitem.egg-info/PKG-INFO
+simpleitem.egg-info/SOURCES.txt
+simpleitem.egg-info/dependency_links.txt
+simpleitem.egg-info/requires.txt
+simpleitem.egg-info/top_level.txt
