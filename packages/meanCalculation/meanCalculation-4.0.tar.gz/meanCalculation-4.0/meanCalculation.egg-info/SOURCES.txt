@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+meanCalculation/AvgCalculation.py
+meanCalculation/MeanCalculations.py
+meanCalculation/__init__.py
+meanCalculation.egg-info/PKG-INFO
+meanCalculation.egg-info/SOURCES.txt
+meanCalculation.egg-info/dependency_links.txt
+meanCalculation.egg-info/not-zip-safe
+meanCalculation.egg-info/top_level.txt
