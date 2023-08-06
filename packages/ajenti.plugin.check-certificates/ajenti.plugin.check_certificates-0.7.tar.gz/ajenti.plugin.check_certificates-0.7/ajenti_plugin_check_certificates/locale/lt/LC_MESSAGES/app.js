@@ -1,0 +1,1 @@
+{"": "", "({{h.restTime}} days)": "", "<i class=\\\"fas fa-check\\\"></i>\\n": "", "Add host": "", "Certificates to be renewed": "", "End :": "", "Start :": "", "Certificates": "", "Check certificates": "", "New url": "", "Remove the url ": "", "Remove": "", "Cancel": ""}
