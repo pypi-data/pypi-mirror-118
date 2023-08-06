@@ -1,0 +1,12 @@
+ampel/content/SVGRecord.py,sha256=ifQlFyJOYLqlyPgMpAbEs4mjmeFBSriApFbFyAInK5Y,633
+ampel/model/PlotProperties.py,sha256=eQ_q3JPPh1ENW0JIstAkALXYmBnF1xocasGRNsbpOBE,5565
+ampel/plot/SVGBrowser.py,sha256=29KMKCrAeraQgD-cDpIchBtIGzorxykpm29pZIjJylM,4926
+ampel/plot/SVGCollection.py,sha256=ITuTJVTUF7PjiZM3wyt8SuNOxKwTAoVjSI65f-JIiLU,3650
+ampel/plot/SVGLoader.py,sha256=uRrUK2ITh9TxBRGQMH2cyjpBDU4-QCpbt7pwtT9PtxE,3269
+ampel/plot/SVGPlot.py,sha256=zkacc-oP_07z9Lj0lbwiq6wbLbs7HJThIzYYLy4nas8,2884
+ampel/plot/SVGQuery.py,sha256=ZQV885qaPmi5JzmXh5F7kgbcHksaDQPwJ71U27udj7s,1940
+ampel/plot/T2SVGQuery.py,sha256=Vy1UjrmmZdu_VmAudowzUrpeDvnj2sIRb9xyZCsNZVw,1103
+ampel/plot/utils.py,sha256=AtQk64C3muZ1Jxuwkcsd78OsLmv-s2nDUyY7UT8ROyE,5810
+ampel_plots-0.8.0a0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+ampel_plots-0.8.0a0.dist-info/METADATA,sha256=frlf-HIwCh6B-RqTjSFu2p3cCuvX5PxKjNiQNp7OgUc,495
+ampel_plots-0.8.0a0.dist-info/RECORD,,
