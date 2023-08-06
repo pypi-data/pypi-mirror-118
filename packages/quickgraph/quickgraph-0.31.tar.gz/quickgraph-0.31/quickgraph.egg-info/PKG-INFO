@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: quickgraph
+Version: 0.31
+Summary: A Python package to view the skeleton of a social graph quickly.
+Home-page: https://gongqingyuan.wordpress.com/
+Author: Mobile Systems and Networking Group, Fudan University
+Author-email: gongqingyuan@fudan.edu.cn
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+
+## Introduction 
+
+QuickGraph library can help you get a quick overview of a social graph in an extremely convenient way. QuickGraph will show the basic information of a graph, plot the CDF of selected metrics, characterize the largest connected component (LCC).
+
+## Overview
+
+QuickGraph library can help you get a quick overview of a social graph in an extremely convenient way.
+Show the basic information of a graph, plot the CDF of selected metrics, characterize the largest connected component (LCC), compute representative structural hole related indexes.  
+Copyright (C) <2021-2026> by Qingyuan Gong, Fudan University (gongqingyuan@fudan.edu.cn)
+
+## Before Installation
+
+Please upgrade to Python 3.5
+
+## System Requirements
+
+We have tested QuickGraph on both MacOSX (version 11.5.1) and Ubuntu (Version: 20.04 LTS). This library have not been tested on other platforms.
+
+## Usage
+
+Please run the following commond and install the dependent libiraires:
+
+Run 
+`conda config --add channels conda-forge`
+
+`conda update –all`
+to make the libraries fit to the operation system
+
+Run
+`pip install python-igraph` 
+to install the iGraph library
+
+Run `pip install leidenalg` 
+to help the modularity related analysis 
+
+## Functions
+quickgraph.info(G) returns the the basic information of a graph and plots the CDF of selected metrics. 
+
+quickgraph.LCC_analysis(G) characterizes the largest connected component (LCC) of the input graph G on selected metrics. 
+
+## Example
+```python
+>>> import quickgraph as qg 
+>>> import networkx as nx
+>>> G = nx.les_miserables_graph()
+>>> qg.info(G)
+Number of Nodes: 77, Number of Edges: 254
+Avg. degree: 6.5974, Avg. clustering coefficient: 0.5731, Modularity (Louvain) = 0.5663
+Number of connected components: 1, Number of nodes in LCC: 77 ( 100.0 %)
+>>> qg.LCC_analysis(G)
+LCC: Avg. degree = 6.5974, Avg. clustering coefficient = 0.5731, Modularity (Louvain) = 0.5663
+(rough) shortest path length = 0 : 3 ( 0.3 %), 1 : 34 ( 3.4 %), 2 : 182 ( 18.2 %), 3 : 205 ( 20.5 %), 4 : 72 ( 7.2 %), 5 : 4 ( 0.4 %), Avg. shortest path length = 2.642
+```
+
+# License
+
+See the LICENSE file for license rights and limitations (MIT).
+
+
+
