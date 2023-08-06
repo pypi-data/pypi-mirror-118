@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+PymiliZip/__init__.py
+PymiliZip/milizip.py
+PymiliZip.egg-info/PKG-INFO
+PymiliZip.egg-info/SOURCES.txt
+PymiliZip.egg-info/dependency_links.txt
+PymiliZip.egg-info/top_level.txt
