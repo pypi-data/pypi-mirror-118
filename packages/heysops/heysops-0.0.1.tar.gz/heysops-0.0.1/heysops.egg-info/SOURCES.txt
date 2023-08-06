@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+heysops.egg-info/PKG-INFO
+heysops.egg-info/SOURCES.txt
+heysops.egg-info/dependency_links.txt
+heysops.egg-info/entry_points.txt
+heysops.egg-info/requires.txt
+heysops.egg-info/top_level.txt
+libheysops/__init__.py
+libheysops/base.py
+libheysops/heysops.py

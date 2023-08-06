@@ -1,0 +1,9 @@
+ruamel.yaml==0.17.13
+
+[dev]
+black
+build
+pyre-check
+radon
+setuptool
+wheel
