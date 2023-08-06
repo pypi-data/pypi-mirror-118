@@ -1,0 +1,4 @@
+[console_scripts]
+thc_evoting-client = thc.demo.evoting.client:main [evoting]
+thc_evoting-server = thc.demo.evoting.server:main [evoting]
+
