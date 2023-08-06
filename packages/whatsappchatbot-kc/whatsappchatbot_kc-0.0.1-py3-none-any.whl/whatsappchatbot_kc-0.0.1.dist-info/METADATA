@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: whatsappchatbot-kc
+Version: 0.0.1
+Summary: Its an whatsapp chatbot that can receive and send message to user
+Home-page: https://github.com/srivastavas08/WhatsappBOT
+Author: Kiran Chandra
+Author-email: srivastavas08@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/srivastavas08/WhatsappBOT/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# WhatsappBOT
+It's an automated whatsapp bot which can serve as chatbot and can perform search operations on google, youtube, wikipedia 
+
+It can automatically fetch for new messages and reply to the user.
+
+Libraries used - 
+Chatterbot - For chatBot
+Selenium - for controling browser and scrapping and sending messages
+os - to run existing chrome session
+
+Important - 
+
+1- you just need to login to chrome using whatsapp web Once. This doesn't run on chromedriver and hence you 
+    you won't have to login again and again.
+2 - create a whatsapp group with name "Standby".
+3 - To train the bot for personal use please refer to ::
+    please contact me at srivastavas08@gmail.com
+4 - Nothing else needed just enjoy
+
