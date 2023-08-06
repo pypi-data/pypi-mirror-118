@@ -1,0 +1,10 @@
+labtex/__init__.py,sha256=2Tqpb5U9qrfSAsJFHKcvoWw2YBlvhe820iYoppmbl1Y,192
+labtex/document.py,sha256=SwDUWqwc3yVeAN9ID7DJyFTctzFHTEbEVaTrH2TppcU,5860
+labtex/linear.py,sha256=Kd7HrvICLijTeqQu2Uv0HGr_V3aPRspmq1i00zAN2pw,1621
+labtex/measurement.py,sha256=4vdZaBgwlF8AGmlaULcz3FT1zwwkQZgvRz3ERBAmGoE,18870
+labtex/unit.py,sha256=GeRh1J600QOiIYohbb1eEy0MeBlCkNgPCN6pWy8fN-c,8131
+labtex-0.3.0.dist-info/LICENSE,sha256=9z2escZaBs0KRMXUQzfmS4xtaLDJVBVQJklnx1xlg7s,1049
+labtex-0.3.0.dist-info/METADATA,sha256=bEVKEoImqiE2dfNO6UOMc6FTlwHNRaWkrkj1ej7HAfU,6042
+labtex-0.3.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+labtex-0.3.0.dist-info/top_level.txt,sha256=p05E-2IEHEJ0Hg9XBk2CUUne773okmTHj-vMWZzT7To,7
+labtex-0.3.0.dist-info/RECORD,,
