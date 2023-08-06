@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: unitgrade
+Version: 0.0.5
+Summary: A lightweight student evaluation framework build on unittest
+Home-page: https://lab.compute.dtu.dk/tuhe/unitgrade
+Author: Tue Herlau
+Author-email: tuhe@dtu.dk
+License: Apache
+Description: UNKNOWN
+Platform: UNKNOWN

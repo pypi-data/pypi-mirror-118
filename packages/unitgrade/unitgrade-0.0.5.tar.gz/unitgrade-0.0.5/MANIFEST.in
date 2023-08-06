@@ -1,0 +1,3 @@
+include *.dat
+recursive-include unitgrade *.dat
+recursive-include cs101courseware_example *.dat

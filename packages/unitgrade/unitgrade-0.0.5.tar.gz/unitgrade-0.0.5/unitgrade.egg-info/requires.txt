@@ -1,0 +1,4 @@
+jinja2
+tabulate
+sklearn
+compress_pickle
