@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/xsynth/__init__.py
+src/xsynth/xsource.py
+src/xsynth/xsynth.py
+src/xsynth.egg-info/PKG-INFO
+src/xsynth.egg-info/SOURCES.txt
+src/xsynth.egg-info/dependency_links.txt
+src/xsynth.egg-info/entry_points.txt
+src/xsynth.egg-info/requires.txt
+src/xsynth.egg-info/top_level.txt
