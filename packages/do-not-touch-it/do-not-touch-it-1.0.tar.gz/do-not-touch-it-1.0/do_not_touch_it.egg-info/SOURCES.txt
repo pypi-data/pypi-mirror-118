@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+do_not_touch_it/__init__.py
+do_not_touch_it.egg-info/PKG-INFO
+do_not_touch_it.egg-info/SOURCES.txt
+do_not_touch_it.egg-info/dependency_links.txt
+do_not_touch_it.egg-info/not-zip-safe
+do_not_touch_it.egg-info/top_level.txt
