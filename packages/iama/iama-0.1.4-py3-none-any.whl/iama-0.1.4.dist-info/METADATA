@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: iama
+Version: 0.1.4
+Summary: Classifying r/relationships post titles by gender.
+Home-page: https://github.com/youdaniel/iama
+Author: Daniel You
+Author-email: daniel.you@jerichoapps.org
+License: Apache 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: nltk
+Requires-Dist: setuptools
+Requires-Dist: scikit-learn
+Requires-Dist: numpy
+
+# iama
+
+[![PyPI version](https://badge.fury.io/py/iama.svg)](https://pypi.org/project/iama/)
+
+_iama_ is a classifier for r/relationships titles. Consider the following title:
+
+```{.bash}
+My [18M] girlfriend [18F] is seeing someone else.
+```
+
+Here, the post author is an 18-year old male. _iama_ automatically predicts this,
+allowing for the generation of a large annotated corpus from r/relationships.
+
+## Installation
+
+```{.bash}
+pip install iama
+```
+
+## Usage
+
+```python
+from iama.model import Iama
+iama = Iama()
+iama.predict("My [18M] girlfriend [18F] is seeing someone else.")  # "[18M]" returned
+```
+
