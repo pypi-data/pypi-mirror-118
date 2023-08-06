@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: pipf
+Version: 0.1.2
+Summary: Simple CLI PyPI packages finder inside Fuzzy Finder.
+Home-page: https://github.com/samedamci/pipf
+License: ISC
+Keywords: fzf,pip,pypi-finder
+Author: samedamci
+Author-email: samedamci@disroot.org
+Requires-Python: >=3.6.2,<4.0.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved
+Classifier: License :: OSI Approved :: ISC License (ISCL)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Typing :: Typed
+Requires-Dist: requests (>=2.26.0,<3.0.0)
+Requires-Dist: shools (>=0.1.2,<0.2.0)
+Project-URL: Repository, https://github.com/samedamci/pipf

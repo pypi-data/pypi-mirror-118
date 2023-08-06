@@ -1,0 +1,13 @@
+LICENSE,sha256=t8n_O8-pXq7E0QG3KzykYr6nmpW_I8ak1jv_j1H9Jww,749
+pipf/__init__.py,sha256=6phNiC4ZzUue0oZpCTaKa5mul-JzQx1mL-0aav7QVT0,66
+pipf/app.py,sha256=Wij6CzosABCs_OuvJVY8TTUxtEatO5_db3LzJyUoU7w,1191
+pipf/fzf/__init__.py,sha256=Z392vsoH74Z8jrTrTa2W3dmfZfAv9IKSSKVtDsVLT7g,194
+pipf/fzf/__main__.py,sha256=5BjNuyet8AY-POwoF5rGt722rHQ7tJ0Vf0UFUfzzi-I,58
+pipf/fzf/packages_list/__main__.py,sha256=d58eCPH3ZqcD0MjWQ5i5Tc2zajaJVDM7Li9zRv-URtQ,81
+pipf/fzf/preview/__main__.py,sha256=VeCX_HyPGV-G2gh24ljp0nelsWlJHjNtoTmbsSjQadA,93
+pipf/fzf/run.sh,sha256=U5Asd-DMl2p2wLQYhIGN73PDan0v77xtY4yCkCFUsj4,263
+pipf-0.1.2.dist-info/entry_points.txt,sha256=8jDSV9JFErzPhFcg_0Kh7INiqIZ_j8KZVceZfo-_RoM,38
+pipf-0.1.2.dist-info/LICENSE,sha256=t8n_O8-pXq7E0QG3KzykYr6nmpW_I8ak1jv_j1H9Jww,749
+pipf-0.1.2.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+pipf-0.1.2.dist-info/METADATA,sha256=B_7BKh2sT4Ii1TwCV37NjNoB64I8S0bsHMTGsdx2VfU,1221
+pipf-0.1.2.dist-info/RECORD,,

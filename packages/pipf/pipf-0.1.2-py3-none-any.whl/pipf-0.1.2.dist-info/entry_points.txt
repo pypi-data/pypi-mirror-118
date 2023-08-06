@@ -1,0 +1,3 @@
+[console_scripts]
+pipf=pipf.fzf:main
+
