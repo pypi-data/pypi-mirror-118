@@ -1,0 +1,316 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cubicweb 3.33.0\n"
+"PO-Revision-Date: 2008-03-28 18:14+0100\n"
+"Last-Translator: Logilab Team <contact@logilab.fr>\n"
+"Language-Team: fr <contact@logilab.fr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: cubicweb-devtools\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+# schema pot file, generated on 2021-08-27 14:27:16
+#
+# singular and plural forms for each entity type
+msgid "Masters"
+msgstr ""
+
+msgid "Masters_plural"
+msgstr ""
+
+msgid "This Masters:"
+msgstr ""
+
+msgid "New Masters"
+msgstr ""
+
+msgid "add a Masters"
+msgstr ""
+
+msgid "This Masters"
+msgstr ""
+
+msgid "relation promoted to EntityType to store the `rate` attribute"
+msgstr ""
+
+msgid "Talk"
+msgstr ""
+
+msgid "Talk_plural"
+msgstr ""
+
+msgid "This Talk:"
+msgstr ""
+
+msgid "New Talk"
+msgstr ""
+
+msgid "add a Talk"
+msgstr ""
+
+msgid "This Talk"
+msgstr ""
+
+msgid "relation promoted to EntityType to store the `subject' attribute"
+msgstr ""
+
+msgid "Technology"
+msgstr ""
+
+msgid "Technology_plural"
+msgstr ""
+
+msgid "This Technology:"
+msgstr ""
+
+msgid "New Technology"
+msgstr ""
+
+msgid "add a Technology"
+msgstr ""
+
+msgid "This Technology"
+msgstr ""
+
+# subject and object forms for each relation type
+# (no object form for final or symmetric relation types)
+msgid "attended_by"
+msgstr ""
+
+msgctxt "Talk"
+msgid "attended_by"
+msgstr ""
+
+msgctxt "CWUser"
+msgid "attended_by_object"
+msgstr ""
+
+msgid "attended_by_object"
+msgstr ""
+
+msgctxt "Talk"
+msgid "comments_object"
+msgstr ""
+
+msgctxt "Talk"
+msgid "description"
+msgstr ""
+
+msgctxt "Technology"
+msgid "description"
+msgstr ""
+
+msgid "more detailed subject description"
+msgstr ""
+
+msgctxt "Technology"
+msgid "description_format"
+msgstr ""
+
+msgctxt "Technology"
+msgid "filed_under"
+msgstr ""
+
+msgid "parent folder"
+msgstr ""
+
+msgid "foruser"
+msgstr ""
+
+msgctxt "Masters"
+msgid "foruser"
+msgstr ""
+
+msgctxt "CWUser"
+msgid "foruser_object"
+msgstr ""
+
+msgid "foruser_object"
+msgstr ""
+
+msgid "interested_in"
+msgstr ""
+
+msgctxt "CWUser"
+msgid "interested_in"
+msgstr ""
+
+msgctxt "Talk"
+msgid "interested_in_object"
+msgstr ""
+
+msgid "interested_in_object"
+msgstr ""
+
+msgctxt "Technology"
+msgid "name"
+msgstr ""
+
+msgid "presented_by"
+msgstr ""
+
+msgctxt "Talk"
+msgid "presented_by"
+msgstr ""
+
+msgctxt "CWUser"
+msgid "presented_by_object"
+msgstr ""
+
+msgid "presented_by_object"
+msgstr ""
+
+msgid "rate"
+msgstr ""
+
+msgctxt "Masters"
+msgid "rate"
+msgstr ""
+
+msgid "skill"
+msgstr ""
+
+msgctxt "Masters"
+msgid "skill"
+msgstr ""
+
+msgctxt "Technology"
+msgid "skill_object"
+msgstr ""
+
+msgctxt "Folder"
+msgid "skill_object"
+msgstr ""
+
+msgid "skill_object"
+msgstr ""
+
+msgid "subject"
+msgstr ""
+
+msgctxt "Talk"
+msgid "subject"
+msgstr ""
+
+msgid "talks_about"
+msgstr ""
+
+msgctxt "Talk"
+msgid "talks_about"
+msgstr ""
+
+msgctxt "Technology"
+msgid "talks_about_object"
+msgstr ""
+
+msgctxt "Folder"
+msgid "talks_about_object"
+msgstr ""
+
+msgid "talks_about_object"
+msgstr ""
+
+msgid "talktime"
+msgstr ""
+
+msgctxt "Talk"
+msgid "talktime"
+msgstr ""
+
+msgid "estimated presentation date"
+msgstr ""
+
+msgid "wishes_to_learn"
+msgstr ""
+
+msgctxt "CWUser"
+msgid "wishes_to_learn"
+msgstr ""
+
+msgctxt "Technology"
+msgid "wishes_to_learn_object"
+msgstr ""
+
+msgctxt "Folder"
+msgid "wishes_to_learn_object"
+msgstr ""
+
+msgid "wishes_to_learn_object"
+msgstr ""
+
+msgid "components_interesting_description"
+msgstr ""
+
+msgid "components_interesting"
+msgstr ""
+
+msgid "ctxcomponents_edit-wishes_description"
+msgstr ""
+
+msgid "ctxcomponents_edit-wishes"
+msgstr ""
+
+msgid "ctxcomponents_edit-attended-by_description"
+msgstr ""
+
+msgid "ctxcomponents_edit-attended-by"
+msgstr ""
+
+msgid "I don't want to learn this technology"
+msgstr ""
+
+msgid "I know nothing about this technology"
+msgstr ""
+
+msgid "Just beginning whith this technology"
+msgstr ""
+
+msgid "I start on this technology, and I can help"
+msgstr ""
+
+msgid "I am doing well, selfworking"
+msgstr ""
+
+msgid "I can conduct a training course"
+msgstr ""
+
+msgid "visible"
+msgstr ""
+
+msgid "display the box or not"
+msgstr ""
+
+msgid "click here if you are interested by this talk"
+msgstr ""
+
+msgid "you are now registered for this talk"
+msgstr ""
+
+msgid "click here if you are not any more interested by this talk"
+msgstr ""
+
+msgid "you are not anymore registered for this project"
+msgstr ""
+
+msgid "???"
+msgstr ""
+
+msgid "interested people :"
+msgstr ""
+
+msgid "presented by :"
+msgstr ""
+
+msgid "no skill definition found"
+msgstr ""
+
+msgid ""
+"you can update your skill information by clicking on the corresponding cell"
+msgstr ""
+
+msgid "no information for this technology"
+msgstr ""
+
+msgid "Export SkillMatrix"
+msgstr ""
