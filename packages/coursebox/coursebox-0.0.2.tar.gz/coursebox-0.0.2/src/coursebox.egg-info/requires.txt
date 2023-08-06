@@ -1,0 +1,7 @@
+jinja2
+beamer-slider
+wexpect
+pexpect
+ntpath
+pybtex
+tika
