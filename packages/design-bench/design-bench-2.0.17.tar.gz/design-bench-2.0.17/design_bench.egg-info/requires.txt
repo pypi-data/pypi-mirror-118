@@ -1,0 +1,14 @@
+pandas
+requests
+scikit-learn
+torch
+torchvision
+numpy
+tensorflow>=2.2
+transformers
+
+[all]
+gym[mujoco]
+
+[cma]
+cma
