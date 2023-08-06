@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: ex-timer
+Version: 0.0.1
+Summary: ex_timer is a timer for special and non-special countdown package, for reminding you or for something else
+Home-page: UNKNOWN
+Author: Rigved Aneesh
+Author-email: rigved.bob@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: ex_timer,timer
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
