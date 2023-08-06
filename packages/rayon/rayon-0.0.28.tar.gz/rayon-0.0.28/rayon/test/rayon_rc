@@ -1,0 +1,2 @@
+export RAYON_CURL_URL="http:proteingraph.ml/"
+export RAYON_CURL_ARGS=""
