@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+spyll.egg-info/PKG-INFO
+spyll.egg-info/SOURCES.txt
+spyll.egg-info/dependency_links.txt
+spyll.egg-info/top_level.txt

@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: spyll
+Version: 1.2
+Summary: Spyll is an open source Python package that aims to make text file handling more streamlined. Works with Python versions 3.6+
+Home-page: https://dangolabs.com
+Author: Dango Labs
+Author-email: info@dangolabs.com
+License: UNKNOWN
+Description: # Spyll by Dango Labs
+        ## Text file handling made simple.
+        
+        <br>
+        
+        ## Compatability
+        Spyll will only work on machines running Python 3.6+
+        
+        ## Installation
+        Spyll is PyPi so you can install it with<br>
+        
+        `pip install Spyll`
+        
+        <br>
+        
+        ## Supported features
+        * Writing to text files
+        * Reading from text files
+        * Renaming files
+        * Counting occurances of a string in a text file
+        * Checking if a file contains a string
+        * Directory searching
+        
+        ## Contributing
+        Spyll is open source and we welcome contributions from the community.
+        
+        To clone the repository, run the following command:
+        
+        `git clone https://github.com/dangolabs/spyll.git`
+        
+        ---
+        
+        [![Dango Labs](https://dangolabs.com/content/logo/PNG/dangolabs-1000.png)](https://dangolabs.com)
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
