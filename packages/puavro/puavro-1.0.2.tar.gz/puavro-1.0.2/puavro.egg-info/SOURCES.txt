@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+puavro/__init__.py
+puavro/puavro.py
+puavro.egg-info/PKG-INFO
+puavro.egg-info/SOURCES.txt
+puavro.egg-info/dependency_links.txt
+puavro.egg-info/not-zip-safe
+puavro.egg-info/requires.txt
+puavro.egg-info/top_level.txt
