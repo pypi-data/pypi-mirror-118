@@ -1,0 +1,10 @@
+excel2sbol/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+excel2sbol/column_functions.py,sha256=jO9bUlMKhH0x4Q3QW0cRipt7jtOF9u2pvttotPrQEwM,17784
+excel2sbol/converter_function.py,sha256=NC6hGdmpFHspaxD-RqXb3j5knhPzIm7ibJCXH1YXes0,3282
+excel2sbol/helper_functions.py,sha256=kEGAuZxIJ-LhKGt8378aSngbQb2aKbEjOVmpD-WHlNI,3589
+excel2sbol/initialise_functions.py,sha256=wXGDhNh3C52mdQM5xIMRvh9XFisgsFwL4LmyFDZgMr8,6849
+excel2sbol/template_constants.txt,sha256=GhWUAS6GfdUJKIRSf3Rxxpc8REFtX3RGLCbrnnAkw7M,506
+excel2sbol-1.0.6.dist-info/METADATA,sha256=c2ivdkwLcvn0WrkMHwxrwwAf2PPMA2h9A29WF5wgAgw,568
+excel2sbol-1.0.6.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+excel2sbol-1.0.6.dist-info/top_level.txt,sha256=n30XbZSw7XCMIbJYHh_u7uD5-MePvKLYsCJ_pB3mzN4,11
+excel2sbol-1.0.6.dist-info/RECORD,,
