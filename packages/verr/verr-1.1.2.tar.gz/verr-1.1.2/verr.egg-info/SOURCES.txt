@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+tests/__init__.py
+tests/test_json.py
+tests/test_main.py
+tests/test_version_result.py
+verr/__init__.py
+verr.egg-info/PKG-INFO
+verr.egg-info/SOURCES.txt
+verr.egg-info/dependency_links.txt
+verr.egg-info/top_level.txt
