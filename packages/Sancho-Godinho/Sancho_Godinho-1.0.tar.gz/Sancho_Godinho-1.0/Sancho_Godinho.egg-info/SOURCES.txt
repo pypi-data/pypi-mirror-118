@@ -1,0 +1,7 @@
+setup.py
+Sancho_Godinho/__init__.py
+Sancho_Godinho/__main__.py
+Sancho_Godinho.egg-info/PKG-INFO
+Sancho_Godinho.egg-info/SOURCES.txt
+Sancho_Godinho.egg-info/dependency_links.txt
+Sancho_Godinho.egg-info/top_level.txt
