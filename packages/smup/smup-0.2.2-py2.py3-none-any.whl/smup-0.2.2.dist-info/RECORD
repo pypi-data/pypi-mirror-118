@@ -1,0 +1,10 @@
+smup/__init__.py,sha256=BBbvAgoXx1Zswk4uB2LZftF2lt9zJYANDKLvLLfFX8E,191
+smup/smup.py,sha256=OJ2jTQGu-nDZy0V1Urn3JPktmcdVcw0AAP38YawTIrY,26219
+tests/__init__.py,sha256=43Syh15M4EWZb5tkUs7Bvkj-a0tmt_tice2gRkkiyXU,34
+tests/test_smup.py,sha256=oqzMvA0uVPYNyngCXE0kPp4i732ofOgIOTm-959IkBA,544
+smup-0.2.2.dist-info/AUTHORS.rst,sha256=R805P4v-5Kemf_R96ZcQIYrkgXs3_uveANeEFjc64Lg,169
+smup-0.2.2.dist-info/LICENSE,sha256=U47ONt_u7NspeRXSDc2U0Fk9i4ArbQMkEqhZ_39vGeg,1657
+smup-0.2.2.dist-info/METADATA,sha256=-AuGHtShKAHIhL2ON3ykbNe_zxzg5bGlIE99xMvjgWk,3494
+smup-0.2.2.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+smup-0.2.2.dist-info/top_level.txt,sha256=oSVer-JW45TEqQ67wNOPiBLy9A9tVxd-yUDe8pij06E,11
+smup-0.2.2.dist-info/RECORD,,
