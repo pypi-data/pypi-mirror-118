@@ -1,0 +1,3 @@
+[console_scripts]
+decimer = decimer.cli:main
+
