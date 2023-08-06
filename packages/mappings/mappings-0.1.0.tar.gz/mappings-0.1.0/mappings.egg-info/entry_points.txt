@@ -1,0 +1,3 @@
+[console_scripts]
+mappings = mappings.__main__:main
+
