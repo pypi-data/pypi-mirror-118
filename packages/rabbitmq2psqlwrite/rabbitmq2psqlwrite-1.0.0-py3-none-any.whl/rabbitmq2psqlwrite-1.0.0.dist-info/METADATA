@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: rabbitmq2psqlwrite
+Version: 1.0.0
+Summary: RabbitMQ logs to update DB row
+Home-page: UNKNOWN
+Author: Ramazan ÇETİN
+Author-email: ramazan.cetin0640@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+UNKNOWN
+
+
