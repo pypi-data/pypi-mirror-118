@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+pypbbot.egg-info/PKG-INFO
+pypbbot.egg-info/SOURCES.txt
+pypbbot.egg-info/dependency_links.txt
+pypbbot.egg-info/entry_points.txt
+pypbbot.egg-info/requires.txt
+pypbbot.egg-info/top_level.txt
