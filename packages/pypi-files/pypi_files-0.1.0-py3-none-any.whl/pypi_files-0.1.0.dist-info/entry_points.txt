@@ -1,0 +1,3 @@
+[console_scripts]
+pf=pypi_files:main
+
