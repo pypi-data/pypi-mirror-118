@@ -1,0 +1,25 @@
+\documentclass[aspectratio=43]{beamer}
+\usepackage{etoolbox}
+\newtoggle{overlabel_includesvgs}
+\newtoggle{overlabel_includelabels}
+
+\toggletrue{overlabel_includesvgs}
+\toggletrue{overlabel_includelabels}
+
+\input{02450_beamer_preamble}
+
+\IfFileExists{generated/slide1.tex}{ \input{generated/slide1} }{ }
+\begin{document}
+	\begin{frame}
+	\maketitle
+\end{frame}
+\begin{frame}
+\IfFileExists{generated/slide2.tex}{ \input{generated/slide2} }{ }
+\end{frame}
+\begin{frame}
+\IfFileExists{generated/slide3.tex}{ \input{generated/slide3} }{ }
+\end{frame}
+
+\input{svg_converted_slides}
+
+\end{document}

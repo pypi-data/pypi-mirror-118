@@ -1,0 +1,25 @@
+% This is the basic DTU slideshow file. Used when creating a new slideshow with slider
+\documentclass[aspectratio=43]{beamer}
+\usepackage{etoolbox}
+
+\input{02450_beamer_preamble}
+%\IfFileExists{generated/slide2.tex}{ \input{generated/slide2} }{ }
+\newtoggle{overlabel_includesvgs}
+\newtoggle{overlabel_includelabels}
+
+\toggletrue{overlabel_includesvgs}
+\toggletrue{overlabel_includelabels}
+
+\begin{document}
+\begin{frame}
+\maketitle
+\end{frame}
+
+\begin{frame} \osvg{osvg01}
+\frametitle{Example frame}
+\begin{enumerate}
+	\item Item 1	
+\end{enumerate}
+\end{frame}
+
+\end{document}
