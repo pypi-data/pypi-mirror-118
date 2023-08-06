@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+discord_interactions_styled.egg-info/PKG-INFO
+discord_interactions_styled.egg-info/SOURCES.txt
+discord_interactions_styled.egg-info/dependency_links.txt
+discord_interactions_styled.egg-info/requires.txt
+discord_interactions_styled.egg-info/top_level.txt
+discord_styled/__init__.py
+discord_styled/buttons.py
+discord_styled/permissions.py
+discord_styled/slash.py
+discord_styled/utils/__init__.py
+discord_styled/utils/permissions.py
+discord_styled/utils/slash.py
