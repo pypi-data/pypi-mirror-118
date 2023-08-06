@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+bibtextidying/__init__.py
+bibtextidying/finalbib.py
+finalbib.egg-info/PKG-INFO
+finalbib.egg-info/SOURCES.txt
+finalbib.egg-info/dependency_links.txt
+finalbib.egg-info/requires.txt
+finalbib.egg-info/top_level.txt
