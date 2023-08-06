@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+addonenishka.egg-info/PKG-INFO
+addonenishka.egg-info/SOURCES.txt
+addonenishka.egg-info/dependency_links.txt
+addonenishka.egg-info/entry_points.txt
+addonenishka.egg-info/requires.txt
+addonenishka.egg-info/top_level.txt
