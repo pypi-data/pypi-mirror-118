@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ykps-x
+Version: 0.1.0
+Summary: The stupid YKPS portal, now in your CLI.
+Home-page: https://github.com/davidmaamoaix/ykps-x
+Author: David Ma
+Author-email: davidma@davidma.cn
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# ykps-x
+Utilities for random YKPS-related actions.
+
+
