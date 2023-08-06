@@ -1,0 +1,10 @@
+asif/__init__.py,sha256=rfknT2mlJ6cRhB0zkiX9d-1ZF3TZpKcylafXYkaUkFU,52
+asif/bot.py,sha256=tQGc5S8k1neFYp3ap4B5TzIvtsrgjd4zmCE4dhC7cFI,26178
+asif/command_codes.py,sha256=OIY4cjSjBeJp3NGGcuZg4tGLxEohQWSqEx_knhVeCnc,6430
+asif/commands.py,sha256=oLLyLk0CYyYCgj65inkZvlC7oTylIbNlAiHZd2eQ4u0,4553
+asif/util.py,sha256=tTbwv6dp0mddZTPgIvnNdC2Spx4Qacy_aZ7mGvi5bRg,301
+asif-0.3.1.dist-info/LICENSE,sha256=gyrZjTZRyftUf4mKVEMdfqemUBpAGlpdOt2G0FLJEks,1057
+asif-0.3.1.dist-info/METADATA,sha256=dQ6WMuL3TcH237hd0D6oU8XZ0WECFIhnUbCQfJKJYrA,478
+asif-0.3.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+asif-0.3.1.dist-info/top_level.txt,sha256=dIgf8E1SeWfgioaoMGasIBuNM0qrTBAZuQPtDBYO944,5
+asif-0.3.1.dist-info/RECORD,,
