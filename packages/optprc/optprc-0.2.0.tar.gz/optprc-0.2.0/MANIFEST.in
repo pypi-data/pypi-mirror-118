@@ -1,0 +1,2 @@
+#package files, required
+recursive-include optprc/dll *.pyd *.dll *.so *.0
