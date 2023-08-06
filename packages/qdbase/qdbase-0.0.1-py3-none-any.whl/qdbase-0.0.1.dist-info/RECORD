@@ -1,0 +1,14 @@
+qdbase/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qdbase/cli.py,sha256=Dj4hjZxBXzHMCkW9TN16h0q4At6kho6UswACcK8Pm0Y,15323
+qdbase/exenv.py,sha256=_nblNaY-4nE265GKSWCpRdSQh23_yB0rjlbG5uLzujk,13657
+qdbase/pdict.py,sha256=oS3H4PC-Qn1zKLbdz23S6aNcrZHhR4YNd7KzfSqxwvY,6153
+qdbase/qdsqlite.py,sha256=stG4fvwhau7D4c70uuopqr0kN0LH-Zzr_sAL-RIqBMA,9200
+qdbase/qdstart.py,sha256=JDoHYdDvPhQA2syoznKk9vYUDNIzF6OiwKLNmcmGbx8,6300
+qdbase/simplelex.py,sha256=3cxUcRwluCZy3OFiPvYnRLPrxcwfsX5EFR9RZZc1A1s,1970
+qdbase/xsource.py,sha256=1TZ-J7so9VZELeLt6aWml5u23nH-t9BBsHpsiNJwKeY,28780
+qdbase/xsynth.py,sha256=WyVvhY9Pujgc8QCb_rzpQqWbgaNjUU4RDzeK-Zg51qw,11668
+qdbase-0.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+qdbase-0.0.1.dist-info/METADATA,sha256=8uWqJf66UV7fcdNOnTaWwFM48BjLq0aCu8kOVCUDEhE,886
+qdbase-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+qdbase-0.0.1.dist-info/top_level.txt,sha256=5CQJXl0qIeKh_052nKOBAuNJ5PnO4FpyTalGpf2zBdk,7
+qdbase-0.0.1.dist-info/RECORD,,
