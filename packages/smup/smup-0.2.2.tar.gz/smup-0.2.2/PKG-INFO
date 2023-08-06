@@ -1,0 +1,107 @@
+Metadata-Version: 2.1
+Name: smup
+Version: 0.2.2
+Summary: Stable Matching is a powerful theory that can make a lot of useful stuff. SMUP uses it to make useless, but sometimes nice, random pictures.
+Home-page: https://github.com/balouf/smup
+Author: Fabien Mathieu
+Author-email: fabien.mathieu@normalesup.org
+License: GNU General Public License v3
+Description: .. image:: https://github.com/balouf/smup/raw/master/docs/logo.png
+            :alt: SMUP logo
+            :target: https://balouf.github.io/smup/
+        
+        
+        ================================
+        Stable-Matching Useless Pictures
+        ================================
+        
+        
+        .. image:: https://img.shields.io/pypi/v/smup.svg
+                :target: https://pypi.python.org/pypi/smup
+                :alt: PyPI Status
+        
+        .. image:: https://github.com/balouf/smup/workflows/build/badge.svg?branch=master
+                :target: https://github.com/balouf/smup/actions?query=workflow%3Abuild
+                :alt: Build Status
+        
+        .. image:: https://github.com/balouf/smup/workflows/docs/badge.svg?branch=master
+                :target: https://github.com/balouf/smup/actions?query=workflow%3Adocs
+                :alt: Documentation Status
+        
+        
+        .. image:: https://codecov.io/gh/balouf/smup/branch/master/graphs/badge.svg
+                :target: https://codecov.io/gh/balouf/smup/branch/master/graphs
+                :alt: Code Coverage
+        
+        
+        
+        Stable Matching is a powerful theory that can make a lot of useful stuff. SMUP uses it to make useless, but sometimes nice, random pictures.
+        
+        
+        * Free software: GNU General Public License v3
+        * Documentation: https://balouf.github.io/smup/.
+        
+        
+        --------
+        Features
+        --------
+        
+        * Draw random colorful pictures based on b-matching theory.
+        
+        * And that's it!
+        
+        -------
+        Credits
+        -------
+        
+        This package was created with Cookiecutter_ and the `francois-durand/package_helper_2`_ project template.
+        
+        .. _Cookiecutter: https://github.com/audreyr/cookiecutter
+        .. _`francois-durand/package_helper_2`: https://github.com/francois-durand/package_helper_2
+        
+        
+        =======
+        History
+        =======
+        
+        ------------------------------------------------
+        0.2.2 (2021-08-31): Arbitrary distance functions
+        ------------------------------------------------
+        
+        * Add possibility to use custom *distance* function (being an actual distance, or even having non-negative outputs,
+          is NOT required).
+        
+        ------------------------------------
+        0.2.1 (2021-08-30): Few new features
+        ------------------------------------
+        
+        * Possibility to enter an arbitrary Hölder norm (even illegal one).
+        * Few corrections and precisions in the documentation.
+        
+        ------------------------------------
+        0.2.0 (2021-06-15): Few new features
+        ------------------------------------
+        
+        * Centers are not drawn by default
+        * New provisioning parameters allows to make sites change from Poisson Point Process to Delaunay partition
+        * Sites areas can be made heterogenous
+        
+        ---------------------------------
+        0.1.0 (2021-06-10): First release
+        ---------------------------------
+        
+        * First release on PyPI.
+        
+Keywords: smup
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
