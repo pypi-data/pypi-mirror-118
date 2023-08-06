@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: rabbitmq2psqlwrite
+Version: 1.0.2
+Summary: RabbitMQ listen and read data change database
+Home-page: https://github.com/mantis-software-company/rabbitmq2psqlwrite
+Author: Ramazan ÇETİN
+Author-email: ramazan.cetin0640@gmail.com
+License: UNKNOWN
+Platform: all
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Testing
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >3.6.*, <4
+Description-Content-Type: text/markdown
+Requires-Dist: aiopg
+Requires-Dist: aio-pika
+
+UNKNOWN
+
+
