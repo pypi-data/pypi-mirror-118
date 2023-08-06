@@ -1,0 +1,14 @@
+numpy
+Pillow
+plyfile
+psutil
+pycocotools
+pydantic
+pytoml
+PyYAML
+requests
+scalabel
+torch
+torchvision
+tqdm
+devtools

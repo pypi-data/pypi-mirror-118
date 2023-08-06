@@ -1,0 +1,26 @@
+[tool.black]
+line-length = 79
+
+[tool.pytest.ini_options]
+python_files = "*_test.py"
+
+[tool.isort]
+profile = "black"
+line_length = 79
+
+[tool.coverage]
+    [tool.coverage.report]
+        exclude_lines = [
+            # Have to re-enable the standard pragma
+            'pragma: no cover',
+
+            # Don't complain if tests don't hit defensive assertion code
+            'raise NotImplementedError',
+            'raise ValueError',
+            'raise ImportError',
+            'raise AttributeError',
+            'raise FileNotFoundError',
+
+            # Don't complain about pydantic validators
+            '@validator'
+        ]
