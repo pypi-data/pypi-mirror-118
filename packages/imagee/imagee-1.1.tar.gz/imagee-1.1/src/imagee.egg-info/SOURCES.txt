@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/imagee/__init__.py
+src/imagee.egg-info/PKG-INFO
+src/imagee.egg-info/SOURCES.txt
+src/imagee.egg-info/dependency_links.txt
+src/imagee.egg-info/not-zip-safe
+src/imagee.egg-info/requires.txt
+src/imagee.egg-info/top_level.txt
