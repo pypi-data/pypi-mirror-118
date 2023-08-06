@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: scrapinsta
+Version: 0.0.3b0
+Summary: A package to scraping data from Instagram
+License: OSI Approved, MIT License
+Author: Matheus Kolln
+Author-email: matheuzhenrik@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: cryptography (>=3.4.8,<4.0.0)
+Requires-Dist: selenium (>=3.141.0,<4.0.0)
+Requires-Dist: webdriver-manager (>=3.4.2,<4.0.0)
