@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: timelink
+Version: 0.2.8
+Summary: Timelink is an information system for person related information collected from historical sources. 
+Home-page: https://github.com/time-link/timelink-py
+Author: Joaquim Ramos de Carvalho
+Author-email: joaquimcarvalho@ipm.edu.mo
+License: MIT license
+Project-URL: Documentation, https://timelink-py.readthedocs.io/
+Keywords: timelink
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7
+License-File: LICENSE
+License-File: AUTHORS.rst
+Requires-Dist: Click (>=7.0)
+
+=======================
+Timelink Python package
+=======================
+
+
+.. image:: https://img.shields.io/pypi/v/timelink.svg
+        :target: https://pypi.python.org/pypi/timelink
+
+.. image:: https://api.travis-ci.com/time-link/timelink-py.svg?branch=main
+        :target: https://travis-ci.com/joaquimrcarvalho/timelink
+
+.. image:: https://readthedocs.org/projects/timelink-py/badge/?version=latest
+        :target: https://timelink-py.readthedocs.io/en/latest/?version=latest
+        :alt: Documentation Status
+
+* Free software: MIT license
+* Documentation: https://timelink-py.readthedocs.io.
+
+
+Features
+--------
+
+
+* Pythonic representation of Kleio groups, easing generation of Kleio file from data in other formats.
+* Utility functions for acessing MHK instalation, including database access.
+* CLI tool
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+
+
+=======
+History
+=======
+
+0.2.8 (2021-08-30)
+------------------
+
+* Fix link to the documentation in Pypi
+
+0.2.7 (2021-08-29)
+------------------
+
+* Auto build on Travis, with release to pypi
+* Skeleton docs on readthedocs
+
+0.1.0 (2021-07-09)
+------------------
+
+* First release on PyPI.
+
+
