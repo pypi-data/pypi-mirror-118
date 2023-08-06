@@ -1,0 +1,3 @@
+[gui_scripts]
+four_letter_blocks = four_letter_blocks.__main__:main
+
