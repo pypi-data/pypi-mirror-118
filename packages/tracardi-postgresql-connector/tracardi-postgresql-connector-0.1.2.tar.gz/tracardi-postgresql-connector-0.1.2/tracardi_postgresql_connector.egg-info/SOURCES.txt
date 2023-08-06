@@ -1,0 +1,11 @@
+LICENSE.md
+MANIFEST.in
+README.md
+setup.py
+tracardi_postgresql_connector/plugin.py
+tracardi_postgresql_connector.egg-info/PKG-INFO
+tracardi_postgresql_connector.egg-info/SOURCES.txt
+tracardi_postgresql_connector.egg-info/dependency_links.txt
+tracardi_postgresql_connector.egg-info/requires.txt
+tracardi_postgresql_connector.egg-info/top_level.txt
+tracardi_postgresql_connector/model/postresql.py
