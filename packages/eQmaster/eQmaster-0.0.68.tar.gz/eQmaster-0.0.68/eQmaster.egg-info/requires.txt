@@ -1,0 +1,11 @@
+pandas
+botocore
+pyarrow
+boto3==1.16.1
+pysolace==0.9.8
+shioaji
+ewarrant
+cryptography
+fsspec
+s3fs
+numpy>=1.19.5
