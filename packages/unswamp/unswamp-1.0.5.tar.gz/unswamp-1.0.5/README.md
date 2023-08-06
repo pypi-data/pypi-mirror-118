@@ -1,0 +1,394 @@
+# Glossary of Checks
+
+## CheckColumnAllSame
+```python
+check = CheckColumnAllSame("Check-Same-All", "Col_Same", "A")
+```
+
+## CheckColumnIsNotNull
+```python
+check = CheckColumnIsNotNull("Check-Id-NotNull", "Col_Id")
+```
+
+## CheckColumnIsNull
+```python
+check = CheckColumnIsNull("Check-Empty-IsNull", "Col_Empty")
+```
+
+## CheckColumnIsUnique
+```python
+check = CheckColumnIsUnique("Check-Id-Uniuqe", "Col_Id")
+```
+
+## CheckColumnFunctionAll
+### Column values equal (eq / ==)
+Can be used instead of [CheckColumnAllSame](#CheckColumnAllSame)
+```python
+check = CheckColumnFunctionAll("Check-Same-eq", "Col_Same", "A", "check_column_equal")
+```
+
+### Column values not equal (ne / !=)
+```python
+check = CheckColumnFunctionAll("Check-Same-ne", "Col_Same", "B", "check_column_not_equal")
+```
+
+### Column values lower then (lt / <)
+```python
+check = CheckColumnFunctionAll("Check-Year-lt", "Col_Year", 2100, "check_column_lower_than")
+```
+
+### Column values greater then (gt / >)
+```python
+check = CheckColumnFunctionAll("Check-Year-gt", "Col_Year", 1900, "check_column_greater_than")
+```
+
+### Column values lower or equal then (le / <=)
+```python
+check = CheckColumnFunctionAll("Check-Year-le", "Col_Year", 2022, "check_column_lower_equal_than")
+```
+
+### Column values greater or equal then (ge / >=)
+```python
+check = CheckColumnFunctionAll("Check-Year-ge", "Col_Year", 1901, "check_column_greater_equal_than")
+```
+
+### Column values between
+```python
+vals = [1900, datetime.today().year + 1]
+check = CheckColumnFunctionAll("Check-Year-between", "Col_Year", vals, "check_column_between")
+```
+
+### Column values in set of values
+```python
+vals = {"M", "F"}
+check = CheckColumnFunctionAll("Check-Gender-InSet", "Col_Gender", vals, "check_column_in_set")
+```
+
+### Column values in set of values
+```python
+vals = {1, 2}
+check = CheckColumnFunctionAll("Check-Gender-NotInSet", "Col_Gender", vals, "check_column_not_in_set")
+```
+
+### Column values length between
+```python
+vals = [0, 4]
+check = CheckColumnFunctionAll("Check-Year-LengthBetween", "Col_Year", vals, "check_column_length_between")
+```
+
+### Column values length equal
+```python
+check = CheckColumnFunctionAll("Check-Gender-LengthEqual", "Col_Gender", 1, "check_column_length_equal")
+```
+
+## CheckColumnRegexAll
+### Column values match regex
+```python
+regex = r"^[0-9]{4}$"
+check = CheckColumnRegexAll("Check-Year-Match-4digit-Regex", "Col_Year", regex)
+```
+
+### Column values don't match regex
+```python
+regex = r"\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b"
+check = CheckColumnRegexAll("Check-Year-Dont-Match-EMail-Regex", "Col_Year", regex, False)
+```
+
+## CheckColumnLikeAll
+### Column values match like pattern (% end)
+```python
+year = datetime.today().strftime("%Y")
+like = f"{year}-%"
+check = CheckColumnLikeAll("Check-Export-Match-Like-End", "Col_Export", like)
+```
+
+### Column values match like pattern (% start & end)
+```python
+month = datetime.today().strftime("%m")
+like = f"%-{month}-%"
+check = CheckColumnLikeAll("Check-Export-Match-Like-Start&End", "Col_Export", like)
+```
+
+### Column values match like pattern (% start)
+```python
+day = datetime.today().strftime("%d")
+like = f"%-{day}"
+check = CheckColumnLikeAll("Check-Export-Match-Like-Start", "Col_Export", like)
+```
+
+### Column values not match like pattern (% end)
+```python
+day = datetime.today().strftime("%d")
+like = f"{day}.%"
+check = CheckColumnLikeAll("Check-Export-Not-Match-Like-End", "Col_Export", like, False)
+```
+
+### Column values not match like pattern (% start & end)
+```python
+month = datetime.today().strftime("%m")
+like = f"%.{month}.%"
+check = CheckColumnLikeAll("Check-Export-Not-Match-Like-Start&End", "Col_Export", like, False)
+```
+
+### Column values not match like pattern (% start)
+```python
+year = datetime.today().strftime("%Y")
+like = f"%.{year}"
+check = CheckColumnLikeAll("Check-Export-Not-Match-Like-Start", "Col_Export", like, False)
+```
+
+## CheckColumnMatchStrftime
+```python
+format = "%Y-%m-%d"
+check = CheckColumnMatchStrftime("Check-Export-Match-Strftim-Format", "Col_Export", format)
+```
+
+## CheckColumnDateutilParseable
+```python
+check = CheckColumnDateutilParseable("Check-Export-Dateuitl-Parseable", "Col_Export")
+```
+
+# Full Example
+```python
+from os import linesep
+from io import StringIO
+from datetime import datetime
+import pandas as pd
+
+from random import seed, random, randint
+
+from unswamp.objects import CheckSuite, CheckRun
+from unswamp.checks import (
+    CheckColumnIsNotNull,
+    CheckColumnIsUnique,
+    CheckColumnIsNull,
+    CheckColumnAllSame,
+    CheckColumnFunctionAll,
+    CheckColumnLikeAll,
+    CheckColumnRegexAll,
+    CheckColumnMatchStrftime,
+    CheckColumnDateutilParseable,
+    Functions,
+)
+
+#################################################
+# Methods for dummy data
+#################################################
+
+
+def build_csv(records=100000, curr_seed=42, same="A"):
+    seed(curr_seed)
+    csv = f"Col_Id,Col_Empty,Col_Same,Col_Year,Col_Gender,Col_Export{linesep}"
+    for pos in range(records):
+        year = randint(1901, datetime.today().year)
+        gender = "M" if random() > 0.5 else "F"
+        export = datetime.today().strftime("%Y-%m-%d")
+        csv += f"{pos},,{same},{year},{gender},{export}{linesep}"
+    return csv
+
+
+def build_dataset(csv):
+    data = StringIO(csv)
+    dataset = pd.read_csv(data)
+    return dataset
+
+
+#################################################
+# Create dataset
+#################################################
+csv = build_csv()
+dataset = build_dataset(csv)
+
+#################################################
+# Create CheckSuite
+#################################################
+dataset_name = "Dummy"
+suite = CheckSuite(dataset_name)
+
+meta_data = {"owner":"me", "steward":"you", "version":"1.0.0", "date":"2021-01-01"}
+
+#################################################
+# Add checks to CheckSuite
+#################################################
+# CheckColumnAllSame
+check = CheckColumnAllSame("Check-Same-All", "Col_Same", "A", meta_data)
+suite.add_check(check)
+
+# CheckColumnIsNotNull
+check = CheckColumnIsNotNull("Check-Id-NotNull", "Col_Id", meta_data)
+suite.add_check(check)
+
+# CheckColumnIsNull
+check = CheckColumnIsNull("Check-Empty-IsNull", "Col_Empty", meta_data)
+suite.add_check(check)
+
+# CheckColumnIsUnique
+check = CheckColumnIsUnique("Check-Id-Uniuqe", "Col_Id", meta_data)
+suite.add_check(check)
+
+# CheckColumnFunctionAll
+# eq / ==
+check = CheckColumnFunctionAll(
+    "Check-Same-eq", "Col_Same", "A", "check_column_equal", meta_data)
+suite.add_check(check)
+
+# ne / !=
+check = CheckColumnFunctionAll(
+    "Check-Same-ne", "Col_Same", "B", "check_column_not_equal", meta_data)
+suite.add_check(check)
+
+# lt / <
+check = CheckColumnFunctionAll(
+    "Check-Year-lt", "Col_Year", 2100, "check_column_lower_than", meta_data)
+suite.add_check(check)
+
+# gt / >
+check = CheckColumnFunctionAll(
+    "Check-Year-gt", "Col_Year", 1900, "check_column_greater_than", meta_data)
+suite.add_check(check)
+
+# le / <=
+check = CheckColumnFunctionAll(
+    "Check-Year-le", "Col_Year", 2022, "check_column_lower_equal_than", meta_data)
+suite.add_check(check)
+
+# ge / >=
+check = CheckColumnFunctionAll(
+    "Check-Year-ge", "Col_Year", 1901, "check_column_greater_equal_than", meta_data)
+suite.add_check(check)
+
+# between
+vals = [1900, datetime.today().year + 1]
+check = CheckColumnFunctionAll(
+    "Check-Year-between", "Col_Year", vals, "check_column_between", meta_data)
+suite.add_check(check)
+
+# values in set
+vals = {"M", "F"}
+check = CheckColumnFunctionAll(
+    "Check-Gender-InSet", "Col_Gender", vals, "check_column_in_set", meta_data)
+suite.add_check(check)
+
+# values not in set
+vals = {1, 2}
+check = CheckColumnFunctionAll(
+    "Check-Gender-NotInSet", "Col_Gender", vals, "check_column_not_in_set", meta_data)
+suite.add_check(check)
+
+# values length between
+vals = [0, 4]
+check = CheckColumnFunctionAll(
+    "Check-Year-LengthBetween", "Col_Year", vals, "check_column_length_between", meta_data)
+suite.add_check(check)
+
+# values length equal
+check = CheckColumnFunctionAll(
+    "Check-Gender-LengthEqual", "Col_Gender", 1, "check_column_length_equal", meta_data)
+suite.add_check(check)
+
+
+# CheckColumnRegexAll
+# match values regex
+regex = r"^[0-9]{4}$"
+check = CheckColumnRegexAll("Check-Year-Match-4digit-Regex", "Col_Year", regex, meta_data)
+suite.add_check(check)
+
+# don't match values regex
+regex = r"\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b"
+check = CheckColumnRegexAll(
+    "Check-Year-Dont-Match-EMail-Regex", "Col_Year", regex, False, meta_data)
+suite.add_check(check)
+
+# CheckColumnLikeAll
+# match regex like pattern % end
+year = datetime.today().strftime("%Y")
+like = f"{year}-%"
+check = CheckColumnLikeAll("Check-Export-Match-Like-End", "Col_Export", like, meta_data)
+suite.add_check(check)
+
+# match regex like pattern % start & end
+month = datetime.today().strftime("%m")
+like = f"%-{month}-%"
+check = CheckColumnLikeAll(
+    "Check-Export-Match-Like-Start&End", "Col_Export", like, meta_data)
+suite.add_check(check)
+
+# match regex like pattern % start
+day = datetime.today().strftime("%d")
+like = f"%-{day}"
+check = CheckColumnLikeAll("Check-Export-Match-Like-Start", "Col_Export", like, meta_data)
+suite.add_check(check)
+
+# not match regex like pattern % end
+day = datetime.today().strftime("%d")
+like = f"{day}.%"
+check = CheckColumnLikeAll(
+    "Check-Export-Not-Match-Like-End", "Col_Export", like, False, meta_data)
+suite.add_check(check)
+
+# match regex like pattern % start & end
+month = datetime.today().strftime("%m")
+like = f"%.{month}.%"
+check = CheckColumnLikeAll(
+    "Check-Export-Not-Match-Like-Start&End", "Col_Export", like, False, meta_data)
+suite.add_check(check)
+
+# not match regex like pattern % start
+year = datetime.today().strftime("%Y")
+like = f"%.{year}"
+check = CheckColumnLikeAll(
+    "Check-Export-Not-Match-Like-Start", "Col_Export", like, False, meta_data)
+suite.add_check(check)
+
+# CheckColumnMatchStrftime
+format = "%Y-%m-%d"
+check = CheckColumnMatchStrftime(
+    "Check-Export-Match-Strftim-Format", "Col_Export", format, meta_data)
+suite.add_check(check)
+
+# CheckColumnDateutilParseable
+check = CheckColumnDateutilParseable(
+    "Check-Export-Dateuitl-Parseable", "Col_Export", meta_data)
+suite.add_check(check)
+
+
+
+#################################################
+# Serialization CheckSuite
+#################################################
+json = suite.to_json()
+
+with open("dummy_suite.json", "w") as fh:
+    fh.write(json)
+
+suite = CheckSuite.from_json(json)
+
+#################################################
+# Run Checks
+#################################################
+check_run = suite.run(dataset)
+
+
+#################################################
+# Serialization CheckRun
+#################################################
+json = check_run.to_json()
+
+with open("dummy_run.json", "w") as fh:
+    fh.write(json)
+
+check_run = CheckRun.from_json(json)
+
+#################################################
+# Print result
+#################################################
+for result in check_run.results:
+    print(f"{result.passed} - {result.duration} - {result.check.id}")
+
+
+```
+# Credits
+[![security: bandit](https://img.shields.io/badge/security-bandit-yellow.svg)](https://github.com/PyCQA/bandit)
+
+Icon by Ary Prasetyo
+https://thenounproject.com/search/?q=swamp&i=1592639
