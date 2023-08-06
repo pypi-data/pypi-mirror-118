@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: coolprint
+Version: 0.0.1
+Summary: coolprint is a library that prints coolly.
+Home-page: UNKNOWN
+Author: bichanna
+Author-email: nobu.bichanna@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: python,cool,print,coolprint
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
