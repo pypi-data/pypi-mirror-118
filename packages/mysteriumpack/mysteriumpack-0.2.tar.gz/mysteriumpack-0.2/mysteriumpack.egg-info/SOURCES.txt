@@ -1,0 +1,8 @@
+README.md
+setup.py
+mysteriumpack/__init__.py
+mysteriumpack.egg-info/PKG-INFO
+mysteriumpack.egg-info/SOURCES.txt
+mysteriumpack.egg-info/dependency_links.txt
+mysteriumpack.egg-info/requires.txt
+mysteriumpack.egg-info/top_level.txt
