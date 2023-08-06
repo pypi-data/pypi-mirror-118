@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: enpy
+Version: 1.0.0
+Summary: An encryption/decryption program that incorporates OTP
+Home-page: UNKNOWN
+Author: Divit Kanath
+Author-email: divitkanath@gmail.com
+License: MIT
+Keywords: encryption,decryption
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Unix
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+# Enpy
+
+This is an encryption and decryption program that incorporates One Time Pad to encrypt/decrypt text using a randomly generated key.
+
+## Usage:
+
+An example portraying how the program can encrypt/decrypt text:
+ 
+### Encryption
+
+The encrypt function takes two arguments which are the text to be encrypted and the key. If a key isn't provided as an argument, the program will generate a random key. The function returns the encrypted message and the key.
+
+```
+import enpy
+
+enc_msg, msg_key = enpy.encrypt("Hello World!", <key>)
+
+```
+### Decryption
+
+The Decrypt function takes in 2 arguments which are the encrypted text and the key respectively. It returns the decrypted message and the key.
+
+```
+import enpy
+
+dec_msg, msg_key = enpy.decrypt(<enc_msg>, <key>)
+
+```
+
+
+## Change Log
+
+### 1.0.0 (3/9/21)
+
+--First release.
+
