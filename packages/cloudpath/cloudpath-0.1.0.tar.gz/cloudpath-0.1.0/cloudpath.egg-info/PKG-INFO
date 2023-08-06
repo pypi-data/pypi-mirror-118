@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: cloudpath
+Version: 0.1.0
+Summary: Extend pathlib to GCS, S3, HDFS via TensorFlow's GFile.
+Home-page: http://github.com/danijar/cloudpath
+License: UNKNOWN
+Description: # CloudPath
+        
+        Extend pathlib to GCS, S3, HDFS via TensorFlow's GFile.
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown

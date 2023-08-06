@@ -1,0 +1,8 @@
+README.md
+setup.py
+cloudpath/__init__.py
+cloudpath.egg-info/PKG-INFO
+cloudpath.egg-info/SOURCES.txt
+cloudpath.egg-info/dependency_links.txt
+cloudpath.egg-info/requires.txt
+cloudpath.egg-info/top_level.txt
