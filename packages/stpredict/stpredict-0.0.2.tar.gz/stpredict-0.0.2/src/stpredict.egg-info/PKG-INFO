@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: stpredict
+Version: 0.0.2
+Summary: Spatio-temporal prediction package
+Home-page: UNKNOWN
+Author: Arash Mari Oriyad, Maryam Meghdadi, Mahdi Naderi, Arezoo Haratian, Zeinab Maleki, Pouria Ramazi
+Maintainer: cndalab
+Maintainer-email: cndalab.iut@gmail.com, pramazi@brocku.ca, arezo.h1371@yahoo.com
+License: UNKNOWN
+Project-URL: Source Code, https://github.com/network-and-Data-Science-IUT/stpredict
+Project-URL: Documentation, https://stpredict.readthedocs.io/en/latest/index.html
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+
+
+stpredict package
+=================
+
+stpredict is designed to apply forecasting methods on spatio-temporal data to predict the values of a target variable in the future time points based on the historical values of the data features. The main stages of the modeling process are implemented in this package including:
+
+- Data preprocessing
+- Data partitioning
+- Feature selection
+- Model selection
+- Model evaluation
+- Prediction
+
+Installation
+------------
+
+.. code-block:: console
+
+    pip install stpredict
+
+
+Acknowledgement
+---------------
+
+We would thanks Nasrin Rafiei for contribution in the development of the package.
+
