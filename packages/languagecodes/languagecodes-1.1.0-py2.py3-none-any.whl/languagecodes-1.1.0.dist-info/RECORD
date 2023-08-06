@@ -1,0 +1,13 @@
+languagecodes/__init__.py,sha256=ZCGxvSx_r2vQRmhoisbzTYOSx5edDH__FszoVEoZgUw,1610
+languagecodes/generate.py,sha256=N-MtYRS6wsQcB3_s5e85Y6_PaSjcSxNyVrjBYmebnO8,2078
+languagecodes/iso-639-3.tab,sha256=V1P7JFM7RhTVf4GMhtBLYMRz8WDtXmAhJEfSVlI5Wdk,185400
+languagecodes/iso639.py,sha256=2gs44mVXzgeQZ9_OUNs-nTMRmEBw8JTvRdcueP_at7Q,318948
+languagecodes/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+languagecodes/synonyms.py,sha256=OCDxNYkcTBNex_Izj_6gzmItT4APU2AE3v0ACtu1jzM,992
+languagecodes/util.py,sha256=EHdyjyzTdPqrYPmJxC3crnHMjCgUq3pT4-MI0nRf4Lw,240
+languagecodes-1.1.0.dist-info/LICENSE,sha256=AVqSOSTMlgxMY0oDS8uvCJuLIACIeDB4VHWbRI4DUMc,1087
+languagecodes-1.1.0.dist-info/METADATA,sha256=Xk1HS7wYEdj2onItXBghz4gjUpNkArKYU3c-pctUqko,1665
+languagecodes-1.1.0.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+languagecodes-1.1.0.dist-info/namespace_packages.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+languagecodes-1.1.0.dist-info/top_level.txt,sha256=HocAoqPREDceIUYcsgwkh0P8YxdZKo7fn1BF3mEZ6cA,14
+languagecodes-1.1.0.dist-info/RECORD,,
