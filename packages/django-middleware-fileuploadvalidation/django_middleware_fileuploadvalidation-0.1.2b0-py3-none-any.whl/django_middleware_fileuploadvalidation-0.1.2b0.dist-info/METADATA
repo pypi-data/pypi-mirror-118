@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: django-middleware-fileuploadvalidation
+Version: 0.1.2b0
+Summary: A modular Django middleware to validate user file uploads, detect specially crafted media files with malicious intent and either sanitize or block them afterward.
+Home-page: https://github.com/IV1T3/django-middleware-fileuploadvalidation
+Author: Alexander Groddeck
+Author-email: alexander.groddeck@uni-hamburg.de
+License: Apache Software License
+Keywords: django,file upload,file upload validation,restricted file upload,file upload sanitization,file upload filtering,file upload security
+Platform: OS Independent
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Description-Content-Type: text/markdown
+Requires-Dist: django
+Requires-Dist: exifread
+Requires-Dist: pillow
+Requires-Dist: python-decouple
+Requires-Dist: python-dotenv
+
+# django-middleware-fileuploadvalidation
+
+[comment]: <> ([![pypi-version]][pypi]) 
+
+## Installing
+
+Soon, this package can be installed via pip:
+
+```bash
+$ pip install django-middleware-fileuploadvalidation
+```
+
+Then add `django_fileuploadvalidation.middleware.FileUploadValidationMiddleware` to the end of your `MIDDLEWARE` in settings.py.
+
+```python
+MIDDLEWARE = [
+    "django.middleware.security.SecurityMiddleware",
+    "django.contrib.sessions.middleware.SessionMiddleware",
+    "django.middleware.common.CommonMiddleware",
+    "django.middleware.csrf.CsrfViewMiddleware",
+    ...,
+    "django_fileuploadvalidation.middleware.FileUploadValidationMiddleware",
+]
+```
+
+[pypi]: https://pypi.org/project/django-cprofile-middleware/
+[pypi-version]: https://img.shields.io/pypi/v/django-cprofile-middleware.svg
+
+
