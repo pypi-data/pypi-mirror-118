@@ -1,0 +1,87 @@
+Metadata-Version: 2.1
+Name: python-jengaapi
+Version: 1.1.0
+Summary: A python wrapper for the Jenga API.
+Home-page: https://github.com/MainaKamau92/JengaAPIPythonWrapper
+Author: Maina Kamau
+Author-email: lewiikamaa8@gmail.com
+License: BSD-2-Clause
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests (>=2.5.4.1)
+Requires-Dist: pycryptodome (==3.10.1)
+
+[![Pytest CI](https://github.com/MainaKamau92/JengaAPIPythonWrapper/actions/workflows/pytest.yml/badge.svg)](https://github.com/MainaKamau92/JengaAPIPythonWrapper/actions/workflows/pytest.yml) [![codecov](https://codecov.io/gh/MainaKamau92/JengaAPIPythonWrapper/branch/main/graph/badge.svg?token=cm9MaLo7Fc)](https://codecov.io/gh/MainaKamau92/JengaAPIPythonWrapper) [![Maintainability](https://api.codeclimate.com/v1/badges/883850b3a746cbc8f080/maintainability)](https://codeclimate.com/github/MainaKamau92/JengaAPIPythonWrapper/maintainability)
+
+## JengaAPIPythonWrapper
+
+A simple python wrapper around the JengaAPI from Equity Bank
+
+## Setup
+
+Before beginning add these two environment variables i your .env file:
+
+- BASE_URL="https://yourbaseurl.io" # if non is provided it defaults to https://uat.jengahq.io/
+- ENVIRONMENT="testing/production"
+
+## SendMoneyService
+
+```pycon
+
+# Initial Setup
+>>> from jengaapi.auth import JengaAPI
+>>> API = JengaAPI(api_key="Basic TFZXxx", password="EhPPgRx4ZpxDrrznGdm25d", merchant_code="8995674492", base_url="https://uat.jengahq.io/")
+>>> token = API.authorization_token
+
+>>> from jengaapi.send_money_services import SendMoneyService
+>>> send_money = SendMoneyService(token=token)
+```
+
+#### Send within equity
+
+```pycon
+# Generate signature by calling API.signature and passing the relevant tuple (the contents of this tuple are relative based on the request)
+# e.g to generate signature for 
+## generate signature for sending money within equity 
+>>> signature = API.signature((source_account_number, transfer_amount,currency_code, reference_no))
+>>> send_money.send_within_equity(signature, country_code="KE", source_name="John Doe", source_account_number="0770194201783", destination_account_number="0340197385508",destination_name="Jane Doe", transfer_amount="2300.00", currency_code="KES", reference_no="202108211617", transfer_date=date.today(), description="Send Money")
+{'transactionId': '202108211618', 'status': 'SUCCESS'}
+```
+
+#### Send to mobile wallets
+
+```pycon
+>>> signature = API.signature((source_account_number, transfer_amount, currency_code, reference_no))
+>>> send_money.send_to_mobile_wallets(signature, wallet_name="Equitel", destination_mobile_number="0763659874", country_code="KE", source_name="John Doe", source_account_number="0770194201783", destination_account_number="0340197385508",destination_name="Jane Doe", transfer_amount="2300.00", currency_code="KES", reference_no="162955567473", transfer_date=date.today(), description="Send Money")
+{'transactionId': '162955567473', 'status': 'SUCCESS'}
+```
+
+#### Send RTGS
+
+```pycon
+>>> signature = API.signature((reference_no, transfer_date.strftime("%Y-%m-%d"), source_account_number, destination_account_number, transfer_amount))
+>>> send_money.send_rtgs(signature, destination_account_number="0340197385508", bank_code="01", country_code="KE", source_name="John Doe", source_account_number="0770194201783", destination_name="Jane Doe", transfer_amount="1500.00", currency_code="KES", reference_no="162955622013", transfer_date=date.today(), description="Send Money")
+{'transactionId': '000002399997', 'status': 'SUCCESS'}
+```
+
+#### Send Swift
+
+```pycon
+>>> signature = API.signature((reference_no, transfer_date.strftime("%Y-%m-%d"), source_account_number, destination_account_number, transfer_amount))
+>>> send_money.send_rtgs(signature, destination_account_number="0340197385508", bank_code="01", country_code="KE", source_name="John Doe", source_account_number="0770194201783", destination_name="Jane Doe", transfer_amount="1500.00", currency_code="KES", reference_no="162955622013", transfer_date=date.today(), description="Send Money")
+{'transactionId': '000002399997', 'status': 'SUCCESS'}
+```
+
