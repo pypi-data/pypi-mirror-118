@@ -1,0 +1,6 @@
+tikv_client-0.0.0.dist-info/METADATA,sha256=Y5KXliF5hnkoHGQlxRWQ0_PcIu_XxQxtJB-_zBkUAX0,14764
+tikv_client-0.0.0.dist-info/WHEEL,sha256=AVGbcdlGgQ_UqK2WwDerZAbvt4wlJ0NRoHjvmAghDbQ,104
+tikv_client/asynchronous/__init__.py,sha256=taZXl53f3_k9CFe-qV12kOluI84ywqc42EstDxBUlZ0,124
+tikv_client/__init__.py,sha256=h_dr2v8EXQkaluPZCZOTXgmKhJosd-R8qaVZb4Qmil0,6232
+tikv_client/tikv_client.abi3.so,sha256=7mvd7bSbLqiO8G4G4GUaL1nuHp3HeKPR2JDwNkYc1H0,12785696
+tikv_client-0.0.0.dist-info/RECORD,,
