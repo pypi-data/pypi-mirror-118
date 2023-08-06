@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: NLFE
+Version: 0.0.1
+Summary: methods of non-linear feature extraction
+Home-page: https://gitee.com/liangitee23/nlfe
+Author: liang MA
+Author-email: 707064754@qq.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://gitee.com/liangitee23/nlfe/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# NLFE Package
+
+This is a NON-LINEAR FEATURE EXTRACTION package. You can use it extract non-linear features of time series,including 
+**1. approximate entropy** ,  **2. sample entropy** , **3. fuzzy entropy,poincare plot**,  **4. recurrence plot**  and so forth.
+
