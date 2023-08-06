@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+snapshot/__init__.py
+snapshot/snapshot.py
+snapshot.egg-info/PKG-INFO
+snapshot.egg-info/SOURCES.txt
+snapshot.egg-info/dependency_links.txt
+snapshot.egg-info/top_level.txt
