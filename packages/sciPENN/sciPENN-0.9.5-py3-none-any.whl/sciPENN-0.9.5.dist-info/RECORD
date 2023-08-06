@@ -1,0 +1,17 @@
+sciPENN/Preprocessing.py,sha256=EnkRp5GsnY57s5PnKSXYHyDdUDVl2poNaK0_-P3Cpnc,8857
+sciPENN/Utils.py,sha256=UT_fpS-POkXz6aj6fiHTK8GrT1lIi_FwJ7sITKa2y_k,996
+sciPENN/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sciPENN/sciPENN_API.py,sha256=ozM0IHWLyQi5VcDkfmsaOaUexieLen82PU0WYKQ_3Io,4639
+sciPENN/Data_Infrastructure/DataLoader.py,sha256=OE7K_VVAhqSvTl29qftt66duES0UIxao_tK_SCYZQcI,2823
+sciPENN/Data_Infrastructure/DataLoader_Constructor.py,sha256=y053mss1Y52NnRuWBuEbyAsM9Jl4GgCnb_OsnJF0P-k,1133
+sciPENN/Data_Infrastructure/Samplers.py,sha256=s4JAGQn4FWh4ODRaCA7gykBaeFjLOazDsnJ8epYkS00,1643
+sciPENN/Data_Infrastructure/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sciPENN/Network/Layers.py,sha256=QR3JhDSLIALZ2G0YPAxPXFWh-kxa9mSYecHBUMAA_e4,1768
+sciPENN/Network/Losses.py,sha256=uDQQXjzOnmaYNWRWNVtCz-_jc5Fje5MG58M3kj1AiC0,2012
+sciPENN/Network/Model.py,sha256=NzITvpxPmF4yx2qKQKWHMoM8UihgNlxGQS2F2FjK_AI,9396
+sciPENN/Network/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sciPENN-0.9.5.dist-info/LICENSE.rtf,sha256=rAncXAxhBF5zm-k20pbYvumLuPEHUQ5UpYTYdq703-A,1519
+sciPENN-0.9.5.dist-info/METADATA,sha256=KdYiDpLSQzv-wf-EkJiaULmfciO_I5DDCL3V__O4Y-s,2789
+sciPENN-0.9.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+sciPENN-0.9.5.dist-info/top_level.txt,sha256=lRobP7gq8_WUqXHlAl6u0EjWkTt4W8YBOvv55DUmaHk,8
+sciPENN-0.9.5.dist-info/RECORD,,
