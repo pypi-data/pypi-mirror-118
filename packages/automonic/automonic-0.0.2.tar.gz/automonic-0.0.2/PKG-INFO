@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: automonic
+Version: 0.0.2
+Summary: UNKNOWN
+Home-page: http://github.com/csm10495/auto
+Author: csm10495
+Author-email: csm10495@gmail.com
+License: MIT License
+Description: # Auto
+        
+        Auto is a work in progress...
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
