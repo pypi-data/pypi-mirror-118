@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/qdbase/__init__.py
+src/qdbase/cli.py
+src/qdbase/exenv.py
+src/qdbase/pdict.py
+src/qdbase/qdsqlite.py
+src/qdbase/qdstart.py
+src/qdbase/simplelex.py
+src/qdbase/xsource.py
+src/qdbase/xsynth.py
+src/qdbase.egg-info/PKG-INFO
+src/qdbase.egg-info/SOURCES.txt
+src/qdbase.egg-info/dependency_links.txt
+src/qdbase.egg-info/top_level.txt
