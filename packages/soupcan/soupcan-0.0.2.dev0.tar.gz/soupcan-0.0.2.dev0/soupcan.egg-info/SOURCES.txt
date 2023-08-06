@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+soupcan/__init__.py
+soupcan/core.py
+soupcan.egg-info/PKG-INFO
+soupcan.egg-info/SOURCES.txt
+soupcan.egg-info/dependency_links.txt
+soupcan.egg-info/requires.txt
+soupcan.egg-info/top_level.txt
