@@ -1,0 +1,12 @@
+FootballStats/objects/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+FootballStats/objects/fifa_data.py,sha256=-BWORCs8QXXJuzPugBihzcpM4pfolgySxjyf8MHG8qg,977
+FootballStats/objects/ref_objects.py,sha256=wkTwGznMrOoV_EC8zt8h4srnVGVe1DvVSC12Ob7tuaI,344
+FootballStats/odds/get_odds.py,sha256=cP1yLQ0lpnAAFZqLDJYBlrkFhQOCqW3x3LP4CWqfKhc,2541
+FootballStats/odds/odds_strategies.py,sha256=9jEOmK0omTY1OIE1gsYs7oLhC7gqXYyw_Bh_PLY0uKg,428
+FootballStats/scraping/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+FootballStats/scraping/common.py,sha256=fyQ9HpoLHCCoFmHfk2VMZg3j-ByhaOwUHwqmSFNTi90,148
+FootballStats/scraping/fifa_index.py,sha256=MPqKp-f7O1eYRCoVmwwoIwMYhl6geOpf-asu-5u3idI,8117
+football_statistics-0.0.1.dist-info/METADATA,sha256=wlptDfzU3tfQBzDm0lERtksxoTcs_SchWtNodGOWGWk,603
+football_statistics-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+football_statistics-0.0.1.dist-info/top_level.txt,sha256=EPbICmVc68fMsnNKvRFVnVjAwgOcJUxnE0cp-oH9N8U,14
+football_statistics-0.0.1.dist-info/RECORD,,
