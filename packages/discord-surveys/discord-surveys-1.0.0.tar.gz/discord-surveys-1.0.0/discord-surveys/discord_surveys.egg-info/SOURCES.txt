@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+discord-surveys/discord_surveys.egg-info/PKG-INFO
+discord-surveys/discord_surveys.egg-info/SOURCES.txt
+discord-surveys/discord_surveys.egg-info/dependency_links.txt
+discord-surveys/discord_surveys.egg-info/top_level.txt
