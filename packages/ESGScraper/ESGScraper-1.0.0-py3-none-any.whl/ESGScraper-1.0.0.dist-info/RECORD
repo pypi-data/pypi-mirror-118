@@ -1,0 +1,17 @@
+esgmetrics/__init__.py,sha256=ElgYiea5EGUF4VLPQjefoKoyJWyIUsMSFsaLIq4d2GY,132
+esgmetrics/esgscraper/__init__.py,sha256=QDlQoVnDocMlXGTcIl5pWV-TKzk0m0HKNbN6lYoWaew,230
+esgmetrics/esgscraper/__main__.py,sha256=XGfl6T0-5JDnB8W41a55nMs6tD31jglio1Y6Bjzh4X0,687
+esgmetrics/esgscraper/csrhub.py,sha256=HgQ5GRbaT599X9C43qlAk0fGQOMALfeNgYhoqzFKqLA,2462
+esgmetrics/esgscraper/msci.py,sha256=Dc6xTJpa-ZYx4sqU2cFcP8t1W7y7gvKLRH2dIWONkeQ,2761
+esgmetrics/esgscraper/scraper.py,sha256=M5wX5BU8Bk267pU80oDAfWKT4KFiH09mxtwgwRzI7jU,8952
+esgmetrics/esgscraper/snp_global.py,sha256=anglGgbcTYRVqK9VNE4UfKI83iD6tbhRYlGxNpowFSk,2922
+esgmetrics/esgscraper/sustainanalytics.py,sha256=IFTJfbR8PjUebVhZCYgNSwp2mCZDZjXHIylEwMXMvFo,2726
+esgmetrics/esgscraper/yahoo.py,sha256=XSamMsV1lQbzMSde0J0sx4bjfssfnnImKdUWw-A_sM4,8129
+esgmetrics/esgscraper/data/Forbes.csv,sha256=uAYTwEoE3sJIXEDqmrM-hcmz5ZqGZborlvgIQqr5piY,130098
+esgmetrics/rds_uploader/__init__.py,sha256=omzgU3pC2mrHirKZhKdCnPQOGJWghLLkM269DQqpkks,93
+esgmetrics/rds_uploader/rds_module.py,sha256=ySmTOROPstbkW80UDbbqZbYOZOgdleiiW_dRqAt7o5I,3880
+ESGScraper-1.0.0.dist-info/LICENSE,sha256=XpEI733PiF7OMwyqy_Pn6F_RsKOgGV7LHCVdtGIJMFY,1069
+ESGScraper-1.0.0.dist-info/METADATA,sha256=gZGQXqw-Uto1ULDijBKuBNcvNOPymxU4y6MptJnXe9k,5543
+ESGScraper-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+ESGScraper-1.0.0.dist-info/top_level.txt,sha256=hYykb9kK-FrTF92teBwoiRIA7IfdSzzjymn9wNu6deM,11
+ESGScraper-1.0.0.dist-info/RECORD,,
