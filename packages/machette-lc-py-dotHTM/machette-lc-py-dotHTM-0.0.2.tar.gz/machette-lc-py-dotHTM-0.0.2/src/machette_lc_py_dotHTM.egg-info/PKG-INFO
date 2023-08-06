@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: machette-lc-py-dotHTM
+Version: 0.0.2
+Summary: A collection of hacks and functions that I use regularly.
+Home-page: https://github.com/pypa/sampleproject
+Author: Mike Cramer
+Author-email: dothtm@icloud.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+# machette-lc-py
+
+A collection of hacks and functions that I use regularly.
+
