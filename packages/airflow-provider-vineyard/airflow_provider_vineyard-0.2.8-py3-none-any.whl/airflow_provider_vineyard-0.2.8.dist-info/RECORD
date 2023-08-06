@@ -1,0 +1,13 @@
+vineyard/contrib/airflow/__init__.py,sha256=sjKemFal9OMZ0ESym8X_P1pTvILycJrbDZPEp0wQz2M,650
+vineyard/contrib/airflow/dags/__init__.py,sha256=sjKemFal9OMZ0ESym8X_P1pTvILycJrbDZPEp0wQz2M,650
+vineyard/contrib/airflow/dags/v6d_dag.py,sha256=XR5pxZ-iruIUlaF3PPYrY0n2Fy2yrN9b9sgdBGqYtys,3038
+vineyard/contrib/airflow/dags/v6d_etl.py,sha256=GLT7YYVziLWkRirO-hQDErAPlpSp1Zg3JvbvL7zeBSE,1982
+vineyard/contrib/airflow/dags/v6d_etl_pandas.py,sha256=Fl5koYWGtUnWvgARCLF17DKr3ZJgK_0xJiXNGSE98F8,1869
+vineyard/contrib/airflow/xcom/__init__.py,sha256=kHfAzy1TsGe9-w5e9apCo7HsT8CrAwfhEeQzK4yWjJY,684
+vineyard/contrib/airflow/xcom/backend.py,sha256=ZOLp8fT7Vq5ecw8XpzwBqlhEfjNAmzKFBDmuT9rUAcA,7231
+airflow_provider_vineyard-0.2.8.dist-info/LICENSE,sha256=utBssnCOCpccvvCiohbpHGOSZk08F1XCgfRrM_tQuMw,50495
+airflow_provider_vineyard-0.2.8.dist-info/METADATA,sha256=o11A0El1OK_AoBUXEaoJ0mB4EfHVkGhj915dfDaABIk,4597
+airflow_provider_vineyard-0.2.8.dist-info/NOTICE.txt,sha256=XADHgTr9YMptM7YUwoND7oILmmOLZmcSo7LrUxW2CJU,1783
+airflow_provider_vineyard-0.2.8.dist-info/WHEEL,sha256=ms8J4goY0Ef-CbxwclxFHn7gqzunJLVPft_dPO2KjIU,93
+airflow_provider_vineyard-0.2.8.dist-info/top_level.txt,sha256=eZrYkLRbDypCZAYVfMwFNTMYj4dRG-c-6B5uV6vu4Sk,9
+airflow_provider_vineyard-0.2.8.dist-info/RECORD,,
