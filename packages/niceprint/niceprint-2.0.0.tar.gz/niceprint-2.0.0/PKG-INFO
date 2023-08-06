@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: niceprint
+Version: 2.0.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: AstralDev
+Author-email: ekureedem480@gmail.com
+License: GNU GPL 3
+Description: # niceprint 
+        ![niceprint]()
+        
+        
+        Description
+        -----------
+        This is a python package for printing text with different colors and styles. Best for printing results from CLI programs.
+        
+        niceprint comes with a few other functionalities such as **SetInterval, ProgressBar, MultiColoredPrint.**
+        
+        Install
+        -------
+        Using pip `pip3 install niceprint`.
+        
+        Examples
+        ---------
+        ```from niceprint import Print
+        Print("Niceprint", color="c")```
+        
+        Documentation
+        -------------
+        Availiable at http://astraldev.github.io/niceprint
+        
+        
+Platform: UNKNOWN
+Requires-Python: >=3
+Description-Content-Type: text/markdown
