@@ -1,0 +1,10 @@
+envoy/abstract/command/__init__.py,sha256=fQZM6vpOclNGk9-xgnfrFj8utPS0e7xU4t8tMOjDmbY,216
+envoy/abstract/command/command.py,sha256=ZifgSzGRddeqLBZVN2idqKyC4kTseBOOoODsA7eevVs,1465
+envoy/abstract/command/decorators.py,sha256=YbOvdQ-mnKC0gRt5_LR4WQyuvyOgrtahU2MN7F_wWVk,2450
+envoy/abstract/command/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_command.py,sha256=n7anrfABIdTAx1-5YfCV4hDy9qfOcjFUcPstVjQdiRo,3384
+tests/test_runner.py,sha256=0YxrsGxVNIFXqrcdvrxpwzVQW9j3v9anfZUUZ6lZwW0,31
+envoy.abstract.command-0.0.3.dist-info/METADATA,sha256=L-7VrVD_xAc6YvTdn-06DaflKUqqM_Cjx6IoxvF6J6o,1578
+envoy.abstract.command-0.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+envoy.abstract.command-0.0.3.dist-info/top_level.txt,sha256=42VlDpOTLTbLBqHGkve70aKsXydFXDYZ1t1ycKQlkoI,12
+envoy.abstract.command-0.0.3.dist-info/RECORD,,
