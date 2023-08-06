@@ -1,0 +1,13 @@
+django_jsonform/__init__.py,sha256=Aj77VL1d5Mdku7sgCgKQmPuYavPpAHuZuJcy6bygQZE,21
+django_jsonform/admin.py,sha256=suMo4x8I3JBxAFBVIdE-5qnqZ6JAZV0FESABHOSc-vg,63
+django_jsonform/apps.py,sha256=FAMrS9hjDALaSnc6K3SOhvKmka7kyAbPeZvugIkfocc,97
+django_jsonform/models.py,sha256=Vjc0p2XbAPgE6HyTF6vll98A4eDhA5AvaQqsc4kQ9AQ,57
+django_jsonform/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+django_jsonform/urls.py,sha256=l0dD1NYT7r6hiUS-LtVuwYKF45zt_YZaU3zaglIPQwA,156
+django_jsonform/views.py,sha256=XUa-2Gt-XWQC2V33fqH-kQzwNyANsSEFSbSRiUR27FA,501
+django_jsonform/widgets.py,sha256=ZTD4NxCIyn9YPlT-dryiJ14ezCd08dKOGKTVtBQUukM,1084
+django_jsonform-1.0.0.dist-info/LICENSE.txt,sha256=cQ6x4cLXfTV5jdkMPSBxxuFCRXCzQeYjoDUdKg6n3rg,1478
+django_jsonform-1.0.0.dist-info/METADATA,sha256=2xQPYbuYMy4AWZBhdq1-WQ7mZrnM9AeIt45Gfpu_-EI,2030
+django_jsonform-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+django_jsonform-1.0.0.dist-info/top_level.txt,sha256=Yjdsl4FiRfNb2GOAbvVVlE_v4kuaT7uPiGYkKvuET-4,16
+django_jsonform-1.0.0.dist-info/RECORD,,
