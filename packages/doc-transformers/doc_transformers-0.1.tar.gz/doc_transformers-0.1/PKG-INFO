@@ -1,0 +1,30 @@
+Metadata-Version: 1.1
+Name: doc_transformers
+Version: 0.1
+Summary: Deep learning for document processing
+Home-page: https://github.com/Vishnunkumar/doc_transformers/
+Author: Vishnu N
+Author-email: vishnunkumar25@gmail.com
+License: MIT
+Download-URL: https://github.com/Vishnunkumar/doc_transformers/archive/refs/tags/v-1.tar.gz
+Description: # doc_transformers
+        Document processing using transformers
+        
+        ## Prerequisites
+        
+        Install detectron2 and tesseract ocr seperately
+        
+        ```
+        sudo apt install tesseract-ocr
+        pip install detectron2 -f https://dl.fbaipublicfiles.com/detectron2/wheels/cu101/torch1.8/index.html
+        ```
+Keywords: Documents,Machine learning,NLP,Deep learning,Computer Vision
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
