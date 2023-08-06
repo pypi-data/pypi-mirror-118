@@ -1,0 +1,10 @@
+matplotlib
+pylatexenc
+chardet
+scipy
+numpy
+bs4
+lxml
+Jinja2
+beautifulsoup4
+PyPDF2
