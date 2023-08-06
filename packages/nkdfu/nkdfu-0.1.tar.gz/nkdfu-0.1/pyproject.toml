@@ -1,0 +1,29 @@
+[build-system]
+requires = ["flit"]
+build-backend = "flit.buildapi"
+
+[tool.flit.metadata]
+module = "nkdfu"
+dist-name = "nkdfu"
+author = "Nitrokey"
+author-email = "pypi@nitrokey.com"
+home-page = "https://github.com/Nitrokey/nkdfu"
+requires-python = ">=3.6"
+description-file = "README.md"
+requires = [
+  "fire",
+  "tqdm",
+  "intelhex >= 2.3.0",
+  "libusb1 >= 1.9.3",
+]
+classifiers=[
+    "License :: OSI Approved :: GNU General Public License v2 (GPLv2)",
+    "Intended Audience :: Developers",
+    "Intended Audience :: End Users/Desktop",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+]
+
+[tool.flit.scripts]
+nkdfu = "nkdfu.dfu_flash:cli"
