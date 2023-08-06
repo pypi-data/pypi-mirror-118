@@ -1,0 +1,6 @@
+LICENSE
+setup.py
+simplespeech.egg-info/PKG-INFO
+simplespeech.egg-info/SOURCES.txt
+simplespeech.egg-info/dependency_links.txt
+simplespeech.egg-info/top_level.txt

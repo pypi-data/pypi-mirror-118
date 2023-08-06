@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: simplespeech
+Version: 0.0.1
+Summary: Simple Speech
+Home-page: UNKNOWN
+Author: Ayush Dubey
+Author-email: usaksham01@gmail.com
+License: UNKNOWN
+Keywords: stt,simplespeech,speech,ayushdubey
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+A package for speech recognition which works without Pyaudio Note: Internet connection is necessary
+
