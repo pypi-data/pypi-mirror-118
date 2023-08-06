@@ -1,0 +1,78 @@
+{
+  "name": "jupyterlab-cube",
+  "version": "0.1.5",
+  "description": "A JupyterLab extension for rendering cube files.",
+  "keywords": [
+    "jupyter",
+    "jupyterlab",
+    "jupyterlab-extension"
+  ],
+  "homepage": "https://github.com/osscar-org/jupyterlab-cube",
+  "bugs": {
+    "url": "https://github.com/osscar-org/jupyterlab-cube/issues"
+  },
+  "license": "BSD-3-Clause",
+  "author": "Dou Du",
+  "files": [
+    "lib/**/*.{d.ts,eot,gif,html,jpg,js,js.map,json,png,svg,woff2,ttf}",
+    "style/**/*.{css,eot,gif,html,jpg,json,png,svg,woff2,ttf}"
+  ],
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "style": "style/index.css",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/osscar-org/jupyterlab-cube.git"
+  },
+  "scripts": {
+    "build": "jlpm run build:lib && jlpm run build:labextension:dev",
+    "build:prod": "jlpm run clean && jlpm run build:lib && jlpm run build:labextension",
+    "build:labextension": "jupyter labextension build .",
+    "build:labextension:dev": "jupyter labextension build --development True .",
+    "build:lib": "tsc",
+    "clean": "jlpm run clean:lib",
+    "clean:lib": "rimraf lib tsconfig.tsbuildinfo",
+    "clean:labextension": "rimraf jupyterlab_cube/labextension",
+    "clean:all": "jlpm run clean:lib && jlpm run clean:labextension",
+    "eslint": "eslint . --ext .ts,.tsx --fix",
+    "eslint:check": "eslint . --ext .ts,.tsx",
+    "install:extension": "jupyter labextension develop --overwrite .",
+    "prepare": "jlpm run clean && jlpm run build:prod",
+    "watch": "run-p watch:src watch:labextension",
+    "watch:src": "tsc -w",
+    "watch:labextension": "jupyter labextension watch ."
+  },
+  "dependencies": {
+    "@jupyterlab/rendermime-interfaces": "^3.1.8",
+    "@lumino/widgets": "^1.26.2",
+    "@material-ui/core": "4.12.3",
+    "@material-ui/icons": "4.11.2",
+    "material-ui-color": "1.2.0",
+    "@osscar/ngl": "2.0.0-dev.38",
+    "jquery": "3.6.0",
+    "react-dom": "17.0.2",
+    "underscore": "1.13.1"
+  },
+  "devDependencies": {
+    "@jupyterlab/builder": "^3.1.9",
+    "@types/jquery": "3.5.6",
+    "@types/react-dom": "17.0.9",
+    "@types/underscore": "1.11.3",
+    "@typescript-eslint/eslint-plugin": "^4.29.3",
+    "@typescript-eslint/parser": "^4.29.3",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.3.2",
+    "rimraf": "^3.0.2",
+    "typescript": "~4.3.5"
+  },
+  "sideEffects": [
+    "style/*.css"
+  ],
+  "jupyterlab": {
+    "mimeExtension": true,
+    "outputDir": "jupyterlab_cube/labextension"
+  }
+}
