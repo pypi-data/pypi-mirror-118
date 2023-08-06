@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "khbank"
+version = "1.0.0"
+description = "parse bank statement"
+authors = ["Khalid <khalidck@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+toolz = "^0.11.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5."
+black = "*"
+tox = "^3."
+pytest-datadir = "^1."
+bandit = "^1.7.0"
+flake8 = "^3.9.2"
+mypy = "^0.910"
+pandas = "^1.3.2"
+fsspec = "^2021.7.0"
+gcsfs = "^2021.7.0"
+pyarrow = "^5.0.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
