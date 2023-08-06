@@ -1,0 +1,10 @@
+setup.py
+lc_calc.egg-info/PKG-INFO
+lc_calc.egg-info/SOURCES.txt
+lc_calc.egg-info/dependency_links.txt
+lc_calc.egg-info/entry_points.txt
+lc_calc.egg-info/requires.txt
+lc_calc.egg-info/top_level.txt
+lc_calc.egg-info/zip-safe
+src/__init__.py
+src/test.py
