@@ -1,0 +1,10 @@
+aws_connector/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aws_connector/account_config.py,sha256=4ZOIqyOg5mTouQE7HzBJ3WoFF9K260gC2rS1IXx7qh0,859
+aws_connector/connector.py,sha256=mmXhzgf96wTvTpFu1ZXvuD80sWs8xkK2BZWyw8jwf0o,1542
+aws_connector/version.py,sha256=MsEPcXWwb43_yKlNqv4H-amZjqeN_S0gkFGM7G3yeHo,72
+aws_connector-0.0.1.data/scripts/connect,sha256=xiORoUtlkYmItymhSmza1cmtVsGnDZ36EbbgqFJtJbQ,76
+aws_connector-0.0.1.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+aws_connector-0.0.1.dist-info/METADATA,sha256=1O5muPaWIjbheGhi44uylaILwH2ofk0bDqSrsmiQI-k,784
+aws_connector-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+aws_connector-0.0.1.dist-info/top_level.txt,sha256=MBKMssWY0DelqlWY7eKpTwtnjpNFD5Qfq1q8QawIbJo,14
+aws_connector-0.0.1.dist-info/RECORD,,
