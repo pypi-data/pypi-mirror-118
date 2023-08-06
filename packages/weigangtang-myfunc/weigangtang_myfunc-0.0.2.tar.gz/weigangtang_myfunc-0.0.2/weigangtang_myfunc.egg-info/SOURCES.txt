@@ -1,0 +1,10 @@
+LICENCE.txt
+MANIFEST.in
+README.md
+setup.py
+weigangtang_myfunc/__init__.py
+weigangtang_myfunc.egg-info/PKG-INFO
+weigangtang_myfunc.egg-info/SOURCES.txt
+weigangtang_myfunc.egg-info/dependency_links.txt
+weigangtang_myfunc.egg-info/requires.txt
+weigangtang_myfunc.egg-info/top_level.txt

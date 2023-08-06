@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: weigangtang_myfunc
+Version: 0.0.2
+Summary: my own functions for daily use
+Home-page: UNKNOWN
+Author: Weigang (Victor) Tang
+Author-email: tangw5@mcmaster.ca
+License: MIT
+Description: This package is for my daily use.
+        
+        It allows to quickly import my own functions from any platform.
+        
+Keywords: basic,daily use
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: OS Independent 
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
