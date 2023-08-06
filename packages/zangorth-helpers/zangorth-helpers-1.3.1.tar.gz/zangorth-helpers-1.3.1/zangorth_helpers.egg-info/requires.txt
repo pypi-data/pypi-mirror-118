@@ -1,0 +1,14 @@
+pyodbc
+SQLAlchemy
+numpy
+streamlit
+pytube
+pandas
+imbalanced_learn
+youtube_transcript_api
+pydub
+scipy
+torch
+librosa
+imblearn
+scikit_learn
