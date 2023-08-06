@@ -1,0 +1,15 @@
+README.md
+setup.py
+shapeae/__init__.py
+shapeae/_settings.py
+shapeae/data_generator.py
+shapeae/main.py
+shapeae/metrics.py
+shapeae/model.py
+shapeae/run_train_script.py
+shapeae/utils.py
+shapeae.egg-info/PKG-INFO
+shapeae.egg-info/SOURCES.txt
+shapeae.egg-info/dependency_links.txt
+shapeae.egg-info/requires.txt
+shapeae.egg-info/top_level.txt
