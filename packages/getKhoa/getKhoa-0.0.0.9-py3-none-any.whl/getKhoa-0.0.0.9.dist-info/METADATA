@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: getKhoa
+Version: 0.0.0.9
+Summary: Khoa data download
+Home-page: https://github.com/qkdrk7777775/getKhoa
+Author: chang je Cho
+Author-email: qkdrk7777775@gmail.com
+License: MIT
+Keywords: khoa,korea,ocean
+Platform: UNKNOWN
+Requires-Dist: requests
+Requires-Dist: pandas
+Requires-Dist: numpy
+
+UNKNOWN
+
