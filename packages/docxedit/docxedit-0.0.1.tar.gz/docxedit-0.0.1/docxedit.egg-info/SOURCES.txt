@@ -1,0 +1,13 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.md
+__init__.py
+docxedit.py
+setup.cfg
+setup.py
+docxedit.egg-info/PKG-INFO
+docxedit.egg-info/SOURCES.txt
+docxedit.egg-info/dependency_links.txt
+docxedit.egg-info/requires.txt
+docxedit.egg-info/top_level.txt

@@ -1,0 +1,37 @@
+Metadata-Version: 1.1
+Name: docxedit
+Version: 0.0.1
+Summary: Edit Word documents, keep original format.
+Home-page: https://github.com/henrihapponen/docxedit
+Author: Henri Happonen
+Author-email: henkka.happonen@gmail.com
+License: MIT
+Download-URL: https://github.com/henrihapponen/docxedit/archive/refs/tags/0.0.1.tar.gz
+Description: # Edit existing Word documents effortlessly and without changing the original formatting of the document.
+        
+        These tools are very useful if you want to automate document writing or editing and you need to adhere to strict formatting rules.
+        
+        ## Requirements
+        
+        Need to have python-docx installed
+        
+        ## Functions
+        
+        Most of the functions in this module work primarily with 'runs', which are sequences of strings with the same formatting style.
+        
+        
+        Change Log
+        =====================
+        
+        0.0.1 (05/09/2021)
+        ---------------------
+        - Initial release
+        
+Keywords: docx,python-docx,docxedit
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
