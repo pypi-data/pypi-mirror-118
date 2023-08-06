@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: sdgs-dashboard
+Version: 0.2.0
+Summary:  Modul python untuk dashboard sdgs kemendesa.
+Home-page: https://github.com/hexatester/sdgs-dashboard
+License: MIT
+Keywords: sdgs,sdgs-dashboard,kemendesa
+Author: hexatester
+Author-email: hexatester@protonmail.com
+Requires-Python: >=3.7.10,<4.0.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: attrs (>=21.2.0,<22.0.0)
+Requires-Dist: beautifulsoup4 (>=4.9.3,<5.0.0)
+Requires-Dist: cattrs (>=1.8.0,<2.0.0)
+Requires-Dist: python-dateutil (>=2.8.2,<3.0.0)
+Requires-Dist: requests (>=2.26.0,<3.0.0)
+Requires-Dist: ujson (>=4.0.2,<5.0.0)
+Project-URL: Repository, https://github.com/hexatester/sdgs-dashboard
+Description-Content-Type: text/markdown
+
+# sdgs-dashboard
+
+[![sdgs-dashboard - PyPi](https://img.shields.io/pypi/v/sdgs-dashboard)](https://pypi.org/project/sdgs-dashboard/)
+[![Supported Python versions](https://img.shields.io/pypi/pyversions/sdgs-dashboard)](https://pypi.org/project/sdgs-dashboard/)
+[![Donate Saweria](https://img.shields.io/badge/Donasi-Saweria-blue)](https://saweria.co/hexatester)
+[![LISENSI](https://img.shields.io/github/license/hexatester/sdgs-dashboard)](https://github.com/hexatester/sdgs-dashboard/blob/main/LICENSE)
+
+Modul python untuk dashboard sdgs kemendesa.
+
