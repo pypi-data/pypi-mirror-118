@@ -1,0 +1,9 @@
+coinexpy/__init__.py,sha256=AVoiXmIH_evkudYrZ9fBOmNv1JWlxURHHyfevFtMrog,26
+coinexpy/coinex.py,sha256=h9sJSjRQRlpelEd_iWOgHbPnIBDa0nIGLuN_Z-0duFg,4695
+coinexpy/requestclient.py,sha256=FBDOFZJPcsv2lM3YsuI2sMo3YRm7CHrWo-EyPLU2noQ,2152
+coinexpy-0.2.dist-info/LICENSE,sha256=lhcA54qp-K2lmLuc783XRsLz1-lv4O-Kz5xLGwGIrA0,1069
+coinexpy-0.2.dist-info/LICENSE.txt,sha256=lhcA54qp-K2lmLuc783XRsLz1-lv4O-Kz5xLGwGIrA0,1069
+coinexpy-0.2.dist-info/METADATA,sha256=NZyU2v8HQD_bN41lZihgy55j1FfiEwC37r5NK1nggOE,1903
+coinexpy-0.2.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+coinexpy-0.2.dist-info/top_level.txt,sha256=tsALIJKBa8rdS3OIzhCG773DnTJdMvmq2BLPt8b5OJw,9
+coinexpy-0.2.dist-info/RECORD,,
