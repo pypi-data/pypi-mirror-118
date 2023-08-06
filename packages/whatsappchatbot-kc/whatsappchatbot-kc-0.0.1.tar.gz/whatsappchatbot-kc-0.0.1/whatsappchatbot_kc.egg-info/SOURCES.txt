@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.py
+whatsappchatbot_kc.egg-info/PKG-INFO
+whatsappchatbot_kc.egg-info/SOURCES.txt
+whatsappchatbot_kc.egg-info/dependency_links.txt
+whatsappchatbot_kc.egg-info/top_level.txt
