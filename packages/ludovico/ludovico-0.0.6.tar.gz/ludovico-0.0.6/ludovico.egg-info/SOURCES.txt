@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+ludovico/__init__.py
+ludovico/ludovico.py
+ludovico.egg-info/PKG-INFO
+ludovico.egg-info/SOURCES.txt
+ludovico.egg-info/dependency_links.txt
+ludovico.egg-info/requires.txt
+ludovico.egg-info/top_level.txt
