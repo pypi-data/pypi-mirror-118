@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+lijin_distributions/Binomialdistribution.py
+lijin_distributions/Gaussiandistribution.py
+lijin_distributions/Generaldistribution.py
+lijin_distributions/__init__.py
+lijin_distributions.egg-info/PKG-INFO
+lijin_distributions.egg-info/SOURCES.txt
+lijin_distributions.egg-info/dependency_links.txt
+lijin_distributions.egg-info/not-zip-safe
+lijin_distributions.egg-info/top_level.txt
