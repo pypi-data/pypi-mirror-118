@@ -1,0 +1,6 @@
+
+[:platform_system == "Darwin"]
+pync==2.0.3
+
+[:platform_system == "Windows"]
+win10toast==0.9
