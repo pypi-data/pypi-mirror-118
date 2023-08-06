@@ -1,0 +1,12 @@
+LICENSE.txt
+README.rst
+setup.py
+imena/__init__.py
+r00_Imena.egg-info/PKG-INFO
+r00_Imena.egg-info/SOURCES.txt
+r00_Imena.egg-info/dependency_links.txt
+r00_Imena.egg-info/top_level.txt
+r00_imena.egg-info/PKG-INFO
+r00_imena.egg-info/SOURCES.txt
+r00_imena.egg-info/dependency_links.txt
+r00_imena.egg-info/top_level.txt
