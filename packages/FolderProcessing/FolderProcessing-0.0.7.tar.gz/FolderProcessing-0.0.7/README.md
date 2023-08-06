@@ -1,0 +1,194 @@
+# FolderProcessing 文件夹处理包 | Folderprocessing folder processing package
+
+
+使用方法在作者的第三方仓库中，可以自行查看
+
+
+The usage method is in the author's third-party warehouse and can be used by yourself
+
+[codechina.csdn 教程链接|Tutorial links](https://blog.csdn.net/qq_53280175?spm=1000.2115.3001.5343)
+
+
+# 联系方式即使用方法
+
+
+用于查看指定目录下的所有文件 列表形式输出
+
+
+Used to view the list output of all files in the specified directory
+
+
+
+**联系方式**--QQ:2097632843---邮件：mc2005wj@163.com
+
+
+---------------------------------------------------------------
+
+
+**使用方式**
+
+
+
+仅为个人程序，已发布到pypi
+
+
+
+可 pip install FolderProcessing 进行安装
+
+
+view函数使用方法：
+
+
+
+导入库: from FolderProcessing import view 或 from FolderProcessing import *
+
+
+
+`from FolderProcessing import view`
+
+
+`view.OsList("文件路径")`
+
+
+
+————————————————————————————————————————————————————————————————————————————————————————————————
+
+
+
+new函数使用方法：
+
+
+
+导入库：from FolderProcessing import new 或 from FolderProcessing import *
+
+
+
+`from FolderProcessing import new`
+
+
+`new.new('命令', '位置', '文件名', '数量', '后缀名')`
+
+
+
+——————————————————————————————————————————————————————————————————————————————————————————————————————————————
+
+
+
+new函数中的 命令 (command) 命令列表
+
+| 函数名称 | 命令 |
+| ------ | ------ |
+| new | new('n', '位置', '文件名', '数量) new('n_file', '位置', '文件名', '数量', '后缀名') |
+| new_del | new_del('del', '文件路径及名字') new_del('del_folder', '文件路径及名字') |
+| new_input | new_input('文件路径及名字', '需要输入到文件的内容') |
+| new_print | new_print('文件路径') |
+| new_add | new_add('文件路径及名字', '需要输入到文件的内容') |
+| filename | filenname('文件路径及名字', '需要更改文件名字及后缀名') |  
+| move | move('要移动的文件路径', '要移动至的文件路径') | 
+
+
+提示：如果源文件是文件夹。输入更改名字不带后缀名将不会更改文件夹，依旧是文件夹但是更改了名字。如果带了后缀名将会把文件更改为文件不是文件夹
+
+
+
+如果文件夹中有文件将会报错不会更改！
+
+
+
+示例：“n_file” `new.new('n_file', 'C:\\Windows\\', 'test', '1', '.py')` 
+“n” 
+`new.new('n', 'C:\\Windows\\', 'test', '1')`
+
+
+
+版本：0.0.6
+
+
+#Contact information is the method of use
+
+
+Used to view the list output of all files in the specified directory
+
+
+Used to view the list output of all files in the specified directory
+
+
+**Contact information * * -- QQ: 2097632843 --- email: mc2005wj@163.com
+
+
+
+---------------------------------------------------------------
+
+
+**Mode of use**
+
+
+Personal program only, published to pypi
+
+
+It can be installed by PIP install FolderProcessing
+
+
+How to use the view function:
+
+
+Import library: from FolderProcessing import view or from FolderProcessing import *
+
+
+`from FolderProcessing import view`
+
+
+`view. Oslist ("file path")`
+
+
+————————————————————————————————————————————————————————————————————————————————————————————————
+
+
+How to use the new function:
+
+
+Import library: from FolderProcessing import new or from FolderProcessing import *
+
+
+`from FolderProcessing import new`
+
+
+`new. new ('command', 'location', 'name', 'number', 'suffix')`
+
+
+——————————————————————————————————————————————————————————————————————————————————————————————————————————————
+
+
+List of commands in the new function
+
+
+| Function name | command |
+| ------ | ------ |
+|new | new('n', 'location', 'file name', 'quantity) new('n_File', 'location', 'file name', 'quantity', 'suffix') |
+| new_del | new_ Del('del', 'file path and name') new_ del('del_folder', 'file path and name') |
+| new_input | new_input('File path and name', 'content to be input into the file') |
+| new_print | new_print('File path') |
+| new_app | new_app('File path and name', 'content to be entered into the file') |
+|filename | filenname('file path and name', 'file name and suffix need to be changed') |
+|move | move ('File path to move', 'file path to move')|
+
+
+Tip: if the source file is a folder. Entering a name without a suffix will not change the folder. It is still a folder, but the name has been changed. If the suffix is used, the file will be changed to a file instead of a folder
+
+
+If there are files in the folder, an error will be reported and will not be changed!
+
+
+Example: "n"_ file”
+
+
+`new.new('n_file', 'C:\\Windows\\', 'test', '1', '.py')` 
+
+
+Example:”n“ 
+
+
+`new.new('n', 'C:\\Windows\\', 'test', '1')`
+
+
+Version: 0.0.6
