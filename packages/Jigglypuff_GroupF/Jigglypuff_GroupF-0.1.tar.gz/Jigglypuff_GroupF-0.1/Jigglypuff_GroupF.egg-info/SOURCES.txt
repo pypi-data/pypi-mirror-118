@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+Jigglypuff_GroupF/__init__.py
+Jigglypuff_GroupF.egg-info/PKG-INFO
+Jigglypuff_GroupF.egg-info/SOURCES.txt
+Jigglypuff_GroupF.egg-info/dependency_links.txt
+Jigglypuff_GroupF.egg-info/not-zip-safe
+Jigglypuff_GroupF.egg-info/top_level.txt
