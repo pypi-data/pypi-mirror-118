@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: jenky
+Version: 0.3.1
+Summary: A build and deploy server for Python developers
+Home-page: UNKNOWN
+Author: Wolfgang Kühn
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: aiofiles
+Requires-Dist: fastapi
+Requires-Dist: psutil
+Requires-Dist: uvicorn
+
+UNKNOWN
+

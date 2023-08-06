@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jenky</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 2em;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table, td, th {
+            border: 1px solid black;
+        }
+
+        td, th {
+            padding: 1ex;
+        }
+
+        tbody tr:hover {
+            background-color: #ffff99;
+        }
+
+        fieldset {
+            margin-top: 1em;
+        }
+
+    </style>
+</head>
+<body>
+<div>
+    <h1 id="appName" style="display: inline-block"></h1><a href="/docs">OpenAPI Spec</a>
+</div>
+<table>
+    <thead>
+    <tr>
+        <th>Repo Name</th>
+        <th>Git Ref</th>
+        <th>Process Name</th>
+        <th>Start Time</th>
+        <th>Keep Alive</th>
+        <th>Logs</th>
+    </tr>
+    </thead>
+    <tbody id="repos"></tbody>
+</table>
+
+<template id="processRow">
+    <tr>
+        <td>Repo Name</td>
+        <!--<td><label><input type="radio" name="process"></label></td>-->
+        <td>Git Ref</td>
+        <td>Process Name</td>
+        <td>Start Time</td>
+        <td>
+            <label style="display: inline-block"><input type="checkbox" name="KeepAlive"></label>
+        </td>
+        <td></td>
+    </tr>
+</template>
+
+<pre id="logs">
+</pre>
+
+</body>
+<script type="module">
+
+    class ConcernedFaceIterator {
+        constructor() {
+            this.faces = [];
+            for (const face of "😕😟😯😲😳🥺😦😧😨😰😥😢😭😱😖😣😞😤😡☠") this.faces.push(face);
+        }
+
+        next() {
+            const face = this.faces.shift();
+            this.faces.push(face);
+            return face;
+        }
+    }
+
+    const concernedFaceIterator = new ConcernedFaceIterator();
+
+    /**
+     * @param {Object.<string, jenky.Repo>} repos
+     */
+    function renderRepos(repos) {
+        const tbody = document.getElementById('repos');
+        tbody.textContent = '';
+        const template = document.getElementById('processRow');
+        for (const repo of repos) {
+            const name = repo.repoName;
+            for (const proc of repo.processes) {
+                let tr = template.content.firstElementChild.cloneNode(true);
+                let td = tr.firstElementChild;
+                if (repo.remoteUrl) {
+                    td.textContent = '';
+                    const a = document.createElement('a');
+                    a.href = repo.remoteUrl;
+                    a.textContent = repo.repoName;
+                    td.appendChild(a);
+                } else {
+                    td.textContent = repo.repoName;
+                }
+
+                td = td.nextElementSibling;
+                td.textContent = repo.gitRef;
+
+                td = td.nextElementSibling;
+                if (proc.serviceSubDomain) {
+                    td.textContent = '';
+                    const a = document.createElement('a');
+                    const domains = location.hostname.split('.');
+                    domains[0] = proc.serviceSubDomain;
+                    a.href = location.protocol + '//' + domains.join('.') + (proc.serviceHomePath || '');
+                    a.textContent = proc.name;
+                    td.appendChild(a);
+                } else {
+                    td.textContent = proc.name;
+                }
+
+                td = td.nextElementSibling;
+                td.textContent = proc.createTime ? new Date(proc.createTime * 1000).toISOString() : '';
+
+                td = td.nextElementSibling;   // Status
+                const input = td.querySelector('input');
+                input.checked = proc.keepRunning;
+                input.addEventListener('change', (evt) => {
+                    // evt.target.disabled = true;
+                    changeProcessState(repo, proc, input.checked ? 'restart' : 'kill');
+                });
+
+                td = td.nextElementSibling;
+                const logSources = [{displayText: 'out', url: `/repos/${name}/processes/${proc.name}/out`}];
+                if (proc.logUrl) {
+                    logSources.push({displayText: 'log', url: proc.logUrl})
+                }
+
+                for (const logSource of logSources) {
+                    const a = document.createElement('a');
+                    a.href = logSource.url;
+                    a.textContent = logSource.displayText;
+                    a.target = `${proc.name}_logs`;
+                    a.style.marginRight = '1ex';
+                    td.appendChild(a);
+                }
+
+                tbody.appendChild(tr);
+            }
+        }
+    }
+
+    /**
+     * @param {jenky.Repo} repo
+     * @param {jenky.Process} proc
+     * @param {string} action
+     */
+    function changeProcessState(repo, proc, action) {
+        const payload = {action: action};
+        fetch(`/repos/${repo.repoName}/processes/${proc.name}`, {method: 'post', body: JSON.stringify(payload)})
+            .then(response => {
+                if (response.status === 200) {
+                    return response.json();
+                } else {
+                    console.log(response.statusText + ' ' + response.url);
+                    response.text().then(text => alert(text))
+                }
+            })
+            .then(data => console.log(data))
+            //.then(fetchLogs)
+    }
+
+    function fetchRepos() {
+        fetch('/repos')
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('appName').textContent = `${data['appName']} (${data['version']})`;
+                renderRepos(data['repos']);
+            })
+    }
+
+    let logs = [];
+
+    function fetchLogs() {
+        const params = new URLSearchParams();
+        if (logs.length) {
+            params.append('last_event_id', String(logs[0][0]));
+        }
+        fetch('/logs?' + params.toString())
+            .then(response => response.json())
+            .then(data => {
+                if (data['logsSince']) {
+                    // TODO: Also send updated git tags
+                    logs = data['logsSince'].concat(logs).slice(0, data['maxLength']);
+                    document.getElementById('logs').textContent = JSON.stringify(logs.map(item => item[1]), null, 4);
+                    // window.setTimeout(() => {
+                    //     fetchLogs()
+                    // }, 6000)
+                }
+            })
+    }
+
+    fetchRepos()
+    window.setInterval(() => {
+        fetchLogs()
+    }, 6000)
+
+</script>
+</html>
