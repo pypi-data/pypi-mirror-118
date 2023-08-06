@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: reddish
+Version: 0.1.0
+Summary: An async redis client library with a minimal api
+License: MIT
+Author: Sascha Desch
+Author-email: sascha.desch@hotmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: hiredis (>=2.0.0,<3.0.0)
+Requires-Dist: pydantic (>=1.8.2,<2.0.0)
+Requires-Dist: trio (>=0.19.0,<0.20.0)
