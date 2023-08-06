@@ -1,0 +1,8 @@
+envoy/base/utils/__init__.py,sha256=O6fIxrtG-3rO1UchVLDA-MygcH2Z94q6nRNVHILA3Nc,500
+envoy/base/utils/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+envoy/base/utils/utils.py,sha256=9o2SXy61BlAOK7DV_61f8Aua3BNOxARN1Uoa42tSeZo,5376
+tests/test_utils.py,sha256=2gpAR6K7CicTN9em_nZmmPKLNslZYnkdeWJEecKoANs,8164
+envoy.base.utils-0.0.5.dist-info/METADATA,sha256=S07teN6VtWlDRPTq-vJeAxmsKRj9oaQ0NvHQYRsj1k4,1542
+envoy.base.utils-0.0.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+envoy.base.utils-0.0.5.dist-info/top_level.txt,sha256=42VlDpOTLTbLBqHGkve70aKsXydFXDYZ1t1ycKQlkoI,12
+envoy.base.utils-0.0.5.dist-info/RECORD,,
