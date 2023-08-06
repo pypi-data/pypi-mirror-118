@@ -1,0 +1,6 @@
+ci_plumber_openshift/__init__.py,sha256=vuBVSePwImUqy6F15Q4XF2C0ulwaGK23axmdjCa7E88,526
+ci_plumber_openshift/default_generators.py,sha256=7zJu7vhgGlq46XB9iN14lx7npJkyJ_Lh9NjHN17hI28,1532
+ci_plumber_openshift/openshift_wrapper.py,sha256=r43qyQjg2KAmsBV7IyfXKLnOuKsx32_wLLO6RA1-504,7778
+ci_plumber_openshift-0.3.0.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+ci_plumber_openshift-0.3.0.dist-info/METADATA,sha256=F9RWh8F0aV1p4yGkHUzUEww8n7fpqfWl90nQVZXY50k,291
+ci_plumber_openshift-0.3.0.dist-info/RECORD,,
