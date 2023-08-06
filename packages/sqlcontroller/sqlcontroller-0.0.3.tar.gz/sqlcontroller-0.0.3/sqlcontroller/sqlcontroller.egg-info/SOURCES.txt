@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+sqlcontroller/sqlcontroller.egg-info/PKG-INFO
+sqlcontroller/sqlcontroller.egg-info/SOURCES.txt
+sqlcontroller/sqlcontroller.egg-info/dependency_links.txt
+sqlcontroller/sqlcontroller.egg-info/top_level.txt
