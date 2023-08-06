@@ -1,0 +1,3 @@
+[console_scripts]
+pyww3 = pyww3.cli:main
+
