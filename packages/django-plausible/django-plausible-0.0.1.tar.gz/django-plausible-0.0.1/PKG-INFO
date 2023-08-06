@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: django-plausible
+Version: 0.0.1
+Summary:  Django module to provide easy Plausible integration, with Wagtail support
+Home-page: https://github.com/RealOrangeOne/django-plausible
+Author: Jake Howard
+License: BSD
+Description: # django-plausible
+        
+        Django module to provide easy Plausible integration, with Wagtail support.
+        
+Keywords: django plausible wagtail analytics
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development
+Classifier: Typing :: Typed
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+django_plausible.egg-info/PKG-INFO
+django_plausible.egg-info/SOURCES.txt
+django_plausible.egg-info/dependency_links.txt
+django_plausible.egg-info/requires.txt
+django_plausible.egg-info/top_level.txt
+plausible/__init__.py
+plausible/py.typed
