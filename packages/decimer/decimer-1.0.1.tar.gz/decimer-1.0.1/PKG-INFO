@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: decimer
+Version: 1.0.1
+Summary: UNKNOWN
+Home-page: https://decimer.ai
+Author: Kohulan Rajan
+Author-email: kohulan.rajan@uni-jena.de
+Maintainer: Kohulan Rajan
+Maintainer-email: kohulan.rajan@uni-jena.de
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Provides-Extra: docs
