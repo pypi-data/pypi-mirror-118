@@ -1,0 +1,8 @@
+logcat_monitor/__init__.py,sha256=JPEa1wzRB5mE-mfKF4qOAqnZlBTOvgN9UbFAOmRFg2M,329
+logcat_monitor/logcat_monitor.py,sha256=6Axw6G5avO4MhZ6lTicPJHT44UTgLgo9giqVaBR9cDA,10281
+logcat_monitor/threadpool.py,sha256=Ogf0QzYycvM_ZNZUrrmfcuTfSgXwqxs56KC0PP0MKnw,3788
+logcat_monitor-0.0.22.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+logcat_monitor-0.0.22.dist-info/METADATA,sha256=KgB64rd-qmlYep4vZYX1UJt9yIINg7ms-1oOcHb67GM,2153
+logcat_monitor-0.0.22.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+logcat_monitor-0.0.22.dist-info/top_level.txt,sha256=BAT6UcrONUMOIt3wjb1J9gvd6kSzyK1DI9c7B31j-E8,15
+logcat_monitor-0.0.22.dist-info/RECORD,,
