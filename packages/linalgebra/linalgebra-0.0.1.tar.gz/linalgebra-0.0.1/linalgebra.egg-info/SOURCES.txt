@@ -1,0 +1,11 @@
+README.md
+setup.py
+linalgebra/__init__.py
+linalgebra/matrix.py
+linalgebra/vector.py
+linalgebra.egg-info/PKG-INFO
+linalgebra.egg-info/SOURCES.txt
+linalgebra.egg-info/dependency_links.txt
+linalgebra.egg-info/top_level.txt
+linalgebra/extras/__init__.py
+linalgebra/extras/angles.py
