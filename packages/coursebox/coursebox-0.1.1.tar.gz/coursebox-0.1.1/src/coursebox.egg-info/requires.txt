@@ -1,0 +1,13 @@
+openpyxl
+tika
+xlwings
+pybtex
+langdetect
+wexpect
+pexpect
+matplotlib
+numpy
+pycode_similar
+jinjafy
+beamer-slider
+tinydb
