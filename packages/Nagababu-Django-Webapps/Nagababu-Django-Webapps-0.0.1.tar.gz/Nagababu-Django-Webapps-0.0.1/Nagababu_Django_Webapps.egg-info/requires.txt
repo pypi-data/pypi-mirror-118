@@ -1,0 +1,10 @@
+Django
+crispy
+django-crispy-forms
+django-widget-tweaks
+Pillow
+pytest
+razorpay
+six
+selenium
+html-testRunner
