@@ -1,0 +1,265 @@
+Metadata-Version: 2.1
+Name: mlassist
+Version: 0.0.3
+Summary: Helping Package for creating Machine Learning models
+Home-page: UNKNOWN
+Author: Debanjan Chowdhury
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: pandas
+Requires-Dist: sklearn
+Requires-Dist: pandas-profiling
+Requires-Dist: statsmodels
+
+The mlassist class consists of two modules:
+
+1. mlhelper.py
+2. linregressor.py
+
+1. mlhelper.py
+
+    This module consists of one class named mlhelp. This class is responsible for performing certain functions which is     helpful in building Machine Learning models. The following are the functions performed by the class.
+
+    1. readFile()
+    2. printReport()
+    3. describe()
+    4. column_drop()
+    5. imputationNa()
+    6. scale()
+    7. vifCalc()
+    8. trainTestSplitter()
+    9. xysplit()
+
+
+    1. readFile() :
+
+       :param file_loc:
+       :return data frame:
+
+        It reads the file from file_loc and returns a pandas dataframe.
+
+        Accepted file formats are:
+        1. csv
+        2. xls
+        3. xlsx
+        4. xlsm
+        5. odf
+        6. ods
+        7. odt
+        8. json
+
+    2. printReport():
+
+        :param df:
+        :return ProfileReport(df):
+
+        It reads the dataframe and returns a Pandas Profile Report of the dataframe.
+
+    3. describe():
+
+        :param df:
+        :return df.describe():
+
+        It reads the dataframe and returns df.describe().
+
+    4. column_drop():
+
+        :param df:
+        :param column_name:
+        :return dataframe after droping the column:
+
+        It reads the dataframe and the column names to be dropped, drops those columns and returns the dataframe
+
+
+
+    5. imputationNa():
+
+        :param df:
+        :param imputation_dic:
+        :return dataframe after imputing it.:
+
+        It reads the dataframe, a dictionary "imputation_dic" of the following format:
+
+        imputation_dic = {'mean': ['column1'...'column n'],
+                        'median': ['column1'...'column n'],
+                        'mode': ['column1'...'column n']}
+
+        Acceptable keys for imputation_dic: 'mean', 'median', 'mode'
+
+        It imputes the nan values in the given columns with the respective key values and returns the dataframe after imputing.
+
+    6. scale():
+
+        :param df:
+        :param scale_type:
+        :param column_names (optional if all_columns = False):
+        :param all_columns:
+        :return dataframe after scaling:
+
+        It reads a dataframe df, string scale_type, list column_names, boolean all_columns
+
+        accepted values for scale_type = 'min_max', 'standard'
+        column names consists of list of all the columns on which we need to apply scaling
+        all_columns is a boolean value which is either True or False. If True, then all columns of the dataframe will be scaled.
+
+
+    7.  vifCalc():
+
+        :param df:
+        :return vif_df:
+
+        This function reads the dataframe df and calculates the vif value for every column in the dataframe. After that it creates a         dataframe
+
+        vif_df with two columns 'vif' and 'feature' and returns it.
+
+    8. trainTestSplitter():
+
+        :param x:
+        :param y:
+        :param test_size:
+        :param random_state:
+        :return xtrain, xtest, ytrain, ytest:
+
+        It reads the x value, y value, test_size, random_state
+
+        x : independent varaibles
+        y : dependent variable
+        test_size : percentage of test data
+        random_state : seed value
+
+        And splits the data into train-test based on the test_size and random split then returns the xtrain, xtest, ytrain, ytest
+
+    9. xysplit():
+
+        :param df:
+        :param y:
+        :return x1,y1:
+
+        It reads the dataframe df, the dependent variable y and splits it to independent dataframe x1 and dependent dataframe y1
+
+
+2. linregressor.py
+
+    This module consists of one class named linregressor. This class is responsible for performing certain functions which is         helpful in buildig a linear regression model. The following are the functions performed by the class.
+
+    1. linregTrain()
+    2. prediction()
+    3. test()
+
+
+    1. linregTrain():
+
+        :param xtrain:
+        :param ytrain:
+        :return train, coeff, intercept:
+
+        It takes the xtrain, ytrain, fits it and returns the training object, coeffficient value and the intercept values.
+
+    2. prediction():
+
+        :param x:
+        :return linreg.predict(x):
+
+        It takes the input values for the prediction and returns the predicted result.
+
+    3. test():
+
+         :param xtest:
+        :param ytest:
+        :param score_type:
+        :return score:
+
+        It takes input the xtest, ytest values and score_types list and returns the score list
+
+        Accpeted score_types are : 'r2_score', 'adj_r2_score'
+
+
+Now let us try to implement the functions one by one using an example dataset:
+
+# from the mlhelper module inside the mlassist package import the class mlhelp
+
+from mlassist.mlhelper import mlhelp
+
+# from the linregressor module inside the mlassist package import the class linregressor
+
+from mlassist.linregressor import linregressor
+
+#  create an object of the class mlhelp
+
+ml = mlhelp()
+
+# now use the object to call all the functions
+
+# readFile()
+
+df = ml.readFile(r'C:\Users\Dev\Untitled Folder 1\Admission_Prediction.csv')
+print(df)
+
+# printReport()
+
+print(ml.printReport(df))
+
+# describe()
+
+print(ml.describe(df))
+
+# column_drop()
+
+df = ml.column_drop(df, column_name=['Serial No.'])
+print(df)
+
+# imputationNa()
+
+imputation_dic = {'mean': ['GRE Score','TOEFL Score','University Rating']}
+df = ml.imputationNa(df, imputation_dic)
+print(df)
+
+# scale()
+
+df = ml.scale(df,scale_type='standard',all_columns=True)
+print(df)
+
+# xysplit()
+
+x,y = ml.xysplit(df,'Chance of Admit')
+print(x," ",y)
+
+# vifCalc()
+
+vif = ml.vifCalc(x)
+print(vif)
+
+#trainTestSplitter()
+
+xtrain, xtest, ytrain, ytest = ml.trainTestSplitter(x,y,0.25,45)
+print(xtrain)
+print(xtest)
+print(ytrain)
+print(ytest)
+
+# create an object of the class linregressor
+
+lr = linregressor()
+
+# linregTrain(xtrain, ytrain)
+
+train, coeff, intercept = lr.linregTrain(xtrain,ytrain)
+print(coeff)
+print(intercept)
+
+# test()
+
+score = lr.test(xtest,ytest,score_type=['r2_score','adj_r2_score'])
+print(score)
+
+# prediction()
+
+pred = lr.prediction(xtest)
+print(pred)
+
