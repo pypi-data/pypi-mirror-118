@@ -1,0 +1,7 @@
+CHANGELOG.md,sha256=uw5AJnOJKf70tpJH59Y0KelpUQTMLDNdOPoqE48aSg0,660
+tocase/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tocase/for_pandas.py,sha256=yT_MKfKcSAb5CzFfcCUdZOGKZOtmBmKJERC1AZ3tKtE,10945
+tocase/for_strings.py,sha256=y7uwneTaQaboc-e2dXOnjMFtCKPxZtzNQFbpnhDkTmM,5881
+tocase-1.0.0.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+tocase-1.0.0.dist-info/METADATA,sha256=ghcdOVj2Ful1nYK7nGge5PMO5iaaGS1k5HvThgf7j0Y,5514
+tocase-1.0.0.dist-info/RECORD,,
