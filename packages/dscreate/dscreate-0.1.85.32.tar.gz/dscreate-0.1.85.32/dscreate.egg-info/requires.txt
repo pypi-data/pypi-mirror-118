@@ -1,0 +1,8 @@
+argparse
+pyperclip
+traitlets
+nbgrader
+nbformat
+nbconvert
+GitPython
+shutil
