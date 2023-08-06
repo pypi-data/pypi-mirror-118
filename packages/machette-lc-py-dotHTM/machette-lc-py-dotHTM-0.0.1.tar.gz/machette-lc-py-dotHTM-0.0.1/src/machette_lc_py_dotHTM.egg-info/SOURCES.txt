@@ -1,0 +1,10 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.py
+src/machette-lc-py/__init__.py
+src/machette-lc-py/fileops.py
+src/machette_lc_py_dotHTM.egg-info/PKG-INFO
+src/machette_lc_py_dotHTM.egg-info/SOURCES.txt
+src/machette_lc_py_dotHTM.egg-info/dependency_links.txt
+src/machette_lc_py_dotHTM.egg-info/top_level.txt
