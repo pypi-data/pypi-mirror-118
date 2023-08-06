@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: calculate_vif_rsquare
+Version: 1.0.2
+Summary: This function will use to calculate VIF and adjusted rsquare within featue columns or indipendent variables.
+Home-page: UNKNOWN
+Author: Neeraj Bafila
+Author-email: neerajbafila@gmail.com
+License: MIT
+Description: # calculate_vif_rsquare
+        This function will use to calculate VIF and adjusted
+            rsquare within featue columns or indipendent variables. it will
+            return dataFrame containing VIF value and adjusted rsquare.
+        
+        ## Installation
+        ```pip install calculate_vif_rsquare```
+        
+        ## How to use it?
+        from calculate_vif_rsquare import calculate_vif_rsquare
+        
+        vif_rsquare = calculate_vif_rsquare(df)
+        
+        print(vif_rsquare)
+        
+        ## License
+        
+        Â© 2021  Neeraj Bafila
+        
+        This repository is licensed under the MIT license. See LICENSE for details.
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
