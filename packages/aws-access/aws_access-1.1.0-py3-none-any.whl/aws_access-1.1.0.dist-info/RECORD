@@ -1,0 +1,12 @@
+aws_access_util/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aws_access_util/get_aws_access.py,sha256=3JHhwIHuGOs3zRW3ibC_jz1QCDEVsLuYstl3LIR1wAs,20159
+aws_access_util/common/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aws_access_util/common/aws_utilities.py,sha256=RUvnfZSqinUuSazRk7Nxe86LPYbRb4B4Yur3RA7L_60,5473
+aws_access_util/common/duo_utilities.py,sha256=BnmYo19MkFNYWARwrVmNyUlMnfYP67lIWiKCCYXZFAw,3151
+aws_access_util/constants/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aws_access_util/constants/constants.py,sha256=nJsZoi0TJYSrdeZ9MpDGKs6b86vU5EDqYSRb2WaE89w,735
+aws_access_util/template/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aws_access-1.1.0.dist-info/METADATA,sha256=UjWFiR5ApWHBP_mXwGM6dhRQwBAqV6Omu6bGn-LWfOo,2446
+aws_access-1.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+aws_access-1.1.0.dist-info/top_level.txt,sha256=LNWnoEQ5Di_6IiLHspG3NJyZM2RMNEq-9Dnkw_XWVwE,16
+aws_access-1.1.0.dist-info/RECORD,,
