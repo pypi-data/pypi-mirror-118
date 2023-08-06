@@ -1,0 +1,8 @@
+mkl
+intel-numpy
+intel-scipy
+gdal
+fiona
+shapely
+cartopy
+matplotlib
