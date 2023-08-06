@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: qua
+Version: 0.1.0
+Summary: SDK to interact with a quantum computer at the pulse level
+Home-page: https://github.com/qua-platform/qua-sdk-py
+License: BSD-3-Clause
+Author: Tal Shani
+Author-email: tal@quantum-machines.co
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: betterproto (>=1.2.5,<2.0.0)
+Requires-Dist: grpclib (>=0.4.2,<0.5.0)
+Project-URL: Repository, https://github.com/qua-platform/qua-sdk-py
+Description-Content-Type: text/markdown
+
+# QUA SDK
+
+Python SDK for QUA 
+
+Pulse level language for controlling a Quantum Computer
+
