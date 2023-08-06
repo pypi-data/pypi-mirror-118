@@ -1,0 +1,36 @@
+[build-system]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "beni"
+author = "Saul Shanabrook and Philipp A."
+author-email = "s.shanabrook@gmail.com"
+home-page = "https://github.com/quansight-labs/beni"
+classifiers = ["License :: OSI Approved :: MIT License"]
+description-file = "README.md"
+requires = [
+    "pyyaml",
+    "typeguard",
+    "packaging",
+    "tqdm",
+    "flit-core >=2,<4",
+    "platformdirs",
+]
+requires-python = ">=3.8"
+
+[tool.flit.metadata.requires-extra]
+dev = [
+    "pre-commit",
+    "ipython",
+]
+test = [
+    "pytest",
+]
+
+[tool.flit.scripts]
+beni = "beni:main"
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
