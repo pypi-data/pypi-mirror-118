@@ -1,0 +1,12 @@
+WeightConverter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+WeightConverter/grams2kilograms.py,sha256=LCY63NQzyRrwhPlgxIGDsz7Qx3JLqpERYIJGBddzFnQ,76
+WeightConverter/grams2pounds.py,sha256=AaZYQpE8N27DyBQJiIj4U8NHToqHBq3bvJhI8tLBpro,101
+WeightConverter/kilograms2grams.py,sha256=BxEq2QLp4f9NRcQ_doRKWiRseibQUA0t4CKZOvJby7I,76
+WeightConverter/kilograms2pounds.py,sha256=cDkvlunJkaANjAaTsL3Z1YGFwb0s1v1WbaIfhp_L7KQ,75
+WeightConverter/pounds2grams.py,sha256=aphcZYLPr7jc9iSydjkqdDgSUcJSiKZGbXwn0wvsJV0,73
+WeightConverter/pounds2kilograms.py,sha256=_eWrzymIrEyWsRrn69xBCOK05Nvlv8pZzBeiWsHsaIA,73
+WeightConverter-9.1.dist-info/LICENSE,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+WeightConverter-9.1.dist-info/METADATA,sha256=c5mz3Q_9q2XW3rKPOAu50NgWTmbTJEPJ7cB1g4aoFGk,787
+WeightConverter-9.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+WeightConverter-9.1.dist-info/top_level.txt,sha256=c1nVa-cW7nsviBUTuqW2RO04x66kSUDEaX3SpFrPWNs,16
+WeightConverter-9.1.dist-info/RECORD,,
