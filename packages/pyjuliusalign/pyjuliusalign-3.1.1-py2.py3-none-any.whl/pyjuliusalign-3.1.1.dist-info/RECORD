@@ -1,0 +1,17 @@
+pyjuliusalign/__init__.py,sha256=o27WGgZ4MX6oNH78ibzuX7a4HY9J9up1EpcDxYusck4,48
+pyjuliusalign/alignFromTextgrid.py,sha256=fYXNqCgrlZ1yvAmGTqZQgmfc2NUBJqBPjUkiUkIXwgo,17031
+pyjuliusalign/audioScripts.py,sha256=GNMqRGSCICXj6OaOvkS_8gp0pCWMvSEGncJHZ8JotwM,3906
+pyjuliusalign/convertKana.py,sha256=Qd7mbiJ3hbT2krv6OTQ0cQWEMyVJ6cGe6QaAIlVENYs,2571
+pyjuliusalign/hiraganaChart.txt,sha256=8HrfztlthmwLstg3wb_no77jzWRFBiDTwWZvQdGIqo0,685
+pyjuliusalign/jProcessingSnippet.py,sha256=w08wQ4pXe-RQZWwBMBEE-kg8ifym9TGB4IOCuA9Wvxo,9897
+pyjuliusalign/juliusAlignment.py,sha256=bjrYHFf4i1omMXBUUUKmLlnkZ_aTcT03hPFytlRTQHE,12520
+pyjuliusalign/julius_to_p2fa.py,sha256=us6MAHEoyf_rosz60OfY0nBDCxohjWPQFAYPirn9tts,134
+pyjuliusalign/katakanaChart.txt,sha256=EZk5QJxuAl57RYZmShMSHcsWhRIHRCH6vtbACzguvtQ,686
+pyjuliusalign/unidic.py,sha256=RyZiN2LbAtTuw9JS-0FifwCn-H2n0LR5f5cWYHWMfwc,1095
+pyjuliusalign/utils.py,sha256=G430PtYebQhZ2KN9Zhd74-IW1uXGm4QMTy32OZ_p5GM,2470
+pyjuliusalign/yomi2voca.py,sha256=Q2Rh0RKRQzlJZiew5-KyZ8ENTk4O7UP2hL3uOMCwf3Q,6685
+pyjuliusalign-3.1.1.dist-info/LICENSE,sha256=uvZ_fkzP6FOrIegjkajDnEq5Iu5lHZTN3P9-t7V__U4,1465
+pyjuliusalign-3.1.1.dist-info/METADATA,sha256=Q8qLVOSc8iHrdfrcmUWmbKJkIHPhNPQTv_JDIz-uEaM,8915
+pyjuliusalign-3.1.1.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+pyjuliusalign-3.1.1.dist-info/top_level.txt,sha256=L1PJVHsR5HZ39THLuP0aFT7i6IqwiqWFhPPRcgR8lpw,14
+pyjuliusalign-3.1.1.dist-info/RECORD,,
