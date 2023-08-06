@@ -1,0 +1,17 @@
+matplotlib
+numpy
+opencv-python
+pandas
+requests
+scikit-image
+
+[dev]
+bandit
+black
+flake8
+isort
+pydocstyle
+pytest
+pytest-cov
+pytest-mock
+tox
