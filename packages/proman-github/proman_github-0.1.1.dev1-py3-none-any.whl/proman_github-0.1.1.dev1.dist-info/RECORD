@@ -1,0 +1,12 @@
+proman_github/__init__.py,sha256=jkJGiGTcUlOECI774bKFECdw7L7eDrROXrCCzJKh2RY,2236
+proman_github/__main__.py,sha256=D09plWU7DW0S7YUXyeceQ755rt0hqyR7Ewf7UUMfIl8,385
+proman_github/archive.py,sha256=xSNNGwwGrTG-iwRQDLtvtnycIQgOBiN7MS9Mg4TMXQU,1303
+proman_github/cli.py,sha256=T8osvMIuBISU4AzqGbx8gN3yCZJJ1ySaJEc_hbcQ3Gs,2351
+proman_github/config.py,sha256=zzRlRxSadU7h_rrtT5REla5PMmTbZbpAQNxmAXlAmoY,1014
+proman_github/dependency.py,sha256=gQ5owpngrSaOsaSt9sjoIVEmtCTvIAGStsYkeL3odQw,1883
+proman_github/package_manager.py,sha256=IezgWknJn2NN4_5gdjpGmbAt5rK1Y-tlx3lnCe5RC1Y,9467
+proman_github-0.1.1.dev1.dist-info/entry_points.txt,sha256=_yMSYjmOrN8bsVfbAhHaLErAXiK1lj2BQnCAr5IsHOY,85
+proman_github-0.1.1.dev1.dist-info/LICENSE,sha256=OT6vK5Kz1JvqE545tv0gW26ZxJmZmYauxVVFhqgw390,16726
+proman_github-0.1.1.dev1.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+proman_github-0.1.1.dev1.dist-info/METADATA,sha256=QoDKXbSUsDRyR9Lg8tPQ8o3bd6KPO1rjaVJAvwVLOlU,573
+proman_github-0.1.1.dev1.dist-info/RECORD,,
