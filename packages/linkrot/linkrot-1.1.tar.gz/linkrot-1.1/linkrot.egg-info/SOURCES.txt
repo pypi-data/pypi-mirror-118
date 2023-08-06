@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+linkrot.egg-info/PKG-INFO
+linkrot.egg-info/SOURCES.txt
+linkrot.egg-info/dependency_links.txt
+linkrot.egg-info/entry_points.txt
+linkrot.egg-info/requires.txt
+linkrot.egg-info/top_level.txt
