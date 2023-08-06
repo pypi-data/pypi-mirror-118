@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+animecli/__init__.py
+animecli/retrieve.py
+animecli.egg-info/PKG-INFO
+animecli.egg-info/SOURCES.txt
+animecli.egg-info/dependency_links.txt
+animecli.egg-info/entry_points.txt
+animecli.egg-info/not-zip-safe
+animecli.egg-info/requires.txt
+animecli.egg-info/top_level.txt
