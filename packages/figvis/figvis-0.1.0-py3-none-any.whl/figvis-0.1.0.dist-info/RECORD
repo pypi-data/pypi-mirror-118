@@ -1,0 +1,17 @@
+figvis/__init__.py,sha256=gjAsXtlVVejmheEjuyaAEi5UzYJiYoYzDZ5UNNRwEvM,365
+figvis/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+figvis/cli/main.py,sha256=YBtBnZ2IM0MLtrewyJFXmXcQZovcbCUAMSlCsH-LuQM,1449
+figvis/data/__init__.py,sha256=e738je6k6GVSP-pkl4f5a7CHv7_8LotkzUT2W858GVI,430
+figvis/figment/__init__.py,sha256=5IDkxri6hnCrU9DuvUQWrTbkie30Es9g5dd2Bt62jrc,56
+figvis/figment/_constants.py,sha256=JcYCgaWevXBOQAuBuYTcnsE_WBw1GPRpVkR5Ql3K5Zs,43
+figvis/figment/_helpers.py,sha256=5pegjDvC9zKn_lDVODte8v8ep0zzJI3A53cYNX87KR8,516
+figvis/figment/basic.py,sha256=RIM932iMTf0rAOCIdJPl64DgJRbQBHiibP77RJlxAbw,1779
+figvis/figment/raster.py,sha256=bxbXjBYkGVvDtB9byY2H3Y7DBqxq-7dFdIbHh35aeaE,1211
+figvis/renderer.py,sha256=-6A1VMiWPOMSpUt4IXoLWGUoj5xEYsvzYcOg60qxfOE,946
+figvis/svg_to_pdf.py,sha256=aLBNeRQ1-QVS6iLY-CtZIfbTrpoRTXfnfG9cswg2vBc,1953
+figvis/templates/base/svg.jinja2,sha256=yt5GqNw5WSrf7vwoLm0LpP3Sk-r5IeXvX_NRmGgY76w,2773
+figvis/transform/__init__.py,sha256=wtsu3rnU79W6na95o7zVSYmDHXpq96eSsr6Yh8a3N_8,313
+figvis-0.1.0.dist-info/entry_points.txt,sha256=8-kFxgkfWYPAf7pFTRJlzbHsAQrFGg4dz-bqvFEMZ7s,46
+figvis-0.1.0.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+figvis-0.1.0.dist-info/METADATA,sha256=VU2AD7KOfusNZ-czR1InhNXdxwR-pux40JNXI8X27FA,946
+figvis-0.1.0.dist-info/RECORD,,
