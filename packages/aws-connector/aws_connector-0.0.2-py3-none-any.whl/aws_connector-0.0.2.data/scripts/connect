@@ -1,0 +1,6 @@
+#!python
+
+from src.aws_connector import Run
+
+connect = Menu()
+connect.now()
