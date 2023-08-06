@@ -1,0 +1,4 @@
+argparse
+requests
+terra_sdk
+toml
