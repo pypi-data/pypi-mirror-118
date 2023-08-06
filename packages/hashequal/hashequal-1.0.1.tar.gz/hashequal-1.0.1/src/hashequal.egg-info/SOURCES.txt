@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/hashequal/__init__.py
+src/hashequal.egg-info/PKG-INFO
+src/hashequal.egg-info/SOURCES.txt
+src/hashequal.egg-info/dependency_links.txt
+src/hashequal.egg-info/top_level.txt
