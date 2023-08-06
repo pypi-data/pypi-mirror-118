@@ -1,0 +1,25 @@
+Metadata-Version: 1.1
+Name: com-petrabytes-unit-system
+Version: 0.0.1
+Summary: Can convert scientific units.
+Home-page: UNKNOWN
+Author: Lalan Ranjan
+Author-email: lranjan@petrabytes.com
+License: Petrabytes Corp.
+Description: This python libraries calculate the Rock Property logs.
+        
+        
+        Change Log
+        ==========
+        
+        0.0.1 (30/08/2021)
+        -------------------
+        - First Release
+        
+Keywords: Unit_Converter
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
