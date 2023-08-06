@@ -1,0 +1,9 @@
+README.md
+setup.py
+donationalerts/__init__.py
+donationalerts/authorization.py
+donationalerts.egg-info/PKG-INFO
+donationalerts.egg-info/SOURCES.txt
+donationalerts.egg-info/dependency_links.txt
+donationalerts.egg-info/requires.txt
+donationalerts.egg-info/top_level.txt
