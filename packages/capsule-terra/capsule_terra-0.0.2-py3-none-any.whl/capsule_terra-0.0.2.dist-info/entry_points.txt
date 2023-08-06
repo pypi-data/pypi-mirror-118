@@ -1,0 +1,4 @@
+[console_scripts]
+capsule = capsule.cli:main
+terra_deploy = capsule.cli:main
+
