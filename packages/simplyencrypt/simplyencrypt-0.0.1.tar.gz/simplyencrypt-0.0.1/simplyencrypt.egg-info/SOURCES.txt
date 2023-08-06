@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README
+setup.py
+simplyencrypt/EASY__doc__.txt
+simplyencrypt/__init__.py
+simplyencrypt/__main__.py
+simplyencrypt/a.py
+simplyencrypt.egg-info/PKG-INFO
+simplyencrypt.egg-info/SOURCES.txt
+simplyencrypt.egg-info/dependency_links.txt
+simplyencrypt.egg-info/requires.txt
+simplyencrypt.egg-info/top_level.txt
