@@ -1,0 +1,100 @@
+# Zotac tools
+
+This package simplifies remote manipulation of rosbags on zotac.
+It lets you copy rosbags to your PC and delete old robags.
+It also provides a view of all rosbags grouped by date.
+
+## Installation
+
+Simply run
+```bash
+$ python3 -m pip install zotac
+```
+
+(Requires python >= 3.6)
+
+## Usage
+
+### Configure remotes, rosbag dir and optionally disk name (for `zotac status`)
+
+```bash
+$ zotac config \
+    remotes REMOTE1,REMOTE2,REMOTE3,.. \
+    logdir PATH_TO_ROSBAGS \
+    disk DISK_NAME
+```
+
+It is possible to configure multiple remotes by passing a comma-separated list.
+When issuing commands to zotac, the tool will first select an available remote from the specified list.
+
+### Commands
+
+Print the help
+```bash
+$ zotac COMMAND --help
+```
+
+e.g.
+
+```bash
+$ zotac copy --help
+```
+
+Get more detailed output (suitable for debugging):
+```bash
+$ zotac COMMAND -v/--verbose
+```
+
+e.g.
+
+```bash
+$ zotac list -v
+```
+
+View the rosbag directory
+```bash
+$ zotac list
+```
+
+![](screenshots/list.png)
+
+Copy selected rosbag including logs
+```bash
+$ zotac copy               # By default copies second-to-last bag
+$ zotac copy ROSBAG_INDEX
+$ zotac copy ROSBAG_INDEX TARGET_DIR
+```
+
+Copy only logs
+```bash
+$ zotac copy ROSBAG_INDEX -l/--logs-only
+```
+
+![](screenshots/copy.png)
+
+Delete logs
+```bash
+$ zotac delete -a/--all # Delete all
+$ zotac delete -u/--until ROSBAG_INDEX # Delete all bags before
+$ zotac delete -k/--keep ROSBAG_INDEX # Keep all bags after
+```
+
+![](screenshots/delete.png)
+
+View disk usage
+```bash
+$ zotac status
+```
+
+![](screenshots/status.png)
+
+Configure
+
+```bash
+$ zotac config \
+    remotes REMOTE1,REMOTE2,REMOTE3,.. \
+    logdir PATH_TO_ROSBAGS \
+    disk DISK_NAME
+```
+
+![](screenshots/config.png)

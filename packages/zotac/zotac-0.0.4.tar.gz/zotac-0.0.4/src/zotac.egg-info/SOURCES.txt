@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/zotac/__init__.py
+src/zotac/config.json
+src/zotac/config.py
+src/zotac/lib.py
+src/zotac/zotac.py
+src/zotac.egg-info/PKG-INFO
+src/zotac.egg-info/SOURCES.txt
+src/zotac.egg-info/dependency_links.txt
+src/zotac.egg-info/entry_points.txt
+src/zotac.egg-info/requires.txt
+src/zotac.egg-info/top_level.txt
